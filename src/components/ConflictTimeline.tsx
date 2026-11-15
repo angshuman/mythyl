@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState, type MouseEvent, type SetStateAction } from "react";
+import { useMemo, useRef, useState, type MouseEvent, type SetStateAction } from "react";
 import {
   conflictById,
   densityByYear,
@@ -117,11 +117,9 @@ export function ConflictTimeline({
       : selected?.type === "conflict"
         ? selected.conflict.name
         : null;
-
-  useEffect(() => {
-    if (!openFamily || !openTitle) return;
-    setHeld((current) => ({ ...current, [openFamily]: { title: openTitle, papers: openPapers } }));
-  }, [openFamily, openTitle, openPapers]);
+  if (openFamily && openTitle && held[openFamily]?.title !== openTitle) {
+    setHeld({ ...held, [openFamily]: { title: openTitle, papers: openPapers } });
+  }
 
   const cursorYear = cursor ? Math.round(cursor.year) : null;
   const nearDays = useMemo(() => {

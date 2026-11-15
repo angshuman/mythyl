@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState, type MouseEvent } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, type MouseEvent, type SetStateAction } from "react";
 import {
   AttributionControl,
   Map as MapLibreMap,
@@ -105,7 +105,24 @@ export function ConflictMap() {
   const [enabledFamilies, setEnabledFamilies] = useState<Record<ConflictFamily, boolean>>(ALL_FAMILIES_ON);
   const [selected, setSelected] = useState<MapFocus | null>(null);
   const [hovered, setHovered] = useState<MapFocus | null>(null);
+  const [hoverDock, setHoverDock] = useState<"left" | "right">("right");
   const [mapError, setMapError] = useState<string | null>(null);
+
+  const hoverAt = useCallback((focus: SetStateAction<MapFocus | null>) => {
+    if (typeof focus === "function") {
+      setHovered(focus);
+      return;
+    }
+    if (focus) {
+      const point = focus.type === "conflict" ? focus.conflict.primaryPoint : focus.incident.place;
+      const map = mapRef.current;
+      if (map) {
+        const x = map.project([point.longitude, point.latitude]).x;
+        setHoverDock(x > map.getContainer().clientWidth * 0.52 ? "left" : "right");
+      }
+    }
+    setHovered(focus);
+  }, []);
 
   const familySolo = useMemo(() => {
     const on = FAMILIES.filter((family) => enabledFamilies[family.id]);
@@ -176,7 +193,7 @@ export function ConflictMap() {
       },
       style: {
         version: 8,
-        glyphs: "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf",
+        glyphs: "https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf",
         sources: {
           india: {
             type: "geojson",
@@ -231,7 +248,7 @@ export function ConflictMap() {
             minzoom: 5.1,
             layout: {
               "text-field": ["get", "NAME_1"],
-              "text-font": ["Open Sans Regular"],
+              "text-font": ["Noto Sans Regular"],
               "text-size": ["interpolate", ["linear"], ["zoom"], 5.1, 10, 7, 13],
               "text-padding": 4,
               "text-letter-spacing": 0.04,
@@ -314,9 +331,9 @@ export function ConflictMap() {
       }
       el.setAttribute("aria-label", conflict.name);
 
-      el.addEventListener("mouseenter", () => setHovered({ type: "conflict", conflict }));
+      el.addEventListener("mouseenter", () => hoverAt({ type: "conflict", conflict }));
       el.addEventListener("mouseleave", () =>
-        setHovered((current) =>
+        hoverAt((current) =>
           current?.type === "conflict" && current.conflict.id === conflict.id ? null : current,
         ),
       );
@@ -335,7 +352,7 @@ export function ConflictMap() {
         .addTo(map);
       markersRef.current.push(marker);
     }
-  }, [visible]);
+  }, [visible, hoverAt]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -367,9 +384,9 @@ export function ConflictMap() {
         "transform:rotate(45deg)",
       ].join(";");
       el.setAttribute("aria-label", incident.name);
-      el.addEventListener("mouseenter", () => setHovered({ type: "incident", incident }));
+      el.addEventListener("mouseenter", () => hoverAt({ type: "incident", incident }));
       el.addEventListener("mouseleave", () =>
-        setHovered((current) =>
+        hoverAt((current) =>
           current?.type === "incident" && current.incident.id === incident.id ? null : current,
         ),
       );
@@ -395,7 +412,7 @@ export function ConflictMap() {
         .addTo(map);
       incidentMarkersRef.current.push(marker);
     }
-  }, [visibleIncidents]);
+  }, [visibleIncidents, hoverAt]);
 
   function flyNortheast() {
     setLens("northeast");
@@ -535,6 +552,7 @@ export function ConflictMap() {
   }
 
   const panel = hovered ?? selected;
+  const panelDock = selected ? "right" : hoverDock;
 
   function flyToFocus(focus: MapFocus) {
     const map = mapRef.current;
@@ -699,6 +717,7 @@ export function ConflictMap() {
         <MapCard
           focus={panel}
           locked={Boolean(selected)}
+          dock={panelDock}
           onClose={() => setSelected(null)}
           onOpenIncident={openIncident}
         />
@@ -711,7 +730,7 @@ export function ConflictMap() {
       enabledFamilies={enabledFamilies}
       selected={selected}
       hovered={hovered}
-      onHover={setHovered}
+      onHover={hoverAt}
       onSelect={selectFromYears}
       onClose={() => setSelected(null)}
       familySolo={familySolo}

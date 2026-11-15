@@ -1,0 +1,90 @@
+[
+  {
+    "id": "northeast",
+    "kicker": "The Northeast",
+    "title": "The Northeast is not one conflict.",
+    "color": "#6a9b88",
+    "match": { "northeast": true },
+    "paragraphs": [
+      "Eight states, many peoples, a border that is also a forest. When the Republic arrived in 1947 the Naga hills were already in an argument about belonging. Mizoram went to war after a famine and came back through an accord that held. Assam spent six years asking who counted as a citizen — and Nellie, in a morning, made that question lethal. Tripura’s indigenous majority became a minority. In Manipur in 2023 the valley and the hills split in practice.",
+      "These fights are about land, census lists, who may enter a hill district, and who is a citizen. Religion is in some of them and beside the point in others. Neighbouring Myanmar and Bangladesh are part of the military geography; so is migration across the same ridges. Isolate the region on the map, then move through the years."
+    ]
+  },
+  {
+    "id": "integration",
+    "kicker": "Integration",
+    "title": "The map was not finished in August.",
+    "color": "#9a937e",
+    "match": { "family": "integration" },
+    "paragraphs": [
+      "Junagadh’s nawab acceded to Pakistan; India blockaded a Hindu-majority enclave in Kathiawar and the nawab fled. Hyderabad’s nizam held out until a five-day operation in September 1948; what followed in the countryside is still argued over. France handed Pondicherry across a table. Sikkim’s palace guard was disarmed on an April morning in 1975, and a referendum made a protectorate the twenty-second state.",
+      "These are not wars with another country. They are the Republic assembling itself — accession, force, vote, treaty — while the people inside the old princely lines lived that assembly as something else. Isolate Integration and the years 1947–48 read as a scramble, not a ceremony."
+    ]
+  },
+  {
+    "id": "interstate",
+    "kicker": "Interstate wars",
+    "title": "Wars with another flag.",
+    "color": "#d7c4a0",
+    "match": { "family": "interstate" },
+    "paragraphs": [
+      "The first war was over a princely accession, and it left a line that is still a ceasefire. A month on the Himalaya with China in 1962 did the same: a border that both sides still draw differently. Between them, a morning in Goa ended four centuries of Portuguese rule. Kargil, in 1999, was a ridgeline war between two nuclear states that both refused to call a war while it lasted.",
+      "There are only a handful of these. They look like wars in the textbooks — two states, a ceasefire, a map that does not quite hold — and they sit underneath later insurgencies and later attacks. Isolate Interstate wars; the score is short, and the shadows are not."
+    ]
+  },
+  {
+    "id": "naxal",
+    "kicker": "Naxal–Maoist",
+    "title": "A corridor, not a border.",
+    "color": "#e85d4c",
+    "match": { "family": "naxal" },
+    "paragraphs": [
+      "Naxalbari was a village in 1967. From there a rural insurgency walked into forests and mine belts — Andhra, Dandakaranya, Jharkhand, Bihar — and, after the 2004 merger, spoke with one party name. It is the longest internal war that is not about a homeland with a name on a flag. Land, caste, the state in the village, a revolution that still uses the word.",
+      "The map of it is a strip through the centre of the country, not a frontier. Days are ambushes, raids, encounters; the names attach to junctions and forests, not capitals. Isolate Naxal–Maoist and the years become a pulse that never quite goes out."
+    ]
+  },
+  {
+    "id": "punjab",
+    "kicker": "Punjab",
+    "title": "A decade with a long after.",
+    "color": "#c9a227",
+    "match": { "family": "punjab" },
+    "paragraphs": [
+      "A Sikh militant campaign for a state called Khalistan; an army assault on the Golden Temple in June 1984; a prime minister shot in her garden that October; three days in Delhi whose name is still fought over. By the mid-1990s the armed campaign in Punjab had been broken. The memory had not.",
+      "The years are few and the days are dense. Blue Star, the capital in early November, the long counterinsurgency that followed. Isolate Punjab and the score is almost a single bar with a cluster of squares."
+    ]
+  },
+  {
+    "id": "kashmir",
+    "kicker": "Kashmir",
+    "title": "A valley after 1989.",
+    "color": "#6b8cce",
+    "match": { "family": "kashmir" },
+    "paragraphs": [
+      "The first war over Jammu and Kashmir was between two new states. The insurgency that opened in 1989 is a different shape: militants in the Valley, a heavy army, the leaving of Kashmiri Pandits, and a claim — always contested, often documented — of sanctuary across the Line of Control. It has not ended. It has changed clothes.",
+      "This is not the same file as Kargil, or as Pulwama. Those sit in other kinds. Isolate Kashmir and you get the long bar, and the days inside it."
+    ]
+  },
+  {
+    "id": "communal",
+    "kicker": "Communal",
+    "title": "A sequence, not a riot.",
+    "color": "#c47a3a",
+    "match": { "family": "communal" },
+    "paragraphs": [
+      "Ranchi, Moradabad, Meerut, Bhagalpur; then Ayodhya and the country after it — Bombay, Bhopal, Hyderabad; then Godhra and Gujarat; then Kandhamal, Muzaffarnagar. Some of these are two days. Some are a season. A procession, a rumour, a police line, a neighbourhood burned. Cauvery is the one that is about language and a river. Marichjhapi is a refugee island the state cleared. A landlord militia in Bihar is in this file too.",
+      "Religion is the name most of the files use. The fights are also about who may live on a street, who walks first in a procession, and what the police do when the crowd turns. Isolate Communal: after 1989 the years get loud."
+    ]
+  },
+  {
+    "id": "external",
+    "kicker": "External terror",
+    "title": "A city, a rush hour, a claim after.",
+    "color": "#c07a9a",
+    "match": { "family": "external" },
+    "paragraphs": [
+      "A suicide bomber at Sriperumbudur. Thirteen bombs across Bombay, then trains, markets, a bakery, a temple, Parliament, hotels by the sea. A convoy at Pulwama. Some of these conspiracies were staged from across a border and named Lashkar or Jaish or the LTTE. Some were homegrown modules that used the same method. Maoist and Northeast campaigns are not this. They are internal wars, even when they use a bomb.",
+      "External here means a strike on Indian soil that is not a riot, not a secession, not a village insurgency. Isolate External terror; the days cluster in cities."
+    ]
+  }
+]

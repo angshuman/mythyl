@@ -21,18 +21,20 @@ export type MapFocus =
 type Props = {
   focus: MapFocus;
   locked: boolean;
+  dock?: "left" | "right";
   onClose: () => void;
   onOpenIncident: (incident: Incident) => void;
 };
 
-export function MapCard({ focus, locked, onClose, onOpenIncident }: Props) {
+export function MapCard({ focus, locked, dock = "right", onClose, onOpenIncident }: Props) {
   if (focus.type === "incident") {
-    return <IncidentBody incident={focus.incident} locked={locked} onClose={onClose} />;
+    return <IncidentBody incident={focus.incident} locked={locked} dock={dock} onClose={onClose} />;
   }
   return (
     <ConflictBody
       conflict={focus.conflict}
       locked={locked}
+      dock={dock}
       onClose={onClose}
       onOpenIncident={onOpenIncident}
     />
@@ -193,11 +195,13 @@ export function NewsList({
 function ConflictBody({
   conflict,
   locked,
+  dock,
   onClose,
   onOpenIncident,
 }: {
   conflict: Conflict;
   locked: boolean;
+  dock: "left" | "right";
   onClose: () => void;
   onOpenIncident: (incident: Incident) => void;
 }) {
@@ -206,7 +210,12 @@ function ConflictBody({
   const killed = conflict.harm?.killed;
 
   return (
-    <aside className="map-card" aria-live="polite">
+    <aside
+      className="map-card"
+      aria-live="polite"
+      data-locked={locked ? "true" : "false"}
+      data-dock={dock}
+    >
       <p className="card-meta">
         <span data-scale={conflict.scale}>{conflict.scale}</span>
         <span style={{ borderColor: familyOf(conflict).color, color: familyOf(conflict).color }}>
@@ -306,17 +315,24 @@ function ConflictBody({
 function IncidentBody({
   incident,
   locked,
+  dock,
   onClose,
 }: {
   incident: Incident;
   locked: boolean;
+  dock: "left" | "right";
   onClose: () => void;
 }) {
   const campaign = conflictById(incident.conflictId);
   const papers = incident.reports;
 
   return (
-    <aside className="map-card map-card-day" aria-live="polite">
+    <aside
+      className="map-card map-card-day"
+      aria-live="polite"
+      data-locked={locked ? "true" : "false"}
+      data-dock={dock}
+    >
       <p className="card-meta">
         <span>{incident.kind.replace("-", " ")}</span>
         {campaign ? <span>{campaign.name}</span> : null}

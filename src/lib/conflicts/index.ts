@@ -51,6 +51,7 @@ export * from "./incidents";
 export * from "./format";
 export * from "./eras";
 export * from "./timeline";
+export * from "./essays";
 
 export const SCALE_COLOR: Record<Scale, string> = {
   small: "#7eb8a0",

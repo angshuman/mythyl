@@ -366,6 +366,15 @@ a {
   pointer-events: auto;
 }
 
+.map-card[data-locked="false"] {
+  pointer-events: none;
+}
+
+.map-card[data-dock="left"] {
+  right: auto;
+  left: 1.4rem;
+}
+
 .map-hud-top {
   max-width: 42rem;
 }
@@ -752,7 +761,17 @@ a {
 .section {
   max-width: 72rem;
   margin: 0 auto;
-  padding: 5.5rem 6vw 2rem;
+  padding: 4.4rem 6vw 1.6rem;
+  scroll-margin-top: 4.2rem;
+}
+
+#essays {
+  scroll-margin-top: 3.6rem;
+}
+
+.section + .section {
+  padding-top: 3.4rem;
+  border-top: 1px solid var(--rule);
 }
 
 .section h2 {
@@ -781,17 +800,20 @@ a {
   margin-top: 0.9rem;
 }
 
+.essay-grid,
 .ne-grid {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
   gap: 3rem;
 }
 
+.essay-list,
 .ne-list {
   border-top: 1px solid var(--rule);
   padding-top: 0.4rem;
 }
 
+.essay-list li,
 .ne-list li {
   display: flex;
   justify-content: space-between;
@@ -801,9 +823,15 @@ a {
   font-size: 0.92rem;
 }
 
+.essay-list b,
 .ne-list b {
   color: var(--paper);
   font-weight: 500;
+}
+
+.essay-list span {
+  color: var(--paper-dim);
+  white-space: nowrap;
 }
 
 .model-grid {
@@ -1212,11 +1240,13 @@ a {
 }
 
 @media (max-width: 800px) {
+  .essay-grid,
   .ne-grid {
     grid-template-columns: 1fr;
   }
 
-  .map-card {
+  .map-card,
+  .map-card[data-dock="left"] {
     top: auto;
     bottom: 5.6rem;
     right: 1rem;

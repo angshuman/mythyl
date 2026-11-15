@@ -12,9 +12,10 @@ export default async function Home() {
         <p className="wordmark">mythyl</p>
         <h1>Maps that hold still long enough to look.</h1>
         <p className="landing-lede">
-          Infographics for things that are usually a speech. The first essay is a
+          Infographics for things that are usually a speech. The first gallery is a
           geography of conflict in India after 1947 — wars, insurgencies, riots —
-          with the Northeast as a proper region, not a footnote.
+          with a short essay for each kind, and the Northeast as a region rather
+          than a footnote.
         </p>
         <Link className="landing-cta" href="/conflicts">
           Conflicts in India <i>→</i>
