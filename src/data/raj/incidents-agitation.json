@@ -53,7 +53,8 @@
         "headline": "379 identified dead",
         "year": 1920,
         "excerpt": "The official list stopped at 379. Indian door-to-door work had already forced it up from a lower first count.",
-        "stance": "state"
+        "stance": "state",
+        "url": "https://archive.org/details/dli.ministry.20494"
       },
       {
         "outlet": "Kim A. Wagner, Amritsar 1919",
@@ -61,6 +62,14 @@
         "year": 2019,
         "excerpt": "379 was as high as the British were willing to go. It does not reflect the total. A working band of five to six hundred dead still leaves the wounded uncounted.",
         "stance": "independent"
+      },
+      {
+        "outlet": "The Hindu",
+        "headline": "Jallianwala Bagh, a hundred years later",
+        "year": 2019,
+        "excerpt": "Hunter accepted 379 identified dead. The Congress inquiry said a thousand was no exaggeration. Wagner later sat between those numbers.",
+        "stance": "independent",
+        "url": "https://www.thehindu.com/society/history-and-culture/jallianwala-bagh-massacre-100-years-later/article56832584.ece"
       }
     ],
     "confidence": "high"
@@ -107,6 +116,22 @@
         "year": 1920,
         "excerpt": "The crawling order is not a death count. It is the other half of April 1919: a city taught to move on its belly.",
         "stance": "independent"
+      },
+      {
+        "outlet": "The Tribune",
+        "headline": "The crawling order that named a gali",
+        "year": 2022,
+        "excerpt": "From 19 April any Indian who entered the lane where Miss Sherwood had been attacked had to crawl its length. Floggings were public.",
+        "stance": "independent",
+        "url": "https://www.tribuneindia.com/news/amritsar/the-crawling-order-that-gave-korian-wali-gali-its-name-387817/"
+      },
+      {
+        "outlet": "UCLA MANAS",
+        "headline": "The crawling lane",
+        "year": 2019,
+        "excerpt": "Dyer’s own language was ‘on all fours’. The Congress inquiry said on the belly, like a reptile. Hunter later called the order indefensible.",
+        "stance": "independent",
+        "url": "https://southasia.ucla.edu/incident-crawling-lane/"
       }
     ],
     "confidence": "high"
@@ -162,6 +187,14 @@
         "year": 1930,
         "excerpt": "The Congress list has names. The official count has a floor. The bazaar has a memory that is larger than both.",
         "stance": "independent"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "Qissa Khwani Bazaar, and a named list of 125",
+        "year": 2020,
+        "excerpt": "Armoured cars entered the bazaar on 23 April 1930. Official dead 20–30; Congress 125; local lists hundreds. The Khudai Khidmatgars had pledged not to hit back.",
+        "stance": "independent",
+        "url": "https://indianexpress.com/article/explained/qissa-khwani-bazaar-massacre-khudai-khidmatgars-movement-abdul-ghaffar-khan-6377275/"
       }
     ],
     "confidence": "medium"
@@ -218,6 +251,22 @@
         "year": 1989,
         "excerpt": "Canada turned them under a rule the empire had written. Bengal met them with a rifle at a siding.",
         "stance": "independent"
+      },
+      {
+        "outlet": "The Hindu",
+        "headline": "What happened to the Komagata Maru passengers",
+        "year": 2024,
+        "excerpt": "Canada turned them under a rule the empire had written. Bengal met them with a rifle at a siding. Official accounts put the dead near twenty.",
+        "stance": "independent",
+        "url": "https://www.thehindu.com/news/international/what-happened-to-komagata-maru-passengers-in-1914/article70924857.ece"
+      },
+      {
+        "outlet": "Frontline",
+        "headline": "From Vancouver harbour to Budge Budge",
+        "year": 2024,
+        "excerpt": "A Japanese steamer, a continuous-journey rule, and a firing on the Hooghly. The Ghadar after is part of the same file.",
+        "stance": "independent",
+        "url": "https://frontline.thehindu.com/newsletter/once-upon-a-time/komagata-maru-tragedy-colonial-racism-to-modern-india/article70207553.ece"
       }
     ],
     "confidence": "high"
@@ -264,6 +313,22 @@
         "year": 1977,
         "excerpt": "Dandi is a theatre. The raids, the pans, the pickets, and the prisons are the geography.",
         "stance": "independent"
+      },
+      {
+        "outlet": "The Hindu",
+        "headline": "The great Dandi march, eighty years after",
+        "year": 2010,
+        "excerpt": "Gandhi picked up salt on the Dandi mudflats at dawn on 6 April. The raids, the pans, the pickets and the prisons are the geography.",
+        "stance": "independent",
+        "url": "https://www.thehindu.com/opinion/op-ed/the-great-dandi-march-eighty-years-after/article62123875.ece"
+      },
+      {
+        "outlet": "Frontline",
+        "headline": "A turning point in salt",
+        "year": 2005,
+        "excerpt": "Nehru said it seemed as though a spring had been suddenly released. Dharasana, south of Dandi, would show the state’s method.",
+        "stance": "independent",
+        "url": "https://frontline.thehindu.com/the-nation/article30204515.ece"
       }
     ],
     "confidence": "high"
@@ -320,6 +385,14 @@
         "year": 1995,
         "excerpt": "Chauri Chaura is a day the nationalist calendar cannot make simple. Amin read the peasants. Gandhi read a warning.",
         "stance": "independent"
+      },
+      {
+        "outlet": "Outlook",
+        "headline": "A thana, a telegram, a halt",
+        "year": 2022,
+        "excerpt": "A crowd burned the police station. Twenty-two policemen died. Gandhi suspended non-cooperation. Shahid Amin later read the peasants.",
+        "stance": "independent",
+        "url": "https://www.outlookindia.com/books/reassessing-history-news-200143"
       }
     ],
     "confidence": "high"
@@ -366,6 +439,14 @@
         "year": 1983,
         "excerpt": "Quit India is a speech that was arrested overnight. The movement that followed was made by people the speech had not named.",
         "stance": "independent"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "Quit India, when ordinary Indians took the street",
+        "year": 2022,
+        "excerpt": "The AICC had spoken at Gowalia Tank the evening before. By morning Gandhi, Nehru, Patel were in custody. Bombay went out without them.",
+        "stance": "independent",
+        "url": "https://indianexpress.com/article/explained/quit-india-movement-british-raj-mahatma-gandhi-do-or-die-8079136/"
       }
     ],
     "confidence": "high"
@@ -418,6 +499,22 @@
         "year": 1942,
         "excerpt": "Tamluk is the reminder that 1942 was not only Bombay and a jail. A subdivision tried to govern.",
         "stance": "independent"
+      },
+      {
+        "outlet": "Scroll.in",
+        "headline": "From Tamluk to a district that tried to govern",
+        "year": 2016,
+        "excerpt": "Midnapore set up a national government at Tamluk. Matangini Hazra was among the dead at a procession. The cyclone, then famine, sat on the same district.",
+        "stance": "independent",
+        "url": "https://scroll.in/article/813438/from-tamluk-to-nandigram-how-the-1942-quit-india-movement-bought-down-the-left-front-in-west-bengal"
+      },
+      {
+        "outlet": "News18",
+        "headline": "India’s first people’s government, East Midnapore",
+        "year": 2022,
+        "excerpt": "The Tamralipta Jatiya Sarkar is the reminder that 1942 was not only Bombay and a jail. A subdivision tried to govern.",
+        "stance": "independent",
+        "url": "https://www.news18.com/news/india/when-indias-first-peoples-government-was-formed-in-west-bengals-east-midnapore-during-british-rule-4700873.html"
       }
     ],
     "confidence": "medium"
@@ -471,6 +568,14 @@
         "year": 1942,
         "excerpt": "Chimur is a small place with a long file.",
         "stance": "independent"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "A village the Central Provinces remembered",
+        "year": 2022,
+        "excerpt": "Chimur rose in mid-August 1942. Officials were killed; troops returned fire. Martial method followed. Quit India had a CP shorthand.",
+        "stance": "independent",
+        "url": "https://indianexpress.com/article/explained/quit-india-movement-british-raj-mahatma-gandhi-do-or-die-8079136/"
       }
     ],
     "confidence": "medium"
@@ -522,6 +627,14 @@
         "year": 1942,
         "excerpt": "Two villages in the same presidency list. The method was the same.",
         "stance": "independent"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "Ashti with Chimur",
+        "year": 2022,
+        "excerpt": "Two villages in the same presidency list. A crowd and a thana met; the Raj answered with troops.",
+        "stance": "independent",
+        "url": "https://indianexpress.com/article/explained/quit-india-movement-british-raj-mahatma-gandhi-do-or-die-8079136/"
       }
     ],
     "confidence": "low"
@@ -574,6 +687,14 @@
         "year": 1999,
         "excerpt": "They took the weapons and could not take the town. The after was a guerrilla in the hill tracts, and a rope.",
         "stance": "independent"
+      },
+      {
+        "outlet": "The Daily Star",
+        "headline": "Surya Sen, the hero of the Chittagong uprising",
+        "year": 2012,
+        "excerpt": "They took the police and Auxiliary Force armouries on 18 April 1930 and could not hold the town. The hills took them afterwards.",
+        "stance": "independent",
+        "url": "https://www.thedailystar.net/news/surya-sen-the-hero-of-chittagong-uprising"
       }
     ],
     "confidence": "high"
@@ -630,6 +751,14 @@
         "year": 1927,
         "excerpt": "The robbery is a night. The trial is the politics.",
         "stance": "independent"
+      },
+      {
+        "outlet": "The Hindu",
+        "headline": "Remembering the martyrs of Kakori",
+        "year": 2024,
+        "excerpt": "HRA men stopped the Number 8 Down and took the treasury chest. The conspiracy case hanged Bismil, Ashfaqullah, Lahiri and Roshan Singh.",
+        "stance": "independent",
+        "url": "https://www.thehindu.com/news/national/uttar-pradesh/watch-remembering-the-martyrs-of-kakori-train-robbery/article68524954.ece"
       }
     ],
     "confidence": "high"
@@ -686,6 +815,22 @@
         "year": 2015,
         "excerpt": "The trial had been a stage. The hanging made a year that still has a morning.",
         "stance": "independent"
+      },
+      {
+        "outlet": "Hindustan Times",
+        "headline": "Bhagat Singh: the final hours",
+        "year": 2011,
+        "excerpt": "Bhagat Singh, Rajguru and Sukhdev were hanged at Lahore Central Jail on 23 March 1931. The hanging was moved forward. The city already knew.",
+        "stance": "independent",
+        "url": "https://www.hindustantimes.com/india/bhagat-singh-the-final-hours/story-oHHsDEhtugs4wSI7dfWuzO.html"
+      },
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "Bhagat Singh",
+        "year": 2024,
+        "excerpt": "The trial had been a stage. The hanging made a calendar date that still has a morning.",
+        "stance": "independent",
+        "url": "https://www.britannica.com/biography/Bhagat-Singh"
       }
     ],
     "confidence": "high"
@@ -739,6 +884,22 @@
         "year": 1988,
         "excerpt": "The ratings had a list of grievances and a moment. The parties had a transfer of power to protect.",
         "stance": "independent"
+      },
+      {
+        "outlet": "The Hindu",
+        "headline": "The 1946 Royal Indian Navy revolt",
+        "year": 2025,
+        "excerpt": "Ratings of HMIS Talwar struck on 18 February 1946. The mutiny spread through the Bombay squadron and to other ports. City crowds came out.",
+        "stance": "independent",
+        "url": "https://www.thehindu.com/education/the-1946-royal-navy-revolt-solidarity-amid-sharpening-polarisation/article70642960.ece"
+      },
+      {
+        "outlet": "Hansard",
+        "headline": "Royal Indian Navy mutiny",
+        "year": 1946,
+        "excerpt": "The Commons was told of a service that had struck the flag. The parties had a transfer of power to protect.",
+        "stance": "state",
+        "url": "https://api.parliament.uk/historic-hansard/commons/1946/feb/22/royal-indian-navy-mutiny"
       }
     ],
     "confidence": "medium"
@@ -783,6 +944,22 @@
         "year": 1906,
         "excerpt": "Kala Pani is a phrase. The jail is a plan of isolation drawn in brick.",
         "stance": "independent"
+      },
+      {
+        "outlet": "The Hindu",
+        "headline": "How the Cellular Jail was built to isolate",
+        "year": 2025,
+        "excerpt": "Seven wings from a central tower. The Andaman penal colony was older. This building is the one the photographs kept.",
+        "stance": "independent",
+        "url": "https://www.thehindu.com/children/how-the-cellular-jail-in-port-blair-was-built-to-isolate/article69892309.ece"
+      },
+      {
+        "outlet": "Outlook",
+        "headline": "Kala Pani, and who is named on the walls",
+        "year": 2024,
+        "excerpt": "A tower, seven wings, a sea. The jail is a plan of isolation drawn in brick.",
+        "stance": "independent",
+        "url": "https://www.outlookindia.com/national/erased-from-history-how-bengals-freedom-fighters-are-being-sidelined-at-andaman-cellular-jail"
       }
     ],
     "confidence": "high"
@@ -827,7 +1004,288 @@
         "headline": "Photographs the government could not quite suppress",
         "year": 1943,
         "excerpt": "The camera did what the declaration of famine had not. Relief enlarged after the pictures. The countryside had already paid.",
-        "stance": "independent"
+        "stance": "independent",
+        "url": "https://www.theguardian.com/world/2020/oct/21/archive-1943-the-famine-in-bengal"
+      },
+      {
+        "outlet": "BBC News",
+        "headline": "Three million, and the survivors still speaking",
+        "year": 2024,
+        "excerpt": "Kavita Puri’s later work sits with Sen and Maharatna: a working band of about 2.1 to 3 million excess deaths, not a single patriotic integer.",
+        "stance": "independent",
+        "url": "https://www.bbc.com/news/world-asia-india-68311520"
+      },
+      {
+        "outlet": "BBC News",
+        "headline": "Churchill’s legacy, and a famine the files still argue",
+        "year": 2021,
+        "excerpt": "The province had not declared famine. The Statesman’s photographs in August 1943 did what the declaration had not.",
+        "stance": "independent",
+        "url": "https://www.bbc.com/news/world-asia-india-53405121"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "bengal-1770-peak",
+    "conflictId": "bengal-famine-1770",
+    "name": "Bengal famine, 1770",
+    "kind": "famine",
+    "time": {
+      "year": 1770,
+      "precision": "year"
+    },
+    "place": {
+      "name": "Murshidabad",
+      "longitude": 88.271,
+      "latitude": 24.183,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "West Bengal"
+      }
+    },
+    "summary": "A famine in Bengal and Bihar after the Company took the diwani. Grain still moved. The Company still collected. Hunter’s later figure of ten million dead became the traditional number; demographers treat it as an order of magnitude, not a census.",
+    "sides": [
+      {
+        "label": "East India Company",
+        "role": "unclear",
+        "kind": "foreign-forces",
+        "actorId": "eic"
+      },
+      {
+        "label": "Bengal peasantry",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "W. W. Hunter, Annals of Rural Bengal",
+        "headline": "A third of Bengal, in a later book",
+        "year": 1868,
+        "excerpt": "Hunter popularised about ten million dead. Modern historians treat the figure as traditional and unverifiable. The disaster is real; the integer is not a register count.",
+        "stance": "independent",
+        "url": "https://archive.org/stream/annalsofruralben00huntuoft/annalsofruralben00huntuoft_djvu.txt"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "madras-famine-1877",
+    "conflictId": "great-famine-1876",
+    "name": "Madras famine camps",
+    "kind": "famine",
+    "time": {
+      "year": 1877,
+      "precision": "year"
+    },
+    "place": {
+      "name": "Madras",
+      "longitude": 80.27,
+      "latitude": 13.083,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Tamil Nadu"
+      }
+    },
+    "summary": "Drought from Madras through the Deccan to the Bombay Presidency, under a viceroy who would not stop grain moving to the ports. Relief was the camp and the wage. How many died depends on the historian: several million is the band.",
+    "sides": [
+      {
+        "label": "Government of India / Madras Presidency",
+        "role": "unclear",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Rural destitute of the southern presidencies",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "BBC News",
+        "headline": "Viewpoint: How British let one million Indians die in famine",
+        "year": 2016,
+        "excerpt": "Naoroji and Dutt already had the file: grain exported while the Deccan starved. Later counts for 1876–78 sit in a band of about five to 8.3 million, contested, not a census.",
+        "stance": "independent",
+        "url": "https://www.bbc.com/news/world-asia-india-36339524"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "bengal-partition-1905",
+    "conflictId": "partition-bengal-1905",
+    "name": "Partition of Bengal in force",
+    "kind": "other",
+    "time": {
+      "year": 1905,
+      "precision": "day",
+      "month": 10,
+      "day": 16
+    },
+    "place": {
+      "name": "Calcutta",
+      "longitude": 88.363,
+      "latitude": 22.572,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "West Bengal"
+      }
+    },
+    "summary": "Curzon’s partition came into force on 16 October 1905. Swadeshi was boycott, school, bomb, and a new Muslim-majority province in the east. The map was undone at the Delhi Durbar in 1911. The communal lesson it taught was not.",
+    "sides": [
+      {
+        "label": "Government of India",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Bengali public, Hindu and Muslim",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "Partition of Bengal",
+        "year": 1998,
+        "excerpt": "Announced in July 1905, in force on 16 October, annulled in December 1911. A presidency redrawn, a national method born, a communal after that outlived the map.",
+        "stance": "independent",
+        "url": "https://www.britannica.com/event/Partition-of-Bengal"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "delhi-rowlatt-1919",
+    "conflictId": "rowlatt-1919",
+    "name": "Delhi hartal firing",
+    "kind": "riot",
+    "time": {
+      "year": 1919,
+      "precision": "day",
+      "month": 3,
+      "day": 30
+    },
+    "place": {
+      "name": "Delhi",
+      "longitude": 77.21,
+      "latitude": 28.61,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Delhi"
+      }
+    },
+    "summary": "Delhi observed Gandhi’s hartal on 30 March, a week early. After a clash over closed shops, police and troops fired on crowds near the railway station and the Clock Tower. Punjab went into a different tense; Amritsar is its own file.",
+    "sides": [
+      {
+        "label": "Delhi police and British troops",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Hartal crowds",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "protesters in Delhi, 30 March 1919",
+        "contested": true,
+        "claimedBy": "Hunter Committee and later nationalist accounts",
+        "note": "Hunter describes a short firing near the station with a handful of dead; later nationalist tallies are higher. No single agreed integer."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "Rowlatt Acts",
+        "year": 1998,
+        "excerpt": "On 30 March, following a brawl over the closure of shops, police opened fire on a crowd of protesters in Delhi. The Act taught a country a new kind of no.",
+        "stance": "independent",
+        "url": "https://www.britannica.com/event/Rowlatt-Acts"
+      },
+      {
+        "outlet": "The Times of India",
+        "headline": "Why the protests began on 30 March 1919",
+        "year": 2023,
+        "excerpt": "The Rowlatt Act let the state hold a body without a court. Delhi went out first. Amritsar, two weeks later, is the massacre file.",
+        "stance": "independent",
+        "url": "https://timesofindia.indiatimes.com/india/rowlatt-act-of-british-govt-why-gandhi-started-protests-against-it-on-march-30-1919/articleshow/99115911.cms"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "dharasana-1930",
+    "conflictId": "civil-disobedience-1930",
+    "name": "Dharasana salt works",
+    "kind": "raid",
+    "time": {
+      "year": 1930,
+      "precision": "day",
+      "month": 5,
+      "day": 21
+    },
+    "place": {
+      "name": "Dharasana",
+      "longitude": 72.93,
+      "latitude": 20.64,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Gujarat"
+      }
+    },
+    "summary": "After Gandhi’s arrest, Abbas Tyabji and then Sarojini Naidu led non-violent raids on the government salt depot at Dharasana. United Press correspondent Webb Miller watched men walk into steel-shod lathis without raising an arm.",
+    "sides": [
+      {
+        "label": "Salt satyagrahis under Naidu / Tyabji",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Police at the Dharasana depot",
+        "role": "defender",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "satyagrahis at Dharasana",
+        "contested": true,
+        "claimedBy": "Webb Miller’s despatch and later Congress accounts",
+        "note": "Miller described fractured skulls and a ground quilted with bodies. Published death integers for the raids vary and are not stored here as a single count."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Marching to freedom — Webb Miller at Dharasana",
+        "year": 2019,
+        "excerpt": "Not one of the marchers even raised an arm to fend off the blows. They went down like ten-pins. In two or three minutes the ground was quilted with bodies.",
+        "stance": "independent",
+        "url": "https://www.thehindu.com/children/marching-to-freedom/article26661034.ece"
+      },
+      {
+        "outlet": "The Hindu",
+        "headline": "Dandi, then the fangs of the salt depot",
+        "year": 2010,
+        "excerpt": "Dharasana, twenty-five miles south of Dandi, showed the state’s method. J. C. Kumarappa called it the fangs and claws of the government in all its ugliness.",
+        "stance": "independent",
+        "url": "https://www.thehindu.com/opinion/op-ed/the-great-dandi-march-eighty-years-after/article62123875.ece"
       }
     ],
     "confidence": "high"

@@ -131,7 +131,7 @@ function NewsStory({ report }: { report: NewsReport }) {
               color: "#8a3b32",
             }}
           >
-            Source →
+            Open article →
           </span>
         ) : null}
       </div>

@@ -50,6 +50,22 @@
         "year": 2019,
         "excerpt": "Plassey is remembered as a battle. It was a transaction that needed a few guns to look like one.",
         "stance": "independent"
+      },
+      {
+        "outlet": "National Army Museum",
+        "headline": "A grove that bought a province",
+        "year": 2024,
+        "excerpt": "Plassey is remembered as Clive’s battle. The museum’s own file is shorter: a monsoon field, a bought general, and Bengal’s revenue.",
+        "stance": "independent",
+        "url": "https://www.nam.ac.uk/explore/battle-plassey"
+      },
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "Battle of Plassey",
+        "year": 2024,
+        "excerpt": "A short action on 23 June 1757. Mir Jafar’s wing did not fight. The nawab fled; the Company had the diwani’s prelude.",
+        "stance": "independent",
+        "url": "https://www.britannica.com/event/Battle-of-Plassey"
       }
     ],
     "confidence": "high"
@@ -103,6 +119,14 @@
         "year": 1997,
         "excerpt": "Tipu died as he had fought: in the fort, not in exile. The Company needed that death to be a victory, not a martyrdom, and never quite managed both.",
         "stance": "independent"
+      },
+      {
+        "outlet": "National Army Museum",
+        "headline": "Tipu Sultan’s war turban",
+        "year": 2024,
+        "excerpt": "The storm of Srirangapatna on 4 May 1799 killed Tipu in the breach. Mysore was restored under a resident. The turban became a trophy.",
+        "stance": "independent",
+        "url": "https://www.nam.ac.uk/explore/tipu-sultans-war-turban"
       }
     ],
     "confidence": "high"
@@ -156,6 +180,22 @@
         "year": 2013,
         "excerpt": "Assaye is a European-style battle on an Indian plain — artillery, infantry, a river, a butcher’s bill Wellesley never forgot.",
         "stance": "independent"
+      },
+      {
+        "outlet": "The Wire",
+        "headline": "When British blades met Maratha guns",
+        "year": 2016,
+        "excerpt": "Assaye is the reminder that the Deccan was not taken cheaply. Wellesley later called it the bloodiest fight for its size he ever saw.",
+        "stance": "independent",
+        "url": "https://thewire.in/society/history/assaye-when-british-blades-triumphed-over-maratha-guns"
+      },
+      {
+        "outlet": "History Today",
+        "headline": "The Battle of Assaye",
+        "year": 2003,
+        "excerpt": "Of some 6,000 men engaged, close to 1,600 were killed or wounded. Scindia and Berar were broken by the end of the year.",
+        "stance": "independent",
+        "url": "https://www.historytoday.com/archive/months-past/battle-assaye"
       }
     ],
     "confidence": "medium"
@@ -209,6 +249,22 @@
         "year": 1843,
         "excerpt": "The pun — ‘I have Sindh’ — is later folklore. The annexation was real, and the pretext remains thin in the files.",
         "stance": "independent"
+      },
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "Battle of Miāni",
+        "year": 1998,
+        "excerpt": "Napier’s force of about 2,800 met more than 20,000 of the Talpur amirs on 17 February 1843. Sindh, except Khairpur, was annexed.",
+        "stance": "independent",
+        "url": "https://www.britannica.com/event/Battle-of-Miani"
+      },
+      {
+        "outlet": "Dawn",
+        "headline": "The British conquest of Sindh",
+        "year": 2021,
+        "excerpt": "Napier wrote that they had no right to seize Sindh, and would do it anyway. The peccavi telegram is later folklore. The annexation was real.",
+        "stance": "independent",
+        "url": "https://www.dawn.com/news/1655098"
       }
     ],
     "confidence": "medium"
@@ -262,6 +318,14 @@
         "year": 2010,
         "excerpt": "Ferozeshah is the reminder that the Punjab was not taken cheaply.",
         "stance": "independent"
+      },
+      {
+        "outlet": "National Army Museum",
+        "headline": "The First Sikh War",
+        "year": 2024,
+        "excerpt": "Ferozeshah in December 1845 was a night battle the Company nearly lost. British casualties were among the worst of the Sikh wars.",
+        "stance": "independent",
+        "url": "https://www.nam.ac.uk/explore/first-sikh-war"
       }
     ],
     "confidence": "medium"
@@ -315,6 +379,14 @@
         "year": 1966,
         "excerpt": "Gujrat is where the Sikh state ends as a state. The Sikh soldier does not disappear; he is recruited.",
         "stance": "independent"
+      },
+      {
+        "outlet": "National Army Museum",
+        "headline": "The Second Sikh War",
+        "year": 2024,
+        "excerpt": "Gujrat, the battle of the guns, ended the Khalsa as a state army. The Punjab was annexed weeks later. The Sikh soldier was recruited.",
+        "stance": "independent",
+        "url": "https://www.nam.ac.uk/explore/second-sikh-war"
       }
     ],
     "confidence": "high"
@@ -366,6 +438,22 @@
         "year": 2001,
         "excerpt": "Rangoon was taken. The army that took it melted in the rains. Burma was not finished in 1824.",
         "stance": "independent"
+      },
+      {
+        "outlet": "National Army Museum",
+        "headline": "First Burma War",
+        "year": 2024,
+        "excerpt": "A seaborne landing took Rangoon on 11 May 1824. Disease then killed more Company soldiers than the Konbaung army did.",
+        "stance": "independent",
+        "url": "https://www.nam.ac.uk/explore/first-burma-war"
+      },
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "Anglo-Burmese Wars",
+        "year": 1998,
+        "excerpt": "The first war opened at Rangoon and closed at Yandabo. British-led Indian troops suffered more than 15,000 fatalities, mostly from climate and disease.",
+        "stance": "independent",
+        "url": "https://www.britannica.com/event/Anglo-Burmese-Wars"
       }
     ],
     "confidence": "medium"
@@ -418,6 +506,14 @@
         "year": 2001,
         "excerpt": "The third war was brief. The pacification of Upper Burma was not.",
         "stance": "independent"
+      },
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "The British in Burma, 1885–1948",
+        "year": 2024,
+        "excerpt": "Mandalay fell in a fortnight in November 1885. Thibaw was sent to Ratnagiri. The monarchy ended; guerrilla resistance in Upper Burma did not.",
+        "stance": "independent",
+        "url": "https://www.britannica.com/topic/history-of-Myanmar/The-British-in-Burma-1885-1948"
       }
     ],
     "confidence": "high"
@@ -464,6 +560,60 @@
         "year": 1984,
         "excerpt": "The annexation of Awadh is a date in a gazette. Its consequence is a year in the Doab.",
         "stance": "independent"
+      },
+      {
+        "outlet": "National Army Museum",
+        "headline": "Decisive events of the Indian Mutiny",
+        "year": 2024,
+        "excerpt": "Awadh was taken at a desk in February 1856. Sepoys from these districts rose the next year. The annexation is a gazette date with a battlefield after.",
+        "stance": "independent",
+        "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "nagpur-lapsed-1853",
+    "conflictId": "doctrine-of-lapse",
+    "name": "Nagpur lapses",
+    "kind": "other",
+    "time": {
+      "year": 1853,
+      "precision": "year"
+    },
+    "place": {
+      "name": "Nagpur",
+      "longitude": 79.088,
+      "latitude": 21.145,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Maharashtra"
+      }
+    },
+    "summary": "Raghuji III of Nagpur died without a natural heir. Dalhousie’s doctrine treated the state as lapsed. Satara had gone in 1848; Jhansi the same year as Nagpur. Adopted heirs did not accept the paperwork.",
+    "sides": [
+      {
+        "label": "East India Company",
+        "role": "attacker",
+        "kind": "foreign-forces",
+        "actorId": "eic"
+      },
+      {
+        "label": "Court of Nagpur",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "Doctrine of lapse",
+        "year": 1998,
+        "excerpt": "A princely state without a natural heir lapsed to the Company. Satara, Jhansi, Nagpur and others were taken between 1848 and 1856. The political cost arrived in 1857.",
+        "stance": "independent",
+        "url": "https://www.britannica.com/topic/doctrine-of-lapse"
       }
     ],
     "confidence": "high"

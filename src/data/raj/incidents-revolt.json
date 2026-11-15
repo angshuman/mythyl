@@ -41,6 +41,14 @@
         "year": 1940,
         "excerpt": "The hul begins as a meeting. The muskets come later.",
         "stance": "independent"
+      },
+      {
+        "outlet": "The Daily Star",
+        "headline": "The Santal Hul: arrows against muskets",
+        "year": 2024,
+        "excerpt": "Peter Stanley’s reading of the hul: a meeting at Bhognadih, then muskets. The death band is still a range, not a register.",
+        "stance": "independent",
+        "url": "https://www.thedailystar.net/slow-reads/unheard-voices/news/the-santal-hul-arrows-against-muskets-3646106"
       }
     ],
     "confidence": "high"
@@ -95,6 +103,14 @@
         "year": 2006,
         "excerpt": "The ride to Delhi is the political act. Meerut is the spark that had been drying for a season of cartridges, annexations, and rumours.",
         "stance": "independent"
+      },
+      {
+        "outlet": "National Army Museum",
+        "headline": "Meerut to Delhi",
+        "year": 2024,
+        "excerpt": "Sowars and sepoys rose on a Sunday, freed the jail, and rode for Delhi. The museum’s mutiny file still starts on 10 May.",
+        "stance": "independent",
+        "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
       }
     ],
     "confidence": "high"
@@ -148,6 +164,14 @@
         "year": 2006,
         "excerpt": "The proclamation in the Red Fort is not a plan. It is a fact the sepoys made, and the emperor survived as a symbol until the recapture.",
         "stance": "independent"
+      },
+      {
+        "outlet": "National Army Museum",
+        "headline": "A king because a city needed one",
+        "year": 2024,
+        "excerpt": "The Meerut men entered Delhi on 11 May. Bahadur Shah was proclaimed. The Ridge would spend the summer looking down on that fact.",
+        "stance": "independent",
+        "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
       }
     ],
     "confidence": "high"
@@ -205,6 +229,14 @@
         "year": 1996,
         "excerpt": "Kanpur is two files: the killing of prisoners, and the killing that followed when the city was taken back. Histories that keep only one file are doing a job.",
         "stance": "independent"
+      },
+      {
+        "outlet": "National Army Museum",
+        "headline": "Cawnpore and the well",
+        "year": 2024,
+        "excerpt": "The Bibighar killings of 15 July 1857 froze colonial memory. Indian dead in the taking of Kanpur did not get a well with a grate.",
+        "stance": "independent",
+        "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
       }
     ],
     "confidence": "medium"
@@ -258,6 +290,14 @@
         "year": 2006,
         "excerpt": "The Ridge to the Fort is a military narrative. The lanes between them are a massacre the files never quite totalled.",
         "stance": "independent"
+      },
+      {
+        "outlet": "National Army Museum",
+        "headline": "The recapture of Delhi",
+        "year": 2024,
+        "excerpt": "The Company came down from the Ridge on 14 September. Street fighting lasted days. The city was sacked. No agreed integer for the Indian dead.",
+        "stance": "independent",
+        "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
       }
     ],
     "confidence": "medium"
@@ -310,6 +350,14 @@
         "year": 1984,
         "excerpt": "Lucknow is a siege in British memory and a peasant war in Awadh’s.",
         "stance": "independent"
+      },
+      {
+        "outlet": "National Army Museum",
+        "headline": "The siege of Lucknow",
+        "year": 2024,
+        "excerpt": "The Residency is a siege in British memory and a peasant war in Awadh’s. Garrison casualties are in the returns; the city’s are not.",
+        "stance": "independent",
+        "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
       }
     ],
     "confidence": "medium"
@@ -362,6 +410,14 @@
         "year": 1994,
         "excerpt": "Jhansi enters the nationalist canon as a woman on a horse. The files are a siege and a doctrine.",
         "stance": "independent"
+      },
+      {
+        "outlet": "National Army Museum",
+        "headline": "Jhansi, 1858",
+        "year": 2024,
+        "excerpt": "Hugh Rose took the fort in April. Lakshmibai escaped and died at Gwalior. The lapse of her adopted son’s state had been paperwork.",
+        "stance": "independent",
+        "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
       }
     ],
     "confidence": "medium"
@@ -414,6 +470,14 @@
         "year": 1925,
         "excerpt": "The official history begins at a police station. The tenancy file had been open for years.",
         "stance": "independent"
+      },
+      {
+        "outlet": "Hansard",
+        "headline": "The Moplah rebellion in the Commons",
+        "year": 1921,
+        "excerpt": "Parliament’s Malabar file begins at a police station in August 1921. The tenancy file had been open for years.",
+        "stance": "state",
+        "url": "https://api.parliament.uk/historic-hansard/commons/1921/dec/15/moplah-rebellion"
       }
     ],
     "confidence": "medium"
@@ -471,6 +535,22 @@
         "year": 1921,
         "excerpt": "Seventy men can die of air in a moving jail. The rebellion had already become a file of methods.",
         "stance": "independent"
+      },
+      {
+        "outlet": "The Hindu",
+        "headline": "The wagon tragedy of 1921",
+        "year": 2016,
+        "excerpt": "About a hundred Mappila prisoners were shut in a goods wagon at Tirur. By Podanur most of them had suffocated. The official dead: 64 to 70.",
+        "stance": "independent",
+        "url": "https://www.thehindu.com/news/cities/Coimbatore/the-wagon-tragedy-of-1921/article7904715.ece"
+      },
+      {
+        "outlet": "Hansard",
+        "headline": "The Moplah train disaster",
+        "year": 1922,
+        "excerpt": "The Commons was told of men dead of air in a moving jail. The rebellion had already become a file of methods.",
+        "stance": "state",
+        "url": "https://api.parliament.uk/historic-hansard/commons/1922/feb/21/moplah-train-disaster"
       }
     ],
     "confidence": "high"
@@ -517,6 +597,14 @@
         "year": 1983,
         "excerpt": "The capture is a police date. The tenancy act is the longer sentence.",
         "stance": "independent"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "Birsa Munda, the Ulgulan, and a jail in Ranchi",
+        "year": 2025,
+        "excerpt": "Arrested on 3 February 1900 in the forests of Porahat. Died in Ranchi jail on 9 June. Colonial records said cholera. The tenancy act is the longer sentence.",
+        "stance": "independent",
+        "url": "https://indianexpress.com/article/explained/explained-history/birsa-munda-legacy-ulgulan-adivasi-identity-explained-10733209/"
       }
     ],
     "confidence": "high"
@@ -573,8 +661,225 @@
         "year": 1924,
         "excerpt": "The forest law stayed. The man who raided stations for rifles did not.",
         "stance": "independent"
+      },
+      {
+        "outlet": "The Hindu",
+        "headline": "A rifle in the Manyam",
+        "year": 2022,
+        "excerpt": "Between August 1922 and May 1924 Alluri led the Rampa rising against forest law. He was captured, tied to a tree, and shot on 7 May 1924.",
+        "stance": "independent",
+        "url": "https://www.thehindu.com/opinion/op-ed/celebrating-the-unknown-the-unsung-and-the-underappreciated/article65595483.ece"
       }
     ],
     "confidence": "medium"
+  },
+  {
+    "id": "indigo-nadia-1859",
+    "conflictId": "indigo-1859",
+    "name": "Ryots refuse indigo, Nadia",
+    "kind": "riot",
+    "time": {
+      "year": 1859,
+      "precision": "month",
+      "month": 3
+    },
+    "place": {
+      "name": "Nadia",
+      "longitude": 88.556,
+      "latitude": 23.406,
+      "precision": "district",
+      "admin": {
+        "country": "India",
+        "state": "West Bengal"
+      }
+    },
+    "summary": "In March 1859 ryots in Nadia refused the indigo contract. The Biswas brothers of the Krishnanagar countryside led the first combination. Planters used the lathiyal; peasants used the field. An official commission followed.",
+    "sides": [
+      {
+        "label": "Indigo ryots of Nadia",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "European planters and lathiyals",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "Indigo Revolt",
+        "year": 2022,
+        "excerpt": "The revolt began as a strike in a Nadia village in March 1859 and spread through the indigo districts. Nil Darpan put the coercion on a Calcutta stage the next year.",
+        "stance": "independent",
+        "url": "https://www.britannica.com/event/Indigo-Revolt"
+      },
+      {
+        "outlet": "The Telegraph",
+        "headline": "The forgotten revolution of the 1850s",
+        "year": 2024,
+        "excerpt": "The dam broke in Krishnagar, Nadia, where the Biswas brothers led peasants against the planters. The crop’s coercion was never quite the same.",
+        "stance": "independent",
+        "url": "https://www.telegraphindia.com/my-kolkata/events/the-forgotten-revolution-of-the-1850s-apart-from-sepoy-mutiny/cid/2031925"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "pabna-league-1873",
+    "conflictId": "pabna-1873",
+    "name": "Pabna agrarian league",
+    "kind": "other",
+    "time": {
+      "year": 1873,
+      "precision": "month",
+      "month": 5
+    },
+    "place": {
+      "name": "Pabna",
+      "longitude": 89.233,
+      "latitude": 24.014,
+      "precision": "city",
+      "admin": {
+        "country": "Bangladesh"
+      }
+    },
+    "summary": "Tenants in Yusufshahi pargana formed a league against zamindari rent hikes in May 1873. The method was combination and the court more than the pike. The Bengal Tenancy Act of 1885 is part of its after.",
+    "sides": [
+      {
+        "label": "Pabna raiyats’ league",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Zamindars of Yusufshahi",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "Banglapedia",
+        "headline": "Pabna Peasant Uprising",
+        "year": 2024,
+        "excerpt": "The Pabna Raiyats’ League came into existence in May 1873. Lieutenant-Governor Campbell told zamindars to assert claims by law only. The movement subsided into a legal file, then a tenancy act.",
+        "stance": "independent",
+        "url": "https://en.banglapedia.org/index.php?title=Pabna_Peasant_Uprising"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "supa-deccan-1875",
+    "conflictId": "deccan-riots-1875",
+    "name": "Supa, Deccan riots",
+    "kind": "riot",
+    "time": {
+      "year": 1875,
+      "precision": "day",
+      "month": 5,
+      "day": 12
+    },
+    "place": {
+      "name": "Ahmednagar / Poona Deccan",
+      "longitude": 74.749,
+      "latitude": 19.095,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Maharashtra"
+      }
+    },
+    "summary": "On 12 May 1875, market day at Supa, cultivators attacked Gujarati and Marwari moneylenders’ houses and burned the bond-chests. The riots spread through Poona and Ahmednagar. A commission followed; the Deccan Agriculturists’ Relief Act of 1879 is the legal after.",
+    "sides": [
+      {
+        "label": "Kunbi cultivators",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Village sowkars",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "India Today",
+        "headline": "How the Deccan riots of 1875 laid a paper trail",
+        "year": 2025,
+        "excerpt": "The rioters’ purpose was the bonds, decrees and deeds. A commission sat. The Relief Act of 1879 is the longer sentence.",
+        "stance": "independent",
+        "url": "https://www.indiatoday.in/india-today-insight/story/how-deccan-riots-of-1875-laid-foundations-of-cooperative-sector-2727611-2025-05-20"
+      },
+      {
+        "outlet": "UCLA MANAS",
+        "headline": "Agrarian unrest: the Deccan riots of 1875",
+        "year": 2019,
+        "excerpt": "The Deccan Riots Commission found the combustible elements everywhere ready. Physical crime was small beside the burning of paper.",
+        "stance": "independent",
+        "url": "https://southasia.ucla.edu/history-politics/british-india/agrarian-unrest-deccan-riots-1875/"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "motihari-1917",
+    "conflictId": "champaran-1917",
+    "name": "Gandhi at Motihari court",
+    "kind": "other",
+    "time": {
+      "year": 1917,
+      "precision": "day",
+      "month": 4,
+      "day": 18
+    },
+    "place": {
+      "name": "Motihari",
+      "longitude": 84.917,
+      "latitude": 26.657,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Bihar"
+      }
+    },
+    "summary": "Gandhi reached Motihari on 15 April 1917 for the indigo ryots still held to tinkathia. On 18 April he told the magistrate he would not leave the district. The case was withdrawn. A provincial Act followed.",
+    "sides": [
+      {
+        "label": "Gandhi and Champaran ryots",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Champaran planters and magistrate",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "Hindustan Times",
+        "headline": "Champaran: India’s first satyagraha",
+        "year": 2019,
+        "excerpt": "The evening he reached Motihari he was ordered out. He appeared in court, pleaded guilty to remaining, and stayed. A local grievance became a national method.",
+        "stance": "independent",
+        "url": "https://www.hindustantimes.com/india-news/champaran-india-s-first-satyagraha/story-TqA9Fm0aHtRWFRbfN0S3xK.html"
+      },
+      {
+        "outlet": "The Times of India",
+        "headline": "When Gandhi arrived in Bihar",
+        "year": 2019,
+        "excerpt": "Thousands assembled before Motihari court on 18 April 1917. The tinkathia system was the file. Satyagraha was the method.",
+        "stance": "independent",
+        "url": "https://timesofindia.indiatimes.com/city/patna/when-mahatma-gandhi-arrived-in-bihar/articleshow/71289185.cms"
+      }
+    ],
+    "confidence": "high"
   }
 ]

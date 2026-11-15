@@ -117,6 +117,12 @@
         "title": "The Anarchy",
         "creator": "William Dalrymple",
         "year": 2019
+      },
+      {
+        "title": "Annals of Rural Bengal",
+        "creator": "W. W. Hunter",
+        "year": 1868,
+        "url": "https://archive.org/stream/annalsofruralben00huntuoft/annalsofruralben00huntuoft_djvu.txt"
       }
     ],
     "confidence": "medium",
@@ -239,6 +245,12 @@
         "title": "The Famine Campaign in Southern India",
         "creator": "William Digby",
         "year": 1878
+      },
+      {
+        "title": "How British let one million Indians die in famine",
+        "creator": "BBC News",
+        "year": 2016,
+        "url": "https://www.bbc.com/news/world-asia-india-36339524"
       }
     ],
     "confidence": "medium",
@@ -390,6 +402,24 @@
         "title": "Report on Bengal",
         "creator": "Famine Inquiry Commission",
         "year": 1945
+      },
+      {
+        "title": "Archive, 1943: the famine in Bengal",
+        "creator": "The Guardian",
+        "year": 2020,
+        "url": "https://www.theguardian.com/world/2020/oct/21/archive-1943-the-famine-in-bengal"
+      },
+      {
+        "title": "Bengal famine survivors",
+        "creator": "BBC News",
+        "year": 2024,
+        "url": "https://www.bbc.com/news/world-asia-india-68311520"
+      },
+      {
+        "title": "Poverty and Famines",
+        "creator": "Amartya Sen",
+        "year": 1981,
+        "url": "https://webapps.ilo.org/public/libdoc/ilo/1981/81B09_608_engl.pdf"
       }
     ],
     "confidence": "high",
@@ -544,6 +574,17 @@
         "title": "Amritsar 1919: An Empire of Fear and the Making of a Massacre",
         "creator": "Kim A. Wagner",
         "year": 2019
+      },
+      {
+        "title": "Jallianwala Bagh massacre, 100 years later",
+        "creator": "The Hindu",
+        "year": 2019,
+        "url": "https://www.thehindu.com/society/history-and-culture/jallianwala-bagh-massacre-100-years-later/article56832584.ece"
+      },
+      {
+        "title": "Report of the Disorders Inquiry Committee (Hunter)",
+        "year": 1920,
+        "url": "https://archive.org/details/dli.ministry.20494"
       }
     ],
     "confidence": "high",
@@ -666,6 +707,12 @@
       },
       {
         "title": "Report (with Evidence) of the Peshawar Enquiry Committee"
+      },
+      {
+        "title": "Qissa Khwani Bazaar massacre",
+        "creator": "The Indian Express",
+        "year": 2020,
+        "url": "https://indianexpress.com/article/explained/qissa-khwani-bazaar-massacre-khudai-khidmatgars-movement-abdul-ghaffar-khan-6377275/"
       }
     ],
     "confidence": "medium",
@@ -770,6 +817,11 @@
         "title": "Modern India 1885–1947",
         "creator": "Sumit Sarkar",
         "year": 1983
+      },
+      {
+        "title": "Partition of Bengal",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Partition-of-Bengal"
       }
     ],
     "confidence": "high",
@@ -869,6 +921,11 @@
       {
         "title": "The Rowlatt satyagraha",
         "note": "Brown; Sarkar, Modern India."
+      },
+      {
+        "title": "Rowlatt Acts",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Rowlatt-Acts"
       }
     ],
     "confidence": "high",
@@ -965,6 +1022,12 @@
         "title": "Modern India 1885–1947",
         "creator": "Sumit Sarkar",
         "year": 1983
+      },
+      {
+        "title": "Reassessing Chauri Chaura",
+        "creator": "Outlook",
+        "year": 2022,
+        "url": "https://www.outlookindia.com/books/reassessing-history-news-200143"
       }
     ],
     "confidence": "high",
@@ -1068,6 +1131,18 @@
       {
         "title": "The Salt March",
         "note": "Brown; Dalton; Sarkar."
+      },
+      {
+        "title": "The great Dandi march, eighty years after",
+        "creator": "The Hindu",
+        "year": 2010,
+        "url": "https://www.thehindu.com/opinion/op-ed/the-great-dandi-march-eighty-years-after/article62123875.ece"
+      },
+      {
+        "title": "Marching to freedom",
+        "creator": "The Hindu",
+        "year": 2019,
+        "url": "https://www.thehindu.com/children/marching-to-freedom/article26661034.ece"
       }
     ],
     "confidence": "high",
@@ -1163,6 +1238,18 @@
         "title": "Modern India 1885–1947",
         "creator": "Sumit Sarkar",
         "year": 1983
+      },
+      {
+        "title": "Recalling Quit India",
+        "creator": "The Indian Express",
+        "year": 2022,
+        "url": "https://indianexpress.com/article/explained/quit-india-movement-british-raj-mahatma-gandhi-do-or-die-8079136/"
+      },
+      {
+        "title": "From Tamluk to Nandigram",
+        "creator": "Scroll.in",
+        "year": 2016,
+        "url": "https://scroll.in/article/813438/from-tamluk-to-nandigram-how-the-1942-quit-india-movement-bought-down-the-left-front-in-west-bengal"
       }
     ],
     "confidence": "high",
@@ -1257,6 +1344,11 @@
       {
         "title": "The Chittagong Armoury Raiders",
         "note": "Memoirs of survivors; Chatterjee."
+      },
+      {
+        "title": "Surya Sen, the hero of Chittagong uprising",
+        "creator": "The Daily Star",
+        "url": "https://www.thedailystar.net/news/surya-sen-the-hero-of-chittagong-uprising"
       }
     ],
     "confidence": "high",
@@ -1337,6 +1429,12 @@
       {
         "title": "The Kakori case",
         "note": "HRA histories; Chandra, India's Struggle for Independence."
+      },
+      {
+        "title": "Remembering the martyrs of Kakori",
+        "creator": "The Hindu",
+        "year": 2024,
+        "url": "https://www.thehindu.com/news/national/uttar-pradesh/watch-remembering-the-martyrs-of-kakori-train-robbery/article68524954.ece"
       }
     ],
     "confidence": "high",
@@ -1433,6 +1531,17 @@
         "title": "A Revolutionary History of Interwar India",
         "creator": "Kama Maclean",
         "year": 2015
+      },
+      {
+        "title": "Bhagat Singh: the final hours",
+        "creator": "Hindustan Times",
+        "year": 2011,
+        "url": "https://www.hindustantimes.com/india/bhagat-singh-the-final-hours/story-oHHsDEhtugs4wSI7dfWuzO.html"
+      },
+      {
+        "title": "Bhagat Singh",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Bhagat-Singh"
       }
     ],
     "confidence": "high",
@@ -1526,6 +1635,18 @@
       {
         "title": "1946: The Last War of Independence",
         "note": "Later popular histories; service records."
+      },
+      {
+        "title": "The 1946 Royal Indian Navy revolt",
+        "creator": "The Hindu",
+        "year": 2025,
+        "url": "https://www.thehindu.com/education/the-1946-royal-navy-revolt-solidarity-amid-sharpening-polarisation/article70642960.ece"
+      },
+      {
+        "title": "Royal Indian Navy mutiny",
+        "creator": "Hansard",
+        "year": 1946,
+        "url": "https://api.parliament.uk/historic-hansard/commons/1946/feb/22/royal-indian-navy-mutiny"
       }
     ],
     "confidence": "medium",
@@ -1613,6 +1734,12 @@
       {
         "title": "The Cellular Jail",
         "note": "Port Blair memorial literature, used with caution."
+      },
+      {
+        "title": "How the Cellular Jail in Port Blair was built to isolate",
+        "creator": "The Hindu",
+        "year": 2025,
+        "url": "https://www.thehindu.com/children/how-the-cellular-jail-in-port-blair-was-built-to-isolate/article69892309.ece"
       }
     ],
     "confidence": "high",
@@ -1714,6 +1841,12 @@
       {
         "title": "The Komagata Maru Incident",
         "note": "Johnston; Canadian and Bengal police files."
+      },
+      {
+        "title": "What happened to Komagata Maru passengers in 1914",
+        "creator": "The Hindu",
+        "year": 2024,
+        "url": "https://www.thehindu.com/news/international/what-happened-to-komagata-maru-passengers-in-1914/article70924857.ece"
       }
     ],
     "confidence": "high",

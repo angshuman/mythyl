@@ -102,6 +102,16 @@
         "title": "Bengal: The British Bridgehead",
         "creator": "P. J. Marshall",
         "year": 1987
+      },
+      {
+        "title": "Battle of Plassey",
+        "creator": "National Army Museum",
+        "url": "https://www.nam.ac.uk/explore/battle-plassey"
+      },
+      {
+        "title": "Battle of Plassey",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Battle-of-Plassey"
       }
     ],
     "confidence": "high",
@@ -213,6 +223,11 @@
       {
         "title": "The Cambridge History of India, Vol. 5: British India 1497–1858",
         "year": 1929
+      },
+      {
+        "title": "Tipu Sultan’s war turban",
+        "creator": "National Army Museum",
+        "url": "https://www.nam.ac.uk/explore/tipu-sultans-war-turban"
       }
     ],
     "confidence": "high",
@@ -315,6 +330,12 @@
         "title": "Wellington: The Path to Victory 1769–1814",
         "creator": "Rory Muir",
         "year": 2013
+      },
+      {
+        "title": "Assaye: when British blades triumphed over Maratha guns",
+        "creator": "The Wire",
+        "year": 2016,
+        "url": "https://thewire.in/society/history/assaye-when-british-blades-triumphed-over-maratha-guns"
       }
     ],
     "confidence": "high",
@@ -429,6 +450,17 @@
         "title": "Indian Society and the Making of the British Empire",
         "creator": "C. A. Bayly",
         "year": 1988
+      },
+      {
+        "title": "Battle of Miāni",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Battle-of-Miani"
+      },
+      {
+        "title": "The British conquest of Sindh",
+        "creator": "Dawn",
+        "year": 2021,
+        "url": "https://www.dawn.com/news/1655098"
       }
     ],
     "confidence": "high",
@@ -537,6 +569,16 @@
         "title": "A History of the Sikhs, Vol. 2",
         "creator": "Khushwant Singh",
         "year": 1966
+      },
+      {
+        "title": "The First Sikh War",
+        "creator": "National Army Museum",
+        "url": "https://www.nam.ac.uk/explore/first-sikh-war"
+      },
+      {
+        "title": "The Second Sikh War",
+        "creator": "National Army Museum",
+        "url": "https://www.nam.ac.uk/explore/second-sikh-war"
       }
     ],
     "confidence": "high",
@@ -647,6 +689,16 @@
       {
         "title": "The First Anglo-Burmese War",
         "note": "Standard narrative in Cambridge History of India and Harvey, History of Burma."
+      },
+      {
+        "title": "First Burma War",
+        "creator": "National Army Museum",
+        "url": "https://www.nam.ac.uk/explore/first-burma-war"
+      },
+      {
+        "title": "Anglo-Burmese Wars",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Anglo-Burmese-Wars"
       }
     ],
     "confidence": "high",
@@ -770,6 +822,11 @@
         "title": "Awadh in Revolt, 1857–1858",
         "creator": "Rudrangshu Mukherjee",
         "year": 1984
+      },
+      {
+        "title": "Decisive events of the Indian Mutiny",
+        "creator": "National Army Museum",
+        "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
       }
     ],
     "confidence": "high",
@@ -878,6 +935,11 @@
         "title": "The Aftermath of Revolt: India 1857–1870",
         "creator": "Thomas R. Metcalf",
         "year": 1964
+      },
+      {
+        "title": "Doctrine of lapse",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/doctrine-of-lapse"
       }
     ],
     "confidence": "high",

@@ -144,6 +144,12 @@
         "title": "Elementary Aspects of Peasant Insurgency in Colonial India",
         "creator": "Ranajit Guha",
         "year": 1983
+      },
+      {
+        "title": "The Santal Hul: arrows against muskets",
+        "creator": "Peter Stanley / The Daily Star",
+        "year": 2024,
+        "url": "https://www.thedailystar.net/slow-reads/unheard-voices/news/the-santal-hul-arrows-against-muskets-3646106"
       }
     ],
     "confidence": "medium",
@@ -311,6 +317,11 @@
         "title": "Awadh in Revolt, 1857–1858",
         "creator": "Rudrangshu Mukherjee",
         "year": 1984
+      },
+      {
+        "title": "Decisive events of the Indian Mutiny",
+        "creator": "National Army Museum",
+        "url": "https://www.nam.ac.uk/explore/decisive-events-indian-mutiny"
       }
     ],
     "confidence": "high",
@@ -422,6 +433,11 @@
         "title": "The Blue Mutiny",
         "creator": "Blair B. Kling",
         "year": 1966
+      },
+      {
+        "title": "Indigo Revolt",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Indigo-Revolt"
       }
     ],
     "confidence": "high",
@@ -521,6 +537,11 @@
         "title": "Agrarian Bengal",
         "creator": "Sugata Bose",
         "year": 1986
+      },
+      {
+        "title": "Pabna Peasant Uprising",
+        "creator": "Banglapedia",
+        "url": "https://en.banglapedia.org/index.php?title=Pabna_Peasant_Uprising"
       }
     ],
     "confidence": "medium",
@@ -620,6 +641,12 @@
         "title": "The Peasant and the Raj",
         "creator": "Eric Stokes",
         "year": 1978
+      },
+      {
+        "title": "How Deccan riots of 1875 laid foundations of cooperative sector",
+        "creator": "India Today",
+        "year": 2025,
+        "url": "https://www.indiatoday.in/india-today-insight/story/how-deccan-riots-of-1875-laid-foundations-of-cooperative-sector-2727611-2025-05-20"
       }
     ],
     "confidence": "high",
@@ -722,6 +749,12 @@
         "title": "Elementary Aspects of Peasant Insurgency in Colonial India",
         "creator": "Ranajit Guha",
         "year": 1983
+      },
+      {
+        "title": "Birsa Munda: his legacy, Ulgulan and the Adivasi identity debate",
+        "creator": "The Indian Express",
+        "year": 2025,
+        "url": "https://indianexpress.com/article/explained/explained-history/birsa-munda-legacy-ulgulan-adivasi-identity-explained-10733209/"
       }
     ],
     "confidence": "high",
@@ -820,6 +853,12 @@
         "title": "Gandhi's Rise to Power: Indian Politics 1915–1922",
         "creator": "Judith M. Brown",
         "year": 1972
+      },
+      {
+        "title": "Champaran: India’s first satyagraha",
+        "creator": "Hindustan Times",
+        "year": 2019,
+        "url": "https://www.hindustantimes.com/india-news/champaran-india-s-first-satyagraha/story-TqA9Fm0aHtRWFRbfN0S3xK.html"
       }
     ],
     "confidence": "high",
@@ -971,6 +1010,18 @@
         "title": "Mappila Muslims of Kerala",
         "creator": "Roland E. Miller",
         "year": 1976
+      },
+      {
+        "title": "The wagon tragedy of 1921",
+        "creator": "The Hindu",
+        "year": 2016,
+        "url": "https://www.thehindu.com/news/cities/Coimbatore/the-wagon-tragedy-of-1921/article7904715.ece"
+      },
+      {
+        "title": "Moplah train disaster",
+        "creator": "Hansard",
+        "year": 1922,
+        "url": "https://api.parliament.uk/historic-hansard/commons/1922/feb/21/moplah-train-disaster"
       }
     ],
     "confidence": "medium",
@@ -1070,6 +1121,12 @@
         "title": "The Unquiet Woods",
         "creator": "Ramachandra Guha",
         "year": 1989
+      },
+      {
+        "title": "Celebrating the unknown, the unsung, and the underappreciated",
+        "creator": "The Hindu",
+        "year": 2022,
+        "url": "https://www.thehindu.com/opinion/op-ed/celebrating-the-unknown-the-unsung-and-the-underappreciated/article65595483.ece"
       }
     ],
     "confidence": "medium",
