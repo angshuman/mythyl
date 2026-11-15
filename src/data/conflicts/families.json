@@ -15,19 +15,22 @@
     "id": "naga",
     "label": "Naga",
     "color": "#2f8f78",
-    "hint": "Naga independence campaign"
+    "hint": "Naga independence campaign",
+    "group": "ne"
   },
   {
     "id": "bodo",
     "label": "Bodo",
     "color": "#e3b23c",
-    "hint": "Bodoland campaign"
+    "hint": "Bodoland campaign",
+    "group": "ne"
   },
   {
     "id": "northeast",
     "label": "Other Northeast",
     "color": "#7eb8a0",
-    "hint": "Mizo, Assam, Tripura, Manipur"
+    "hint": "Mizo, Assam, Tripura, Manipur",
+    "group": "ne"
   },
   {
     "id": "kashmir",

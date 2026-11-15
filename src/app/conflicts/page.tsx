@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ConflictMapLoader } from "@/components/ConflictMapLoader";
+import { ViewSwitch } from "@/components/ViewSwitch";
 import { conflicts } from "@/lib/conflicts";
 
 export const metadata = {
@@ -11,9 +12,12 @@ export const metadata = {
 export default function ConflictsPage() {
   return (
     <main className="map-page">
-      <Link href="/" className="back-link">
-        mythyl
-      </Link>
+      <div className="page-nav">
+        <Link href="/" className="back-link">
+          mythyl
+        </Link>
+        <ViewSwitch />
+      </div>
       <ConflictMapLoader />
 
       <section className="section" id="northeast">

@@ -22,10 +22,10 @@ import {
 } from "@/lib/conflicts";
 import { NewsList, type MapFocus } from "./MapCard";
 
-const BAR_H = 7;
-const TRACK_GAP = 16;
-const LANE_PAD = 14;
-const DAY = 8;
+const BAR_H = 6;
+const TRACK_GAP = 6;
+const LANE_PAD = 6;
+const DAY = 7;
 const DECADES = [1960, 1970, 1980, 1990, 2000, 2010];
 
 type Cursor = { year: number; pct: number };
@@ -41,6 +41,7 @@ type Props = {
   onSelect: (focus: MapFocus) => void;
   onClose: () => void;
   familySolo: ConflictFamily | null;
+  familiesAllOn: boolean;
   onFocusFamily: (id: ConflictFamily, event: { altKey: boolean; metaKey: boolean }) => void;
 };
 
@@ -55,6 +56,7 @@ export function ConflictTimeline({
   onSelect,
   onClose,
   familySolo,
+  familiesAllOn,
   onFocusFamily,
 }: Props) {
   const plotRef = useRef<HTMLDivElement>(null);
@@ -172,14 +174,14 @@ export function ConflictTimeline({
             <span className="years-rail-label">Pulse</span>
             <svg
               className="years-ridge"
-              viewBox={`0 0 ${YEAR_MAX - YEAR_MIN + 1} 40`}
+              viewBox={`0 0 ${YEAR_MAX - YEAR_MIN + 1} 24`}
               preserveAspectRatio="none"
               role="img"
               aria-label="Days per year, stacked by kind of conflict"
             >
               {ridge.rows.map((row, index) => {
-                let y = 40;
-                const unit = 36 / ridge.peak;
+                let y = 24;
+                const unit = 22 / ridge.peak;
                 return row.stacks.map((stack) => {
                   const h = stack.count * unit;
                   y -= h;
@@ -220,7 +222,7 @@ export function ConflictTimeline({
           </div>
 
           <div className="years-lanes">
-            <div className="years-readout" style={{ height: "2.6rem" }} />
+            <div className="years-readout" />
             <div className="years-overlay" ref={plotRef} aria-hidden="true">
               {era.id !== "all" ? (
                 <>
@@ -246,7 +248,7 @@ export function ConflictTimeline({
                   style={{ left: `${cursor.pct}%` }}
                 >
                   {nearDays.length ? (
-                    <em style={{ top: "0.55rem", left: cursor.pct > 78 ? "auto" : "0.5rem", right: cursor.pct > 78 ? "0.5rem" : "auto" }}>
+                    <em style={{ top: "0.15rem", left: cursor.pct > 78 ? "auto" : "0.5rem", right: cursor.pct > 78 ? "0.5rem" : "auto" }}>
                       {nearDays.map((day) => day.name).join(" · ")}
                     </em>
                   ) : null}
@@ -255,7 +257,8 @@ export function ConflictTimeline({
             </div>
             {byFamily.map(({ family, rows, packed, tracks }) => {
               const on = enabledFamilies[family.id];
-              const height = LANE_PAD * 2 + tracks * BAR_H + (tracks - 1) * TRACK_GAP;
+              const packedHeight = LANE_PAD * 2 + tracks * BAR_H + (tracks - 1) * TRACK_GAP;
+              const height = on ? packedHeight : Math.min(packedHeight, 16);
               const drawerOpen = openFamily === family.id && Boolean(selected);
               const bits = held[family.id];
               return (
@@ -268,7 +271,8 @@ export function ConflictTimeline({
                     type="button"
                     className="years-rail-label years-family"
                     data-solo={familySolo === family.id ? "true" : "false"}
-                    title={`${family.hint}. Click to show only this; again for every kind.`}
+                    data-focus={!familiesAllOn && on ? "true" : "false"}
+                    title={`${family.hint}. Click to show only this. Click another kind to add it. Click again to drop it.`}
                     onClick={(event) => {
                       event.stopPropagation();
                       onFocusFamily(family.id, event);
@@ -277,7 +281,7 @@ export function ConflictTimeline({
                     <i style={{ background: family.color }} />
                     {family.label}
                   </button>
-                  <div className="years-plot" style={{ minHeight: height + 8 }}>
+                  <div className="years-plot" style={{ minHeight: height + 4 }}>
                     {Array.from({ length: tracks }, (_, track) => (
                       <span
                         key={`stave-${family.id}-${track}`}

@@ -81,6 +81,14 @@ export type FamilyDef = {
   label: string;
   color: string;
   hint: string;
+  group?: string;
+};
+
+export type FamilyGroupDef = {
+  id: string;
+  label: string;
+  color: string;
+  hint: string;
 };
 
 export type ConflictType =

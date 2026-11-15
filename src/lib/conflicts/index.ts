@@ -1,4 +1,5 @@
 import familyRows from "@/data/conflicts/families.json";
+import familyGroupRows from "@/data/conflicts/family-groups.json";
 import { conflicts } from "./seed";
 import { incidents } from "./incidents";
 import {
@@ -6,7 +7,9 @@ import {
   spanActiveInYear,
   yearOf,
   type Conflict,
+  type ConflictFamily,
   type FamilyDef,
+  type FamilyGroupDef,
   type Incident,
   type NewsReport,
   type Scale,
@@ -14,6 +17,19 @@ import {
 
 export const FAMILIES = familyRows as FamilyDef[];
 export const FAMILY_BY_ID = new Map(FAMILIES.map((family) => [family.id, family]));
+export const FAMILY_GROUPS = familyGroupRows as FamilyGroupDef[];
+
+export function membersOfGroup(groupId: string): FamilyDef[] {
+  return FAMILIES.filter((family) => family.group === groupId);
+}
+
+export function isolateFamilies(ids: readonly ConflictFamily[]): Record<ConflictFamily, boolean> {
+  const set = new Set(ids);
+  return Object.fromEntries(FAMILIES.map((family) => [family.id, set.has(family.id)])) as Record<
+    ConflictFamily,
+    boolean
+  >;
+}
 
 export function familyOf(conflict: Conflict): FamilyDef {
   return FAMILY_BY_ID.get(conflict.family) ?? {

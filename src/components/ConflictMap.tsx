@@ -21,9 +21,12 @@ import {
   conflictInEra,
   ERAS,
   FAMILIES,
+  FAMILY_GROUPS,
   familyColor,
   incidentInEra,
+  isolateFamilies,
   isExternalTerrorism,
+  membersOfGroup,
   isRecentConflict,
   isRecentIncident,
   NORTHEAST_STATES,
@@ -47,11 +50,33 @@ const ALL_FAMILIES_ON = Object.fromEntries(FAMILIES.map((family) => [family.id, 
   boolean
 >;
 
+type LegendEntry =
+  | { kind: "family"; family: (typeof FAMILIES)[number] }
+  | { kind: "group"; group: (typeof FAMILY_GROUPS)[number]; members: (typeof FAMILIES)[number][] };
+
+function legendEntries(): LegendEntry[] {
+  const seen = new Set<string>();
+  const entries: LegendEntry[] = [];
+  for (const family of FAMILIES) {
+    if (family.group) {
+      if (seen.has(family.group)) continue;
+      seen.add(family.group);
+      const group = FAMILY_GROUPS.find((row) => row.id === family.group);
+      const members = membersOfGroup(family.group);
+      if (group && members.length > 0) {
+        entries.push({ kind: "group", group, members });
+        continue;
+      }
+    }
+    entries.push({ kind: "family", family });
+  }
+  return entries;
+}
+
+const LEGEND = legendEntries();
+
 function isolateFamily(id: ConflictFamily): Record<ConflictFamily, boolean> {
-  return Object.fromEntries(FAMILIES.map((family) => [family.id, family.id === id])) as Record<
-    ConflictFamily,
-    boolean
-  >;
+  return isolateFamilies([id]);
 }
 
 const NE_FILL: [string, string][] = [
@@ -143,6 +168,12 @@ export function ConflictMap() {
 
     const map = new MapLibreMap({
       container: rootRef.current,
+      cooperativeGestures: true,
+      locale: {
+        "CooperativeGesturesHandler.WindowsHelpText": "Ctrl + scroll to zoom · otherwise the page moves",
+        "CooperativeGesturesHandler.MacHelpText": "⌘ + scroll to zoom · otherwise the page moves",
+        "CooperativeGesturesHandler.MobileHelpText": "Two fingers to move the map",
+      },
       style: {
         version: 8,
         glyphs: "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf",
@@ -447,12 +478,60 @@ export function ConflictMap() {
       applyFamilies(next, false);
       return;
     }
-    const onlyThis = familySolo === id;
-    applyFamilies(onlyThis ? ALL_FAMILIES_ON : isolateFamily(id), true);
+    if (familiesAllOn) {
+      applyFamilies(isolateFamily(id), true);
+      return;
+    }
+    if (enabledFamilies[id]) {
+      const remaining = FAMILIES.filter((family) => family.id !== id && enabledFamilies[family.id]);
+      applyFamilies(remaining.length === 0 ? ALL_FAMILIES_ON : { ...enabledFamilies, [id]: false }, true);
+      return;
+    }
+    applyFamilies({ ...enabledFamilies, [id]: true }, true);
+  }
+
+  function onGroupClick(groupId: string) {
+    const members = membersOfGroup(groupId).map((family) => family.id);
+    if (members.length === 0) return;
+    const allMembersOn = members.every((id) => enabledFamilies[id]);
+    const onlyThisGroup =
+      allMembersOn && FAMILIES.every((family) => enabledFamilies[family.id] === members.includes(family.id));
+    if (onlyThisGroup) {
+      applyFamilies(ALL_FAMILIES_ON, true);
+      return;
+    }
+    if (familiesAllOn || allMembersOn) {
+      applyFamilies(isolateFamilies(members), true);
+      return;
+    }
+    const next = { ...enabledFamilies };
+    for (const id of members) next[id] = true;
+    applyFamilies(next, true);
   }
 
   function showAllFamilies() {
     applyFamilies(ALL_FAMILIES_ON, true);
+  }
+
+  function familyChip(family: (typeof FAMILIES)[number]) {
+    const focused = !familiesAllOn && enabledFamilies[family.id];
+    return (
+      <button
+        key={family.id}
+        type="button"
+        className={enabledFamilies[family.id] ? "on" : ""}
+        data-focus={focused ? "true" : "false"}
+        aria-pressed={enabledFamilies[family.id]}
+        title={`${family.hint}. Click to show only this. Click another kind to add it. Click again to drop it.`}
+        onClick={(event: MouseEvent<HTMLButtonElement>) => onFamilyClick(family.id, event)}
+        style={
+          focused ? { boxShadow: `0 0 0 1px ${family.color}, 0 0 18px ${family.color}55` } : undefined
+        }
+      >
+        <span className="swatch" style={{ background: family.color, width: "0.55rem", height: "0.55rem" }} />
+        {family.label}
+      </button>
+    );
   }
 
   const panel = hovered ?? selected;
@@ -487,7 +566,7 @@ export function ConflictMap() {
 
   return (
     <>
-    <div className="map-shell">
+    <div className="map-shell" id="map">
       <div className="map-canvas">
         <div
           ref={rootRef}
@@ -552,28 +631,46 @@ export function ConflictMap() {
             >
               All kinds
             </button>
-            {FAMILIES.map((family) => (
-              <button
-                key={family.id}
-                type="button"
-                className={enabledFamilies[family.id] ? "on" : ""}
-                data-solo={familySolo === family.id ? "true" : "false"}
-                aria-pressed={enabledFamilies[family.id]}
-                title={`${family.hint}. Click to show only this; again for every kind. Option-click to add or remove.`}
-                onClick={(event: MouseEvent<HTMLButtonElement>) => onFamilyClick(family.id, event)}
-                style={
-                  familySolo === family.id
-                    ? { boxShadow: `0 0 0 1px ${family.color}, 0 0 18px ${family.color}55` }
-                    : undefined
-                }
-              >
+            {LEGEND.map((entry) => {
+              if (entry.kind === "family") return familyChip(entry.family);
+              const { group, members } = entry;
+              const memberIds = members.map((family) => family.id);
+              const allMembersOn = memberIds.every((id) => enabledFamilies[id]);
+              const onlyThisGroup =
+                allMembersOn &&
+                FAMILIES.every((family) => enabledFamilies[family.id] === memberIds.includes(family.id));
+              const mix = !familiesAllOn && !onlyThisGroup && memberIds.some((id) => enabledFamilies[id]);
+              return (
                 <span
-                  className="swatch"
-                  style={{ background: family.color, width: "0.55rem", height: "0.55rem" }}
-                />
-                {family.label}
-              </button>
-            ))}
+                  key={group.id}
+                  className="map-legend-cluster"
+                  data-focus={onlyThisGroup ? "true" : "false"}
+                  data-mix={mix ? "true" : "false"}
+                >
+                  <button
+                    type="button"
+                    className={onlyThisGroup || mix ? "on" : familiesAllOn ? "on" : ""}
+                    data-focus={onlyThisGroup ? "true" : "false"}
+                    aria-pressed={onlyThisGroup || mix}
+                    title={`${group.hint}. Click to show this cluster. Click a member to add or drop it.`}
+                    onClick={() => onGroupClick(group.id)}
+                    style={
+                      onlyThisGroup
+                        ? { boxShadow: `0 0 0 1px ${group.color}, 0 0 18px ${group.color}55` }
+                        : undefined
+                    }
+                  >
+                    <span className="swatch-stack">
+                      {members.map((family) => (
+                        <i key={family.id} style={{ background: family.color }} />
+                      ))}
+                    </span>
+                    {group.label}
+                  </button>
+                  {members.map((family) => familyChip(family))}
+                </span>
+              );
+            })}
           </div>
         </div>
 
@@ -595,9 +692,6 @@ export function ConflictMap() {
             {visible.length} campaigns
             {visibleIncidents.length ? ` · ${visibleIncidents.length} days` : ""}
           </em>
-          <a href="#years" className="years-cue">
-            the years ↓
-          </a>
         </div>
       </div>
 
@@ -621,6 +715,7 @@ export function ConflictMap() {
       onSelect={selectFromYears}
       onClose={() => setSelected(null)}
       familySolo={familySolo}
+      familiesAllOn={familiesAllOn}
       onFocusFamily={onFamilyClick}
     />
     </>
