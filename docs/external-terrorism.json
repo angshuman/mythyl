@@ -1,0 +1,1619 @@
+{
+  "meta": {
+    "note": "External / transnational terrorism on Indian soil. Not Maoist, not Northeast insurgency.",
+    "generated": "2026-11-15"
+  },
+  "conflicts": [
+    {
+      "id": "bombay-blasts-1993",
+      "name": "Bombay serial blasts, 1993",
+      "summary": "Thirteen coordinated car and scooter bombs tore through Bombay on 12 March 1993, from the Stock Exchange to crowded markets, killing hundreds in a single afternoon. Courts later tied the plot to Dawood Ibrahim’s D-Company and Tiger Memon, organised from abroad as revenge for the 1992–93 riots.",
+      "scale": "medium",
+      "types": ["terrorism"],
+      "internalExternal": "transnational",
+      "northeast": false,
+      "direction": "one-sided",
+      "time": {
+        "startYear": 1993,
+        "startMonth": 3,
+        "startDay": 12,
+        "endYear": 1993,
+        "endMonth": 3,
+        "endDay": 12,
+        "ongoing": false
+      },
+      "place": {
+        "name": "Bombay",
+        "longitude": 72.83,
+        "latitude": 18.94,
+        "precision": "city",
+        "state": "Maharashtra"
+      },
+      "parties": ["D-Company / Dawood Ibrahim", "Tiger Memon network", "India"],
+      "alreadyInSeed": "bombay-1992"
+    },
+    {
+      "id": "ic-814-1999",
+      "name": "IC-814 Kandahar hijack",
+      "summary": "Five Harkat-ul-Mujahideen gunmen seized Indian Airlines flight IC-814 on 24 December 1999, flying it from Kathmandu toward Delhi and on to Taliban-held Kandahar. After a week India swapped three jailed militants — including Masood Azhar, who later founded Jaish-e-Mohammed — for the passengers; one hostage, Rupin Katyal, had already been killed.",
+      "scale": "small",
+      "types": ["terrorism"],
+      "internalExternal": "external",
+      "northeast": false,
+      "direction": "one-sided",
+      "time": {
+        "startYear": 1999,
+        "startMonth": 12,
+        "startDay": 24,
+        "endYear": 1999,
+        "endMonth": 12,
+        "endDay": 31,
+        "ongoing": false
+      },
+      "place": {
+        "name": "Kandahar (IC-814)",
+        "longitude": 65.74,
+        "latitude": 31.51,
+        "precision": "city",
+        "state": "Afghanistan"
+      },
+      "parties": ["Harkat-ul-Mujahideen", "India", "Taliban"],
+      "alreadyInSeed": null
+    },
+    {
+      "id": "parliament-attack-2001",
+      "name": "Attack on Parliament, 13 December 2001",
+      "summary": "Five gunmen drove a car with a forged Home Ministry sticker into the Parliament complex in New Delhi and opened fire just after both Houses had adjourned. Nine people on the Indian side were killed and all five attackers died; India blamed Jaish-e-Mohammed and Lashkar-e-Taiba, and the mobilisation that followed became Operation Parakram.",
+      "scale": "small",
+      "types": ["terrorism"],
+      "internalExternal": "external",
+      "northeast": false,
+      "direction": "one-sided",
+      "time": {
+        "startYear": 2001,
+        "startMonth": 12,
+        "startDay": 13,
+        "endYear": 2001,
+        "endMonth": 12,
+        "endDay": 13,
+        "ongoing": false
+      },
+      "place": {
+        "name": "Parliament House, New Delhi",
+        "longitude": 77.208,
+        "latitude": 28.617,
+        "precision": "building",
+        "state": "Delhi"
+      },
+      "parties": ["Jaish-e-Mohammed", "Lashkar-e-Taiba", "India"],
+      "alreadyInSeed": null
+    },
+    {
+      "id": "akshardham-2002",
+      "name": "Akshardham temple attack, 2002",
+      "summary": "Two fidayeen with rifles and grenades entered the Swaminarayan Akshardham complex in Gandhinagar on 24 September 2002 and held it overnight until NSG commandos ended the siege. About thirty people on the Indian side were killed; India attributed the raid to Lashkar-e-Taiba and Jaish-e-Mohammed, while the Supreme Court later acquitted the six Indians convicted of a local conspiracy.",
+      "scale": "small",
+      "types": ["terrorism"],
+      "internalExternal": "external",
+      "northeast": false,
+      "direction": "one-sided",
+      "time": {
+        "startYear": 2002,
+        "startMonth": 9,
+        "startDay": 24,
+        "endYear": 2002,
+        "endMonth": 9,
+        "endDay": 25,
+        "ongoing": false
+      },
+      "place": {
+        "name": "Akshardham, Gandhinagar",
+        "longitude": 72.674,
+        "latitude": 23.229,
+        "precision": "building",
+        "state": "Gujarat"
+      },
+      "parties": ["Lashkar-e-Taiba", "Jaish-e-Mohammed", "India"],
+      "alreadyInSeed": null
+    },
+    {
+      "id": "delhi-blasts-2005",
+      "name": "Delhi serial blasts, 29 October 2005",
+      "summary": "Three bombs exploded in Diwali-week markets at Paharganj and Sarojini Nagar and on a bus at Govindpuri, killing more than sixty shoppers two days before the festival. Delhi Police later arrested a Lashkar-e-Taiba coordinator; the attacks sat in a city already used to Kashmir-linked cells, not a riot.",
+      "scale": "small",
+      "types": ["terrorism"],
+      "internalExternal": "transnational",
+      "northeast": false,
+      "direction": "one-sided",
+      "time": {
+        "startYear": 2005,
+        "startMonth": 10,
+        "startDay": 29,
+        "endYear": 2005,
+        "endMonth": 10,
+        "endDay": 29,
+        "ongoing": false
+      },
+      "place": {
+        "name": "Delhi (Paharganj, Sarojini Nagar, Govindpuri)",
+        "longitude": 77.21,
+        "latitude": 28.63,
+        "precision": "city",
+        "state": "Delhi"
+      },
+      "parties": ["Lashkar-e-Taiba", "India"],
+      "alreadyInSeed": null
+    },
+    {
+      "id": "mumbai-train-blasts-2006",
+      "name": "Mumbai suburban train blasts, 11 July 2006",
+      "summary": "Seven pressure-cooker bombs exploded in first-class compartments on the Western Railway in eleven minutes of rush hour, killing around two hundred commuters. Prosecutors blamed Lashkar-e-Taiba working with a SIMI module; a special court convicted twelve men in 2015, and the Bombay High Court acquitted all of them in 2025.",
+      "scale": "medium",
+      "types": ["terrorism"],
+      "internalExternal": "mixed",
+      "northeast": false,
+      "direction": "one-sided",
+      "time": {
+        "startYear": 2006,
+        "startMonth": 7,
+        "startDay": 11,
+        "endYear": 2006,
+        "endMonth": 7,
+        "endDay": 11,
+        "ongoing": false
+      },
+      "place": {
+        "name": "Mumbai Western Line",
+        "longitude": 72.84,
+        "latitude": 19.04,
+        "precision": "city",
+        "state": "Maharashtra"
+      },
+      "parties": ["Lashkar-e-Taiba", "SIMI", "India"],
+      "alreadyInSeed": null
+    },
+    {
+      "id": "hyderabad-2007",
+      "name": "Hyderabad twin blasts, 25 August 2007",
+      "summary": "Two bombs exploded five minutes apart at Lumbini Park’s laser show and Gokul Chat in Koti, killing about forty weekend crowds, including students on a college trip. An NIA court later convicted two Indian Mujahideen operatives; Riyaz Bhatkal, named as a planter, remained a Pakistan-based absconder.",
+      "scale": "small",
+      "types": ["terrorism"],
+      "internalExternal": "mixed",
+      "northeast": false,
+      "direction": "one-sided",
+      "time": {
+        "startYear": 2007,
+        "startMonth": 8,
+        "startDay": 25,
+        "endYear": 2007,
+        "endMonth": 8,
+        "endDay": 25,
+        "ongoing": false
+      },
+      "place": {
+        "name": "Hyderabad",
+        "longitude": 78.48,
+        "latitude": 17.39,
+        "precision": "city",
+        "state": "Telangana"
+      },
+      "parties": ["Indian Mujahideen", "Harkat-ul-Jihad-al-Islami", "India"],
+      "alreadyInSeed": null
+    },
+    {
+      "id": "indian-mujahideen-2008",
+      "name": "Indian Mujahideen urban bombings, 2008–2013",
+      "summary": "A SIMI splinter calling itself Indian Mujahideen emailed claims before bicycle and tiffin bombs in Jaipur, Ahmedabad and Delhi in 2008, then struck Mumbai again in 2011 and Hyderabad’s Dilsukhnagar in 2013. Investigators described an Indian module with alleged Lashkar-e-Taiba links and Pakistan-based Bhatkal brothers; several later convictions were later undone on appeal.",
+      "scale": "medium",
+      "types": ["terrorism"],
+      "internalExternal": "mixed",
+      "northeast": false,
+      "direction": "one-sided",
+      "time": {
+        "startYear": 2008,
+        "startMonth": 5,
+        "startDay": 13,
+        "endYear": 2013,
+        "endMonth": 2,
+        "endDay": 21,
+        "ongoing": false
+      },
+      "place": {
+        "name": "Jaipur / Ahmedabad / Delhi",
+        "longitude": 75.82,
+        "latitude": 26.92,
+        "precision": "city",
+        "state": "Rajasthan"
+      },
+      "parties": ["Indian Mujahideen", "SIMI", "Lashkar-e-Taiba", "India"],
+      "alreadyInSeed": null
+    },
+    {
+      "id": "mumbai-2008",
+      "name": "Mumbai attacks, 26 November 2008",
+      "summary": "Ten Lashkar-e-Taiba gunmen landed by sea from Karachi and attacked CST, two luxury hotels, a Jewish centre, a café and a hospital, holding the city for about sixty hours. One hundred and sixty-six people were killed on the Indian side; Ajmal Kasab was captured, tried and hanged, and US and Indian courts documented Pakistan-based controllers.",
+      "scale": "small",
+      "types": ["terrorism"],
+      "internalExternal": "external",
+      "northeast": false,
+      "direction": "one-sided",
+      "time": {
+        "startYear": 2008,
+        "startMonth": 11,
+        "startDay": 26,
+        "endYear": 2008,
+        "endMonth": 11,
+        "endDay": 29,
+        "ongoing": false
+      },
+      "place": {
+        "name": "Mumbai",
+        "longitude": 72.83,
+        "latitude": 18.92,
+        "precision": "city",
+        "state": "Maharashtra"
+      },
+      "parties": ["Lashkar-e-Taiba", "India"],
+      "alreadyInSeed": "mumbai-2008"
+    },
+    {
+      "id": "pune-german-bakery-2010",
+      "name": "Pune German Bakery blast, 2010",
+      "summary": "A bomb in an unattended bag exploded at the German Bakery in Koregaon Park, a café popular with students and foreigners near the Osho ashram and a Chabad house. Seventeen people were killed, including several foreigners; Maharashtra ATS charged a Lashkar-e-Taiba module working with Indian Mujahideen operatives including Yasin Bhatkal.",
+      "scale": "small",
+      "types": ["terrorism"],
+      "internalExternal": "mixed",
+      "northeast": false,
+      "direction": "one-sided",
+      "time": {
+        "startYear": 2010,
+        "startMonth": 2,
+        "startDay": 13,
+        "endYear": 2010,
+        "endMonth": 2,
+        "endDay": 13,
+        "ongoing": false
+      },
+      "place": {
+        "name": "German Bakery, Pune",
+        "longitude": 73.887,
+        "latitude": 18.54,
+        "precision": "building",
+        "state": "Maharashtra"
+      },
+      "parties": ["Indian Mujahideen", "Lashkar-e-Taiba", "India"],
+      "alreadyInSeed": null
+    },
+    {
+      "id": "gurdaspur-2015",
+      "name": "Gurdaspur / Dinanagar attack, 2015",
+      "summary": "Three gunmen in army fatigues crossed from Pakistan into Punjab, fired on a bus and stormed the Dinanagar police station on 27 July 2015, the first such raid in the state in more than a decade. Seven people on the Indian side were killed; Intelligence Bureau officials described a Lashkar-e-Taiba modus operandi, and GPS sets pointed back across the international border.",
+      "scale": "small",
+      "types": ["terrorism"],
+      "internalExternal": "external",
+      "northeast": false,
+      "direction": "one-sided",
+      "time": {
+        "startYear": 2015,
+        "startMonth": 7,
+        "startDay": 27,
+        "endYear": 2015,
+        "endMonth": 7,
+        "endDay": 27,
+        "ongoing": false
+      },
+      "place": {
+        "name": "Dinanagar, Gurdaspur",
+        "longitude": 75.47,
+        "latitude": 32.13,
+        "precision": "city",
+        "state": "Punjab"
+      },
+      "parties": ["Lashkar-e-Taiba", "India"],
+      "alreadyInSeed": null
+    },
+    {
+      "id": "pathankot-2016",
+      "name": "Pathankot airbase attack, 2016",
+      "summary": "Jaish-e-Mohammed fidayeen in army uniforms entered the Indian Air Force station at Pathankot in the first days of January 2016, days after a prime-ministerial visit to Lahore. Seven Indian security personnel were killed in a multi-day combing operation; the NIA later chargesheeted Masood Azhar and other Pakistan-based Jaish handlers.",
+      "scale": "small",
+      "types": ["terrorism"],
+      "internalExternal": "external",
+      "northeast": false,
+      "direction": "one-sided",
+      "time": {
+        "startYear": 2016,
+        "startMonth": 1,
+        "startDay": 2,
+        "endYear": 2016,
+        "endMonth": 1,
+        "endDay": 5,
+        "ongoing": false
+      },
+      "place": {
+        "name": "Pathankot Air Force Station",
+        "longitude": 75.63,
+        "latitude": 32.23,
+        "precision": "building",
+        "state": "Punjab"
+      },
+      "parties": ["Jaish-e-Mohammed", "India"],
+      "alreadyInSeed": null
+    },
+    {
+      "id": "uri-2016",
+      "name": "Uri army-camp attack, 2016",
+      "summary": "Four Jaish-e-Mohammed fidayeen stormed an Indian Army brigade headquarters near Uri, close to the Line of Control, before dawn on 18 September 2016. Seventeen to nineteen soldiers died, many in tents set alight by grenades; the army called it the deadliest attack on Indian forces in Kashmir in two decades, and India answered with what it termed surgical strikes.",
+      "scale": "small",
+      "types": ["terrorism"],
+      "internalExternal": "external",
+      "northeast": false,
+      "direction": "one-sided",
+      "time": {
+        "startYear": 2016,
+        "startMonth": 9,
+        "startDay": 18,
+        "endYear": 2016,
+        "endMonth": 9,
+        "endDay": 18,
+        "ongoing": false
+      },
+      "place": {
+        "name": "Uri",
+        "longitude": 74.07,
+        "latitude": 34.08,
+        "precision": "city",
+        "state": "Jammu and Kashmir"
+      },
+      "parties": ["Jaish-e-Mohammed", "India"],
+      "alreadyInSeed": null
+    },
+    {
+      "id": "pulwama-2019",
+      "name": "Pulwama convoy bombing, 2019",
+      "summary": "A Jaish-e-Mohammed suicide bomber rammed an explosives-laden car into a CRPF convoy at Lethpora on the Jammu–Srinagar highway on 14 February 2019. Forty troopers were killed; India struck at Balakot days later, and the date became a national shorthand rather than only a Valley firefight.",
+      "scale": "small",
+      "types": ["terrorism"],
+      "internalExternal": "external",
+      "northeast": false,
+      "direction": "one-sided",
+      "time": {
+        "startYear": 2019,
+        "startMonth": 2,
+        "startDay": 14,
+        "endYear": 2019,
+        "endMonth": 2,
+        "endDay": 14,
+        "ongoing": false
+      },
+      "place": {
+        "name": "Lethpora, Pulwama",
+        "longitude": 74.96,
+        "latitude": 33.96,
+        "precision": "village",
+        "state": "Jammu and Kashmir"
+      },
+      "parties": ["Jaish-e-Mohammed", "India"],
+      "alreadyInSeed": null
+    }
+  ],
+  "incidents": [
+    {
+      "id": "bombay-blasts-1993",
+      "conflictId": "bombay-1992",
+      "name": "12 March 1993 serial blasts",
+      "kind": "bombing",
+      "date": { "year": 1993, "month": 3, "day": 12, "precision": "day" },
+      "place": {
+        "name": "Bombay (Stock Exchange and other sites)",
+        "longitude": 72.834,
+        "latitude": 18.93,
+        "precision": "city",
+        "state": "Maharashtra"
+      },
+      "summary": "Thirteen coordinated bombs — cars, scooters, suitcases — exploded across Bombay from 1:30 to 3:40 p.m., beginning in the basement of the Stock Exchange. Two hundred and fifty-seven people were killed and hundreds injured. Courts later convicted members of the Memon network; Dawood Ibrahim and Tiger Memon, accused as overseas organisers, remain fugitives.",
+      "story": "Prosecutors framed the blasts as revenge for the December 1992–January 1993 riots after the Babri Masjid demolition. It was then the deadliest urban bombing in independent India.",
+      "sides": [
+        { "label": "Dawood Ibrahim / Memon network", "role": "attacker", "kind": "insurgent" },
+        { "label": "Bombay public", "role": "target", "kind": "civilian" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 257,
+          "killedMax": 257,
+          "killedBest": 257,
+          "of": "civilian",
+          "sideLabel": "civilians across the blast sites",
+          "claimedBy": "official / court record; BBC",
+          "contested": false,
+          "note": "257 dead is the settled official total. Injured commonly given as about 713; some later accounts say about 1,400."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "BBC",
+          "headline": "How the 1993 blasts changed Mumbai forever",
+          "year": 2015,
+          "url": "https://www.bbc.com/news/world-asia-india-33713846",
+          "excerpt": "The 1993 blasts left 257 people dead, injured 1,400 and delivered a massive blow to Mumbai's psyche. Ibrahim, along with Tiger Memon, was widely seen as having masterminded the attacks.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Indian Express",
+          "headline": "1993 Mumbai serial blasts case: Dawood Ibrahim aide Farooq Takla sent to police custody till March 19",
+          "year": 2018,
+          "url": "https://indianexpress.com/article/india/1993-mumbai-serial-blasts-case-cbi-arrests-dawood-ibrahim-aide-farooq-takla-who-was-deported-from-uae-5090376/",
+          "excerpt": "On March 12, 1993, thirteen blasts ripped through the city of Mumbai, then Bombay, killing at least 257 people and injuring nearly 713.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "ic-814-kandahar-1999",
+      "conflictId": "ic-814-1999",
+      "name": "IC-814 hijack to Kandahar",
+      "kind": "kidnapping",
+      "date": { "year": 1999, "month": 12, "day": 24, "precision": "day" },
+      "place": {
+        "name": "Kandahar airport (IC-814)",
+        "longitude": 65.74,
+        "latitude": 31.51,
+        "precision": "building",
+        "state": "Afghanistan"
+      },
+      "summary": "Five Harkat-ul-Mujahideen hijackers seized Indian Airlines IC-814 after it left Kathmandu for Delhi on Christmas Eve 1999, forcing stops at Amritsar, Lahore and Dubai before landing in Taliban-held Kandahar. Rupin Katyal, 25, on honeymoon, was stabbed at Amritsar and died; 27 passengers were released in Dubai. On 31 December India freed Masood Azhar, Mushtaq Zargar and Omar Sheikh in exchange for the remaining hostages.",
+      "story": "Azhar founded Jaish-e-Mohammed months later. The week became a public argument about negotiation, intelligence failure on the Nepal route, and the cost of swapping prisoners.",
+      "sides": [
+        { "label": "Harkat-ul-Mujahideen hijackers", "role": "attacker", "kind": "insurgent" },
+        { "label": "IC-814 passengers and crew", "role": "target", "kind": "civilian" },
+        { "label": "Government of India", "role": "defender", "kind": "state-forces" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 1,
+          "killedMax": 1,
+          "killedBest": 1,
+          "of": "civilian",
+          "sideLabel": "Rupin Katyal, passenger",
+          "claimedBy": "MEA suo motu statement; The Indian Express",
+          "contested": false,
+          "note": "Katyal was the only fatality among about 179 passengers and 11 crew. Several others were stabbed or beaten."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Indian Express",
+          "headline": "What was the IC-814 aircraft hijack, the subject of a new Netflix series?",
+          "year": 2024,
+          "url": "https://indianexpress.com/article/explained/ic-814-aircraft-hijack-kandahar-real-story-9540351/",
+          "excerpt": "The hijacking would come to an end more than a week later, after negotiations, the release of three terrorists, the involvement of the Taliban, and the death of one of the 179 passengers onboard.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "Ministry of External Affairs",
+          "headline": "Suo Motu Statement by Minister of External Affairs in Parliament on the Hijacking of Indian Airlines Flight IC-814",
+          "year": 2000,
+          "url": "https://www.mea.gov.in/speeches-statements?dtl/5471/suo+motu+statement+by+minister+of+external+affairs+in+parliament+on+the+hijacking+of+indian+airlines+flight+ic814",
+          "excerpt": "Following discussions between the UAE authorities and the hijackers, release of 27 passengers, including women and children, was secured here. The dead body of one passenger, Shri Rupin Katyal, who had been stabbed by the hijackers earlier, was also off-loaded here.",
+          "stance": "state"
+        }
+      ]
+    },
+    {
+      "id": "parliament-attack-2001",
+      "conflictId": "parliament-attack-2001",
+      "name": "Parliament House attack",
+      "kind": "attack",
+      "date": { "year": 2001, "month": 12, "day": 13, "precision": "day" },
+      "place": {
+        "name": "Parliament House, New Delhi",
+        "longitude": 77.208,
+        "latitude": 28.617,
+        "precision": "building",
+        "state": "Delhi"
+      },
+      "summary": "Five gunmen in a car with a forged Home Ministry sticker entered the Parliament complex around 11:40 a.m. and opened fire after the vehicle was turned back. Eight security personnel and a gardener were killed; all five attackers died, one when a suicide vest exploded. No MP was hurt. Home Minister L. K. Advani attributed the raid jointly to Lashkar-e-Taiba and Jaish-e-Mohammed.",
+      "story": "The attack led to Operation Parakram, a months-long military mobilisation against Pakistan. Afzal Guru was later hanged for conspiracy; that conviction remains politically contested.",
+      "sides": [
+        { "label": "Jaish-e-Mohammed / Lashkar-e-Taiba gunmen", "role": "attacker", "kind": "insurgent" },
+        { "label": "Parliament security and staff", "role": "target", "kind": "state-forces" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 9,
+          "killedMax": 9,
+          "killedBest": 9,
+          "of": "state-forces",
+          "sideLabel": "eight security personnel and a gardener",
+          "claimedBy": "The Indian Express (22-year retrospective); BBC contemporaneous 12 including attackers",
+          "contested": false,
+          "note": "Settled Indian count is 9 victims plus 5 attackers (14 in all). Early BBC reports said 12 killed including gunmen."
+        },
+        {
+          "killedMin": 5,
+          "killedMax": 5,
+          "killedBest": 5,
+          "of": "insurgent",
+          "sideLabel": "five attackers",
+          "claimedBy": "Delhi Police / Indian Express",
+          "contested": false,
+          "note": ""
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Indian Express",
+          "headline": "22 years since the 2001 Parliament attack, a look back at the day",
+          "year": 2023,
+          "url": "https://indianexpress.com/article/india/2001-parliament-attack-22-years-look-back-9066052/",
+          "excerpt": "The firing lasted for over 30 minutes, leaving five terrorists, eight security personnel and a gardener dead, and 15 injured. L. K. Advani stated that the attack was executed jointly by Lashkar-e-Taiba and Jaish-e-Mohammad.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "BBC",
+          "headline": "Parliament suicide attack stuns India",
+          "year": 2001,
+          "url": "http://news.bbc.co.uk/2/hi/south_asia/1708853.stm",
+          "excerpt": "Twelve people have been killed in an unprecedented suicide attack on the Indian parliament in Delhi, officials said. Indian government officials said all five gunmen had been killed along with six police officers and a gardener.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "akshardham-2002",
+      "conflictId": "akshardham-2002",
+      "name": "Akshardham temple siege",
+      "kind": "siege",
+      "date": { "year": 2002, "month": 9, "day": 24, "precision": "day" },
+      "place": {
+        "name": "Akshardham temple, Gandhinagar",
+        "longitude": 72.674,
+        "latitude": 23.229,
+        "precision": "building",
+        "state": "Gujarat"
+      },
+      "summary": "Two gunmen climbed into the Swaminarayan Akshardham complex at about 4:45 p.m. on 24 September 2002 and fired on visitors and an exhibition hall. NSG commandos ended a night-long siege at dawn, killing both attackers. Around thirty people on the Indian side died, including devotees, police and a commando. India attributed the raid to Lashkar-e-Taiba and Jaish-e-Mohammed; in 2014 the Supreme Court acquitted six Indians convicted of a local conspiracy, citing a shoddy investigation.",
+      "story": "The attack came months after the Gujarat killings. Temple volunteers shut inner gates; Pramukh Swami Maharaj publicly asked for calm rather than a riot.",
+      "sides": [
+        { "label": "two fidayeen (LeT / JeM attribution)", "role": "attacker", "kind": "insurgent" },
+        { "label": "devotees and staff at Akshardham", "role": "target", "kind": "civilian" },
+        { "label": "NSG and Gujarat Police", "role": "defender", "kind": "state-forces" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 30,
+          "killedMax": 37,
+          "killedBest": 32,
+          "of": "mixed",
+          "sideLabel": "devotees, police and a commando (excluding the two attackers)",
+          "claimedBy": "The Hindu / Times of India (32); early Tribune 37 including attackers",
+          "contested": true,
+          "note": "Hindu High Court report: two gunmen killed 32 and injured more than 80. Times of India on the 2014 acquittal: 32 lives, including 28 visitors and security personnel. Early first-night figures ran from 25 to 44."
+        },
+        {
+          "killedMin": 2,
+          "killedMax": 2,
+          "killedBest": 2,
+          "of": "insurgent",
+          "sideLabel": "two attackers",
+          "claimedBy": "NSG / Gujarat Police",
+          "contested": false,
+          "note": ""
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Hindu",
+          "headline": "Death sentence for Akshardham temple attack convicts upheld",
+          "year": 2010,
+          "url": "https://www.thehindu.com/news/national/Death-sentence-for-Akshardham-temple-attack-convicts-upheld/article16240281.ece",
+          "excerpt": "Murtuza Hafiz Yasin and Ashraf Ali Mohammed Farooq, who entered the Akshardham temple in Gandhinagar, resorted to indiscriminate firing and lobbed grenades, killing 32 persons and injuring more than 80.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Indian Express",
+          "headline": "Supreme Court acquits all six persons in 2002 Akshardham temple terror attack case",
+          "year": 2014,
+          "url": "https://indianexpress.com/article/india/india-others/supreme-court-acquits-all-six-persons-in-2002-akshardham-temple-terror-attack-case/",
+          "excerpt": "The bench held that the prosecution failed to establish their guilt beyond reasonable doubt. Both fidayeen were killed by NSG commandos on September 25, 2002.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "delhi-blasts-2005",
+      "conflictId": "delhi-blasts-2005",
+      "name": "Delhi Diwali-week serial blasts",
+      "kind": "bombing",
+      "date": { "year": 2005, "month": 10, "day": 29, "precision": "day" },
+      "place": {
+        "name": "Sarojini Nagar / Paharganj, Delhi",
+        "longitude": 77.2,
+        "latitude": 28.63,
+        "precision": "city",
+        "state": "Delhi"
+      },
+      "summary": "Three bombs exploded within minutes on the evening of 29 October 2005, two days before Diwali, in Paharganj market, Sarojini Nagar market and a bus at Govindpuri. Sarojini Nagar was the deadliest site. Delhi Police later arrested Tariq Ahmed Dar, described as a Lashkar-e-Taiba coordinator, and said the conspiracy was hatched by a foreign-based organisation.",
+      "story": "The markets were packed with Hindu and Muslim festival shoppers. A parliamentary reply later put the toll at 66 after later deaths in hospital.",
+      "sides": [
+        { "label": "Lashkar-e-Taiba", "role": "attacker", "kind": "insurgent" },
+        { "label": "festival shoppers", "role": "target", "kind": "civilian" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 59,
+          "killedMax": 67,
+          "killedBest": 62,
+          "of": "civilian",
+          "sideLabel": "shoppers and bus passengers",
+          "claimedBy": "BBC (62); Lok Sabha reply citing Delhi Police (66); Hindustan Times (67)",
+          "contested": true,
+          "note": "BBC’s Monday home-ministry figure was 62 dead and more than 200 injured. A later parliamentary statement said 59 then 66. Site split commonly given as about 43 at Sarojini Nagar and 16 at Paharganj."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "BBC",
+          "headline": "Bomb-hit Delhi steps up security",
+          "year": 2005,
+          "url": "https://news.bbc.co.uk/2/hi/south_asia/4391544.stm",
+          "excerpt": "The death toll rose to 62 on Monday after another wounded person succumbed to their injuries, said India's home ministry. Police said 43 of the 59 people confirmed dead on Sunday perished in the blast at Sarojini Nagar.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Times of India",
+          "headline": "LeT militant held for Delhi blasts",
+          "year": 2005,
+          "url": "https://timesofindia.indiatimes.com/india/let-militant-held-for-delhi-blasts/articleshow/1293717.cms",
+          "excerpt": "Delhi Police claimed a major breakthrough in the October 29 serial blasts with the arrest of a Lashkar-e-Taiba militant in Srinagar. Police Commissioner K. K. Paul said Tariq Ahmed Dar had visited Delhi when the conspiracy was hatched.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "mumbai-trains-2006",
+      "conflictId": "mumbai-train-blasts-2006",
+      "name": "11 July 2006 suburban train blasts",
+      "kind": "bombing",
+      "date": { "year": 2006, "month": 7, "day": 11, "precision": "day" },
+      "place": {
+        "name": "Mumbai Western Line (Mahim, Matunga, Khar, Jogeshwari, Bhayandar, Borivali)",
+        "longitude": 72.84,
+        "latitude": 19.04,
+        "precision": "city",
+        "state": "Maharashtra"
+      },
+      "summary": "Seven bombs in pressure cookers exploded in first-class compartments of Western Railway locals between about 6:24 and 6:35 p.m. as office-goers headed home. The settled court figure used in later reporting is 189 dead and more than 800 injured; some contemporary tallies said 209. A special court sentenced five men to death in 2015; the Bombay High Court acquitted all twelve accused in 2025, citing identical confessions and signs of torture.",
+      "story": "Prosecutors had blamed Lashkar-e-Taiba with SIMI help and alleged ISI planning. After the acquittals, no one stands convicted of the city’s second-deadliest bombing.",
+      "sides": [
+        { "label": "Lashkar-e-Taiba / SIMI (prosecution case)", "role": "attacker", "kind": "insurgent" },
+        { "label": "suburban-train commuters", "role": "target", "kind": "civilian" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 189,
+          "killedMax": 209,
+          "killedBest": 189,
+          "of": "civilian",
+          "sideLabel": "Western Railway commuters",
+          "claimedBy": "BBC / Bombay High Court reporting 189; some earlier police tallies 209",
+          "contested": true,
+          "note": "BBC 2015 sentencing report: 189 killed, more than 800 injured. Indian Express 2025 acquittal: 189 killed, 824 injured. Some commemorative accounts still use 209."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "BBC",
+          "headline": "Mumbai train blasts: Death for five for 2006 bombings",
+          "year": 2015,
+          "url": "https://www.bbc.com/news/world-asia-india-34398810",
+          "excerpt": "Seven blasts ripped through trains in the evening rush hour on 11 July 2006, killing 189 people and injuring more than 800. The attack was blamed on Islamic militants backed by Pakistan, an allegation the country has denied.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Indian Express",
+          "headline": "2006 Mumbai train blasts: Bombay HC acquits all 12 accused",
+          "year": 2025,
+          "url": "https://indianexpress.com/article/cities/mumbai/hc-acquits-12-accused-train-blast-2006-attack-10139236/",
+          "excerpt": "A series of bombs exploded on seven western suburban coaches, killing 189 commuters and injuring 824 on July 11, 2006. The high court acquitted all 12 accused.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "hyderabad-twin-2007",
+      "conflictId": "hyderabad-2007",
+      "name": "Lumbini Park and Gokul Chat blasts",
+      "kind": "bombing",
+      "date": { "year": 2007, "month": 8, "day": 25, "precision": "day" },
+      "place": {
+        "name": "Lumbini Park and Koti, Hyderabad",
+        "longitude": 78.48,
+        "latitude": 17.39,
+        "precision": "city",
+        "state": "Telangana"
+      },
+      "summary": "Two bombs exploded about five minutes apart on Saturday evening, 25 August 2007: one in the laser-show auditorium at Lumbini Park, the other inside Gokul Chat at Koti. About forty-two people were killed, including engineering students from Maharashtra. An unexploded bomb was defused at Dilsukhnagar. An NIA court in 2018 convicted two men; the prosecution named Riyaz Bhatkal as having planted the Gokul Chat device.",
+      "story": "Agencies first suspected Bangladesh-based Harkat-ul-Jihad-al-Islami; the later trial treated the attack as an Indian Mujahideen job with overseas handlers.",
+      "sides": [
+        { "label": "Indian Mujahideen / HuJI (investigative attributions)", "role": "attacker", "kind": "insurgent" },
+        { "label": "weekend crowds at park and eatery", "role": "target", "kind": "civilian" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 34,
+          "killedMax": 42,
+          "killedBest": 42,
+          "of": "civilian",
+          "sideLabel": "visitors at Lumbini Park and Gokul Chat",
+          "claimedBy": "The Indian Express / NIA court reporting 42 (32 at Gokul Chat, 10 at Lumbini); first-night Hindu 34",
+          "contested": true,
+          "note": "Express 2018: 32 dead at Gokul Chat, 10 at Lumbini Park, more than 50 injured. First-night Hindu: at least 34."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Indian Express",
+          "headline": "Hyderabad twin bomb blasts: 2 of 5 accused convicted",
+          "year": 2018,
+          "url": "https://indianexpress.com/article/india/verdict-2007-hyderabad-twin-bomb-blasts-5338475/",
+          "excerpt": "Two blasts occurred at Gokul Chat eatery in Koti and the laser show auditorium at Lumbini Park at 7.45 pm on August 25, 2007. While 32 people died at Gokul Chat, 10 died at Lumbini Park.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Hindu",
+          "headline": "34 killed as two blasts rock Hyderabad",
+          "year": 2007,
+          "url": "https://web.archive.org/web/20110606160351/http://www.hinduonnet.com/2007/08/26/stories/2007082658340100.htm",
+          "excerpt": "Two explosions within minutes, one at an amusement park in front of the State Secretariat and another at a popular eatery in the busy Koti area, left at least 34 people dead and more than 50 injured.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "jaipur-blasts-2008",
+      "conflictId": "indian-mujahideen-2008",
+      "name": "Jaipur serial blasts",
+      "kind": "bombing",
+      "date": { "year": 2008, "month": 5, "day": 13, "precision": "day" },
+      "place": {
+        "name": "Walled City, Jaipur",
+        "longitude": 75.824,
+        "latitude": 26.926,
+        "precision": "city",
+        "state": "Rajasthan"
+      },
+      "summary": "Eight or nine bicycle bombs exploded within about fifteen minutes in Jaipur’s walled city on 13 May 2008, near markets and Hanuman temples on a Tuesday evening. Indian Mujahideen emailed a claim two days later, its first widely noticed public signature. Later Hindu court reporting used 71 dead; contemporaneous Reuters figures were around 60. A trial court sentenced four men to death in 2019; the Rajasthan High Court acquitted them in 2023.",
+      "story": "Police at first also suspected Bangladesh-based Harkat-ul-Jihad-al-Islami. The Pink City had not seen a bombing of this kind before.",
+      "sides": [
+        { "label": "Indian Mujahideen", "role": "attacker", "kind": "insurgent" },
+        { "label": "market crowds and temple-goers", "role": "target", "kind": "civilian" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 60,
+          "killedMax": 80,
+          "killedBest": 71,
+          "of": "civilian",
+          "sideLabel": "people in the walled-city markets",
+          "claimedBy": "The Hindu (71); Reuters first night ~60; some early reports 80",
+          "contested": true,
+          "note": "Hindu 2019/2023 court copy: 71 killed, about 200 injured. Reuters 13 May 2008: around 60 dead. Injured commonly ~200–216."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Hindu",
+          "headline": "Death for 4 in 2008 Jaipur bomb blasts case",
+          "year": 2019,
+          "url": "https://www.thehindu.com/news/national/other-states/four-sentenced-to-death-in-2008-jaipur-serial-blasts-case/article30358914.ece",
+          "excerpt": "Four persons convicted of the serial blasts that killed 71 people and left 200 injured in the Walled City of Jaipur in May 2008 were sentenced to death.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "Reuters",
+          "headline": "Seven bombs kill 60 people in India's Jaipur",
+          "year": 2008,
+          "url": "https://www.reuters.com/article/economy/seven-bombs-kill-60-people-in-indias-jaipur-idUSSP20219/",
+          "excerpt": "Seven bombs ripped through the crowded streets of India's western city of Jaipur on Tuesday evening, killing around 60 people in markets and outside Hindu temples.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "ahmedabad-blasts-2008",
+      "conflictId": "indian-mujahideen-2008",
+      "name": "Ahmedabad serial blasts",
+      "kind": "bombing",
+      "date": { "year": 2008, "month": 7, "day": 26, "precision": "day" },
+      "place": {
+        "name": "Ahmedabad",
+        "longitude": 72.57,
+        "latitude": 23.03,
+        "precision": "city",
+        "state": "Gujarat"
+      },
+      "summary": "About twenty bombs went off across Ahmedabad in roughly seventy minutes on 26 July 2008, including at Civil Hospital and LG Hospital where the wounded were being taken. Fifty-six people were killed and around two hundred injured. Indian Mujahideen emailed a claim framing the attack as revenge for 2002; the accused were described as former SIMI members. A special court later sentenced 38 convicts to death.",
+      "story": "Similar unexploded bombs were found in Surat the next day. Bangalore had been bombed the day before.",
+      "sides": [
+        { "label": "Indian Mujahideen / SIMI", "role": "attacker", "kind": "insurgent" },
+        { "label": "Ahmedabad public, including hospital patients", "role": "target", "kind": "civilian" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 56,
+          "killedMax": 56,
+          "killedBest": 56,
+          "of": "civilian",
+          "sideLabel": "people at markets, buses and hospitals",
+          "claimedBy": "The Indian Express / Gujarat court reporting",
+          "contested": false,
+          "note": "56 killed and around 200 injured is consistent across Express, AP and later High Court copy."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Indian Express",
+          "headline": "What is the Ahmedabad serial blasts case?",
+          "year": 2022,
+          "url": "https://indianexpress.com/article/explained/ahmedabad-serial-blasts-case-of-2008-recalled-7767130/",
+          "excerpt": "On July 26, 2008, in the span of about 70 minutes, 22 bombs went off at various places in Ahmedabad including at hospitals. Fifty-six people were killed and around 200 were injured.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "Associated Press",
+          "headline": "Indian court sentences 38 to death for fatal 2008 bombings",
+          "year": 2022,
+          "url": "https://apnews.com/article/religion-india-bombings-ahmedabad-c0d04084d5f9164cfc7cb6d4eebfc76e",
+          "excerpt": "A militant Islamic group called Harkat-ul-Jihad-al-Islami claimed responsibility. The Indian Mujahideen, a radicalized faction of the banned Students Islamic Movement of India, also was involved, said the prosecutor.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "delhi-13sept-2008",
+      "conflictId": "indian-mujahideen-2008",
+      "name": "Delhi 13 September 2008 blasts",
+      "kind": "bombing",
+      "date": { "year": 2008, "month": 9, "day": 13, "precision": "day" },
+      "place": {
+        "name": "Karol Bagh, Connaught Place and Greater Kailash, Delhi",
+        "longitude": 77.19,
+        "latitude": 28.65,
+        "precision": "city",
+        "state": "Delhi"
+      },
+      "summary": "Five bombs exploded in Saturday-evening markets at Ghaffar Market in Karol Bagh, Connaught Place and Greater Kailash-I; several more were defused, including one at India Gate. Indian Mujahideen emailed a ‘Message of Death’ as the bombs went off. Death counts in later reporting run from about 20 to 30. Delhi High Court copy in 2024 used 26 killed and 135 injured.",
+      "story": "The group had already claimed Jaipur and Ahmedabad that year. A week later Delhi Police fought IM suspects at Batla House.",
+      "sides": [
+        { "label": "Indian Mujahideen", "role": "attacker", "kind": "insurgent" },
+        { "label": "market crowds", "role": "target", "kind": "civilian" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 20,
+          "killedMax": 30,
+          "killedBest": 26,
+          "of": "civilian",
+          "sideLabel": "shoppers at Karol Bagh, CP and GK-I",
+          "claimedBy": "Delhi Police Commissioner 21 on the night; Delhi HC 2024: 26 dead, 135 injured; some reports 30",
+          "contested": true,
+          "note": "Rediff quoting the commissioner: 21 killed, over 90 injured. Later NDTV/IDSA figures of 30 circulate; 26 is the High Court figure."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "Rediff",
+          "headline": "Multiple blasts rock Delhi, 21 killed",
+          "year": 2008,
+          "url": "https://www.rediff.com/news/report/delhi/20080913.htm",
+          "excerpt": "Five blasts rocked New Delhi on Saturday evening, killing 21 persons and injuring over 90 persons, according to Delhi Police Commissioner Yudhvir Singh Dhadwal. The Indian Mujahideen claimed responsibility through an email.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Indian Express",
+          "headline": "Delhi blasts: Indian Mujahideen claims responsibility",
+          "year": 2008,
+          "url": "https://indianexpress.com/article/news-archive/delhi-blasts-indian-mujahideen-claims-responsibility/",
+          "excerpt": "Indian Mujahideen claimed responsibility of the serial blasts that killed at least five people in the national capital. In an e-mail the outfit that had earlier also claimed the Jaipur and Ahmedabad blasts said, ‘Indian Mujahideen strikes back once more.’",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "mumbai-cst-2008",
+      "conflictId": "mumbai-2008",
+      "name": "Chhatrapati Shivaji Terminus",
+      "kind": "attack",
+      "date": { "year": 2008, "month": 11, "day": 26, "precision": "day" },
+      "place": {
+        "name": "CST, Mumbai",
+        "longitude": 72.835,
+        "latitude": 18.94,
+        "precision": "building",
+        "state": "Maharashtra"
+      },
+      "summary": "Ajmal Kasab and Abu Ismail walked into the main hall of Chhatrapati Shivaji Terminus around 9:20 p.m. and fired into rush-hour crowds. CST was the bloodiest single site of 26/11, with about 52 to 58 people killed there before the pair moved toward Cama Hospital. Closed-circuit video of Kasab on the concourse became the image of the night.",
+      "story": "Kasab was captured later that night; Ismail was killed. Citywide, ten attackers killed 166 people; nine gunmen died.",
+      "sides": [
+        { "label": "Lashkar-e-Taiba gunmen", "role": "attacker", "kind": "insurgent" },
+        { "label": "passengers, staff and police at CST", "role": "target", "kind": "civilian" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 52,
+          "killedMax": 58,
+          "killedBest": 58,
+          "of": "civilian",
+          "sideLabel": "people at CST",
+          "claimedBy": "Economic Times timeline 58; earlier site tallies 52",
+          "contested": true,
+          "note": "CST is consistently the highest single-site toll. Citywide official victims: 166, plus 9 attackers."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Indian Express",
+          "headline": "26/11 Mumbai terror attacks: A brief timeline",
+          "year": 2021,
+          "url": "https://indianexpress.com/article/india/26-11-mumbai-terror-attacks-timeline-of-what-happened-during-64-hours-of-operation-7642091/",
+          "excerpt": "Ten LeT gunmen attacked Mumbai on 26 November 2008. The violence claimed 166 lives; CST was among the first and deadliest sites.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Economic Times",
+          "headline": "26/11 Mumbai attacks timeline: How the four-day siege unfolded",
+          "year": 2025,
+          "url": "https://m.economictimes.com/news/india/26/11-mumbai-attacks-timeline-how-the-four-day-siege-unfolded/articleshow/125578865.cms",
+          "excerpt": "Ajmal Kasab and Ismail Khan storm the railway terminus, firing indiscriminately at passengers. The carnage lasts nearly an hour and a half, killing 58 people and injuring over 100.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "mumbai-taj-2008",
+      "conflictId": "mumbai-2008",
+      "name": "Taj Mahal Palace siege",
+      "kind": "siege",
+      "date": { "year": 2008, "month": 11, "day": 26, "precision": "day" },
+      "place": {
+        "name": "Taj Mahal Palace, Mumbai",
+        "longitude": 72.833,
+        "latitude": 18.922,
+        "precision": "building",
+        "state": "Maharashtra"
+      },
+      "summary": "Four Lashkar-e-Taiba gunmen entered the Taj Mahal Palace from the lobby and poolside and held the hotel until the morning of 29 November. Guests and staff hid in rooms; fires burned in the dome on live television. Site tallies of the dead at the Taj sit around 31–36 of the citywide 166. NSG commandos cleared the building floor by floor.",
+      "story": "Staff led guests through service corridors for more than 60 hours. The burning dome became the global picture of 26/11.",
+      "sides": [
+        { "label": "Lashkar-e-Taiba gunmen", "role": "attacker", "kind": "insurgent" },
+        { "label": "Taj guests and staff", "role": "target", "kind": "civilian" },
+        { "label": "NSG and Mumbai Police", "role": "defender", "kind": "state-forces" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 31,
+          "killedMax": 36,
+          "killedBest": null,
+          "of": "civilian",
+          "sideLabel": "guests and staff at the Taj",
+          "claimedBy": "BBC / Indian Express site breakdowns",
+          "contested": true,
+          "note": "Taj-only totals vary with whether nearby police-post dead are counted. Citywide official victims: 166."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Indian Express",
+          "headline": "Fourteen years on, remembering the 26/11 Mumbai terror attacks",
+          "year": 2022,
+          "url": "https://indianexpress.com/article/cities/mumbai/remembering-26-11-mumbai-terror-attacks-8288879/",
+          "excerpt": "For more than 60 hours the Taj Mahal Palace was besieged by four militants. 166 people were killed across Mumbai; nine gunmen died and one was captured.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "Britannica",
+          "headline": "Mumbai terrorist attacks of 2008",
+          "year": 2009,
+          "url": "https://www.britannica.com/event/Mumbai-terrorist-attacks-of-2008",
+          "excerpt": "The attacks continued at three locations where hostages were taken: the Nariman House, and the luxury hotels Oberoi Trident and Taj Mahal Palace & Tower. In all, 175 people—including 9 of the 10 attackers—were killed.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "mumbai-nariman-2008",
+      "conflictId": "mumbai-2008",
+      "name": "Nariman House siege",
+      "kind": "siege",
+      "date": { "year": 2008, "month": 11, "day": 26, "precision": "day" },
+      "place": {
+        "name": "Nariman House (Chabad House), Colaba",
+        "longitude": 72.825,
+        "latitude": 18.916,
+        "precision": "building",
+        "state": "Maharashtra"
+      },
+      "summary": "Two Lashkar-e-Taiba gunmen took over the five-storey Chabad Lubavitch centre in Colaba, holding Rabbi Gavriel Holtzberg, his wife Rivka and visitors hostage until NSG commandos ended the siege on 28 November. Six people died in the building in the memorial count; some contemporaneous reports said the rabbi, his wife and five other hostages, plus a commando. Their two-year-old son Moshe was carried out by his nanny.",
+      "story": "Controllers in Pakistan asked the pair about the Jewish centre by phone. A terrace memorial later listed all 166 city victims.",
+      "sides": [
+        { "label": "Lashkar-e-Taiba gunmen", "role": "attacker", "kind": "insurgent" },
+        { "label": "Chabad House residents and guests", "role": "target", "kind": "civilian" },
+        { "label": "NSG", "role": "defender", "kind": "state-forces" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 6,
+          "killedMax": 9,
+          "killedBest": 6,
+          "of": "civilian",
+          "sideLabel": "people inside Nariman House",
+          "claimedBy": "Indian Express memorial: six persons died at the building; 2016 Express timeline: rabbi, wife and five hostages",
+          "contested": true,
+          "note": "Memorial plaque language is six dead at the house. Some reports add NSG commando Joginder Singh. Citywide 166."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Indian Express",
+          "headline": "26/11 Mumbai attack: Memorial for victims at Nariman House",
+          "year": 2018,
+          "url": "https://indianexpress.com/article/26-11/stories-of-strength/26-11-mumbai-attack-memorial-for-victims-at-nariman-house-5464243/",
+          "excerpt": "Rechristening a part of the five-storey building — where six persons died during the attacks — a terrace memorial will become a permanent site paying tribute to all the 166 victims. Rabbi Gavriel Holtzberg and wife Rivka were killed; their then two-year-old son Moshe was saved by his nanny.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Indian Express",
+          "headline": "26/11 Mumbai terror attacks: Here’s what happened at Taj Mahal Hotel, Trident-Oberoi, Nariman House",
+          "year": 2016,
+          "url": "https://indianexpress.com/article/26-11/timeline/2611-mumbai-terror-attacks-heres-what-happened-at-taj-mahal-hotel-trident-oberoi-nariman-house/",
+          "excerpt": "NSG chief J. K. Dutta declared the rescue operation at Nariman House successfully over. The Rabbi, his wife and five of the hostages were found dead. One commando, Joginder Singh, was killed.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "mumbai-leopold-2008",
+      "conflictId": "mumbai-2008",
+      "name": "Leopold Cafe",
+      "kind": "attack",
+      "date": { "year": 2008, "month": 11, "day": 26, "precision": "day" },
+      "place": {
+        "name": "Leopold Cafe, Colaba",
+        "longitude": 72.832,
+        "latitude": 18.922,
+        "precision": "building",
+        "state": "Maharashtra"
+      },
+      "summary": "Two of the ten gunmen opened fire on Leopold Cafe, a Colaba restaurant popular with tourists, around 9:30 p.m. before moving on to the Taj. About ten people were killed at the café in a few minutes. Bullet marks were later left in the walls as a memorial.",
+      "story": "Intelligence alerts in June 2008 had named Leopold as a possible target. The café reopened; the pocked wood became part of how the city told the night.",
+      "sides": [
+        { "label": "Lashkar-e-Taiba gunmen", "role": "attacker", "kind": "insurgent" },
+        { "label": "Leopold patrons and staff", "role": "target", "kind": "civilian" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 10,
+          "killedMax": 11,
+          "killedBest": 10,
+          "of": "civilian",
+          "sideLabel": "people at Leopold Cafe",
+          "claimedBy": "Economic Times timeline about 10; some site lists 11",
+          "contested": true,
+          "note": "A short shooting, not a siege. Citywide 166."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Economic Times",
+          "headline": "26/11 Mumbai attacks timeline: How the four-day siege unfolded",
+          "year": 2025,
+          "url": "https://m.economictimes.com/news/india/26/11-mumbai-attacks-timeline-how-the-four-day-siege-unfolded/articleshow/125578865.cms",
+          "excerpt": "Around the same time, four attackers shoot patrons at the popular café, killing about 10.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Hindu",
+          "headline": "Taj, Oberoi ignored pre-26/11 warnings: Probe panel",
+          "year": 2009,
+          "url": "https://www.thehindu.com/news/Taj-Oberoi-ignored-pre-26-11-warnings-Probe-panel/article16855772.ece",
+          "excerpt": "The two hotels and the Leopold Cafe — the worst-hit sites during the terror strikes — were ill-prepared despite intelligence warnings that Lashkar-e-Taiba was planning to target them. An alert dated June 26, 2008, indicated Leopold Cafe was mentioned as one of the sites.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "mumbai-cama-2008",
+      "conflictId": "mumbai-2008",
+      "name": "Cama Hospital ambush",
+      "kind": "attack",
+      "date": { "year": 2008, "month": 11, "day": 26, "precision": "day" },
+      "place": {
+        "name": "Cama Hospital, Mumbai",
+        "longitude": 72.831,
+        "latitude": 18.943,
+        "precision": "building",
+        "state": "Maharashtra"
+      },
+      "summary": "After CST, Kasab and Ismail moved on Cama and Albless Hospital, a women’s and children’s hospital, firing inside and then ambushing a police team outside. ATS chief Hemant Karkare, Additional Commissioner Ashok Kamte and Inspector Vijay Salaskar were among six policemen killed in a police Qualis; constable Arun Jadhav survived. The loss of the city’s senior anti-terror officers shaped how the rest of the night was fought.",
+      "story": "Kasab was captured a little later at Girgaum Chowpatty after ASI Tukaram Omble held his gun.",
+      "sides": [
+        { "label": "Lashkar-e-Taiba gunmen", "role": "attacker", "kind": "insurgent" },
+        { "label": "Mumbai Police officers near Cama", "role": "target", "kind": "state-forces" },
+        { "label": "patients and staff at Cama", "role": "target", "kind": "civilian" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 6,
+          "killedMax": 6,
+          "killedBest": 6,
+          "of": "state-forces",
+          "sideLabel": "policemen in the Qualis ambush outside Cama",
+          "claimedBy": "BBC (Soutik Biswas); Indian Express trial reporting",
+          "contested": false,
+          "note": "Six policemen in the vehicle, including Karkare, Kamte and Salaskar. Separate casualties inside the hospital are not cleanly isolated in the same tables."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "BBC",
+          "headline": "Mumbai 26/11 attacks: Six corpses, a mobile phone call and one survivor",
+          "year": 2018,
+          "url": "https://www.bbc.com/news/world-asia-india-46314555",
+          "excerpt": "The Mumbai terror attacks of 26 November 2008 left 166 people dead. During the 60-hour siege, the gunmen also ambushed a group of policemen, including three of the city's top officers travelling in a vehicle, and killed six of them.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Indian Express",
+          "headline": "Cop’s answer to firing denial: this man shot my boss outside Cama",
+          "year": 2009,
+          "url": "https://indianexpress.com/article/cities/mumbai/cop-s-answer-to-firing-denial-this-man-shot/",
+          "excerpt": "Jadhav is the sole survivor of a gunbattle outside Cama Hospital. Those killed included three constables and officers Hemant Karkare, Ashok Kamte and Vijay Salaskar.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "mumbai-oberoi-2008",
+      "conflictId": "mumbai-2008",
+      "name": "Oberoi-Trident siege",
+      "kind": "siege",
+      "date": { "year": 2008, "month": 11, "day": 26, "precision": "day" },
+      "place": {
+        "name": "Oberoi-Trident, Nariman Point",
+        "longitude": 72.82,
+        "latitude": 18.927,
+        "precision": "building",
+        "state": "Maharashtra"
+      },
+      "summary": "A pair of Lashkar-e-Taiba gunmen attacked the Oberoi-Trident complex at Nariman Point, a hotel full of foreign guests, and held it until the afternoon of 28 November. Indian Express reporting of the rescue said 143 hostages were brought out alive and 24 bodies recovered; some later round-ups put the hotel’s dead near 30. Foreign nationals were reported as a particular target.",
+      "story": "The Pradhan committee later found the hotel had not acted on intelligence warnings that named it alongside the Taj.",
+      "sides": [
+        { "label": "Lashkar-e-Taiba gunmen", "role": "attacker", "kind": "insurgent" },
+        { "label": "Oberoi-Trident guests and staff", "role": "target", "kind": "civilian" },
+        { "label": "NSG", "role": "defender", "kind": "state-forces" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 24,
+          "killedMax": 35,
+          "killedBest": 24,
+          "of": "civilian",
+          "sideLabel": "people at the Oberoi-Trident",
+          "claimedBy": "Indian Express: 24 bodies recovered; some later round-ups ~30",
+          "contested": true,
+          "note": "Site totals vary. Citywide official victims remain 166."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Indian Express",
+          "headline": "26/11 Mumbai terror attacks: Here’s what happened at Taj Mahal Hotel, Trident-Oberoi, Nariman House",
+          "year": 2016,
+          "url": "https://indianexpress.com/article/26-11/timeline/2611-mumbai-terror-attacks-heres-what-happened-at-taj-mahal-hotel-trident-oberoi-nariman-house/",
+          "excerpt": "By the time the siege ended in Oberoi-Trident, 143 hostages were rescued alive and 24 bodies were recovered. Foreign nationals were reported to be the prime point of target.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "BBC",
+          "headline": "Mumbai marks terror attacks anniversary",
+          "year": 2010,
+          "url": "https://www.bbc.com/news/world-south-asia-11843678",
+          "excerpt": "India is marking two years since gunmen launched co-ordinated attacks in the western city of Mumbai (Bombay), killing 166 people. The 60-hour siege targeted luxury hotels, the main railway station and a Jewish cultural centre.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "pune-german-bakery-2010",
+      "conflictId": "pune-german-bakery-2010",
+      "name": "German Bakery bombing",
+      "kind": "bombing",
+      "date": { "year": 2010, "month": 2, "day": 13, "precision": "day" },
+      "place": {
+        "name": "German Bakery, Koregaon Park, Pune",
+        "longitude": 73.887,
+        "latitude": 18.54,
+        "precision": "building",
+        "state": "Maharashtra"
+      },
+      "summary": "A bomb in an unattended package exploded at about 7:15 p.m. in the German Bakery, a café packed with students and foreigners near the Osho ashram. Nine people died that night; the toll later rose to 17, including an Italian woman, an Iranian student and two Sudanese students. Maharashtra ATS charged Mirza Himayat Baig of a Lashkar-e-Taiba module and named Yasin Bhatkal of Indian Mujahideen as a co-conspirator still at large.",
+      "story": "The blast came a day after India and Pakistan agreed to resume talks, the first formal meeting since 26/11.",
+      "sides": [
+        { "label": "Indian Mujahideen / Lashkar-e-Taiba module", "role": "attacker", "kind": "insurgent" },
+        { "label": "café patrons, including foreign students", "role": "target", "kind": "civilian" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 16,
+          "killedMax": 18,
+          "killedBest": 17,
+          "of": "civilian",
+          "sideLabel": "people at the German Bakery",
+          "claimedBy": "BBC (guilty verdict): 17 killed, 64 wounded; first-night Hindu: 9",
+          "contested": true,
+          "note": "First night 9 dead. BBC 24 Feb 2010: toll 16. Later ATS/BBC court copy: 17, five of them foreigners. Some compilations 18."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Hindu",
+          "headline": "9 killed, 40 injured in Pune bomb blast",
+          "year": 2010,
+          "url": "https://www.thehindu.com/news/national/9-killed-40-injured-in-Pune-bomb-blast/article16814472.ece",
+          "excerpt": "Nine persons including four foreigners, all women, were killed and over 40 injured in a bomb blast which ravaged the famous German Bakery on North Main Avenue in Pune's Koregaon Park near the Osho Ashram.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "BBC",
+          "headline": "India Pune bakery blast man found guilty",
+          "year": 2013,
+          "url": "https://www.bbc.com/news/world-asia-india-22149223",
+          "excerpt": "The blast targeted the bakery when it was full of tourists and students, killing 17 people and wounding 64. Five foreigners were among the dead. Mirza Himayat Baig, who belonged to a banned militant group, will be sentenced on Thursday.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "mumbai-13july-2011",
+      "conflictId": "indian-mujahideen-2008",
+      "name": "Mumbai 13 July 2011 blasts",
+      "kind": "bombing",
+      "date": { "year": 2011, "month": 7, "day": 13, "precision": "day" },
+      "place": {
+        "name": "Zaveri Bazaar, Opera House and Dadar, Mumbai",
+        "longitude": 72.83,
+        "latitude": 18.96,
+        "precision": "city",
+        "state": "Maharashtra"
+      },
+      "summary": "Three bombs exploded within about eleven minutes on 13 July 2011 at Zaveri Bazaar, the Opera House diamond district and Dadar’s Kabutarkhana. First official figures said 17 to 21 dead; by the end of the month The Hindu counted 26. Mumbai Police and the Home Ministry suspected Indian Mujahideen working with Lashkar-e-Taiba. It was the city’s first major bombing after 26/11.",
+      "story": "Zaveri Bazaar had also been hit in 1993 and 2003. Yasin Bhatkal was later named as personally involved.",
+      "sides": [
+        { "label": "Indian Mujahideen", "role": "attacker", "kind": "insurgent" },
+        { "label": "traders and commuters", "role": "target", "kind": "civilian" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 17,
+          "killedMax": 27,
+          "killedBest": 26,
+          "of": "civilian",
+          "sideLabel": "people at Zaveri Bazaar, Opera House and Dadar",
+          "claimedBy": "The Hindu 30 July 2011: 26th fatality; first-night CM 21; BBC revised to 17 then later accounts 26–27",
+          "contested": true,
+          "note": "Hospital deaths continued for weeks. Injured commonly about 130."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Hindu",
+          "headline": "21 killed, 141 injured as terror strikes Mumbai again",
+          "year": 2011,
+          "url": "https://www.thehindu.com/news/national/21-killed-141-injured-as-terror-strikes-mumbai-again/article2224356.ece",
+          "excerpt": "Three blasts between 6.54 p.m. and 7.05 p.m. on Wednesday rocked the crowded areas of Mumbai, killing 21 persons and injuring 141 others, at Zaveri Bazaar, Kabutarkhana near Dadar, and Opera House.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Hindu",
+          "headline": "Mumbai blasts death toll mounts to 26",
+          "year": 2011,
+          "url": "https://www.thehindu.com/news/national/mumbai-blasts-death-toll-mounts-to-26/article2308232.ece",
+          "excerpt": "Injured in the blast at Mumbai's Opera House on July 13, Chandrakant Vankar died on Saturday, becoming the 26th fatality of the terror attack.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "dilsukhnagar-2013",
+      "conflictId": "indian-mujahideen-2008",
+      "name": "Dilsukhnagar twin blasts",
+      "kind": "bombing",
+      "date": { "year": 2013, "month": 2, "day": 21, "precision": "day" },
+      "place": {
+        "name": "Dilsukhnagar, Hyderabad",
+        "longitude": 78.525,
+        "latitude": 17.369,
+        "precision": "city",
+        "state": "Telangana"
+      },
+      "summary": "Two bicycle-borne IEDs exploded about 100 metres apart in Dilsukhnagar on 21 February 2013, outside an eatery and near a bus stand on the Hyderabad–Vijayawada road. First-night reports said 13 dead; later counts ran to 16–18, with more than 100 injured. An NIA court sentenced Yasin Bhatkal and others to death, treating the attack as an Indian Mujahideen operation.",
+      "story": "One of the 2013 bombs was near a footbridge where police had defused a device on the night of the 2007 Lumbini Park and Gokul Chat blasts.",
+      "sides": [
+        { "label": "Indian Mujahideen", "role": "attacker", "kind": "insurgent" },
+        { "label": "evening crowds at Dilsukhnagar", "role": "target", "kind": "civilian" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 13,
+          "killedMax": 18,
+          "killedBest": 18,
+          "of": "civilian",
+          "sideLabel": "people at Dilsukhnagar",
+          "claimedBy": "The Hindu first night 13; later Hindu on an IM convict 18 dead, over 130 injured; HT named-dead list 16",
+          "contested": true,
+          "note": "Toll rose in hospital. NIA court language in later reports uses 18."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Hindu",
+          "headline": "The Hindu Archive: 13 killed, 83 injured as twin blasts rock Hyderabad",
+          "year": 2013,
+          "url": "https://www.thehindu.com/news/cities/Hyderabad/the-hindu-archive-13-killed-83-injured-as-twin-blasts-rock-hyderabad/article4439367.ece",
+          "excerpt": "Two powerful explosions ripped through crowded areas at Dilsukhnagar, killing 13 persons and injuring more than 83. The twin blasts brought back memories of the August 25, 2007 IED attacks in Lumbini Park and at Gokul Chat.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Hindu",
+          "headline": "Indian Mujahideen operative involved in Hyderabad twin blasts dies of kidney ailment",
+          "year": 2024,
+          "url": "https://www.thehindu.com/news/national/telangana/indian-mujahideen-operative-involved-in-hyderabad-twin-blasts-dies-of-kidney-ailment/article68448597.ece",
+          "excerpt": "A key accused in the Dilsukhnagar bomb blast in 2013, that claimed 18 lives and injured over 130, died in Cherlapally Central Prison. Syed Maqbool Zuber was a key member of the Indian Mujahideen module.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "gurdaspur-2015",
+      "conflictId": "gurdaspur-2015",
+      "name": "Dinanagar police-station attack",
+      "kind": "attack",
+      "date": { "year": 2015, "month": 7, "day": 27, "precision": "day" },
+      "place": {
+        "name": "Dinanagar, Gurdaspur",
+        "longitude": 75.47,
+        "latitude": 32.13,
+        "precision": "city",
+        "state": "Punjab"
+      },
+      "summary": "Three gunmen in army uniforms fired on a bus and a roadside stall, then occupied the Dinanagar police station and an adjoining building for about twelve hours. Seven people on the Indian side were killed — SP Baljeet Singh, other policemen and three civilians — and all three attackers died. A top IB official told The Hindu the method matched Lashkar-e-Taiba; GPS sets and Chinese-made rifles were recovered, and bombs were found on a nearby railway bridge.",
+      "story": "It was the worst such attack in Punjab in more than a decade, shifting a Pakistan-origin fidayeen raid out of Kashmir into the plains.",
+      "sides": [
+        { "label": "Lashkar-e-Taiba gunmen", "role": "attacker", "kind": "insurgent" },
+        { "label": "Punjab Police", "role": "target", "kind": "state-forces" },
+        { "label": "civilians at Dinanagar", "role": "target", "kind": "civilian" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 7,
+          "killedMax": 7,
+          "killedBest": 7,
+          "of": "mixed",
+          "sideLabel": "four policemen including an SP, and three civilians",
+          "claimedBy": "The Hindu",
+          "contested": false,
+          "note": "First-night headlines also said 10 dead including the three militants."
+        },
+        {
+          "killedMin": 3,
+          "killedMax": 3,
+          "killedBest": 3,
+          "of": "insurgent",
+          "sideLabel": "three attackers",
+          "claimedBy": "Punjab Police / The Hindu",
+          "contested": false,
+          "note": ""
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Hindu",
+          "headline": "10 dead as terror returns to Punjab",
+          "year": 2015,
+          "url": "https://www.thehindu.com/news/national/Dinanagar-Gurdaspur-attack/article60333950.ece",
+          "excerpt": "Seven persons were killed — one SP, three police officers and three civilians — in Monday’s fidayeen attack, the worst in Punjab in over a decade. A top Intelligence Bureau official said the attack had the modus operandi of Lashkar-e-Taiba.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Hindu",
+          "headline": "Ground Zero: Gurdaspur",
+          "year": 2015,
+          "url": "https://www.thehindu.com/news/national/ground-zero-when-terror-struck-gurdaspur/article10599533.ece",
+          "excerpt": "The gunbattle stretched for nearly 12 hours as the militants were holed up in a vacant building adjacent to Dinanagar police station. Police recovered Chinese made AK-47s, Chinese grenades and two GPS locators.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "pathankot-2016",
+      "conflictId": "pathankot-2016",
+      "name": "Pathankot airbase assault",
+      "kind": "attack",
+      "date": { "year": 2016, "month": 1, "day": 2, "precision": "day" },
+      "place": {
+        "name": "Pathankot Air Force Station",
+        "longitude": 75.63,
+        "latitude": 32.23,
+        "precision": "building",
+        "state": "Punjab"
+      },
+      "summary": "Gunmen in army uniforms entered the Pathankot airbase before dawn on 2 January 2016 after hijacking a vehicle. A four-day operation by the Army, NSG and IAF Garud commandos followed. Seven Indian security personnel were killed, including five Defence Security Corps men, a Garud commando and NSG Lt Col Niranjan Kumar; four to six attackers died. The NIA later chargesheeted Jaish-e-Mohammed chief Masood Azhar and other Pakistan-based handlers.",
+      "story": "The raid came a week after a prime-ministerial stop in Lahore. Pakistan sent a JIT; it publicly denied a Jaish link. How many attackers there were — four or six — was itself argued in Parliament.",
+      "sides": [
+        { "label": "Jaish-e-Mohammed", "role": "attacker", "kind": "insurgent" },
+        { "label": "IAF, DSC and NSG personnel", "role": "defender", "kind": "state-forces" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 7,
+          "killedMax": 8,
+          "killedBest": 7,
+          "of": "state-forces",
+          "sideLabel": "Indian security personnel at the base",
+          "claimedBy": "BBC; Indian Express NIA chargesheet reporting",
+          "contested": false,
+          "note": "Standard Indian figure is 7 security personnel. Some NIA copy says eight persons including seven security personnel, implying a civilian."
+        },
+        {
+          "killedMin": 4,
+          "killedMax": 6,
+          "killedBest": 4,
+          "of": "insurgent",
+          "sideLabel": "Jaish attackers",
+          "claimedBy": "MHA later told Parliament four, not six; NSG had claimed six",
+          "contested": true,
+          "note": "Home Ministry later said four Jaish terrorists entered the base."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "BBC",
+          "headline": "Pathankot: Kashmir-based militant coalition claims attack",
+          "year": 2016,
+          "url": "https://www.bbc.com/news/world-asia-india-35216716",
+          "excerpt": "Five militants and seven Indian soldiers have so far been killed during three days of fighting. Over the weekend some Indian security officials suggested the Pakistan-based Islamist militant group Jaish-e-Mohammed was to blame.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Indian Express",
+          "headline": "Pathankot attack: Jaish-e-Mohammed plotted attack in 2014 with Google map of airbase, says NIA",
+          "year": 2016,
+          "url": "https://indianexpress.com/article/india/pathankot-air-base-attack-jaish-e-mohammed-nia-chargesheet-maulana-masood-azhar-shahid-latif-4436177/",
+          "excerpt": "Eight persons, including seven security personnel, were killed and 38 others were injured in the attack. The chargesheet named Shahid Latif along with Jaish chief Maulana Masood Azhar.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "uri-2016",
+      "conflictId": "uri-2016",
+      "name": "Uri brigade headquarters attack",
+      "kind": "attack",
+      "date": { "year": 2016, "month": 9, "day": 18, "precision": "day" },
+      "place": {
+        "name": "Uri army camp",
+        "longitude": 74.07,
+        "latitude": 34.08,
+        "precision": "building",
+        "state": "Jammu and Kashmir"
+      },
+      "summary": "Four fidayeen attacked the administrative rear of an Indian Army brigade headquarters near Uri around 5:30 a.m. on 18 September 2016, lobbing grenades into tents of 10 Dogra and 6 Bihar. Seventeen soldiers were reported killed that day; two more died later, taking the toll to 19. All four attackers were killed. The DGMO said they were foreigners from Jaish-e-Mohammed carrying items with Pakistani markings.",
+      "story": "The BBC called it the deadliest attack on Indian forces in Kashmir in two decades. India announced what it termed surgical strikes across the Line of Control eleven days later.",
+      "sides": [
+        { "label": "Jaish-e-Mohammed", "role": "attacker", "kind": "insurgent" },
+        { "label": "Indian Army (10 Dogra, 6 Bihar)", "role": "target", "kind": "state-forces" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 17,
+          "killedMax": 19,
+          "killedBest": 19,
+          "of": "state-forces",
+          "sideLabel": "Indian soldiers at the Uri camp",
+          "claimedBy": "BBC 17 on the day; later tallies 19 after hospital deaths",
+          "contested": false,
+          "note": "First-day army/BBC figure 17. Two later deaths in hospital are widely included, making 19. About 19–30 were injured."
+        },
+        {
+          "killedMin": 4,
+          "killedMax": 4,
+          "killedBest": 4,
+          "of": "insurgent",
+          "sideLabel": "four Jaish attackers",
+          "claimedBy": "Indian Army DGMO",
+          "contested": false,
+          "note": ""
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "BBC",
+          "headline": "Militants attack Indian army base in Kashmir 'killing 17'",
+          "year": 2016,
+          "url": "https://www.bbc.com/news/world-asia-india-37399969",
+          "excerpt": "Militants have attacked an army base in Indian-administered Kashmir, killing at least 17 soldiers, the army says. All four of the attackers were killed. It is the deadliest attack on security forces in Kashmir in two decades.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Indian Express",
+          "headline": "Uri attack kills 17 jawans: Here is everything you need to know",
+          "year": 2016,
+          "url": "https://indianexpress.com/article/india/india-news-india/uri-attack-kills-17-jawans-here-is-everything-you-need-to-know-about-the-worst-assault-on-indian-army/",
+          "excerpt": "At least 17 army jawans were killed in Jammu and Kashmir’s Uri when a four-man fidayeen squad attacked the rear office of an Indian Army infantry installation. Initial investigations indicated the role of Jaish-e-Mohammed.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "pulwama-2019",
+      "conflictId": "pulwama-2019",
+      "name": "Pulwama CRPF convoy bombing",
+      "kind": "bombing",
+      "date": { "year": 2019, "month": 2, "day": 14, "precision": "day" },
+      "place": {
+        "name": "Lethpora, Pulwama",
+        "longitude": 74.96,
+        "latitude": 33.96,
+        "precision": "village",
+        "state": "Jammu and Kashmir"
+      },
+      "summary": "On 14 February 2019 a Jaish-e-Mohammed suicide bomber, Adil Ahmad Dar of Pulwama, rammed an explosives-laden car into a CRPF convoy on the Jammu–Srinagar highway at Lethpora. Forty CRPF personnel of the 76th Battalion were killed, the deadliest attack on Indian security forces in decades of the Kashmir insurgency. First-day reports of 44 were revised down. India struck at Balakot days later.",
+      "story": "JeM released Dar’s video. About 2,500 personnel in a 70-vehicle convoy were moving into the Valley after winter leave.",
+      "sides": [
+        { "label": "Jaish-e-Mohammed", "role": "attacker", "kind": "insurgent" },
+        { "label": "CRPF convoy", "role": "target", "kind": "state-forces" }
+      ],
+      "casualties": [
+        {
+          "killedMin": 40,
+          "killedMax": 44,
+          "killedBest": 40,
+          "of": "state-forces",
+          "sideLabel": "CRPF personnel",
+          "claimedBy": "The Hindu / The Indian Express; official settled total 40 CRPF",
+          "contested": false,
+          "note": "Initial bulletins said 44; the settled official figure is 40 CRPF personnel, plus the bomber."
+        },
+        {
+          "killedMin": 1,
+          "killedMax": 1,
+          "killedBest": 1,
+          "of": "insurgent",
+          "sideLabel": "suicide bomber Adil Ahmad Dar",
+          "claimedBy": "JeM claim / official identification",
+          "contested": false,
+          "note": "The bomber was killed in the blast."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Hindu",
+          "headline": "February 14, 2019: When a CRPF convoy came under attack in Pulwama",
+          "year": 2019,
+          "url": "https://www.thehindu.com/news/national/february-14-2019-when-a-crpf-convoy-came-under-attack-in-pulwama-on-srinagar-jammu-highway/article26292339.ece",
+          "excerpt": "At least 40 CRPF personnel were killed when a Jaish-e-Mohammed suicide bomber rammed an explosives-laden vehicle into a convoy bus near Awantipora.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Indian Express",
+          "headline": "Recalling the Pulwama terrorist attack: what happened on Feb 14, 2019?",
+          "year": 2024,
+          "url": "https://indianexpress.com/article/explained/five-years-pulwama-terror-attack-recall-9161523/",
+          "excerpt": "A Jaish-e-Muhammad terrorist rammed an explosives-laden car into a CRPF convoy at Lethpora, killing 40 personnel.",
+          "stance": "independent"
+        }
+      ]
+    }
+  ]
+}

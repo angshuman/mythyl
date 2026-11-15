@@ -1,0 +1,117 @@
+{
+  "name": "post-independence-indian-conflicts",
+  "version": 1,
+  "summary": "One ontology. Campaigns, incidents, actors, and families are JSON. Research agents write record files only; the map reads them. A campaign is a span. An incident is a day inside a campaign. Colour is Conflict.family. Counts are claims with ranges and sources.",
+  "files": {
+    "campaigns": "campaigns.json",
+    "incidents": "incidents.json",
+    "naxal-events": "naxal-events.json",
+    "actors": "actors.json",
+    "families": "families.json"
+  },
+  "entities": {
+    "Campaign": {
+      "file": "campaigns.json",
+      "required": ["id", "name", "time", "locations", "primaryPoint"],
+      "fields": {
+        "id": "stable key",
+        "slug": "url key",
+        "name": "public name",
+        "aliases": "other names",
+        "summary": "one-line map copy",
+        "scale": "small | medium | large — map encoding, not UCDP",
+        "types": "stacked ConflictType",
+        "family": "legend type: interstate | naxal | naga | bodo | northeast | kashmir | punjab | communal | external | integration",
+        "theaters": "open string tags",
+        "northeast": "boolean filter for the Northeast lens",
+        "internalExternal": "internal | external | mixed | transnational",
+        "direction": "two-sided | one-sided | multi-sided | unclear",
+        "time": "TimeSpan with FuzzyDate start/end, ongoing flag",
+        "locations": "GeoLocation list; precision is required",
+        "primaryPoint": "map marker lon/lat + precision",
+        "parties": "Actor.id + role",
+        "peoples": "named groups with kind",
+        "harm": "Estimate ranges, sourced, contested",
+        "relations": "edges to other Campaign.id",
+        "sources": "SourceRef list"
+      }
+    },
+    "Incident": {
+      "file": "incidents.json",
+      "required": ["id", "conflictId", "name", "kind", "time", "place", "summary"],
+      "foreignKeys": {
+        "conflictId": "Campaign.id"
+      },
+      "fields": {
+        "kind": "attack | ambush | bombing | raid | massacre | riot | air-strike | operation | assassination | clash | siege | kidnapping | other",
+        "place": "lon/lat + precision + admin",
+        "sides": "attacker / defender / target with SideKind",
+        "casualties": "CasualtyClaim list — min/max/best, of, claimedBy, contested",
+        "reports": "NewsReport list — outlet, headline, excerpt, url, optional imageUrl"
+      }
+    },
+    "Actor": {
+      "file": "actors.json",
+      "required": ["id", "name", "kind"],
+      "fields": {
+        "kind": "state | military | paramilitary | insurgent-group | militia | foreign-state | political-party | …",
+        "parentId": "Actor.id",
+        "splinterOf": "Actor.id[]"
+      }
+    }
+  },
+  "enums": {
+    "Scale": ["small", "medium", "large"],
+    "ConflictFamily": [
+      "interstate",
+      "naxal",
+      "naga",
+      "bodo",
+      "northeast",
+      "kashmir",
+      "punjab",
+      "communal",
+      "external",
+      "integration"
+    ],
+    "InternalExternal": ["internal", "external", "mixed", "transnational"],
+    "ConflictType": [
+      "interstate-war",
+      "border-skirmish",
+      "secessionist-insurgency",
+      "revolutionary-insurgency",
+      "communal-riot",
+      "pogrom",
+      "ethnic-clash",
+      "military-operation",
+      "state-integration",
+      "terrorism",
+      "one-sided-violence",
+      "peace-operation",
+      "agitation-with-violence",
+      "resource-conflict",
+      "other"
+    ],
+    "GeoPrecision": [
+      "building",
+      "village",
+      "block",
+      "district",
+      "city",
+      "state",
+      "region",
+      "country",
+      "theater",
+      "unknown"
+    ]
+  },
+  "rules": [
+    "Do not invent a single death integer. Store min/max/best with sources.",
+    "Never plot a village marker for a state-level fact. GeoPrecision controls the point.",
+    "Maoist / Naxal campaigns are revolutionary-insurgency and internal. Northeast insurgencies are northeast: true. They are not External terror.",
+    "External terror is types includes terrorism AND internalExternal is external, transnational, or mixed, and not northeast, not revolutionary-insurgency, not communal-riot.",
+    "docs/*.json and docs/*.md are research notes. The map reads campaigns.json, incidents.json, naxal-events.json, actors.json, families.json.",
+    "Research agents write records into the JSON files in this folder. They do not edit React, CSS, or map components.",
+    "Map color is Conflict.family → families.json. Scale is marker size only."
+  ]
+}

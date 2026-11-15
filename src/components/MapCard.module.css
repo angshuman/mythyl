@@ -1,0 +1,155 @@
+.killed,
+.sides {
+  margin-top: 0.7rem;
+  color: var(--paper);
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.sides {
+  color: var(--paper-dim);
+}
+
+.toll {
+  margin: 0.55rem 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.8rem;
+  color: var(--paper);
+}
+
+.toll li + li {
+  margin-top: 0.2rem;
+}
+
+.story {
+  margin-top: 0.7rem;
+  color: var(--paper-dim);
+  font-size: 0.84rem;
+  line-height: 1.45;
+}
+
+.stories {
+  margin-top: 1.15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.storiesHead {
+  margin: 0;
+  font-size: 0.62rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--paper-dim);
+}
+
+.storyCard {
+  display: block;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #cbbfa6;
+  border-left: 3px solid #8a3b32;
+  border-radius: 2px 8px 8px 2px;
+  background: #efe6d2;
+  color: #1c1810;
+  text-decoration: none;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.32);
+  transform: rotate(-0.35deg);
+}
+
+.storyCard:nth-child(odd) {
+  transform: rotate(0.4deg);
+}
+
+.storyCard:nth-child(3n) {
+  transform: rotate(-0.15deg);
+}
+
+a.storyCard:hover {
+  filter: brightness(1.04);
+}
+
+.clip {
+  display: block;
+  width: 100%;
+  height: 7.2rem;
+  object-fit: cover;
+  border-bottom: 1px solid #d4c7ae;
+  background: #d9cdb6;
+}
+
+.body {
+  padding: 0.7rem 0.8rem 0.8rem;
+}
+
+.masthead {
+  margin: 0 0 0.28rem;
+  font-size: 0.6rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #8a3b32;
+  font-weight: 600;
+}
+
+.headline {
+  font-family: var(--font-serif), ui-serif, Georgia, serif;
+  font-size: 1.02rem;
+  line-height: 1.28;
+  color: #1c1810 !important;
+  margin: 0 0 0.35rem;
+}
+
+.excerpt {
+  font-size: 0.82rem !important;
+  line-height: 1.42;
+  color: #3a3428 !important;
+  margin: 0;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+  color: #8a3b32;
+}
+
+.days {
+  list-style: none;
+  margin: 0.85rem 0 0;
+  padding: 0.65rem 0 0;
+  border-top: 1px solid var(--rule);
+}
+
+.days button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.1rem;
+  width: 100%;
+  padding: 0.35rem 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.when {
+  display: block;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--paper-dim);
+  font-weight: 500;
+}
+
+.what {
+  display: block;
+  margin-top: 0.14rem;
+  font-size: 0.88rem;
+}

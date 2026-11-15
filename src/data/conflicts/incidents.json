@@ -1,0 +1,3574 @@
+[
+  {
+    "id": "baramulla-1947",
+    "conflictId": "kashmir-1947",
+    "name": "Baramulla sacked",
+    "kind": "raid",
+    "time": {
+      "year": 1947,
+      "month": 10,
+      "day": 27,
+      "precision": "day",
+      "note": "Town entered ~22 Oct; St Joseph’s attacked around the 27th."
+    },
+    "place": {
+      "name": "Baramulla",
+      "longitude": 74.35,
+      "latitude": 34.2,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Jammu and Kashmir",
+        "district": "Baramulla"
+      }
+    },
+    "summary": "Pashtun lashkars coming down the Jhelum looted Baramulla on the road to Srinagar. At St Joseph’s Mission, among others, the assistant editor of the London Daily Express, a British couple, and a Spanish nun were killed.",
+    "story": "The raid delayed the column long enough for Indian troops to land at Srinagar on 27 October.",
+    "sides": [
+      {
+        "label": "Pashtun lashkars",
+        "role": "attacker",
+        "kind": "militia"
+      },
+      {
+        "label": "townspeople of Baramulla",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "civilians in Baramulla, including staff at St Joseph’s",
+        "contested": true,
+        "claimedBy": "contemporary press and later histories",
+        "note": "Town-wide death counts vary widely; the mission killings are named."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Andrew Whitehead, A Mission in Kashmir",
+        "headline": "The sack of Baramulla",
+        "year": 2007,
+        "excerpt": "The raiders paused to loot. That pause, and the killings at the mission, are why the column never reached the airfield in time.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "srinagar-airlift-1947",
+    "conflictId": "kashmir-1947",
+    "name": "Srinagar airlift",
+    "kind": "operation",
+    "time": {
+      "year": 1947,
+      "month": 10,
+      "day": 27,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Srinagar airfield",
+      "longitude": 74.77,
+      "latitude": 34,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Jammu and Kashmir"
+      }
+    },
+    "summary": "After Hari Singh’s accession, Dakota transports landed Indian troops at Srinagar. The first companies held the airfield and then the city against the lashkar column coming from Baramulla.",
+    "sides": [
+      {
+        "label": "Indian Army (1 Sikh and follow-on)",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "in-army"
+      },
+      {
+        "label": "Pashtun lashkars / Pakistan",
+        "role": "attacker",
+        "kind": "militia"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "Indian official history of the J&K operations",
+        "headline": "Troops land at Srinagar, 27 October 1947",
+        "year": 1987,
+        "excerpt": "The airfield was the war. Whoever held it held the valley for the winter.",
+        "stance": "state"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "polo-1948",
+    "conflictId": "hyderabad-1948",
+    "name": "Operation Polo",
+    "kind": "operation",
+    "time": {
+      "year": 1948,
+      "month": 9,
+      "day": 13,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Hyderabad State",
+      "longitude": 78.47,
+      "latitude": 17.39,
+      "precision": "region",
+      "admin": {
+        "country": "India",
+        "state": "Telangana"
+      }
+    },
+    "summary": "Indian columns entered the Nizam’s state on 13 September. Organised fighting ended in five days. What followed in the districts — against Muslims, and earlier Razakar violence against Hindus — is the part still argued.",
+    "story": "The Sunderlal Committee’s figures were kept unpublished for decades.",
+    "sides": [
+      {
+        "label": "Indian Army",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "in-army"
+      },
+      {
+        "label": "Hyderabad State Forces and Razakars",
+        "role": "defender",
+        "kind": "militia",
+        "actorId": "razakars"
+      },
+      {
+        "label": "Muslim villagers in the aftermath",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 50,
+        "killedMax": 40000,
+        "of": "civilian",
+        "sideLabel": "civilians, mostly Muslims in the countryside after the operation",
+        "claimedBy": "Sunderlal Committee (often cited ~27,000–40,000); official military deaths were small",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Sunderlal Committee",
+        "headline": "Report on the aftermath of the Police Action",
+        "year": 1949,
+        "excerpt": "The committee wrote of a killing wave in the wake of the army. The state treated the paper as an embarrassment and sat on it.",
+        "stance": "state"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "goa-vijay-1961",
+    "conflictId": "goa-1961",
+    "name": "Operation Vijay",
+    "kind": "operation",
+    "time": {
+      "year": 1961,
+      "month": 12,
+      "day": 18,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Goa",
+      "longitude": 73.83,
+      "latitude": 15.5,
+      "precision": "state",
+      "admin": {
+        "country": "India",
+        "state": "Goa"
+      }
+    },
+    "summary": "Indian troops and ships moved on Portuguese Goa, Daman and Diu on 18 December. Fighting was short. Lisbon’s Estado da Índia ended in two days, after fourteen years of notes and a blockade.",
+    "sides": [
+      {
+        "label": "Indian armed forces",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "in-army"
+      },
+      {
+        "label": "Portuguese garrison",
+        "role": "defender",
+        "kind": "foreign-forces",
+        "actorId": "pt-gov"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMax": 30,
+        "of": "mixed",
+        "sideLabel": "soldiers on both sides; civilian deaths were few",
+        "claimedBy": "Indian and Portuguese military accounts; totals remain small and slightly inconsistent",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Indian Ministry of Defence official history",
+        "headline": "The end of Portuguese India",
+        "excerpt": "The operation was brief on purpose. The argument afterward was diplomatic, not a body count.",
+        "stance": "state"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rezang-la-1962",
+    "conflictId": "sino-indian-1962",
+    "name": "Rezang La",
+    "kind": "clash",
+    "time": {
+      "year": 1962,
+      "month": 11,
+      "day": 18,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Rezang La, Chushul",
+      "longitude": 78.12,
+      "latitude": 33.4,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Ladakh"
+      }
+    },
+    "summary": "Charlie Company, 13 Kumaon — Ahir soldiers from Haryana — held a ridge at 18,000 feet against a Chinese assault. Almost the whole company was killed at their posts. The Chinese paid for the ground; how many is still a Chinese figure not a shared one.",
+    "sides": [
+      {
+        "label": "People’s Liberation Army",
+        "role": "attacker",
+        "kind": "foreign-forces",
+        "actorId": "cn-gov"
+      },
+      {
+        "label": "13 Kumaon, Charlie Company",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "in-army"
+      }
+    ],
+    "casualties": [
+      {
+        "killedBest": 114,
+        "of": "state-forces",
+        "sideLabel": "Indian soldiers of Charlie Company, 13 Kumaon",
+        "claimedBy": "Indian Army / unit histories (114 of 120)",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Indian Army unit histories",
+        "headline": "The last stand at Rezang La",
+        "year": 1962,
+        "excerpt": "Bodies were found in the firing positions, weapons empty. The ridge entered school textbooks; the rest of that war did not.",
+        "stance": "state"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "tawang-1962",
+    "conflictId": "sino-indian-1962",
+    "name": "Tawang falls",
+    "kind": "operation",
+    "time": {
+      "year": 1962,
+      "month": 10,
+      "precision": "month"
+    },
+    "place": {
+      "name": "Tawang",
+      "longitude": 91.89,
+      "latitude": 27.59,
+      "precision": "district",
+      "admin": {
+        "country": "India",
+        "state": "Arunachal Pradesh",
+        "district": "Tawang"
+      }
+    },
+    "summary": "In the eastern sector the Chinese came through Tawang after the Namka Chu collapse. Monpa civilians fled. The monastery town was occupied, then left when Beijing declared a ceasefire.",
+    "sides": [
+      {
+        "label": "People’s Liberation Army",
+        "role": "attacker",
+        "kind": "foreign-forces",
+        "actorId": "cn-gov"
+      },
+      {
+        "label": "Indian Army in NEFA",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "in-army"
+      },
+      {
+        "label": "Monpa townspeople",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "Henderson Brooks–Bhagat report (leaked portions)",
+        "headline": "The NEFA collapse",
+        "excerpt": "The paper, still unpublished in full, is about command and unpreparedness — not a body count.",
+        "stance": "state"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "aizawl-1966",
+    "conflictId": "mizo-insurgency",
+    "name": "Air action on Aizawl",
+    "kind": "air-strike",
+    "time": {
+      "year": 1966,
+      "month": 3,
+      "day": 5,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Aizawl",
+      "longitude": 92.72,
+      "latitude": 23.73,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Mizoram",
+        "district": "Aizawl"
+      }
+    },
+    "summary": "After the Mizo National Front took Aizawl in early March, the Indian Air Force strafed and rocketed the town on 5 and 6 March — the only time independent India has used air power on one of its own cities. Houses burned. How many civilians died that week is still not a settled public number.",
+    "story": "The 1986 accord later brought the MNF into office. The bombing remains the sentence people in Aizawl use for 1966.",
+    "sides": [
+      {
+        "label": "Indian Air Force",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "in-gov"
+      },
+      {
+        "label": "Mizo National Front",
+        "role": "defender",
+        "kind": "insurgent",
+        "actorId": "mnf"
+      },
+      {
+        "label": "townspeople of Aizawl",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "civilians in Aizawl",
+        "contested": true,
+        "claimedBy": "no agreed official toll; Mizo accounts speak of deaths and a burned bazaar",
+        "note": "Do not treat any single integer as established."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "SATP / Mizo oral histories",
+        "headline": "Aizawl bombed, 5–6 March 1966",
+        "excerpt": "Fighter-bombers came in low over a hill town the army could not immediately retake. It is still the fact that makes Mizoram’s war unlike the others.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "naxalbari-1967",
+    "conflictId": "naxal",
+    "name": "Naxalbari",
+    "kind": "clash",
+    "time": {
+      "year": 1967,
+      "month": 5,
+      "precision": "month"
+    },
+    "place": {
+      "name": "Naxalbari",
+      "longitude": 88.19,
+      "latitude": 26.68,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "West Bengal",
+        "district": "Darjeeling"
+      }
+    },
+    "summary": "A sharecropper dispute in a tea-belt village of Darjeeling district, backed by a CPI(M) splinter, became a police shooting and then a name. ‘Naxalite’ stuck to a rural armed movement that left the village and went national.",
+    "sides": [
+      {
+        "label": "village militants / CPI(ML) nucleus",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "cpi-ml"
+      },
+      {
+        "label": "West Bengal police",
+        "role": "defender",
+        "kind": "state-forces"
+      },
+      {
+        "label": "sharecroppers and tea-belt poor",
+        "role": "unclear",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "police and villagers in the opening clash",
+        "contested": true,
+        "claimedBy": "contemporary reports; the political name outgrew the body count"
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Sumanta Banerjee, In the Wake of Naxalbari",
+        "headline": "A village becomes a category",
+        "year": 1980,
+        "excerpt": "The shooting was local. The word travelled.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "dantewada-2010",
+    "conflictId": "naxal",
+    "name": "Tadmetla ambush",
+    "kind": "ambush",
+    "time": {
+      "year": 2010,
+      "month": 4,
+      "day": 6,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Tadmetla, Dantewada",
+      "longitude": 81.35,
+      "latitude": 18.9,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Chhattisgarh",
+        "district": "Dantewada"
+      }
+    },
+    "summary": "CPI (Maoist) fighters ambushed a CRPF company on a road-opening patrol in the forests of Dantewada. Seventy-five troopers and a policeman were killed — the deadliest day for Indian security forces in the Maoist war.",
+    "sides": [
+      {
+        "label": "CPI (Maoist)",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "cpi-maoist"
+      },
+      {
+        "label": "CRPF 62 Battalion",
+        "role": "target",
+        "kind": "state-forces",
+        "actorId": "in-crpf"
+      }
+    ],
+    "casualties": [
+      {
+        "killedBest": 76,
+        "of": "state-forces",
+        "sideLabel": "CRPF and state police",
+        "claimedBy": "Ministry of Home Affairs / CRPF",
+        "contested": false,
+        "note": "75 CRPF + 1 state police is the usual official split."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "75 CRPF men killed in Dantewada ambush",
+        "year": 2010,
+        "url": "https://www.thehindu.com/news/national/75-CRPF-men-killed-in-Chhattisgarh-ambush/article16363807.ece",
+        "excerpt": "The patrol was hit with IEDs and gunfire in a long killing zone. Almost no one from the company walked out.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "nellie-morning-1983",
+    "conflictId": "nellie-1983",
+    "name": "Nellie, a morning",
+    "kind": "massacre",
+    "time": {
+      "year": 1983,
+      "month": 2,
+      "day": 18,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Nellie",
+      "longitude": 92.32,
+      "latitude": 26.11,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Assam",
+        "district": "Nagaon"
+      }
+    },
+    "summary": "In a few hours, crowds from neighbouring villages attacked Bengali-speaking Muslim hamlets around Nellie during a boycotted election. Officially 1,819 people were killed, most of them women and children. Almost no one was convicted.",
+    "story": "The Tewary Commission sat. Its full public life never began.",
+    "sides": [
+      {
+        "label": "Tiwa / Lalung and other local crowds",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Bengali-speaking Muslim villagers",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 1819,
+        "killedMax": 3000,
+        "killedBest": 2191,
+        "of": "civilian",
+        "sideLabel": "Bengali-speaking Muslim villagers, many of them women and children",
+        "claimedBy": "official 1,819; journalists and later writers 2,000–3,000",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "BBC",
+        "headline": "What lies behind Assam violence?",
+        "year": 2012,
+        "url": "https://www.bbc.com/news/world-asia-india-18993905",
+        "excerpt": "The worst violence prompted by the infiltration debate erupted during a controversial election in February 1983. Hundreds were killed in the village of Nellie in central Assam that February.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Makiko Kimura, The Nellie Massacre of 1983",
+        "headline": "A few hours, no convictions",
+        "year": 2013,
+        "excerpt": "Survivors could name the paths the crowds came down. The legal file did not follow those paths to a sentence.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "dhemaji-2004",
+    "conflictId": "ulfa",
+    "name": "Dhemaji school bombing",
+    "kind": "bombing",
+    "time": {
+      "year": 2004,
+      "month": 8,
+      "day": 15,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Dhemaji",
+      "longitude": 94.58,
+      "latitude": 27.48,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Assam",
+        "district": "Dhemaji"
+      }
+    },
+    "summary": "An ULFA bomb at an Independence Day gathering in a school compound in Dhemaji killed children and others in the crowd. It turned a large part of Assamese opinion against the organisation that claimed to fight in their name.",
+    "sides": [
+      {
+        "label": "ULFA",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "ulfa"
+      },
+      {
+        "label": "schoolchildren and civilians at the parade",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 13,
+        "killedMax": 17,
+        "killedBest": 13,
+        "of": "civilian",
+        "sideLabel": "civilians, including schoolchildren",
+        "claimedBy": "press and SATP compilations",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Independence Day blast in Assam schoolyard",
+        "year": 2004,
+        "url": "https://www.thehindu.com/2004/08/16/stories/2004081607070100.htm",
+        "excerpt": "The pictures were of children. ULFA’s political room in the Brahmaputra valley narrowed that afternoon.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "bluestar-1984",
+    "conflictId": "punjab-khalistan",
+    "name": "Operation Blue Star",
+    "kind": "operation",
+    "time": {
+      "year": 1984,
+      "month": 6,
+      "day": 6,
+      "precision": "day",
+      "note": "Assault 3–8 June; the 6th is the main infantry attack."
+    },
+    "place": {
+      "name": "Harmandir Sahib, Amritsar",
+      "longitude": 74.876,
+      "latitude": 31.62,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Punjab",
+        "district": "Amritsar"
+      }
+    },
+    "summary": "The army went into the Golden Temple complex to dislodge Jarnail Singh Bhindranwale and armed followers. Tanks entered a shrine. Pilgrims were still inside. Officially hundreds died; survivors and Sikh organisations put the number much higher.",
+    "story": "Indira Gandhi was assassinated by her Sikh bodyguards on 31 October. Delhi burned next.",
+    "sides": [
+      {
+        "label": "Indian Army",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "in-army"
+      },
+      {
+        "label": "Bhindranwale’s armed followers",
+        "role": "defender",
+        "kind": "insurgent",
+        "actorId": "khalistan-groups"
+      },
+      {
+        "label": "pilgrims in the complex",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 492,
+        "killedMax": 3000,
+        "of": "mixed",
+        "sideLabel": "militants, pilgrims, and others inside the complex",
+        "claimedBy": "White Paper / official ~492; Sikh groups and some journalists several times higher",
+        "contested": true
+      },
+      {
+        "killedMin": 83,
+        "killedMax": 136,
+        "of": "state-forces",
+        "sideLabel": "Indian soldiers",
+        "claimedBy": "official releases (figures vary by count of missing)",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "BBC",
+        "headline": "1984: Troops raid Golden Temple",
+        "year": 1984,
+        "url": "https://news.bbc.co.uk/onthisday/hi/dates/stories/june/6/newsid_2496000/2496277.stm",
+        "excerpt": "Hundreds of people are feared dead after Indian troops stormed the Golden Temple in Amritsar to flush out Sikh militants.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Government of India White Paper on the Punjab Agitation",
+        "headline": "The army enters the Darbar Sahib",
+        "year": 1984,
+        "excerpt": "The state called it a surgical operation. For many Sikhs it was a desecration that still structures politics.",
+        "stance": "state"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "delhi-1984",
+    "conflictId": "punjab-khalistan",
+    "name": "Delhi, November 1984",
+    "kind": "massacre",
+    "time": {
+      "year": 1984,
+      "month": 11,
+      "day": 1,
+      "precision": "day",
+      "note": "31 October–3 November; killings peaked 1–2 Nov."
+    },
+    "place": {
+      "name": "Delhi",
+      "longitude": 77.21,
+      "latitude": 28.61,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Delhi"
+      }
+    },
+    "summary": "After Indira Gandhi’s assassination, organised crowds in Delhi — and in some other cities — killed Sikhs, burned Gurdwaras, and looted neighbourhoods. Officially 2,733 died in Delhi. Widow colonies in Tilak Vihar are still a geography of that week.",
+    "sides": [
+      {
+        "label": "organised crowds, with alleged Congress local machines",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Sikh civilians in Delhi",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 2733,
+        "killedMax": 8000,
+        "killedBest": 2733,
+        "of": "civilian",
+        "sideLabel": "Sikh civilians in Delhi (nationwide claims go higher)",
+        "claimedBy": "Nanavati Commission / Delhi official 2,733; human-rights groups cite ~8,000 nationwide",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "BBC",
+        "headline": "Anti-Sikh riots: India court convicts Congress politician",
+        "year": 2014,
+        "url": "https://www.bbc.com/news/world-asia-india-30022910",
+        "excerpt": "Sajjan Kumar was among those accused of leading mobs after Indira Gandhi’s assassination. Convictions came decades later.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Nanavati Commission",
+        "headline": "Report on the 1984 anti-Sikh riots",
+        "year": 2005,
+        "excerpt": "The commission found the violence organised, not a spasm. Convictions came late and thin.",
+        "stance": "state"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "bombay-riots-1993",
+    "conflictId": "bombay-1992",
+    "name": "Bombay riots",
+    "kind": "riot",
+    "time": {
+      "year": 1993,
+      "month": 1,
+      "precision": "month"
+    },
+    "place": {
+      "name": "Bombay",
+      "longitude": 72.88,
+      "latitude": 19.08,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Maharashtra",
+        "district": "Mumbai"
+      }
+    },
+    "summary": "After the Babri Masjid came down in December, Bombay went through two waves of killing. The Srikrishna Commission later mapped police bias, Shiv Sena mobilisation, and a death toll in the hundreds — a city re-segregated by neighbourhood.",
+    "sides": [
+      {
+        "label": "Hindu crowds, including Shiv Sena cadres in many accounts",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Muslim neighbourhoods of Bombay",
+        "role": "target",
+        "kind": "civilian"
+      },
+      {
+        "label": "Bombay Police",
+        "role": "unclear",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 900,
+        "killedMax": 2000,
+        "of": "civilian",
+        "sideLabel": "civilians, a large share of them Muslims",
+        "claimedBy": "Srikrishna Commission (~900 in the city); some journalists higher",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "BBC",
+        "headline": "Mumbai riots, 20 years on",
+        "year": 2012,
+        "url": "https://www.bbc.com/news/world-asia-india-20420569",
+        "excerpt": "The riots after the Babri demolition, and the bombs that followed, redrew who lived where in the city.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Srikrishna Commission",
+        "headline": "Report on the Bombay riots",
+        "year": 1998,
+        "excerpt": "The judge wrote that the second wave was organised. The city’s mixed chawls did not fully come back.",
+        "stance": "state"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "bombay-blasts-1993",
+    "conflictId": "bombay-blasts-1993",
+    "name": "12 March 1993 blasts",
+    "kind": "bombing",
+    "time": {
+      "year": 1993,
+      "month": 3,
+      "day": 12,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Bombay (Stock Exchange, and other sites)",
+      "longitude": 72.834,
+      "latitude": 18.93,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Maharashtra",
+        "district": "Mumbai"
+      }
+    },
+    "summary": "Thirteen coordinated bombs — the Stock Exchange, the Air-India building, crowded markets — killed hundreds in a single afternoon. The conspiracy was later tied to Dawood Ibrahim’s network and framed as revenge for the riots.",
+    "sides": [
+      {
+        "label": "D-Company / bomb conspiracy",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "civilians in the city",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedBest": 257,
+        "of": "civilian",
+        "sideLabel": "civilians across the blast sites",
+        "claimedBy": "court records and contemporary police figures, commonly 257 killed",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "BBC",
+        "headline": "1993: Bombay hit by devastating bombs",
+        "year": 1993,
+        "url": "https://news.bbc.co.uk/onthisday/hi/dates/stories/march/12/newsid_4272000/4272943.stm",
+        "excerpt": "A series of bomb explosions killed more than 200 people and injured over a thousand in India's financial capital.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Bombay blast trial judgments / press",
+        "headline": "Thirteen bombs in one afternoon",
+        "year": 1993,
+        "excerpt": "The skyline and the trains kept moving. The trials lasted a generation.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "tiger-hill-1999",
+    "conflictId": "kargil-1999",
+    "name": "Tiger Hill",
+    "kind": "clash",
+    "time": {
+      "year": 1999,
+      "month": 7,
+      "day": 4,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Tiger Hill, Kargil",
+      "longitude": 76.2,
+      "latitude": 34.5,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Ladakh",
+        "district": "Kargil"
+      }
+    },
+    "summary": "Indian infantry took Tiger Hill at night after weeks of artillery. It became the photograph of the Kargil war: a named peak, a national broadcast, a Pakistani withdrawal still denied as regulars at the time.",
+    "sides": [
+      {
+        "label": "Indian Army",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "in-army"
+      },
+      {
+        "label": "Pakistani soldiers and militants on the ridgeline",
+        "role": "defender",
+        "kind": "foreign-forces",
+        "actorId": "pk-gov"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "state-forces",
+        "sideLabel": "Indian soldiers on the assault",
+        "contested": true,
+        "claimedBy": "unit citations; do not assign the whole war toll (~527 Indian dead) to this peak",
+        "note": "Peak-specific counts vary by unit history."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Kargil Review Committee",
+        "headline": "The heights",
+        "year": 2000,
+        "excerpt": "The committee wrote about intelligence failure and the cost of taking back a ridge that should not have been lost.",
+        "stance": "state"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "godhra-2002",
+    "conflictId": "gujarat-2002",
+    "name": "Godhra train burning",
+    "kind": "attack",
+    "time": {
+      "year": 2002,
+      "month": 2,
+      "day": 27,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Godhra",
+      "longitude": 73.61,
+      "latitude": 22.78,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Gujarat",
+        "district": "Panchmahal"
+      }
+    },
+    "summary": "Coach S-6 of the Sabarmati Express burned at Godhra. Fifty-nine people, many of them kar sevaks returning from Ayodhya, died. How the fire started remains a courtroom and political fight. The killings across Gujarat began the next morning.",
+    "sides": [
+      {
+        "label": "a crowd at Godhra station, in the prosecution case",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "passengers of S-6, including kar sevaks",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedBest": 59,
+        "of": "civilian",
+        "sideLabel": "passengers in coach S-6",
+        "claimedBy": "court records; 59 dead is not seriously disputed",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "BBC",
+        "headline": "India Godhra train blaze verdict: 31 convicted",
+        "year": 2011,
+        "url": "https://www.bbc.com/news/world-south-asia-12534127",
+        "excerpt": "A special court found 31 people guilty of setting fire to the Sabarmati Express at Godhra. The fire killed 59 people, mainly Hindu pilgrims.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Concerned Citizens Tribunal / trial record",
+        "headline": "S-6 at Godhra",
+        "year": 2002,
+        "excerpt": "The number in the coach is stable. The story of the fire is not.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "naroda-patiya-2002",
+    "conflictId": "gujarat-2002",
+    "name": "Naroda Patiya",
+    "kind": "massacre",
+    "time": {
+      "year": 2002,
+      "month": 2,
+      "day": 28,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Naroda Patiya, Ahmedabad",
+      "longitude": 72.65,
+      "latitude": 23.05,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Gujarat",
+        "district": "Ahmedabad"
+      }
+    },
+    "summary": "The day after Godhra, a Muslim neighbourhood on the edge of Ahmedabad was attacked for hours. Ninety-seven people were later counted dead at Naroda Patiya alone — one of the few 2002 massacres that produced a major conviction, later partly undone on appeal.",
+    "sides": [
+      {
+        "label": "Hindu crowds, including Bajrang Dal/VHP accused in the trial",
+        "role": "attacker",
+        "kind": "militia"
+      },
+      {
+        "label": "Muslim residents of Naroda Patiya",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedBest": 97,
+        "of": "civilian",
+        "sideLabel": "Muslim civilians at Naroda Patiya",
+        "claimedBy": "trial court record",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "BBC",
+        "headline": "Naroda Patiya: Former Gujarat minister convicted",
+        "year": 2012,
+        "url": "https://www.bbc.com/news/world-asia-india-19474354",
+        "excerpt": "A court convicted Maya Kodnani and others for the killings at Naroda Patiya, one of the worst sites of the 2002 Gujarat violence.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Special court judgment, Naroda Patiya",
+        "headline": "A neighbourhood, one afternoon",
+        "year": 2012,
+        "excerpt": "The judgment named a method: streets closed, houses burned, police thin. Appeals later softened some sentences.",
+        "stance": "state"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "mumbai-cst-2008",
+    "conflictId": "mumbai-2008",
+    "name": "Chhatrapati Shivaji Terminus",
+    "kind": "attack",
+    "time": {
+      "year": 2008,
+      "month": 11,
+      "day": 26,
+      "precision": "day"
+    },
+    "place": {
+      "name": "CST, Mumbai",
+      "longitude": 72.835,
+      "latitude": 18.94,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Maharashtra",
+        "district": "Mumbai"
+      }
+    },
+    "summary": "Two gunmen walked into the main railway station at rush hour and fired into the crowds. CST was the bloodiest single site of 26/11. Closed-circuit video of the concourse became the image of the night.",
+    "sides": [
+      {
+        "label": "Lashkar-e-Taiba gunmen",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "let"
+      },
+      {
+        "label": "passengers and staff at CST",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 50,
+        "killedMax": 58,
+        "of": "civilian",
+        "sideLabel": "civilians at the station",
+        "claimedBy": "Mumbai police / contemporary tallies of the CST site",
+        "contested": false,
+        "note": "Citywide 26/11 toll is commonly 166, including the attackers."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "BBC",
+        "headline": "Mumbai rocked by deadly attacks",
+        "year": 2008,
+        "url": "http://news.bbc.co.uk/2/hi/south_asia/7751160.stm",
+        "excerpt": "Gunmen carried out co-ordinated attacks across Mumbai, including the main commuter station. Hostages were held in two luxury hotels.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Mumbai police / trial of Ajmal Kasab",
+        "headline": "The station",
+        "year": 2008,
+        "excerpt": "Kasab was taken alive. The rest of the pair’s work at CST was already done.",
+        "stance": "state"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "mumbai-taj-2008",
+    "conflictId": "mumbai-2008",
+    "name": "The Taj",
+    "kind": "siege",
+    "time": {
+      "year": 2008,
+      "month": 11,
+      "day": 26,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Taj Mahal Palace, Mumbai",
+      "longitude": 72.833,
+      "latitude": 18.922,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Maharashtra",
+        "district": "Mumbai"
+      }
+    },
+    "summary": "Gunmen held the Taj Mahal Palace for three nights. Guests and staff hid in rooms. Commandos cleared the hotel floor by floor. The dome burned on live television — a siege in a city that is also a postcard.",
+    "story": "Nariman House and the Oberoi-Trident were attacked the same night. The citywide death toll is commonly given as 166.",
+    "sides": [
+      {
+        "label": "Lashkar-e-Taiba gunmen",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "let"
+      },
+      {
+        "label": "guests and staff of the Taj",
+        "role": "target",
+        "kind": "civilian"
+      },
+      {
+        "label": "NSG and Mumbai Police",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "in-gov"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "guests and staff in the Taj (part of the citywide 166)",
+        "contested": true,
+        "claimedBy": "site-level splits vary; citywide 166 is the usual total including attackers"
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Guardian",
+        "headline": "Gunmen cause carnage in Mumbai",
+        "year": 2008,
+        "url": "https://www.theguardian.com/world/2008/nov/27/mumbai-terror-attacks-india",
+        "excerpt": "The Taj Mahal Palace burned on live television. Commandos cleared the hotel for three nights while the city watched the dome.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "Three nights at the Taj",
+        "year": 2008,
+        "excerpt": "Staff led guests through service corridors. Some did not come out. The building was a hostage.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "pulwama-2019",
+    "conflictId": "pulwama-2019",
+    "name": "Pulwama",
+    "kind": "bombing",
+    "time": {
+      "year": 2019,
+      "month": 2,
+      "day": 14,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Lethpora, Pulwama",
+      "longitude": 74.9,
+      "latitude": 33.88,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Jammu and Kashmir",
+        "district": "Pulwama"
+      }
+    },
+    "summary": "A Jaish-e-Mohammed suicide bomber drove into a CRPF convoy on the Jammu–Srinagar highway. Forty troopers were killed. India struck Balakot days later; Pakistan answered. The Valley had a new date that crowds still use as a shorthand.",
+    "sides": [
+      {
+        "label": "Jaish-e-Mohammed",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "CRPF convoy",
+        "role": "target",
+        "kind": "state-forces",
+        "actorId": "in-crpf"
+      }
+    ],
+    "casualties": [
+      {
+        "killedBest": 40,
+        "of": "state-forces",
+        "sideLabel": "CRPF troopers",
+        "claimedBy": "Government of India",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "40 CRPF personnel killed in Pulwama suicide attack",
+        "year": 2019,
+        "url": "https://www.thehindu.com/news/national/other-states/crpf-men-killed-in-suicide-attack-in-pulwama/article26277821.ece",
+        "excerpt": "The convoy was long, the road known, the explosive large. It became the casus belli of that spring.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "BBC",
+        "headline": "Kashmir attack: Bombing kills 40 Indian troops",
+        "year": 2019,
+        "url": "https://www.bbc.com/news/world-asia-india-47240607",
+        "excerpt": "A suicide bomber rammed a car full of explosives into a paramilitary convoy in Pulwama. Jaish-e-Mohammed claimed the attack.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "manipur-3may-2023",
+    "conflictId": "manipur-2023",
+    "name": "3 May 2023",
+    "kind": "clash",
+    "time": {
+      "year": 2023,
+      "month": 5,
+      "day": 3,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Churachandpur / Imphal valley",
+      "longitude": 93.81,
+      "latitude": 24.33,
+      "precision": "district",
+      "admin": {
+        "country": "India",
+        "state": "Manipur",
+        "district": "Churachandpur"
+      }
+    },
+    "summary": "A Kuki-Zo rally against a court direction on Meitei Scheduled Tribe status met a counter-mobilisation. By night, houses and churches were burning. The state split, in practice, into a valley and a hill that stopped travelling to each other.",
+    "story": "Hundreds have been killed since, and tens of thousands displaced. The first night is the date people name.",
+    "sides": [
+      {
+        "label": "Meitei crowds and valley militias, in many accounts",
+        "role": "unclear",
+        "kind": "militia"
+      },
+      {
+        "label": "Kuki-Zo crowds and hill militias, in many accounts",
+        "role": "unclear",
+        "kind": "militia"
+      },
+      {
+        "label": "civilians in mixed and border villages",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 200,
+        "killedMax": 260,
+        "of": "civilian",
+        "sideLabel": "civilians on both sides, counted over the following months rather than the first night alone",
+        "claimedBy": "MHA / press tallies through 2024, still moving",
+        "contested": true,
+        "note": "Do not treat the statewide running total as the 3 May death count."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "BBC",
+        "headline": "Manipur: What's behind the unrest in India's north-east?",
+        "year": 2023,
+        "url": "https://www.bbc.com/news/world-asia-india-65501711",
+        "excerpt": "Ethnic violence between Meitei and Kuki-Zo communities emptied neighbourhoods in a night. Convoys of the displaced moved under escort.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "mandai-1980",
+    "conflictId": "tripura-insurgency",
+    "name": "Mandai",
+    "kind": "massacre",
+    "time": {
+      "year": 1980,
+      "month": 6,
+      "day": 8,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Mandai",
+      "longitude": 91.5,
+      "latitude": 23.84,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Tripura"
+      }
+    },
+    "summary": "Tripuri militants and crowds attacked the mostly Bengali village of Mandai. Hundreds of Bengali settlers were killed in a day that sits inside a longer war over who became a minority in their own hills.",
+    "sides": [
+      {
+        "label": "Tripuri attackers",
+        "role": "attacker",
+        "kind": "militia"
+      },
+      {
+        "label": "Bengali villagers of Mandai",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 255,
+        "killedMax": 400,
+        "of": "civilian",
+        "sideLabel": "Bengali civilians in Mandai",
+        "claimedBy": "press and later compilations; 255 is a commonly cited floor",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "SATP / contemporary reports",
+        "headline": "Mandai, June 1980",
+        "excerpt": "The village is a date in Tripura the way Nellie is a date in Assam: a morning that explained the demography.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kokrajhar-1996",
+    "conflictId": "bodo-insurgency",
+    "name": "1996 Bodo–Santhal killings",
+    "kind": "massacre",
+    "time": {
+      "year": 1996,
+      "month": 5,
+      "precision": "month"
+    },
+    "place": {
+      "name": "Kokrajhar",
+      "longitude": 90.27,
+      "latitude": 26.4,
+      "precision": "district",
+      "admin": {
+        "country": "India",
+        "state": "Assam",
+        "district": "Kokrajhar"
+      }
+    },
+    "summary": "Bodo militant campaigns in the mid-1990s ran through Adivasi (Santhal and others) villages in Kokrajhar and neighbouring districts. Relief camps filled. The number killed in particular weeks is still a compilation, not a census.",
+    "sides": [
+      {
+        "label": "Bodo militant groups",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "ndfb"
+      },
+      {
+        "label": "Santhal and other Adivasi villagers",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "Adivasi villagers in the Bodo heartland",
+        "contested": true,
+        "claimedBy": "SATP and press compilations of 1996; treat any single integer as a floor, not a census"
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "SATP Assam",
+        "headline": "Relief camps in Kokrajhar",
+        "excerpt": "The camps lasted longer than the headlines. Displacement is the figure this campaign hides in.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "oinam-1987",
+    "conflictId": "naga-insurgency",
+    "name": "Oinam",
+    "kind": "operation",
+    "time": {
+      "year": 1987,
+      "month": 7,
+      "precision": "month"
+    },
+    "place": {
+      "name": "Oinam, Senapati",
+      "longitude": 94.02,
+      "latitude": 25.32,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Manipur",
+        "district": "Senapati"
+      }
+    },
+    "summary": "After an NSCN raid on an Assam Rifles post at Oinam, the counter-operation — Operation Bluebird — swept Naga villages. Churches and human-rights groups documented torture, rape, and civilian deaths. The case never reached a full public reckoning.",
+    "sides": [
+      {
+        "label": "NSCN",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "nscn"
+      },
+      {
+        "label": "Assam Rifles",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "in-assam-rifles"
+      },
+      {
+        "label": "Naga villagers of the Oinam area",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "Naga civilians during the counter-operation",
+        "contested": true,
+        "claimedBy": "Naga Peoples Movement for Human Rights and later petitions; no agreed official toll"
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "NPMHR / Nandita Haksar",
+        "headline": "Operation Bluebird",
+        "excerpt": "Villages were held. The petition sat in the Gauhati High Court for years and faded. AFSPA is the legal weather of this story.",
+        "stance": "victim"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "hyderabad-aftermath-1948",
+    "conflictId": "hyderabad-1948",
+    "name": "Hyderabad aftermath killings",
+    "kind": "massacre",
+    "time": {
+      "year": 1948,
+      "month": 9,
+      "precision": "month"
+    },
+    "place": {
+      "name": "Osmanabad, Gulbarga, Bidar, Nanded",
+      "longitude": 76.04,
+      "latitude": 18.19,
+      "precision": "region",
+      "admin": {
+        "country": "India",
+        "state": "Maharashtra"
+      }
+    },
+    "summary": "After Polo, Hindu revenge killings of Muslims swept Marathwada and neighbouring districts. The Sunderlal Committee, appointed by Nehru and long unpublished, estimated 27,000–40,000 killed ‘in cold blood,’ worst in Osmanabad, Gulbarga, Bidar and Nanded. Wilfred Cantwell Smith, writing in 1950 from leaked knowledge of the report, gave 50,000–200,000.",
+    "story": "Sunderlal recorded that Muslim villagers were often disarmed while Hindus kept weapons, and that some Indian soldiers and local police took part in looting. Patel rejected the framing as ignoring Razakar crimes.",
+    "sides": [
+      {
+        "label": "Hindu mobs, some soldiers and police",
+        "role": "attacker",
+        "kind": "militia"
+      },
+      {
+        "label": "Hyderabadi Muslims",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 27000,
+        "killedMax": 200000,
+        "of": "civilian",
+        "sideLabel": "Hyderabadi Muslims",
+        "claimedBy": "Sunderlal Committee 27,000–40,000; W. C. Smith 50,000–200,000",
+        "contested": true,
+        "note": "Sunderlal called 27,000–40,000 a conservative estimate for the whole state during and after the police action. Military governor J. N. Chaudhuri privately mentioned about 2,000."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "BBC",
+        "headline": "Hyderabad 1948: India's hidden massacre",
+        "year": 2013,
+        "url": "https://www.bbc.com/news/magazine-24159594",
+        "excerpt": "The Sunderlal team concluded that between 27,000 and 40,000 died. The report was never published; historian Sunil Purushotham obtained a copy decades later.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Sunderlal Committee",
+        "headline": "Confidential report on Hyderabad after Police Action",
+        "year": 1949,
+        "excerpt": "We can say at a very conservative estimate that in the whole state at least 27,000 to 40,000 people lost their lives during and after Police Action.",
+        "stance": "state"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "anjadiv-1961",
+    "conflictId": "goa-1961",
+    "name": "Anjadiv Island clash",
+    "kind": "clash",
+    "time": {
+      "year": 1961,
+      "month": 12,
+      "day": 18,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Anjadiv Island",
+      "longitude": 74.12,
+      "latitude": 14.76,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Karnataka"
+      }
+    },
+    "summary": "Off Karwar, the Portuguese garrison on Anjadiv Island fired on Indian naval ships supporting Operation Vijay. The island was a small but sharp naval-infantry fight inside an otherwise short campaign, and it is remembered in Indian Navy histories of the Goa operation.",
+    "story": "Anjadiv was administered with Portuguese India though it lies off the Karnataka coast, not in Goa proper.",
+    "sides": [
+      {
+        "label": "Indian Navy",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Portuguese garrison on Anjadiv",
+        "role": "defender",
+        "kind": "foreign-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "state-forces",
+        "sideLabel": "Indian Navy",
+        "claimedBy": "Indian Navy commemorative accounts",
+        "contested": true,
+        "note": "Navy histories record sailors killed in the Anjadiv exchange; the figure is not separated in the all-India 22-dead total used for the campaign."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "BBC",
+        "headline": "The day India freed Goa from Portuguese rule",
+        "year": 2017,
+        "url": "https://www.bbc.com/news/world-asia-india-42390008",
+        "excerpt": "Indian land, sea and air forces struck Portuguese Goa, Daman and Diu in December 1961. Outlying island garrisons, including Anjadiv off Karwar, were part of the same operation.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "imphal-ceasefire-2001",
+    "conflictId": "naga-insurgency",
+    "name": "Imphal ceasefire uprising",
+    "kind": "riot",
+    "time": {
+      "year": 2001,
+      "month": 6,
+      "day": 18,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Imphal",
+      "longitude": 93.94,
+      "latitude": 24.82,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Manipur"
+      }
+    },
+    "summary": "On 18 June 2001, news that the NSCN-IM ceasefire had been extended ‘without territorial limits’ — read in Manipur as a step toward a greater Nagalim — brought crowds onto Imphal’s streets. The Assembly building was burned. Thirteen people were killed in the day’s violence, a civic revolt over a map rather than a battle with Naga cadres.",
+    "story": "The Centre later confined the ceasefire to Nagaland. The episode shows why Naga peace talks stall on integration of Naga-inhabited areas of Manipur, Assam and Arunachal.",
+    "sides": [
+      {
+        "label": "Manipuri protestors",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Manipur Police",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Manipur Assembly",
+        "role": "target",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 13,
+        "killedMax": 13,
+        "killedBest": 13,
+        "injuredBest": 50,
+        "of": "civilian",
+        "sideLabel": "Manipuri protestors",
+        "claimedBy": "SATP Manipur timeline 2001",
+        "contested": false,
+        "note": "Thirteen civilians killed and over 50 injured in police firing on demonstrators, 18 June 2001."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "SATP",
+        "headline": "Manipur Timeline — Year 2001",
+        "year": 2001,
+        "url": "https://www.satp.org/satporgtp/countries/india/states/manipur/timeline/year_2001.htm",
+        "excerpt": "18 June 2001: 13 civilians are killed and over 50 injured in Imphal as police fire on demonstrators protesting the extension of the NSCN-IM ceasefire area. The Assembly building was set on fire.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "chandel-ambush-2015",
+    "conflictId": "naga-insurgency",
+    "name": "Chandel convoy ambush",
+    "kind": "ambush",
+    "time": {
+      "year": 2015,
+      "month": 6,
+      "day": 4,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Paraolon, Chandel",
+      "longitude": 94.01,
+      "latitude": 24.29,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Manipur"
+      }
+    },
+    "summary": "On 4 June 2015, militants ambushed a 6 Dogra convoy on the Tengnoupal–New Samtal road in Chandel, close to Myanmar. Eighteen soldiers were killed. NIA later described a joint team of NSCN-K, KYKL and KCP. The attack broke the NSCN-K ceasefire and was followed by a cross-border Indian raid into Myanmar.",
+    "story": "It was among the deadliest single attacks on the Indian Army in the Northeast in two decades.",
+    "sides": [
+      {
+        "label": "NSCN-K, KYKL and KCP",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "6 Dogra Regiment",
+        "role": "target",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 18,
+        "killedMax": 18,
+        "killedBest": 18,
+        "injuredBest": 11,
+        "of": "state-forces",
+        "sideLabel": "6 Dogra Regiment",
+        "claimedBy": "The Hindu / Army statements",
+        "contested": false,
+        "note": "Eighteen killed, about eleven wounded in the four-vehicle convoy."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Militants had walked back to Myanmar after ambush on Army convoy",
+        "year": 2018,
+        "url": "https://www.thehindu.com/news/national/militants-had-walked-back-to-myanmar-after-ambush-on-army-convoy/article22845952.ece",
+        "excerpt": "On 4 June 2015, 18 personnel of 6 Dogra were ambushed by a group of about 20 militants in a joint action of KCP, KYKL and NSCN-K.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "oting-2021",
+    "conflictId": "naga-insurgency",
+    "name": "Oting killings",
+    "kind": "attack",
+    "time": {
+      "year": 2021,
+      "month": 12,
+      "day": 4,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Oting, Mon",
+      "longitude": 94.96,
+      "latitude": 26.85,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Nagaland"
+      }
+    },
+    "summary": "On 4 December 2021, 21 Para Special Forces fired on a pickup of Konyak coal miners returning from Tiru to Oting, calling it mistaken identity. Six died in the first burst; villagers who reached the spot clashed with the unit, and the civilian toll rose to 13–15 plus one soldier. The Centre refused AFSPA prosecution sanction; the Supreme Court later quashed proceedings.",
+    "story": "Oting became the 2020s emblem of AFSPA immunity in Naga areas, a village tragedy rather than a firefight with NSCN.",
+    "sides": [
+      {
+        "label": "21 Para Special Forces",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Oting coal miners and villagers",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 13,
+        "killedMax": 17,
+        "killedBest": 13,
+        "injuredBest": 14,
+        "of": "civilian",
+        "sideLabel": "Oting coal miners and villagers",
+        "claimedBy": "The Hindu; Nagaland DGP/commissioner brief",
+        "contested": true,
+        "note": "Thirteen civilians is the most cited count for 4 December; The Hindu also reported 15 civilians over 24 hours and unconfirmed 17."
+      },
+      {
+        "killedMin": 1,
+        "killedMax": 1,
+        "killedBest": 1,
+        "of": "state-forces",
+        "sideLabel": "21 Para Special Forces",
+        "claimedBy": "The Hindu",
+        "contested": false,
+        "note": "One soldier killed in the clash with villagers after the first shooting."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Army operation in Nagaland goes awry, 15 civilians dead",
+        "year": 2021,
+        "url": "https://www.thehindu.com/news/national/other-states/16-dead-after-armys-nagaland-ambush/article37849057.ece",
+        "excerpt": "A special unit of the Army mistakenly opened fire at a pick-up van carrying coal miners from Tiru to Oting, killing six on board. Seven more civilians and a soldier died when villagers clashed with the troops.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "operation-jericho-1966",
+    "conflictId": "mizo-insurgency",
+    "name": "Operation Jericho",
+    "kind": "raid",
+    "time": {
+      "year": 1966,
+      "month": 2,
+      "day": 28,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Aizawl",
+      "longitude": 92.72,
+      "latitude": 23.73,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Mizoram"
+      }
+    },
+    "summary": "On 28 February 1966 the Mizo National Front launched Operation Jericho, seizing the Aizawl treasury and besieging 1 Assam Rifles while hitting Lunglei, Champhai and other posts. The rising grew out of the 1959 mautam famine and a demand for a Mizo homeland. It is the start date of the Mizo war in local memory.",
+    "story": "Assam Rifles held the Aizawl headquarters under siege until air strikes and reinforcements in early March.",
+    "sides": [
+      {
+        "label": "Mizo National Front",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "Assam Rifles",
+        "role": "defender",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "state-forces",
+        "sideLabel": "Assam Rifles",
+        "claimedBy": "SATP (1966 recapture series)",
+        "contested": true,
+        "note": "SATP cites 59 security-force deaths in the 1966 recapture of Mizo towns, not a Jericho-day slice."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "J. V. Hluna and Rini Tochhawng",
+        "headline": "The Mizo Uprising: Assam Assembly Debates on the Mizo Movement, 1966–1971",
+        "year": 2012,
+        "excerpt": "Operation Jericho on 28 February 1966 opened the MNF uprising with coordinated attacks on Aizawl, Lunglei and Champhai.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Newslaundry",
+        "headline": "A brief history of Mizoram: From the Aizawl bombing to the Mizo Accord",
+        "year": 2015,
+        "url": "https://www.newslaundry.com/2015/08/06/a-brief-history-of-mizoram-from-the-aizawl-bombing-to-the-mizo-accord",
+        "excerpt": "The MNF uprising began at the end of February 1966; air strikes on Aizawl followed on 5 and 6 March.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "jhiram-ghati-2013",
+    "conflictId": "naxal",
+    "name": "Jhiram Ghati ambush",
+    "kind": "ambush",
+    "time": {
+      "year": 2013,
+      "month": 5,
+      "day": 25,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Jhiram Ghati, Darbha",
+      "longitude": 81.86,
+      "latitude": 18.85,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Chhattisgarh"
+      }
+    },
+    "summary": "On 25 May 2013, CPI (Maoist) cadres ambushed a Congress Parivartan Rally convoy in Jhiram (Jeeram) Ghati on the Bastar–Sukma road. An IED and two hours of firing killed the state Congress chief Nand Kumar Patel, his son Dinesh, former MLA Uday Mudliyar, and Mahendra Karma, public face of Salwa Judum. Later tallies settle around 27 dead, including about 10 security personnel; former Union minister V. C. Shukla died of wounds on 11 June.",
+    "story": "A 2026 NIA court in Jagdalpur convicted 10 accused. Karma was the named ‘class enemy’ in Maoist planning.",
+    "sides": [
+      {
+        "label": "CPI (Maoist)",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "Congress Parivartan Rally convoy",
+        "role": "target",
+        "kind": "civilian"
+      },
+      {
+        "label": "escort police and CRPF",
+        "role": "target",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 17,
+        "killedMax": 19,
+        "killedBest": 17,
+        "of": "civilian",
+        "sideLabel": "Congress Parivartan Rally convoy",
+        "claimedBy": "The Indian Express 2026 (27 total including 10 security personnel)",
+        "contested": true,
+        "note": "Contemporaneous counts started near 17 and rose. V. C. Shukla’s later death is sometimes added."
+      },
+      {
+        "killedMin": 8,
+        "killedMax": 10,
+        "killedBest": 10,
+        "of": "state-forces",
+        "sideLabel": "escort police and CRPF",
+        "claimedBy": "The Indian Express, citing police records in the 2026 verdict story",
+        "contested": true,
+        "note": "Express 2026: the 27 killed included 10 security personnel."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Indian Express",
+        "headline": "10 get death sentence in 2013 Maoist attack on Chhattisgarh Congress leaders",
+        "year": 2026,
+        "url": "https://indianexpress.com/article/india/jhiram-ghati-attack-verdict-nia-court-death-penalty-10-maoists-bastar-congress-convoy-10880771/",
+        "excerpt": "Armed CPI (Maoist) cadres attacked a Congress convoy on 25 May 2013, killing at least 27 people, including Mahendra Karma, Nand Kumar Patel and his son Dinesh.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "India Today",
+        "headline": "Year after Jeeram massacre, why we know little about the Maoists' most spectacular attack",
+        "year": 2014,
+        "url": "https://www.indiatoday.in/india/north/story/chhattisgarh-maoist-attack-sukma-darbha-ghati-massacre-194281-2014-05-25",
+        "excerpt": "On 25 May 2013 Maoist insurgents killed 27, including the Chhattisgarh Congress president, his son and Mahendra Karma, in Jeeram Ghati.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "khoirabari-1983",
+    "conflictId": "assam-movement",
+    "name": "Khoirabari massacre",
+    "kind": "massacre",
+    "time": {
+      "year": 1983,
+      "month": 2,
+      "day": 7,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Khoirabari",
+      "longitude": 91.83,
+      "latitude": 26.63,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Assam"
+      }
+    },
+    "summary": "On 7 February 1983, polling day in a boycotted Assembly election, a Bengali Hindu cluster around Khoirabari in then Darrang was attacked. Survivors sheltered in a school and later at the railway station. Journalist Shekhar Gupta wrote of more than 500 dead; IPS officer E. M. Rammohan wrote of more than a hundred. The Tewary Commission later counted 3,023 killed across 11 districts that spring, without treating Khoirabari as a single headline total.",
+    "story": "Khoirabari is remembered by Bengali Hindus as the other face of 1983 Assam, beside Nellie’s killing of Bengali-origin Muslims.",
+    "sides": [
+      {
+        "label": "Assamese villagers and agitation crowds",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Bengali Hindus of Khoirabari",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 100,
+        "killedMax": 500,
+        "of": "civilian",
+        "sideLabel": "Bengali Hindus of Khoirabari",
+        "claimedBy": "E. M. Rammohan (100+); Shekhar Gupta (500+)",
+        "contested": true,
+        "note": "No commission figure isolated to Khoirabari village is used as a best count."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Indian Express",
+        "headline": "Forty-two years after Assam’s darkest chapter, two reports shed some light",
+        "year": 2025,
+        "url": "https://indianexpress.com/article/political-pulse/assam-darkest-chapter-two-reports-shed-light-contrasting-accounts-10385650/",
+        "excerpt": "The Tewary and Mehta reports, tabled in 2025, cover the 1983 election violence of which Nellie was the largest single massacre and Khoirabari one of the attacks on Bengali Hindus.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "operation-bajrang-1990",
+    "conflictId": "ulfa",
+    "name": "Operation Bajrang",
+    "kind": "operation",
+    "time": {
+      "year": 1990,
+      "month": 11,
+      "day": 28,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Lakhipathar, Tinsukia",
+      "longitude": 95.36,
+      "latitude": 27.49,
+      "precision": "district",
+      "admin": {
+        "country": "India",
+        "state": "Assam"
+      }
+    },
+    "summary": "On 27–28 November 1990 the Centre imposed President’s Rule in Assam, banned ULFA, and the Army opened Operation Bajrang. Camps at Lakhipathar and elsewhere in upper Assam were raided. SATP records 209 hardcore militants arrested and large recoveries of arms and extorted cash. The operation, and Rhino in 1991, pushed ULFA’s leadership toward camps in Bangladesh and later Bhutan.",
+    "story": "Bajrang is the first large named Army campaign against ULFA; it did not end the insurgency.",
+    "sides": [
+      {
+        "label": "Indian Army",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "ULFA",
+        "role": "target",
+        "kind": "insurgent"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "insurgent",
+        "sideLabel": "ULFA",
+        "claimedBy": "SATP / contemporary press",
+        "contested": true,
+        "note": "No single authoritative killed table for Bajrang alone is used here; SATP Assam series is annual, not operation-sliced."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "SATP",
+        "headline": "Assam Timeline — Years 1967–1990",
+        "year": 2001,
+        "url": "https://www.satp.org/satporgtp/countries/india/states/assam/timeline/1967_1999.htm",
+        "excerpt": "28 November 1990: the entire State of Assam is declared a disturbed area; ULFA is banned; the Army launches Operation Bajrang.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "operation-all-clear-2003",
+    "conflictId": "ulfa",
+    "name": "Operation All Clear",
+    "kind": "operation",
+    "time": {
+      "year": 2003,
+      "month": 12,
+      "day": 15,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Samdrup Jongkhar, Bhutan",
+      "longitude": 91.51,
+      "latitude": 26.8,
+      "precision": "district",
+      "admin": {
+        "country": "India",
+        "state": "Bhutan"
+      }
+    },
+    "summary": "On 15 December 2003 the Royal Bhutan Army, with Indian support along the border, attacked about 30 camps of ULFA, NDFB and KLO in southern Bhutan. Within days the main camps were razed. Indian and Bhutanese statements speak of more than a hundred militants killed and hundreds captured; ULFA’s own claims of its dead were far lower. The raid ended Bhutan as a rear base.",
+    "story": "An NIA court later said India’s Special Frontier Force assisted while wearing Bhutanese uniform — a claim Delhi has not advertised.",
+    "sides": [
+      {
+        "label": "Royal Bhutan Army",
+        "role": "attacker",
+        "kind": "foreign-forces"
+      },
+      {
+        "label": "ULFA, NDFB and KLO",
+        "role": "target",
+        "kind": "insurgent"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 24,
+        "killedMax": 160,
+        "of": "insurgent",
+        "sideLabel": "ULFA, NDFB and KLO",
+        "claimedBy": "Bhutan/India compilations ~160 killed and 490 captured; insurgents claimed 24 of their own",
+        "contested": true,
+        "note": "Range spans official and insurgent claims. Not a body-identified list."
+      },
+      {
+        "killedMax": 16,
+        "of": "state-forces",
+        "sideLabel": "Royal Bhutan Army",
+        "claimedBy": "secondary compilations of RBA losses",
+        "contested": true,
+        "note": "RBA deaths are reported in a low double-digit band in later summaries."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Diplomat",
+        "headline": "Was India’s Special Frontier Force Engaged in Bhutan’s Operation All Clear to Flush Out Militants?",
+        "year": 2020,
+        "url": "https://thediplomat.com/2020/09/was-indias-special-frontier-force-engaged-in-bhutans-operation-all-clear-to-flush-out-militants/",
+        "excerpt": "Operation All Clear was launched on 15 December 2003 to flush ULFA, NDFB and KLO from more than 30 camps in southern Bhutan.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kokrajhar-2012",
+    "conflictId": "bodo-insurgency",
+    "name": "Kokrajhar clashes",
+    "kind": "riot",
+    "time": {
+      "year": 2012,
+      "month": 7,
+      "day": 20,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Kokrajhar",
+      "longitude": 90.27,
+      "latitude": 26.4,
+      "precision": "district",
+      "admin": {
+        "country": "India",
+        "state": "Assam"
+      }
+    },
+    "summary": "In late July 2012, killings of Bodo youths and retaliatory attacks on Bengali-speaking Muslims in Kokrajhar, Chirang and Dhubri set off days of arson. Death tolls in contemporary reporting climbed from the dozens into a band around 80–100. More than 400,000 people were displaced into relief camps, one of the largest internal displacements in post-liberalisation India.",
+    "story": "The 2003 BTC accord had not settled who belongs on Bodoland land. A further Bodo peace accord followed in 2020.",
+    "sides": [
+      {
+        "label": "Bodo crowds and armed groups",
+        "role": "attacker",
+        "kind": "militia"
+      },
+      {
+        "label": "Bengali-speaking Muslims",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 77,
+        "killedMax": 100,
+        "of": "civilian",
+        "sideLabel": "Bengali-speaking Muslims and Bodos",
+        "claimedBy": "BBC and Indian press compilations of official tallies",
+        "contested": true,
+        "note": "Both communities died; Muslims were the larger share of the dead and of the displaced. No single commission total."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "BBC",
+        "headline": "Assam: Death toll in ethnic clashes rises",
+        "year": 2012,
+        "url": "https://www.bbc.com/news/world-asia-india-18993900",
+        "excerpt": "Ethnic clashes in Assam’s Bodo areas in July 2012 killed dozens and drove hundreds of thousands into relief camps.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "ndfb-adivasi-2014",
+    "conflictId": "bodo-insurgency",
+    "name": "NDFB-S Adivasi attacks",
+    "kind": "massacre",
+    "time": {
+      "year": 2014,
+      "month": 12,
+      "day": 23,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Sonitpur and Kokrajhar villages",
+      "longitude": 92.8,
+      "latitude": 26.63,
+      "precision": "district",
+      "admin": {
+        "country": "India",
+        "state": "Assam"
+      }
+    },
+    "summary": "On 23 December 2014, the Songbijit faction of NDFB fired on Adivasi (Adivasi/tea-tribe) villages in Sonitpur, Kokrajhar and Chirang. Contemporary counts of the first wave sit around 65–80 dead, mostly women and children; retaliatory killings of Bodos followed. Tens of thousands were displaced. Delhi launched a hunt that pushed NDFB-S toward talks ending in the 2020 Bodo Accord.",
+    "story": "The attacks were framed by the group as strikes on ‘infiltrators’ on land it claimed as Bodoland.",
+    "sides": [
+      {
+        "label": "NDFB-Songbijit",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "Adivasi villagers",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 65,
+        "killedMax": 85,
+        "of": "civilian",
+        "sideLabel": "Adivasi villagers",
+        "claimedBy": "BBC and Indian official updates in late December 2014",
+        "contested": true,
+        "note": "First-wave Adivasi deaths are in the mid-to-high 60s in early official counts; week-long totals including retaliation run higher."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "BBC",
+        "headline": "India Assam: Dozens dead in rebel attacks on tribespeople",
+        "year": 2014,
+        "url": "https://www.bbc.com/news/world-asia-india-30579902",
+        "excerpt": "Rebels of a Bodo faction attacked Adivasi villages in Assam, killing dozens, mostly women and children, in one of the worst outbreaks in years.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "bagber-camp-2000",
+    "conflictId": "tripura-insurgency",
+    "name": "Bagber relief-camp massacre",
+    "kind": "massacre",
+    "time": {
+      "year": 2000,
+      "month": 5,
+      "day": 20,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Bagber, West Tripura",
+      "longitude": 91.45,
+      "latitude": 23.9,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Tripura"
+      }
+    },
+    "summary": "On 20 May 2000, NLFT cadres attacked a relief camp at Bagber in West Tripura where Bengali Hindus displaced by earlier hill violence were sheltering. SATP and contemporary Indian reports put the dead at about 25. The year 2000 was SATP’s peak for Tripura, with 514 fatalities, 453 of them civilians.",
+    "story": "NLFT and ATTF camps in Bangladesh were later squeezed; AFSPA was withdrawn from Tripura in 2015.",
+    "sides": [
+      {
+        "label": "NLFT",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "Bengali Hindu camp residents",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 25,
+        "killedMax": 25,
+        "killedBest": 25,
+        "of": "civilian",
+        "sideLabel": "Bengali Hindu camp residents",
+        "claimedBy": "SATP / contemporary Indian press",
+        "contested": true,
+        "note": "About 25 camp residents in the 20 May 2000 attack; some round-ups fold nearby killings into a slightly higher 24-hour total."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "SATP",
+        "headline": "Tripura assessment / timeline 2000",
+        "year": 2000,
+        "url": "https://www.satp.org/satporgtp/countries/india/states/tripura/index.html",
+        "excerpt": "20 May 2000: NLFT militants attacked the Bagber relief camp in West Tripura, killing about 25 Bengali inmates at the high point of the 2000 civilian-fatality year.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "indira-gandhi-assassination-1984",
+    "conflictId": "punjab-khalistan",
+    "name": "Assassination of Indira Gandhi",
+    "kind": "assassination",
+    "time": {
+      "year": 1984,
+      "month": 10,
+      "day": 31,
+      "precision": "day"
+    },
+    "place": {
+      "name": "1 Safdarjung Road, New Delhi",
+      "longitude": 77.2,
+      "latitude": 28.6,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Delhi"
+      }
+    },
+    "summary": "On 31 October 1984, Prime Minister Indira Gandhi was shot in the garden of her residence by two Sikh bodyguards, Beant Singh and Satwant Singh, in the aftermath of Blue Star. Beant Singh was killed by other guards; Satwant Singh was hanged in 1989 with Kehar Singh. The killing opened three days of anti-Sikh pogroms in Delhi and other cities.",
+    "story": "All India Radio’s delay in naming the assassins’ religion did not prevent the rumour mill from organising the night.",
+    "sides": [
+      {
+        "label": "Beant Singh and Satwant Singh",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Indira Gandhi",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 1,
+        "killedMax": 1,
+        "killedBest": 1,
+        "of": "civilian",
+        "sideLabel": "Indira Gandhi",
+        "claimedBy": "contemporaneous official record",
+        "contested": false,
+        "note": "The Prime Minister died after surgery at AIIMS. Beant Singh was killed at the scene; that death sits on the other side of the shooting."
+      },
+      {
+        "killedMin": 1,
+        "killedMax": 1,
+        "killedBest": 1,
+        "injuredBest": 1,
+        "of": "state-forces",
+        "sideLabel": "Beant Singh and Satwant Singh",
+        "claimedBy": "official record",
+        "contested": false,
+        "note": "Beant Singh killed by fellow guards; Satwant Singh wounded, later executed."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "BBC",
+        "headline": "1984: Indian prime minister shot dead",
+        "year": 1984,
+        "url": "https://news.bbc.co.uk/onthisday/hi/dates/stories/october/31/newsid_2464000/2464423.stm",
+        "excerpt": "Mrs Gandhi was shot by two Sikh members of her security guard at her home in New Delhi, weeks after the army’s assault on the Golden Temple.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "gawkadal-1990",
+    "conflictId": "kashmir-insurgency",
+    "name": "Gawkadal firing",
+    "kind": "attack",
+    "time": {
+      "year": 1990,
+      "month": 1,
+      "day": 21,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Gawkadal Bridge, Srinagar",
+      "longitude": 74.81,
+      "latitude": 34.07,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Jammu and Kashmir"
+      }
+    },
+    "summary": "On 21 January 1990, CRPF opened fire on a procession at Gawkadal Bridge in Srinagar. The march had grown from searches and alleged molestation in Chotta Bazaar the night before, in the first weeks of Governor Jagmohan’s return. Official counts sit around 21–28 dead; Kashmiri and human-rights accounts give 50–53, some writers over 100. The day is remembered in the Valley as the moment a political uprising became a mass funeral.",
+    "story": "AFSPA was extended to J&K in 1990. Gawkadal is the first of a series of crowd-firing episodes that Valley memory treats as massacres.",
+    "sides": [
+      {
+        "label": "CRPF",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Srinagar protestors",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 21,
+        "killedMax": 50,
+        "of": "civilian",
+        "sideLabel": "Srinagar protestors",
+        "claimedBy": "The Indian Express 2005: official 21; Police Control Room count 50",
+        "contested": true,
+        "note": "Official figure 21. Express reported the PCR body count rose to 50. Later human-rights and Valley accounts often say about 50–53; some writers give over 100."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Indian Express",
+        "headline": "Kashmir’s first blood",
+        "year": 2005,
+        "url": "https://indianexpress.com/article/news-archive/kashmirs-first-blood/",
+        "excerpt": "People in the Valley allege CRPF opened indiscriminate fire near Gaw Kadal. The official figure for fatal casualties was 21. When the bodies were counted in the Police Control Room, it climbed to 50.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "pandit-exodus-1990",
+    "conflictId": "kashmir-insurgency",
+    "name": "Kashmiri Pandit exodus",
+    "kind": "other",
+    "time": {
+      "year": 1990,
+      "month": 1,
+      "precision": "month"
+    },
+    "place": {
+      "name": "Srinagar and the Kashmir Valley",
+      "longitude": 74.8,
+      "latitude": 34.08,
+      "precision": "region",
+      "admin": {
+        "country": "India",
+        "state": "Jammu and Kashmir"
+      }
+    },
+    "summary": "In January 1990, targeted killings, mosque loudspeakers and a collapse of civil order drove Kashmiri Pandits out of the Valley. Government lists of Pandits killed in the early years commonly run from about 219 to 399; Pandit organisations cite higher figures. Displacement is commonly 100,000–140,000 (some claims to 300,000). Militants and some Valley politicians called it a migration amid general chaos; Pandit groups and much official Indian memory call it ethnic cleansing.",
+    "story": "Most remaining Pandit families left for Jammu and Delhi camps. Return remains a live political argument decades later.",
+    "sides": [
+      {
+        "label": "militants and intimidatory crowds",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "Kashmiri Pandits",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 219,
+        "killedMax": 399,
+        "of": "civilian",
+        "sideLabel": "Kashmiri Pandits",
+        "claimedBy": "Kashmiri Pandit Sangharsh Samiti via The Indian Express: 399 killed 1990–2011; government lists often 219–399",
+        "contested": true,
+        "note": "KPSS: of 75,343 families in January 1990, more than 70,000 fled 1990–92. Killing lists are multi-year, not a single January day."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Indian Express",
+        "headline": "Explained: The Kashmir Pandit tragedy",
+        "year": 2020,
+        "url": "https://indianexpress.com/article/explained/exodus-of-kashmiri-pandits-from-valley-6232410/",
+        "excerpt": "KPSS placed Pandits killed by militants from 1990 to 2011 at 399, the majority during 1989–90. Of 75,343 families in January 1990, more than 70,000 fled between 1990 and 1992.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Hindu",
+        "headline": "Thirty years on, still no spring for the Pandits",
+        "year": 2020,
+        "url": "https://www.thehindu.com/opinion/lead/thirty-years-on-still-no-spring-for-the-pandits/article30618444.ece",
+        "excerpt": "After three decades of exile, the dignified return of Kashmiri Pandits to the Valley remains as elusive as it was in 1990.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "tololing-1999",
+    "conflictId": "kargil-1999",
+    "name": "Tololing",
+    "kind": "clash",
+    "time": {
+      "year": 1999,
+      "month": 6,
+      "day": 13,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Tololing, Dras",
+      "longitude": 75.8,
+      "latitude": 34.46,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Ladakh"
+      }
+    },
+    "summary": "On 13 June 1999, 2 Rajputana Rifles recaptured Tololing above Dras, the first major Indian success of the Kargil war. The peak overlooked NH-1, the Srinagar–Leh highway. Pakistani Northern Light Infantry, initially described in Islamabad as militants, held the heights. The Ministry of Defence later listed 527 Indian soldiers killed in the whole campaign, 1,363 wounded; Pakistan’s official dead were 357, while Nawaz Sharif later spoke of over 4,000.",
+    "story": "Tololing’s fall opened the Dras sector and set up the later assaults on Tiger Hill and Point 4875.",
+    "sides": [
+      {
+        "label": "Indian Army (2 Rajputana Rifles)",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Pakistan Northern Light Infantry",
+        "role": "defender",
+        "kind": "foreign-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "state-forces",
+        "sideLabel": "Indian Army (2 Rajputana Rifles)",
+        "claimedBy": "Ministry of Defence / Kargil Review Committee (campaign totals)",
+        "contested": true,
+        "note": "MoD campaign total is 527 Indian killed. Peak-by-peak official slices for 13 June at Tololing are not published as a single named table here."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Deccan Herald",
+        "headline": "26 years on, Army retraces heroic ascent to Tololing to honour Kargil war heroes",
+        "year": 2025,
+        "url": "https://www.deccanherald.com/india/jammu-and-kashmir/26-years-on-army-retraces-heroic-ascent-to-tololing-to-honour-kargil-war-heroes-3584460",
+        "excerpt": "On 13 June 1999 the Indian Army reclaimed Tololing, a fortified position with a commanding view of the Srinagar–Leh highway.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "ic814-kandahar-1999",
+    "conflictId": "ic814-1999",
+    "name": "IC-814 to Kandahar",
+    "kind": "kidnapping",
+    "time": {
+      "year": 1999,
+      "month": 12,
+      "day": 24,
+      "precision": "day"
+    },
+    "place": {
+      "name": "IC-814 (Kathmandu–Delhi), ended at Kandahar",
+      "longitude": 74.8,
+      "latitude": 31.63,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Punjab",
+        "district": "Amritsar"
+      }
+    },
+    "summary": "Hijackers took Indian Airlines 814 after take-off from Kathmandu. One passenger was killed. The aircraft sat at Kandahar until India flew three prisoners out, among them Masood Azhar.",
+    "story": "Jaish-e-Mohammed was founded months later. The hijack is the preface to Pulwama.",
+    "sides": [
+      {
+        "label": "Harkat-ul-Mujahideen hijackers",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "huji"
+      },
+      {
+        "label": "passengers and crew of IC-814",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedBest": 1,
+        "of": "civilian",
+        "sideLabel": "Rupin Katyal, a passenger",
+        "claimedBy": "contemporary reporting",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "BBC",
+        "headline": "Hijack drama ends in Kandahar",
+        "year": 1999,
+        "url": "http://news.bbc.co.uk/2/hi/south_asia/584177.stm",
+        "excerpt": "The hostages walked free after India released three men from jail. The airport in Kandahar was the stage.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "parliament-13dec-2001",
+    "conflictId": "parliament-2001",
+    "name": "Parliament House",
+    "kind": "attack",
+    "time": {
+      "year": 2001,
+      "month": 12,
+      "day": 13,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Parliament House, New Delhi",
+      "longitude": 77.208,
+      "latitude": 28.617,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Delhi"
+      }
+    },
+    "summary": "Five men in a car entered the Parliament compound with rifles and explosives. Nine people were killed besides the attackers — security staff and a gardener. The House had just adjourned.",
+    "sides": [
+      {
+        "label": "Jaish-e-Mohammed / Lashkar-e-Taiba gunmen, in the Indian case",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "Parliament security and staff",
+        "role": "target",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "killedBest": 9,
+        "of": "state-forces",
+        "sideLabel": "security personnel and a civilian gardener (excluding the five attackers)",
+        "claimedBy": "official Indian count",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Terrorists storm Parliament; 12 killed",
+        "year": 2001,
+        "url": "https://www.thehindu.com/news/national/terrorists-storm-parliament-complex/article27994000.ece",
+        "excerpt": "The gunmen reached the heart of the republic in a car with a fake home-ministry pass. The shooting lasted minutes.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "BBC",
+        "headline": "India parliament attack kills 12",
+        "year": 2001,
+        "url": "http://news.bbc.co.uk/2/hi/south_asia/1708864.stm",
+        "excerpt": "Twelve people died, including the five attackers. India pointed at groups based in Pakistan.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "delhi-29oct-2005",
+    "conflictId": "delhi-blasts-2005",
+    "name": "Delhi Diwali blasts",
+    "kind": "bombing",
+    "time": {
+      "year": 2005,
+      "month": 10,
+      "day": 29,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Sarojini Nagar, Delhi",
+      "longitude": 77.197,
+      "latitude": 28.577,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Delhi"
+      }
+    },
+    "summary": "Bombs in two markets and a bus on the eve of Diwali. Shoppers were the target. Delhi Police named a Pakistan-based cell.",
+    "sides": [
+      {
+        "label": "Lashkar-e-Taiba, in the police case",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "let"
+      },
+      {
+        "label": "civilians in Delhi markets",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 61,
+        "killedMax": 70,
+        "killedBest": 62,
+        "of": "civilian",
+        "sideLabel": "civilians in the markets and on the bus",
+        "claimedBy": "Delhi Police / contemporary tallies",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "BBC",
+        "headline": "Bombs kill dozens in New Delhi",
+        "year": 2005,
+        "url": "http://news.bbc.co.uk/2/hi/south_asia/4386470.stm",
+        "excerpt": "The blasts came on a Saturday evening in crowded markets. Hospitals filled with festival shoppers.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "mumbai-711-2006",
+    "conflictId": "mumbai-trains-2006",
+    "name": "7/11 train bombs",
+    "kind": "bombing",
+    "time": {
+      "year": 2006,
+      "month": 7,
+      "day": 11,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Western Railway, Mumbai",
+      "longitude": 72.82,
+      "latitude": 19.05,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Maharashtra",
+        "district": "Mumbai"
+      }
+    },
+    "summary": "Pressure-cooker bombs in first-class carriages on the Western line, timed for the evening peak. More than 180 people were killed. The city’s trains ran again the next morning.",
+    "sides": [
+      {
+        "label": "Lashkar-e-Taiba and local modules, in the police case",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "let"
+      },
+      {
+        "label": "suburban commuters",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 180,
+        "killedMax": 209,
+        "killedBest": 189,
+        "of": "civilian",
+        "sideLabel": "commuters on the Western line",
+        "claimedBy": "Mumbai Police / later court records, commonly ~180–190",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Guardian",
+        "headline": "Mumbai train blasts kill 174",
+        "year": 2006,
+        "url": "https://www.theguardian.com/world/2006/jul/11/india.randeepramesh",
+        "excerpt": "Seven explosions in eleven minutes. The first-class carriages of the Western Railway were the rooms.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "BBC",
+        "headline": "Scores dead in Mumbai train bombs",
+        "year": 2006,
+        "url": "http://news.bbc.co.uk/2/hi/south_asia/5169332.stm",
+        "excerpt": "Rush hour, a city’s spine. Rescue was by hand in the dark between stations.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "pathankot-iaf-2016",
+    "conflictId": "pathankot-2016",
+    "name": "Pathankot airbase",
+    "kind": "attack",
+    "time": {
+      "year": 2016,
+      "month": 1,
+      "day": 2,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Pathankot airbase",
+      "longitude": 75.63,
+      "latitude": 32.23,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Punjab",
+        "district": "Pathankot"
+      }
+    },
+    "summary": "Gunmen cut the perimeter of the air force station. The operation to clear them took days. Seven security personnel were killed, and a civilian.",
+    "sides": [
+      {
+        "label": "Jaish-e-Mohammed, in the Indian case",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "jem"
+      },
+      {
+        "label": "Indian Air Force and NSG",
+        "role": "defender",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "killedBest": 7,
+        "of": "state-forces",
+        "sideLabel": "Indian security personnel",
+        "claimedBy": "official Indian briefings",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Gunmen attack Pathankot airbase",
+        "year": 2016,
+        "url": "https://www.thehindu.com/news/national/Terrorists-attack-Pathankot-air-force-station/article13979722.ece",
+        "excerpt": "The fight moved from the perimeter into the station. Aircraft were the prize; the attackers did not reach them.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "uri-camp-2016",
+    "conflictId": "uri-2016",
+    "name": "Uri army camp",
+    "kind": "attack",
+    "time": {
+      "year": 2016,
+      "month": 9,
+      "day": 18,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Uri, Baramulla",
+      "longitude": 74.07,
+      "latitude": 34.08,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Jammu and Kashmir",
+        "district": "Baramulla"
+      }
+    },
+    "summary": "Four attackers hit a brigade camp near the Line of Control before dawn. Eighteen soldiers died. India named Jaish-e-Mohammed; eleven days later it announced strikes across the LoC.",
+    "sides": [
+      {
+        "label": "Jaish-e-Mohammed, in the Indian case",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "jem"
+      },
+      {
+        "label": "Indian Army, 12 Brigade",
+        "role": "target",
+        "kind": "state-forces",
+        "actorId": "in-army"
+      }
+    ],
+    "casualties": [
+      {
+        "killedBest": 18,
+        "of": "state-forces",
+        "sideLabel": "Indian soldiers",
+        "claimedBy": "Indian Army",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "18 soldiers killed in Uri terror attack",
+        "year": 2016,
+        "url": "https://www.thehindu.com/news/national/Uri-attack-18-soldiers-killed-19-injured/article14640563.ece",
+        "excerpt": "The tents burned. Uri became the word for that autumn’s crisis.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "akshardham-siege-2002",
+    "conflictId": "akshardham-2002",
+    "name": "Akshardham temple siege",
+    "kind": "siege",
+    "time": {
+      "year": 2002,
+      "month": 9,
+      "day": 24,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Akshardham temple, Gandhinagar",
+      "longitude": 72.674,
+      "latitude": 23.229,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Gujarat",
+        "district": "Gandhinagar"
+      }
+    },
+    "summary": "Two gunmen climbed into the Swaminarayan Akshardham complex and fired on visitors. NSG ended a night-long siege at dawn. India named Lashkar-e-Taiba and Jaish-e-Mohammed; the Supreme Court later acquitted six Indians of a local conspiracy.",
+    "sides": [
+      {
+        "label": "two fidayeen (LeT / JeM attribution)",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "devotees and staff at Akshardham",
+        "role": "target",
+        "kind": "civilian"
+      },
+      {
+        "label": "NSG and Gujarat Police",
+        "role": "defender",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 30,
+        "killedMax": 37,
+        "killedBest": 32,
+        "of": "mixed",
+        "sideLabel": "devotees, police and a commando (excluding the two attackers)",
+        "claimedBy": "The Hindu / Times of India (32)",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Death sentence for Akshardham temple attack convicts upheld",
+        "year": 2010,
+        "url": "https://www.thehindu.com/news/national/Death-sentence-for-Akshardham-temple-attack-convicts-upheld/article16240281.ece",
+        "excerpt": "Two gunmen entered the Akshardham temple in Gandhinagar, resorted to indiscriminate firing and lobbed grenades, killing 32 persons and injuring more than 80.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "Supreme Court acquits all six persons in 2002 Akshardham temple terror attack case",
+        "year": 2014,
+        "url": "https://indianexpress.com/article/india/india-others/supreme-court-acquits-all-six-persons-in-2002-akshardham-temple-terror-attack-case/",
+        "excerpt": "The bench held that the prosecution failed to establish their guilt beyond reasonable doubt. Both fidayeen were killed by NSG commandos on 25 September 2002.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "hyderabad-twin-2007",
+    "conflictId": "hyderabad-2007",
+    "name": "Lumbini Park and Gokul Chat blasts",
+    "kind": "bombing",
+    "time": {
+      "year": 2007,
+      "month": 8,
+      "day": 25,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Lumbini Park and Koti, Hyderabad",
+      "longitude": 78.48,
+      "latitude": 17.39,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Telangana",
+        "district": "Hyderabad"
+      }
+    },
+    "summary": "Two bombs exploded about five minutes apart on a Saturday evening: one at Lumbini Park, the other inside Gokul Chat at Koti. An NIA court later convicted two men; the prosecution named Riyaz Bhatkal.",
+    "sides": [
+      {
+        "label": "Indian Mujahideen / HuJI, in investigative attributions",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "weekend crowds at park and eatery",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 34,
+        "killedMax": 42,
+        "killedBest": 42,
+        "of": "civilian",
+        "sideLabel": "visitors at Lumbini Park and Gokul Chat",
+        "claimedBy": "The Indian Express / NIA court reporting",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Indian Express",
+        "headline": "Hyderabad twin bomb blasts: 2 of 5 accused convicted",
+        "year": 2018,
+        "url": "https://indianexpress.com/article/india/verdict-2007-hyderabad-twin-bomb-blasts-5338475/",
+        "excerpt": "Two blasts occurred at Gokul Chat in Koti and the laser show auditorium at Lumbini Park on 25 August 2007. While 32 people died at Gokul Chat, 10 died at Lumbini Park.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "jaipur-blasts-2008",
+    "conflictId": "indian-mujahideen-2008",
+    "name": "Jaipur serial blasts",
+    "kind": "bombing",
+    "time": {
+      "year": 2008,
+      "month": 5,
+      "day": 13,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Walled City, Jaipur",
+      "longitude": 75.824,
+      "latitude": 26.926,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Rajasthan",
+        "district": "Jaipur"
+      }
+    },
+    "summary": "Bicycle bombs exploded within about fifteen minutes in Jaipur’s walled city. Indian Mujahideen emailed a claim two days later. A trial court sentenced four men to death in 2019; the Rajasthan High Court acquitted them in 2023.",
+    "sides": [
+      {
+        "label": "Indian Mujahideen",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "im"
+      },
+      {
+        "label": "market crowds and temple-goers",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 60,
+        "killedMax": 80,
+        "killedBest": 71,
+        "of": "civilian",
+        "sideLabel": "people in the walled-city markets",
+        "claimedBy": "The Hindu (71); Reuters first night ~60",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Death for 4 in 2008 Jaipur bomb blasts case",
+        "year": 2019,
+        "url": "https://www.thehindu.com/news/national/other-states/four-sentenced-to-death-in-2008-jaipur-serial-blasts-case/article30358914.ece",
+        "excerpt": "Four persons convicted of the serial blasts that killed 71 people and left 200 injured in the Walled City of Jaipur in May 2008 were sentenced to death.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Reuters",
+        "headline": "Seven bombs kill 60 people in India's Jaipur",
+        "year": 2008,
+        "url": "https://www.reuters.com/article/economy/seven-bombs-kill-60-people-in-indias-jaipur-idUSSP20219/",
+        "excerpt": "Seven bombs ripped through the crowded streets of Jaipur on Tuesday evening, killing around 60 people in markets and outside Hindu temples.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ahmedabad-blasts-2008",
+    "conflictId": "indian-mujahideen-2008",
+    "name": "Ahmedabad serial blasts",
+    "kind": "bombing",
+    "time": {
+      "year": 2008,
+      "month": 7,
+      "day": 26,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Ahmedabad",
+      "longitude": 72.57,
+      "latitude": 23.03,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Gujarat",
+        "district": "Ahmedabad"
+      }
+    },
+    "summary": "About twenty bombs went off across Ahmedabad, including at hospitals where the wounded were being taken. Indian Mujahideen emailed a claim framing the attack as revenge for 2002.",
+    "sides": [
+      {
+        "label": "Indian Mujahideen / SIMI",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "im"
+      },
+      {
+        "label": "Ahmedabad public, including hospital patients",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedBest": 56,
+        "of": "civilian",
+        "sideLabel": "people at markets, buses and hospitals",
+        "claimedBy": "The Indian Express / Gujarat court reporting",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Indian Express",
+        "headline": "What is the Ahmedabad serial blasts case?",
+        "year": 2022,
+        "url": "https://indianexpress.com/article/explained/ahmedabad-serial-blasts-case-of-2008-recalled-7767130/",
+        "excerpt": "On 26 July 2008, in the span of about 70 minutes, 22 bombs went off at various places in Ahmedabad including at hospitals. Fifty-six people were killed and around 200 were injured.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "delhi-13sept-2008",
+    "conflictId": "indian-mujahideen-2008",
+    "name": "Delhi 13 September 2008 blasts",
+    "kind": "bombing",
+    "time": {
+      "year": 2008,
+      "month": 9,
+      "day": 13,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Karol Bagh, Connaught Place and Greater Kailash, Delhi",
+      "longitude": 77.19,
+      "latitude": 28.65,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Delhi"
+      }
+    },
+    "summary": "Five bombs exploded in Saturday-evening markets. Indian Mujahideen emailed a claim as the bombs went off. The group had already claimed Jaipur and Ahmedabad that year.",
+    "sides": [
+      {
+        "label": "Indian Mujahideen",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "im"
+      },
+      {
+        "label": "market crowds",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 20,
+        "killedMax": 30,
+        "killedBest": 26,
+        "of": "civilian",
+        "sideLabel": "shoppers at Karol Bagh, CP and GK-I",
+        "claimedBy": "Delhi High Court 2024: 26 dead",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Rediff",
+        "headline": "Multiple blasts rock Delhi, 21 killed",
+        "year": 2008,
+        "url": "https://www.rediff.com/news/report/delhi/20080913.htm",
+        "excerpt": "Five blasts rocked New Delhi on Saturday evening. The Indian Mujahideen claimed responsibility through an email.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "mumbai-nariman-2008",
+    "conflictId": "mumbai-2008",
+    "name": "Nariman House",
+    "kind": "siege",
+    "time": {
+      "year": 2008,
+      "month": 11,
+      "day": 26,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Nariman House (Chabad House), Colaba",
+      "longitude": 72.825,
+      "latitude": 18.916,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Maharashtra",
+        "district": "Mumbai"
+      }
+    },
+    "summary": "Two Lashkar-e-Taiba gunmen took over the Chabad Lubavitch centre in Colaba. Rabbi Gavriel Holtzberg and his wife Rivka were killed; their two-year-old son was carried out by his nanny.",
+    "sides": [
+      {
+        "label": "Lashkar-e-Taiba gunmen",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "let"
+      },
+      {
+        "label": "Chabad House residents and guests",
+        "role": "target",
+        "kind": "civilian"
+      },
+      {
+        "label": "NSG",
+        "role": "defender",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 6,
+        "killedMax": 9,
+        "killedBest": 6,
+        "of": "civilian",
+        "sideLabel": "people inside Nariman House",
+        "claimedBy": "Indian Express memorial: six persons died at the building",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Indian Express",
+        "headline": "26/11 Mumbai attack: Memorial for victims at Nariman House",
+        "year": 2018,
+        "url": "https://indianexpress.com/article/26-11/stories-of-strength/26-11-mumbai-attack-memorial-for-victims-at-nariman-house-5464243/",
+        "excerpt": "Six persons died in the five-storey building. Rabbi Gavriel Holtzberg and wife Rivka were killed; their then two-year-old son Moshe was saved by his nanny.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "pune-german-bakery-2010",
+    "conflictId": "pune-german-bakery-2010",
+    "name": "German Bakery bombing",
+    "kind": "bombing",
+    "time": {
+      "year": 2010,
+      "month": 2,
+      "day": 13,
+      "precision": "day"
+    },
+    "place": {
+      "name": "German Bakery, Koregaon Park, Pune",
+      "longitude": 73.887,
+      "latitude": 18.54,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Maharashtra",
+        "district": "Pune"
+      }
+    },
+    "summary": "A bomb in an unattended package exploded in a café packed with students and foreigners near the Osho ashram. Maharashtra ATS charged a Lashkar module and named Yasin Bhatkal.",
+    "sides": [
+      {
+        "label": "Indian Mujahideen / Lashkar-e-Taiba module",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "café patrons, including foreign students",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 16,
+        "killedMax": 18,
+        "killedBest": 17,
+        "of": "civilian",
+        "sideLabel": "people at the German Bakery",
+        "claimedBy": "BBC (guilty verdict): 17 killed, 64 wounded",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "9 killed, 40 injured in Pune bomb blast",
+        "year": 2010,
+        "url": "https://www.thehindu.com/news/national/9-killed-40-injured-in-Pune-bomb-blast/article16814472.ece",
+        "excerpt": "Nine persons including four foreigners were killed and over 40 injured in a bomb blast which ravaged the German Bakery in Pune's Koregaon Park.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "BBC",
+        "headline": "India Pune bakery blast man found guilty",
+        "year": 2013,
+        "url": "https://www.bbc.com/news/world-asia-india-22149223",
+        "excerpt": "The blast targeted the bakery when it was full of tourists and students, killing 17 people and wounding 64. Five foreigners were among the dead.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "mumbai-13july-2011",
+    "conflictId": "indian-mujahideen-2008",
+    "name": "Mumbai 13 July 2011 blasts",
+    "kind": "bombing",
+    "time": {
+      "year": 2011,
+      "month": 7,
+      "day": 13,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Zaveri Bazaar, Opera House and Dadar, Mumbai",
+      "longitude": 72.83,
+      "latitude": 18.96,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Maharashtra",
+        "district": "Mumbai"
+      }
+    },
+    "summary": "Three bombs exploded within about eleven minutes at Zaveri Bazaar, Opera House and Dadar. Mumbai Police suspected Indian Mujahideen working with Lashkar-e-Taiba. It was the city’s first major bombing after 26/11.",
+    "sides": [
+      {
+        "label": "Indian Mujahideen",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "im"
+      },
+      {
+        "label": "traders and commuters",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 17,
+        "killedMax": 27,
+        "killedBest": 26,
+        "of": "civilian",
+        "sideLabel": "people at Zaveri Bazaar, Opera House and Dadar",
+        "claimedBy": "The Hindu, 26th fatality",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "21 killed, 141 injured as terror strikes Mumbai again",
+        "year": 2011,
+        "url": "https://www.thehindu.com/news/national/21-killed-141-injured-as-terror-strikes-mumbai-again/article2224356.ece",
+        "excerpt": "Three blasts between 6.54 p.m. and 7.05 p.m. rocked crowded areas of Mumbai, at Zaveri Bazaar, Kabutarkhana near Dadar, and Opera House.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "dilsukhnagar-2013",
+    "conflictId": "indian-mujahideen-2008",
+    "name": "Dilsukhnagar twin blasts",
+    "kind": "bombing",
+    "time": {
+      "year": 2013,
+      "month": 2,
+      "day": 21,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Dilsukhnagar, Hyderabad",
+      "longitude": 78.525,
+      "latitude": 17.369,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Telangana",
+        "district": "Hyderabad"
+      }
+    },
+    "summary": "Two bicycle-borne IEDs exploded about 100 metres apart in Dilsukhnagar. An NIA court later sentenced Yasin Bhatkal and others, treating the attack as an Indian Mujahideen operation.",
+    "sides": [
+      {
+        "label": "Indian Mujahideen",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "im"
+      },
+      {
+        "label": "evening crowds at Dilsukhnagar",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 13,
+        "killedMax": 18,
+        "killedBest": 18,
+        "of": "civilian",
+        "sideLabel": "people at Dilsukhnagar",
+        "claimedBy": "The Hindu first night 13; later court copy 18",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "13 killed, 83 injured as twin blasts rock Hyderabad",
+        "year": 2013,
+        "url": "https://www.thehindu.com/news/cities/Hyderabad/the-hindu-archive-13-killed-83-injured-as-twin-blasts-rock-hyderabad/article4439367.ece",
+        "excerpt": "Two powerful explosions ripped through crowded areas at Dilsukhnagar. The twin blasts brought back memories of the 25 August 2007 attacks in Lumbini Park and at Gokul Chat.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "gurdaspur-dinanagar-2015",
+    "conflictId": "gurdaspur-2015",
+    "name": "Dinanagar police-station attack",
+    "kind": "attack",
+    "time": {
+      "year": 2015,
+      "month": 7,
+      "day": 27,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Dinanagar, Gurdaspur",
+      "longitude": 75.47,
+      "latitude": 32.13,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Punjab",
+        "district": "Gurdaspur"
+      }
+    },
+    "summary": "Three gunmen in army uniforms fired on a bus and occupied the Dinanagar police station for about twelve hours. A top IB official told The Hindu the method matched Lashkar-e-Taiba.",
+    "sides": [
+      {
+        "label": "Lashkar-e-Taiba gunmen",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "let"
+      },
+      {
+        "label": "Punjab Police",
+        "role": "target",
+        "kind": "state-forces"
+      },
+      {
+        "label": "civilians at Dinanagar",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedBest": 7,
+        "of": "mixed",
+        "sideLabel": "four policemen including an SP, and three civilians",
+        "claimedBy": "The Hindu",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "10 dead as terror returns to Punjab",
+        "year": 2015,
+        "url": "https://www.thehindu.com/news/national/Dinanagar-Gurdaspur-attack/article60333950.ece",
+        "excerpt": "Seven persons were killed — one SP, three police officers and three civilians — in Monday’s fidayeen attack, the worst in Punjab in over a decade.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  }
+]

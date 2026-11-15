@@ -1,0 +1,213 @@
+[
+  {
+    "id": "in-gov",
+    "name": "Government of India",
+    "kind": "state"
+  },
+  {
+    "id": "in-army",
+    "name": "Indian Army",
+    "kind": "military",
+    "parentId": "in-gov"
+  },
+  {
+    "id": "in-crpf",
+    "name": "CRPF",
+    "aliases": [
+      "Central Reserve Police Force"
+    ],
+    "kind": "paramilitary"
+  },
+  {
+    "id": "in-assam-rifles",
+    "name": "Assam Rifles",
+    "kind": "paramilitary"
+  },
+  {
+    "id": "pk-gov",
+    "name": "Pakistan",
+    "kind": "foreign-state"
+  },
+  {
+    "id": "cn-gov",
+    "name": "People's Republic of China",
+    "kind": "foreign-state"
+  },
+  {
+    "id": "pt-gov",
+    "name": "Portugal",
+    "kind": "foreign-state"
+  },
+  {
+    "id": "hyderabad-nizam",
+    "name": "Nizam of Hyderabad",
+    "kind": "state"
+  },
+  {
+    "id": "razakars",
+    "name": "Razakars",
+    "kind": "militia"
+  },
+  {
+    "id": "nscn",
+    "name": "NSCN",
+    "aliases": [
+      "National Socialist Council of Nagaland"
+    ],
+    "kind": "insurgent-group",
+    "tribes": [
+      "Naga"
+    ]
+  },
+  {
+    "id": "nscn-im",
+    "name": "NSCN-IM",
+    "kind": "insurgent-group",
+    "parentId": "nscn",
+    "splinterOf": [
+      "nscn"
+    ],
+    "tribes": [
+      "Naga"
+    ]
+  },
+  {
+    "id": "nscn-k",
+    "name": "NSCN-K",
+    "kind": "insurgent-group",
+    "parentId": "nscn",
+    "splinterOf": [
+      "nscn"
+    ],
+    "tribes": [
+      "Naga"
+    ]
+  },
+  {
+    "id": "mnf",
+    "name": "Mizo National Front",
+    "aliases": [
+      "MNF"
+    ],
+    "kind": "insurgent-group",
+    "tribes": [
+      "Mizo"
+    ]
+  },
+  {
+    "id": "ulfa",
+    "name": "ULFA",
+    "aliases": [
+      "United Liberation Front of Asom"
+    ],
+    "kind": "insurgent-group"
+  },
+  {
+    "id": "ndfb",
+    "name": "NDFB",
+    "aliases": [
+      "National Democratic Front of Boroland"
+    ],
+    "kind": "insurgent-group",
+    "ethnicity": [
+      "Bodo"
+    ]
+  },
+  {
+    "id": "unlf",
+    "name": "UNLF",
+    "aliases": [
+      "United National Liberation Front"
+    ],
+    "kind": "insurgent-group"
+  },
+  {
+    "id": "pla-manipur",
+    "name": "People's Liberation Army (Manipur)",
+    "kind": "insurgent-group"
+  },
+  {
+    "id": "nlft",
+    "name": "NLFT",
+    "aliases": [
+      "National Liberation Front of Tripura"
+    ],
+    "kind": "insurgent-group"
+  },
+  {
+    "id": "attf",
+    "name": "ATTF",
+    "aliases": [
+      "All Tripura Tiger Force"
+    ],
+    "kind": "insurgent-group"
+  },
+  {
+    "id": "cpi-ml",
+    "name": "CPI(ML)",
+    "kind": "insurgent-group",
+    "ideology": [
+      "maoist"
+    ]
+  },
+  {
+    "id": "cpi-maoist",
+    "name": "CPI (Maoist)",
+    "kind": "insurgent-group",
+    "ideology": [
+      "maoist"
+    ]
+  },
+  {
+    "id": "khalistan-groups",
+    "name": "Khalistan militant groups",
+    "kind": "insurgent-group",
+    "religion": [
+      "Sikh"
+    ]
+  },
+  {
+    "id": "jk-militants",
+    "name": "Kashmiri militant groups",
+    "kind": "insurgent-group"
+  },
+  {
+    "id": "let",
+    "name": "Lashkar-e-Taiba",
+    "kind": "insurgent-group"
+  },
+  {
+    "id": "jem",
+    "name": "Jaish-e-Mohammed",
+    "kind": "insurgent-group"
+  },
+  {
+    "id": "im",
+    "name": "Indian Mujahideen",
+    "kind": "insurgent-group"
+  },
+  {
+    "id": "huji",
+    "name": "Harkat-ul-Jihad-al-Islami",
+    "aliases": [
+      "HuJI"
+    ],
+    "kind": "insurgent-group"
+  },
+  {
+    "id": "d-company",
+    "name": "D-Company",
+    "aliases": [
+      "Dawood Ibrahim network"
+    ],
+    "kind": "insurgent-group"
+  },
+  {
+    "id": "aas",
+    "name": "All Assam Students' Union / Assam Movement",
+    "aliases": [
+      "AASU"
+    ],
+    "kind": "political-party"
+  }
+]

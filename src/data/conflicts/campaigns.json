@@ -1,0 +1,3565 @@
+[
+  {
+    "id": "kashmir-1947",
+    "slug": "first-kashmir-war",
+    "name": "First Kashmir War",
+    "aliases": [
+      "Indo-Pakistani War of 1947–1948",
+      "Jammu and Kashmir operations"
+    ],
+    "summary": "War between India and Pakistan over the princely state of Jammu and Kashmir after the Maharaja’s accession, ending in a UN-supervised ceasefire and the Line of Control.",
+    "scale": "large",
+    "scaleRationale": "Interstate war that froze a still-disputed boundary.",
+    "types": [
+      "interstate-war"
+    ],
+    "family": "interstate",
+    "theaters": [
+      "interstate",
+      "kashmir"
+    ],
+    "northeast": false,
+    "internalExternal": "external",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "religion",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "border",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "water",
+        "centrality": "contributing",
+        "note": "Indus headwaters"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1947,
+        "month": 10,
+        "precision": "month"
+      },
+      "end": {
+        "year": 1949,
+        "month": 1,
+        "precision": "month"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-srinagar",
+        "name": "Srinagar / Jammu and Kashmir theater",
+        "kind": "area-approx",
+        "precision": "theater",
+        "longitude": 74.8,
+        "latitude": 34.08,
+        "disputed": true,
+        "disputedBy": [
+          "Pakistan"
+        ],
+        "admin": {
+          "country": "India",
+          "state": "Jammu and Kashmir"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 74.8,
+      "latitude": 34.08,
+      "precision": "theater"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "in-army",
+        "role": "state"
+      },
+      {
+        "actorId": "pk-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Kashmiri",
+        "kind": "ethnicity"
+      },
+      {
+        "name": "Dogras",
+        "kind": "ethnicity"
+      },
+      {
+        "name": "Pashtun tribesmen (1947 irregulars)",
+        "kind": "ethnicity",
+        "role": "irregulars with Pakistan"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "next",
+        "targetId": "indo-pak-1965"
+      },
+      {
+        "kind": "related",
+        "targetId": "kashmir-insurgency"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UNCIP ceasefire, 1 January 1949",
+        "creator": "United Nations"
+      },
+      {
+        "title": "UCDP armed conflict India–Pakistan",
+        "dataset": "UCDP"
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "hyderabad-1948",
+    "slug": "hyderabad-1948",
+    "name": "Hyderabad, 1948",
+    "aliases": [
+      "Operation Polo",
+      "Police Action"
+    ],
+    "summary": "Indian military operation that ended the Nizam’s holdout princely state. Followed by contested mass violence against Muslims in the countryside.",
+    "scale": "large",
+    "scaleRationale": "State integration plus a killing wave whose scale is still argued.",
+    "types": [
+      "state-integration",
+      "military-operation",
+      "one-sided-violence"
+    ],
+    "family": "integration",
+    "theaters": [
+      "integration",
+      "communal"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "multi-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "religion",
+      "nation",
+      "class"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1948,
+        "month": 9,
+        "precision": "month"
+      },
+      "end": {
+        "year": 1948,
+        "month": 9,
+        "precision": "month"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-hyd",
+        "name": "Hyderabad State",
+        "kind": "area-approx",
+        "precision": "region",
+        "longitude": 78.47,
+        "latitude": 17.39,
+        "admin": {
+          "country": "India",
+          "state": "Telangana"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 78.47,
+      "latitude": 17.39,
+      "precision": "region"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "hyderabad-nizam",
+        "role": "state"
+      },
+      {
+        "actorId": "razakars",
+        "role": "militia"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Hyderabadi Muslims",
+        "kind": "religion"
+      },
+      {
+        "name": "Telugu and Marathi peasantry",
+        "kind": "language"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 50,
+        "max": 200000,
+        "unit": "persons",
+        "contested": true,
+        "sources": [
+          {
+            "title": "Sunderlal Committee report (long suppressed)",
+            "creator": "Government of India",
+            "year": 1949,
+            "note": "Often cited around 30–40,000; figures remain disputed."
+          }
+        ],
+        "note": "Military deaths were small; civilian killings after the operation are the disputed mass."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "A police action with limited fighting.",
+        "heldBy": "official Indian military narrative"
+      },
+      {
+        "claim": "A communal massacre in the wake of the army’s arrival.",
+        "heldBy": "Sunderlal Committee and later historians"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sunderlal Committee report",
+        "year": 1949
+      }
+    ],
+    "confidence": "medium",
+    "status": "draft"
+  },
+  {
+    "id": "goa-1961",
+    "slug": "goa-1961",
+    "name": "Goa, 1961",
+    "aliases": [
+      "Operation Vijay",
+      "Annexation of Goa"
+    ],
+    "summary": "Indian operation that ended Portuguese rule in Goa, Daman and Diu after fourteen years of diplomacy and blockade.",
+    "scale": "small",
+    "scaleRationale": "Short interstate operation, limited battle deaths, large political consequence.",
+    "types": [
+      "interstate-war",
+      "state-integration",
+      "military-operation"
+    ],
+    "family": "interstate",
+    "theaters": [
+      "interstate",
+      "integration"
+    ],
+    "northeast": false,
+    "internalExternal": "external",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation"
+    ],
+    "resources": [
+      {
+        "kind": "border",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1961,
+        "month": 12,
+        "precision": "month"
+      },
+      "end": {
+        "year": 1961,
+        "month": 12,
+        "precision": "month"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-goa",
+        "name": "Goa",
+        "kind": "admin-unit",
+        "precision": "state",
+        "longitude": 73.83,
+        "latitude": 15.5,
+        "admin": {
+          "country": "India",
+          "state": "Goa"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 73.83,
+      "latitude": 15.5,
+      "precision": "state"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "pt-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Goans",
+        "kind": "nationality"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Indian Ministry of Defence official history, 1961 operations"
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "sino-indian-1962",
+    "slug": "sino-indian-1962",
+    "name": "Sino-Indian War, 1962",
+    "summary": "Month-long war on the Himalayan border, mainly in NEFA (Arunachal) and Ladakh / Aksai Chin. Ceasefire left the territorial dispute intact.",
+    "scale": "large",
+    "scaleRationale": "Interstate war; the Northeast was a battlefield, not a side story.",
+    "types": [
+      "interstate-war",
+      "border-skirmish"
+    ],
+    "family": "interstate",
+    "theaters": [
+      "interstate",
+      "northeast"
+    ],
+    "northeast": true,
+    "internalExternal": "external",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "border",
+        "centrality": "core"
+      },
+      {
+        "kind": "trade-route",
+        "centrality": "contributing",
+        "note": "Aksai Chin road"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1962,
+        "month": 10,
+        "precision": "month"
+      },
+      "end": {
+        "year": 1962,
+        "month": 11,
+        "precision": "month"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-tawang",
+        "name": "Tawang / NEFA",
+        "kind": "point",
+        "precision": "district",
+        "longitude": 91.89,
+        "latitude": 27.59,
+        "northeast": true,
+        "disputed": true,
+        "disputedBy": [
+          "China"
+        ],
+        "admin": {
+          "country": "India",
+          "state": "Arunachal Pradesh"
+        }
+      },
+      {
+        "id": "loc-aksai",
+        "name": "Aksai Chin / Ladakh",
+        "kind": "area-approx",
+        "precision": "region",
+        "longitude": 79,
+        "latitude": 35.2,
+        "disputed": true,
+        "disputedBy": [
+          "China"
+        ],
+        "admin": {
+          "country": "India",
+          "state": "Ladakh"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 91.89,
+      "latitude": 27.59,
+      "precision": "district"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "cn-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Monpa",
+        "kind": "tribe",
+        "note": "Tawang"
+      },
+      {
+        "name": "Ladakhi",
+        "kind": "ethnicity"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "kashmir-1947"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Henderson Brooks–Bhagat report (partially leaked)"
+      },
+      {
+        "title": "UCDP India–China",
+        "dataset": "UCDP"
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "naga-insurgency",
+    "slug": "naga-insurgency",
+    "name": "Naga insurgency",
+    "aliases": [
+      "Naga independence movement",
+      "NSCN conflict"
+    ],
+    "summary": "The longest running insurgency in India. Naga nationalist claims predate the Republic; armed conflict with the Indian state stretches from the 1950s through ceasefires, splits, and talks that are still open.",
+    "scale": "large",
+    "scaleRationale": "Decades, multiple states, AFSPA laboratory, and a peace process that never quite ends.",
+    "types": [
+      "secessionist-insurgency"
+    ],
+    "family": "naga",
+    "theaters": [
+      "northeast"
+    ],
+    "northeast": true,
+    "internalExternal": "transnational",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "tribe",
+      "nation",
+      "religion",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "autonomy",
+        "centrality": "core"
+      },
+      {
+        "kind": "identity",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "contributing"
+      },
+      {
+        "kind": "border",
+        "centrality": "contributing",
+        "note": "Myanmar Naga areas"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1956,
+        "precision": "year",
+        "note": "Armed phase; political claim in 1947."
+      },
+      "ongoing": true
+    },
+    "locations": [
+      {
+        "id": "loc-kohima",
+        "name": "Naga Hills / Nagaland",
+        "kind": "area-approx",
+        "precision": "state",
+        "longitude": 94.11,
+        "latitude": 25.67,
+        "northeast": true,
+        "admin": {
+          "country": "India",
+          "state": "Nagaland"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 94.11,
+      "latitude": 25.67,
+      "precision": "state"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "in-assam-rifles",
+        "role": "state"
+      },
+      {
+        "actorId": "nscn",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "nscn-im",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "nscn-k",
+        "role": "splinter"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Naga tribes (many)",
+        "kind": "tribe"
+      },
+      {
+        "name": "Kuki",
+        "kind": "tribe",
+        "role": "overlapping claims in Manipur"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "AFSPA",
+        "time": {
+          "start": {
+            "year": 1958,
+            "precision": "year"
+          },
+          "ongoing": true
+        },
+        "places": [
+          "Nagaland",
+          "parts of NE"
+        ]
+      },
+      {
+        "name": "Inner Line",
+        "note": "Colonial inner line still structures who may enter."
+      }
+    ],
+    "accords": [
+      {
+        "name": "Sixteen Point Agreement",
+        "date": {
+          "year": 1960,
+          "precision": "year"
+        },
+        "parties": [
+          "Naga People's Convention",
+          "Government of India"
+        ],
+        "outcome": "Nagaland state, 1963"
+      },
+      {
+        "name": "Shillong Accord",
+        "date": {
+          "year": 1975,
+          "precision": "year"
+        },
+        "parties": [
+          "Naga National Council faction",
+          "Government of India"
+        ]
+      },
+      {
+        "name": "NSCN-IM ceasefire",
+        "date": {
+          "year": 1997,
+          "precision": "year"
+        },
+        "parties": [
+          "NSCN-IM",
+          "Government of India"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "mizo-insurgency"
+      },
+      {
+        "kind": "related",
+        "targetId": "manipur-2023"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sanjib Baruah, Durable Disorder",
+        "creator": "Sanjib Baruah",
+        "year": 2005
+      },
+      {
+        "title": "SATP Nagaland timeline",
+        "dataset": "SATP"
+      }
+    ],
+    "confidence": "medium",
+    "visualization": {
+      "pulse": true
+    },
+    "status": "draft"
+  },
+  {
+    "id": "mizo-insurgency",
+    "slug": "mizo-insurgency",
+    "name": "Mizo insurgency",
+    "aliases": [
+      "MNF rebellion"
+    ],
+    "summary": "Mizo National Front uprising from 1966, including the air action on Aizawl, through two decades of guerrilla war to the 1986 peace accord and Mizoram statehood.",
+    "scale": "medium",
+    "scaleRationale": "A full insurgency that actually ended in a durable accord.",
+    "types": [
+      "secessionist-insurgency",
+      "military-operation"
+    ],
+    "family": "northeast",
+    "theaters": [
+      "northeast"
+    ],
+    "northeast": true,
+    "internalExternal": "transnational",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "tribe",
+      "nation",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "autonomy",
+        "centrality": "core"
+      },
+      {
+        "kind": "identity",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "contributing",
+        "note": "1959 famine / bamboo flowering as spark"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1966,
+        "month": 2,
+        "precision": "month"
+      },
+      "end": {
+        "year": 1986,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-aizawl",
+        "name": "Aizawl / Mizo Hills",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 92.72,
+        "latitude": 23.73,
+        "northeast": true,
+        "admin": {
+          "country": "India",
+          "state": "Mizoram",
+          "district": "Aizawl"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 92.72,
+      "latitude": 23.73,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "mnf",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Mizo",
+        "kind": "tribe"
+      }
+    ],
+    "accords": [
+      {
+        "name": "Mizo Accord",
+        "date": {
+          "year": 1986,
+          "precision": "year"
+        },
+        "parties": [
+          "MNF",
+          "Government of India"
+        ],
+        "outcome": "Mizoram state; MNF entered electoral politics"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "naga-insurgency"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mizo Accord, 30 June 1986"
+      },
+      {
+        "title": "SATP Mizoram",
+        "dataset": "SATP"
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "naxal",
+    "slug": "naxal-maoist",
+    "name": "Naxal–Maoist conflict",
+    "aliases": [
+      "Naxalite movement",
+      "CPI (Maoist) insurgency"
+    ],
+    "summary": "From the 1967 Naxalbari uprising through the 2004 CPI (Maoist) merger, a rural revolutionary insurgency across a ‘red corridor’ of central and eastern India.",
+    "scale": "large",
+    "scaleRationale": "Multi-state, multi-decade, still active in pockets.",
+    "types": [
+      "revolutionary-insurgency"
+    ],
+    "family": "naxal",
+    "theaters": [
+      "naxal"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "class",
+      "tribe",
+      "caste",
+      "ideology"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "minerals",
+        "centrality": "core"
+      },
+      {
+        "kind": "forest",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1967,
+        "month": 5,
+        "precision": "month"
+      },
+      "ongoing": true
+    },
+    "locations": [
+      {
+        "id": "loc-naxalbari",
+        "name": "Naxalbari",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 88.19,
+        "latitude": 26.68,
+        "admin": {
+          "country": "India",
+          "state": "West Bengal",
+          "district": "Darjeeling"
+        }
+      },
+      {
+        "id": "loc-bastar",
+        "name": "Bastar",
+        "kind": "area-approx",
+        "precision": "region",
+        "longitude": 81.93,
+        "latitude": 19.07,
+        "admin": {
+          "country": "India",
+          "state": "Chhattisgarh"
+        }
+      },
+      {
+        "id": "loc-srikakulam",
+        "name": "Srikakulam",
+        "kind": "area-approx",
+        "precision": "district",
+        "longitude": 83.9,
+        "latitude": 18.3,
+        "admin": {
+          "country": "India",
+          "state": "Andhra Pradesh",
+          "district": "Srikakulam"
+        },
+        "note": "Girijan uprising 1968–70; plains leadership broken at Sompeta, 1969."
+      },
+      {
+        "id": "loc-jehanabad",
+        "name": "Jehanabad",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 84.989,
+        "latitude": 25.214,
+        "admin": {
+          "country": "India",
+          "state": "Bihar",
+          "district": "Jehanabad"
+        },
+        "note": "Central Bihar Maoist–Ranvir Sena belt; 2005 jailbreak."
+      },
+      {
+        "id": "loc-latehar",
+        "name": "Latehar",
+        "kind": "area-approx",
+        "precision": "district",
+        "longitude": 84.5,
+        "latitude": 23.74,
+        "admin": {
+          "country": "India",
+          "state": "Jharkhand",
+          "district": "Latehar"
+        },
+        "note": "Palamu–Latehar forest corridor toward Saranda."
+      },
+      {
+        "id": "loc-koraput",
+        "name": "Koraput",
+        "kind": "area-approx",
+        "precision": "district",
+        "longitude": 82.71,
+        "latitude": 18.81,
+        "admin": {
+          "country": "India",
+          "state": "Odisha",
+          "district": "Koraput"
+        },
+        "note": "2004 armoury raid; Odisha–Bastar forest continuum."
+      },
+      {
+        "id": "loc-gadchiroli",
+        "name": "Gadchiroli",
+        "kind": "area-approx",
+        "precision": "district",
+        "longitude": 80.0,
+        "latitude": 20.18,
+        "admin": {
+          "country": "India",
+          "state": "Maharashtra",
+          "district": "Gadchiroli"
+        },
+        "note": "Western Dandakaranya; C-60 operations and 2019 nallah blast."
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 81.93,
+      "latitude": 19.07,
+      "precision": "region"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "cpi-ml",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "cpi-maoist",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Adivasi communities of Bastar, Jharkhand, Odisha",
+        "kind": "tribe"
+      },
+      {
+        "name": "Dalit rural poor (Bengal, Bihar phases)",
+        "kind": "caste"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 18000,
+        "max": 25000,
+        "best": 21000,
+        "unit": "persons",
+        "of": "all",
+        "asOf": {
+          "year": 2025,
+          "precision": "year"
+        },
+        "sources": [
+          {
+            "title": "Civilians biggest casualty of Naxal violence",
+            "creator": "The Hindu, citing MHA RTI",
+            "year": 2015,
+            "url": "https://www.thehindu.com/news/national/Civilians-biggest-casualty-of-Naxal-violence/article60147774.ece",
+            "note": "MHA series from 1980: 20,012 dead by 30 March 2015 (12,146 civilians, 3,105 security forces, 4,761 LWE)."
+          },
+          {
+            "title": "Fatalities in Left-wing Extremism, 1999–2018 (MHA)",
+            "creator": "SATP compilation of Ministry of Home Affairs",
+            "year": 2018,
+            "url": "https://www.satp.org/satporgtp/countries/india/maoist/data_sheets/fatalitiesnaxalmha.htm",
+            "dataset": "MHA via SATP",
+            "note": "MHA 1999–15 May 2018: 7,869 civilians, 2,691 SF, 3,274 Naxalite, total 13,834."
+          }
+        ],
+        "contested": true,
+        "note": "MHA LWE tables typically start around 1980 and split civilians, security forces and LWE. SATP news counts diverge on who is a civilian. Srikakulam 1968–70 and Calcutta 1970–72 sit partly outside the MHA LWE series. 2015 already stood at about 20,000; later operations and pre-1980 killings push a full-campaign band into the low-to-mid 20,000s."
+      }
+    },
+    "sources": [
+      {
+        "title": "UCDP India (government) vs CPI-Maoist",
+        "dataset": "UCDP"
+      },
+      {
+        "title": "MHA annual reports on Left Wing Extremism",
+        "creator": "Ministry of Home Affairs"
+      }
+    ],
+    "confidence": "medium",
+    "visualization": {
+      "pulse": true
+    },
+    "status": "draft"
+  },
+  {
+    "id": "assam-movement",
+    "slug": "assam-movement",
+    "name": "Assam Movement",
+    "aliases": [
+      "Assam Agitation"
+    ],
+    "summary": "Mass agitation (1979–1985) against ‘foreigners’ in Assam, mixing student politics, ethnic fear, and a demand to recast the electoral roll. The 1985 Assam Accord did not close the question.",
+    "scale": "large",
+    "scaleRationale": "Six years, statewide, and Nellie inside it.",
+    "types": [
+      "agitation-with-violence",
+      "ethnic-clash"
+    ],
+    "family": "northeast",
+    "theaters": [
+      "northeast"
+    ],
+    "northeast": true,
+    "internalExternal": "internal",
+    "direction": "multi-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "citizenship",
+      "ethnicity",
+      "language",
+      "religion",
+      "migration"
+    ],
+    "resources": [
+      {
+        "kind": "citizenship",
+        "centrality": "core"
+      },
+      {
+        "kind": "migration",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "language",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1979,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1985,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-guwahati",
+        "name": "Assam",
+        "kind": "admin-unit",
+        "precision": "state",
+        "longitude": 91.74,
+        "latitude": 26.14,
+        "northeast": true,
+        "admin": {
+          "country": "India",
+          "state": "Assam"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 91.74,
+      "latitude": 26.14,
+      "precision": "state"
+    },
+    "parties": [
+      {
+        "actorId": "aas",
+        "role": "militia",
+        "note": "Movement leadership; not a conventional militia."
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Assamese",
+        "kind": "ethnicity"
+      },
+      {
+        "name": "Bengali-speaking Muslims",
+        "kind": "language"
+      },
+      {
+        "name": "Bengali Hindus",
+        "kind": "religion"
+      },
+      {
+        "name": "Bodo",
+        "kind": "tribe"
+      }
+    ],
+    "accords": [
+      {
+        "name": "Assam Accord",
+        "date": {
+          "year": 1985,
+          "precision": "year"
+        },
+        "parties": [
+          "AASU/AAGSP",
+          "Government of India"
+        ],
+        "outcome": "Citizenship cut-off date of 24 March 1971; NRC later"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "child",
+        "targetId": "nellie-1983"
+      },
+      {
+        "kind": "related",
+        "targetId": "bodo-insurgency"
+      },
+      {
+        "kind": "related",
+        "targetId": "ulfa"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Assam Accord, 15 August 1985"
+      },
+      {
+        "title": "Sanjib Baruah, India Against Itself",
+        "creator": "Sanjib Baruah",
+        "year": 1999
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "nellie-1983",
+    "slug": "nellie-1983",
+    "name": "Nellie, 1983",
+    "summary": "A few hours of mass killing in villages around Nellie, Assam, during the boycotted 1983 state election. Mostly Bengali-speaking Muslim peasants died. Almost no convictions.",
+    "scale": "medium",
+    "scaleRationale": "A single morning, but among the deadliest episodes in independent India.",
+    "types": [
+      "pogrom",
+      "ethnic-clash",
+      "one-sided-violence"
+    ],
+    "family": "northeast",
+    "theaters": [
+      "northeast",
+      "communal"
+    ],
+    "northeast": true,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "citizenship",
+      "religion",
+      "ethnicity",
+      "migration"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "citizenship",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "date": "1983-02-18",
+        "year": 1983,
+        "month": 2,
+        "day": 18,
+        "precision": "day"
+      },
+      "end": {
+        "date": "1983-02-18",
+        "year": 1983,
+        "month": 2,
+        "day": 18,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-nellie",
+        "name": "Nellie",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 92.32,
+        "latitude": 26.11,
+        "northeast": true,
+        "admin": {
+          "country": "India",
+          "state": "Assam",
+          "district": "Nagaon"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 92.32,
+      "latitude": 26.11,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "aas",
+        "role": "accused",
+        "note": "Local crowds; movement context."
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Tiwa / Lalung and other local peasants",
+        "kind": "tribe",
+        "role": "attackers in many accounts"
+      },
+      {
+        "name": "Bengali-speaking Muslims",
+        "kind": "religion",
+        "role": "victims"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 1800,
+        "max": 3000,
+        "best": 2191,
+        "unit": "persons",
+        "of": "civilian",
+        "contested": true,
+        "sources": [
+          {
+            "title": "Official count often given as 1,819; journalists and later writers go higher."
+          }
+        ]
+      }
+    },
+    "relations": [
+      {
+        "kind": "parent",
+        "targetId": "assam-movement"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tewary Commission (not fully public)"
+      },
+      {
+        "title": "Makiko Kimura, The Nellie Massacre of 1983",
+        "creator": "Makiko Kimura",
+        "year": 2013
+      }
+    ],
+    "confidence": "medium",
+    "status": "draft"
+  },
+  {
+    "id": "ulfa",
+    "slug": "ulfa",
+    "name": "ULFA insurgency",
+    "summary": "United Liberation Front of Asom, founded 1979, waged an armed independence campaign from Assam with alleged camps across the Bangladesh and Myanmar borders, then splintered through talks and operations.",
+    "scale": "medium",
+    "scaleRationale": "State-level insurgency with cross-border logistics, decades long.",
+    "types": [
+      "secessionist-insurgency"
+    ],
+    "family": "northeast",
+    "theaters": [
+      "northeast"
+    ],
+    "northeast": true,
+    "internalExternal": "transnational",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation",
+      "ethnicity",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "autonomy",
+        "centrality": "core"
+      },
+      {
+        "kind": "oil-gas",
+        "centrality": "contributing"
+      },
+      {
+        "kind": "tea",
+        "centrality": "contributing"
+      },
+      {
+        "kind": "migration",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1979,
+        "precision": "year"
+      },
+      "ongoing": true,
+      "end": null
+    },
+    "locations": [
+      {
+        "id": "loc-ulfa",
+        "name": "Upper Assam",
+        "kind": "area-approx",
+        "precision": "region",
+        "longitude": 94.9,
+        "latitude": 27.23,
+        "northeast": true,
+        "admin": {
+          "country": "India",
+          "state": "Assam"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 94.9,
+      "latitude": 27.23,
+      "precision": "region"
+    },
+    "parties": [
+      {
+        "actorId": "ulfa",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Assamese",
+        "kind": "ethnicity"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "assam-movement"
+      }
+    ],
+    "sources": [
+      {
+        "title": "SATP ULFA",
+        "dataset": "SATP"
+      }
+    ],
+    "confidence": "medium",
+    "status": "draft"
+  },
+  {
+    "id": "bodo-insurgency",
+    "slug": "bodo-insurgency",
+    "name": "Bodo insurgency",
+    "summary": "Bodo armed groups (NDFB and others) fought for a homeland on the north bank of the Brahmaputra. Cycles of rebellion, accord, split, and communal targeting of Adivasi and Muslim settlers.",
+    "scale": "medium",
+    "scaleRationale": "Repeated campaigns plus civilian massacres; multiple accords.",
+    "types": [
+      "secessionist-insurgency",
+      "ethnic-clash"
+    ],
+    "family": "bodo",
+    "theaters": [
+      "northeast"
+    ],
+    "northeast": true,
+    "internalExternal": "internal",
+    "direction": "multi-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "tribe",
+      "citizenship",
+      "religion",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "autonomy",
+        "centrality": "core"
+      },
+      {
+        "kind": "identity",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1986,
+        "precision": "year"
+      },
+      "ongoing": true
+    },
+    "locations": [
+      {
+        "id": "loc-kokrajhar",
+        "name": "Kokrajhar / Bodoland",
+        "kind": "point",
+        "precision": "district",
+        "longitude": 90.27,
+        "latitude": 26.4,
+        "northeast": true,
+        "admin": {
+          "country": "India",
+          "state": "Assam",
+          "district": "Kokrajhar"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 90.27,
+      "latitude": 26.4,
+      "precision": "district"
+    },
+    "parties": [
+      {
+        "actorId": "ndfb",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Bodo",
+        "kind": "tribe"
+      },
+      {
+        "name": "Adivasi/Santhal settlers",
+        "kind": "tribe"
+      },
+      {
+        "name": "Bengali-speaking Muslims",
+        "kind": "religion"
+      }
+    ],
+    "accords": [
+      {
+        "name": "Bodo Accord",
+        "date": {
+          "year": 1993,
+          "precision": "year"
+        },
+        "parties": [
+          "ABSUs/BPAC",
+          "Government of India",
+          "Assam"
+        ]
+      },
+      {
+        "name": "BTC Accord",
+        "date": {
+          "year": 2003,
+          "precision": "year"
+        },
+        "parties": [
+          "Bodo Liberation Tigers",
+          "Government of India"
+        ]
+      },
+      {
+        "name": "Bodo Accord",
+        "date": {
+          "year": 2020,
+          "precision": "year"
+        },
+        "parties": [
+          "NDFB factions",
+          "Government of India",
+          "Assam"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "assam-movement"
+      }
+    ],
+    "sources": [
+      {
+        "title": "SATP Bodoland",
+        "dataset": "SATP"
+      }
+    ],
+    "confidence": "medium",
+    "status": "draft"
+  },
+  {
+    "id": "tripura-insurgency",
+    "slug": "tripura-insurgency",
+    "name": "Tripura insurgency",
+    "summary": "Tribal insurgent groups (NLFT, ATTF) fought a state where partition-era and later migration had made the indigenous Tripuri a demographic minority. Violence fell after the 2000s.",
+    "scale": "medium",
+    "scaleRationale": "Years of killings and displacement in a small state.",
+    "types": [
+      "secessionist-insurgency",
+      "ethnic-clash"
+    ],
+    "family": "northeast",
+    "theaters": [
+      "northeast"
+    ],
+    "northeast": true,
+    "internalExternal": "transnational",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "tribe",
+      "migration",
+      "religion",
+      "citizenship"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "migration",
+        "centrality": "core"
+      },
+      {
+        "kind": "autonomy",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1978,
+        "precision": "year"
+      },
+      "end": {
+        "year": 2015,
+        "precision": "year",
+        "circa": true,
+        "note": "Residual after the main decline."
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-agartala",
+        "name": "Tripura",
+        "kind": "admin-unit",
+        "precision": "state",
+        "longitude": 91.29,
+        "latitude": 23.83,
+        "northeast": true,
+        "admin": {
+          "country": "India",
+          "state": "Tripura"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 91.29,
+      "latitude": 23.83,
+      "precision": "state"
+    },
+    "parties": [
+      {
+        "actorId": "nlft",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "attf",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Tripuri / Borok",
+        "kind": "tribe"
+      },
+      {
+        "name": "Bengali settlers",
+        "kind": "ethnicity"
+      }
+    ],
+    "sources": [
+      {
+        "title": "SATP Tripura",
+        "dataset": "SATP"
+      }
+    ],
+    "confidence": "medium",
+    "status": "draft"
+  },
+  {
+    "id": "punjab-khalistan",
+    "slug": "punjab-khalistan",
+    "name": "Punjab / Khalistan insurgency",
+    "aliases": [
+      "Punjab militancy",
+      "Operation Blue Star aftermath"
+    ],
+    "summary": "Sikh militant campaign for Khalistan, the 1984 army assault on the Golden Temple, Indira Gandhi’s assassination, and the Delhi killings that followed.",
+    "scale": "large",
+    "scaleRationale": "A state-level war plus a capital pogrom; still politically live.",
+    "types": [
+      "secessionist-insurgency",
+      "military-operation",
+      "pogrom"
+    ],
+    "family": "punjab",
+    "theaters": [
+      "punjab",
+      "communal"
+    ],
+    "northeast": false,
+    "internalExternal": "mixed",
+    "direction": "multi-sided",
+    "religiousDimension": "central",
+    "identityDimensions": [
+      "religion",
+      "nation",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "autonomy",
+        "centrality": "core"
+      },
+      {
+        "kind": "religion",
+        "centrality": "core"
+      },
+      {
+        "kind": "water",
+        "centrality": "contributing"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1978,
+        "precision": "year",
+        "circa": true
+      },
+      "end": {
+        "year": 1993,
+        "precision": "year",
+        "circa": true
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-amritsar",
+        "name": "Amritsar",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 74.87,
+        "latitude": 31.63,
+        "admin": {
+          "country": "India",
+          "state": "Punjab",
+          "district": "Amritsar"
+        }
+      },
+      {
+        "id": "loc-delhi-1984",
+        "name": "Delhi",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 77.21,
+        "latitude": 28.61,
+        "admin": {
+          "country": "India",
+          "state": "Delhi"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 74.87,
+      "latitude": 31.63,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "khalistan-groups",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "in-army",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Sikhs",
+        "kind": "religion"
+      }
+    ],
+    "events": [
+      {
+        "id": "bluestar",
+        "name": "Operation Blue Star",
+        "time": {
+          "year": 1984,
+          "month": 6,
+          "precision": "month"
+        },
+        "location": {
+          "id": "loc-golden-temple",
+          "name": "Harmandir Sahib, Amritsar",
+          "kind": "point",
+          "precision": "building",
+          "longitude": 74.876,
+          "latitude": 31.62
+        },
+        "types": [
+          "military-operation"
+        ]
+      },
+      {
+        "id": "delhi-1984",
+        "name": "Delhi killings, November 1984",
+        "time": {
+          "year": 1984,
+          "month": 11,
+          "precision": "month"
+        },
+        "location": {
+          "id": "loc-delhi-pogrom",
+          "name": "Delhi",
+          "kind": "area-approx",
+          "precision": "city",
+          "longitude": 77.21,
+          "latitude": 28.61
+        },
+        "types": [
+          "pogrom",
+          "one-sided-violence"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "kashmir-insurgency"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nanavati Commission report",
+        "year": 2005
+      },
+      {
+        "title": "UCDP India vs Sikh insurgents",
+        "dataset": "UCDP"
+      }
+    ],
+    "confidence": "medium",
+    "status": "draft"
+  },
+  {
+    "id": "kashmir-insurgency",
+    "slug": "kashmir-insurgency",
+    "name": "Kashmir insurgency",
+    "summary": "Armed insurgency in the Valley from 1989, with militant groups, heavy militarisation, displacement of Kashmiri Pandits, and alleged Pakistani support. The dispute sits on the 1947 war.",
+    "scale": "large",
+    "scaleRationale": "Decades, high fatalities, internationalised.",
+    "types": [
+      "secessionist-insurgency"
+    ],
+    "family": "kashmir",
+    "theaters": [
+      "kashmir"
+    ],
+    "northeast": false,
+    "internalExternal": "mixed",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "religion",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "autonomy",
+        "centrality": "core"
+      },
+      {
+        "kind": "identity",
+        "centrality": "core"
+      },
+      {
+        "kind": "border",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1989,
+        "precision": "year"
+      },
+      "ongoing": true
+    },
+    "locations": [
+      {
+        "id": "loc-valley",
+        "name": "Kashmir Valley",
+        "kind": "area-approx",
+        "precision": "region",
+        "longitude": 74.8,
+        "latitude": 34.08,
+        "disputed": true,
+        "disputedBy": [
+          "Pakistan"
+        ],
+        "admin": {
+          "country": "India",
+          "state": "Jammu and Kashmir"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 74.8,
+      "latitude": 34.08,
+      "precision": "region"
+    },
+    "parties": [
+      {
+        "actorId": "jk-militants",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "pk-gov",
+        "role": "sponsor"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Kashmiri Muslims",
+        "kind": "religion"
+      },
+      {
+        "name": "Kashmiri Pandits",
+        "kind": "religion",
+        "role": "displaced community"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "AFSPA",
+        "places": [
+          "J&K"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "kind": "previous",
+        "targetId": "kashmir-1947"
+      },
+      {
+        "kind": "related",
+        "targetId": "kargil-1999"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UCDP Kashmir",
+        "dataset": "UCDP"
+      },
+      {
+        "title": "Šumit Ganguly, The Crisis in Kashmir",
+        "creator": "Sumit Ganguly",
+        "year": 1997
+      }
+    ],
+    "confidence": "medium",
+    "visualization": {
+      "pulse": true
+    },
+    "status": "draft"
+  },
+  {
+    "id": "bombay-1992",
+    "slug": "bombay-1992",
+    "name": "Bombay riots, 1992–93",
+    "summary": "Weeks of communal killing in Bombay after the Babri Masjid demolition, followed by the March 1993 bombings. The Srikrishna Commission mapped both the riots and the politics around them.",
+    "scale": "medium",
+    "scaleRationale": "A megacity, hundreds to thousands dead, lasting urban geography.",
+    "types": [
+      "communal-riot"
+    ],
+    "family": "communal",
+    "theaters": [
+      "communal",
+      "west-india"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "multi-sided",
+    "religiousDimension": "central",
+    "identityDimensions": [
+      "religion",
+      "class"
+    ],
+    "resources": [
+      {
+        "kind": "religion",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "contributing",
+        "note": "neighbourhood control"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1992,
+        "month": 12,
+        "precision": "month"
+      },
+      "end": {
+        "year": 1993,
+        "month": 3,
+        "precision": "month"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-bombay",
+        "name": "Bombay / Mumbai",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 72.88,
+        "latitude": 19.08,
+        "admin": {
+          "country": "India",
+          "state": "Maharashtra",
+          "district": "Mumbai"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 72.88,
+      "latitude": 19.08,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Muslims of Bombay",
+        "kind": "religion"
+      },
+      {
+        "name": "Hindus of Bombay",
+        "kind": "religion"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Srikrishna Commission report",
+        "year": 1998
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "kargil-1999",
+    "slug": "kargil-1999",
+    "name": "Kargil War, 1999",
+    "aliases": [
+      "Operation Vijay"
+    ],
+    "summary": "Limited war after Pakistani soldiers and militants occupied ridgelines on the Indian side of the LoC in the Kargil district. Nuclear-armed neighbours, high-altitude fighting, US diplomacy.",
+    "scale": "medium",
+    "scaleRationale": "A short interstate war, geographically tight, politically huge.",
+    "types": [
+      "interstate-war",
+      "border-skirmish"
+    ],
+    "family": "interstate",
+    "theaters": [
+      "interstate",
+      "kashmir"
+    ],
+    "northeast": false,
+    "internalExternal": "external",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation"
+    ],
+    "resources": [
+      {
+        "kind": "border",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1999,
+        "month": 5,
+        "precision": "month"
+      },
+      "end": {
+        "year": 1999,
+        "month": 7,
+        "precision": "month"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-kargil",
+        "name": "Kargil",
+        "kind": "point",
+        "precision": "district",
+        "longitude": 76.13,
+        "latitude": 34.55,
+        "disputed": true,
+        "admin": {
+          "country": "India",
+          "state": "Ladakh",
+          "district": "Kargil"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 76.13,
+      "latitude": 34.55,
+      "precision": "district"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "pk-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Baltis / Ladakhis of Kargil",
+        "kind": "ethnicity"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "previous",
+        "targetId": "kashmir-insurgency"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Kargil Review Committee report",
+        "year": 2000
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "gujarat-2002",
+    "slug": "gujarat-2002",
+    "name": "Gujarat, 2002",
+    "summary": "After the Godhra train burning, weeks of anti-Muslim violence across Gujarat. Death tolls, state complicity, and the legal aftermath remain politically radioactive.",
+    "scale": "large",
+    "scaleRationale": "Statewide pogrom with a documented death toll in the hundreds to thousands and national aftershocks.",
+    "types": [
+      "pogrom",
+      "communal-riot",
+      "one-sided-violence"
+    ],
+    "family": "communal",
+    "theaters": [
+      "communal",
+      "west-india"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "central",
+    "identityDimensions": [
+      "religion",
+      "caste"
+    ],
+    "resources": [
+      {
+        "kind": "religion",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2002,
+        "month": 2,
+        "precision": "month"
+      },
+      "end": {
+        "year": 2002,
+        "month": 5,
+        "precision": "month"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-ahmedabad",
+        "name": "Ahmedabad / Gujarat",
+        "kind": "area-approx",
+        "precision": "state",
+        "longitude": 72.57,
+        "latitude": 23.02,
+        "admin": {
+          "country": "India",
+          "state": "Gujarat"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 72.57,
+      "latitude": 23.02,
+      "precision": "state"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Gujarati Muslims",
+        "kind": "religion",
+        "role": "primary victims of the post-Godhra killings"
+      },
+      {
+        "name": "Gujarati Hindus",
+        "kind": "religion"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 790,
+        "max": 2000,
+        "unit": "persons",
+        "contested": true,
+        "sources": [
+          {
+            "title": "Official Gujarat figures vs independent estimates (HRW, Concerned Citizens Tribunal)"
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "title": "Human Rights Watch, ‘We Have No Orders to Save You’",
+        "year": 2002
+      },
+      {
+        "title": "Concerned Citizens Tribunal, Crime Against Humanity",
+        "year": 2002
+      }
+    ],
+    "confidence": "medium",
+    "status": "draft"
+  },
+  {
+    "id": "mumbai-2008",
+    "slug": "mumbai-2008",
+    "name": "Mumbai attacks, 2008",
+    "aliases": [
+      "26/11"
+    ],
+    "summary": "Coordinated shooting and bombing attacks in Mumbai by Lashkar-e-Taiba gunmen who arrived by sea. An external strike on a city, not a riot.",
+    "scale": "small",
+    "scaleRationale": "Hours, one city, high symbolic charge; fatalities in the low hundreds.",
+    "types": [
+      "terrorism"
+    ],
+    "family": "external",
+    "theaters": [
+      "west-india",
+      "external-terrorism"
+    ],
+    "northeast": false,
+    "internalExternal": "external",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "religion"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "date": "2008-11-26",
+        "year": 2008,
+        "month": 11,
+        "day": 26,
+        "precision": "day"
+      },
+      "end": {
+        "date": "2008-11-29",
+        "year": 2008,
+        "month": 11,
+        "day": 29,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-mumbai-26",
+        "name": "Mumbai",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 72.84,
+        "latitude": 18.92,
+        "admin": {
+          "country": "India",
+          "state": "Maharashtra",
+          "district": "Mumbai"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 72.84,
+      "latitude": 18.92,
+      "precision": "building"
+    },
+    "parties": [
+      {
+        "actorId": "let",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "Indian investigation / UN 1267 listings of LeT"
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "manipur-2023",
+    "slug": "manipur-2023",
+    "name": "Manipur, 2023–",
+    "summary": "Ethnic violence between Meitei and Kuki-Zo communities after a high-court order on Scheduled Tribe status. Thousands of weapons looted, hills and valley partitioned in practice, a still-moving death and displacement count.",
+    "scale": "medium",
+    "scaleRationale": "A small state, years of displacement, hundreds dead — not a riot that ended in a week.",
+    "types": [
+      "ethnic-clash"
+    ],
+    "family": "northeast",
+    "theaters": [
+      "northeast"
+    ],
+    "northeast": true,
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "tribe",
+      "ethnicity",
+      "religion",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "identity",
+        "centrality": "core"
+      },
+      {
+        "kind": "jobs",
+        "centrality": "contributing",
+        "note": "ST status"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2023,
+        "month": 5,
+        "precision": "month"
+      },
+      "ongoing": true
+    },
+    "locations": [
+      {
+        "id": "loc-imphal",
+        "name": "Imphal valley / surrounding hills",
+        "kind": "area-approx",
+        "precision": "region",
+        "longitude": 93.94,
+        "latitude": 24.82,
+        "northeast": true,
+        "admin": {
+          "country": "India",
+          "state": "Manipur"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 93.94,
+      "latitude": 24.82,
+      "precision": "region"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Meitei",
+        "kind": "ethnicity"
+      },
+      {
+        "name": "Kuki-Zo",
+        "kind": "tribe"
+      },
+      {
+        "name": "Naga",
+        "kind": "tribe",
+        "role": "adjacent, not the main 2023 dyad"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "overlapping",
+        "targetId": "naga-insurgency"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ACLED India / Manipur situation reports",
+        "dataset": "ACLED"
+      },
+      {
+        "title": "Indian parliamentary and MHA statements, 2023–24"
+      }
+    ],
+    "confidence": "medium",
+    "visualization": {
+      "pulse": true
+    },
+    "status": "draft"
+  },
+  {
+    "id": "bombay-blasts-1993",
+    "slug": "bombay-blasts-1993",
+    "name": "Bombay serial blasts, 1993",
+    "aliases": [
+      "12 March 1993 bombings"
+    ],
+    "summary": "Thirteen coordinated bombs across Bombay on 12 March 1993. Courts tied the conspiracy to Dawood Ibrahim’s network, staged from abroad as revenge for the riots.",
+    "scale": "medium",
+    "scaleRationale": "One afternoon, a megacity, hundreds dead; a transnational crime-terror plot.",
+    "types": [
+      "terrorism"
+    ],
+    "family": "external",
+    "theaters": [
+      "west-india",
+      "external-terrorism"
+    ],
+    "northeast": false,
+    "internalExternal": "transnational",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "religion",
+      "nation"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1993,
+        "month": 3,
+        "day": 12,
+        "precision": "day"
+      },
+      "end": {
+        "year": 1993,
+        "month": 3,
+        "day": 12,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-bombay-blasts",
+        "name": "Bombay",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 72.834,
+        "latitude": 18.93,
+        "admin": {
+          "country": "India",
+          "state": "Maharashtra",
+          "district": "Mumbai"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 72.834,
+      "latitude": 18.93,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "d-company",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "civilians of Bombay",
+        "kind": "nationality"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bombay blast trial judgments"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "bombay-1992"
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "ic814-1999",
+    "slug": "ic814-1999",
+    "name": "IC-814 hijack",
+    "aliases": [
+      "Kandahar hijack"
+    ],
+    "summary": "Indian Airlines flight 814 was hijacked to Kandahar in December 1999. India released three jailed militants, including Masood Azhar, who later founded Jaish-e-Mohammed.",
+    "scale": "small",
+    "scaleRationale": "One aircraft, one week, a political ransom with a long afterlife.",
+    "types": [
+      "terrorism"
+    ],
+    "family": "external",
+    "theaters": [
+      "external-terrorism"
+    ],
+    "northeast": false,
+    "internalExternal": "external",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "religion"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1999,
+        "month": 12,
+        "day": 24,
+        "precision": "day"
+      },
+      "end": {
+        "year": 1999,
+        "month": 12,
+        "day": 31,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-kandahar-ic814",
+        "name": "Kandahar (flight originated in Kathmandu, via Amritsar/Dubai)",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 65.74,
+        "latitude": 31.51,
+        "admin": {
+          "country": "Afghanistan"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 74.8,
+      "latitude": 31.63,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "huji",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "Indian Ministry of External Affairs / contemporary reporting, December 1999"
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "parliament-2001",
+    "slug": "parliament-2001",
+    "name": "Parliament attack, 2001",
+    "summary": "Five gunmen entered the Parliament complex in New Delhi on 13 December 2001. India blamed Jaish-e-Mohammed and Lashkar-e-Taiba. The crisis ran to mobilisation on the border.",
+    "scale": "small",
+    "scaleRationale": "A single morning at the capital’s core; the military sequel was large.",
+    "types": [
+      "terrorism"
+    ],
+    "family": "external",
+    "theaters": [
+      "external-terrorism"
+    ],
+    "northeast": false,
+    "internalExternal": "external",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2001,
+        "month": 12,
+        "day": 13,
+        "precision": "day"
+      },
+      "end": {
+        "year": 2001,
+        "month": 12,
+        "day": 13,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-parliament",
+        "name": "Parliament House, New Delhi",
+        "kind": "point",
+        "precision": "building",
+        "longitude": 77.208,
+        "latitude": 28.617,
+        "admin": {
+          "country": "India",
+          "state": "Delhi"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 77.208,
+      "latitude": 28.617,
+      "precision": "building"
+    },
+    "parties": [
+      {
+        "actorId": "jem",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "let",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "Parliament attack trial record / MHA"
+      }
+    ],
+    "confidence": "high",
+    "visualization": {
+      "pulse": false
+    },
+    "status": "draft"
+  },
+  {
+    "id": "delhi-blasts-2005",
+    "slug": "delhi-blasts-2005",
+    "name": "Delhi serial blasts, 2005",
+    "summary": "Three bombs in Delhi markets on 29 October 2005, just before Diwali and Eid. Police named a Pakistan-based network. The dead were shoppers.",
+    "scale": "small",
+    "scaleRationale": "One evening, a capital, dozens dead.",
+    "types": [
+      "terrorism"
+    ],
+    "family": "external",
+    "theaters": [
+      "external-terrorism"
+    ],
+    "northeast": false,
+    "internalExternal": "external",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2005,
+        "month": 10,
+        "day": 29,
+        "precision": "day"
+      },
+      "end": {
+        "year": 2005,
+        "month": 10,
+        "day": 29,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-delhi-2005",
+        "name": "Sarojini Nagar / Paharganj / Govindpuri, Delhi",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 77.21,
+        "latitude": 28.61,
+        "admin": {
+          "country": "India",
+          "state": "Delhi"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 77.21,
+      "latitude": 28.61,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "let",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "Delhi Police / contemporary press, October 2005"
+      }
+    ],
+    "confidence": "medium",
+    "status": "draft"
+  },
+  {
+    "id": "mumbai-trains-2006",
+    "slug": "mumbai-trains-2006",
+    "name": "Mumbai train blasts, 2006",
+    "aliases": [
+      "7/11"
+    ],
+    "summary": "Seven bombs on Western Railway suburban trains in Mumbai at rush hour on 11 July 2006. Investigators named Lashkar-e-Taiba and local modules.",
+    "scale": "medium",
+    "scaleRationale": "A city’s commuting spine, more than 180 dead in one evening.",
+    "types": [
+      "terrorism"
+    ],
+    "family": "external",
+    "theaters": [
+      "west-india",
+      "external-terrorism"
+    ],
+    "northeast": false,
+    "internalExternal": "transnational",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2006,
+        "month": 7,
+        "day": 11,
+        "precision": "day"
+      },
+      "end": {
+        "year": 2006,
+        "month": 7,
+        "day": 11,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-mumbai-711",
+        "name": "Western line, Mumbai",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 72.82,
+        "latitude": 19.05,
+        "admin": {
+          "country": "India",
+          "state": "Maharashtra",
+          "district": "Mumbai"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 72.82,
+      "latitude": 19.05,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "let",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "Mumbai Police / MHA statements, July 2006"
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "pathankot-2016",
+    "slug": "pathankot-2016",
+    "name": "Pathankot airbase, 2016",
+    "summary": "Gunmen attacked the IAF base at Pathankot in January 2016. India named Jaish-e-Mohammed. The fight lasted days inside a military station.",
+    "scale": "small",
+    "scaleRationale": "A military base, not a city market; still an external strike on Indian soil.",
+    "types": [
+      "terrorism"
+    ],
+    "family": "external",
+    "theaters": [
+      "external-terrorism",
+      "punjab"
+    ],
+    "northeast": false,
+    "internalExternal": "external",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation"
+    ],
+    "resources": [
+      {
+        "kind": "border",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2016,
+        "month": 1,
+        "day": 2,
+        "precision": "day"
+      },
+      "end": {
+        "year": 2016,
+        "month": 1,
+        "day": 5,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-pathankot",
+        "name": "Pathankot airbase",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 75.63,
+        "latitude": 32.23,
+        "admin": {
+          "country": "India",
+          "state": "Punjab",
+          "district": "Pathankot"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 75.63,
+      "latitude": 32.23,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "jem",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "IAF / MHA briefings, January 2016"
+      }
+    ],
+    "confidence": "high",
+    "visualization": {
+      "pulse": true
+    },
+    "status": "draft"
+  },
+  {
+    "id": "uri-2016",
+    "slug": "uri-2016",
+    "name": "Uri, 2016",
+    "summary": "A fidayeen attack on an army camp at Uri in September 2016 killed eighteen soldiers. India named Jaish-e-Mohammed and answered with announced strikes across the Line of Control.",
+    "scale": "small",
+    "scaleRationale": "One camp, a morning, then a diplomatic-military crisis.",
+    "types": [
+      "terrorism"
+    ],
+    "family": "external",
+    "theaters": [
+      "kashmir",
+      "external-terrorism"
+    ],
+    "northeast": false,
+    "internalExternal": "external",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation"
+    ],
+    "resources": [
+      {
+        "kind": "border",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2016,
+        "month": 9,
+        "day": 18,
+        "precision": "day"
+      },
+      "end": {
+        "year": 2016,
+        "month": 9,
+        "day": 18,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-uri",
+        "name": "Uri, Baramulla",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 74.07,
+        "latitude": 34.08,
+        "admin": {
+          "country": "India",
+          "state": "Jammu and Kashmir",
+          "district": "Baramulla"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 74.07,
+      "latitude": 34.08,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "jem",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-army",
+        "role": "state"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "Indian Army / MHA, September 2016"
+      }
+    ],
+    "confidence": "high",
+    "visualization": {
+      "pulse": true
+    },
+    "status": "draft"
+  },
+  {
+    "id": "pulwama-2019",
+    "slug": "pulwama-2019",
+    "name": "Pulwama, 2019",
+    "summary": "A Jaish-e-Mohammed suicide bomber drove into a CRPF convoy on the Jammu–Srinagar highway on 14 February 2019. Forty troopers were killed. Balakot followed.",
+    "scale": "medium",
+    "scaleRationale": "The deadliest attack on Indian security forces in Kashmir in years, with an interstate sequel.",
+    "types": [
+      "terrorism"
+    ],
+    "family": "external",
+    "theaters": [
+      "kashmir",
+      "external-terrorism"
+    ],
+    "northeast": false,
+    "internalExternal": "external",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation"
+    ],
+    "resources": [
+      {
+        "kind": "border",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2019,
+        "month": 2,
+        "day": 14,
+        "precision": "day"
+      },
+      "end": {
+        "year": 2019,
+        "month": 2,
+        "day": 14,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-pulwama-camp",
+        "name": "Lethpora, Pulwama",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 74.9,
+        "latitude": 33.88,
+        "admin": {
+          "country": "India",
+          "state": "Jammu and Kashmir",
+          "district": "Pulwama"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 74.9,
+      "latitude": 33.88,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "jem",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-crpf",
+        "role": "state"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "Government of India / The Hindu, February 2019"
+      }
+    ],
+    "confidence": "high",
+    "visualization": {
+      "pulse": true
+    },
+    "status": "draft"
+  },
+  {
+    "id": "akshardham-2002",
+    "slug": "akshardham-2002",
+    "name": "Akshardham temple attack, 2002",
+    "summary": "Two gunmen entered the Swaminarayan Akshardham complex in Gandhinagar on 24 September 2002. NSG ended the siege at dawn. India named Lashkar-e-Taiba and Jaish-e-Mohammed; the Supreme Court later acquitted six Indians of a local conspiracy.",
+    "scale": "small",
+    "scaleRationale": "One night at a temple, tens dead; an external raid, not a riot.",
+    "types": [
+      "terrorism"
+    ],
+    "family": "external",
+    "theaters": [
+      "west-india",
+      "external-terrorism"
+    ],
+    "northeast": false,
+    "internalExternal": "external",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "religion",
+      "nation"
+    ],
+    "resources": [
+      {
+        "kind": "religion",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2002,
+        "month": 9,
+        "day": 24,
+        "precision": "day"
+      },
+      "end": {
+        "year": 2002,
+        "month": 9,
+        "day": 25,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-akshardham",
+        "name": "Akshardham, Gandhinagar",
+        "kind": "point",
+        "precision": "building",
+        "longitude": 72.674,
+        "latitude": 23.229,
+        "admin": {
+          "country": "India",
+          "state": "Gujarat",
+          "district": "Gandhinagar"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 72.674,
+      "latitude": 23.229,
+      "precision": "building"
+    },
+    "parties": [
+      {
+        "actorId": "let",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "jem",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Swaminarayan devotees",
+        "kind": "religion"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Hindu / Indian Express, Akshardham 2002–2014"
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "hyderabad-2007",
+    "slug": "hyderabad-2007",
+    "name": "Hyderabad twin blasts, 2007",
+    "summary": "Two bombs at Lumbini Park and Gokul Chat in Koti on 25 August 2007. An NIA court later convicted Indian Mujahideen operatives; Riyaz Bhatkal was named as a planter still abroad.",
+    "scale": "small",
+    "scaleRationale": "One Saturday evening, two sites, tens dead.",
+    "types": [
+      "terrorism"
+    ],
+    "family": "external",
+    "theaters": [
+      "south-india",
+      "external-terrorism"
+    ],
+    "northeast": false,
+    "internalExternal": "mixed",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "religion"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2007,
+        "month": 8,
+        "day": 25,
+        "precision": "day"
+      },
+      "end": {
+        "year": 2007,
+        "month": 8,
+        "day": 25,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-hyderabad-2007",
+        "name": "Hyderabad",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 78.48,
+        "latitude": 17.39,
+        "admin": {
+          "country": "India",
+          "state": "Telangana",
+          "district": "Hyderabad"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 78.48,
+      "latitude": 17.39,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "im",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "huji",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "The Indian Express / The Hindu, Hyderabad 2007"
+      }
+    ],
+    "confidence": "medium",
+    "status": "draft"
+  },
+  {
+    "id": "indian-mujahideen-2008",
+    "slug": "indian-mujahideen-2008",
+    "name": "Indian Mujahideen urban bombings, 2008–13",
+    "summary": "A SIMI splinter calling itself Indian Mujahideen emailed claims before bicycle and tiffin bombs in Jaipur, Ahmedabad and Delhi in 2008, then Mumbai in 2011 and Dilsukhnagar in 2013. Investigators described an Indian module with alleged Lashkar links.",
+    "scale": "medium",
+    "scaleRationale": "Several cities over five years, hundreds dead; a named urban campaign.",
+    "types": [
+      "terrorism"
+    ],
+    "family": "external",
+    "theaters": [
+      "external-terrorism"
+    ],
+    "northeast": false,
+    "internalExternal": "mixed",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "religion",
+      "nation",
+      "ideology"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2008,
+        "month": 5,
+        "day": 13,
+        "precision": "day"
+      },
+      "end": {
+        "year": 2013,
+        "month": 2,
+        "day": 21,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-im-jaipur",
+        "name": "Jaipur / Ahmedabad / Delhi",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 75.824,
+        "latitude": 26.926,
+        "admin": {
+          "country": "India",
+          "state": "Rajasthan",
+          "district": "Jaipur"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 75.824,
+      "latitude": 26.926,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "im",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "let",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "The Hindu / Reuters / Indian Express, IM 2008–13"
+      }
+    ],
+    "confidence": "medium",
+    "status": "draft"
+  },
+  {
+    "id": "pune-german-bakery-2010",
+    "slug": "pune-german-bakery-2010",
+    "name": "Pune German Bakery blast, 2010",
+    "summary": "A bomb in an unattended bag at the German Bakery in Koregaon Park. Seventeen people were killed, including foreigners. Maharashtra ATS charged a Lashkar module working with Indian Mujahideen operatives.",
+    "scale": "small",
+    "scaleRationale": "One café, one evening.",
+    "types": [
+      "terrorism"
+    ],
+    "family": "external",
+    "theaters": [
+      "west-india",
+      "external-terrorism"
+    ],
+    "northeast": false,
+    "internalExternal": "mixed",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2010,
+        "month": 2,
+        "day": 13,
+        "precision": "day"
+      },
+      "end": {
+        "year": 2010,
+        "month": 2,
+        "day": 13,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-german-bakery",
+        "name": "German Bakery, Pune",
+        "kind": "point",
+        "precision": "building",
+        "longitude": 73.887,
+        "latitude": 18.54,
+        "admin": {
+          "country": "India",
+          "state": "Maharashtra",
+          "district": "Pune"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 73.887,
+      "latitude": 18.54,
+      "precision": "building"
+    },
+    "parties": [
+      {
+        "actorId": "im",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "let",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "The Hindu / BBC, German Bakery 2010"
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "gurdaspur-2015",
+    "slug": "gurdaspur-2015",
+    "name": "Gurdaspur / Dinanagar attack, 2015",
+    "summary": "Three gunmen in army fatigues crossed into Punjab, fired on a bus and stormed the Dinanagar police station. Intelligence Bureau officials described a Lashkar-e-Taiba method; GPS sets pointed back across the border.",
+    "scale": "small",
+    "scaleRationale": "One town, one day, a fidayeen raid out of Kashmir into the plains.",
+    "types": [
+      "terrorism"
+    ],
+    "family": "external",
+    "theaters": [
+      "punjab",
+      "external-terrorism"
+    ],
+    "northeast": false,
+    "internalExternal": "external",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation"
+    ],
+    "resources": [
+      {
+        "kind": "border",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2015,
+        "month": 7,
+        "day": 27,
+        "precision": "day"
+      },
+      "end": {
+        "year": 2015,
+        "month": 7,
+        "day": 27,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-dinanagar",
+        "name": "Dinanagar, Gurdaspur",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 75.47,
+        "latitude": 32.13,
+        "admin": {
+          "country": "India",
+          "state": "Punjab",
+          "district": "Gurdaspur"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 75.47,
+      "latitude": 32.13,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "let",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "The Hindu, Gurdaspur 2015"
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  }
+]

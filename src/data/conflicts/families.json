@@ -1,0 +1,62 @@
+[
+  {
+    "id": "interstate",
+    "label": "Interstate wars",
+    "color": "#d7c4a0",
+    "hint": "Wars with another state"
+  },
+  {
+    "id": "naxal",
+    "label": "Naxal–Maoist",
+    "color": "#e85d4c",
+    "hint": "Rural revolutionary insurgency. Internal, not External terror."
+  },
+  {
+    "id": "naga",
+    "label": "Naga",
+    "color": "#2f8f78",
+    "hint": "Naga independence campaign"
+  },
+  {
+    "id": "bodo",
+    "label": "Bodo",
+    "color": "#e3b23c",
+    "hint": "Bodoland campaign"
+  },
+  {
+    "id": "northeast",
+    "label": "Other Northeast",
+    "color": "#7eb8a0",
+    "hint": "Mizo, Assam, Tripura, Manipur"
+  },
+  {
+    "id": "kashmir",
+    "label": "Kashmir",
+    "color": "#6b8cce",
+    "hint": "Valley insurgency after 1989"
+  },
+  {
+    "id": "punjab",
+    "label": "Punjab",
+    "color": "#c9a227",
+    "hint": "Khalistan years"
+  },
+  {
+    "id": "communal",
+    "label": "Communal",
+    "color": "#c47a3a",
+    "hint": "Riot sequences"
+  },
+  {
+    "id": "external",
+    "label": "External terror",
+    "color": "#c07a9a",
+    "hint": "Transnational attacks on Indian soil"
+  },
+  {
+    "id": "integration",
+    "label": "Integration",
+    "color": "#9a937e",
+    "hint": "Princely-state annexation"
+  }
+]

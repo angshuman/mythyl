@@ -1,0 +1,1308 @@
+[
+  {
+    "id": "srikakulam-panchadi-1969",
+    "conflictId": "naxal",
+    "name": "Panchadi Krishnamurthy killings",
+    "kind": "operation",
+    "time": {
+      "year": 1969,
+      "month": 5,
+      "day": 27,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Sompeta",
+      "longitude": 84.599,
+      "latitude": 18.946,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Andhra Pradesh",
+        "district": "Srikakulam"
+      }
+    },
+    "summary": "Police detained Panchadi Krishnamurthy, the CPI(ML) secretary for Srikakulam, as he stepped off a train at Sompeta with six young comrades returning from Calcutta. They were taken into the woods and shot; the official version called it an encounter. The deaths broke the plains leadership of the Srikakulam Girijan uprising, the first rural armed campaign that carried the Naxalbari name into Andhra.",
+    "story": "Most of the six were Boddapadu High School students in their teens. A CPI(ML) pamphlet a year later dated the shooting to 27 May.",
+    "sides": [
+      {
+        "label": "Andhra Pradesh police",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "CPI(ML) Srikakulam squad",
+        "role": "target",
+        "kind": "insurgent",
+        "actorId": "cpi-ml"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 7,
+        "killedMax": 7,
+        "killedBest": 7,
+        "of": "insurgent",
+        "sideLabel": "Panchadi Krishnamurthy and six comrades",
+        "claimedBy": "CPI(ML) Sompeta area committee pamphlet; Shantha Sinha, Maoists in Andhra Pradesh",
+        "contested": true,
+        "note": "Police called it an encounter. Party accounts and later historians treat it as a custody killing after arrest at Sompeta station. Some theses give 24 May; the 27 May date is the usual anniversary."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "SATP",
+        "headline": "Fatalities in Left-wing Extremist violence in Andhra Pradesh, 1968–2000",
+        "year": 2019,
+        "url": "https://satp.org/datasheet-terrorist-attack/india-maoistinsurgency-andhrapradesh/fatalities-Between-1968-2000",
+        "excerpt": "SATP’s Andhra compilation records 76 ‘terrorists’ killed in 1969, the year the Srikakulam leadership was broken in a string of police encounters.",
+        "stance": "unknown"
+      },
+      {
+        "outlet": "Frontline",
+        "headline": "The rise and decline of the Maoist movement in Telangana and Andhra Pradesh",
+        "year": 2025,
+        "url": "https://frontline.thehindu.com/the-nation/maoist-movement-telangana-andhra-pradesh-history-decline/article69396221.ece",
+        "excerpt": "Uprisings in Naxalbari and Srikakulam in the late 1960s were suppressed. Since Srikakulam, ‘encounters’ have been commonplace in Andhra and Telangana.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "cossipore-baranagar-1971",
+    "conflictId": "naxal",
+    "name": "Cossipore–Baranagar massacre",
+    "kind": "massacre",
+    "time": {
+      "year": 1971,
+      "month": 8,
+      "day": 13,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Baranagar and Cossipore",
+      "longitude": 88.365,
+      "latitude": 22.643,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "West Bengal",
+        "district": "North 24 Parganas"
+      }
+    },
+    "summary": "On the night of 12–13 August 1971, Congress-backed vigilantes working with police moved through Cossipore and Baranagar in north Calcutta, pulling alleged Naxalite youths from houses. Later inquiry claims put the dead around 150, many of them teenagers, with bodies dumped in the Hooghly. The killings sit at the hard edge of the city’s annihilation years, when the word encounter entered Indian English.",
+    "story": "West Bengal was under President’s Rule. A 1974 APDR-backed inquiry blamed a coordinated operation by security forces and Congress, with tacit help from a section of the CPI(M).",
+    "sides": [
+      {
+        "label": "Congress vigilantes and police",
+        "role": "attacker",
+        "kind": "militia"
+      },
+      {
+        "label": "alleged Naxalite youths and neighbours",
+        "role": "target",
+        "kind": "civilian",
+        "actorId": "cpi-ml"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 150,
+        "killedMax": 200,
+        "killedBest": 150,
+        "of": "mixed",
+        "sideLabel": "Naxalite activists, sympathisers and neighbours",
+        "claimedBy": "APDR / Haratosh Chakraborty commission tradition; The Wire 2020",
+        "contested": true,
+        "note": "No official contemporaneous body count. Inquiry and commemorative tallies cluster around 150; some accounts go to 200. Many of the dead were not armed cadres."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Wire",
+        "headline": "Why Mamata Is Sitting on Reports of Commissions Formed to Target Congress, CPI(M)",
+        "year": 2020,
+        "url": "https://thewire.in/politics/mamata-banerjee-tmc-cossipore-baranagar-massacre-cpim-congress-bjp",
+        "excerpt": "The Cossipore–Baranagar massacre of 12–13 August 1971 killed around 150 Naxalite activists and sympathisers, allegedly by Congress-aligned hoodlums in connivance with the police.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Times of India",
+        "headline": "People’s tribunal sought for probe into 1971 massacre",
+        "year": 2001,
+        "url": "https://timesofindia.indiatimes.com/city/kolkata/peoples-tribunal-sought-for-probe-into-1971-massacre/articleshow/1603055038.cms",
+        "excerpt": "More than 150 Naxalite youths were killed between 12 and 13 August 1971. Many bodies were dumped in the Hooghly. The carnage was masterminded during President’s Rule, allegedly by Congress vigilante groups supported by the police.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "alipiri-2003",
+    "conflictId": "naxal",
+    "name": "Alipiri bomb blast",
+    "kind": "assassination",
+    "time": {
+      "year": 2003,
+      "month": 10,
+      "day": 1,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Alipiri, Tirupati",
+      "longitude": 79.406,
+      "latitude": 13.647,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Andhra Pradesh",
+        "district": "Tirupati"
+      }
+    },
+    "summary": "People’s War triggered a line of Claymore mines on the Tirumala ghat road just after Andhra Pradesh chief minister N. Chandrababu Naidu’s convoy passed the Alipiri toll gate. His bulletproof car was thrown on its side; he walked out with a fractured collarbone. It was the closest a Naxal squad came to killing a sitting chief minister.",
+    "story": "The jammer vehicle that usually led the convoy was not taken to Tirupati that day. PWG called the job the Alipiri Mission.",
+    "sides": [
+      {
+        "label": "People’s War Group",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "N. Chandrababu Naidu convoy",
+        "role": "target",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "state-forces",
+        "sideLabel": "chief minister and convoy",
+        "claimedBy": "Frontline / The Hindu 2003",
+        "contested": false,
+        "note": "No deaths reported. Naidu, minister B. Gopalakrishna Reddy, and MLAs C. Krishnamurthy and R. Rajasekhar Reddy were injured. Rajasekhar Reddy was critically hurt."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Frontline",
+        "headline": "A blast and its shock",
+        "year": 2003,
+        "url": "https://frontline.thehindu.com/the-nation/article30219569.ece",
+        "excerpt": "On 1 October, People’s War activists triggered a series of nine Claymore mines on the ghat road to Tirumala, barely minutes after the chief minister’s convoy crossed the Alipiri toll gate. Naidu’s bulletproof car was hurled into the air.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Telegraph",
+        "headline": "Naxalite bomb attack on Naidu",
+        "year": 2003,
+        "url": "https://www.telegraphindia.com/india/naxalite-bomb-attack-on-naidu/cid/793520",
+        "excerpt": "Naidu escaped with a fractured hand and injured collarbone after landmine blasts sent his car off the road near Tirupati. Police said People’s War had planted claymore mines about 500 yards from the Alipiri entrance.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "koraput-armoury-2004",
+    "conflictId": "naxal",
+    "name": "Koraput armoury raid",
+    "kind": "raid",
+    "time": {
+      "year": 2004,
+      "month": 2,
+      "day": 6,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Koraput",
+      "longitude": 82.71,
+      "latitude": 18.81,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Odisha",
+        "district": "Koraput"
+      }
+    },
+    "summary": "People’s War squads walked into Koraput town after dark and spent about six hours looting the district armoury, police stations, the jail and the OSAP battalion. They left with hundreds of rifles and tens of thousands of rounds — a haul that armed the merger-era guerrilla force. A sentry died at the armoury; a mine on the Kolab road killed CRPF men covering the retreat.",
+    "story": "The raid came seven months before People’s War and the MCC merged as CPI (Maoist). Cadres later said weapons were dumped in the Bastar forests.",
+    "sides": [
+      {
+        "label": "People’s War / People’s Guerrilla Army",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "Odisha police, OSAP and CRPF",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "in-crpf"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 3,
+        "killedMax": 4,
+        "killedBest": 4,
+        "of": "state-forces",
+        "sideLabel": "police sentry, CRPF and Odisha police",
+        "claimedBy": "SATP Koraput timeline February 2004; Times of India 7 Feb 2004",
+        "contested": true,
+        "note": "TOI contemporaneous: sentry killed at the armoury and two CRPF in a landmine, 11 injured. SATP: toll reached four with another injured policeman on 8 February."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "SATP",
+        "headline": "Koraput (Odisha): Timeline of terrorist activities, February 2004",
+        "year": 2004,
+        "url": "https://satp.org/terrorist-activity/india-maoistinsurgency-odisha-koraput-Feb-2004",
+        "excerpt": "On 6 February two CRPF personnel were killed when PWG ambushed a truck near Kolab, and PWG shot a policeman at the SP’s office. By 8 February the casualty count in the Koraput attack had reached four.",
+        "stance": "unknown"
+      },
+      {
+        "outlet": "Times of India",
+        "headline": "PW extremists loot Koraput armoury; three killed",
+        "year": 2004,
+        "url": "https://timesofindia.indiatimes.com/india/pw-extremists-loot-koraput-armoury-three-killed/articleshow/482997.cms",
+        "excerpt": "People’s War seized Koraput and decamped with over 1,000 guns. During the six-hour operation they looted the district armoury, five police stations and the jail, killed a sentry and blew a landmine that killed two CRPF jawans.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "jehanabad-jailbreak-2005",
+    "conflictId": "naxal",
+    "name": "Jehanabad jailbreak",
+    "kind": "raid",
+    "time": {
+      "year": 2005,
+      "month": 11,
+      "day": 13,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Jehanabad",
+      "longitude": 84.989,
+      "latitude": 25.214,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Bihar",
+        "district": "Jehanabad"
+      }
+    },
+    "summary": "About a thousand CPI (Maoist) fighters in police uniform took Jehanabad for two hours on polling night and opened the district jail. They walked their own cadres out — among them state secretary Ajay Kanu — and marched Ranvir Sena prisoners into the dark. Hundreds of other inmates simply left. It remains India’s largest jailbreak.",
+    "story": "Pamphlets said Operation Jailbreak was timed to the November 1917 revolution, to rescue comrades and pass death sentence on selected Ranvir Sena men.",
+    "sides": [
+      {
+        "label": "CPI (Maoist)",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "cpi-maoist"
+      },
+      {
+        "label": "Bihar police and jail staff",
+        "role": "defender",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Ranvir Sena prisoners",
+        "role": "target",
+        "kind": "militia"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 2,
+        "killedMax": 6,
+        "killedBest": 2,
+        "of": "state-forces",
+        "sideLabel": "police and jail staff",
+        "claimedBy": "Rediff / PTI 14 Nov 2005; The Telegraph 14 Nov 2005",
+        "contested": true,
+        "note": "Telegraph split the siege dead as two policemen, two Maoists and two Ranvir Sena. Rediff put the night’s overall dead at about 12."
+      },
+      {
+        "killedMin": 9,
+        "killedMax": 12,
+        "killedBest": 9,
+        "of": "militia",
+        "sideLabel": "Ranvir Sena hostages and inmates",
+        "claimedBy": "The Telegraph 14 Nov 2005",
+        "contested": true,
+        "note": "Nine hostages taken from the jail were reported killed the next day. Prisoner counts of those who walked out range from 341 to 389."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "18 years after India’s biggest jailbreak",
+        "year": 2024,
+        "url": "https://www.thehindu.com/news/national/18-years-after-indias-biggest-jailbreak/article67998995.ece",
+        "excerpt": "On 13 November 2005 about 1,000 armed Maoists besieged Jehanabad jail, 70 km from Patna. Ajay Kanu, the reason for the break, walked out with 389 prisoners including Maoists and hardcore criminals.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Rediff",
+        "headline": "Maoists storm Jehanabad jail",
+        "year": 2005,
+        "url": "https://www.rediff.com/news/report/bihar/20051114.htm",
+        "excerpt": "Naxalites stormed Jehanabad on Sunday night, killing at least 12 people. Dreaded Ajay Kanu, state secretary of CPI (Maoist), was believed to be among the escapees. Pamphlets called it Operation Jailbreak.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "errabore-2006",
+    "conflictId": "naxal",
+    "name": "Errabore camp raid",
+    "kind": "massacre",
+    "time": {
+      "year": 2006,
+      "month": 7,
+      "day": 17,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Errabore, Konta",
+      "longitude": 81.425,
+      "latitude": 17.975,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Chhattisgarh",
+        "district": "Sukma"
+      }
+    },
+    "summary": "Hundreds of CPI (Maoist) fighters hit the Salwa Judum relief camp at Errabore before dawn, hacking and burning people who had been moved there from villages in south Dantewada. The camp was supposed to be a shield. It became a target. The raid is one of the named days of the Judum years, when Bastar’s war ran through roadside camps as much as through the forest.",
+    "story": "Konta block is now in Sukma. In 2006 it was still Dantewada. Compensation files years later named 32 families.",
+    "sides": [
+      {
+        "label": "CPI (Maoist)",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "cpi-maoist"
+      },
+      {
+        "label": "Salwa Judum camp residents",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 26,
+        "killedMax": 33,
+        "killedBest": 31,
+        "of": "civilian",
+        "sideLabel": "Errabore relief-camp residents",
+        "claimedBy": "Times of India 17 July 2006; SATP Dantewada July 2006",
+        "contested": true,
+        "note": "TOI same-day: 26, including three women and two infants. Hindu via SATP: 27 Salwa Judum activists. SATP 18 July: toll 33 after six abducted youths were found near Gaganpalli. Later compensation lists name about 32 families."
+      },
+      {
+        "killedMin": 4,
+        "killedMax": 4,
+        "killedBest": 4,
+        "of": "insurgent",
+        "sideLabel": "Maoist raiders",
+        "claimedBy": "Times of India 17 July 2006",
+        "contested": true,
+        "note": "Police said four Naxals died in retaliatory fire. Not independently counted."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "SATP",
+        "headline": "Dantewada (Chhattisgarh): Timeline, July 2006",
+        "year": 2006,
+        "url": "https://satp.org/terrorist-activity/india-maoistinsurgency-chhattisgarh-dantewada-Jul-2006",
+        "excerpt": "Hindu reports put 17 to 27 dead at Erraboru camp on 17 July. On 18 July the toll rose to 33 after six kidnapped tribal youths were found near Gaganpalli.",
+        "stance": "unknown"
+      },
+      {
+        "outlet": "Times of India",
+        "headline": "Naxalites raid relief camp, kill 26 tribals",
+        "year": 2006,
+        "url": "https://timesofindia.indiatimes.com/city/delhi/naxalites-raid-relief-camp-kill-26-tribals/articleshow/1767774.cms",
+        "excerpt": "Three women and two infants were among 26 tribals killed as Naxals attacked the Errabore relief camp at Dantewada with firearms and sharp-edged weapons. Four Naxals were killed in retaliatory fire.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rani-bodli-2007",
+    "conflictId": "naxal",
+    "name": "Rani Bodli raid",
+    "kind": "raid",
+    "time": {
+      "year": 2007,
+      "month": 3,
+      "day": 15,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Rani Bodli, Bhairamgarh",
+      "longitude": 80.716,
+      "latitude": 19.086,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Chhattisgarh",
+        "district": "Bijapur"
+      }
+    },
+    "summary": "A few hundred Maoists climbed the wall of an ashram-school camp at Rani Bodli with bamboo ladders, lit a generator, and threw petrol bombs into the barracks. When ammunition ran out, Chhattisgarh Armed Force men and Special Police Officers were forced into the open. Fifty-five died. It was the deadliest strike on a Salwa Judum-linked post before Tadmetla.",
+    "story": "The outpost sat in a girls’ hostel. Three policemen who stayed awake in a separate wing lived. The officer in charge was suspended the next day.",
+    "sides": [
+      {
+        "label": "CPI (Maoist)",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "cpi-maoist"
+      },
+      {
+        "label": "Chhattisgarh Armed Force",
+        "role": "defender",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Special Police Officers",
+        "role": "defender",
+        "kind": "militia"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 16,
+        "killedMax": 24,
+        "killedBest": 16,
+        "of": "state-forces",
+        "sideLabel": "Chhattisgarh Armed Force",
+        "claimedBy": "Rediff / PTI 15 March 2007",
+        "contested": true,
+        "note": "PTI/Rediff: 16 CAF. Frontline later wrote 24 state police and 31 SPOs. The 16+39 split is the usual official count."
+      },
+      {
+        "killedMin": 31,
+        "killedMax": 39,
+        "killedBest": 39,
+        "of": "militia",
+        "sideLabel": "Special Police Officers",
+        "claimedBy": "Rediff / PTI 15 March 2007",
+        "contested": true,
+        "note": "SPOs were Salwa Judum-era local militia on the state payroll. PTI: 39. Frontline: 31."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Indian Express",
+        "headline": "Maoists kill 54 policemen in Bastar, flee with weapons",
+        "year": 2007,
+        "url": "https://indianexpress.com/article/news-archive/maoists-kill-54-policemen-in-bastar-flee-with-weapons/",
+        "excerpt": "Maoists killed at least 54 security personnel by attacking a police post at Rani Bodli in Bijapur. The raid, from about 2 a.m. to 5 a.m., saw grenades and petrol bombs before the camp was set ablaze.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Rediff",
+        "headline": "Chhattisgarh: 55 killed in Naxal bloodbath",
+        "year": 2007,
+        "url": "https://www.rediff.com/news/2007/mar/15naxal1.htm",
+        "excerpt": "At least 55 police personnel were killed when more than 300 rebels stormed Rani Bodli. Sixteen Chhattisgarh Armed Force jawans and 39 special police officers died. The Naxalites looted 48 weapons.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "nayagarh-2008",
+    "conflictId": "naxal",
+    "name": "Nayagarh armoury raid",
+    "kind": "raid",
+    "time": {
+      "year": 2008,
+      "month": 2,
+      "day": 15,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Nayagarh",
+      "longitude": 85.096,
+      "latitude": 20.128,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Odisha",
+        "district": "Nayagarh"
+      }
+    },
+    "summary": "Several hundred CPI (Maoist) cadres in plain clothes took Nayagarh, 90 km from Bhubaneswar, and emptied the district armoury and the police training school. Simultaneous raids hit Daspalla, Nuagaon and Mahipur. Thirteen policemen and at least one civilian died. The guerrillas left with about 1,100 weapons in hijacked trucks and a bus.",
+    "story": "Some of the raiders ate in town hotels before the shooting started, paid the bill, and made a short speech. Nayagarh is the hometown of then Odisha Maoist secretary Sabyasachi Panda.",
+    "sides": [
+      {
+        "label": "CPI (Maoist)",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "cpi-maoist"
+      },
+      {
+        "label": "Odisha police",
+        "role": "defender",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Nayagarh town residents",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 13,
+        "killedMax": 14,
+        "killedBest": 13,
+        "of": "state-forces",
+        "sideLabel": "Odisha police",
+        "claimedBy": "Reuters / Nayagarh SP Rajesh Kumar 16 Feb 2008",
+        "contested": false,
+        "note": "SP Kumar: 13 policemen, including two women, mostly at the PTS, armoury and town station. Indian Express later used 13 policemen among 15 dead."
+      },
+      {
+        "killedMin": 1,
+        "killedMax": 2,
+        "killedBest": 1,
+        "of": "civilian",
+        "sideLabel": "civilians in Nayagarh and Daspalla",
+        "claimedBy": "Reuters 16 Feb 2008; Indian Express 16 Feb 2008",
+        "contested": true,
+        "note": "Reuters: one civilian. Express: a suspected informer and a village guard among those killed."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Indian Express",
+        "headline": "Naxals storm 3 police stations, kill 15",
+        "year": 2008,
+        "url": "https://indianexpress.com/article/news-archive/naxals-storm-3-police-stations-kill-15/",
+        "excerpt": "Fifteen persons, including 13 policemen, were killed in a siege of three police stations in Nayagarh. Maoists raided the town station and armoury about 10.30 p.m. and stormed the police training school.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Reuters",
+        "headline": "Maoists kill 13 police in India's Orissa state",
+        "year": 2008,
+        "url": "https://www.reuters.com/article/markets/asia/maoists-kill-13-police-in-indias-orissa-state-idUSB128612/",
+        "excerpt": "Hundreds of Maoist rebels attacked police stations in Nayagarh, killing 14 people and looting weapons. SP Rajesh Kumar said about 500 armed rebels rushed the town in vehicles and looted a huge quantity of arms.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "silda-2010",
+    "conflictId": "naxal",
+    "name": "Silda camp raid",
+    "kind": "raid",
+    "time": {
+      "year": 2010,
+      "month": 2,
+      "day": 15,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Silda",
+      "longitude": 86.818,
+      "latitude": 22.617,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "West Bengal",
+        "district": "Jhargram"
+      }
+    },
+    "summary": "Maoists overran an Eastern Frontier Rifles camp in the Silda school compound in what was then West Midnapore. Twenty-four EFR men died in a raid the party named Peace Hunt, billed as an answer to Operation Green Hunt. It was the deadliest single day for security forces in Bengal’s Jangalmahal war.",
+    "story": "Kishanji claimed the attack. Silda is now in Jhargram district. Early dispatches said 20 dead; the camp roll settled at 24.",
+    "sides": [
+      {
+        "label": "CPI (Maoist)",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "cpi-maoist"
+      },
+      {
+        "label": "Eastern Frontier Rifles",
+        "role": "target",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 20,
+        "killedMax": 25,
+        "killedBest": 24,
+        "of": "state-forces",
+        "sideLabel": "Eastern Frontier Rifles",
+        "claimedBy": "The Hindu 15 Feb 2010; later camp roll",
+        "contested": true,
+        "note": "The Hindu’s first report said 20 jawans. Subsequent tallies and photo captions settled on 24 EFR, sometimes plus one civilian."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Maoists kill 20 jawans in West Bengal",
+        "year": 2010,
+        "url": "https://www.thehindu.com/news/national/other-states/Maoists-kill-20-jawans-in-West-Bengal/article16814936.ece",
+        "excerpt": "Maoists attacked an Eastern Frontier Rifles camp at Silda in West Midnapore, killing 20 jawans in a raid later tied to the party’s ‘Peace Hunt’ against Operation Green Hunt.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "gyaneshwari-express-2010",
+    "conflictId": "naxal",
+    "name": "Gyaneshwari Express derailment",
+    "kind": "bombing",
+    "time": {
+      "year": 2010,
+      "month": 5,
+      "day": 28,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Sardiha–Khemasuli",
+      "longitude": 87.153,
+      "latitude": 22.359,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "West Bengal",
+        "district": "Paschim Medinipur"
+      }
+    },
+    "summary": "In the small hours, the Howrah–Kurla Gyaneshwari Express left the rails between Sardiha and Khemasuli. A goods train then smashed into the wreck. A hundred and fifty people died in their berths. West Bengal police and the CBI blamed a Maoist-backed PCPA sabotage of fishplates; Kishenji and the PCPA denied it. The attribution is still contested.",
+    "story": "Railway minister Mamata Banerjee said there had been a blast. The DGP said clips and fishplates had been removed and forensics found no big explosion.",
+    "sides": [
+      {
+        "label": "PCPA / alleged Maoist squad",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "cpi-maoist"
+      },
+      {
+        "label": "Gyaneshwari Express passengers",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 145,
+        "killedMax": 151,
+        "killedBest": 148,
+        "of": "civilian",
+        "sideLabel": "train passengers and crew",
+        "claimedBy": "The Hindu 30 May 2010 (DGP 151, South Eastern Railway 148, district 145)",
+        "contested": true,
+        "note": "Attribution of the sabotage is contested: police/CBI/MHA blamed PCPA as a Maoist front; Kishenji denied CPI (Maoist) involvement; PCPA denied and blamed CPI(M). Mechanism (blast vs removed fishplates) was also disputed."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "79 killed as goods train rams Maoist-derailed coaches",
+        "year": 2010,
+        "url": "https://www.thehindu.com/news/national/79-killed-as-goods-train-rams-Maoist-derailed-coaches/article16304611.ece",
+        "excerpt": "A goods train rammed 13 derailed coaches of the Gyaneshwari Express between Khemashuli and Sardiha. Mamata Banerjee suspected a blast; DGP Bhupinder Singh said rebels had removed pandrol clips and fishplates.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Hindu",
+        "headline": "Police: phone intercepts reveal Maoist hand in derailment",
+        "year": 2010,
+        "url": "https://www.thehindu.com/news/national/Police-phone-intercepts-reveal-Maoist-hand-in-derailment/article16304671.ece",
+        "excerpt": "DGP Bhupinder Singh put the toll at 151; South Eastern Railway at 148; the district at 145. CID claimed intercepts showed Maoist squad members and PCPA supporters. Forensics found no evidence of a massive explosion.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sarkeguda-2012",
+    "conflictId": "naxal",
+    "name": "Sarkeguda firing",
+    "kind": "operation",
+    "time": {
+      "year": 2012,
+      "month": 6,
+      "day": 28,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Sarkeguda",
+      "longitude": 80.92,
+      "latitude": 18.54,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Chhattisgarh",
+        "district": "Bijapur"
+      }
+    },
+    "summary": "CRPF and state police opened fire on a night gathering of Adivasis from Sarkeguda, Kottaguda and Rajpenta, near Basaguda. Seventeen villagers died, several of them children. The force first called it an encounter. A judicial commission later found unarmed people sitting in an open field for a seed festival, and no Maoists.",
+    "story": "Justice V. K. Agarwal’s report, tabled in the Chhattisgarh Assembly in 2019, called the police version false.",
+    "sides": [
+      {
+        "label": "CRPF and Chhattisgarh police",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "in-crpf"
+      },
+      {
+        "label": "Sarkeguda, Kottaguda and Rajpenta villagers",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 17,
+        "killedMax": 17,
+        "killedBest": 17,
+        "of": "civilian",
+        "sideLabel": "Adivasi villagers, including minors",
+        "claimedBy": "BBC 11 July 2012; Justice V. K. Agarwal commission 2019",
+        "contested": false,
+        "note": "CRPF first said all 17 were Maoists, then that civilians died in crossfire as human shields. The commission found unprovoked firing and no Maoists. Six CRPF were wounded; police said some wounds were from their own fire."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "BBC",
+        "headline": "India police 'killed tribals, not Maoists' in Chhattisgarh",
+        "year": 2012,
+        "url": "https://www.bbc.com/news/world-asia-india-18792575",
+        "excerpt": "Rights activists said 17 people killed by paramilitary police in Bijapur on 29 June were local tribespeople, including a 12-year-old girl and school students, not Maoist rebels. Police first said all 17 were rebels.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Hindu",
+        "headline": "It's plain slaughter in Bijapur: rights activists",
+        "year": 2012,
+        "url": "https://www.thehindu.com/news/national/its-plain-slaughter-in-bijapur-rights-activists/article3625034.ece",
+        "excerpt": "A fact-finding team called the Sarkeguda firing a slaughter of unarmed villagers gathered from three hamlets, contradicting the CRPF encounter claim.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "latehar-2013",
+    "conflictId": "naxal",
+    "name": "Latehar ambush",
+    "kind": "ambush",
+    "time": {
+      "year": 2013,
+      "month": 1,
+      "day": 7,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Amwatikar, Barwadih",
+      "longitude": 84.05,
+      "latitude": 23.8,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Jharkhand",
+        "district": "Latehar"
+      }
+    },
+    "summary": "CRPF and Jharkhand Jaguar companies walking in from Hehegara station were fired on from a hill in the Karmatiya forest. Eleven security men died in a day-long fight. The next morning villagers sent to lift bodies set off an IED packed under, or sewn into, a fallen jawan. Four of them died. The forest kept both the ambush and the trap.",
+    "story": "Doctors in Ranchi later found a second IED stitched into another abdomen and defused it. Maoists said the bomb was meant for the force, not the village.",
+    "sides": [
+      {
+        "label": "CPI (Maoist)",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "cpi-maoist"
+      },
+      {
+        "label": "CRPF and Jharkhand Jaguar",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "in-crpf"
+      },
+      {
+        "label": "Amwatikar villagers",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 10,
+        "killedMax": 11,
+        "killedBest": 11,
+        "of": "state-forces",
+        "sideLabel": "CRPF and Jharkhand Jaguar",
+        "claimedBy": "The Hindu 18 Jan 2013",
+        "contested": true,
+        "note": "First-day reports said seven CRPF. The Hindu’s later ground reporting: 11 security personnel on 7 January. MHA Lok Sabha replies have used 10 CRPF plus one state policeman."
+      },
+      {
+        "killedMin": 2,
+        "killedMax": 4,
+        "killedBest": 4,
+        "of": "civilian",
+        "sideLabel": "villagers lifting bodies on 8 January",
+        "claimedBy": "The Hindu 18 Jan 2013",
+        "contested": true,
+        "note": "Early reports: two villagers killed in the 8 January blast. The Hindu later: four villagers died when they tried to lift CRPF jawan Baijnath Kisku’s body."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "We were used as human shields in Latehar against Maoists",
+        "year": 2013,
+        "url": "https://www.thehindu.com/news/national/other-states/we-were-used-as-human-shields-in-latehar-against-maoists/article4320444.ece",
+        "excerpt": "Eleven security personnel were killed in an encounter with Maoists on 7 January. Four villagers died in an explosion the next day when they tried to lift a CRPF jawan’s body. Villagers accused the CRPF of using them as shields.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Hindu",
+        "headline": "Post-encounter, bodies of 7 CRPF men recovered; 2 more feared dead",
+        "year": 2013,
+        "url": "https://www.thehindu.com/news/national/postencounter-bodies-of-7-crpf-men-recovered-2-more-feared-dead/article4287762.ece",
+        "excerpt": "Senior officials said nine security personnel from the CRPF and Jharkhand Jaguars may have been killed in Katiya forest on Monday. Two villagers helping retrieve bodies were killed when Maoists triggered a landmine.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "burkapal-2017",
+    "conflictId": "naxal",
+    "name": "Burkapal ambush",
+    "kind": "ambush",
+    "time": {
+      "year": 2017,
+      "month": 4,
+      "day": 24,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Burkapal, Chintagufa",
+      "longitude": 81.19,
+      "latitude": 18.29,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Chhattisgarh",
+        "district": "Sukma"
+      }
+    },
+    "summary": "A CRPF 74 Battalion road-opening party walking the Dornapal–Jagargunda stretch was boxed in near Burkapal. Twenty-five troopers of the Delta company died in a fight the force later compared with Tadmetla. It was the worst day for CRPF in Bastar since 2010, and it put Madvi Hidma’s south Bastar battalion on every briefing slide.",
+    "story": "The same day is often listed as the Sukma 24 April 2017 attack. Kalapattar sits next to Burkapal on that road.",
+    "sides": [
+      {
+        "label": "CPI (Maoist)",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "cpi-maoist"
+      },
+      {
+        "label": "CRPF 74 Battalion",
+        "role": "target",
+        "kind": "state-forces",
+        "actorId": "in-crpf"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 24,
+        "killedMax": 26,
+        "killedBest": 25,
+        "of": "state-forces",
+        "sideLabel": "CRPF 74 Battalion",
+        "claimedBy": "The Indian Express 25 April 2017",
+        "contested": true,
+        "note": "First Express headline used 26; the piece was updated to 25. CRPF listed 24 dead at the scene and one who died later."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Indian Express",
+        "headline": "Worst in Chhattisgarh in seven years: 25 CRPF men killed by Maoists in Sukma",
+        "year": 2017,
+        "url": "https://indianexpress.com/article/india/worst-in-chhattisgarh-in-seven-years-26-crpf-men-killed-by-maoists-in-sukma-4626755/",
+        "excerpt": "Twenty-five CRPF personnel were killed in an ambush in Sukma, the worst day for the force in Chhattisgarh since the 2010 Dantewada attack. The party was on a road-opening patrol near Burkapal.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "gadchiroli-2019",
+    "conflictId": "naxal",
+    "name": "Gadchiroli nallah blast",
+    "kind": "bombing",
+    "time": {
+      "year": 2019,
+      "month": 5,
+      "day": 1,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Jambhulkheda, Kurkheda",
+      "longitude": 80.23,
+      "latitude": 20.618,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Maharashtra",
+        "district": "Gadchiroli"
+      }
+    },
+    "summary": "A Maharashtra C-60 quick-response team driving back from a morning operation hit a massive IED in a nallah near Jambhulkheda. Fifteen commandos and their civilian driver died. Gadchiroli is the western edge of the old Dandakaranya zone, a forest the war never treated as a border.",
+    "story": "The blast came on Maharashtra Day. The unit had been out since dawn on a tip that a squad was moving near Lendhari nallah.",
+    "sides": [
+      {
+        "label": "CPI (Maoist)",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "cpi-maoist"
+      },
+      {
+        "label": "Maharashtra C-60 / QRT",
+        "role": "target",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 15,
+        "killedMax": 15,
+        "killedBest": 15,
+        "of": "state-forces",
+        "sideLabel": "C-60 commandos",
+        "claimedBy": "The Hindu 1 May 2019",
+        "contested": false
+      },
+      {
+        "killedMin": 1,
+        "killedMax": 1,
+        "killedBest": 1,
+        "of": "civilian",
+        "sideLabel": "civilian driver",
+        "claimedBy": "The Hindu 1 May 2019",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Many killed in Maoist attack in Maharashtra’s Gadchiroli",
+        "year": 2019,
+        "url": "https://www.thehindu.com/news/national/many-killed-in-maoist-attack-in-maharashtras-gadchiroli/article62011233.ece",
+        "excerpt": "Fifteen jawans and a civilian were killed when Maoists triggered an IED in Gadchiroli. The C-60 team was returning from an operation when the blast hit their vehicle in a nallah.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "Gadchiroli Maoist attack: security personnel dead in IED explosion",
+        "year": 2019,
+        "url": "https://indianexpress.com/article/india/gadchiroli-maoist-attack-security-personnel-injured-dead-ied-explosion-5704625/",
+        "excerpt": "An IED blast in Gadchiroli killed members of a police quick-response team. The attack was one of the deadliest Maoist strikes in Maharashtra in years.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "tekulagudem-2021",
+    "conflictId": "naxal",
+    "name": "Tekulagudem ambush",
+    "kind": "ambush",
+    "time": {
+      "year": 2021,
+      "month": 4,
+      "day": 3,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Jonaguda–Tekulagudem",
+      "longitude": 81.021,
+      "latitude": 18.418,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Chhattisgarh",
+        "district": "Sukma"
+      }
+    },
+    "summary": "A joint column walking out of Tarrem on the Sukma–Bijapur border ran into a PLGA battalion near Jonaguda and Tekulagudem. Twenty-two security men died — DRG, CoBRA, STF, Bastariya — in a four-hour fight along a two-kilometre stretch. Police said they had gone looking for Hidma. They found an ambush instead.",
+    "story": "CoBRA commando Rakeshwar Singh Manhas was missing, then found alive in Maoist custody and later released. Police claimed a dozen or more Maoist dead; one woman cadre’s body was recovered.",
+    "sides": [
+      {
+        "label": "CPI (Maoist) PLGA battalion",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "cpi-maoist"
+      },
+      {
+        "label": "DRG, CoBRA, STF and Bastariya",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "in-crpf"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 22,
+        "killedMax": 23,
+        "killedBest": 22,
+        "injuredBest": 31,
+        "of": "state-forces",
+        "sideLabel": "DRG, CoBRA, STF and Bastariya battalion",
+        "claimedBy": "The Hindu 4 April 2021",
+        "contested": false,
+        "note": "Hindu: 22 recovered, one CoBRA still missing that morning (Manhas, later found alive). Split commonly given as 7 CoBRA and 15 Chhattisgarh police."
+      },
+      {
+        "killedMin": 1,
+        "killedMax": 20,
+        "killedBest": 1,
+        "of": "insurgent",
+        "sideLabel": "Maoist fighters",
+        "claimedBy": "Chhattisgarh police / The Hindu 4 April 2021",
+        "contested": true,
+        "note": "Police first claimed around 12 Maoists killed, later up to 20. One woman Maoist’s body was recovered. No independent count."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Sukma encounter toll touches 22; Shah, Baghel cut short poll campaigns",
+        "year": 2021,
+        "url": "https://www.thehindu.com/news/national/other-states/sukma-encounter-toll-rises-as-more-bodies-of-more-security-personnel-are-recovered-on-april-4/article34236487.ece",
+        "excerpt": "Bodies of 22 personnel were recovered after the encounter in Sukma; one commando was still missing. MHA adviser K. Vijay Kumar said Maoists had been trying to stop a road near Silger–Jagargunda.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "Chhattisgarh encounter: 22 jawans killed in Maoist ambush in Bijapur",
+        "year": 2021,
+        "url": "https://indianexpress.com/photos/india-news/chhattsigarh-encounter-encounter-encounter-bijapur-sukma-7259582/",
+        "excerpt": "Twenty-two security personnel were killed and 30 injured in a gunfight between Jonaguda and Tekalguda on the Sukma–Bijapur border. The operation had been aimed at battalion commander Hidma.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "dantewada-ied-2023",
+    "conflictId": "naxal",
+    "name": "Aranpur IED blast",
+    "kind": "bombing",
+    "time": {
+      "year": 2023,
+      "month": 4,
+      "day": 26,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Aranpur, Dantewada",
+      "longitude": 81.301,
+      "latitude": 18.506,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Chhattisgarh",
+        "district": "Dantewada"
+      }
+    },
+    "summary": "A District Reserve Guard vehicle hit a buried charge of more than 50 kg on the Aranpur road, barely a kilometre and a half from a police station. Ten DRG men and civilian driver Dhaniram Yadav were killed. Thirteen years after Tadmetla, Dantewada was still a place where a routine return from an operation could end in a crater.",
+    "sides": [
+      {
+        "label": "CPI (Maoist)",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "cpi-maoist"
+      },
+      {
+        "label": "District Reserve Guard",
+        "role": "target",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 10,
+        "killedMax": 10,
+        "killedBest": 10,
+        "of": "state-forces",
+        "sideLabel": "District Reserve Guard",
+        "claimedBy": "The Hindu 26 April 2023",
+        "contested": false
+      },
+      {
+        "killedMin": 1,
+        "killedMax": 1,
+        "killedBest": 1,
+        "of": "civilian",
+        "sideLabel": "civilian driver Dhaniram Yadav",
+        "claimedBy": "The Hindu 26 April 2023",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Jawans killed in Dantewada Maoist attack",
+        "year": 2023,
+        "url": "https://www.thehindu.com/news/national/other-states/jawans-killed-in-dantewada-maoist-attack/article66780794.ece",
+        "excerpt": "Ten jawans and a civilian driver were killed when Maoists triggered an IED in Dantewada. The blast hit a District Reserve Guard vehicle returning from an operation near Aranpur.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "kanker-abujhmad-2024",
+    "conflictId": "naxal",
+    "name": "Kanker–Abujhmad encounter",
+    "kind": "operation",
+    "time": {
+      "year": 2024,
+      "month": 4,
+      "day": 16,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Binagunda, Chhotebethiya",
+      "longitude": 80.78,
+      "latitude": 20.04,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Chhattisgarh",
+        "district": "Kanker"
+      }
+    },
+    "summary": "A joint column pushing into the Kanker–Narayanpur–Gadchiroli tri-junction reported killing 29 Maoists in the Binagunda–Hapatola jungle off Chhotebethiya. Police called it the first serious breach of Abujhmad, the ‘unknown hills’ that had been a closed guerrilla hinterland. Three security men were hurt. The dead, police said, included divisional committee members Shankar Rao and Lalita.",
+    "story": "Fifteen of the 29 named by police were women. Independent verification of each identity did not follow the same day.",
+    "sides": [
+      {
+        "label": "security forces",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "in-crpf"
+      },
+      {
+        "label": "CPI (Maoist)",
+        "role": "defender",
+        "kind": "insurgent",
+        "actorId": "cpi-maoist"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 29,
+        "killedMax": 29,
+        "killedBest": 29,
+        "of": "insurgent",
+        "sideLabel": "CPI (Maoist) cadres",
+        "claimedBy": "Chhattisgarh police / The Indian Express 16 April 2024",
+        "contested": true,
+        "note": "Police figure, including 15 women. Identities of named mid-level cadres were released by the force. No independent body count."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Indian Express",
+        "headline": "Maoist encounter in Bastar’s Kanker: security personnel, Chhattisgarh",
+        "year": 2024,
+        "url": "https://indianexpress.com/article/india/maoist-encounter-bastar-kanker-security-personnel-chhattisgarh-9276166/",
+        "excerpt": "Security forces reported 29 Maoists killed in an encounter in Kanker district on the edge of Abujhmad. Police said it was a major operation in a long-closed forest pocket; three personnel were injured.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "hidma-maredumilli-2025",
+    "conflictId": "naxal",
+    "name": "Maredumilli encounter",
+    "kind": "operation",
+    "time": {
+      "year": 2025,
+      "month": 11,
+      "day": 18,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Pamuleru, Maredumilli",
+      "longitude": 81.68,
+      "latitude": 17.6,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Andhra Pradesh",
+        "district": "Alluri Sitarama Raju"
+      }
+    },
+    "summary": "Andhra Greyhounds and other units reported killing Madvi Hidma, the south Bastar battalion commander named for Tadmetla, Jhiram Ghati and Burkapal, on a stream near Maredumilli in Papikonda. Police said his wife Madakam Raje and four guards died with him. For a generation of Bastar operations, Hidma had been the name on the other side of the ambush.",
+    "story": "The party had already been squeezed out of much of Dandakaranya. The body was identified in Andhra, far from the Sukma roads he was said to own.",
+    "sides": [
+      {
+        "label": "Andhra Greyhounds and joint forces",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "CPI (Maoist) South Bastar battalion",
+        "role": "target",
+        "kind": "insurgent",
+        "actorId": "cpi-maoist"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 6,
+        "killedMax": 6,
+        "killedBest": 6,
+        "of": "insurgent",
+        "sideLabel": "Madvi Hidma, Madakam Raje and four guards",
+        "claimedBy": "The Hindu 18 Nov 2025; Andhra Pradesh police",
+        "contested": true,
+        "note": "Police named Hidma, his wife Madakam Raje, and guards Deve, Lakmal, Malla and Kamlu. Families later claimed the remains. APCLC and Maoist statements called the encounter staged; that claim is recorded, not settled."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Maoists killed in Alluri Sitarama Raju encounter",
+        "year": 2025,
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/alluri-sitarama-raju-andhra-maoists-encounter-killed-death/article70293337.ece",
+        "excerpt": "Andhra police reported six Maoists killed in an encounter in Alluri Sitarama Raju district, including the south Bastar commander Madvi Hidma, near Maredumilli.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "Madvi Hidma, top surviving Maoist leader behind lethal attacks, killed in encounter",
+        "year": 2025,
+        "url": "https://indianexpress.com/article/india/madvi-hidma-top-surviving-maoist-leader-lethal-attacks-killed-encounter-10371983/",
+        "excerpt": "Hidma, named in the Tadmetla, Jhiram Ghati and Sukma ambushes, was reported killed with five others in the Maredumilli forests of Andhra Pradesh.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  }
+]

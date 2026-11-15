@@ -1,0 +1,2681 @@
+{
+  "meta": {
+    "note": "Incident-level research for map hover. Casualties are claims, not ground truth.",
+    "generated": "2026-11-15"
+  },
+  "incidents": [
+    {
+      "id": "baramulla-st-josephs-1947",
+      "conflictId": "kashmir-1947",
+      "name": "Baramulla mission raid",
+      "kind": "raid",
+      "date": {
+        "year": 1947,
+        "month": 10,
+        "day": 27,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Baramulla",
+        "longitude": 74.34,
+        "latitude": 34.21,
+        "precision": "city",
+        "state": "Jammu and Kashmir"
+      },
+      "summary": "Pashtun tribal lashkars advancing from Pakistan reached the riverside town of Baramulla and ransacked St Joseph’s Catholic mission hospital. Six people were killed at the mission, including British couple Tom and Biddy Dykes, Spanish nun Sister Teresalina, nurse Philomena, doctor’s husband Jose Barretto, and patient Motia Devi Kapoor. Survivors were held in a hospital ward for about ten days while the raiders paused to loot, giving Indian troops time to land at Srinagar.",
+      "story": "Andrew Whitehead’s reporting and book A Mission in Kashmir reconstructed the morning from missionary testimony; the delay at Baramulla is widely treated as the reason Srinagar’s airfield was still open on 27 October.",
+      "sides": [
+        {
+          "label": "Pashtun tribal raiders",
+          "role": "attacker",
+          "kind": "militia"
+        },
+        {
+          "label": "St Joseph’s mission staff and patients",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 6,
+          "killedMax": 6,
+          "killedBest": 6,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "St Joseph’s mission staff and patients",
+          "claimedBy": "Andrew Whitehead / BBC, from missionary records",
+          "contested": false,
+          "note": "Six named dead at the mission; town-wide killings during the raid are not cleanly censused."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "BBC",
+          "headline": "Returning to Kashmir, where our parents were shot in front of us",
+          "year": 2017,
+          "url": "https://www.bbc.com/news/stories-41996612",
+          "excerpt": "In all, six people lost their lives at St Joseph’s Catholic mission in the riverside town of Baramulla on that October morning in 1947.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "Andrew Whitehead",
+          "headline": "A Mission in Kashmir / For the Conversion of Kashmir",
+          "year": 2007,
+          "url": "https://www.andrewwhitehead.net/for-the-conversion-of-kashmir.html",
+          "excerpt": "Late in the morning of 27 October, attackers reached the hospital. Within minutes six people had been killed or fatally injured, including Sister Teresalina and Tom and Biddy Dykes.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "srinagar-airlift-1947",
+      "conflictId": "kashmir-1947",
+      "name": "Srinagar Dakota airlift",
+      "kind": "operation",
+      "date": {
+        "year": 1947,
+        "month": 10,
+        "day": 27,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Srinagar airfield",
+        "longitude": 74.77,
+        "latitude": 33.99,
+        "precision": "city",
+        "state": "Jammu and Kashmir"
+      },
+      "summary": "Hours after Maharaja Hari Singh’s accession, Dakota transports of the Royal Indian Air Force began landing 1 Sikh at Srinagar’s unprepared strip. Lt Col Dewan Ranjit Rai pushed a small force up the Baramulla road to keep raiders off the capital, and was killed in the fighting withdrawal. The airlift, later swollen by civilian Dakotas, is remembered as the act that kept the Valley’s summer capital from falling in the first days of the war.",
+      "story": "Wing Commander K. L. Bhatia’s first sortie left Delhi around 0500 hours; by early November several thousand Indian troops were in Srinagar.",
+      "sides": [
+        {
+          "label": "1 Sikh and Royal Indian Air Force",
+          "role": "attacker",
+          "kind": "state-forces"
+        },
+        {
+          "label": "tribal raiders",
+          "role": "target",
+          "kind": "militia"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": null,
+          "killedMax": null,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "security-forces",
+          "sideLabel": "1 Sikh and Royal Indian Air Force",
+          "claimedBy": "Indian Army commemorative accounts",
+          "contested": true,
+          "note": "Lt Col Dewan Ranjit Rai was killed and received a posthumous Maha Vir Chakra. First-day unit losses are not published as a single official table."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Indian Express",
+          "headline": "How the Indian Army secured Srinagar airport during the 1947 Kashmir invasion",
+          "year": 2026,
+          "url": "https://indianexpress.com/article/explained/explained-history/srinagar-airport-airlift-1947-10941918/",
+          "excerpt": "On 27 October 1947 Indian troops began landing at Srinagar airport aboard Dakota transport aircraft. Over the next three weeks the airlift gathered pace.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Tribune",
+          "headline": "How Srinagar was saved from Pak raiders in 1947",
+          "year": 2023,
+          "url": "https://www.tribuneindia.com/news/comment/how-srinagar-was-saved-from-pak-raiders-in-1947-444631",
+          "excerpt": "Lt Col Rai, commanding officer of 1 Sikh, was killed during the battle and was posthumously awarded the Maha Vir Chakra.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "operation-polo-1948",
+      "conflictId": "hyderabad-1948",
+      "name": "Operation Polo",
+      "kind": "operation",
+      "date": {
+        "year": 1948,
+        "month": 9,
+        "day": 13,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Hyderabad State",
+        "longitude": 78.47,
+        "latitude": 17.39,
+        "precision": "region",
+        "state": "Telangana"
+      },
+      "summary": "On 13 September 1948 the Indian Army entered the Nizam’s Hyderabad, a five-day ‘police action’ coded Operation Polo. Hyderabad State Forces and the Razakar militia were overrun; the Nizam acceded by 17 September. Combat deaths were in the low thousands on the Hyderabad side in Indian military accounts, while Indian Army losses were small.",
+      "story": "Delhi presented the operation as enforcement of a standstill agreement and an answer to Razakar violence; Hyderabad had sought independence, and a complaint sat at the United Nations.",
+      "sides": [
+        {
+          "label": "Indian Army",
+          "role": "attacker",
+          "kind": "state-forces"
+        },
+        {
+          "label": "Hyderabad State Forces",
+          "role": "defender",
+          "kind": "state-forces"
+        },
+        {
+          "label": "Razakars",
+          "role": "defender",
+          "kind": "militia"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 807,
+          "killedMax": 807,
+          "killedBest": 807,
+          "injuredBest": null,
+          "of": "combatant",
+          "sideLabel": "Hyderabad State Forces",
+          "claimedBy": "Indian military accounts (V. P. Menon and later compilations)",
+          "contested": true,
+          "note": "Menon wrote of ‘a little over 800’ on the Hyderabad regular side."
+        },
+        {
+          "killedMin": 1373,
+          "killedMax": 1373,
+          "killedBest": 1373,
+          "injuredBest": null,
+          "of": "combatant",
+          "sideLabel": "Razakars",
+          "claimedBy": "Indian military accounts",
+          "contested": true,
+          "note": "Razakar deaths are from the same official military series as the 807 figure."
+        },
+        {
+          "killedMin": null,
+          "killedMax": 50,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "security-forces",
+          "sideLabel": "Indian Army",
+          "claimedBy": "Indian military summaries",
+          "contested": true,
+          "note": "Indian Army combat losses are consistently described as low, often under 50; no single named White Paper total is cited here."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "BBC",
+          "headline": "Hyderabad 1948: India's hidden massacre",
+          "year": 2013,
+          "url": "https://www.bbc.com/news/magazine-24159594",
+          "excerpt": "The battle was swift. The Nizam’s troops and the Razakars were defeated within a few days of the army’s entry, after which a much larger wave of civilian killing began.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "India Today",
+          "headline": "Exclusive: The real story of how Hyderabad became a part of India in 1948",
+          "year": 2013,
+          "url": "https://www.indiatoday.in/india/south/story/hyderabad-indian-army-telangana-police-action-independent-india-210562-2013-09-09",
+          "excerpt": "Though its technical names were Operation Polo and Operation Caterpillar, it was more commonly referred to as Police Action.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "hyderabad-aftermath-1948",
+      "conflictId": "hyderabad-1948",
+      "name": "Hyderabad aftermath killings",
+      "kind": "massacre",
+      "date": {
+        "year": 1948,
+        "month": 9,
+        "precision": "month"
+      },
+      "place": {
+        "name": "Osmanabad, Gulbarga, Bidar, Nanded",
+        "longitude": 76.04,
+        "latitude": 18.19,
+        "precision": "region",
+        "state": "Maharashtra"
+      },
+      "summary": "After Polo, Hindu revenge killings of Muslims swept Marathwada and neighbouring districts. The Sunderlal Committee, appointed by Nehru and long unpublished, estimated 27,000–40,000 killed ‘in cold blood,’ worst in Osmanabad, Gulbarga, Bidar and Nanded. Wilfred Cantwell Smith, writing in 1950 from leaked knowledge of the report, gave 50,000–200,000.",
+      "story": "Sunderlal recorded that Muslim villagers were often disarmed while Hindus kept weapons, and that some Indian soldiers and local police took part in looting. Patel rejected the framing as ignoring Razakar crimes.",
+      "sides": [
+        {
+          "label": "Hindu mobs, some soldiers and police",
+          "role": "attacker",
+          "kind": "militia"
+        },
+        {
+          "label": "Hyderabadi Muslims",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 27000,
+          "killedMax": 200000,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "Hyderabadi Muslims",
+          "claimedBy": "Sunderlal Committee 27,000–40,000; W. C. Smith 50,000–200,000",
+          "contested": true,
+          "note": "Sunderlal called 27,000–40,000 a conservative estimate for the whole state during and after the police action. Military governor J. N. Chaudhuri privately mentioned about 2,000."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "BBC",
+          "headline": "Hyderabad 1948: India's hidden massacre",
+          "year": 2013,
+          "url": "https://www.bbc.com/news/magazine-24159594",
+          "excerpt": "The Sunderlal team concluded that between 27,000 and 40,000 died. The report was never published; historian Sunil Purushotham obtained a copy decades later.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "Sunderlal Committee",
+          "headline": "Confidential report on Hyderabad after Police Action",
+          "year": 1949,
+          "url": null,
+          "excerpt": "We can say at a very conservative estimate that in the whole state at least 27,000 to 40,000 people lost their lives during and after Police Action.",
+          "stance": "official"
+        }
+      ]
+    },
+    {
+      "id": "operation-vijay-goa-1961",
+      "conflictId": "goa-1961",
+      "name": "Operation Vijay (Goa)",
+      "kind": "operation",
+      "date": {
+        "year": 1961,
+        "month": 12,
+        "day": 18,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Goa",
+        "longitude": 73.83,
+        "latitude": 15.5,
+        "precision": "state",
+        "state": "Goa"
+      },
+      "summary": "After fourteen years of diplomacy and a blockade, Indian forces entered Portuguese Goa, Daman and Diu on 18 December 1961. Fighting lasted into 19 December; Governor-General Manuel António Vassalo e Silva surrendered. India called it liberation of colonial territory; Lisbon called it aggression. Combat deaths were small beside the political result: the end of Portuguese rule on the western coast.",
+      "story": "Code name Operation Vijay was reused in 1999 for Kargil. About 4,668 Portuguese personnel were captured.",
+      "sides": [
+        {
+          "label": "Indian Army, Navy and Air Force",
+          "role": "attacker",
+          "kind": "state-forces"
+        },
+        {
+          "label": "Portuguese garrison",
+          "role": "defender",
+          "kind": "foreign-forces"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 22,
+          "killedMax": 22,
+          "killedBest": 22,
+          "injuredBest": null,
+          "of": "security-forces",
+          "sideLabel": "Indian Army, Navy and Air Force",
+          "claimedBy": "Indian official military accounts",
+          "contested": false,
+          "note": "Standard Indian compilation for the 17–19 December operation."
+        },
+        {
+          "killedMin": 30,
+          "killedMax": 30,
+          "killedBest": 30,
+          "injuredBest": null,
+          "of": "combatant",
+          "sideLabel": "Portuguese garrison",
+          "claimedBy": "Indian official military accounts",
+          "contested": true,
+          "note": "Portuguese killed are commonly given as about 30; Lisbon’s contemporary statements were lower or incomplete."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "BBC",
+          "headline": "The day India freed Goa from Portuguese rule",
+          "year": 2017,
+          "url": "https://www.bbc.com/news/world-asia-india-42390008",
+          "excerpt": "Goa was freed from Portuguese rule on 19 December 1961 after 36 hours of air, sea and land strikes. Governor-General Manuel António Vassalo e Silva signed the instrument of surrender.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "anjadiv-1961",
+      "conflictId": "goa-1961",
+      "name": "Anjadiv Island clash",
+      "kind": "clash",
+      "date": {
+        "year": 1961,
+        "month": 12,
+        "day": 18,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Anjadiv Island",
+        "longitude": 74.12,
+        "latitude": 14.76,
+        "precision": "village",
+        "state": "Karnataka"
+      },
+      "summary": "Off Karwar, the Portuguese garrison on Anjadiv Island fired on Indian naval ships supporting Operation Vijay. The island was a small but sharp naval-infantry fight inside an otherwise short campaign, and it is remembered in Indian Navy histories of the Goa operation.",
+      "story": "Anjadiv was administered with Portuguese India though it lies off the Karnataka coast, not in Goa proper.",
+      "sides": [
+        {
+          "label": "Indian Navy",
+          "role": "attacker",
+          "kind": "state-forces"
+        },
+        {
+          "label": "Portuguese garrison on Anjadiv",
+          "role": "defender",
+          "kind": "foreign-forces"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": null,
+          "killedMax": null,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "security-forces",
+          "sideLabel": "Indian Navy",
+          "claimedBy": "Indian Navy commemorative accounts",
+          "contested": true,
+          "note": "Navy histories record sailors killed in the Anjadiv exchange; the figure is not separated in the all-India 22-dead total used for the campaign."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "BBC",
+          "headline": "The day India freed Goa from Portuguese rule",
+          "year": 2017,
+          "url": "https://www.bbc.com/news/world-asia-india-42390008",
+          "excerpt": "Indian land, sea and air forces struck Portuguese Goa, Daman and Diu in December 1961. Outlying island garrisons, including Anjadiv off Karwar, were part of the same operation.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "rezang-la-1962",
+      "conflictId": "sino-indian-1962",
+      "name": "Rezang La",
+      "kind": "clash",
+      "date": {
+        "year": 1962,
+        "month": 11,
+        "day": 18,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Rezang La, Chushul",
+        "longitude": 78.87,
+        "latitude": 33.39,
+        "precision": "village",
+        "state": "Ladakh"
+      },
+      "summary": "On 18 November 1962, Charlie Company of 13 Kumaon under Major Shaitan Singh held Rezang La, a 16,000-foot pass covering Chushul. Almost the entire company was killed. An Indian memorial names 114 of about 120; Chinese official military history gives 21 PLA killed and 98 wounded at the post, against much higher Indian claims. Singh received a posthumous Param Vir Chakra.",
+      "story": "Bodies were found in February 1963 still in firing positions. The stand is the best-known Indian battle memory of 1962, even though the wider war was a defeat.",
+      "sides": [
+        {
+          "label": "People’s Liberation Army",
+          "role": "attacker",
+          "kind": "foreign-forces"
+        },
+        {
+          "label": "Charlie Company, 13 Kumaon",
+          "role": "defender",
+          "kind": "state-forces"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 114,
+          "killedMax": 136,
+          "killedBest": 114,
+          "injuredBest": null,
+          "of": "security-forces",
+          "sideLabel": "Charlie Company, 13 Kumaon",
+          "claimedBy": "Indian memorial / battalion accounts 114; Chinese source 136",
+          "contested": true,
+          "note": "Indian memorial: 114 of ~120. A few wounded and captured survived. Chinese figures for Indian dead at the post are higher."
+        },
+        {
+          "killedMin": 21,
+          "killedMax": null,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "combatant",
+          "sideLabel": "People’s Liberation Army",
+          "claimedBy": "Chinese official military history 21 killed, 98 wounded; Indian claims 1,000+",
+          "contested": true,
+          "note": "PLA losses at Rezang La are among the most disputed numbers of the war."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Hindu",
+          "headline": "Don’t forget the heroes of Rezang La",
+          "year": 2012,
+          "url": "https://www.thehindu.com/opinion/lead/Dont-forget-the-heroes-of-Rezang-La/article12513562.ece",
+          "excerpt": "C Company of 13 Kumaon had three JCOs and 124 other ranks with Maj. Shaitan Singh. When the smoke cleared, only 14 survived, nine of them severely wounded.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "India Today",
+          "headline": "1962 War: The battle of Rezang La and resilience of Major Shaitan Singh",
+          "year": 2022,
+          "url": "https://www.indiatoday.in/india/story/rezang-la-battle-major-shaitan-singh-india-china-war-1962-2299097-2022-11-19",
+          "excerpt": "Against all odds, C Company, 13 Kumaon, repulsed successive Chinese assaults at Rezang La on 18 November 1962.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "tawang-sela-1962",
+      "conflictId": "sino-indian-1962",
+      "name": "Tawang and Se La",
+      "kind": "operation",
+      "date": {
+        "year": 1962,
+        "month": 11,
+        "day": 18,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Tawang / Se La",
+        "longitude": 91.89,
+        "latitude": 27.59,
+        "precision": "district",
+        "state": "Arunachal Pradesh"
+      },
+      "summary": "In the eastern sector the Indian IV Corps position collapsed in two waves: Tawang was evacuated in late October after Namka Chu, then Se La and Bomdila fell in mid-November as the 4th Division disintegrated. Monpa civilians fled south with the army. China declared a ceasefire on 21 November and pulled back north of the McMahon Line while keeping Aksai Chin in the west.",
+      "story": "Tawang town itself was not a pitched street battle; the remembered shock is the abandonment of a monastery town and the rout at Se La. Indian Defence Ministry figures for the whole war are 1,383 killed, 1,047 wounded, 1,696 missing, 3,968 captured.",
+      "sides": [
+        {
+          "label": "People’s Liberation Army",
+          "role": "attacker",
+          "kind": "foreign-forces"
+        },
+        {
+          "label": "Indian IV Corps / 4th Division",
+          "role": "defender",
+          "kind": "state-forces"
+        },
+        {
+          "label": "Monpa townspeople",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": null,
+          "killedMax": null,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "security-forces",
+          "sideLabel": "Indian IV Corps / 4th Division",
+          "claimedBy": "Ministry of Defence (whole-war table)",
+          "contested": true,
+          "note": "Se La/Bomdila deaths are not published as a separate official slice of the 1,383 killed / 1,696 missing all-war figures."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Hindu",
+          "headline": "Don’t forget the heroes of Rezang La",
+          "year": 2012,
+          "url": "https://www.thehindu.com/opinion/lead/Dont-forget-the-heroes-of-Rezang-La/article12513562.ece",
+          "excerpt": "While Rezang La is the western-sector emblem of 1962, the eastern collapse at Tawang, Se La and Bomdila decided the campaign in NEFA.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "imphal-ceasefire-2001",
+      "conflictId": "naga-insurgency",
+      "name": "Imphal ceasefire uprising",
+      "kind": "riot",
+      "date": {
+        "year": 2001,
+        "month": 6,
+        "day": 18,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Imphal",
+        "longitude": 93.94,
+        "latitude": 24.82,
+        "precision": "city",
+        "state": "Manipur"
+      },
+      "summary": "On 18 June 2001, news that the NSCN-IM ceasefire had been extended ‘without territorial limits’ — read in Manipur as a step toward a greater Nagalim — brought crowds onto Imphal’s streets. The Assembly building was burned. Thirteen people were killed in the day’s violence, a civic revolt over a map rather than a battle with Naga cadres.",
+      "story": "The Centre later confined the ceasefire to Nagaland. The episode shows why Naga peace talks stall on integration of Naga-inhabited areas of Manipur, Assam and Arunachal.",
+      "sides": [
+        {
+          "label": "Manipuri protestors",
+          "role": "attacker",
+          "kind": "civilian"
+        },
+        {
+          "label": "Manipur Police",
+          "role": "attacker",
+          "kind": "state-forces"
+        },
+        {
+          "label": "Manipur Assembly",
+          "role": "target",
+          "kind": "state-forces"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 13,
+          "killedMax": 13,
+          "killedBest": 13,
+          "injuredBest": 50,
+          "of": "civilian",
+          "sideLabel": "Manipuri protestors",
+          "claimedBy": "SATP Manipur timeline 2001",
+          "contested": false,
+          "note": "Thirteen civilians killed and over 50 injured in police firing on demonstrators, 18 June 2001."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "SATP",
+          "headline": "Manipur Timeline — Year 2001",
+          "year": 2001,
+          "url": "https://www.satp.org/satporgtp/countries/india/states/manipur/timeline/year_2001.htm",
+          "excerpt": "18 June 2001: 13 civilians are killed and over 50 injured in Imphal as police fire on demonstrators protesting the extension of the NSCN-IM ceasefire area. The Assembly building was set on fire.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "chandel-ambush-2015",
+      "conflictId": "naga-insurgency",
+      "name": "Chandel convoy ambush",
+      "kind": "ambush",
+      "date": {
+        "year": 2015,
+        "month": 6,
+        "day": 4,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Paraolon, Chandel",
+        "longitude": 94.01,
+        "latitude": 24.29,
+        "precision": "village",
+        "state": "Manipur"
+      },
+      "summary": "On 4 June 2015, militants ambushed a 6 Dogra convoy on the Tengnoupal–New Samtal road in Chandel, close to Myanmar. Eighteen soldiers were killed. NIA later described a joint team of NSCN-K, KYKL and KCP. The attack broke the NSCN-K ceasefire and was followed by a cross-border Indian raid into Myanmar.",
+      "story": "It was among the deadliest single attacks on the Indian Army in the Northeast in two decades.",
+      "sides": [
+        {
+          "label": "NSCN-K, KYKL and KCP",
+          "role": "attacker",
+          "kind": "insurgent"
+        },
+        {
+          "label": "6 Dogra Regiment",
+          "role": "target",
+          "kind": "state-forces"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 18,
+          "killedMax": 18,
+          "killedBest": 18,
+          "injuredBest": 11,
+          "of": "security-forces",
+          "sideLabel": "6 Dogra Regiment",
+          "claimedBy": "The Hindu / Army statements",
+          "contested": false,
+          "note": "Eighteen killed, about eleven wounded in the four-vehicle convoy."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Hindu",
+          "headline": "Militants had walked back to Myanmar after ambush on Army convoy",
+          "year": 2018,
+          "url": "https://www.thehindu.com/news/national/militants-had-walked-back-to-myanmar-after-ambush-on-army-convoy/article22845952.ece",
+          "excerpt": "On 4 June 2015, 18 personnel of 6 Dogra were ambushed by a group of about 20 militants in a joint action of KCP, KYKL and NSCN-K.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "oting-2021",
+      "conflictId": "naga-insurgency",
+      "name": "Oting killings",
+      "kind": "attack",
+      "date": {
+        "year": 2021,
+        "month": 12,
+        "day": 4,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Oting, Mon",
+        "longitude": 94.96,
+        "latitude": 26.85,
+        "precision": "village",
+        "state": "Nagaland"
+      },
+      "summary": "On 4 December 2021, 21 Para Special Forces fired on a pickup of Konyak coal miners returning from Tiru to Oting, calling it mistaken identity. Six died in the first burst; villagers who reached the spot clashed with the unit, and the civilian toll rose to 13–15 plus one soldier. The Centre refused AFSPA prosecution sanction; the Supreme Court later quashed proceedings.",
+      "story": "Oting became the 2020s emblem of AFSPA immunity in Naga areas, a village tragedy rather than a firefight with NSCN.",
+      "sides": [
+        {
+          "label": "21 Para Special Forces",
+          "role": "attacker",
+          "kind": "state-forces"
+        },
+        {
+          "label": "Oting coal miners and villagers",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 13,
+          "killedMax": 17,
+          "killedBest": 13,
+          "injuredBest": 14,
+          "of": "civilian",
+          "sideLabel": "Oting coal miners and villagers",
+          "claimedBy": "The Hindu; Nagaland DGP/commissioner brief",
+          "contested": true,
+          "note": "Thirteen civilians is the most cited count for 4 December; The Hindu also reported 15 civilians over 24 hours and unconfirmed 17."
+        },
+        {
+          "killedMin": 1,
+          "killedMax": 1,
+          "killedBest": 1,
+          "injuredBest": null,
+          "of": "security-forces",
+          "sideLabel": "21 Para Special Forces",
+          "claimedBy": "The Hindu",
+          "contested": false,
+          "note": "One soldier killed in the clash with villagers after the first shooting."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Hindu",
+          "headline": "Army operation in Nagaland goes awry, 15 civilians dead",
+          "year": 2021,
+          "url": "https://www.thehindu.com/news/national/other-states/16-dead-after-armys-nagaland-ambush/article37849057.ece",
+          "excerpt": "A special unit of the Army mistakenly opened fire at a pick-up van carrying coal miners from Tiru to Oting, killing six on board. Seven more civilians and a soldier died when villagers clashed with the troops.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "operation-jericho-1966",
+      "conflictId": "mizo-insurgency",
+      "name": "Operation Jericho",
+      "kind": "raid",
+      "date": {
+        "year": 1966,
+        "month": 2,
+        "day": 28,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Aizawl",
+        "longitude": 92.72,
+        "latitude": 23.73,
+        "precision": "city",
+        "state": "Mizoram"
+      },
+      "summary": "On 28 February 1966 the Mizo National Front launched Operation Jericho, seizing the Aizawl treasury and besieging 1 Assam Rifles while hitting Lunglei, Champhai and other posts. The rising grew out of the 1959 mautam famine and a demand for a Mizo homeland. It is the start date of the Mizo war in local memory.",
+      "story": "Assam Rifles held the Aizawl headquarters under siege until air strikes and reinforcements in early March.",
+      "sides": [
+        {
+          "label": "Mizo National Front",
+          "role": "attacker",
+          "kind": "insurgent"
+        },
+        {
+          "label": "Assam Rifles",
+          "role": "defender",
+          "kind": "state-forces"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": null,
+          "killedMax": null,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "security-forces",
+          "sideLabel": "Assam Rifles",
+          "claimedBy": "SATP (1966 recapture series)",
+          "contested": true,
+          "note": "SATP cites 59 security-force deaths in the 1966 recapture of Mizo towns, not a Jericho-day slice."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "J. V. Hluna and Rini Tochhawng",
+          "headline": "The Mizo Uprising: Assam Assembly Debates on the Mizo Movement, 1966–1971",
+          "year": 2012,
+          "url": null,
+          "excerpt": "Operation Jericho on 28 February 1966 opened the MNF uprising with coordinated attacks on Aizawl, Lunglei and Champhai.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "Newslaundry",
+          "headline": "A brief history of Mizoram: From the Aizawl bombing to the Mizo Accord",
+          "year": 2015,
+          "url": "https://www.newslaundry.com/2015/08/06/a-brief-history-of-mizoram-from-the-aizawl-bombing-to-the-mizo-accord",
+          "excerpt": "The MNF uprising began at the end of February 1966; air strikes on Aizawl followed on 5 and 6 March.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "aizawl-air-strike-1966",
+      "conflictId": "mizo-insurgency",
+      "name": "IAF strikes on Aizawl",
+      "kind": "air-strike",
+      "date": {
+        "year": 1966,
+        "month": 3,
+        "day": 5,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Aizawl",
+        "longitude": 92.72,
+        "latitude": 23.73,
+        "precision": "city",
+        "state": "Mizoram"
+      },
+      "summary": "On 5–6 March 1966, IAF Toofani and Hunter fighters strafed and rocketed Aizawl to relieve the Assam Rifles siege. It is the only time independent India has used air power on a town inside the Republic. J. V. Hluna counted about 13 people killed as a direct result of the bombing; whole localities burned and families fled to Reiek and Sialsuk.",
+      "story": "IAF squadron diaries date offensive missions from 5 March. Later village grouping emptied hundreds of hamlets. The 1986 Mizo Accord and 1987 statehood closed the war.",
+      "sides": [
+        {
+          "label": "Indian Air Force",
+          "role": "attacker",
+          "kind": "state-forces"
+        },
+        {
+          "label": "townspeople of Aizawl",
+          "role": "target",
+          "kind": "civilian"
+        },
+        {
+          "label": "Mizo National Front",
+          "role": "target",
+          "kind": "insurgent"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 13,
+          "killedMax": null,
+          "killedBest": 13,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "townspeople of Aizawl",
+          "claimedBy": "J. V. Hluna",
+          "contested": true,
+          "note": "Hluna’s 13 is a count of deaths attributed directly to the air strikes, not of the whole 1966 campaign or of later grouping."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "Newslaundry",
+          "headline": "A brief history of Mizoram: From the Aizawl bombing to the Mizo Accord",
+          "year": 2015,
+          "url": "https://www.newslaundry.com/2015/08/06/a-brief-history-of-mizoram-from-the-aizawl-bombing-to-the-mizo-accord",
+          "excerpt": "On 5 March 1966, 11:30 hours, Aizawl came under air strikes. The army commissioned strikes on 5 and 6 March.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "IAF History",
+          "headline": "IAF's Role in 1966 Mizo Uprising: A Historical Account",
+          "year": 2023,
+          "url": "https://iafhistory.in/2023/08/12/iafs-involvement-in-mizo-ops-1966-a-historical-account/",
+          "excerpt": "Missions started on 5 March 1966; 30 mm cannon and T-10 rockets were used. By the end of 6 March helicopters could land a company at Aizawl.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "naxalbari-1967",
+      "conflictId": "naxal",
+      "name": "Naxalbari police firing",
+      "kind": "clash",
+      "date": {
+        "year": 1967,
+        "month": 5,
+        "day": 25,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Naxalbari",
+        "longitude": 88.19,
+        "latitude": 26.68,
+        "precision": "village",
+        "state": "West Bengal"
+      },
+      "summary": "On 25 May 1967, police fired on peasants at Bengai Jote in the Naxalbari block of Darjeeling district. Eleven villagers, including eight women and two children, were killed. The firing followed a sharecropper revolt around Charu Mazumdar, Kanu Sanyal and Jangal Santhal. The village gave its name to a rural revolutionary lineage that, after many splits, became the CPI (Maoist) belt.",
+      "story": "Deaths were few beside later Bastar years; political consequence was large. The CPI(ML) was founded in 1969.",
+      "sides": [
+        {
+          "label": "West Bengal Police",
+          "role": "attacker",
+          "kind": "state-forces"
+        },
+        {
+          "label": "Naxalbari peasants",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 11,
+          "killedMax": 11,
+          "killedBest": 11,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "Naxalbari peasants",
+          "claimedBy": "The Indian Express Dateline Naxalbari, 2017",
+          "contested": false,
+          "note": "11 villagers, including eight women and two children, shot at Bengai Jote on 25 May. Inspector Sonam Wangdi had been killed in a gherao the previous day."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Indian Express",
+          "headline": "Dateline Naxalbari",
+          "year": 2017,
+          "url": "https://indianexpress.com/article/india/dateline-naxalbari-bjp-left-naxals-in-north-bengal-land-grabbing-cases-4665880/",
+          "excerpt": "On 25 May, at Bengai Jote, 11 villagers, including eight women and two children, were shot dead by police. The firing would trigger an armed guerrilla resistance.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "dantewada-2010",
+      "conflictId": "naxal",
+      "name": "Dantewada CRPF ambush",
+      "kind": "ambush",
+      "date": {
+        "year": 2010,
+        "month": 4,
+        "day": 6,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Tadmetla, Dantewada",
+        "longitude": 81.18,
+        "latitude": 18.3,
+        "precision": "village",
+        "state": "Chhattisgarh"
+      },
+      "summary": "Before dawn on 6 April 2010, CPI (Maoist) fighters ambushed a CRPF 62nd Battalion company returning from an area-domination patrol near Chintalnar/Mukram in Dantewada. Seventy-six security personnel were killed — 75 CRPF and one Chhattisgarh policeman — the deadliest single loss of Indian paramilitary lives in the Maoist war. A Maoist spokesman later said about 300 fighters took part and claimed eight of their own dead.",
+      "story": "The year 2010 was SATP’s peak for left-wing extremist fatalities (1,180). Home Minister P. Chidambaram said the men had walked into a trap on the same track they had used on the way out.",
+      "sides": [
+        {
+          "label": "CPI (Maoist)",
+          "role": "attacker",
+          "kind": "insurgent"
+        },
+        {
+          "label": "CRPF 62nd Battalion and Chhattisgarh Police",
+          "role": "target",
+          "kind": "paramilitary"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 75,
+          "killedMax": 76,
+          "killedBest": 76,
+          "injuredBest": 8,
+          "of": "security-forces",
+          "sideLabel": "CRPF 62nd Battalion and Chhattisgarh Police",
+          "claimedBy": "The Hindu / CRPF; contemporaneous first count 74 CRPF + 2 police",
+          "contested": false,
+          "note": "Settled official total is 76 security personnel. An IED on a relief vehicle added to the first burst."
+        },
+        {
+          "killedMin": 8,
+          "killedMax": 8,
+          "killedBest": 8,
+          "injuredBest": null,
+          "of": "militant",
+          "sideLabel": "CPI (Maoist)",
+          "claimedBy": "Ramanna, CPI (Maoist) South Bastar, to The Hindu",
+          "contested": true,
+          "note": "Maoist claim of eight of their fighters killed; not independently body-counted."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Hindu",
+          "headline": "Maoists massacre 74 CRPF men",
+          "year": 2010,
+          "url": "https://www.thehindu.com/news/national/Maoists-massacre-74-CRPF-men/article16364513.ece",
+          "excerpt": "Maoist rebels killed 74 CRPF personnel and two Chhattisgarh policemen in Dantewada, the deadliest attack on paramilitary forces in the campaign.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Hindu",
+          "headline": "Maoists tracked CRPF men for three days before ambush",
+          "year": 2010,
+          "url": "https://www.thehindu.com/news/national/Maoists-tracked-CRPF-men-for-three-days-before-ambush/article16366982.ece",
+          "excerpt": "Ramanna said around 300 Maoists tracked the personnel for three days; 75 CRPF and eight Maoists were killed in his account of the 6 April ambush.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "jhiram-ghati-2013",
+      "conflictId": "naxal",
+      "name": "Jhiram Ghati ambush",
+      "kind": "ambush",
+      "date": {
+        "year": 2013,
+        "month": 5,
+        "day": 25,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Jhiram Ghati, Darbha",
+        "longitude": 81.86,
+        "latitude": 18.85,
+        "precision": "village",
+        "state": "Chhattisgarh"
+      },
+      "summary": "On 25 May 2013, CPI (Maoist) cadres ambushed a Congress Parivartan Rally convoy in Jhiram (Jeeram) Ghati on the Bastar–Sukma road. An IED and two hours of firing killed the state Congress chief Nand Kumar Patel, his son Dinesh, former MLA Uday Mudliyar, and Mahendra Karma, public face of Salwa Judum. Later tallies settle around 27 dead, including about 10 security personnel; former Union minister V. C. Shukla died of wounds on 11 June.",
+      "story": "A 2026 NIA court in Jagdalpur convicted 10 accused. Karma was the named ‘class enemy’ in Maoist planning.",
+      "sides": [
+        {
+          "label": "CPI (Maoist)",
+          "role": "attacker",
+          "kind": "insurgent"
+        },
+        {
+          "label": "Congress Parivartan Rally convoy",
+          "role": "target",
+          "kind": "civilian"
+        },
+        {
+          "label": "escort police and CRPF",
+          "role": "target",
+          "kind": "paramilitary"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 17,
+          "killedMax": 19,
+          "killedBest": 17,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "Congress Parivartan Rally convoy",
+          "claimedBy": "The Indian Express 2026 (27 total including 10 security personnel)",
+          "contested": true,
+          "note": "Contemporaneous counts started near 17 and rose. V. C. Shukla’s later death is sometimes added."
+        },
+        {
+          "killedMin": 8,
+          "killedMax": 10,
+          "killedBest": 10,
+          "injuredBest": null,
+          "of": "security-forces",
+          "sideLabel": "escort police and CRPF",
+          "claimedBy": "The Indian Express, citing police records in the 2026 verdict story",
+          "contested": true,
+          "note": "Express 2026: the 27 killed included 10 security personnel."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Indian Express",
+          "headline": "10 get death sentence in 2013 Maoist attack on Chhattisgarh Congress leaders",
+          "year": 2026,
+          "url": "https://indianexpress.com/article/india/jhiram-ghati-attack-verdict-nia-court-death-penalty-10-maoists-bastar-congress-convoy-10880771/",
+          "excerpt": "Armed CPI (Maoist) cadres attacked a Congress convoy on 25 May 2013, killing at least 27 people, including Mahendra Karma, Nand Kumar Patel and his son Dinesh.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "India Today",
+          "headline": "Year after Jeeram massacre, why we know little about the Maoists' most spectacular attack",
+          "year": 2014,
+          "url": "https://www.indiatoday.in/india/north/story/chhattisgarh-maoist-attack-sukma-darbha-ghati-massacre-194281-2014-05-25",
+          "excerpt": "On 25 May 2013 Maoist insurgents killed 27, including the Chhattisgarh Congress president, his son and Mahendra Karma, in Jeeram Ghati.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "khoirabari-1983",
+      "conflictId": "assam-movement",
+      "name": "Khoirabari massacre",
+      "kind": "massacre",
+      "date": {
+        "year": 1983,
+        "month": 2,
+        "day": 7,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Khoirabari",
+        "longitude": 91.83,
+        "latitude": 26.63,
+        "precision": "village",
+        "state": "Assam"
+      },
+      "summary": "On 7 February 1983, polling day in a boycotted Assembly election, a Bengali Hindu cluster around Khoirabari in then Darrang was attacked. Survivors sheltered in a school and later at the railway station. Journalist Shekhar Gupta wrote of more than 500 dead; IPS officer E. M. Rammohan wrote of more than a hundred. The Tewary Commission later counted 3,023 killed across 11 districts that spring, without treating Khoirabari as a single headline total.",
+      "story": "Khoirabari is remembered by Bengali Hindus as the other face of 1983 Assam, beside Nellie’s killing of Bengali-origin Muslims.",
+      "sides": [
+        {
+          "label": "Assamese villagers and agitation crowds",
+          "role": "attacker",
+          "kind": "civilian"
+        },
+        {
+          "label": "Bengali Hindus of Khoirabari",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 100,
+          "killedMax": 500,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "Bengali Hindus of Khoirabari",
+          "claimedBy": "E. M. Rammohan (100+); Shekhar Gupta (500+)",
+          "contested": true,
+          "note": "No commission figure isolated to Khoirabari village is used as a best count."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Indian Express",
+          "headline": "Forty-two years after Assam’s darkest chapter, two reports shed some light",
+          "year": 2025,
+          "url": "https://indianexpress.com/article/political-pulse/assam-darkest-chapter-two-reports-shed-light-contrasting-accounts-10385650/",
+          "excerpt": "The Tewary and Mehta reports, tabled in 2025, cover the 1983 election violence of which Nellie was the largest single massacre and Khoirabari one of the attacks on Bengali Hindus.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "assam-election-1983",
+      "conflictId": "assam-movement",
+      "name": "Assam 1983 election violence",
+      "kind": "riot",
+      "date": {
+        "year": 1983,
+        "month": 2,
+        "precision": "month"
+      },
+      "place": {
+        "name": "Assam (11 districts)",
+        "longitude": 91.74,
+        "latitude": 26.14,
+        "precision": "state",
+        "state": "Assam"
+      },
+      "summary": "Delhi held Assembly elections in February 1983 against an AASU/AAGSP boycott over ‘foreigners’ on the rolls. Violence ran from January into April. The Tewary Commission, submitted in 1984 and widely circulated only in 2025, counted 3,023 killed in 11 districts, 1,811 of them in Nagaon, and held the student and sangram organisations primarily responsible while refusing a single communal colour. The unofficial Mehta commission blamed the decision to poll.",
+      "story": "The 1985 Assam Accord ended the agitation with 1966 and 1971 cut-off dates; 688 Nellie-area FIRs were dropped. NRC 2019 later excluded 1.9 million people.",
+      "sides": [
+        {
+          "label": "AASU / AAGSP agitation",
+          "role": "attacker",
+          "kind": "civilian"
+        },
+        {
+          "label": "Bengali-speaking Muslims and Hindus, and others",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 3023,
+          "killedMax": 3023,
+          "killedBest": 3023,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "Bengali-speaking Muslims and Hindus, and others",
+          "claimedBy": "Tewary Commission (tabled Assam Assembly 25 Nov 2025)",
+          "contested": true,
+          "note": "3,023 is Tewary’s statewide total for 1 Jan–30 Apr 1983, all communities, not a Nellie-only figure. Local memory of the season is higher."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Hindu",
+          "headline": "Nellie massacre: Assam Assembly sees clash of reports on 1983 poll violence",
+          "year": 2025,
+          "url": "https://www.thehindu.com/news/national/assam/1983-nellie-massacre-mehta-tewary-report-assam-assembly-november-25-2025/article70321020.ece",
+          "excerpt": "The Tewary panel report said the violence killed 3,023 people across 11 districts between 1 January and 30 April 1983. The table lists 1,811 killed in Nagaon district.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "nellie-massacre-1983",
+      "conflictId": "nellie-1983",
+      "name": "Nellie massacre",
+      "kind": "massacre",
+      "date": {
+        "year": 1983,
+        "month": 2,
+        "day": 18,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Nellie",
+        "longitude": 92.32,
+        "latitude": 26.11,
+        "precision": "village",
+        "state": "Assam"
+      },
+      "summary": "On 18 February 1983, in about six hours, Tiwa (Lalung) and other villagers attacked 13–14 Bengali-origin Muslim hamlets around Nellie in then Nagaon, now Morigaon. Official counts sit near 1,800; unofficial counts 2,000–3,000, mostly women and children. Tewary listed 1,811 killed in Nagaon district in the whole season. A police wireless warning the night before sat unacted upon at Jagiroad. Six hundred and eighty-eight FIRs were later dropped after the Assam Accord.",
+      "story": "Nellie is among independent India’s largest one-day massacres. It is generally not coded as UCDP armed conflict.",
+      "sides": [
+        {
+          "label": "Tiwa (Lalung) and neighbouring villagers",
+          "role": "attacker",
+          "kind": "civilian"
+        },
+        {
+          "label": "Bengali-origin Muslims of Nellie",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 1800,
+          "killedMax": 3000,
+          "killedBest": 1800,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "Bengali-origin Muslims of Nellie",
+          "claimedBy": "Official ~1,800; unofficial ~3,000; Tewary 1,811 for Nagaon district",
+          "contested": true,
+          "note": "Indian Express 2025: official 1,800 in 13 villages. Tewary’s 1,811 is a Nagaon district total for Jan–Apr, not a Nellie-village census. Some local memory claims 10,000, unverified."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Indian Express",
+          "headline": "What is Nellie Massacre on which Assam govt tabled inquiry report this week",
+          "year": 2025,
+          "url": "https://indianexpress.com/article/explained/explained-politics/what-is-nellie-massacre-on-which-assam-govt-tabled-inquiry-report-this-week-10389290/",
+          "excerpt": "On 18 February 1983, 1,800 people (as per official figures) were killed in just six hours in 13 villages in and around Nellie. Unofficial counts are around 3,000, mostly Bengali-speaking Muslims.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Hindu",
+          "headline": "Assam government faces criticism over plan to table report on 1983 Nellie massacre",
+          "year": 2025,
+          "url": "https://www.thehindu.com/news/national/assam/assam-government-faces-criticism-over-plan-to-table-report-on-1983-nellie-massacre/article70201902.ece",
+          "excerpt": "More than 2,000 people were killed in the Nellie incident on 18 February 1983; the victims were migrant Muslims, mostly women and children.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "operation-bajrang-1990",
+      "conflictId": "ulfa",
+      "name": "Operation Bajrang",
+      "kind": "operation",
+      "date": {
+        "year": 1990,
+        "month": 11,
+        "day": 28,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Lakhipathar, Tinsukia",
+        "longitude": 95.36,
+        "latitude": 27.49,
+        "precision": "district",
+        "state": "Assam"
+      },
+      "summary": "On 27–28 November 1990 the Centre imposed President’s Rule in Assam, banned ULFA, and the Army opened Operation Bajrang. Camps at Lakhipathar and elsewhere in upper Assam were raided. SATP records 209 hardcore militants arrested and large recoveries of arms and extorted cash. The operation, and Rhino in 1991, pushed ULFA’s leadership toward camps in Bangladesh and later Bhutan.",
+      "story": "Bajrang is the first large named Army campaign against ULFA; it did not end the insurgency.",
+      "sides": [
+        {
+          "label": "Indian Army",
+          "role": "attacker",
+          "kind": "state-forces"
+        },
+        {
+          "label": "ULFA",
+          "role": "target",
+          "kind": "insurgent"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": null,
+          "killedMax": null,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "militant",
+          "sideLabel": "ULFA",
+          "claimedBy": "SATP / contemporary press",
+          "contested": true,
+          "note": "No single authoritative killed table for Bajrang alone is used here; SATP Assam series is annual, not operation-sliced."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "SATP",
+          "headline": "Assam Timeline — Years 1967–1990",
+          "year": 2001,
+          "url": "https://www.satp.org/satporgtp/countries/india/states/assam/timeline/1967_1999.htm",
+          "excerpt": "28 November 1990: the entire State of Assam is declared a disturbed area; ULFA is banned; the Army launches Operation Bajrang.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "operation-all-clear-2003",
+      "conflictId": "ulfa",
+      "name": "Operation All Clear",
+      "kind": "operation",
+      "date": {
+        "year": 2003,
+        "month": 12,
+        "day": 15,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Samdrup Jongkhar, Bhutan",
+        "longitude": 91.51,
+        "latitude": 26.8,
+        "precision": "district",
+        "state": "Bhutan"
+      },
+      "summary": "On 15 December 2003 the Royal Bhutan Army, with Indian support along the border, attacked about 30 camps of ULFA, NDFB and KLO in southern Bhutan. Within days the main camps were razed. Indian and Bhutanese statements speak of more than a hundred militants killed and hundreds captured; ULFA’s own claims of its dead were far lower. The raid ended Bhutan as a rear base.",
+      "story": "An NIA court later said India’s Special Frontier Force assisted while wearing Bhutanese uniform — a claim Delhi has not advertised.",
+      "sides": [
+        {
+          "label": "Royal Bhutan Army",
+          "role": "attacker",
+          "kind": "foreign-forces"
+        },
+        {
+          "label": "ULFA, NDFB and KLO",
+          "role": "target",
+          "kind": "insurgent"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 24,
+          "killedMax": 160,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "militant",
+          "sideLabel": "ULFA, NDFB and KLO",
+          "claimedBy": "Bhutan/India compilations ~160 killed and 490 captured; insurgents claimed 24 of their own",
+          "contested": true,
+          "note": "Range spans official and insurgent claims. Not a body-identified list."
+        },
+        {
+          "killedMin": null,
+          "killedMax": 16,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "security-forces",
+          "sideLabel": "Royal Bhutan Army",
+          "claimedBy": "secondary compilations of RBA losses",
+          "contested": true,
+          "note": "RBA deaths are reported in a low double-digit band in later summaries."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Diplomat",
+          "headline": "Was India’s Special Frontier Force Engaged in Bhutan’s Operation All Clear to Flush Out Militants?",
+          "year": 2020,
+          "url": "https://thediplomat.com/2020/09/was-indias-special-frontier-force-engaged-in-bhutans-operation-all-clear-to-flush-out-militants/",
+          "excerpt": "Operation All Clear was launched on 15 December 2003 to flush ULFA, NDFB and KLO from more than 30 camps in southern Bhutan.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "dhemaji-blast-2004",
+      "conflictId": "ulfa",
+      "name": "Dhemaji Independence Day blast",
+      "kind": "bombing",
+      "date": {
+        "year": 2004,
+        "month": 8,
+        "day": 15,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Dhemaji",
+        "longitude": 94.58,
+        "latitude": 27.48,
+        "precision": "city",
+        "state": "Assam"
+      },
+      "summary": "On 15 August 2004 an IED exploded in the public enclosure at Dhemaji College ground during the Independence Day parade. The Union home minister told Parliament that 13 spectators were killed, including schoolchildren. Later reporting and ULFA’s 2009 apology spoke of 10 children and 3 women. Paresh Baruah called it the most tainted chapter of ULFA’s history. The Gauhati High Court in 2023 acquitted the six people who had been convicted.",
+      "story": "The blast emptied much of ULFA’s remaining social licence in Assam even among those who shared its anti-Delhi politics.",
+      "sides": [
+        {
+          "label": "ULFA",
+          "role": "attacker",
+          "kind": "insurgent"
+        },
+        {
+          "label": "Independence Day spectators",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 13,
+          "killedMax": 18,
+          "killedBest": 13,
+          "injuredBest": 20,
+          "of": "civilian",
+          "sideLabel": "Independence Day spectators",
+          "claimedBy": "PIB / Union Home Minister 17 Aug 2004: 13; later features 10 children + 3 women",
+          "contested": true,
+          "note": "Parliamentary statement: 13 dead (seven male, six female, including five schoolchildren). Some later local counts run to 16–18."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "Press Information Bureau",
+          "headline": "Statement by the Union Home Minister on the bomb blast at Dhemaji",
+          "year": 2004,
+          "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?relid=3203",
+          "excerpt": "A powerful bomb explosion at 0850 hrs on 15 August 2004 at Dhemaji College ground killed 13 persons, including five school children, all spectators.",
+          "stance": "official"
+        },
+        {
+          "outlet": "The Hindu",
+          "headline": "ULFA tenders apology for Dhemaji blast",
+          "year": 2009,
+          "url": "https://www.thehindu.com/news/national/ULFA-tenders-apology-for-Dhemaji-blast/article16853184.ece",
+          "excerpt": "Paresh Baruah described the Dhemaji blast, in which 13 people including 10 children and three women were killed, as the most brutal chapter of ULFA’s history.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "kokrajhar-2012",
+      "conflictId": "bodo-insurgency",
+      "name": "Kokrajhar clashes",
+      "kind": "riot",
+      "date": {
+        "year": 2012,
+        "month": 7,
+        "day": 20,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Kokrajhar",
+        "longitude": 90.27,
+        "latitude": 26.4,
+        "precision": "district",
+        "state": "Assam"
+      },
+      "summary": "In late July 2012, killings of Bodo youths and retaliatory attacks on Bengali-speaking Muslims in Kokrajhar, Chirang and Dhubri set off days of arson. Death tolls in contemporary reporting climbed from the dozens into a band around 80–100. More than 400,000 people were displaced into relief camps, one of the largest internal displacements in post-liberalisation India.",
+      "story": "The 2003 BTC accord had not settled who belongs on Bodoland land. A further Bodo peace accord followed in 2020.",
+      "sides": [
+        {
+          "label": "Bodo crowds and armed groups",
+          "role": "attacker",
+          "kind": "militia"
+        },
+        {
+          "label": "Bengali-speaking Muslims",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 77,
+          "killedMax": 100,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "Bengali-speaking Muslims and Bodos",
+          "claimedBy": "BBC and Indian press compilations of official tallies",
+          "contested": true,
+          "note": "Both communities died; Muslims were the larger share of the dead and of the displaced. No single commission total."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "BBC",
+          "headline": "Assam: Death toll in ethnic clashes rises",
+          "year": 2012,
+          "url": "https://www.bbc.com/news/world-asia-india-18993900",
+          "excerpt": "Ethnic clashes in Assam’s Bodo areas in July 2012 killed dozens and drove hundreds of thousands into relief camps.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "ndfb-adivasi-2014",
+      "conflictId": "bodo-insurgency",
+      "name": "NDFB-S Adivasi attacks",
+      "kind": "massacre",
+      "date": {
+        "year": 2014,
+        "month": 12,
+        "day": 23,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Sonitpur and Kokrajhar villages",
+        "longitude": 92.8,
+        "latitude": 26.63,
+        "precision": "district",
+        "state": "Assam"
+      },
+      "summary": "On 23 December 2014, the Songbijit faction of NDFB fired on Adivasi (Adivasi/tea-tribe) villages in Sonitpur, Kokrajhar and Chirang. Contemporary counts of the first wave sit around 65–80 dead, mostly women and children; retaliatory killings of Bodos followed. Tens of thousands were displaced. Delhi launched a hunt that pushed NDFB-S toward talks ending in the 2020 Bodo Accord.",
+      "story": "The attacks were framed by the group as strikes on ‘infiltrators’ on land it claimed as Bodoland.",
+      "sides": [
+        {
+          "label": "NDFB-Songbijit",
+          "role": "attacker",
+          "kind": "insurgent"
+        },
+        {
+          "label": "Adivasi villagers",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 65,
+          "killedMax": 85,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "Adivasi villagers",
+          "claimedBy": "BBC and Indian official updates in late December 2014",
+          "contested": true,
+          "note": "First-wave Adivasi deaths are in the mid-to-high 60s in early official counts; week-long totals including retaliation run higher."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "BBC",
+          "headline": "India Assam: Dozens dead in rebel attacks on tribespeople",
+          "year": 2014,
+          "url": "https://www.bbc.com/news/world-asia-india-30579902",
+          "excerpt": "Rebels of a Bodo faction attacked Adivasi villages in Assam, killing dozens, mostly women and children, in one of the worst outbreaks in years.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "mandai-massacre-1980",
+      "conflictId": "tripura-insurgency",
+      "name": "Mandai massacre",
+      "kind": "massacre",
+      "date": {
+        "year": 1980,
+        "month": 6,
+        "day": 8,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Mandai",
+        "longitude": 91.48,
+        "latitude": 23.86,
+        "precision": "village",
+        "state": "Tripura"
+      },
+      "summary": "On 8 June 1980, Tripuri crowds and militants corralled Bengali settlers at Mandai market, about 30 km from Agartala, and killed them with guns, spears and daos. Official Indian figures give 255 dead at Mandai; TIME’s correspondent, writing from the scene, described 350 bodies stacked along the road and a statewide toll expected to reach 1,000. The massacre sits at the violent peak of indigenous–settler conflict after Partition and 1971 refugee inflows.",
+      "story": "TNV’s 1988 accord and later NLFT/ATTF deals lowered the insurgency; Mandai remains the cultural wound.",
+      "sides": [
+        {
+          "label": "Tripuri crowds and insurgents",
+          "role": "attacker",
+          "kind": "militia"
+        },
+        {
+          "label": "Bengali settlers of Mandai",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 255,
+          "killedMax": 400,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "Bengali settlers of Mandai",
+          "claimedBy": "Official 255; TIME / independent 350–400",
+          "contested": true,
+          "note": "TIME (30 June 1980) reported 350 bodies at Mandai when border forces arrived about ten hours later."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "TIME",
+          "headline": "INDIA: Tribal Terror",
+          "year": 1980,
+          "url": "https://time.com/archive/6858133/india-tribal-terror/",
+          "excerpt": "When Indian border forces arrived ten hours later, they found 350 bodies stacked in heaps along a narrow strip of road in Mandai.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "bagber-camp-2000",
+      "conflictId": "tripura-insurgency",
+      "name": "Bagber relief-camp massacre",
+      "kind": "massacre",
+      "date": {
+        "year": 2000,
+        "month": 5,
+        "day": 20,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Bagber, West Tripura",
+        "longitude": 91.45,
+        "latitude": 23.9,
+        "precision": "village",
+        "state": "Tripura"
+      },
+      "summary": "On 20 May 2000, NLFT cadres attacked a relief camp at Bagber in West Tripura where Bengali Hindus displaced by earlier hill violence were sheltering. SATP and contemporary Indian reports put the dead at about 25. The year 2000 was SATP’s peak for Tripura, with 514 fatalities, 453 of them civilians.",
+      "story": "NLFT and ATTF camps in Bangladesh were later squeezed; AFSPA was withdrawn from Tripura in 2015.",
+      "sides": [
+        {
+          "label": "NLFT",
+          "role": "attacker",
+          "kind": "insurgent"
+        },
+        {
+          "label": "Bengali Hindu camp residents",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 25,
+          "killedMax": 25,
+          "killedBest": 25,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "Bengali Hindu camp residents",
+          "claimedBy": "SATP / contemporary Indian press",
+          "contested": true,
+          "note": "About 25 camp residents in the 20 May 2000 attack; some round-ups fold nearby killings into a slightly higher 24-hour total."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "SATP",
+          "headline": "Tripura assessment / timeline 2000",
+          "year": 2000,
+          "url": "https://www.satp.org/satporgtp/countries/india/states/tripura/index.html",
+          "excerpt": "20 May 2000: NLFT militants attacked the Bagber relief camp in West Tripura, killing about 25 Bengali inmates at the high point of the 2000 civilian-fatality year.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "operation-blue-star-1984",
+      "conflictId": "punjab-khalistan",
+      "name": "Operation Blue Star",
+      "kind": "operation",
+      "date": {
+        "year": 1984,
+        "month": 6,
+        "day": 5,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Harmandir Sahib, Amritsar",
+        "longitude": 74.876,
+        "latitude": 31.62,
+        "precision": "building",
+        "state": "Punjab"
+      },
+      "summary": "On 3–8 June 1984, with the main assault on the night of 5–6 June, the Indian Army entered the Harmandir Sahib complex to dislodge Jarnail Singh Bhindranwale and armed followers from the Akal Takht. The Government White Paper listed 493 civilians/militants and 83 soldiers killed. Sikh organisations and some independent writers give 3,000–8,000, including pilgrims present for Guru Arjan’s martyrdom anniversary. The Akal Takht was wrecked; the Sikh Reference Library burned after the fighting.",
+      "story": "Blue Star is the wound from which the assassination of Indira Gandhi and the November pogroms followed. Mutinies among some Sikh troops were reported.",
+      "sides": [
+        {
+          "label": "Indian Army",
+          "role": "attacker",
+          "kind": "state-forces"
+        },
+        {
+          "label": "Bhindranwale’s armed followers",
+          "role": "defender",
+          "kind": "insurgent"
+        },
+        {
+          "label": "pilgrims in the complex",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 493,
+          "killedMax": 8000,
+          "killedBest": null,
+          "injuredBest": 86,
+          "of": "civilian",
+          "sideLabel": "pilgrims and Bhindranwale’s armed followers",
+          "claimedBy": "White Paper 493 ‘civilians/terrorists’; Sikh organisations and independent writers 3,000–8,000",
+          "contested": true,
+          "note": "The White Paper lumps pilgrims and militants. No independent body count. Mark Tully’s Amritsar: Mrs Gandhi’s Last Battle discusses higher unofficial figures."
+        },
+        {
+          "killedMin": 83,
+          "killedMax": null,
+          "killedBest": 83,
+          "injuredBest": 249,
+          "of": "security-forces",
+          "sideLabel": "Indian Army",
+          "claimedBy": "Government of India White Paper on Punjab, 1984",
+          "contested": true,
+          "note": "White Paper: 83 soldiers killed, 249 wounded. Some later army memoirs imply a higher soldier toll."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "BBC",
+          "headline": "Why 1984 Golden Temple raid still rankles for Sikhs",
+          "year": 2013,
+          "url": "https://www.bbc.com/news/world-asia-23514583",
+          "excerpt": "According to the Indian government, about 400 people were killed, including 87 soldiers. Sikh groups say thousands died, including pilgrims present for Guru Arjan’s martyrdom anniversary.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "Government of India",
+          "headline": "White Paper on the Punjab Agitation",
+          "year": 1984,
+          "url": null,
+          "excerpt": "The White Paper recorded 493 civilians/terrorists killed, 83 soldiers killed and 1,592 people apprehended in the Harmandir Sahib operation.",
+          "stance": "official"
+        }
+      ]
+    },
+    {
+      "id": "indira-gandhi-assassination-1984",
+      "conflictId": "punjab-khalistan",
+      "name": "Assassination of Indira Gandhi",
+      "kind": "assassination",
+      "date": {
+        "year": 1984,
+        "month": 10,
+        "day": 31,
+        "precision": "day"
+      },
+      "place": {
+        "name": "1 Safdarjung Road, New Delhi",
+        "longitude": 77.2,
+        "latitude": 28.6,
+        "precision": "building",
+        "state": "Delhi"
+      },
+      "summary": "On 31 October 1984, Prime Minister Indira Gandhi was shot in the garden of her residence by two Sikh bodyguards, Beant Singh and Satwant Singh, in the aftermath of Blue Star. Beant Singh was killed by other guards; Satwant Singh was hanged in 1989 with Kehar Singh. The killing opened three days of anti-Sikh pogroms in Delhi and other cities.",
+      "story": "All India Radio’s delay in naming the assassins’ religion did not prevent the rumour mill from organising the night.",
+      "sides": [
+        {
+          "label": "Beant Singh and Satwant Singh",
+          "role": "attacker",
+          "kind": "state-forces"
+        },
+        {
+          "label": "Indira Gandhi",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 1,
+          "killedMax": 1,
+          "killedBest": 1,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "Indira Gandhi",
+          "claimedBy": "contemporaneous official record",
+          "contested": false,
+          "note": "The Prime Minister died after surgery at AIIMS. Beant Singh was killed at the scene; that death sits on the other side of the shooting."
+        },
+        {
+          "killedMin": 1,
+          "killedMax": 1,
+          "killedBest": 1,
+          "injuredBest": 1,
+          "of": "security-forces",
+          "sideLabel": "Beant Singh and Satwant Singh",
+          "claimedBy": "official record",
+          "contested": false,
+          "note": "Beant Singh killed by fellow guards; Satwant Singh wounded, later executed."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "BBC",
+          "headline": "1984: Indian prime minister shot dead",
+          "year": 1984,
+          "url": "https://news.bbc.co.uk/onthisday/hi/dates/stories/october/31/newsid_2464000/2464423.stm",
+          "excerpt": "Mrs Gandhi was shot by two Sikh members of her security guard at her home in New Delhi, weeks after the army’s assault on the Golden Temple.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "delhi-sikh-pogrom-1984",
+      "conflictId": "punjab-khalistan",
+      "name": "Delhi anti-Sikh killings",
+      "kind": "massacre",
+      "date": {
+        "year": 1984,
+        "month": 10,
+        "day": 31,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Delhi",
+        "longitude": 77.21,
+        "latitude": 28.61,
+        "precision": "city",
+        "state": "Delhi"
+      },
+      "summary": "From the afternoon of 31 October through 3 November 1984, organised mobs killed Sikhs in Delhi using voter lists, kerosene and white-hot tyres, with police inaction documented by citizen inquiries and later the Nanavati Commission. The Ahooja committee / Nanavati official Delhi toll is 2,733. National estimates commonly run 3,000–4,000 including Kanpur, Bokaro and elsewhere. Convictions have been few.",
+      "story": "HRW and the PUCL-PUDR report Who Are the Guilty named Congress local organisers. This was a pogrom, not a battle of the Punjab war.",
+      "sides": [
+        {
+          "label": "organised mobs",
+          "role": "attacker",
+          "kind": "militia"
+        },
+        {
+          "label": "Sikhs of Delhi",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 2733,
+          "killedMax": 4000,
+          "killedBest": 2733,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "Sikhs of Delhi",
+          "claimedBy": "Nanavati Commission / Ahooja committee 2,733 in Delhi; national estimates ~3,000–4,000",
+          "contested": true,
+          "note": "2,733 is the official Delhi figure. National totals add other cities. Some Sikh organisations cite higher numbers."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "BBC",
+          "headline": "Sajjan Kumar: Milestone conviction over 1984 Sikh killings",
+          "year": 2018,
+          "url": "https://www.bbc.com/news/world-asia-india-46589391",
+          "excerpt": "More than 3,000 Sikhs were killed following Indira Gandhi’s assassination. The worst violence was in Delhi, where more than 2,700 Sikhs are believed to have died.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "Nanavati Commission",
+          "headline": "Report of the Justice Nanavati Commission of Inquiry (1984 Anti-Sikh Riots)",
+          "year": 2005,
+          "url": null,
+          "excerpt": "The Commission worked from the official Delhi death toll of 2,733 and examined allegations of organised Congress involvement.",
+          "stance": "official"
+        }
+      ]
+    },
+    {
+      "id": "gawkadal-1990",
+      "conflictId": "kashmir-insurgency",
+      "name": "Gawkadal firing",
+      "kind": "attack",
+      "date": {
+        "year": 1990,
+        "month": 1,
+        "day": 21,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Gawkadal Bridge, Srinagar",
+        "longitude": 74.81,
+        "latitude": 34.07,
+        "precision": "building",
+        "state": "Jammu and Kashmir"
+      },
+      "summary": "On 21 January 1990, CRPF opened fire on a procession at Gawkadal Bridge in Srinagar. The march had grown from searches and alleged molestation in Chotta Bazaar the night before, in the first weeks of Governor Jagmohan’s return. Official counts sit around 21–28 dead; Kashmiri and human-rights accounts give 50–53, some writers over 100. The day is remembered in the Valley as the moment a political uprising became a mass funeral.",
+      "story": "AFSPA was extended to J&K in 1990. Gawkadal is the first of a series of crowd-firing episodes that Valley memory treats as massacres.",
+      "sides": [
+        {
+          "label": "CRPF",
+          "role": "attacker",
+          "kind": "paramilitary"
+        },
+        {
+          "label": "Srinagar protestors",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 21,
+          "killedMax": 50,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "Srinagar protestors",
+          "claimedBy": "The Indian Express 2005: official 21; Police Control Room count 50",
+          "contested": true,
+          "note": "Official figure 21. Express reported the PCR body count rose to 50. Later human-rights and Valley accounts often say about 50–53; some writers give over 100."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Indian Express",
+          "headline": "Kashmir’s first blood",
+          "year": 2005,
+          "url": "https://indianexpress.com/article/news-archive/kashmirs-first-blood/",
+          "excerpt": "People in the Valley allege CRPF opened indiscriminate fire near Gaw Kadal. The official figure for fatal casualties was 21. When the bodies were counted in the Police Control Room, it climbed to 50.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "pandit-exodus-1990",
+      "conflictId": "kashmir-insurgency",
+      "name": "Kashmiri Pandit exodus",
+      "kind": "other",
+      "date": {
+        "year": 1990,
+        "month": 1,
+        "precision": "month"
+      },
+      "place": {
+        "name": "Srinagar and the Kashmir Valley",
+        "longitude": 74.8,
+        "latitude": 34.08,
+        "precision": "region",
+        "state": "Jammu and Kashmir"
+      },
+      "summary": "In January 1990, targeted killings, mosque loudspeakers and a collapse of civil order drove Kashmiri Pandits out of the Valley. Government lists of Pandits killed in the early years commonly run from about 219 to 399; Pandit organisations cite higher figures. Displacement is commonly 100,000–140,000 (some claims to 300,000). Militants and some Valley politicians called it a migration amid general chaos; Pandit groups and much official Indian memory call it ethnic cleansing.",
+      "story": "Most remaining Pandit families left for Jammu and Delhi camps. Return remains a live political argument decades later.",
+      "sides": [
+        {
+          "label": "militants and intimidatory crowds",
+          "role": "attacker",
+          "kind": "insurgent"
+        },
+        {
+          "label": "Kashmiri Pandits",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 219,
+          "killedMax": 399,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "Kashmiri Pandits",
+          "claimedBy": "Kashmiri Pandit Sangharsh Samiti via The Indian Express: 399 killed 1990–2011; government lists often 219–399",
+          "contested": true,
+          "note": "KPSS: of 75,343 families in January 1990, more than 70,000 fled 1990–92. Killing lists are multi-year, not a single January day."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Indian Express",
+          "headline": "Explained: The Kashmir Pandit tragedy",
+          "year": 2020,
+          "url": "https://indianexpress.com/article/explained/exodus-of-kashmiri-pandits-from-valley-6232410/",
+          "excerpt": "KPSS placed Pandits killed by militants from 1990 to 2011 at 399, the majority during 1989–90. Of 75,343 families in January 1990, more than 70,000 fled between 1990 and 1992.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Hindu",
+          "headline": "Thirty years on, still no spring for the Pandits",
+          "year": 2020,
+          "url": "https://www.thehindu.com/opinion/lead/thirty-years-on-still-no-spring-for-the-pandits/article30618444.ece",
+          "excerpt": "After three decades of exile, the dignified return of Kashmiri Pandits to the Valley remains as elusive as it was in 1990.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "pulwama-2019",
+      "conflictId": "kashmir-insurgency",
+      "name": "Pulwama convoy bombing",
+      "kind": "bombing",
+      "date": {
+        "year": 2019,
+        "month": 2,
+        "day": 14,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Lethpora, Pulwama",
+        "longitude": 74.96,
+        "latitude": 33.96,
+        "precision": "village",
+        "state": "Jammu and Kashmir"
+      },
+      "summary": "On 14 February 2019 a Jaish-e-Mohammed suicide bomber, Adil Ahmad Dar of Pulwama, rammed an explosives-laden car into a CRPF convoy on the Jammu–Srinagar highway at Lethpora. Forty CRPF personnel were killed, the deadliest attack on Indian security forces in three decades of the Kashmir insurgency. First-day reports of 44 were revised down. India struck at Balakot days later.",
+      "story": "JeM released Dar’s video. About 2,500 personnel in a 70-vehicle convoy were moving into the Valley after winter.",
+      "sides": [
+        {
+          "label": "Jaish-e-Mohammed",
+          "role": "attacker",
+          "kind": "insurgent"
+        },
+        {
+          "label": "CRPF convoy",
+          "role": "target",
+          "kind": "paramilitary"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 40,
+          "killedMax": 44,
+          "killedBest": 40,
+          "injuredBest": 35,
+          "of": "security-forces",
+          "sideLabel": "CRPF convoy",
+          "claimedBy": "The Hindu / The Indian Express; official settled total 40 CRPF",
+          "contested": false,
+          "note": "Initial bulletins said 44; the settled official figure is 40 CRPF personnel of the 76th Battalion, plus the bomber."
+        },
+        {
+          "killedMin": 1,
+          "killedMax": 1,
+          "killedBest": 1,
+          "injuredBest": null,
+          "of": "militant",
+          "sideLabel": "Jaish-e-Mohammed",
+          "claimedBy": "JeM claim / official identification of Adil Ahmad Dar",
+          "contested": false,
+          "note": "The bomber was killed in the blast."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Hindu",
+          "headline": "February 14, 2019: When a CRPF convoy came under attack in Pulwama",
+          "year": 2019,
+          "url": "https://www.thehindu.com/news/national/february-14-2019-when-a-crpf-convoy-came-under-attack-in-pulwama-on-srinagar-jammu-highway/article26292339.ece",
+          "excerpt": "At least 40 CRPF personnel were killed when a Jaish-e-Mohammed suicide bomber rammed an explosives-laden vehicle into a convoy bus near Awantipora.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Indian Express",
+          "headline": "Recalling the Pulwama terrorist attack: what happened on Feb 14, 2019?",
+          "year": 2024,
+          "url": "https://indianexpress.com/article/explained/five-years-pulwama-terror-attack-recall-9161523/",
+          "excerpt": "A Jaish-e-Muhammad terrorist rammed an explosives-laden car into a CRPF convoy at Lethpora, killing 40 personnel.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "bombay-riots-1992",
+      "conflictId": "bombay-1992",
+      "name": "Bombay riots",
+      "kind": "riot",
+      "date": {
+        "year": 1992,
+        "month": 12,
+        "day": 6,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Bombay",
+        "longitude": 72.88,
+        "latitude": 19.08,
+        "precision": "city",
+        "state": "Maharashtra"
+      },
+      "summary": "After the 6 December 1992 demolition of the Babri Masjid, Bombay burned in two waves: a December Muslim reaction, then a January Hindu offensive that the Srikrishna Commission tied to Shiv Sena organisation and communally inciting newspapers. About 900 people were killed in the city, 575 of them Muslim, 275 Hindu and 50 other in the commonly cited Srikrishna split. The Commission found a built-in police bias against Muslims.",
+      "story": "The March 1993 serial blasts were planned as a sequel. National riot deaths after Ayodhya ran into the thousands outside Bombay.",
+      "sides": [
+        {
+          "label": "Shiv Sena and Hindu crowds (January)",
+          "role": "attacker",
+          "kind": "militia"
+        },
+        {
+          "label": "Muslim crowds (December)",
+          "role": "attacker",
+          "kind": "civilian"
+        },
+        {
+          "label": "Bombay Muslims",
+          "role": "target",
+          "kind": "civilian"
+        },
+        {
+          "label": "Bombay Hindus",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 575,
+          "killedMax": 575,
+          "killedBest": 575,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "Bombay Muslims",
+          "claimedBy": "Srikrishna Commission (commonly cited split of ~900)",
+          "contested": true,
+          "note": "Srikrishna’s city total is close to 900. The 575/275/50 split is the standard secondary reading of that report."
+        },
+        {
+          "killedMin": 275,
+          "killedMax": 275,
+          "killedBest": 275,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "Bombay Hindus",
+          "claimedBy": "Srikrishna Commission (commonly cited split of ~900)",
+          "contested": true,
+          "note": "January violence also killed Hindus; Muslims were the larger share of the dead."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Indian Express",
+          "headline": "Mumbai riots 1992: Srikrishna Commission report and action taken",
+          "year": 2017,
+          "url": "https://indianexpress.com/article/india/babri-masjid-demolition-mumbai-riots-1992-srikrishna-commission-report-and-action-taken-4970003/",
+          "excerpt": "The riots in December 1992 and January 1993 left close to 900 dead and as many as 2,036 people injured in Mumbai.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "Srikrishna Commission",
+          "headline": "Report of the Justice B. N. Srikrishna Commission of Inquiry",
+          "year": 1998,
+          "url": null,
+          "excerpt": "December 1992 was a spontaneous Muslim reaction; large-scale January 1993 rioting was commenced by Hindus brought to fever pitch by Shiv Sena-led propaganda.",
+          "stance": "official"
+        }
+      ]
+    },
+    {
+      "id": "bombay-blasts-1993",
+      "conflictId": "bombay-1992",
+      "name": "Bombay serial blasts",
+      "kind": "bombing",
+      "date": {
+        "year": 1993,
+        "month": 3,
+        "day": 12,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Bombay (13 coordinated sites)",
+        "longitude": 72.83,
+        "latitude": 18.94,
+        "precision": "city",
+        "state": "Maharashtra"
+      },
+      "summary": "On 12 March 1993, thirteen coordinated bombs — cars, scooters, suitcases — exploded across Bombay, from the Stock Exchange and the Air-India building to crowded markets. Two hundred and fifty-seven people were killed and more than 700 injured. Courts later convicted members of the Memon network; Dawood Ibrahim, accused as the overseas organiser, remains a fugitive. The blasts were planned as revenge for the riots.",
+      "story": "It was then the deadliest urban bombing in independent India, a GTD terrorism event rather than a riot.",
+      "sides": [
+        {
+          "label": "Dawood Ibrahim / Memon network",
+          "role": "attacker",
+          "kind": "insurgent"
+        },
+        {
+          "label": "Bombay public",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 257,
+          "killedMax": 257,
+          "killedBest": 257,
+          "injuredBest": 713,
+          "of": "civilian",
+          "sideLabel": "Bombay public",
+          "claimedBy": "official / court record; BBC and Indian Express retrospectives",
+          "contested": false,
+          "note": "257 dead is the settled official total for 12 March 1993. Injured commonly given as about 713."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "BBC",
+          "headline": "Mumbai bombings: 20 years on",
+          "year": 2013,
+          "url": "https://www.bbc.com/news/world-asia-india-21759222",
+          "excerpt": "Thirteen bombs tore through Mumbai on 12 March 1993, killing 257 people, in attacks prosecutors tied to the Memon family and Dawood Ibrahim after the riots.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "tololing-1999",
+      "conflictId": "kargil-1999",
+      "name": "Tololing",
+      "kind": "clash",
+      "date": {
+        "year": 1999,
+        "month": 6,
+        "day": 13,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Tololing, Dras",
+        "longitude": 75.8,
+        "latitude": 34.46,
+        "precision": "village",
+        "state": "Ladakh"
+      },
+      "summary": "On 13 June 1999, 2 Rajputana Rifles recaptured Tololing above Dras, the first major Indian success of the Kargil war. The peak overlooked NH-1, the Srinagar–Leh highway. Pakistani Northern Light Infantry, initially described in Islamabad as militants, held the heights. The Ministry of Defence later listed 527 Indian soldiers killed in the whole campaign, 1,363 wounded; Pakistan’s official dead were 357, while Nawaz Sharif later spoke of over 4,000.",
+      "story": "Tololing’s fall opened the Dras sector and set up the later assaults on Tiger Hill and Point 4875.",
+      "sides": [
+        {
+          "label": "Indian Army (2 Rajputana Rifles)",
+          "role": "attacker",
+          "kind": "state-forces"
+        },
+        {
+          "label": "Pakistan Northern Light Infantry",
+          "role": "defender",
+          "kind": "foreign-forces"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": null,
+          "killedMax": null,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "security-forces",
+          "sideLabel": "Indian Army (2 Rajputana Rifles)",
+          "claimedBy": "Ministry of Defence / Kargil Review Committee (campaign totals)",
+          "contested": true,
+          "note": "MoD campaign total is 527 Indian killed. Peak-by-peak official slices for 13 June at Tololing are not published as a single named table here."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "Deccan Herald",
+          "headline": "26 years on, Army retraces heroic ascent to Tololing to honour Kargil war heroes",
+          "year": 2025,
+          "url": "https://www.deccanherald.com/india/jammu-and-kashmir/26-years-on-army-retraces-heroic-ascent-to-tololing-to-honour-kargil-war-heroes-3584460",
+          "excerpt": "On 13 June 1999 the Indian Army reclaimed Tololing, a fortified position with a commanding view of the Srinagar–Leh highway.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "tiger-hill-1999",
+      "conflictId": "kargil-1999",
+      "name": "Tiger Hill",
+      "kind": "clash",
+      "date": {
+        "year": 1999,
+        "month": 7,
+        "day": 4,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Tiger Hill, Dras",
+        "longitude": 75.66,
+        "latitude": 34.48,
+        "precision": "village",
+        "state": "Ladakh"
+      },
+      "summary": "In the night of 3–4 July 1999, 18 Grenadiers, with 8 Sikh and 2 Naga, took Tiger Hill, the most photographed peak of the Kargil war. Grenadier Yogendra Singh Yadav survived wounds that earned a Param Vir Chakra. The recapture, broadcast as India won, became the public image of Operation Vijay. Fighting in the sector ended around 26 July, now Kargil Vijay Diwas.",
+      "story": "Pakistan had denied regulars were on the peak; later admissions and captured documents described Northern Light Infantry.",
+      "sides": [
+        {
+          "label": "Indian Army (18 Grenadiers)",
+          "role": "attacker",
+          "kind": "state-forces"
+        },
+        {
+          "label": "Pakistan Northern Light Infantry",
+          "role": "defender",
+          "kind": "foreign-forces"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": null,
+          "killedMax": null,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "security-forces",
+          "sideLabel": "Indian Army (18 Grenadiers)",
+          "claimedBy": "Ministry of Defence campaign totals",
+          "contested": true,
+          "note": "Tiger Hill unit deaths are commemorated in battalion histories; the named official total remains the campaign-wide 527 killed."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Times of India",
+          "headline": "From Tololing to Tiger Hill: Five mountain victories that secured India's Kargil triumph",
+          "year": 2026,
+          "url": "https://timesofindia.indiatimes.com/defence/news/from-tololing-to-tiger-hill-five-mountain-victories-that-secured-indias-kargil-triumph-over-pakistan/articleshow/132629902.cms",
+          "excerpt": "Tiger Hill, recaptured on 4 July 1999, broke the remaining Pakistani hold on the Dras heights after Tololing.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "godhra-2002",
+      "conflictId": "gujarat-2002",
+      "name": "Godhra train fire",
+      "kind": "attack",
+      "date": {
+        "year": 2002,
+        "month": 2,
+        "day": 27,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Godhra railway station",
+        "longitude": 73.6,
+        "latitude": 22.78,
+        "precision": "building",
+        "state": "Gujarat"
+      },
+      "summary": "On 27 February 2002, coach S-6 of the Sabarmati Express burned at Godhra. Fifty-nine passengers, kar sevaks returning from Ayodhya, were killed, including 27 women and 10 children; 48 others were injured. The Nanavati-Mehta Commission called it a conspiracy; the Banerjee Committee called it an accident. A special court later convicted dozens of Muslim accused. The fire was the spark of the statewide killings that followed.",
+      "story": "Cause remains a competing-frame object: conspiracy versus accident. The death count of 59 is not the dispute.",
+      "sides": [
+        {
+          "label": "Godhra mob (prosecution case)",
+          "role": "attacker",
+          "kind": "civilian"
+        },
+        {
+          "label": "kar sevaks on the Sabarmati Express",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 59,
+          "killedMax": 59,
+          "killedBest": 59,
+          "injuredBest": 48,
+          "of": "civilian",
+          "sideLabel": "kar sevaks on the Sabarmati Express",
+          "claimedBy": "official / court record; The Indian Express",
+          "contested": false,
+          "note": "59 dead in S-6 is consistent across Nanavati, Banerjee and the courts. The cause of the fire is contested."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Indian Express",
+          "headline": "What is the 2002 Godhra train burning case?",
+          "year": 2017,
+          "url": "https://indianexpress.com/article/what-is/what-is-godhra-case-gujarat-riots-sabarmati-express-narendra-modi-4881537/",
+          "excerpt": "Coach S-6 of the Sabarmati Express was set ablaze at Godhra on 27 February 2002; 59 passengers, including 27 women and 10 children, died.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "The Hindu",
+          "headline": "Godhra fire accidental, says Banerjee panel",
+          "year": 2005,
+          "url": "https://www.thehindu.com/todays-paper/godhra-fire-accidental-says-banerjee-panel/article27302861.ece",
+          "excerpt": "The Justice U. C. Banerjee Committee’s interim report called the fire in S-6 an accidental fire, rejecting the petrol-conspiracy theory.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "naroda-patiya-2002",
+      "conflictId": "gujarat-2002",
+      "name": "Naroda Patiya massacre",
+      "kind": "massacre",
+      "date": {
+        "year": 2002,
+        "month": 2,
+        "day": 28,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Naroda Patiya, Ahmedabad",
+        "longitude": 72.65,
+        "latitude": 23.07,
+        "precision": "village",
+        "state": "Gujarat"
+      },
+      "summary": "On 28 February 2002, the day of a VHP bandh after Godhra, a large Hindu mob attacked the Muslim neighbourhood of Naroda Patiya in Ahmedabad. Later court and rights tallies give 97 Muslims killed — 36 women, 35 children, 26 men — the largest single killing of the Gujarat violence. Early police figures said 83; a chargesheet annexure implied 112. Sexual violence was documented. A special court convicted 32 people, including a sitting MLA.",
+      "story": "Statewide official dead: 1,044 (790 Muslim, 254 Hindu) plus 223 missing. The Concerned Citizens Tribunal put 1,926. About 150,000 people sat in relief camps at the peak.",
+      "sides": [
+        {
+          "label": "Hindu mob (Bajrang Dal / VHP, as found in trial and CCT)",
+          "role": "attacker",
+          "kind": "militia"
+        },
+        {
+          "label": "Muslims of Naroda Patiya",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 83,
+          "killedMax": 112,
+          "killedBest": 97,
+          "injuredBest": 30,
+          "of": "civilian",
+          "sideLabel": "Muslims of Naroda Patiya",
+          "claimedBy": "trial / later standard count 97; early official 83; chargesheet annexure 112",
+          "contested": true,
+          "note": "97 is the figure used in later court reporting. All the dead at Naroda Patiya were Muslim."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Indian Express",
+          "headline": "Naroda: Govt’s slip adds 29 more to toll, it is now 112",
+          "year": 2002,
+          "url": "https://indianexpress.com/article/news-archive/naroda-govts-slip-adds-29-more-to-toll-it-is-now-112/",
+          "excerpt": "Official figures said 83 killed at Naroda Patiya on 28 February; documents attached to the chargesheet implied a higher recovery of bodies.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "mumbai-cst-2008",
+      "conflictId": "mumbai-2008",
+      "name": "26/11 Chhatrapati Shivaji Terminus",
+      "kind": "attack",
+      "date": {
+        "year": 2008,
+        "month": 11,
+        "day": 26,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Chhatrapati Shivaji Terminus, Mumbai",
+        "longitude": 72.84,
+        "latitude": 18.94,
+        "precision": "building",
+        "state": "Maharashtra"
+      },
+      "summary": "On the night of 26 November 2008, Lashkar-e-Taiba gunmen Ajmal Kasab and Abu Ismail opened fire in the main hall of Chhatrapati Shivaji Terminus. It was the deadliest single site of 26/11. About 52–58 people were killed there, passengers and staff and police among them, before the pair moved toward Cama Hospital. Kasab was captured later that night; Ismail was killed. Ten attackers killed 166 people across the city; nine gunmen died.",
+      "story": "CCTV of Kasab in the terminus became the image of the attack. Pakistan-based controllers, including those named in the David Headley record, ran the operation by phone.",
+      "sides": [
+        {
+          "label": "Lashkar-e-Taiba",
+          "role": "attacker",
+          "kind": "insurgent"
+        },
+        {
+          "label": "CST passengers, staff and police",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 52,
+          "killedMax": 58,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "CST passengers, staff and police",
+          "claimedBy": "Indian Express / BBC site tallies of 26/11",
+          "contested": true,
+          "note": "CST is consistently the highest single-site toll. Some police dead at CST are folded into these figures. Citywide official total is 166 victims plus 9 attackers."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Indian Express",
+          "headline": "26/11 Mumbai terror attacks: A brief timeline",
+          "year": 2021,
+          "url": "https://indianexpress.com/article/india/26-11-mumbai-terror-attacks-timeline-of-what-happened-during-64-hours-of-operation-7642091/",
+          "excerpt": "Ten LeT gunmen attacked Mumbai on 26 November 2008. The violence claimed 166 lives; CST was among the first and deadliest sites.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "Britannica",
+          "headline": "Mumbai terrorist attacks of 2008",
+          "year": 2009,
+          "url": "https://www.britannica.com/event/Mumbai-terrorist-attacks-of-2008",
+          "excerpt": "Ten militants associated with Lashkar-e-Taiba attacked crowded sites in Mumbai, killing 166 people and injuring about 300.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "mumbai-taj-2008",
+      "conflictId": "mumbai-2008",
+      "name": "26/11 Taj Mahal Palace siege",
+      "kind": "siege",
+      "date": {
+        "year": 2008,
+        "month": 11,
+        "day": 26,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Taj Mahal Palace Hotel, Mumbai",
+        "longitude": 72.83,
+        "latitude": 18.92,
+        "precision": "building",
+        "state": "Maharashtra"
+      },
+      "summary": "Four Lashkar-e-Taiba gunmen entered the Taj Mahal Palace from the lobby and the poolside on 26 November 2008 and held the hotel until the morning of 29 November. Guests and staff were shot in corridors and restaurants; fires burned in the dome. Site tallies of the dead at the Taj sit around 31–36, among the 166 citywide. NSG commandos ended the siege. The burning dome became the global picture of 26/11.",
+      "story": "Staff hid guests in rooms for more than 60 hours. Nine of ten attackers were killed in the city operation; Kasab was hanged in 2012.",
+      "sides": [
+        {
+          "label": "Lashkar-e-Taiba",
+          "role": "attacker",
+          "kind": "insurgent"
+        },
+        {
+          "label": "Taj guests and staff",
+          "role": "target",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 31,
+          "killedMax": 36,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "Taj guests and staff",
+          "claimedBy": "BBC / Indian Express site breakdowns of 26/11",
+          "contested": true,
+          "note": "Taj-only totals vary with whether nearby police-post dead are counted. Citywide official victims: 166, plus 9 attackers."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The Indian Express",
+          "headline": "Fourteen years on, remembering the 26/11 Mumbai terror attacks",
+          "year": 2022,
+          "url": "https://indianexpress.com/article/cities/mumbai/remembering-26-11-mumbai-terror-attacks-8288879/",
+          "excerpt": "For more than 60 hours the Taj Mahal Palace was besieged by four militants. 166 people were killed across Mumbai; nine gunmen died and one was captured.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "manipur-3-may-2023",
+      "conflictId": "manipur-2023",
+      "name": "Tribal Solidarity March",
+      "kind": "clash",
+      "date": {
+        "year": 2023,
+        "month": 5,
+        "day": 3,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Churachandpur",
+        "longitude": 93.68,
+        "latitude": 24.33,
+        "precision": "city",
+        "state": "Manipur"
+      },
+      "summary": "On 3 May 2023 the All Tribal Students’ Union Manipur held a Tribal Solidarity March in the hill districts against a High Court recommendation on Scheduled Tribe status for Meiteis. In Churachandpur, arson at forest offices and clashes at Kangvai–Torbung spread into Bishnupur. First-night reports spoke of a handful of dead and dozens injured. The march is the dated spark of the Kuki–Meitei war that sorted the state into ethnically homogenous zones.",
+      "story": "Deeper fuels included hill forest and poppy politics, Myanmar-refugee inflows after the 2021 coup, and a Meitei demand for ST land rights in the hills.",
+      "sides": [
+        {
+          "label": "Kuki-Zo tribal marchers",
+          "role": "attacker",
+          "kind": "civilian"
+        },
+        {
+          "label": "Meitei groups",
+          "role": "attacker",
+          "kind": "civilian"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 3,
+          "killedMax": null,
+          "killedBest": 3,
+          "injuredBest": 80,
+          "of": "civilian",
+          "sideLabel": "Kuki-Zo and Meitei civilians",
+          "claimedBy": "EastMojo 4 May 2023, Churachandpur civil hospital",
+          "contested": true,
+          "note": "EastMojo confirmed three dead from bullet injuries in Churachandpur on the first night, about 80 injured. Statewide deaths rose sharply over the following days."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "ThePrint",
+          "headline": "Fresh violence in Manipur's Churachandpur after Tribal Solidarity March",
+          "year": 2023,
+          "url": "https://theprint.in/india/fresh-violence-in-manipurs-churachandpur-tensions-spread-as-arson-clashes-follow-tribal-solidarity-march/",
+          "excerpt": "A Tribal Solidarity March organised by ATSUM on 3 May 2023 was followed by arson and stone-pelting in Churachandpur and neighbouring Bishnupur.",
+          "stance": "independent"
+        },
+        {
+          "outlet": "EastMojo",
+          "headline": "Manipur violence: Three dead in Churachandpur, two critical",
+          "year": 2023,
+          "url": "https://eastmojo.com/manipur/2023/05/04/manipur-violence-three-dead-in-churachandpur-two-critical/",
+          "excerpt": "Three people died of bullet injuries in Churachandpur and almost 80 were injured after the ATSUM rally of 3 May.",
+          "stance": "independent"
+        }
+      ]
+    },
+    {
+      "id": "manipur-first-week-2023",
+      "conflictId": "manipur-2023",
+      "name": "Manipur ethnic killings, first week",
+      "kind": "riot",
+      "date": {
+        "year": 2023,
+        "month": 5,
+        "day": 4,
+        "precision": "day"
+      },
+      "place": {
+        "name": "Imphal Valley and hill foothills",
+        "longitude": 93.94,
+        "latitude": 24.82,
+        "precision": "region",
+        "state": "Manipur"
+      },
+      "summary": "From 3 May into the following week, Kuki-Zo colonies in the Imphal Valley were burned and Meitei households in some hill foothills were driven out. First-three-day death reports clustered around several dozen, a majority of them Kuki in the valley. The state Governor said in February 2024 that 219 people had been killed since May 2023; later official compilations run from the mid-250s to about 300, with more than 60,000 displaced. Churches, temples and villages were destroyed along a valley–hill line a few kilometres wide.",
+      "story": "President’s Rule followed in 2025. Nested ceasefires with valley insurgent groups did not stop the ethnic war.",
+      "sides": [
+        {
+          "label": "Meitei armed crowds and valley groups",
+          "role": "attacker",
+          "kind": "militia"
+        },
+        {
+          "label": "Kuki-Zo armed crowds and hill groups",
+          "role": "attacker",
+          "kind": "militia"
+        }
+      ],
+      "casualties": [
+        {
+          "killedMin": 219,
+          "killedMax": 306,
+          "killedBest": null,
+          "injuredBest": null,
+          "of": "civilian",
+          "sideLabel": "Kuki-Zo and Meitei civilians",
+          "claimedBy": "Governor, Feb 2024: 219; later official compilations 258–306",
+          "contested": true,
+          "note": "Governor Uikey, Feb 2024: 219 killed and about 60,000 displaced since 3 May 2023. Later official compilations run higher, into the mid-250s–300s. First 72 hours were already in the dozens."
+        }
+      ],
+      "reports": [
+        {
+          "outlet": "The New Indian Express",
+          "headline": "Manipur violence: Governor Uikey says 219 lives lost, 10,000 FIRs lodged",
+          "year": 2024,
+          "url": "https://www.newindianexpress.com/nation/2024/Feb/28/manipur-violence-governor-uikey-says-219-lives-lost-10000-firs-lodged",
+          "excerpt": "Governor Anusuiya Uikey told the Assembly on 28 February 2024 that ethnic violence since 3 May 2023 had claimed 219 lives. About 10,000 FIRs had been registered.",
+          "stance": "independent"
+        }
+      ]
+    }
+  ]
+}
