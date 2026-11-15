@@ -723,7 +723,7 @@ a {
 
 .years {
   position: relative;
-  padding: 3.2rem 0 6.5rem;
+  padding: 0.7rem 0 5.5rem;
   border-top: 1px solid var(--rule);
   background:
     radial-gradient(1200px 280px at 50% -40px, rgba(231, 220, 200, 0.05), transparent 70%),
@@ -731,32 +731,9 @@ a {
   overflow: hidden;
 }
 
-.years-head {
-  max-width: 40rem;
-  padding: 0 6vw 1.8rem;
-}
-
-.years-head h2 {
-  font-family: var(--font-serif), ui-serif, Georgia, serif;
-  font-size: clamp(2rem, 4vw, 3.1rem);
-  font-weight: 400;
-  letter-spacing: -0.03em;
-  margin: 0.35rem 0 0.7rem;
-}
-
-.years-head p {
-  color: var(--paper-dim);
-  font-size: 1.02rem;
-  line-height: 1.55;
-  max-width: 34rem;
-}
-
 .years-body {
-  display: grid;
-  grid-template-columns: 1fr min(24rem, 32vw);
-  gap: 1.4rem;
+  display: block;
   padding: 0 1.6rem 0 1.2rem;
-  align-items: start;
 }
 
 .years-stage {
@@ -856,6 +833,77 @@ a {
 .years-lane {
   position: relative;
   border-top: 1px solid rgba(231, 220, 200, 0.06);
+}
+
+.years-lane[data-open="true"] {
+  z-index: 5;
+}
+
+.years-drawer {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-rows: 0fr;
+  position: relative;
+  z-index: 6;
+  background: #0c0d0a;
+  pointer-events: none;
+  transition: grid-template-rows 0.42s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.years-drawer[data-open="true"] {
+  grid-template-rows: 1fr;
+  pointer-events: auto;
+  border-top: 1px solid rgba(231, 220, 200, 0.14);
+  box-shadow: inset 0 1px 0 rgba(231, 220, 200, 0.04);
+}
+
+.years-drawer-inner {
+  overflow: hidden;
+  min-height: 0;
+}
+
+.years-drawer[data-open="true"] .years-drawer-inner {
+  padding: 0.85rem 0.2rem 1.05rem 0.15rem;
+}
+
+.years-drawer-head {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  column-gap: 1rem;
+  align-items: baseline;
+  margin: 0 0 0.85rem;
+  padding: 0 0.2rem;
+}
+
+.years-drawer-head .map-kicker {
+  grid-column: 1;
+  margin: 0;
+}
+
+.years-drawer-head h3 {
+  grid-column: 1;
+  margin: 0.2rem 0 0;
+  min-width: 0;
+  font-family: var(--font-serif), ui-serif, Georgia, serif;
+  font-size: clamp(1.35rem, 2.4vw, 1.85rem);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: var(--paper);
+}
+
+.years-drawer-head .card-close {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: center;
+  position: static;
+  margin-top: 0;
+}
+
+.years-drawer-empty {
+  margin: 0 0.2rem 0.4rem;
+  color: var(--paper-dim);
+  font-size: 0.88rem;
 }
 
 .years-lane-off {
@@ -967,33 +1015,7 @@ a {
   cursor: pointer;
 }
 
-.years-dock {
-  position: sticky;
-  top: 1.2rem;
-  min-width: 0;
-}
 
-.map-card-dock {
-  position: relative !important;
-  top: auto !important;
-  right: auto !important;
-  left: auto !important;
-  width: auto !important;
-  max-height: min(72vh, 44rem);
-}
-
-.years-idle {
-  padding: 1.2rem 1.15rem 1.4rem;
-  border: 1px dashed var(--rule);
-  border-radius: 16px;
-  color: var(--paper-dim);
-}
-
-.years-idle p + p {
-  margin-top: 0.7rem;
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
 
 @keyframes years-drift {
   from {
@@ -1033,7 +1055,6 @@ a {
   }
 
   .years-body {
-    grid-template-columns: 1fr;
     padding: 0 1rem;
   }
 
@@ -1050,13 +1071,5 @@ a {
 
   .years-ghost {
     font-size: 4.6rem;
-  }
-
-  .map-card-dock {
-    position: relative !important;
-    top: auto !important;
-    bottom: auto !important;
-    left: auto !important;
-    right: auto !important;
   }
 }

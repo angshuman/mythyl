@@ -521,7 +521,6 @@ export function ConflictMap() {
       onHover={setHovered}
       onSelect={selectFromYears}
       onClose={() => setSelected(null)}
-      onOpenIncident={openIncident}
     />
     </>
   );

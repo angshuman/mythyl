@@ -1,12 +1,14 @@
 "use client";
 
-import { useMemo, useRef, useState, type MouseEvent, type SetStateAction } from "react";
+import { useEffect, useMemo, useRef, useState, type MouseEvent, type SetStateAction } from "react";
 import {
+  conflictById,
   densityByYear,
   FAMILIES,
   FAMILY_BY_ID,
   incidentAt,
   packTracks,
+  reportsForConflict,
   spanEnd,
   spanStart,
   YEAR_MAX,
@@ -16,8 +18,9 @@ import {
   type ConflictFamily,
   type Era,
   type Incident,
+  type NewsReport,
 } from "@/lib/conflicts";
-import { MapCard, type MapFocus } from "./MapCard";
+import { NewsList, type MapFocus } from "./MapCard";
 
 const BAR_H = 7;
 const TRACK_GAP = 16;
@@ -37,7 +40,6 @@ type Props = {
   onHover: (focus: SetStateAction<MapFocus | null>) => void;
   onSelect: (focus: MapFocus) => void;
   onClose: () => void;
-  onOpenIncident: (incident: Incident) => void;
 };
 
 export function ConflictTimeline({
@@ -50,10 +52,10 @@ export function ConflictTimeline({
   onHover,
   onSelect,
   onClose,
-  onOpenIncident,
 }: Props) {
   const plotRef = useRef<HTMLDivElement>(null);
   const [cursor, setCursor] = useState<Cursor | null>(null);
+  const [held, setHeld] = useState<Partial<Record<ConflictFamily, { title: string; papers: NewsReport[] }>>>({});
 
   const byFamily = useMemo(() => {
     return FAMILIES.map((family) => {
@@ -83,6 +85,31 @@ export function ConflictTimeline({
   const hotConflictId =
     panel?.type === "conflict" ? panel.conflict.id : panel?.type === "incident" ? panel.incident.conflictId : null;
   const hotIncidentId = panel?.type === "incident" ? panel.incident.id : null;
+  const openFamily =
+    selected?.type === "conflict"
+      ? selected.conflict.family
+      : selected?.type === "incident"
+        ? (campaigns.find((row) => row.id === selected.incident.conflictId)?.family ??
+          conflictById(selected.incident.conflictId)?.family ??
+          null)
+        : null;
+  const openPapers =
+    selected?.type === "incident"
+      ? selected.incident.reports
+      : selected?.type === "conflict"
+        ? reportsForConflict(selected.conflict.id).map((row) => row.report)
+        : [];
+  const openTitle =
+    selected?.type === "incident"
+      ? selected.incident.name
+      : selected?.type === "conflict"
+        ? selected.conflict.name
+        : null;
+
+  useEffect(() => {
+    if (!openFamily || !openTitle) return;
+    setHeld((current) => ({ ...current, [openFamily]: { title: openTitle, papers: openPapers } }));
+  }, [openFamily, openTitle, openPapers]);
 
   const cursorYear = cursor ? Math.round(cursor.year) : null;
   const nearDays = useMemo(() => {
@@ -112,16 +139,6 @@ export function ConflictTimeline({
 
   return (
     <section className="years" id="years">
-      <div className="years-head">
-        <p className="map-kicker">The years</p>
-        <h2>A republic, scored</h2>
-        <p>
-          A bar is a campaign that lasted. A square is a day — the same mark as
-          on the map. Colour is still the kind of conflict. The ridge is the
-          pulse of those days.
-        </p>
-      </div>
-
       <div className="years-body">
         <div
           className="years-stage"
@@ -225,17 +242,19 @@ export function ConflictTimeline({
             {byFamily.map(({ family, rows, packed, tracks }) => {
               const on = enabledFamilies[family.id];
               const height = LANE_PAD * 2 + tracks * BAR_H + (tracks - 1) * TRACK_GAP;
+              const drawerOpen = openFamily === family.id && Boolean(selected);
+              const bits = held[family.id];
               return (
                 <div
                   key={family.id}
                   className={on ? "years-lane" : "years-lane years-lane-off"}
-                  style={{ minHeight: height + 8 }}
+                  data-open={drawerOpen ? "true" : "false"}
                 >
                   <p className="years-rail-label years-family" title={family.hint}>
                     <i style={{ background: family.color }} />
                     {family.label}
                   </p>
-                  <div className="years-plot">
+                  <div className="years-plot" style={{ minHeight: height + 8 }}>
                     {Array.from({ length: tracks }, (_, track) => (
                       <span
                         key={`stave-${family.id}-${track}`}
@@ -282,6 +301,10 @@ export function ConflictTimeline({
                           }
                           onClick={(event) => {
                             event.stopPropagation();
+                            if (selected?.type === "conflict" && selected.conflict.id === campaign.id) {
+                              onClose();
+                              return;
+                            }
                             onSelect({ type: "conflict", conflict: campaign });
                           }}
                         />
@@ -327,36 +350,45 @@ export function ConflictTimeline({
                             }
                             onClick={(event) => {
                               event.stopPropagation();
+                              if (selected?.type === "incident" && selected.incident.id === incident.id) {
+                                onClose();
+                                return;
+                              }
                               onSelect({ type: "incident", incident });
                             }}
                           />
                         );
                       })}
                   </div>
+                  <div
+                    className="years-drawer"
+                    data-open={drawerOpen ? "true" : "false"}
+                    data-drawer-family={family.id}
+                    aria-hidden={!drawerOpen}
+                  >
+                    <div className="years-drawer-inner">
+                      {bits ? (
+                        <>
+                          <div className="years-drawer-head">
+                            <p className="map-kicker">From the papers</p>
+                            <h3>{bits.title}</h3>
+                            <button type="button" className="card-close" onClick={onClose}>
+                              Close
+                            </button>
+                          </div>
+                          {bits.papers.length ? (
+                            <NewsList reports={bits.papers} layout="row" />
+                          ) : (
+                            <p className="years-drawer-empty">No clippings on file yet.</p>
+                          )}
+                        </>
+                      ) : null}
+                    </div>
+                  </div>
                 </div>
               );
             })}
           </div>
-        </div>
-
-        <div className="years-dock">
-          {panel ? (
-            <MapCard
-              focus={panel}
-              locked={Boolean(selected)}
-              onClose={onClose}
-              onOpenIncident={onOpenIncident}
-              docked
-            />
-          ) : (
-            <div className="years-idle">
-              <p className="map-kicker">Read a year</p>
-              <p>
-                Slide across the score. A bar is a war that took years. A
-                square is a morning. Click either, and the map flies there.
-              </p>
-            </div>
-          )}
         </div>
       </div>
     </section>

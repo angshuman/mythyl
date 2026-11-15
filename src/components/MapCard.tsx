@@ -23,12 +23,11 @@ type Props = {
   locked: boolean;
   onClose: () => void;
   onOpenIncident: (incident: Incident) => void;
-  docked?: boolean;
 };
 
-export function MapCard({ focus, locked, onClose, onOpenIncident, docked }: Props) {
+export function MapCard({ focus, locked, onClose, onOpenIncident }: Props) {
   if (focus.type === "incident") {
-    return <IncidentBody incident={focus.incident} locked={locked} onClose={onClose} docked={docked} />;
+    return <IncidentBody incident={focus.incident} locked={locked} onClose={onClose} />;
   }
   return (
     <ConflictBody
@@ -36,7 +35,6 @@ export function MapCard({ focus, locked, onClose, onOpenIncident, docked }: Prop
       locked={locked}
       onClose={onClose}
       onOpenIncident={onOpenIncident}
-      docked={docked}
     />
   );
 }
@@ -151,16 +149,42 @@ function NewsStory({ report }: { report: NewsReport }) {
   );
 }
 
-function NewsList({ reports, kicker = "From the papers" }: { reports: NewsReport[]; kicker?: string }) {
+export function NewsList({
+  reports,
+  kicker = "From the papers",
+  layout = "stack",
+}: {
+  reports: NewsReport[];
+  kicker?: string;
+  layout?: "stack" | "row";
+}) {
   const stories = storiesOf(reports);
   if (stories.length === 0) return null;
+  const row = layout === "row";
   return (
-    <div className={styles.stories} style={{ marginTop: "1.15rem", display: "flex", flexDirection: "column", gap: "1.2rem" }}>
-      <p className={styles.storiesHead} style={{ margin: 0, fontSize: "0.62rem", letterSpacing: "0.16em", textTransform: "uppercase", color: "var(--paper-dim)" }}>
-        {kicker}
-      </p>
+    <div
+      className={styles.stories}
+      style={{
+        marginTop: row ? 0 : "1.15rem",
+        display: "flex",
+        flexDirection: row ? "row" : "column",
+        gap: row ? "1rem" : "1.2rem",
+        overflowX: row ? "auto" : undefined,
+        padding: row ? "0.15rem 0.15rem 0.85rem" : undefined,
+      }}
+    >
+      {kicker && !row ? (
+        <p className={styles.storiesHead} style={{ margin: 0, fontSize: "0.62rem", letterSpacing: "0.16em", textTransform: "uppercase", color: "var(--paper-dim)" }}>
+          {kicker}
+        </p>
+      ) : null}
       {stories.map((report) => (
-        <NewsStory key={report.url || `${report.outlet}:${report.headline}`} report={report} />
+        <div
+          key={report.url || `${report.outlet}:${report.headline}`}
+          style={row ? { flex: "0 0 min(22rem, 78vw)", minWidth: "min(22rem, 78vw)" } : undefined}
+        >
+          <NewsStory report={report} />
+        </div>
       ))}
     </div>
   );
@@ -171,20 +195,18 @@ function ConflictBody({
   locked,
   onClose,
   onOpenIncident,
-  docked,
 }: {
   conflict: Conflict;
   locked: boolean;
   onClose: () => void;
   onOpenIncident: (incident: Incident) => void;
-  docked?: boolean;
 }) {
   const related = incidentsForConflict(conflict.id).slice(0, 5);
   const papers = reportsForConflict(conflict.id);
   const killed = conflict.harm?.killed;
 
   return (
-    <aside className={docked ? "map-card map-card-dock" : "map-card"} aria-live="polite">
+    <aside className="map-card" aria-live="polite">
       <p className="card-meta">
         <span data-scale={conflict.scale}>{conflict.scale}</span>
         <span style={{ borderColor: familyOf(conflict).color, color: familyOf(conflict).color }}>
@@ -285,18 +307,16 @@ function IncidentBody({
   incident,
   locked,
   onClose,
-  docked,
 }: {
   incident: Incident;
   locked: boolean;
   onClose: () => void;
-  docked?: boolean;
 }) {
   const campaign = conflictById(incident.conflictId);
   const papers = incident.reports;
 
   return (
-    <aside className={docked ? "map-card map-card-day map-card-dock" : "map-card map-card-day"} aria-live="polite">
+    <aside className="map-card map-card-day" aria-live="polite">
       <p className="card-meta">
         <span>{incident.kind.replace("-", " ")}</span>
         {campaign ? <span>{campaign.name}</span> : null}
