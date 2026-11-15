@@ -315,6 +315,16 @@ a {
   border-color: var(--paper);
 }
 
+.map-legend button:not(.on) {
+  opacity: 0.4;
+  color: var(--paper-dim);
+}
+
+.map-legend button[data-solo="true"] {
+  opacity: 1;
+  color: var(--paper);
+}
+
 .map-filters button .swatch {
   display: inline-block;
   width: 0.5rem;
@@ -776,8 +786,22 @@ a {
   display: flex;
   align-items: center;
   gap: 0.45rem;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
   color: var(--paper);
   letter-spacing: 0.1em;
+  text-align: left;
+  cursor: pointer;
+}
+
+.years-family:hover {
+  color: #f3ead8;
+}
+
+.years-family[data-solo="true"] {
+  color: #f3ead8;
 }
 
 .years-family i {
@@ -907,7 +931,12 @@ a {
 }
 
 .years-lane-off {
-  opacity: 0.22;
+  opacity: 0.16;
+  pointer-events: none;
+}
+
+.years-lane-off .years-family {
+  pointer-events: auto;
 }
 
 .years-plot {

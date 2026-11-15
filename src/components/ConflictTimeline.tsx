@@ -40,6 +40,8 @@ type Props = {
   onHover: (focus: SetStateAction<MapFocus | null>) => void;
   onSelect: (focus: MapFocus) => void;
   onClose: () => void;
+  familySolo: ConflictFamily | null;
+  onFocusFamily: (id: ConflictFamily, event: { altKey: boolean; metaKey: boolean }) => void;
 };
 
 export function ConflictTimeline({
@@ -52,6 +54,8 @@ export function ConflictTimeline({
   onHover,
   onSelect,
   onClose,
+  familySolo,
+  onFocusFamily,
 }: Props) {
   const plotRef = useRef<HTMLDivElement>(null);
   const [cursor, setCursor] = useState<Cursor | null>(null);
@@ -74,11 +78,17 @@ export function ConflictTimeline({
 
   const ridge = useMemo(
     () =>
-      densityByYear(incidents, (id) => {
-        const campaign = campaigns.find((row) => row.id === id);
-        return campaign?.family;
-      }),
-    [incidents, campaigns],
+      densityByYear(
+        incidents.filter((incident) => {
+          const campaign = campaigns.find((row) => row.id === incident.conflictId);
+          return !campaign || enabledFamilies[campaign.family];
+        }),
+        (id) => {
+          const campaign = campaigns.find((row) => row.id === id);
+          return campaign?.family;
+        },
+      ),
+    [incidents, campaigns, enabledFamilies],
   );
 
   const panel = hovered ?? selected;
@@ -116,8 +126,12 @@ export function ConflictTimeline({
     if (cursorYear == null) return [];
     return incidents
       .filter((incident) => incident.time.year === cursorYear)
+      .filter((incident) => {
+        const campaign = campaigns.find((row) => row.id === incident.conflictId);
+        return !campaign || enabledFamilies[campaign.family];
+      })
       .slice(0, 4);
-  }, [incidents, cursorYear]);
+  }, [incidents, campaigns, enabledFamilies, cursorYear]);
 
   const eraLeft = yearToPct(era.start);
   const eraRight = yearToPct(era.id === "all" ? YEAR_MAX + 0.2 : era.end + 0.92);
@@ -250,10 +264,19 @@ export function ConflictTimeline({
                   className={on ? "years-lane" : "years-lane years-lane-off"}
                   data-open={drawerOpen ? "true" : "false"}
                 >
-                  <p className="years-rail-label years-family" title={family.hint}>
+                  <button
+                    type="button"
+                    className="years-rail-label years-family"
+                    data-solo={familySolo === family.id ? "true" : "false"}
+                    title={`${family.hint}. Click to show only this; again for every kind.`}
+                    onClick={(event) => {
+                      event.stopPropagation();
+                      onFocusFamily(family.id, event);
+                    }}
+                  >
                     <i style={{ background: family.color }} />
                     {family.label}
-                  </p>
+                  </button>
                   <div className="years-plot" style={{ minHeight: height + 8 }}>
                     {Array.from({ length: tracks }, (_, track) => (
                       <span

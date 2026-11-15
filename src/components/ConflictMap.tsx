@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type MouseEvent } from "react";
 import {
   AttributionControl,
   Map as MapLibreMap,
@@ -42,6 +42,17 @@ type MapLens = "all" | "northeast" | "external";
 
 const SCALES: Scale[] = ["small", "medium", "large"];
 const NE_NAMES = [...NORTHEAST_STATES];
+const ALL_FAMILIES_ON = Object.fromEntries(FAMILIES.map((family) => [family.id, true])) as Record<
+  ConflictFamily,
+  boolean
+>;
+
+function isolateFamily(id: ConflictFamily): Record<ConflictFamily, boolean> {
+  return Object.fromEntries(FAMILIES.map((family) => [family.id, family.id === id])) as Record<
+    ConflictFamily,
+    boolean
+  >;
+}
 
 const NE_FILL: [string, string][] = [
   ["Arunachal Pradesh", "#5c806e"],
@@ -66,12 +77,16 @@ export function ConflictMap() {
     medium: true,
     large: true,
   });
-  const [enabledFamilies, setEnabledFamilies] = useState<Record<ConflictFamily, boolean>>(() =>
-    Object.fromEntries(FAMILIES.map((family) => [family.id, true])) as Record<ConflictFamily, boolean>,
-  );
+  const [enabledFamilies, setEnabledFamilies] = useState<Record<ConflictFamily, boolean>>(ALL_FAMILIES_ON);
   const [selected, setSelected] = useState<MapFocus | null>(null);
   const [hovered, setHovered] = useState<MapFocus | null>(null);
   const [mapError, setMapError] = useState<string | null>(null);
+
+  const familySolo = useMemo(() => {
+    const on = FAMILIES.filter((family) => enabledFamilies[family.id]);
+    return on.length === 1 ? on[0].id : null;
+  }, [enabledFamilies]);
+  const familiesAllOn = familySolo === null && FAMILIES.every((family) => enabledFamilies[family.id]);
 
   const visible = useMemo(() => {
     return allConflicts().filter((conflict) => {
@@ -366,6 +381,80 @@ export function ConflictMap() {
     mapRef.current?.fitBounds(INDIA_BOUNDS, { padding: INDIA_FIT_PADDING, duration: 800 });
   }
 
+  function fitFamilyView(next: Record<ConflictFamily, boolean>) {
+    const map = mapRef.current;
+    if (!map) return;
+    const on = FAMILIES.filter((family) => next[family.id]);
+    if (on.length === 0 || on.length === FAMILIES.length) {
+      if (lens === "northeast") {
+        map.fitBounds(NORTHEAST_BOUNDS, { padding: 48, duration: 900 });
+        return;
+      }
+      map.fitBounds(INDIA_BOUNDS, { padding: INDIA_FIT_PADDING, duration: 800 });
+      return;
+    }
+    const points = allConflicts()
+      .filter((conflict) => {
+        if (!next[conflict.family]) return false;
+        if (!enabledScales[conflict.scale]) return false;
+        if (lens === "northeast" && !conflict.northeast) return false;
+        if (lens === "external" && !isExternalTerrorism(conflict)) return false;
+        return true;
+      })
+      .map((conflict) => conflict.primaryPoint);
+    if (points.length === 0) {
+      map.fitBounds(INDIA_BOUNDS, { padding: INDIA_FIT_PADDING, duration: 800 });
+      return;
+    }
+    let minLon = Infinity;
+    let minLat = Infinity;
+    let maxLon = -Infinity;
+    let maxLat = -Infinity;
+    for (const point of points) {
+      minLon = Math.min(minLon, point.longitude);
+      minLat = Math.min(minLat, point.latitude);
+      maxLon = Math.max(maxLon, point.longitude);
+      maxLat = Math.max(maxLat, point.latitude);
+    }
+    const pad = Math.max(0.85, (maxLon - minLon) * 0.14, (maxLat - minLat) * 0.14);
+    map.fitBounds(
+      [
+        [minLon - pad, minLat - pad],
+        [maxLon + pad, maxLat + pad],
+      ],
+      { padding: { top: 96, bottom: 88, left: 48, right: 56 }, duration: 900, maxZoom: 6.6 },
+    );
+  }
+
+  function applyFamilies(next: Record<ConflictFamily, boolean>, fit: boolean) {
+    setEnabledFamilies(next);
+    setSelected((current) => {
+      if (!current) return current;
+      const family =
+        current.type === "conflict"
+          ? current.conflict.family
+          : conflictById(current.incident.conflictId)?.family;
+      if (family && !next[family]) return null;
+      return current;
+    });
+    if (fit) fitFamilyView(next);
+  }
+
+  function onFamilyClick(id: ConflictFamily, event: { altKey: boolean; metaKey: boolean }) {
+    if (event.altKey || event.metaKey) {
+      const next = { ...enabledFamilies, [id]: !enabledFamilies[id] };
+      if (!FAMILIES.some((family) => next[family.id])) return;
+      applyFamilies(next, false);
+      return;
+    }
+    const onlyThis = familySolo === id;
+    applyFamilies(onlyThis ? ALL_FAMILIES_ON : isolateFamily(id), true);
+  }
+
+  function showAllFamilies() {
+    applyFamilies(ALL_FAMILIES_ON, true);
+  }
+
   const panel = hovered ?? selected;
 
   function flyToFocus(focus: MapFocus) {
@@ -455,17 +544,27 @@ export function ConflictMap() {
             </button>
           </div>
           <div className="map-filters map-legend" style={{ marginTop: "0.7rem" }}>
+            <button
+              type="button"
+              className={familiesAllOn ? "on" : ""}
+              title="Every kind of conflict"
+              onClick={showAllFamilies}
+            >
+              All kinds
+            </button>
             {FAMILIES.map((family) => (
               <button
                 key={family.id}
                 type="button"
                 className={enabledFamilies[family.id] ? "on" : ""}
-                title={family.hint}
-                onClick={() =>
-                  setEnabledFamilies((current) => ({
-                    ...current,
-                    [family.id]: !current[family.id],
-                  }))
+                data-solo={familySolo === family.id ? "true" : "false"}
+                aria-pressed={enabledFamilies[family.id]}
+                title={`${family.hint}. Click to show only this; again for every kind. Option-click to add or remove.`}
+                onClick={(event: MouseEvent<HTMLButtonElement>) => onFamilyClick(family.id, event)}
+                style={
+                  familySolo === family.id
+                    ? { boxShadow: `0 0 0 1px ${family.color}, 0 0 18px ${family.color}55` }
+                    : undefined
                 }
               >
                 <span
@@ -521,6 +620,8 @@ export function ConflictMap() {
       onHover={setHovered}
       onSelect={selectFromYears}
       onClose={() => setSelected(null)}
+      familySolo={familySolo}
+      onFocusFamily={onFamilyClick}
     />
     </>
   );
