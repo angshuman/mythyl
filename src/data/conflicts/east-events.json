@@ -1,0 +1,739 @@
+[
+  {
+    "id": "jalespata-2008",
+    "conflictId": "kandhamal-2008",
+    "name": "Jalespata ashram shooting",
+    "kind": "assassination",
+    "time": {
+      "year": 2008,
+      "month": 8,
+      "day": 23,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Jalespata Kanyashram, Tumudibandha",
+      "longitude": 83.675,
+      "latitude": 19.845,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Odisha",
+        "district": "Kandhamal",
+        "village": "Jalespata"
+      }
+    },
+    "summary": "About thirty gunmen walked into the girls’ ashram at Jalespata on Janmashtami night and shot Swami Lakshmanananda Saraswati, a VHP leader who had spent decades in Kandhamal opposing conversion. Four others died with him. Odisha’s DGP named Maoists before midnight. Sangh organisations named Christians. The funeral march the next day opened the district.",
+    "story": "The ashram had reported a threatening letter the day before. Praveen Togadia later used that letter to blame the Patnaik government for failing to protect the swami.",
+    "sides": [
+      {
+        "label": "armed raiders (Maoist claim / Christian blame)",
+        "role": "attacker",
+        "kind": "unknown"
+      },
+      {
+        "label": "Lakshmanananda Saraswati and ashram residents",
+        "role": "target",
+        "kind": "civilian",
+        "actorId": "vhp"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 5,
+        "killedMax": 5,
+        "killedBest": 5,
+        "of": "civilian",
+        "sideLabel": "Lakshmanananda and four disciples",
+        "claimedBy": "Frontline, 26 September 2008",
+        "contested": false,
+        "note": "Named with him: Kishore Baba, Amritananda Baba, Mata Bhaktimayee, Puranjan Ganthi. Attribution of the shooting remains a political fight; the SIT later charged a mixed group."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Frontline",
+        "headline": "Project Orissa",
+        "year": 2008,
+        "url": "https://frontline.thehindu.com/cover-story/article30197634.ece",
+        "excerpt": "The carnage began at midnight on August 23-24, hours after Vishwa Hindu Parishad leader Swami Lakshmanananda Saraswati and four of his disciples were shot dead at around 8 p.m. at his ashram at Jalespata. The police suspected the hand of the CPI (Maoists); Sangh Parivar leaders said militant Christians.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "kandhamal-nuagaon-2008",
+    "conflictId": "kandhamal-2008",
+    "name": "K. Nuagaon, bandh day",
+    "kind": "riot",
+    "time": {
+      "year": 2008,
+      "month": 8,
+      "day": 25,
+      "precision": "day"
+    },
+    "place": {
+      "name": "K. Nuagaon / Divya Jyoti Pastoral Centre",
+      "longitude": 83.88,
+      "latitude": 20.2,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Odisha",
+        "district": "Kandhamal"
+      }
+    },
+    "summary": "The VHP–Bajrang Dal bandh shut Odisha. In Kandhamal the funeral procession was still on the road. At K. Nuagaon, 12 km from Baliguda, a mob burned the pastoral centre, dragged a Catholic nun and Fr Thomas Chellan from a Hindu neighbour’s house, beat them, and raped her around 1 p.m. in a deserted building while a dozen armed policemen watched. The same day Christian houses burned across the district.",
+    "story": "The nun’s FIR sat. The state admitted the rape 38 days later. Sexual violence is coded on the campaign; this day is the named one.",
+    "sides": [
+      {
+        "label": "Hindu mob, VHP/Bajrang Dal slogans",
+        "role": "attacker",
+        "kind": "militia",
+        "actorId": "bajrang-dal"
+      },
+      {
+        "label": "nun, priest, and Christian villagers",
+        "role": "target",
+        "kind": "civilian"
+      },
+      {
+        "label": "Odisha police at the outpost",
+        "role": "unclear",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "Christians in Kandhamal on the bandh day",
+        "claimedBy": "Frontline / The Hindu 2008",
+        "contested": true,
+        "note": "District-wide deaths were still being counted; this day’s named crimes are the rape and assault, not a closed body count. Campaign range 38–123 over the following weeks."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Nun was gang raped and priest brutally assaulted in Kandhamal",
+        "year": 2008,
+        "url": "https://thehindu.com/todays-paper/Nun-was-gang-raped-and-priest-brutally-assaulted-in-Kandhamal/article15313647.ece",
+        "excerpt": "These incidents took place on August 25 at K. Nuagaon, 12 km from the Baliguda subdivision. The brutalisation of the nun and the priest by a mob raising anti-Christian, Hindutva slogans took place around 1 p.m. at the site of the Divya Jyothi Pastor Centre, in front of a police outpost.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Frontline",
+        "headline": "Project Orissa",
+        "year": 2008,
+        "url": "https://frontline.thehindu.com/cover-story/article30197634.ece",
+        "excerpt": "The VHP and the Bajrang Dal gave a call for a statewide 12-hour bandh on August 25. In Kandhamal, houses belonging to Christians were set on fire and pastors and members of the community were attacked and burnt alive.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "marichjhapi-blockade-1979",
+    "conflictId": "marichjhapi-1979",
+    "name": "Marichjhapi blockade firing",
+    "kind": "operation",
+    "time": {
+      "year": 1979,
+      "month": 1,
+      "day": 31,
+      "precision": "day",
+      "note": "Blockade from 26 January; firing reported 31 January."
+    },
+    "place": {
+      "name": "Marichjhapi",
+      "longitude": 88.951,
+      "latitude": 22.107,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "West Bengal",
+        "district": "South 24 Parganas"
+      }
+    },
+    "summary": "Thirty police launches closed the island on Republic Day. Tube wells, fisheries and huts were smashed. People who tried to cross the Raimangal were shot at. On 31 January the press carried six dead. Children and the old began to die of hunger and diarrhoea as the blockade held.",
+    "sides": [
+      {
+        "label": "West Bengal police and Left Front cadres",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "cpi-m"
+      },
+      {
+        "label": "Namasudra refugee settlers",
+        "role": "target",
+        "kind": "civilian",
+        "actorId": "namasudra-refugees"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 6,
+        "killedMax": 17,
+        "of": "civilian",
+        "sideLabel": "refugees in the opening blockade",
+        "claimedBy": "contemporary reports of 31 January; later retellings of 15 refugees and 2 locals in an early firing",
+        "contested": true,
+        "note": "These are the first-week numbers, not the campaign total. Official campaign dead remained 2–8."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Telegraph",
+        "headline": "Smoke on Waters: The horrors of Marichjhnapi",
+        "year": 2019,
+        "url": "https://www.telegraphindia.com/india/smoke-on-waters-the-horrors-of-marichjhnapi/cid/1683509",
+        "excerpt": "Police firing started soon after the blockade. On January 31, there were reports of six deaths. The children and the elderly died of starvation and diarrhoea. Estimates about the death toll swing from 30 to thousands.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Wire",
+        "headline": "The Forgotten Massacre of Dalit Refugees in West Bengal's Marichjhapi",
+        "year": 2018,
+        "url": "https://thewire.in/history/west-bengal-violence-marichjhapi-dandakaranya",
+        "excerpt": "On January 26, 1979, Jyoti Basu announced an economic blockade. Thirty police launches surrounded the island; the refugees were tear-gassed, their huts, fisheries and tube-wells destroyed. Those who tried to cross the river were shot at.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "marichjhapi-eviction-1979",
+    "conflictId": "marichjhapi-1979",
+    "name": "Marichjhapi clearance",
+    "kind": "massacre",
+    "time": {
+      "year": 1979,
+      "month": 5,
+      "day": 14,
+      "precision": "day",
+      "note": "Assault 14–16 May; island declared empty 18 May."
+    },
+    "place": {
+      "name": "Marichjhapi",
+      "longitude": 88.951,
+      "latitude": 22.107,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "West Bengal",
+        "district": "South 24 Parganas"
+      }
+    },
+    "summary": "Police and party cadres went onto the island, burned huts, the school, the market and the dispensary, and put the remaining Namasudra families on boats back to Dandakaranya. Survivors describe rape, shooting, and bodies in the river. The government called it a forest eviction. Nobody was allowed in to count.",
+    "sides": [
+      {
+        "label": "West Bengal police and ruling-party cadres",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "cpi-m"
+      },
+      {
+        "label": "Namasudra refugee settlers",
+        "role": "target",
+        "kind": "civilian",
+        "actorId": "namasudra-refugees"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 2,
+        "killedMax": 10000,
+        "of": "civilian",
+        "sideLabel": "Marichjhapi settlers",
+        "claimedBy": "official 2–8; Mallick/Biswas 4,128 families; later journalism up to 10,000 persons",
+        "contested": true,
+        "note": "No census. Conservative independent writing uses several hundred. Do not flatten this to one integer."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "India Today",
+        "headline": "Marichjhapi massacre: Forgotten story of Hindu refugees slaughtered in Bengal",
+        "year": 2023,
+        "url": "https://www.indiatoday.in/sunday-special/story/marichjhapi-massacre-sunderbans-bengali-refugees-killed-left-front-government-bengal-2429613-2023-09-03",
+        "excerpt": "There is no authentic record of how many people were killed. People were killed and thrown into the river. It is said that the death toll could be up to 10,000. But the official figure stops at just two to eight.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Journal of Asian Studies",
+        "headline": "Refugee Resettlement in Forest Reserves",
+        "year": 1999,
+        "excerpt": "At least several hundred men, women and children were said to have been killed in the operation and their bodies dumped in the river. Biswas (1982) wrote that 4,128 families perished in transit, of starvation, or in police firings at Kashipur, Kumirmari and Marichjhapi.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "calcutta-1964",
+    "conflictId": "east-1964",
+    "name": "Calcutta, January 1964",
+    "kind": "riot",
+    "time": {
+      "year": 1964,
+      "month": 1,
+      "day": 11,
+      "precision": "day",
+      "note": "Isolated incidents from 6 January; citywide from 10–11th; army in by the 11th."
+    },
+    "place": {
+      "name": "Calcutta",
+      "longitude": 88.364,
+      "latitude": 22.573,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "West Bengal",
+        "district": "Kolkata"
+      }
+    },
+    "summary": "Hindu refugees from Khulna and a student killed in police firing at Jadavpur turned Calcutta into a week of stabbing and arson. Nanda told the Lok Sabha that 208 people of both communities died by mobs in Calcutta and West Bengal and 56 more in police action. The army was told to shoot to kill in attacks on Muslims. Most of the city’s dead were Muslim; 62,000 people left their houses.",
+    "sides": [
+      {
+        "label": "Hindu crowds, including refugee neighbourhoods",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Muslim neighbourhoods of Calcutta",
+        "role": "target",
+        "kind": "civilian"
+      },
+      {
+        "label": "West Bengal police and army",
+        "role": "unclear",
+        "kind": "state-forces",
+        "actorId": "in-army"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 175,
+        "killedMax": 500,
+        "killedBest": 264,
+        "of": "civilian",
+        "sideLabel": "civilians in Calcutta and West Bengal, mostly Muslims",
+        "claimedBy": "Nanda, Lok Sabha 11 Feb 1964 (208 mob + 56 police = 264); FRUS ~175, ‘perhaps three times’; unofficial ~500 in the city",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Lok Sabha",
+        "headline": "Nanda on disturbances in West Bengal",
+        "year": 1964,
+        "url": "https://eparlib.sansad.in/bitstream/123456789/881420/1/03_VII_11-02-1964_p70_p73_PII.pdf",
+        "excerpt": "In the disturbances, 208 persons of both communities lost their lives; 56 more were killed as a result of police action. In the city of Calcutta about 62,000 of both communities were people whose homes were destroyed or who left their homes out of a sense of insecurity.",
+        "stance": "state"
+      },
+      {
+        "outlet": "U.S. Department of State",
+        "headline": "Hindu-Muslim Rioting in India and Pakistan",
+        "year": 1964,
+        "url": "https://history.state.gov/historicaldocuments/frus1964-68v25/d4",
+        "excerpt": "Calcutta is calming down under rigid army and police control. Deaths are estimated in the neighborhood of 175 in the city and surrounding areas but the total may be three times this number.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rourkela-1964",
+    "conflictId": "east-1964",
+    "name": "Rourkela steel town",
+    "kind": "riot",
+    "time": {
+      "year": 1964,
+      "month": 3,
+      "day": 19,
+      "precision": "day",
+      "note": "Refugee train 19 March; curfew and troops 20 March; order mostly by the 22nd."
+    },
+    "place": {
+      "name": "Rourkela",
+      "longitude": 84.854,
+      "latitude": 22.249,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Odisha",
+        "district": "Sundargarh"
+      }
+    },
+    "summary": "A train of East Pakistan refugees stopped at Rourkela on the way to Dandakaranya. Lunch on the platform, rumour in the steel township, then days of killing in old Rourkela, the engineering college, and Sector 15. Preliminary official dead were 63; Nanda later folded Rourkela into a 346-death tally with Jamshedpur and Raigarh. Later ethnography has spoken of thousands. Muslims were hunted; Adivasi rumour, Chatterjee found, did a lot of the work.",
+    "sides": [
+      {
+        "label": "Hindu and Adivasi crowds",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Muslims of Rourkela",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 63,
+        "killedMax": 5000,
+        "of": "civilian",
+        "sideLabel": "mostly Muslims in Rourkela",
+        "claimedBy": "Keesing’s preliminary 63; Nanda 8 April 346 for Rourkela+Jamshedpur+Raigarh; Parry and Strümpell 2,000–5,000 for Rourkela",
+        "contested": true,
+        "note": "Do not assign the whole 346 to Rourkela. The 2,000–5,000 band is ethnographic, not a police census."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Keesing’s Contemporary Archives",
+        "headline": "Communal riots in India, March–April 1964",
+        "year": 1964,
+        "excerpt": "On March 19 a trainload of refugees passed through Jamshedpur and Rourkela. At Rourkela preliminary accounts put the number of killed at 63, while about 6,000 Moslems had to be removed to places of safety. Mr Nanda stated on April 8 that 346 people had been killed at Rourkela, Jamshedpur and Raigarh.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Economic and Political Weekly",
+        "headline": "On the desecration of Nehru’s temples: Bhilai and Rourkela compared",
+        "year": 2008,
+        "excerpt": "Ethnic violence in Rourkela was notably severe, especially during the 1964 pogrom, with estimates of 2,000 to 5,000 deaths.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "jamshedpur-1964",
+    "conflictId": "east-1964",
+    "name": "Jamshedpur, March 1964",
+    "kind": "riot",
+    "time": {
+      "year": 1964,
+      "month": 3,
+      "day": 19,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Jamshedpur",
+      "longitude": 86.203,
+      "latitude": 22.805,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Jharkhand",
+        "district": "East Singhbhum"
+      }
+    },
+    "summary": "The same refugee train that stopped at Rourkela stopped at Jamshedpur. First reports: 171 dead, seven of them shot by police, almost all the rest Muslim; 148 houses burnt; 25,000 people moved to camps. Nanda had Golwalkar arrested in Bihar on 23 March. The steel city would burn again on Ram Navami in 1979.",
+    "sides": [
+      {
+        "label": "Hindu crowds",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Muslims of Jamshedpur",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 171,
+        "killedMax": 171,
+        "killedBest": 171,
+        "of": "civilian",
+        "sideLabel": "mostly Muslims; seven shot by police",
+        "claimedBy": "Keesing’s, citing initial reports",
+        "contested": true,
+        "note": "Folded into Nanda’s 346 for three towns. Almost all victims Muslim in the first count."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Keesing’s Contemporary Archives",
+        "headline": "Communal riots in India, March–April 1964",
+        "year": 1964,
+        "excerpt": "In the ensuing riots in Jamshedpur and its neighbourhood, which continued for several days, 171 people were killed according to initial reports, including seven shot by the police, and 61 injured, all but eight of the victims being Moslems; 148 houses were burnt down and 25,000 people evacuated to relief camps.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "ranchi-1967",
+    "conflictId": "ranchi-hatia-1967",
+    "name": "Ranchi, 22 August",
+    "kind": "riot",
+    "time": {
+      "year": 1967,
+      "month": 8,
+      "day": 22,
+      "precision": "day",
+      "note": "Violence 22–29 August; the 22nd is the spark at Azad High School."
+    },
+    "place": {
+      "name": "Ranchi",
+      "longitude": 85.31,
+      "latitude": 23.344,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Jharkhand",
+        "district": "Ranchi"
+      }
+    },
+    "summary": "Students marching against Urdu as Bihar’s second official language were brick-batted near Muslim Azad High School in Hindpiri. The school was attacked. One Hindu was killed in the first retaliation. For a week the industrial town and Hatia burned. Dayal’s commission later wrote 184 dead — 164 Muslim, 19 Hindu — and 195 shops looted or fired.",
+    "sides": [
+      {
+        "label": "anti-Urdu crowds",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Muslims of Ranchi and Hatia",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 177,
+        "killedMax": 184,
+        "killedBest": 184,
+        "injuredBest": 156,
+        "of": "civilian",
+        "sideLabel": "164 Muslims, 19 Hindus, 1 unverified (Dayal)",
+        "claimedBy": "Raghubar Dayal Commission, 1968",
+        "contested": true,
+        "note": "Hatia’s 26 (25 Muslim, 1 Hindu) sit inside the 184. Saxena’s table uses 177."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Raghubar Dayal Commission",
+        "headline": "Report on communal disturbances, Ranchi-Hatia, 22–29 August 1967",
+        "year": 1968,
+        "excerpt": "Trouble erupted in Ranchi on August 22 after the brick-batting of an anti-Urdu student procession near Muslim Azad High School. The Commission reported 184 deaths in Ranchi-Hatia, among them 164 Muslims and 19 Hindus.",
+        "stance": "state"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "jamshedpur-ambulance-1979",
+    "conflictId": "jamshedpur-1979",
+    "name": "Bhalubasa ambulance",
+    "kind": "massacre",
+    "time": {
+      "year": 1979,
+      "month": 4,
+      "day": 11,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Bhalubasa, Jamshedpur",
+      "longitude": 86.203,
+      "latitude": 22.8,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Jharkhand",
+        "district": "East Singhbhum"
+      }
+    },
+    "summary": "The Ram Navami jhanda rally came through Road No. 14 in Mango and became a mob. In Bhalubasa an ambulance carrying women and children refugees was set on fire. Across Mango, Sakchi, Jugsalai and Bhalubasa the two days killed 108 people, 79 of them Muslim. The charred ambulance stood outside a police station for years. Zaki Anwar, who had written a story on communal solidarity the night before, was killed on the 11th.",
+    "sides": [
+      {
+        "label": "Ram Navami procession / Hindu mobs",
+        "role": "attacker",
+        "kind": "civilian",
+        "actorId": "rss"
+      },
+      {
+        "label": "Muslim families, including ambulance passengers",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 108,
+        "killedMax": 200,
+        "killedBest": 108,
+        "of": "civilian",
+        "sideLabel": "79 Muslims, 25 Hindus in the two-day riot (ambulance is inside this total)",
+        "claimedBy": "Jitendra Narain Commission / Outlook 2022",
+        "contested": true,
+        "note": "Ambulance-specific dead are not separately censused in the sources used here; they are part of the 108."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Outlook",
+        "headline": "Jamshedpur Circa 1979: How A Riot Led To BJP’s Emergence",
+        "year": 2022,
+        "url": "https://www.outlookindia.com/national/jamshedpur-circa-1979-how-a-riot-led-to-bjp-s-emergence-as-an-independent-political-force-magazine-237925",
+        "excerpt": "The murderous mob let loose a reign of terror in the steel city, killing 108 innocent citizens, including women and children. Among the dead were 79 Muslims and 25 Hindus. In one of the most horrific incidents, an ambulance in Bhalubasa carrying women and children refugees was burnt by the rioters.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "September 14, 1981, Forty Years Ago: Report on riots",
+        "year": 2021,
+        "url": "https://indianexpress.com/article/opinion/editorials/1979-communal-riots-jamshedpur-forty-years-ago-7506896/",
+        "excerpt": "The Jitendra Narain Commission bristled with strictures against the RSS, top district officials and the Bihar Military Police. The riot which rocked Jamshedpur on April 11 and 12 took a toll of 108 lives.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "bhopal-dec1992",
+    "conflictId": "bhopal-1992",
+    "name": "Bhopal, 7 December",
+    "kind": "riot",
+    "time": {
+      "year": 1992,
+      "month": 12,
+      "day": 7,
+      "precision": "day",
+      "note": "Violence ran about two weeks; the 7th is the opening."
+    },
+    "place": {
+      "name": "Old Bhopal",
+      "longitude": 77.401,
+      "latitude": 23.269,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Madhya Pradesh",
+        "district": "Bhopal"
+      }
+    },
+    "summary": "Crackers and sweets in Bajrang Dal hands on the evening of the 6th. On the 7th, Old Bhopal went. PUDR wrote that the first Muslim outburst had spent itself by the afternoon of the 8th, after which Bajrang Dal took the streets; Hindi papers printed rumours for a week. By the time it ended, 139 people were dead in the city on the PUDR count, 143 on Dubey’s, fifty of them in police firing. India Today had 95 in Bhopal by 12 December.",
+    "sides": [
+      {
+        "label": "Muslim crowds, 7 December",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Bajrang Dal and Hindu crowds, from 8 December",
+        "role": "attacker",
+        "kind": "militia",
+        "actorId": "bajrang-dal"
+      },
+      {
+        "label": "civilians of Bhopal",
+        "role": "target",
+        "kind": "civilian"
+      },
+      {
+        "label": "Madhya Pradesh police",
+        "role": "unclear",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 139,
+        "killedMax": 161,
+        "killedBest": 143,
+        "of": "civilian",
+        "sideLabel": "civilians in Bhopal (161 statewide)",
+        "claimedBy": "PUDR 139 in Bhopal; Dubey 143; statewide 161",
+        "contested": true,
+        "note": "Dubey: 50 civilians killed in police firing. India Today 31 Dec 1992: 95 in Bhopal and 25 in other MP towns by 12 December — a running tally, not the final."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "PUDR / Sanskritik Morcha",
+        "headline": "Bhopal Riots: A Report",
+        "year": 1993,
+        "url": "https://hindi.sabrangindia.in/reports/1992-bhopal-riots-report",
+        "excerpt": "Altogether 21 places were seriously affected in Madhya Pradesh, in which 161 people were killed. 139 of them in Bhopal. By around 8th afternoon the initial outburst attributed to Muslim mobs had abated. From then onwards Bajrang Dal activists took over the streets.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "India Today",
+        "headline": "Bloody aftermath",
+        "year": 1992,
+        "url": "https://www.indiatoday.in/magazine/cover-story/story/19921231-babri-masjid-demolition-aftermath-religious-hatred-engulfs-india-over-1000-people-die-767313-2012-12-21",
+        "excerpt": "It was party time in Bhopal. As the news of the demolition arrived, Bajrang Dal and VHP workers celebrated by bursting crackers and distributing sweets. By December 12 the escalating violence had already taken 95 lives in Bhopal and 25 in other towns in the state.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "jaipur-1992",
+    "conflictId": "rajasthan-1992",
+    "name": "Jaipur, 7 December",
+    "kind": "riot",
+    "time": {
+      "year": 1992,
+      "month": 12,
+      "day": 7,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Jaipur",
+      "longitude": 75.824,
+      "latitude": 26.926,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Rajasthan",
+        "district": "Jaipur"
+      }
+    },
+    "summary": "Syed Shahabuddin’s bandh call brought Muslims into the street. Section 144 was already on. India Today wrote that a mob gathered near a place of worship on the morning of the 7th and that police firing killed 15 people in two hours — ‘effective firing’ in police language. A later academic tally of that firing is 31 Muslims. Bhilwara and other towns were hit the same week. This is not the May 2008 walled-city bombs.",
+    "sides": [
+      {
+        "label": "Muslim protesters",
+        "role": "unclear",
+        "kind": "civilian"
+      },
+      {
+        "label": "Bajrang Dal / Shiv Sena cadres",
+        "role": "attacker",
+        "kind": "militia",
+        "actorId": "bajrang-dal"
+      },
+      {
+        "label": "Rajasthan police",
+        "role": "attacker",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 15,
+        "killedMax": 48,
+        "killedBest": 31,
+        "of": "civilian",
+        "sideLabel": "mostly Muslims in Jaipur firing; 48 dead statewide",
+        "claimedBy": "India Today (15 in Jaipur firing, 48 in Rajasthan); academic count 31 Muslims in Jaipur",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "India Today",
+        "headline": "Bloody aftermath",
+        "year": 1992,
+        "url": "https://www.indiatoday.in/magazine/cover-story/story/19921231-babri-masjid-demolition-aftermath-religious-hatred-engulfs-india-over-1000-people-die-767313-2012-12-21",
+        "excerpt": "Rajasthan: 48 dead. Swift police action minimises deaths. On the morning of December 7, as soon as a violent mob had gathered near a place of worship in Jaipur, the police opened fire, killing 15 people. In police parlance it was ‘effective firing’.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  }
+]

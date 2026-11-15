@@ -1,0 +1,1090 @@
+[
+  {
+    "id": "junagadh-1947",
+    "slug": "junagadh-1947",
+    "name": "Junagadh, 1947–48",
+    "aliases": [
+      "Junagadh accession crisis",
+      "Arzi Hukumat"
+    ],
+    "summary": "The Muslim Nawab of Hindu-majority Junagadh acceded to Pakistan. India blockaded the Kathiawar enclave; the Nawab fled; Indian troops entered on 9 November 1947; a February 1948 plebiscite reported almost the entire vote for India. Pakistan’s claim remains on paper.",
+    "scale": "small",
+    "scaleRationale": "A short integration crisis with a blockade and a token force, not a Hyderabad-scale war.",
+    "types": [
+      "state-integration",
+      "military-operation"
+    ],
+    "family": "integration",
+    "theaters": [
+      "integration",
+      "west-india"
+    ],
+    "northeast": false,
+    "internalExternal": "mixed",
+    "direction": "unclear",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "religion",
+      "nation",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "border",
+        "centrality": "core"
+      },
+      {
+        "kind": "religion",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1947,
+        "month": 8,
+        "precision": "month",
+        "note": "Accession announced around 15 August; Pakistan accepted 13 September."
+      },
+      "end": {
+        "year": 1948,
+        "month": 2,
+        "day": 20,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-junagadh",
+        "name": "Junagadh",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 70.458,
+        "latitude": 21.522,
+        "admin": {
+          "country": "India",
+          "state": "Gujarat",
+          "district": "Junagadh"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 70.458,
+      "latitude": 21.522,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "in-army",
+        "role": "state"
+      },
+      {
+        "actorId": "junagadh-nawab",
+        "role": "state"
+      },
+      {
+        "actorId": "pk-gov",
+        "role": "state",
+        "note": "Accepted the accession; never sent a relieving force."
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Kathiawari Hindus",
+        "kind": "ethnicity"
+      },
+      {
+        "name": "Junagadh Muslims",
+        "kind": "religion"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "hyderabad-1948"
+      },
+      {
+        "kind": "related",
+        "targetId": "kashmir-1947"
+      }
+    ],
+    "historiography": [
+      {
+        "claim": "India: the Nawab’s accession ignored geography and a Hindu majority; the Dewan invited Delhi in to stop administrative collapse; the plebiscite settled it.",
+        "heldBy": "V.P. Menon; Government of India White Paper on Indian States"
+      },
+      {
+        "claim": "Pakistan: Indian troops entered a state that had legally acceded to Pakistan; the vote was held under occupation. Official Pakistani maps still mark Junagadh.",
+        "heldBy": "Liaquat Ali Khan telegram, 10 November 1947; Pakistani official cartography"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Story of the Integration of the Indian States",
+        "creator": "V.P. Menon",
+        "year": 1956
+      },
+      {
+        "title": "Explained: When Junagadh voted to join India, and Pakistan got just 91 votes",
+        "creator": "The Indian Express",
+        "year": 2020,
+        "url": "https://indianexpress.com/article/explained/explained-when-junagadh-voted-to-join-india-and-pakistan-got-just-91-votes-6540331/"
+      },
+      {
+        "title": "The accession of Junagadh, 1947–48",
+        "creator": "Rakesh Ankit",
+        "year": 2016
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "sikkim-1975",
+    "slug": "sikkim-1975",
+    "name": "Sikkim merger, 1975",
+    "aliases": [
+      "Sikkim referendum 1975",
+      "36th Amendment"
+    ],
+    "summary": "India’s protectorate became the 22nd state after the army disarmed the palace guard on 9 April 1975, a referendum on 14 April abolished the Chogyal, and the 36th Amendment took effect on 16 May. Delhi calls it a merger; the last Chogyal called it annexation.",
+    "scale": "small",
+    "scaleRationale": "A political incorporation with one named sentry dead, not an insurgency.",
+    "types": [
+      "state-integration",
+      "military-operation"
+    ],
+    "family": "integration",
+    "theaters": [
+      "integration",
+      "northeast"
+    ],
+    "northeast": true,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "ethnicity",
+      "religion"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "border",
+        "centrality": "contributing",
+        "note": "Sikkim sits on the Tibet/China frontier; Nathu La is a later interstate layer."
+      },
+      {
+        "kind": "identity",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1973,
+        "precision": "year",
+        "note": "Anti-monarchy agitation and the 1973 tripartite agreement; the armed day is April 1975."
+      },
+      "end": {
+        "year": 1975,
+        "month": 5,
+        "day": 16,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-gangtok",
+        "name": "Gangtok palace / Sikkim",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 88.614,
+        "latitude": 27.328,
+        "northeast": true,
+        "admin": {
+          "country": "India",
+          "state": "Sikkim",
+          "district": "Gangtok"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 88.614,
+      "latitude": 27.328,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "in-army",
+        "role": "state"
+      },
+      {
+        "actorId": "sikkim-chogyal",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Bhutia–Lepcha",
+        "kind": "ethnicity",
+        "role": "old kingdom’s core"
+      },
+      {
+        "name": "Sikkimese Nepalis",
+        "kind": "ethnicity",
+        "role": "majority that voted the monarchy down"
+      }
+    ],
+    "accords": [
+      {
+        "name": "Constitution (Thirty-sixth Amendment) Act, 1975",
+        "date": {
+          "year": 1975,
+          "month": 5,
+          "day": 16,
+          "precision": "day"
+        },
+        "parties": [
+          "Parliament of India",
+          "Sikkim Assembly"
+        ],
+        "outcome": "Sikkim became the 22nd state; the Chogyal’s office was abolished."
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 1,
+        "max": 1,
+        "best": 1,
+        "unit": "persons",
+        "of": "combatant",
+        "sources": [
+          {
+            "title": "25 years after Sikkim",
+            "creator": "Nepali Times",
+            "year": 2001,
+            "url": "https://archive.nepalitimes.com/news.php?id=9621"
+          }
+        ],
+        "contested": false,
+        "note": "Palace sentry Basant Kumar Chhetri is the named death of 9 April. This is not a fatality census of 1973 street violence."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "India: a popular ministry asked Delhi to intervene; a referendum (officially 59,637 to 1,496) abolished the monarchy; Parliament completed a merger.",
+        "heldBy": "Government of India; Kazi Lhendup Dorji ministry"
+      },
+      {
+        "claim": "The last Chogyal treated the army’s entry and the 36th Amendment as a violation of the 1950 Indo-Sikkim treaty and as annexation. China did not recognise the merger at the time.",
+        "heldBy": "Palden Thondup Namgyal; PRC diplomatic position of the 1970s"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sikkim Day: The story of Sikkim’s integration with India",
+        "creator": "The Indian Express",
+        "year": 2023,
+        "url": "https://indianexpress.com/article/explained/explained-history/sikkim-day-story-sikkim-integration-india-explained-8612125/"
+      },
+      {
+        "title": "Sikkim: An Historic Process, Big Problems Remain",
+        "creator": "U.S. Embassy New Delhi (FRUS)",
+        "year": 1975,
+        "url": "https://history.state.gov/historicaldocuments/frus1969-76ve08/d261"
+      },
+      {
+        "title": "Sikkim: The Merger with India",
+        "creator": "Ranjan Gupta, Asian Survey",
+        "year": 1975
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "meghalaya-insurgency",
+    "slug": "meghalaya-insurgency",
+    "name": "Meghalaya insurgency",
+    "aliases": [
+      "HNLC",
+      "GNLA",
+      "ANVC"
+    ],
+    "summary": "Khasi HNLC and Garo ANVC/GNLA campaigns over indigeneity, land and a homegrown armed underground. GNLA was broken in 2018; AFSPA left the state the same year. HNLC talks remain on and off.",
+    "scale": "medium",
+    "scaleRationale": "A two-decade state insurgency. SATP-era deaths sit in the low hundreds, not a one-district riot.",
+    "types": [
+      "secessionist-insurgency"
+    ],
+    "family": "northeast",
+    "theaters": [
+      "northeast"
+    ],
+    "northeast": true,
+    "internalExternal": "transnational",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "tribe",
+      "ethnicity",
+      "migration"
+    ],
+    "resources": [
+      {
+        "kind": "identity",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "autonomy",
+        "centrality": "contributing"
+      },
+      {
+        "kind": "minerals",
+        "centrality": "contributing",
+        "note": "Garo Hills coal belt as extortion and recruitment country."
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1992,
+        "precision": "year",
+        "note": "HNLC split from HALC. ANVC 1990s; GNLA 2009."
+      },
+      "end": {
+        "year": 2018,
+        "precision": "year",
+        "note": "GNLA collapsed after Sohan D. Shira’s death; AFSPA withdrawn 31 March 2018. HNLC residual."
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-williamnagar",
+        "name": "East Garo Hills / Williamnagar",
+        "kind": "point",
+        "precision": "district",
+        "longitude": 90.619,
+        "latitude": 25.473,
+        "northeast": true,
+        "admin": {
+          "country": "India",
+          "state": "Meghalaya",
+          "district": "East Garo Hills"
+        }
+      },
+      {
+        "id": "loc-shillong-hnlc",
+        "name": "Shillong / Khasi Hills",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 91.893,
+        "latitude": 25.579,
+        "northeast": true,
+        "admin": {
+          "country": "India",
+          "state": "Meghalaya",
+          "district": "East Khasi Hills"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 90.619,
+      "latitude": 25.473,
+      "precision": "district"
+    },
+    "parties": [
+      {
+        "actorId": "hnlc",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "gnla",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "anvc",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "meghalaya-police",
+        "role": "state"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Khasi",
+        "kind": "tribe"
+      },
+      {
+        "name": "Jaintia",
+        "kind": "tribe"
+      },
+      {
+        "name": "Garo",
+        "kind": "tribe"
+      },
+      {
+        "name": "non-tribal settlers (dkhar)",
+        "kind": "ethnicity",
+        "role": "HNLC’s named outsider"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "AFSPA",
+        "time": {
+          "start": {
+            "year": 1991,
+            "precision": "year",
+            "note": "Border belt with Assam notified to contain ULFA spillover."
+          },
+          "end": {
+            "year": 2018,
+            "month": 3,
+            "day": 31,
+            "precision": "day"
+          }
+        },
+        "places": [
+          "Meghalaya–Assam border belt, later the whole notified stretch"
+        ]
+      }
+    ],
+    "accords": [
+      {
+        "name": "ANVC Memorandum of Settlement",
+        "date": {
+          "year": 2014,
+          "month": 9,
+          "day": 24,
+          "precision": "day"
+        },
+        "parties": [
+          "ANVC",
+          "Government of India",
+          "Government of Meghalaya"
+        ],
+        "outcome": "ANVC dissolved; MHA later cited 751 cadres surrendered on 15 December 2014."
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 179,
+        "unit": "persons",
+        "of": "all",
+        "sources": [
+          {
+            "title": "Meghalaya: Incidents involving Garo National Liberation Army — yearly fatalities",
+            "dataset": "SATP",
+            "url": "https://satp.org/terrorist-groups/fatalities/india-insurgencynortheast-meghalaya_garo-national-liberation-army-gnla"
+          },
+          {
+            "title": "Meghalaya: Assessment-2012",
+            "dataset": "SATP",
+            "url": "https://satp.org/terrorism-assessment/india-insurgencynortheast-meghalaya-2012"
+          }
+        ],
+        "contested": true,
+        "note": "SATP attributes about 179 fatalities to GNLA across its life (civilians, security forces, militants). Statewide SATP 2001–early 2012 is 339. Later SATP assessments name 495 fatalities in 1997 as a peak year — a different series, not added here."
+      }
+    },
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "ulfa"
+      },
+      {
+        "kind": "related",
+        "targetId": "naga-insurgency"
+      }
+    ],
+    "sources": [
+      {
+        "title": "SATP Meghalaya assessments",
+        "dataset": "SATP"
+      },
+      {
+        "title": "AFSPA revoked from Meghalaya, eight police stations in Arunachal Pradesh",
+        "creator": "The Indian Express",
+        "year": 2018,
+        "url": "https://indianexpress.com/article/india/afspa-removed-from-meghalaya-eight-police-stations-in-arunachal-pradesh-5148386/"
+      }
+    ],
+    "confidence": "medium",
+    "status": "draft"
+  },
+  {
+    "id": "kuki-naga-1992",
+    "slug": "kuki-naga-1992",
+    "name": "Naga–Kuki conflict, 1992–97",
+    "aliases": [
+      "Kuki–Naga war",
+      "Joupi massacre campaign"
+    ],
+    "summary": "NSCN-IM’s Nagalim claim and Kuki armed groups fought through Manipur’s hills after Moreh exploded in 1992. Villages were emptied on both sides. Kuki memory names 13 September 1993 at Joupi as Black Day.",
+    "scale": "medium",
+    "scaleRationale": "Hundreds killed, tens of thousands displaced, several hill districts — an ethnic war inside the Naga insurgency’s map.",
+    "types": [
+      "ethnic-clash",
+      "one-sided-violence"
+    ],
+    "family": "naga",
+    "theaters": [
+      "northeast"
+    ],
+    "northeast": true,
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "tribe",
+      "ethnicity",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "identity",
+        "centrality": "core"
+      },
+      {
+        "kind": "autonomy",
+        "centrality": "contributing",
+        "note": "Nagalim vs Kuki homeland claims; Moreh trade and hill taxation."
+      },
+      {
+        "kind": "trade-route",
+        "centrality": "contributing",
+        "note": "Moreh–Tamu border town."
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1992,
+        "month": 5,
+        "precision": "month",
+        "note": "UCDP dates the outbreak 12 May 1992 around Moreh/Chandel; some Kuki timelines start with a killing at Moreh Bazar in June."
+      },
+      "end": {
+        "year": 1997,
+        "precision": "year",
+        "circa": true
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-moreh",
+        "name": "Moreh / Chandel",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 94.305,
+        "latitude": 24.246,
+        "northeast": true,
+        "admin": {
+          "country": "India",
+          "state": "Manipur",
+          "district": "Tengnoupal"
+        },
+        "note": "Outbreak town; district was Chandel in 1992."
+      },
+      {
+        "id": "loc-joupi",
+        "name": "Joupi / Tamenglong–Senapati hills",
+        "kind": "area-approx",
+        "precision": "district",
+        "longitude": 93.82,
+        "latitude": 25.1,
+        "northeast": true,
+        "admin": {
+          "country": "India",
+          "state": "Manipur",
+          "district": "Tamenglong"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 94.305,
+      "latitude": 24.246,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "nscn-im",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "kna",
+        "role": "militia"
+      },
+      {
+        "actorId": "knf",
+        "role": "militia"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Kuki",
+        "kind": "tribe"
+      },
+      {
+        "name": "Naga",
+        "kind": "tribe"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 677,
+        "max": 1000,
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "United Naga Council compilation, 1992–97 (470 Kukis and 207 Nagas killed)",
+            "note": "Cited in later Manipur press; not a census."
+          },
+          {
+            "title": "In Manipur, shadow of an earlier ethnic clash",
+            "creator": "The Indian Express",
+            "year": 2023,
+            "url": "https://indianexpress.com/article/columns/in-manipur-shadow-of-an-earlier-ethnic-clash-8644350/"
+          }
+        ],
+        "contested": true,
+        "note": "UNC 1992–97: about 470 Kukis and 207 Nagas. Some Kuki commemorative tallies of the wider war run toward 1,000. Indian Express 2023 cited ‘over 200 Kukis’ with no official Naga count — a lower band. No census."
+      },
+      "displaced": {
+        "min": 50000,
+        "max": 100000,
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Kuki–Naga conflict in Manipur — displacement range in secondary compilations",
+            "note": "50,000–100,000 appears in later summaries; treat the high end as uncertain."
+          }
+        ],
+        "contested": true
+      }
+    },
+    "relations": [
+      {
+        "kind": "overlapping",
+        "targetId": "naga-insurgency"
+      },
+      {
+        "kind": "related",
+        "targetId": "kuki-paite-1997"
+      },
+      {
+        "kind": "related",
+        "targetId": "manipur-2023"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UCDP non-state conflict: Kuki–Naga",
+        "dataset": "UCDP",
+        "url": "https://ucdp.uu.se/conflict/4754"
+      },
+      {
+        "title": "Manipur Timeline — Year 1993",
+        "dataset": "SATP",
+        "url": "https://www.satp.org/satporgtp/countries/india/states/manipur/timeline/year_1993.htm"
+      },
+      {
+        "title": "Memories that always return",
+        "creator": "Thongkholal Haokip, Journal of North East India Studies",
+        "url": "https://www.jneis.com/7-2-0/"
+      }
+    ],
+    "confidence": "medium",
+    "status": "draft"
+  },
+  {
+    "id": "kuki-paite-1997",
+    "slug": "kuki-paite-1997",
+    "name": "Kuki–Paite clash, 1997",
+    "aliases": [
+      "Kuki–Zomi conflict",
+      "Churachandpur 1997"
+    ],
+    "summary": "A fight inside the Kuki-Zo world in Churachandpur: KNF cadres killed Paite villagers at Saikul on 24 June 1997, and the district burned through the year. Official Manipur figures later put 352 dead and thousands of houses gone.",
+    "scale": "medium",
+    "scaleRationale": "One district, months of village-burning, hundreds dead and more than ten thousand displaced.",
+    "types": [
+      "ethnic-clash"
+    ],
+    "family": "northeast",
+    "theaters": [
+      "northeast"
+    ],
+    "northeast": true,
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "tribe",
+      "ethnicity",
+      "language"
+    ],
+    "resources": [
+      {
+        "kind": "identity",
+        "centrality": "core",
+        "note": "Kuki vs Zomi/Paite label, not a religious split."
+      },
+      {
+        "kind": "taxation",
+        "centrality": "contributing",
+        "note": "Kukis accused Paites of paying NSCN-IM tax during the Naga–Kuki war."
+      },
+      {
+        "kind": "land",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1997,
+        "month": 6,
+        "day": 24,
+        "precision": "day"
+      },
+      "end": {
+        "year": 1998,
+        "precision": "year",
+        "circa": true
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-churachandpur-1997",
+        "name": "Churachandpur",
+        "kind": "admin-unit",
+        "precision": "district",
+        "longitude": 93.683,
+        "latitude": 24.333,
+        "northeast": true,
+        "admin": {
+          "country": "India",
+          "state": "Manipur",
+          "district": "Churachandpur"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 93.683,
+      "latitude": 24.333,
+      "precision": "district"
+    },
+    "parties": [
+      {
+        "actorId": "knf",
+        "role": "militia"
+      },
+      {
+        "actorId": "zra",
+        "role": "militia"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Kuki",
+        "kind": "tribe"
+      },
+      {
+        "name": "Paite / Zomi",
+        "kind": "tribe"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 352,
+        "max": 352,
+        "best": 352,
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Official records of the Government of Manipur, as cited in later compilations of the 1997–98 Kuki–Paite violence",
+            "note": "352 killed, 136 injured, 4,670 houses destroyed. Not independently recensed here."
+          }
+        ],
+        "contested": true,
+        "note": "The 352 is an official state compilation for the communal violence, not a village-by-village public census."
+      },
+      "injured": {
+        "best": 136,
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Government of Manipur official compilation, as cited in secondary literature"
+          }
+        ],
+        "contested": true
+      },
+      "displaced": {
+        "min": 13000,
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Secondary compilations of the Churachandpur 1997–98 displacement"
+          }
+        ],
+        "contested": true,
+        "note": "About 13,000 displaced and more than 50 villages destroyed appear in later summaries."
+      }
+    },
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "kuki-naga-1992"
+      },
+      {
+        "kind": "related",
+        "targetId": "manipur-2023"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Manipur Timeline — Year 1997",
+        "dataset": "SATP",
+        "url": "https://www.satp.org/satporgtp/countries/india/states/manipur/timeline/year_1997.htm"
+      },
+      {
+        "title": "UCDP non-state conflict: Kuki–Paite",
+        "dataset": "UCDP",
+        "url": "https://ucdp.uu.se/nonstate/5518"
+      },
+      {
+        "title": "More violence feared after Kuki-Paite clash",
+        "creator": "The Indian Express / PTI",
+        "year": 1997,
+        "url": "https://indianexpress.com/article/news-archive/more-violence-feared-after-kuki-paite-clash/"
+      }
+    ],
+    "confidence": "medium",
+    "status": "draft"
+  },
+  {
+    "id": "manipur-insurgency",
+    "slug": "manipur-insurgency",
+    "name": "Manipur valley insurgency",
+    "aliases": [
+      "UNLF/PLA/PREPAK",
+      "Kangleipak secessionism"
+    ],
+    "summary": "Valley Meitei groups — UNLF from 1964, PLA/RPF from 1978, then PREPAK, KYKL, KCP — fought for a sovereign Manipur from Imphal and from Myanmar camps. Parallel to, not the same as, the Naga and Kuki hill wars. UNLF signed a peace deal on 29 November 2023 while the 2023 ethnic war was still burning.",
+    "scale": "medium",
+    "scaleRationale": "Decades of secessionist war in a small valley, with a long extra-judicial-killing docket, before the 2023 ethnic explosion.",
+    "types": [
+      "secessionist-insurgency",
+      "revolutionary-insurgency"
+    ],
+    "family": "northeast",
+    "theaters": [
+      "northeast"
+    ],
+    "northeast": true,
+    "internalExternal": "transnational",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "ethnicity",
+      "ideology"
+    ],
+    "resources": [
+      {
+        "kind": "autonomy",
+        "centrality": "core"
+      },
+      {
+        "kind": "identity",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1964,
+        "month": 11,
+        "day": 24,
+        "precision": "day"
+      },
+      "ongoing": true,
+      "note": "UNLF–GoI agreement 29 November 2023 covers one faction; PLA and others remain. Nested under the 2023 ethnic war, not ended by it."
+    },
+    "locations": [
+      {
+        "id": "loc-imphal-valley",
+        "name": "Imphal valley",
+        "kind": "area-approx",
+        "precision": "region",
+        "longitude": 93.937,
+        "latitude": 24.817,
+        "northeast": true,
+        "admin": {
+          "country": "India",
+          "state": "Manipur"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 93.937,
+      "latitude": 24.817,
+      "precision": "region"
+    },
+    "parties": [
+      {
+        "actorId": "unlf",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "pla-manipur",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "in-assam-rifles",
+        "role": "state"
+      },
+      {
+        "actorId": "in-army",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Meitei",
+        "kind": "ethnicity"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "AFSPA",
+        "time": {
+          "start": {
+            "year": 1980,
+            "precision": "year"
+          },
+          "ongoing": true
+        },
+        "places": [
+          "Manipur (Imphal municipal area later excepted)"
+        ]
+      }
+    ],
+    "accords": [
+      {
+        "name": "UNLF–Government of India–Manipur agreement",
+        "date": {
+          "year": 2023,
+          "month": 11,
+          "day": 29,
+          "precision": "day"
+        },
+        "parties": [
+          "UNLF",
+          "Government of India",
+          "Government of Manipur"
+        ],
+        "outcome": "One valley group entered designated camps during the 2023 ethnic war; it did not end street fighting."
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "unknown",
+        "sources": [
+          {
+            "title": "EEVFAM v. Union of India",
+            "year": 2016,
+            "note": "Petitioners compiled 1,528 alleged extra-judicial killings in Manipur — a docket, not a UNLF/PLA battle-death total."
+          },
+          {
+            "title": "SATP Manipur assessments",
+            "dataset": "SATP",
+            "note": "SATP recorded 7 insurgency-linked fatalities in Manipur in 2022, a historic low, before the 2023 ethnic spike."
+          }
+        ],
+        "contested": true,
+        "note": "No honest single integer for 1964–present valley-group war deaths. Do not collapse EEVFAM’s encounter list into UNLF combat kills."
+      }
+    },
+    "relations": [
+      {
+        "kind": "overlapping",
+        "targetId": "naga-insurgency"
+      },
+      {
+        "kind": "related",
+        "targetId": "manipur-2023"
+      },
+      {
+        "kind": "related",
+        "targetId": "kuki-naga-1992"
+      }
+    ],
+    "sources": [
+      {
+        "title": "History of UNLF, Meitei insurgent group that signed peace deal with Centre",
+        "creator": "The Indian Express",
+        "year": 2023,
+        "url": "https://indianexpress.com/article/explained/history-of-unlf-meitei-insurgent-group-that-signed-peace-deal-with-centre-9047846/"
+      },
+      {
+        "title": "United National Liberation Front",
+        "dataset": "SATP",
+        "url": "https://www.satp.org/satporgtp/countries/India/states/manipur/terrorist_outfits/Unlf.htm"
+      }
+    ],
+    "confidence": "medium",
+    "visualization": {
+      "pulse": true
+    },
+    "status": "draft"
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "id": "ltte",
+    "name": "Liberation Tigers of Tamil Eelam",
+    "aliases": [
+      "LTTE",
+      "Tamil Tigers"
+    ],
+    "kind": "insurgent-group",
+    "ethnicity": [
+      "Tamil"
+    ],
+    "ideology": [
+      "tamil-nationalism",
+      "separatist"
+    ],
+    "active": {
+      "start": {
+        "year": 1976,
+        "precision": "year"
+      },
+      "end": {
+        "year": 2009,
+        "month": 5,
+        "precision": "month"
+      }
+    }
+  },
+  {
+    "id": "al-umma",
+    "name": "Al-Umma",
+    "aliases": [
+      "Al Ummah",
+      "Al Umma"
+    ],
+    "kind": "insurgent-group",
+    "religion": [
+      "Muslim"
+    ],
+    "ideology": [
+      "islamist"
+    ],
+    "active": {
+      "start": {
+        "year": 1993,
+        "precision": "year",
+        "note": "Founded in Coimbatore by S.A. Basha"
+      },
+      "end": {
+        "year": 1998,
+        "precision": "year",
+        "note": "Banned after the February 1998 blasts"
+      }
+    }
+  },
+  {
+    "id": "fr-gov",
+    "name": "France",
+    "kind": "foreign-state"
+  },
+  {
+    "id": "ndf",
+    "name": "National Development Front",
+    "aliases": [
+      "NDF"
+    ],
+    "kind": "insurgent-group",
+    "religion": [
+      "Muslim"
+    ],
+    "ideology": [
+      "islamist"
+    ]
+  }
+]

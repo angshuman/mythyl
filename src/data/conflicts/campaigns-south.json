@@ -1,0 +1,904 @@
+[
+  {
+    "id": "rajiv-gandhi-1991",
+    "slug": "rajiv-gandhi-assassination",
+    "name": "Assassination of Rajiv Gandhi, 1991",
+    "aliases": [
+      "Sriperumbudur bombing",
+      "Rajiv Gandhi assassination"
+    ],
+    "summary": "LTTE suicide bomber Thenmozhi Rajaratnam (Dhanu) killed former Prime Minister Rajiv Gandhi at an election rally in Sriperumbudur on 21 May 1991. A foreign insurgent group, acting from the Sri Lankan civil war, struck on Indian soil.",
+    "scale": "small",
+    "scaleRationale": "One rally, one night; politically a national rupture. Deaths in the low tens.",
+    "types": [
+      "terrorism"
+    ],
+    "family": "external",
+    "theaters": [
+      "south-india",
+      "external-terrorism"
+    ],
+    "northeast": false,
+    "internalExternal": "transnational",
+    "direction": "one-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation",
+      "ethnicity"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "autonomy",
+        "centrality": "contributing",
+        "note": "LTTE fear that Gandhi would send the IPKF back to Sri Lanka"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1991,
+        "month": 5,
+        "day": 21,
+        "precision": "day"
+      },
+      "end": {
+        "year": 1991,
+        "month": 5,
+        "day": 21,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-sriperumbudur-1991",
+        "name": "Sriperumbudur",
+        "kind": "point",
+        "precision": "building",
+        "longitude": 79.945,
+        "latitude": 12.96,
+        "admin": {
+          "country": "India",
+          "state": "Tamil Nadu",
+          "district": "Kanchipuram"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 79.945,
+      "latitude": 12.96,
+      "precision": "building"
+    },
+    "parties": [
+      {
+        "actorId": "ltte",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Sri Lankan Tamils",
+        "kind": "ethnicity",
+        "role": "LTTE constituency"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "TADA",
+        "time": {
+          "start": {
+            "year": 1991,
+            "precision": "year"
+          }
+        },
+        "places": [
+          "Tamil Nadu"
+        ],
+        "note": "Special TADA court in Chennai tried the assassination case"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 15,
+        "max": 18,
+        "best": 17,
+        "unit": "persons",
+        "of": "all",
+        "sources": [
+          {
+            "title": "The Hindu, Rajiv Gandhi’s assassination and the downfall of LTTE",
+            "creator": "M.R. Narayan Swamy",
+            "year": 2021,
+            "url": "https://www.thehindu.com/news/national/rajiv-gandhis-assassination-and-the-downfall-of-ltte/article34609851.ece"
+          },
+          {
+            "title": "BBC On This Day: Bomb kills India's former leader Rajiv Gandhi",
+            "year": 1991,
+            "url": "http://news.bbc.co.uk/onthisday/hi/dates/stories/may/21/newsid_2504000/2504739.stm"
+          }
+        ],
+        "contested": true,
+        "note": "Counts differ on whether the suicide bomber is included. The Hindu: the blast ripped through Dhanu, Gandhi and 16 others. BBC first night: Gandhi and at least 14 others. Indian Express timeline: Gandhi and 16 others."
+      },
+      "injured": {
+        "best": 43,
+        "unit": "persons",
+        "of": "all",
+        "sources": [
+          {
+            "title": "BBC On This Day / later court record of injuries at Sriperumbudur"
+          }
+        ],
+        "contested": false
+      }
+    },
+    "sources": [
+      {
+        "title": "Jain Commission of Inquiry, final report on the assassination of Rajiv Gandhi",
+        "creator": "Justice Milap Chand Jain",
+        "year": 1998
+      },
+      {
+        "title": "The Hindu, Rajiv Gandhi’s assassination and the downfall of LTTE",
+        "creator": "M.R. Narayan Swamy",
+        "year": 2021,
+        "url": "https://www.thehindu.com/news/national/rajiv-gandhis-assassination-and-the-downfall-of-ltte/article34609851.ece"
+      },
+      {
+        "title": "Indian Express, Supreme Court frees all convicts: a timeline",
+        "year": 2022,
+        "url": "https://indianexpress.com/article/india/rajiv-gandhi-assassination-case-timeliine-supreme-court-8262625/"
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "coimbatore-1998",
+    "slug": "coimbatore-serial-blasts",
+    "name": "Coimbatore serial blasts, 1998",
+    "aliases": [
+      "Operation Allahu Akbar",
+      "1998 Coimbatore bombings"
+    ],
+    "summary": "Al-Umma, a domestic Islamist group founded in Coimbatore by S.A. Basha, set off serial bombs on 14 February 1998 as BJP president L.K. Advani arrived for an election meeting. The attacks answered the November 1997 communal killings of Muslims in the same city. Not a transnational franchise.",
+    "scale": "small",
+    "scaleRationale": "One city, one afternoon of bombs, tens dead. Geographically tight; politically statewide.",
+    "types": [
+      "terrorism"
+    ],
+    "family": "external",
+    "theaters": [
+      "south-india",
+      "external-terrorism"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "religion",
+      "ideology"
+    ],
+    "resources": [
+      {
+        "kind": "religion",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1997,
+        "month": 11,
+        "day": 29,
+        "precision": "day",
+        "note": "Selvaraj murder and the three-day communal outbreak that Al-Umma later cited as motive"
+      },
+      "end": {
+        "year": 1998,
+        "month": 2,
+        "day": 17,
+        "precision": "day",
+        "note": "Serial explosions on 14 February; leftover devices recovered over the next days"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-coimbatore-1998",
+        "name": "Coimbatore",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 76.956,
+        "latitude": 11.017,
+        "admin": {
+          "country": "India",
+          "state": "Tamil Nadu",
+          "district": "Coimbatore"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 76.956,
+      "latitude": 11.017,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "al-umma",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Muslims of Coimbatore",
+        "kind": "religion"
+      },
+      {
+        "name": "Hindus of Coimbatore",
+        "kind": "religion"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 46,
+        "max": 58,
+        "best": 58,
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Indian Express, Coimbatore serial blasts: what happened in 1997-98",
+            "creator": "Arun Janardhanan",
+            "year": 2026,
+            "url": "https://indianexpress.com/article/explained/explained-history/coimbatore-serial-bomb-blasts-history-basha-parole-controversy-10930815/"
+          },
+          {
+            "title": "Frontline, Death no penalty",
+            "year": 2007,
+            "url": "https://frontline.thehindu.com/other/article30193442.ece"
+          }
+        ],
+        "contested": true,
+        "note": "58 is the figure used in later court and press copy for the February blasts. Some first-night Hindu reporting used ~46. Separate from the ~18–20 killed in November 1997."
+      }
+    },
+    "sources": [
+      {
+        "title": "Justice P.R. Gokulakrishnan Commission of Inquiry, Coimbatore blasts",
+        "year": 2000
+      },
+      {
+        "title": "Indian Express, Coimbatore serial blasts: what happened in 1997-98",
+        "creator": "Arun Janardhanan",
+        "year": 2026,
+        "url": "https://indianexpress.com/article/explained/explained-history/coimbatore-serial-bomb-blasts-history-basha-parole-controversy-10930815/"
+      },
+      {
+        "title": "Frontline, Human bombs and human error",
+        "year": 1998,
+        "url": "https://frontline.thehindu.com/other/article30161392.ece"
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "marad-2002",
+    "slug": "marad-massacres",
+    "name": "Marad massacres, 2002–03",
+    "aliases": [
+      "Marad beach massacre",
+      "Marad riots"
+    ],
+    "summary": "Communal killing in a Kozhikode fishing hamlet: a two-sided clash in January 2002, then a planned one-sided attack on Hindu fishermen on 2 May 2003. The Thomas P. Joseph Commission blamed local administration, police failure, IUML leaders and Islamist organisers.",
+    "scale": "small",
+    "scaleRationale": "One beach village, two nights, deaths in the low teens. Displacement of hundreds of families.",
+    "types": [
+      "communal-riot",
+      "one-sided-violence"
+    ],
+    "family": "communal",
+    "theaters": [
+      "south-india",
+      "communal"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "multi-sided",
+    "religiousDimension": "central",
+    "identityDimensions": [
+      "religion"
+    ],
+    "resources": [
+      {
+        "kind": "religion",
+        "centrality": "core"
+      },
+      {
+        "kind": "identity",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2002,
+        "month": 1,
+        "day": 3,
+        "precision": "day"
+      },
+      "end": {
+        "year": 2003,
+        "month": 5,
+        "day": 2,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-marad",
+        "name": "Marad beach, Kozhikode",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 75.787,
+        "latitude": 11.207,
+        "admin": {
+          "country": "India",
+          "state": "Kerala",
+          "district": "Kozhikode",
+          "village": "Marad"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 75.787,
+      "latitude": 11.207,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "ndf",
+        "role": "insurgent",
+        "note": "Crime Branch named NDF in the 2003 investigation; a sessions court later convicted dozens of local accused for murder, not a named-org conspiracy charge"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Hindu fishermen of Marad (Araya)",
+        "kind": "religion",
+        "role": "victims of the 2003 attack"
+      },
+      {
+        "name": "Muslims of Marad",
+        "kind": "religion"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 13,
+        "max": 14,
+        "best": 14,
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "The Hindu, Marad, where time mended the chasms",
+            "year": 2023,
+            "url": "https://www.thehindu.com/news/national/kerala/marad-where-time-mended-the-chasms/article66790114.ece"
+          },
+          {
+            "title": "Times of India, Probe into Marad riots (Joseph Commission tabled)",
+            "year": 2006,
+            "url": "https://timesofindia.indiatimes.com/city/thiruvananthapuram/probe-into-marad-riots/articleshow/2033452.cms"
+          }
+        ],
+        "contested": true,
+        "note": "Five in January 2002 (both communities); eight Hindu fishermen plus one attacker in May 2003. TOI on the Joseph report used 14 across both years."
+      },
+      "displaced": {
+        "unit": "households",
+        "sources": [
+          {
+            "title": "The Hindu, Marad, where time mended the chasms",
+            "year": 2023
+          }
+        ],
+        "contested": true,
+        "note": "Hundreds of families fled; no agreed household count"
+      }
+    },
+    "sources": [
+      {
+        "title": "Thomas P. Joseph Commission of Inquiry on the Marad incidents",
+        "year": 2006
+      },
+      {
+        "title": "The Hindu, Marad, where time mended the chasms",
+        "year": 2023,
+        "url": "https://www.thehindu.com/news/national/kerala/marad-where-time-mended-the-chasms/article66790114.ece"
+      },
+      {
+        "title": "NHRC, Marad victims get compensation",
+        "year": 2003,
+        "url": "https://nhrc.nic.in/media/press-release/marad-victims-get-compensation"
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "cauvery-riots",
+    "slug": "cauvery-riots",
+    "name": "Cauvery riots, 1991 and 2016",
+    "aliases": [
+      "1991 anti-Tamil violence in Karnataka",
+      "Cauvery bandh violence"
+    ],
+    "summary": "Linguistic-ethnic riots in Bengaluru and southern Karnataka over the Cauvery tribunal award. December 1991 saw Tamil neighbourhoods and TN-registered vehicles attacked and thousands flee. Violence returned in September 2016 after a Supreme Court release order.",
+    "scale": "medium",
+    "scaleRationale": "A megacity and border towns, two spikes 25 years apart, deaths in the tens, displacement of thousands of Tamil families in 1991.",
+    "types": [
+      "communal-riot",
+      "ethnic-clash",
+      "agitation-with-violence"
+    ],
+    "family": "communal",
+    "theaters": [
+      "south-india",
+      "communal"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "multi-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "language",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "water",
+        "centrality": "core",
+        "note": "Cauvery sharing between Karnataka and Tamil Nadu"
+      },
+      {
+        "kind": "language",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1991,
+        "month": 12,
+        "day": 12,
+        "precision": "day"
+      },
+      "end": {
+        "year": 2016,
+        "month": 9,
+        "day": 13,
+        "precision": "day",
+        "note": "Violence clustered in December 1991 and September 2016, not continuously"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-cauvery-bengaluru",
+        "name": "Bengaluru",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 77.594,
+        "latitude": 12.972,
+        "admin": {
+          "country": "India",
+          "state": "Karnataka",
+          "district": "Bengaluru Urban"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 77.594,
+      "latitude": 12.972,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Tamils in Karnataka",
+        "kind": "language",
+        "role": "targeted in 1991"
+      },
+      {
+        "name": "Kannadigas",
+        "kind": "language"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 16,
+        "max": 28,
+        "unit": "persons",
+        "of": "all",
+        "sources": [
+          {
+            "title": "Indian People’s Human Rights Tribunal report on December 1991 violence",
+            "creator": "Justice Hosbet Suresh / Justice V.R. Krishna Iyer tribunal",
+            "year": 1992,
+            "url": "https://cjp.org.in/justice-suresh/cauvery/"
+          },
+          {
+            "title": "Deccan Chronicle, Cauvery dispute: rogue elements planned bloodbath, replay of 1991 riots",
+            "year": 2016,
+            "url": "https://www.deccanchronicle.com/nation/current-affairs/110916/cauvery-bandh-some-wanted-bloodbath-repeat-of-1991.html"
+          }
+        ],
+        "contested": true,
+        "note": "Karnataka official figure for 1991: 16 killed in police firing. Other contemporaneous counts run higher (DC later used 28 in the city). 2016 added one confirmed police-firing death in Bengaluru."
+      },
+      "displaced": {
+        "unit": "households",
+        "sources": [
+          {
+            "title": "The Hindu, Victims of 1991 violence over Cauvery row recall trauma",
+            "year": 2016,
+            "url": "https://www.thehindu.com/news/national/tamil-nadu/Victims-of-1991-violence-overCauvery-row-recall-trauma/article14523038.ece"
+          }
+        ],
+        "contested": true,
+        "note": "Thousands of Tamils fled Karnataka in December 1991; no agreed household count"
+      }
+    },
+    "sources": [
+      {
+        "title": "Indian People’s Human Rights Tribunal on the violence in Bangalore and other parts of Karnataka and Tamil Nadu, December 1991",
+        "year": 1992,
+        "url": "https://cjp.org.in/justice-suresh/cauvery/"
+      },
+      {
+        "title": "The Hindu, When water set fire to a city",
+        "creator": "K. Gopinathan",
+        "year": 2013,
+        "url": "https://www.thehindu.com/features/metroplus/when-water-set-fire-to-a-city/article5032395.ece"
+      },
+      {
+        "title": "Reuters, One killed in riots in Indian IT hub over river water dispute",
+        "year": 2016,
+        "url": "https://www.reuters.com/article/protests-bengaluru-cauvery-tamilnadu-idINKCN11I15D/"
+      }
+    ],
+    "confidence": "medium",
+    "status": "draft"
+  },
+  {
+    "id": "puducherry-1954",
+    "slug": "puducherry-de-facto-transfer",
+    "name": "Puducherry de facto transfer, 1954",
+    "aliases": [
+      "French India merger",
+      "Kizhoor Congress",
+      "de facto transfer of Pondicherry"
+    ],
+    "summary": "France handed administration of Pondicherry, Karaikal, Mahe and Yanam to India on 1 November 1954 after the Kizhoor congress vote. A June coup at Yanam and a Mahe takeover preceded the ceremony. Low violence; colonial integration, not a war.",
+    "scale": "small",
+    "scaleRationale": "Four small enclaves, a negotiated transfer, almost no battle deaths. Political consequence lasted until de jure cession in 1962.",
+    "types": [
+      "state-integration"
+    ],
+    "family": "integration",
+    "theaters": [
+      "south-india",
+      "integration"
+    ],
+    "northeast": false,
+    "internalExternal": "mixed",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation",
+      "citizenship"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "citizenship",
+        "centrality": "core"
+      },
+      {
+        "kind": "border",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1954,
+        "month": 6,
+        "day": 13,
+        "precision": "day",
+        "note": "Yanam taken by pro-merger volunteers"
+      },
+      "end": {
+        "year": 1954,
+        "month": 11,
+        "day": 1,
+        "precision": "day",
+        "note": "De facto transfer at Government House, Pondicherry. De jure cession followed on 16 August 1962."
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-pondicherry-1954",
+        "name": "Pondicherry / Puducherry",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 79.835,
+        "latitude": 11.937,
+        "admin": {
+          "country": "India",
+          "state": "Puducherry",
+          "district": "Puducherry"
+        }
+      },
+      {
+        "id": "loc-yanam-1954",
+        "name": "Yanam",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 82.217,
+        "latitude": 16.733,
+        "admin": {
+          "country": "India",
+          "state": "Puducherry",
+          "district": "Yanam"
+        },
+        "note": "Godavari-delta enclave, geographically inside coastal Andhra"
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 79.835,
+      "latitude": 11.937,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "fr-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "French Indians / Pondicherrians",
+        "kind": "nationality"
+      }
+    ],
+    "accords": [
+      {
+        "name": "Indo-French agreement on de facto transfer (Delhi, 21 October 1954)",
+        "date": {
+          "year": 1954,
+          "month": 10,
+          "day": 21,
+          "precision": "day"
+        },
+        "parties": [
+          "in-gov",
+          "fr-gov"
+        ],
+        "outcome": "Administration of the four settlements passed to India on 1 November 1954; sovereignty remained with France until 1962"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hindustan Times archives: 140-year French rule ends, Pondicherry merges with India",
+        "year": 1954,
+        "url": "https://www.hindustantimes.com/india-news/htarchives-140-year-french-rule-ends-pondicherry-merges-with-india-101730486133269.html"
+      },
+      {
+        "title": "HT This Day: 19 October 1954 — French pockets to become part of India on November 1",
+        "year": 1954,
+        "url": "https://www.hindustantimes.com/india-news/ht-this-day-october-19-1954-french-pockets-to-become-part-of-india-on-november-1-101666017615020.html"
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "hyderabad-1990",
+    "slug": "hyderabad-communal-1990",
+    "name": "Hyderabad communal riots, 1990",
+    "aliases": [
+      "Old City riots 1990",
+      "December 1990 Hyderabad"
+    ],
+    "summary": "The worst communal killing in Hyderabad after 1948. Advani’s rath yatra and the October 1990 assault on the Babri Masjid raised the temperature; a stabbing in the walled city in December opened weeks of alley-by-alley murder. Not Operation Polo, not the 2007 blasts.",
+    "scale": "medium",
+    "scaleRationale": "A historic city, ten weeks of stabbings and arson, deaths in the low hundreds.",
+    "types": [
+      "communal-riot"
+    ],
+    "family": "communal",
+    "theaters": [
+      "south-india",
+      "communal"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "multi-sided",
+    "religiousDimension": "central",
+    "identityDimensions": [
+      "religion"
+    ],
+    "resources": [
+      {
+        "kind": "religion",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "contributing",
+        "note": "neighbourhood control in the Old City"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1990,
+        "month": 12,
+        "day": 8,
+        "precision": "day"
+      },
+      "end": {
+        "year": 1991,
+        "month": 2,
+        "precision": "month",
+        "note": "Sudhir Kakar: violence lasted about ten weeks from December"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-hyd-old-city-1990",
+        "name": "Old City, Hyderabad",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 78.475,
+        "latitude": 17.362,
+        "admin": {
+          "country": "India",
+          "state": "Telangana",
+          "district": "Hyderabad"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 78.475,
+      "latitude": 17.362,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "in-army",
+        "role": "state",
+        "note": "Army took control of the Old City around 10 December 1990"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Muslims of Hyderabad",
+        "kind": "religion"
+      },
+      {
+        "name": "Hindus of Hyderabad",
+        "kind": "religion"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 200,
+        "max": 300,
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Hindustan Times, Hyderabad (AP) December 8, 1990 over 200 dead",
+            "creator": "Ashok Das",
+            "year": 2008,
+            "url": "https://www.hindustantimes.com/india/hyderabad-ap-december-8-1990-over-200-dead/story-sN3L97xlBwVdIQDqkypWiI.html"
+          },
+          {
+            "title": "The Time of Kali: Violence between Religious Groups in India",
+            "creator": "Sudhir Kakar",
+            "year": 2000,
+            "note": "Social Research 67(3); more than three hundred lives over ten weeks"
+          }
+        ],
+        "contested": true,
+        "note": "HT retrospective: over 200, more than half Hindus. Kakar: more than 300. No single official published total."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "Chief Minister M. Chenna Reddy said the riot was engineered by Congress rivals to oust him.",
+        "heldBy": "M. Chenna Reddy, contemporaneous statement",
+        "sources": [
+          {
+            "title": "Hindustan Times, Hyderabad (AP) December 8, 1990 over 200 dead",
+            "year": 2008
+          }
+        ]
+      },
+      {
+        "claim": "The immediate trigger was the stabbing of a Muslim auto-rickshaw driver named Sardar, after which Muslims stabbed four Hindus; the gun was the Ayodhya mobilisation of October–November 1990.",
+        "heldBy": "Sudhir Kakar, interviews in both communities, 1991",
+        "sources": [
+          {
+            "title": "The Colors of Violence",
+            "creator": "Sudhir Kakar",
+            "year": 1996
+          }
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "bombay-1992",
+        "note": "Same Ayodhya wave; Bombay’s much larger killing came two years later after the demolition"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hindustan Times, Hyderabad (AP) December 8, 1990 over 200 dead",
+        "creator": "Ashok Das",
+        "year": 2008,
+        "url": "https://www.hindustantimes.com/india/hyderabad-ap-december-8-1990-over-200-dead/story-sN3L97xlBwVdIQDqkypWiI.html"
+      },
+      {
+        "title": "India Today, Frenzied call for Ram Mandir unleashes wave of communal killings",
+        "year": 1991,
+        "url": "https://www.indiatoday.in/magazine/special-report/story/19910115-frenzied-call-for-ram-mandir-at-ayodhya-unleashes-wave-of-communal-killings-in-uttar-pradesh-hyderabad-813849-1991-01-14"
+      },
+      {
+        "title": "The Colors of Violence",
+        "creator": "Sudhir Kakar",
+        "year": 1996
+      }
+    ],
+    "confidence": "medium",
+    "status": "draft"
+  }
+]

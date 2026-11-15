@@ -1,0 +1,58 @@
+[
+  {
+    "id": "up-pac",
+    "name": "Uttar Pradesh Provincial Armed Constabulary",
+    "aliases": [
+      "PAC",
+      "Provincial Armed Constabulary"
+    ],
+    "kind": "police",
+    "parentId": "in-gov"
+  },
+  {
+    "id": "ranvir-sena",
+    "name": "Ranvir Sena",
+    "aliases": [
+      "Ranveer Sena"
+    ],
+    "kind": "militia",
+    "ideology": [
+      "anti-communist",
+      "landlord militia"
+    ],
+    "active": {
+      "start": {
+        "year": 1994,
+        "month": 9,
+        "precision": "month"
+      },
+      "end": {
+        "year": 2012,
+        "precision": "year",
+        "note": "Commander Brahmeshwar Singh arrested 2002, shot in Arrah 2012. Large massacres clustered 1996–2000."
+      }
+    }
+  },
+  {
+    "id": "vhp",
+    "name": "Vishva Hindu Parishad",
+    "aliases": [
+      "VHP"
+    ],
+    "kind": "political-party",
+    "religion": [
+      "Hindu"
+    ]
+  },
+  {
+    "id": "rss",
+    "name": "Rashtriya Swayamsevak Sangh",
+    "aliases": [
+      "RSS"
+    ],
+    "kind": "political-party",
+    "religion": [
+      "Hindu"
+    ]
+  }
+]

@@ -4,9 +4,21 @@
   "summary": "One ontology. Campaigns, incidents, actors, and families are JSON. Research agents write record files only; the map reads them. A campaign is a span. An incident is a day inside a campaign. Colour is Conflict.family. Counts are claims with ranges and sources.",
   "files": {
     "campaigns": "campaigns.json",
+    "campaigns-north": "campaigns-north.json",
+    "campaigns-south": "campaigns-south.json",
+    "campaigns-east": "campaigns-east.json",
+    "campaigns-ne": "campaigns-ne.json",
     "incidents": "incidents.json",
     "naxal-events": "naxal-events.json",
+    "north-events": "north-events.json",
+    "south-events": "south-events.json",
+    "east-events": "east-events.json",
+    "ne-events": "ne-events.json",
     "actors": "actors.json",
+    "actors-north": "actors-north.json",
+    "actors-south": "actors-south.json",
+    "actors-east": "actors-east.json",
+    "actors-ne": "actors-ne.json",
     "families": "families.json"
   },
   "entities": {

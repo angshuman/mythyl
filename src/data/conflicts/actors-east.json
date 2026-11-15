@@ -1,0 +1,34 @@
+[
+  {
+    "id": "bajrang-dal",
+    "name": "Bajrang Dal",
+    "kind": "militia",
+    "parentId": "vhp",
+    "religion": [
+      "Hindu"
+    ]
+  },
+  {
+    "id": "cpi-m",
+    "name": "Communist Party of India (Marxist)",
+    "aliases": [
+      "CPI(M)",
+      "CPM"
+    ],
+    "kind": "political-party",
+    "ideology": [
+      "marxist"
+    ]
+  },
+  {
+    "id": "namasudra-refugees",
+    "name": "Namasudra refugees",
+    "kind": "caste-group",
+    "ethnicity": [
+      "Bengali"
+    ],
+    "religion": [
+      "Hindu"
+    ]
+  }
+]

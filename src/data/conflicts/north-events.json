@@ -1,0 +1,916 @@
+[
+  {
+    "id": "ayodhya-6dec-1992",
+    "conflictId": "ayodhya-1992",
+    "name": "Babri Masjid demolished",
+    "kind": "riot",
+    "time": {
+      "year": 1992,
+      "month": 12,
+      "day": 6,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Ayodhya",
+      "longitude": 82.199,
+      "latitude": 26.792,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Uttar Pradesh",
+        "district": "Faizabad"
+      }
+    },
+    "summary": "On 6 December 1992 a kar seva rally at the Babri Masjid became a demolition. Kar sevaks climbed the domes with pickaxes and rods while the state police stood by; the three domes were gone by late afternoon. That night the remaining Muslim lanes of Ayodhya were burned. Liberhan later wrote that the crowd had not arrived for symbolic work.",
+    "story": "Most Muslim families had already left town. The Hindu later put the next twenty-four hours at about 17 dead and more than 250 houses and shops gutted. No FIR was ever registered for those killings. President’s Rule arrived the same evening.",
+    "sides": [
+      {
+        "label": "kar sevaks, VHP / RSS / Bajrang Dal cadres",
+        "role": "attacker",
+        "kind": "civilian",
+        "actorId": "vhp"
+      },
+      {
+        "label": "Muslim residents of Ayodhya and the mosque itself",
+        "role": "target",
+        "kind": "civilian"
+      },
+      {
+        "label": "Uttar Pradesh police and PAC",
+        "role": "unclear",
+        "kind": "state-forces",
+        "actorId": "up-pac"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 17,
+        "killedMax": 18,
+        "killedBest": 17,
+        "of": "civilian",
+        "sideLabel": "Muslims killed in Ayodhya on 6–7 December",
+        "claimedBy": "The Hindu, 2017, reconstructing the night in town; government admitted 15–16 deaths",
+        "contested": true,
+        "note": "The demolition itself was of a building. These deaths are the town killings that night, not the nationwide riot wave."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "What happened that December night in Ayodhya",
+        "year": 2017,
+        "url": "https://www.thehindu.com/news/national/what-happened-that-december-night-in-ayodhya/article21383162.ece",
+        "excerpt": "In the hours after the mosque was razed, at least 17 persons were killed and over 250 homes and shops gutted or damaged.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Liberhan Commission / The Hindu",
+        "headline": "Babri Masjid demolition: key conclusions by Liberhan Commission",
+        "year": 2009,
+        "url": "https://www.thehindu.com/news/national/babri-masjid-demolition-key-conclusions-by-liberhan-commission/article32730876.ece",
+        "excerpt": "The mobilisation of the kar sevaks and their convergence to Ayodhya and Faizabad was neither spontaneous nor voluntary. It was well orchestrated and planned.",
+        "stance": "state"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "kanpur-dec-1992",
+    "conflictId": "ayodhya-1992",
+    "name": "Kanpur, December 1992",
+    "kind": "riot",
+    "time": {
+      "year": 1992,
+      "month": 12,
+      "day": 8,
+      "precision": "day",
+      "note": "Violence ran about five days from 8 December."
+    },
+    "place": {
+      "name": "Kanpur",
+      "longitude": 80.332,
+      "latitude": 26.45,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Uttar Pradesh",
+        "district": "Kanpur Nagar"
+      }
+    },
+    "summary": "Two days after the mosque came down, Kanpur went into five days of killing. Hindustan Times later put the dead at 254 — one of the worst single-city counts in the UP wave. Thousands of cases were filed; almost all were dropped. A 2007 trial for one Govindnagar mob convicted 15 men for burning 11 Muslims, including a two-year-old.",
+    "sides": [
+      {
+        "label": "Hindu crowds in mixed mohallas",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Muslim neighbourhoods of Kanpur",
+        "role": "target",
+        "kind": "civilian"
+      },
+      {
+        "label": "police, under President’s Rule",
+        "role": "unclear",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 254,
+        "killedMax": 254,
+        "killedBest": 254,
+        "of": "civilian",
+        "sideLabel": "civilians in Kanpur, most of them Muslims",
+        "claimedBy": "Hindustan Times, 2008, from police and victim records of the five days",
+        "contested": true,
+        "note": "HT’s 254 is a city total for those days, not a commission figure. Hindus and people killed in police firing are inside it."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Hindustan Times",
+        "headline": "Kanpur (UP) December 8, 1992 — 254 dead",
+        "year": 2008,
+        "url": "https://www.hindustantimes.com/india/kanpur-up-december-8-1992-254-dead/story-uGV4h8BANZbfv5wf1BKZQO.html",
+        "excerpt": "Over the next five days, rioters ravaged the predominantly Muslim area, killing at least 254 people. The victims filed 4,700 cases, according to police records.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Times of India",
+        "headline": "Life term for 15 in ’92 Kanpur riots case",
+        "year": 2007,
+        "url": "https://timesofindia.indiatimes.com/india/life-term-for-15-in-92-kanpur-riots-case/articleshow/2488121.cms",
+        "excerpt": "The judge found the accused guilty of murder, attempt to murder and arson attacks on Muslims on December 10, 1992, in which 11 of the community, including two women and a two-year-old child, were killed.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "hashimpura-1987",
+    "conflictId": "meerut-1987",
+    "name": "Hashimpura",
+    "kind": "massacre",
+    "time": {
+      "year": 1987,
+      "month": 5,
+      "day": 22,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Hashimpura, Meerut",
+      "longitude": 77.706,
+      "latitude": 28.985,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Uttar Pradesh",
+        "district": "Meerut"
+      }
+    },
+    "summary": "On the night of 22 May 1987, PAC men rounded up Muslim weavers and labourers from Hashimpura mohalla, put them in a truck, and drove them to the Upper Ganga canal at Muradnagar and the Hindon. They were shot and thrown in. A few crawled out. Delhi High Court, in 2018, called it a targeted custodial killing and sent 16 retired PAC men to life.",
+    "story": "About 42 to 50 men were taken. Thirty-eight bodies were recovered. Survivors including Zulfiqar Nasir testified for three decades. A trial court acquitted in 2015 for want of identification; the High Court reversed.",
+    "sides": [
+      {
+        "label": "Provincial Armed Constabulary",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "up-pac"
+      },
+      {
+        "label": "Muslim men of Hashimpura",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 38,
+        "killedMax": 42,
+        "killedBest": 42,
+        "of": "civilian",
+        "sideLabel": "Muslim men taken from Hashimpura",
+        "claimedBy": "Delhi High Court 2018 (42 killed); 38 bodies recovered; several survivors",
+        "contested": true,
+        "note": "Hindu and court chronology: 42 declared dead. Indian Express on the same judgment used 38, the recovered-body count."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Delhi HC sentences 16 ex-PAC personnel to life for 1987 Hashimpura massacre",
+        "year": 2018,
+        "url": "https://www.thehindu.com/news/national/1987-hashimpura-massacre-delhi-hc-sentences-16-ex-pac-personnel-to-life/article61518791.ece",
+        "excerpt": "The Delhi High Court sentenced 16 former Provincial Armed Constabulary men in Uttar Pradesh to life imprisonment for killing 42 persons in Hashimpura area of Meerut in 1987.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "Hashimpura case: 16 PAC men sentenced to life imprisonment for murder of 38 Muslims",
+        "year": 2018,
+        "url": "https://indianexpress.com/article/india/hashimpura-case-delhi-high-court-verdict-16-life-imprisonment-5426836/",
+        "excerpt": "A two-judge bench said the incident was a ‘targeted killing’ of unarmed and defenceless people.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "maliana-1987",
+    "conflictId": "meerut-1987",
+    "name": "Maliana",
+    "kind": "massacre",
+    "time": {
+      "year": 1987,
+      "month": 5,
+      "day": 23,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Maliana",
+      "longitude": 77.665,
+      "latitude": 28.965,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Uttar Pradesh",
+        "district": "Meerut",
+        "village": "Maliana"
+      }
+    },
+    "summary": "The afternoon after Hashimpura, the PAC’s 44th battalion walked into Maliana, a Muslim village on Meerut’s edge, with a Hindu crowd behind it. Exits were blocked. The dead were Muslims. The chief minister said ten. Later tallies used in court sat around 68 to 72. In 2023 a Meerut court acquitted the remaining accused after 800 hearings.",
+    "story": "Vibhuti Narain Rai, who registered the Hashimpura FIR as SP Ghaziabad, wrote that Maliana was more infamous than Hashimpura at the time because the victims were not already in custody. Rajiv Gandhi visited the village at the end of May.",
+    "sides": [
+      {
+        "label": "PAC 44th battalion",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "up-pac"
+      },
+      {
+        "label": "a Hindu crowd from adjoining localities",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Muslim residents of Maliana",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 68,
+        "killedMax": 72,
+        "killedBest": 72,
+        "of": "civilian",
+        "sideLabel": "Muslims of Maliana",
+        "claimedBy": "The Hindu / Indian Express on the 2023 trial (68–72); CM Vir Bahadur Singh said 10 at the time",
+        "contested": true,
+        "note": "The contemporaneous official figure of 10 is widely treated as an undercount. The sessions-court case was built on 68–72 deaths."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "The Meerut court verdict and the Maliana massacre",
+        "year": 2023,
+        "url": "https://www.thehindu.com/news/national/the-meerut-court-verdict-and-the-maliana-massacre/article66748901.ece",
+        "excerpt": "Next day, the PAC reached Maliana and led by R.D. Tripathi, commandant of the 44th battalion, the men entered Maliana in the afternoon of May 23 and allegedly killed 72 people, all Muslims.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "Recalling the story of the Maliana communal violence of 1987",
+        "year": 2023,
+        "url": "https://indianexpress.com/article/explained/recalling-the-story-of-the-maliana-communal-violence-of-1987-8538314/",
+        "excerpt": "A district court in Meerut acquitted all 41 accused in the May 23, 1987 massacre in Maliana village outside the town, in which 68 Muslims were killed by a mob that allegedly included personnel of the PAC.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "moradabad-eidgah-1980",
+    "conflictId": "moradabad-1980",
+    "name": "Moradabad Eidgah",
+    "kind": "riot",
+    "time": {
+      "year": 1980,
+      "month": 8,
+      "day": 13,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Moradabad",
+      "longitude": 78.773,
+      "latitude": 28.839,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Uttar Pradesh",
+        "district": "Moradabad"
+      }
+    },
+    "summary": "Eid morning, 13 August 1980. Tens of thousands at the city Eidgah. A pig in the crowd, stones, then police fire. People died under bullets and in the stampede. A nearby chowki at Galshahid was burned and two constables died. PAC trucks came in. The weeks that followed turned a police firing into a communal riot.",
+    "sides": [
+      {
+        "label": "Moradabad police and PAC",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "up-pac"
+      },
+      {
+        "label": "Muslim congregation at the Eidgah",
+        "role": "target",
+        "kind": "civilian"
+      },
+      {
+        "label": "police at Galshahid chowki",
+        "role": "target",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 83,
+        "killedMax": 400,
+        "of": "civilian",
+        "sideLabel": "mostly Muslims at the Eidgah and in the days after",
+        "claimedBy": "Saxena Commission 83; Indian Express on contemporaneous press 300–400; Assembly figure 289 statewide",
+        "contested": true
+      },
+      {
+        "killedBest": 2,
+        "of": "state-forces",
+        "sideLabel": "constables at Galshahid chowki",
+        "claimedBy": "The Indian Express, 2023, from local memory and records",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Indian Express",
+        "headline": "As UP govt plans to table 1980 riot report, in Moradabad, open wounds from an Eidgah clash",
+        "year": 2023,
+        "url": "https://indianexpress.com/article/india/up-government-1980-riot-report-moradabad-eidgah-clash-8611334/",
+        "excerpt": "According to government records, a clash between police and people who had gathered at the Eidgah that day, and the communal violence that had followed in the days after, had left 83 dead and 112 injured.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "The Moradabad riots of 1980: The incident and its political fallout",
+        "year": 2023,
+        "url": "https://indianexpress.com/article/explained/the-moradabad-riots-of-1980-the-incident-and-its-political-fallout-8615182/",
+        "excerpt": "The death toll, including those who were missing and were considered dead, was 289, then state Home Minister Swarup Kumari Bakshi told the Assembly.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "bhagalpur-24oct-1989",
+    "conflictId": "bhagalpur-1989",
+    "name": "Bhagalpur, 24 October 1989",
+    "kind": "riot",
+    "time": {
+      "year": 1989,
+      "month": 10,
+      "day": 24,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Bhagalpur",
+      "longitude": 86.983,
+      "latitude": 25.25,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Bihar",
+        "district": "Bhagalpur"
+      }
+    },
+    "summary": "A Ramshila procession for the Ayodhya temple moved through Bhagalpur on 24 October 1989. A bomb went off. What the inquiry later called a riot in town became, over the next weeks, an organised hunt through some 250 villages. The silk-weaving mohallas emptied. Official memory settled near a thousand dead, about nine in ten of them Muslim.",
+    "sides": [
+      {
+        "label": "Hindu crowds and, in the inquiry’s account, parts of the local police",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Muslim weavers and villagers of Bhagalpur district",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 982,
+        "killedMax": 2000,
+        "killedBest": 1000,
+        "of": "civilian",
+        "sideLabel": "civilians, about 90 percent of them Muslim",
+        "claimedBy": "Bihar enquiry to Rajya Sabha, Aug 1990 (982 dead and missing); later reports ~1,000; PUDR and some accounts toward 2,000",
+        "contested": true,
+        "note": "This is the district campaign total, not the dead of 24 October alone."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Al Jazeera",
+        "headline": "The forgotten riots of Bhagalpur",
+        "year": 2014,
+        "url": "https://www.aljazeera.com/gallery/2014/12/31/the-forgotten-riots-of-bhagalpur",
+        "excerpt": "What happened on October 24, 1989 could be described as a riot, but what followed over the next month was nothing but an organised massacre of one group.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Economic and Political Weekly",
+        "headline": "Bhagalpur Riot Inquiry Commission Report",
+        "year": 1995,
+        "url": "https://www.jstor.org/stable/4402989",
+        "excerpt": "Inquiry into Bhagalpur riots of 1989 reveals how rumours and cooked up stories conspire to cover the collusion between the police, the bureaucracy and the communal elements.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "logain-1989",
+    "conflictId": "bhagalpur-1989",
+    "name": "Logain",
+    "kind": "massacre",
+    "time": {
+      "year": 1989,
+      "month": 10,
+      "day": 27,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Logain",
+      "longitude": 86.92,
+      "latitude": 25.18,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Bihar",
+        "district": "Bhagalpur",
+        "village": "Logain"
+      }
+    },
+    "summary": "On 27 October 1989 a crowd attacked Logain, a Muslim village under Jagdishpur police station. The dead — 116 in the case that went to trial — were dumped in a mass grave and planted over with cauliflowers. The grave was found 44 days later. In 2007 a Bhagalpur court gave life to 14 men, including the station officer.",
+    "sides": [
+      {
+        "label": "a village crowd, with the Jagdishpur station officer among those later convicted",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Muslim families of Logain",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 116,
+        "killedMax": 200,
+        "killedBest": 116,
+        "of": "civilian",
+        "sideLabel": "Muslims of Logain",
+        "claimedBy": "Bhagalpur sessions court, 2007 (116 in the trial); inquiry accounts of Logain have gone toward 200",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Rediff",
+        "headline": "14 get life sentences for Bhagalpur killings",
+        "year": 2007,
+        "url": "https://www.rediff.com/news/2007/jul/07riot.htm",
+        "excerpt": "Fourteen persons, including a police officer, have been sentenced to rigorous life imprisonment in a case pertaining to the communal riots in Bhagalpur in 1989… killing 116 persons belonging to the minority community in Logain village.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Telegraph",
+        "headline": "Bhagalpur dead 116, guilty 14",
+        "year": 2007,
+        "url": "https://www.telegraphindia.com/india/bhagalpur-dead-116-guilty-14/cid/700867",
+        "excerpt": "Several hundred ‘outsiders’ had streamed into Logain, 26 km from Bhagalpur, killed members of the minority community, destroyed their property and buried them in a mass grave, over which they planted cauliflowers to camouflage the crime.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "kawal-2013",
+    "conflictId": "muzaffarnagar-2013",
+    "name": "Kawal",
+    "kind": "clash",
+    "time": {
+      "year": 2013,
+      "month": 8,
+      "day": 27,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Kawal",
+      "longitude": 77.87,
+      "latitude": 29.32,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Uttar Pradesh",
+        "district": "Muzaffarnagar",
+        "village": "Kawal"
+      }
+    },
+    "summary": "Three men died at Kawal on 27 August 2013: Shahnawaz, a Muslim of the village, and two Jat cousins from Malikpur, Gaurav and Sachin. One FIR spoke of a bike scrape; the story that travelled was eve-teasing and honour. A mahapanchayat and a video did the rest. Kawal itself went quiet. The district did not.",
+    "sides": [
+      {
+        "label": "Jat cousins from Malikpur and their kin",
+        "role": "unclear",
+        "kind": "civilian"
+      },
+      {
+        "label": "Muslim villagers of Kawal",
+        "role": "unclear",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedBest": 1,
+        "of": "civilian",
+        "sideLabel": "Shahnawaz, Muslim of Kawal",
+        "claimedBy": "FIRs at Jansath police station, 27 August 2013",
+        "contested": false
+      },
+      {
+        "killedBest": 2,
+        "of": "civilian",
+        "sideLabel": "Gaurav and Sachin, Jats of Malikpur",
+        "claimedBy": "FIRs at Jansath police station, 27 August 2013",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "NDTV",
+        "headline": "The Mystery of Kawwal: Were Muzaffarnagar riots based on distortion of facts?",
+        "year": 2013,
+        "url": "https://www.ndtv.com/india-news/the-mystery-of-kawwal-were-muzaffarnagar-riots-based-on-distortion-of-facts-534608",
+        "excerpt": "The deaths of all three are a verified fact, as are some serious doubts over the police response. But the reasons ascribed to justify the killing of Shahnawaz — the supposed protection of the honour of Jat women — are not borne out by the facts.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "Two versions on first attack, 15 suspects including the three dead, one arrest",
+        "year": 2013,
+        "url": "https://indianexpress.com/article/news-archive/web/two-versions-on-first-attack-15-suspects-including-the-three-dead-one-arrest/",
+        "excerpt": "The two FIRs lodged after the triple murder at Kawaal village narrate contrasting versions of the incident that ostensibly sparked violence across Muzaffarnagar.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "kutba-2013",
+    "conflictId": "muzaffarnagar-2013",
+    "name": "Kutba, 8 September 2013",
+    "kind": "massacre",
+    "time": {
+      "year": 2013,
+      "month": 9,
+      "day": 8,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Kutba",
+      "longitude": 77.535,
+      "latitude": 29.401,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Uttar Pradesh",
+        "district": "Muzaffarnagar",
+        "village": "Kutba"
+      }
+    },
+    "summary": "After the 7 September mahapanchayat, Jat bands moved through Muslim houses in Kutba on the morning of the 8th. The mosque went first. BBC spoke to Abdul Aziz, who lost five men of his family, including a son whose throat was cut. Indian Express later put the village dead at eight. Kutba is one named hamlet inside a two-day killing that the state counted at 62.",
+    "sides": [
+      {
+        "label": "armed Jat groups from Kutba and nearby",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Muslim families of Kutba",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 5,
+        "killedMax": 8,
+        "killedBest": 8,
+        "of": "civilian",
+        "sideLabel": "Muslims of Kutba",
+        "claimedBy": "Indian Express, Oct 2013 (eight killed); BBC interview with Abdul Aziz (five of his family)",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "BBC",
+        "headline": "Muzaffarnagar: Tales of death and despair in India's riot-hit town",
+        "year": 2013,
+        "url": "https://www.bbc.com/news/world-asia-india-24172537",
+        "excerpt": "Around 9am on 8 September, armed bands of Jats started attacking Muslim homes. They first burnt down a local mosque, then they started attacking individual homes. Around 10:30am, five male members of my extended family, including my son, were killed.",
+        "stance": "victim"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "Muzaffarnagar riots: Four locals arrested for Kutba killings",
+        "year": 2013,
+        "url": "https://indianexpress.com/article/india/uttar-pradesh/muzaffarnagar-riots-four-locals-arrested-for-kutba-killings/",
+        "excerpt": "Eight members of the minority community were killed and their houses burnt by a mob on September 8 at the village which lies in the Shahpur area.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "bathani-tola-1996",
+    "conflictId": "ranvir-sena",
+    "name": "Bathani Tola",
+    "kind": "massacre",
+    "time": {
+      "year": 1996,
+      "month": 7,
+      "day": 11,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Bathani Tola",
+      "longitude": 84.551,
+      "latitude": 25.306,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Bihar",
+        "district": "Bhojpur",
+        "village": "Bathani Tola"
+      }
+    },
+    "summary": "In daylight on 11 July 1996, Ranvir Sena men surrounded Bathani Tola, a Dalit and Muslim hamlet in Bhojpur, and killed 21 people — almost all of them women and children. One adult man was among the dead. An Ara court sentenced 23 men in 2010. The Patna High Court acquitted them all in 2012.",
+    "story": "The Sena said it was answering CPI-ML killings of Bhumihars. Brahmeshwar Singh, the commander, later put the logic plainly: kill the women and the children so Naxalites do not grow up.",
+    "sides": [
+      {
+        "label": "Ranvir Sena",
+        "role": "attacker",
+        "kind": "militia",
+        "actorId": "ranvir-sena"
+      },
+      {
+        "label": "Dalit and Muslim labourers of Bathani Tola",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 21,
+        "killedMax": 21,
+        "killedBest": 21,
+        "of": "civilian",
+        "sideLabel": "Dalits and Muslims of Bathani Tola, mostly women and children",
+        "claimedBy": "Ara sessions court 2010; The Hindu",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Death for three in Bathani Tola massacre case",
+        "year": 2010,
+        "url": "https://www.thehindu.com/news/national/Death-for-three-in-Bathani-Tola-massacre-case/article16300566.ece",
+        "excerpt": "The civil court at Ara sentenced three persons to death and 20 others to life imprisonment for the 1996 Bathani Tola carnage, in which 21 Dalits were slaughtered by the Ranvir Sena, a private militia of upper caste landlords.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Frontline",
+        "headline": "Back to Bathani Tola",
+        "year": 2012,
+        "url": "https://frontline.thehindu.com/social-issues/article30166128.ece",
+        "excerpt": "The Patna High Court acquits all the 23 Ranvir Sena raiders of the Bhojpur village for want of evidence.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "laxmanpur-bathe-1997",
+    "conflictId": "ranvir-sena",
+    "name": "Laxmanpur Bathe",
+    "kind": "massacre",
+    "time": {
+      "year": 1997,
+      "month": 12,
+      "day": 1,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Laxmanpur Bathe",
+      "longitude": 84.64,
+      "latitude": 25.23,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Bihar",
+        "district": "Arwal",
+        "village": "Laxmanpur Bathe"
+      }
+    },
+    "summary": "On the night of 1 December 1997, Ranvir Sena men crossed the Sone, killed the boatmen, and spent three hours in the Dalit tola of Laxmanpur Bathe. Human Rights Watch counted 16 children, 27 women and 18 men — 61 in that telling; most Indian court and press counts sit at 58. Girls were raped before they were shot. President K. R. Narayanan called it a national shame. The Patna High Court acquitted the accused in 2013.",
+    "sides": [
+      {
+        "label": "Ranvir Sena",
+        "role": "attacker",
+        "kind": "militia",
+        "actorId": "ranvir-sena"
+      },
+      {
+        "label": "Dalit labourers of Laxmanpur Bathe",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 58,
+        "killedMax": 62,
+        "killedBest": 58,
+        "of": "civilian",
+        "sideLabel": "Dalits of Laxmanpur Bathe, including children and pregnant women",
+        "claimedBy": "Human Rights Watch Broken People (16 children, 27 women, 18 men); most Indian court records use 58; some contemporaneous reports 59–62",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Human Rights Watch",
+        "headline": "Broken People: Caste Violence Against India’s Untouchables",
+        "year": 1999,
+        "url": "https://www.hrw.org/report/1999/03/01/broken-people/caste-violence-against-indias-untouchables",
+        "excerpt": "On the night of December 1, 1997, the Ranvir Sena shot dead sixteen children, twenty-seven women, and eighteen men in the village of Laxmanpur-Bathe, Jehanabad district Bihar. Five teenage girls were raped and mutilated before being shot in the chest.",
+        "stance": "victim"
+      },
+      {
+        "outlet": "Outlook",
+        "headline": "Bathed In Terror",
+        "year": 1997,
+        "url": "https://www.outlookindia.com/national/bathed-in-terror-news-204715",
+        "excerpt": "On the night of December 1, more than 100 armed marauders of the Ranvir Sena crossed the Sone by two boats, killed the boatmen, swooped down on Bathe, opening a barrage of bullets, shouting slogans of ‘Ranvir baba ki jai’.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "hondh-chillar-1984",
+    "conflictId": "punjab-khalistan",
+    "name": "Hondh-Chillar, 2 November 1984",
+    "kind": "massacre",
+    "time": {
+      "year": 1984,
+      "month": 11,
+      "day": 2,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Hondh-Chillar",
+      "longitude": 76.652,
+      "latitude": 28.28,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Haryana",
+        "district": "Rewari",
+        "village": "Hondh-Chillar"
+      }
+    },
+    "summary": "Two days after Indira Gandhi was shot, a crowd arrived at Hondh-Chillar, a small Sikh settlement in Rewari district, Haryana. The gurdwara was burned. Villagers who ran inside died there. The Justice T. P. Garg Commission later counted 32 dead, 31 of them from the hamlet and one army man. The site was widely noticed only in 2011. Delhi 1984 is a separate day.",
+    "sides": [
+      {
+        "label": "a crowd brought from the Pataudi / Rewari side, described in FIRs as Congress-linked",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Sikh villagers of Hondh-Chillar",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 31,
+        "killedMax": 38,
+        "killedBest": 32,
+        "of": "civilian",
+        "sideLabel": "Sikh villagers of Hondh-Chillar",
+        "claimedBy": "Justice T. P. Garg Commission (31 from the village plus army man Inderjit Singh); India Today 2014 cited 38",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "India Today",
+        "headline": "There was blood all over the gurdwara, says Hond Chillar massacre survivor",
+        "year": 2014,
+        "url": "https://www.indiatoday.in/india/north/story/indira-gandhi-assassination-hond-chillar-massacre-anti-sikh-riots-rewari-225491-2014-11-02",
+        "excerpt": "Thirty-eight people, including women and children, from Rewari district’s Hond Chillar village were burnt alive in a local gurdwara on November 2, 1984.",
+        "stance": "victim"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "‘To break 42 years of silence’: Punjab MLA to hold prayer meet at Hondh-Chillar tragedy site",
+        "year": 2026,
+        "url": "https://indianexpress.com/article/cities/chandigarh/hondh-chillar-1984-massacre-punjab-mla-giaspura-sikh-prayer-10503530/",
+        "excerpt": "Over four decades after at least 32 Sikhs were allegedly massacred by a mob on November 2, 1984, at Hondh-Chillar in Haryana’s Rewari.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kanpur-nov-1984",
+    "conflictId": "punjab-khalistan",
+    "name": "Kanpur, November 1984",
+    "kind": "massacre",
+    "time": {
+      "year": 1984,
+      "month": 11,
+      "day": 1,
+      "precision": "day",
+      "note": "Killings 1–3 November; peaked 1–2 Nov."
+    },
+    "place": {
+      "name": "Kanpur",
+      "longitude": 80.332,
+      "latitude": 26.45,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Uttar Pradesh",
+        "district": "Kanpur Nagar"
+      }
+    },
+    "summary": "After Delhi, Kanpur was the worst 1984 city. Officially 127 Sikhs were killed. Families still say closer to 300. An SIT unlocked a Govind Nagar house in 2021 and found the rooms where Tej Pratap Singh and his son were burned, left as they were. Police later told an RTI that the FIRs had been destroyed in the ordinary weeding of records.",
+    "sides": [
+      {
+        "label": "organised crowds in Kanpur",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Sikh civilians of Kanpur",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 127,
+        "killedMax": 300,
+        "killedBest": 127,
+        "of": "civilian",
+        "sideLabel": "Sikh civilians in Kanpur",
+        "claimedBy": "Government figure 127, cited by The Hindu and Indian Express; All-India Riot Victim Relief Committee puts the real figure around 300",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Indian Express",
+        "headline": "36 years after Sikh riots, probe team picks evidence from locked Kanpur house",
+        "year": 2021,
+        "url": "https://indianexpress.com/article/india/indira-gandhi-assassination-36-years-after-sikh-riots-probe-team-picks-evidence-from-locked-kanpur-house-7449636/",
+        "excerpt": "Set up by the Yogi Adityanath government, the SIT probe is the first-ever investigation in Uttar Pradesh into the violence against Sikhs in 1984. Kanpur had seen the worst rioting after Delhi, with 127 killed.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Hindu",
+        "headline": "RTI query reveals cops destroyed FIRs of 1984 riots",
+        "year": 2015,
+        "url": "https://www.thehindu.com/news/cities/Delhi/rti-query-reveals-cops-destroyed-firs-of-1984-riots/article7096930.ece",
+        "excerpt": "The government says 127 innocent Sikhs were killed in Kanpur, but the real figure is around 300. In response to our question under the RTI Act, most of the police stations said no Sikhs were killed in their jurisdiction.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  }
+]

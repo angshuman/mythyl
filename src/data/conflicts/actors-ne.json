@@ -1,0 +1,145 @@
+[
+  {
+    "id": "nnc",
+    "name": "Naga National Council",
+    "aliases": [
+      "NNC",
+      "Federal Government of Nagaland",
+      "Naga Central Government"
+    ],
+    "kind": "insurgent-group",
+    "tribes": [
+      "Naga"
+    ],
+    "active": {
+      "start": {
+        "year": 1946,
+        "precision": "year"
+      },
+      "ongoing": true,
+      "note": "Armed phase from 1956; split after the 1975 Shillong Accord. Residual NNC still exists beside NSCN factions."
+    }
+  },
+  {
+    "id": "hnlc",
+    "name": "HNLC",
+    "aliases": [
+      "Hynniewtrep National Liberation Council"
+    ],
+    "kind": "insurgent-group",
+    "tribes": [
+      "Khasi",
+      "Jaintia"
+    ],
+    "active": {
+      "start": {
+        "year": 1992,
+        "precision": "year",
+        "note": "Split from Hynniewtrep Achik Liberation Council."
+      },
+      "ongoing": true
+    }
+  },
+  {
+    "id": "gnla",
+    "name": "GNLA",
+    "aliases": [
+      "Garo National Liberation Army"
+    ],
+    "kind": "insurgent-group",
+    "tribes": [
+      "Garo"
+    ],
+    "active": {
+      "start": {
+        "year": 2009,
+        "precision": "year"
+      },
+      "end": {
+        "year": 2018,
+        "month": 2,
+        "precision": "month",
+        "note": "Collapsed after Sohan D. Shira was killed, 24 February 2018."
+      }
+    }
+  },
+  {
+    "id": "anvc",
+    "name": "ANVC",
+    "aliases": [
+      "Achik National Volunteer Council"
+    ],
+    "kind": "insurgent-group",
+    "tribes": [
+      "Garo"
+    ],
+    "active": {
+      "start": {
+        "year": 1995,
+        "precision": "year"
+      },
+      "end": {
+        "year": 2014,
+        "precision": "year"
+      }
+    }
+  },
+  {
+    "id": "knf",
+    "name": "Kuki National Front",
+    "aliases": [
+      "KNF"
+    ],
+    "kind": "insurgent-group",
+    "tribes": [
+      "Kuki"
+    ]
+  },
+  {
+    "id": "kna",
+    "name": "Kuki National Army",
+    "aliases": [
+      "KNA"
+    ],
+    "kind": "insurgent-group",
+    "tribes": [
+      "Kuki"
+    ]
+  },
+  {
+    "id": "zra",
+    "name": "Zomi Revolutionary Army",
+    "aliases": [
+      "ZRA",
+      "Zomi Council armed wing"
+    ],
+    "kind": "insurgent-group",
+    "tribes": [
+      "Paite",
+      "Zomi"
+    ]
+  },
+  {
+    "id": "junagadh-nawab",
+    "name": "Nawab of Junagadh",
+    "aliases": [
+      "Muhammad Mahabat Khanji III"
+    ],
+    "kind": "state"
+  },
+  {
+    "id": "sikkim-chogyal",
+    "name": "Chogyal of Sikkim",
+    "aliases": [
+      "Palden Thondup Namgyal",
+      "Namgyal dynasty"
+    ],
+    "kind": "state"
+  },
+  {
+    "id": "meghalaya-police",
+    "name": "Meghalaya Police",
+    "kind": "police",
+    "parentId": "in-gov"
+  }
+]

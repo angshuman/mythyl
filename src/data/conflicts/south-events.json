@@ -1,0 +1,725 @@
+[
+  {
+    "id": "sriperumbudur-1991",
+    "conflictId": "rajiv-gandhi-1991",
+    "name": "Sriperumbudur suicide bombing",
+    "kind": "assassination",
+    "time": {
+      "year": 1991,
+      "month": 5,
+      "day": 21,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Election rally ground, Sriperumbudur",
+      "longitude": 79.945,
+      "latitude": 12.96,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Tamil Nadu",
+        "district": "Kanchipuram"
+      }
+    },
+    "summary": "At about 10:10 p.m. on 21 May 1991, LTTE member Thenmozhi Rajaratnam (Dhanu) detonated a belt bomb as she garlanded Rajiv Gandhi at a Congress election meeting. Gandhi, the bomber, photographer Haribabu and others in the receiving line were killed. The Jain Commission and a TADA court later held the LTTE leadership responsible.",
+    "sides": [
+      {
+        "label": "LTTE suicide bomber Dhanu, under Sivarasan",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "ltte"
+      },
+      {
+        "label": "Rajiv Gandhi and rally crowd",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 15,
+        "killedMax": 18,
+        "killedBest": 17,
+        "injuredBest": 43,
+        "of": "mixed",
+        "sideLabel": "Rajiv Gandhi, police, Congress workers and bystanders, plus the bomber",
+        "claimedBy": "The Hindu (Gandhi, Dhanu and 16 others); BBC first night Gandhi and at least 14 others; Indian Express timeline Gandhi and 16 others",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Rajiv Gandhi’s assassination and the downfall of LTTE",
+        "year": 2021,
+        "url": "https://www.thehindu.com/news/national/rajiv-gandhis-assassination-and-the-downfall-of-ltte/article34609851.ece",
+        "excerpt": "Dhanu put the garland around him and bent down as if to touch his feet. But she never got up. She switched on the toggle switch attached to her suicide vest, triggering a terrible blast that ripped through her, Rajiv Gandhi and 16 others.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "BBC",
+        "headline": "1991: Bomb kills India's former leader Rajiv Gandhi",
+        "year": 1991,
+        "url": "http://news.bbc.co.uk/onthisday/hi/dates/stories/may/21/newsid_2504000/2504739.stm",
+        "excerpt": "At least 14 other people were also killed in the attack in the town of Sriperumbudur, about 30 miles from Madras. No-one has admitted carrying out the murder but it is being blamed on the Liberation Tigers of Tamil Eelam.",
+        "stance": "independent"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jain Commission of Inquiry, final report",
+        "year": 1998
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "coimbatore-riots-1997",
+    "conflictId": "coimbatore-1998",
+    "name": "Coimbatore communal riots after Selvaraj murder",
+    "kind": "riot",
+    "time": {
+      "year": 1997,
+      "month": 11,
+      "day": 30,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Kottaimedu / Ukkadam, Coimbatore",
+      "longitude": 76.96,
+      "latitude": 10.99,
+      "precision": "block",
+      "admin": {
+        "country": "India",
+        "state": "Tamil Nadu",
+        "district": "Coimbatore"
+      }
+    },
+    "summary": "After Al-Umma cadres stabbed traffic constable R. Selvaraj at Kottaimedu on the night of 29 November 1997, sections of the city police abandoned duty. Hindu militants and a security vacuum produced three days of arson and firing against Muslims. Al-Umma later named those deaths as the motive for the February bombs.",
+    "sides": [
+      {
+        "label": "Al-Umma cadres (Selvaraj killing)",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "al-umma"
+      },
+      {
+        "label": "Hindu militants and revolting policemen",
+        "role": "attacker",
+        "kind": "militia"
+      },
+      {
+        "label": "Muslim neighbourhoods of Coimbatore",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 18,
+        "killedMax": 24,
+        "killedBest": 20,
+        "of": "civilian",
+        "sideLabel": "mostly Muslims killed in rioting and police firing; two Hindus in Frontline’s contemporaneous count",
+        "claimedBy": "Frontline 1997: 18 Muslims and two Hindus; Indian Express 2025: 18 Muslims",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Frontline",
+        "headline": "Confrontation in Coimbatore",
+        "year": 1997,
+        "url": "https://frontline.thehindu.com/politics/article30160583.ece",
+        "excerpt": "Between November 29 and December 1, Coimbatore witnessed a communal conflagration unprecedented in the toll it took of life and property. At the end of three days of murder, arson, looting and police firing, 18 Muslims and two Hindus were dead.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "Coimbatore serial blasts: what happened in 1997-98",
+        "year": 2026,
+        "url": "https://indianexpress.com/article/explained/explained-history/coimbatore-serial-bomb-blasts-history-basha-parole-controversy-10930815/",
+        "excerpt": "Eighteen Muslims were killed during the ensuing communal violence and police firing. These deaths were subsequently invoked by extremists to mobilise support for retaliation.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "coimbatore-blasts-1998",
+    "conflictId": "coimbatore-1998",
+    "name": "Coimbatore serial bombings",
+    "kind": "bombing",
+    "time": {
+      "year": 1998,
+      "month": 2,
+      "day": 14,
+      "precision": "day"
+    },
+    "place": {
+      "name": "R.S. Puram and eleven sites across Coimbatore",
+      "longitude": 76.951,
+      "latitude": 11.011,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Tamil Nadu",
+        "district": "Coimbatore"
+      }
+    },
+    "summary": "On 14 February 1998, Al-Umma bombs exploded at about eleven places as L.K. Advani was due to address a BJP meeting at R.S. Puram. His delayed flight meant he had not reached the venue. A special court later convicted S.A. Basha and scores of others. Al-Umma was a Coimbatore-born group, not a Pakistan-based franchise.",
+    "sides": [
+      {
+        "label": "Al-Umma",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "al-umma"
+      },
+      {
+        "label": "election crowds, shops and a government hospital",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 46,
+        "killedMax": 58,
+        "killedBest": 58,
+        "injuredBest": 200,
+        "of": "civilian",
+        "sideLabel": "people at R.S. Puram, the railway junction, shops and hospital",
+        "claimedBy": "Indian Express / Frontline / special-court reporting: 58 dead, 200+ injured. Some first-night Hindu copy used ~46.",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Indian Express",
+        "headline": "Coimbatore serial blasts: what happened in 1997-98",
+        "year": 2026,
+        "url": "https://indianexpress.com/article/explained/explained-history/coimbatore-serial-bomb-blasts-history-basha-parole-controversy-10930815/",
+        "excerpt": "On February 14, 1998, bombs exploded across Coimbatore as crowds gathered for Advani’s election meeting at R S Puram. The eventual death toll associated with the blasts was 58, with more than 200 injured.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Frontline",
+        "headline": "Death no penalty",
+        "year": 2007,
+        "url": "https://frontline.thehindu.com/other/article30193442.ece",
+        "excerpt": "A series of bomb blasts in Coimbatore, Tamil Nadu, on February 14, 1998, killed 58 people and injured 250. Al-Umma, a militant Muslim organisation, was behind the explosions.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "bangalore-blasts-2008",
+    "conflictId": "indian-mujahideen-2008",
+    "name": "Bengaluru serial blasts",
+    "kind": "bombing",
+    "time": {
+      "year": 2008,
+      "month": 7,
+      "day": 25,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Madiwala, Adugodi and other sites, Bengaluru",
+      "longitude": 77.617,
+      "latitude": 12.923,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Karnataka",
+        "district": "Bengaluru Urban"
+      }
+    },
+    "summary": "Low-intensity timer bombs went off at eight or nine places in Bengaluru on 25 July 2008, a day before the Ahmedabad serial blasts. A woman waiting at the Madiwala bus stop was killed. Police first named SIMI and Lashkar; later IM confessions described the Bengaluru job as ‘Tomato work’ under Riyaz Bhatkal.",
+    "sides": [
+      {
+        "label": "Indian Mujahideen (investigative attribution)",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "im"
+      },
+      {
+        "label": "bus-stop and roadside crowds",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 1,
+        "killedMax": 2,
+        "killedBest": 1,
+        "injuredBest": 20,
+        "of": "civilian",
+        "sideLabel": "people at Madiwala and other blast sites",
+        "claimedBy": "Rediff / Times of India: one woman (Lakshmi / Sudha) killed at Madiwala; some first-night agency copy said two dead",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Rediff",
+        "headline": "9 blasts rock Bengaluru; 1 killed, 7 injured",
+        "year": 2008,
+        "url": "https://www.rediff.com/news/2008/jul/25beng.htm",
+        "excerpt": "Low intensity blasts in a span of one hour in six different places rocked the IT capital of India on Friday afternoon in which one person died and seven were injured. A woman who died in the blasts has been identified as Lakshmi.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Rediff",
+        "headline": "Tracking Indian Mujahideen's blood trail",
+        "year": 2009,
+        "url": "https://www.rediff.com/news/report/beng-tracking-indian-mujahideen-blood-trail/20090411.htm",
+        "excerpt": "Investigations… have revealed that the dreaded outfit had undertaken blasts at Varanasi, Bengaluru, Ahmedabad, Delhi and Surat. For the Bengaluru operation, the code word was Tomato work.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "marad-beach-2002",
+    "conflictId": "marad-2002",
+    "name": "Marad beach clash",
+    "kind": "riot",
+    "time": {
+      "year": 2002,
+      "month": 1,
+      "day": 4,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Marad beach, Kozhikode",
+      "longitude": 75.787,
+      "latitude": 11.207,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Kerala",
+        "district": "Kozhikode",
+        "village": "Marad"
+      }
+    },
+    "summary": "On 3–4 January 2002 a quarrel over New Year festivities in the Kozhikode fishing hamlet of Marad became a Hindu–Muslim clash. Five people were killed, houses and boats were destroyed, and hundreds of families later fled. Frontline recorded three of the dead as from the minority community.",
+    "sides": [
+      {
+        "label": "Hindu and Muslim fishing-village crowds",
+        "role": "unclear",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 5,
+        "killedMax": 5,
+        "killedBest": 5,
+        "of": "civilian",
+        "sideLabel": "Hindu and Muslim villagers",
+        "claimedBy": "Frontline 2003: five killed, three of them from a minority community; The Hindu 2023: 3–4 January 2002",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Frontline",
+        "headline": "Kerala's communal challenge",
+        "year": 2003,
+        "url": "https://frontline.thehindu.com/other/article30217239.ece",
+        "excerpt": "An incident on January 3, 2002, which left five people (three of them belonging to a minority community) murdered, nearly 100 houses destroyed and the boats and fishing gear of hundreds of families destroyed, was reportedly sparked off by a quarrel over the New Year festivities.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "marad-massacre-2003",
+    "conflictId": "marad-2002",
+    "name": "Marad beach massacre",
+    "kind": "massacre",
+    "time": {
+      "year": 2003,
+      "month": 5,
+      "day": 2,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Marad beach, Kozhikode",
+      "longitude": 75.787,
+      "latitude": 11.207,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Kerala",
+        "district": "Kozhikode",
+        "village": "Marad"
+      }
+    },
+    "summary": "On the evening of 2 May 2003 an armed group hacked eight Hindu fishermen on Marad beach; one attacker also died. The Thomas P. Joseph Commission called it a planned communal conspiracy. A special court later sentenced 62 accused to life; the prosecution did not prove a named-org conspiracy charge at trial.",
+    "sides": [
+      {
+        "label": "armed Muslim mob; Crime Branch named NDF",
+        "role": "attacker",
+        "kind": "militia",
+        "actorId": "ndf"
+      },
+      {
+        "label": "Hindu fishermen on the beach",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 8,
+        "killedMax": 8,
+        "killedBest": 8,
+        "of": "civilian",
+        "sideLabel": "Hindu fishermen",
+        "claimedBy": "NHRC 2003; The Hindu 2023; special-court record",
+        "contested": false
+      },
+      {
+        "killedMin": 1,
+        "killedMax": 1,
+        "killedBest": 1,
+        "of": "militia",
+        "sideLabel": "one attacker killed in the affray",
+        "claimedBy": "The Hindu 2023; Frontline 2003",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Marad, where time mended the chasms",
+        "year": 2023,
+        "url": "https://www.thehindu.com/news/national/kerala/marad-where-time-mended-the-chasms/article66790114.ece",
+        "excerpt": "Later on May 2, 2003, eight fishermen lost their lives, and several others were severely injured in a meticulously planned attack. An assailant also was killed accidently in the incident.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "NHRC",
+        "headline": "Marad victims get compensation",
+        "year": 2003,
+        "url": "https://nhrc.nic.in/media/press-release/marad-victims-get-compensation",
+        "excerpt": "On 2 May, 2003, Muslim terrorists armed with deadly weapons and explosives attacked Hindu fishermen as a result of which eight Hindu fishermen died and 15 others including one woman were seriously injured.",
+        "stance": "state"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "cauvery-bangalore-1991",
+    "conflictId": "cauvery-riots",
+    "name": "Bangalore Cauvery riots",
+    "kind": "riot",
+    "time": {
+      "year": 1991,
+      "month": 12,
+      "day": 13,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Bangalore",
+      "longitude": 77.594,
+      "latitude": 12.972,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Karnataka",
+        "district": "Bengaluru Urban"
+      }
+    },
+    "summary": "After the Centre gazetted the Cauvery tribunal’s interim award, a 13 December 1991 bandh called by pro-Kannada groups turned into attacks on Tamil homes, shops, theatres and Tamil Nadu–registered lorries in Bangalore and southern Karnataka. Thousands of Tamils fled. Official Karnataka figures counted 16 dead in police firing; other counts run higher.",
+    "sides": [
+      {
+        "label": "pro-Kannada mobs",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Tamil residents and TN-registered vehicles",
+        "role": "target",
+        "kind": "civilian"
+      },
+      {
+        "label": "Karnataka police",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "in-gov"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 16,
+        "killedMax": 28,
+        "of": "mixed",
+        "sideLabel": "people killed in Bangalore and southern Karnataka, including police firing",
+        "claimedBy": "Karnataka official: 16 in police firing. Deccan Chronicle later used 28 in the city. IPHR Tribunal recorded large-scale destruction without a single agreed death total.",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "When water set fire to a city",
+        "year": 2013,
+        "url": "https://www.thehindu.com/features/metroplus/when-water-set-fire-to-a-city/article5032395.ece",
+        "excerpt": "A bandh called by pro-Kannada organisations on the 13th against the Cauvery Water Tribunal led to unprecedented violence, in and around Bangalore, Ramanagaram, Mysore and other places. Hundreds of vehicles specially lorries with TN registration were burnt.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Hindu",
+        "headline": "Victims of 1991 violence over Cauvery row recall trauma",
+        "year": 2016,
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/Victims-of-1991-violence-overCauvery-row-recall-trauma/article14523038.ece",
+        "excerpt": "After the Supreme Court upheld the interim award of the Cauvery Water Disputes Tribunal, a State-wide bandh on December 13 ended in violence against the Tamil people. Of the thousands of Tamils who fled Karnataka, 26 families from Kamala Nagar escaped by train to Chennai.",
+        "stance": "victim"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "cauvery-bengaluru-2016",
+    "conflictId": "cauvery-riots",
+    "name": "Bengaluru Cauvery protests",
+    "kind": "riot",
+    "time": {
+      "year": 2016,
+      "month": 9,
+      "day": 12,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Hegganahalli and southern/western Bengaluru",
+      "longitude": 77.512,
+      "latitude": 13.018,
+      "precision": "block",
+      "admin": {
+        "country": "India",
+        "state": "Karnataka",
+        "district": "Bengaluru Urban"
+      }
+    },
+    "summary": "After the Supreme Court ordered Karnataka to release Cauvery water to Tamil Nadu, 12 September 2016 saw buses and TN vehicles burned and shops looted in Bengaluru. Police opened fire at Hegganahalli; Umesh, 25, a petrol-pump worker from Kunigal, was killed. Curfew followed in 16 police limits.",
+    "sides": [
+      {
+        "label": "pro-Kannada protesters and looters",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Bengaluru police",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "in-gov"
+      },
+      {
+        "label": "Tamil Nadu–bound buses and shops",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 1,
+        "killedMax": 1,
+        "killedBest": 1,
+        "injuredBest": 5,
+        "of": "civilian",
+        "sideLabel": "Umesh, killed in police firing at Hegganahalli; five others injured",
+        "claimedBy": "Times of India / Indian Express / Reuters, 12–13 September 2016",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Reuters",
+        "headline": "One killed in riots in Indian IT hub over river water dispute",
+        "year": 2016,
+        "url": "https://www.reuters.com/article/protests-bengaluru-cauvery-tamilnadu-idINKCN11I15D/",
+        "excerpt": "At least one person was killed and another wounded when police opened fire to quell rioting that erupted in the Indian technology hub of Bengaluru on Monday over a long-running river water dispute.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Times of India",
+        "headline": "Cauvery row: 1 killed in firing, 16 Bengaluru areas under curfew",
+        "year": 2016,
+        "url": "https://timesofindia.indiatimes.com/city/bengaluru/cauvery-row-1-killed-in-firing-16-bengaluru-areas-under-curfew/articleshow/54302692.cms",
+        "excerpt": "Police opened fire when looters attacked their Hoysala vehicle at Hegganahalli, off Tumakuru Road, leading to the death of one person and injury to five others. The dead man was identified as Umesh, 25, from Kunigal.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "puducherry-transfer-1954",
+    "conflictId": "puducherry-1954",
+    "name": "De facto transfer at Government House",
+    "kind": "other",
+    "time": {
+      "year": 1954,
+      "month": 11,
+      "day": 1,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Government House, Pondicherry",
+      "longitude": 79.835,
+      "latitude": 11.937,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Puducherry",
+        "district": "Puducherry"
+      }
+    },
+    "summary": "At 6:54 a.m. on 1 November 1954, Pierre Landy of the French Foreign Office handed the seals of the four French settlements to Kewal Singh, India’s commissioner-designate, at Government House. A 21-gun salute and the Tricolour marked the end of French administration. Sovereignty stayed with France until the 1962 de jure cession.",
+    "sides": [
+      {
+        "label": "Government of India",
+        "role": "unclear",
+        "kind": "state-forces",
+        "actorId": "in-gov"
+      },
+      {
+        "label": "France",
+        "role": "unclear",
+        "kind": "foreign-forces",
+        "actorId": "fr-gov"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "Hindustan Times",
+        "headline": "140-year French rule ends, Pondicherry merges with India",
+        "year": 1954,
+        "url": "https://www.hindustantimes.com/india-news/htarchives-140-year-french-rule-ends-pondicherry-merges-with-india-101730486133269.html",
+        "excerpt": "In a brief but solemn ceremony, at Government House, M Pierre Landy, of the French Foreign Office, handed over the seals of authority to Kewal Singh, Indian Consul-General and Commissioner-designate of the settlements, exactly at 6.54am.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "yanam-coup-1954",
+    "conflictId": "puducherry-1954",
+    "name": "Yanam takeover",
+    "kind": "operation",
+    "time": {
+      "year": 1954,
+      "month": 6,
+      "day": 13,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Yanam",
+      "longitude": 82.217,
+      "latitude": 16.733,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Puducherry",
+        "district": "Yanam"
+      }
+    },
+    "summary": "On 13 June 1954 pro-merger volunteers led by Dadala Raphael Ramanayya marched from Kakinada into the French enclave of Yanam, disarmed the post and hoisted the Indian flag. French police threw grenades and fired; the takeover still went through. The enclave is a Puducherry district inside coastal Andhra. De facto transfer of all four settlements followed on 1 November.",
+    "sides": [
+      {
+        "label": "pro-merger Indian volunteers",
+        "role": "attacker",
+        "kind": "civilian",
+        "actorId": "in-gov"
+      },
+      {
+        "label": "French administration at Yanam",
+        "role": "defender",
+        "kind": "foreign-forces",
+        "actorId": "fr-gov"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "Hindustan Times",
+        "headline": "French pockets to become part of India on November 1",
+        "year": 1954,
+        "url": "https://www.hindustantimes.com/india-news/ht-this-day-october-19-1954-french-pockets-to-become-part-of-india-on-november-1-101666017615020.html",
+        "excerpt": "The administration of the four French settlements of Pondicherry, Karaikal, Yanam and Mahe will pass into the hands of the Government of India on November 1 following an overwhelming vote for the merger of these pockets with the Indian Union.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "hyderabad-old-city-1990",
+    "conflictId": "hyderabad-1990",
+    "name": "Old City stabbings, December 1990",
+    "kind": "riot",
+    "time": {
+      "year": 1990,
+      "month": 12,
+      "day": 8,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Old City / Charminar, Hyderabad",
+      "longitude": 78.475,
+      "latitude": 17.362,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Telangana",
+        "district": "Hyderabad"
+      }
+    },
+    "summary": "On 8 December 1990, after weeks of Ayodhya tension, stabbings and arson spread through Hyderabad’s walled city. The army was in by 10 December. The killing ran for about ten weeks. Hindustan Times later called it the worst riot in the city’s post-1948 history, with more than 200 dead.",
+    "sides": [
+      {
+        "label": "Hindu and Muslim mobs in the Old City",
+        "role": "unclear",
+        "kind": "civilian"
+      },
+      {
+        "label": "Andhra Pradesh police and Indian Army",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "in-gov"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 200,
+        "killedMax": 300,
+        "of": "civilian",
+        "sideLabel": "Hindu and Muslim residents of the Old City",
+        "claimedBy": "Hindustan Times 2008: over 200, more than half Hindus. Sudhir Kakar: more than 300 over ten weeks. Sixty-four killed, stabbed or shot in the first three days in some press tallies.",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Hindustan Times",
+        "headline": "Hyderabad (AP) December 8, 1990 over 200 dead",
+        "year": 2008,
+        "url": "https://www.hindustantimes.com/india/hyderabad-ap-december-8-1990-over-200-dead/story-sN3L97xlBwVdIQDqkypWiI.html",
+        "excerpt": "The 1990 riot — in which over 200 people were killed — was the worst in Hyderabad’s history. More than half the victims were Hindus. Tension between Hindus and Muslims had been building for over a month in the old city, ever since a crowd of Hindu activists stormed the Babri Masjid in Ayodhya.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "India Today",
+        "headline": "Frenzied call for Ram Mandir at Ayodhya unleashes wave of communal killings",
+        "year": 1991,
+        "url": "https://www.indiatoday.in/magazine/special-report/story/19910115-frenzied-call-for-ram-mandir-at-ayodhya-unleashes-wave-of-communal-killings-in-uttar-pradesh-hyderabad-813849-1991-01-14",
+        "excerpt": "The frenzied call for the Ram Mandir at Ayodhya and the kalash yatra unleashed a wave of communal killings in Uttar Pradesh and the old city of Hyderabad.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  }
+]

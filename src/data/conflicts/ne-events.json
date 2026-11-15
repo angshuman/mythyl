@@ -1,0 +1,926 @@
+[
+  {
+    "id": "junagadh-entry-1947",
+    "conflictId": "junagadh-1947",
+    "name": "Indian troops enter Junagadh",
+    "kind": "operation",
+    "time": {
+      "year": 1947,
+      "month": 11,
+      "day": 9,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Junagadh",
+      "longitude": 70.458,
+      "latitude": 21.522,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Gujarat",
+        "district": "Junagadh"
+      }
+    },
+    "summary": "After the Nawab fled to Karachi, Dewan Shah Nawaz Bhutto asked Delhi to take over the administration. A battalion with a few medium tanks entered Junagadh city at 6 p.m. on 9 November. Pakistan called it an occupation of acceded territory. The February 1948 plebiscite came later.",
+    "story": "The force took Veraval port, the airfield and the state-forces headquarters. The treasury was empty.",
+    "sides": [
+      {
+        "label": "Indian Army / States Ministry",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "in-army"
+      },
+      {
+        "label": "Junagadh State",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "junagadh-nawab"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "Hindustan Times",
+        "headline": "India takes over govt of Junagadh",
+        "year": 1947,
+        "url": "https://www.hindustantimes.com/india-news/ht-this-day-nov-10-1947-india-takes-over-govt-of-junagadh-101667820829909.html",
+        "excerpt": "Troops of the Indian Dominion comprising a battalion with a few medium tanks entered Junagadh City at 6 p.m. today. The local population lined the route and gave an ovation to the Indian forces.",
+        "stance": "state"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "When Junagadh voted to join India, and Pakistan got just 91 votes",
+        "year": 2020,
+        "url": "https://indianexpress.com/article/explained/explained-when-junagadh-voted-to-join-india-and-pakistan-got-just-91-votes-6540331/",
+        "excerpt": "Of 2,01,457 registered voters, 1,90,870 cast their votes. Of this number only 91 cast their votes in favour of accession to Pakistan.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sikkim-palace-1975",
+    "conflictId": "sikkim-1975",
+    "name": "Sikkim Guards disarmed",
+    "kind": "operation",
+    "time": {
+      "year": 1975,
+      "month": 4,
+      "day": 9,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Gangtok palace",
+      "longitude": 88.614,
+      "latitude": 27.328,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Sikkim",
+        "district": "Gangtok"
+      }
+    },
+    "summary": "Indian troops surrounded the Chogyal’s palace and disarmed the Sikkim Guards in about twenty minutes. Sentry Basant Kumar Chhetri was shot at the main gate. The Assembly then voted to abolish the monarchy; the 14 April referendum and 16 May statehood followed.",
+    "story": "Delhi said the chief minister had asked for intervention against a palace plot. The Chogyal said his kingdom had been swallowed.",
+    "sides": [
+      {
+        "label": "Indian Army (64 Mountain Brigade)",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "in-army"
+      },
+      {
+        "label": "Sikkim Guards / Chogyal",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "sikkim-chogyal"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 1,
+        "killedMax": 1,
+        "killedBest": 1,
+        "of": "unknown",
+        "sideLabel": "Sikkim Guards sentry Basant Kumar Chhetri",
+        "claimedBy": "Nepali Times reconstruction; later Indian accounts of the palace operation",
+        "contested": false,
+        "note": "One named sentry killed; a second sentry wounded and later lost an arm. Not a census of 1973 street deaths."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Nepali Times",
+        "headline": "25 years after Sikkim",
+        "year": 2001,
+        "url": "https://archive.nepalitimes.com/news.php?id=9621",
+        "excerpt": "Basanta Kumar Chhetri, a 19-year-old guard at the palace's main gate, was struck by a bullet and killed — the first casualty of the takeover. The 5,000-strong Indian force didn't take more than 30 minutes to subdue the palace guards who numbered only 243.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "Sikkim Day: The story of Sikkim’s integration with India",
+        "year": 2023,
+        "url": "https://indianexpress.com/article/explained/explained-history/sikkim-day-story-sikkim-integration-india-explained-8612125/",
+        "excerpt": "A referendum was held in Sikkim in 1975, where two-thirds of eligible voters took part. Here, 59,637 votes were cast in favour of abolishing the monarchy and joining India, with 1,496 voting against.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "nengpatchi-2011",
+    "conflictId": "meghalaya-insurgency",
+    "name": "Nengpatchi ambush",
+    "kind": "ambush",
+    "time": {
+      "year": 2011,
+      "month": 10,
+      "day": 31,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Nengpatchi, East Garo Hills",
+      "longitude": 90.77,
+      "latitude": 25.57,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Meghalaya",
+        "district": "East Garo Hills"
+      }
+    },
+    "summary": "Twelve to fifteen GNLA cadres ambushed a police patrol in a private vehicle at Nengpatchi, about 4 km from Dobu on the Rongjeng road. Four policemen and the civilian driver were killed; two policemen were wounded. The attackers took two AK-47s, two SLRs and a carbine.",
+    "sides": [
+      {
+        "label": "GNLA",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "gnla"
+      },
+      {
+        "label": "Meghalaya Police patrol",
+        "role": "target",
+        "kind": "state-forces",
+        "actorId": "meghalaya-police"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 4,
+        "killedMax": 4,
+        "killedBest": 4,
+        "injuredBest": 2,
+        "of": "state-forces",
+        "sideLabel": "Meghalaya Police",
+        "claimedBy": "The Shillong Times; SATP Meghalaya 2012 assessment",
+        "contested": false,
+        "note": "Constable N.R. Marak, Havildar Probinson Sangma, Havildar Victor Marak, Battalion Constable E. Sangma."
+      },
+      {
+        "killedMin": 1,
+        "killedMax": 1,
+        "killedBest": 1,
+        "of": "civilian",
+        "sideLabel": "civilian driver of the patrol vehicle",
+        "claimedBy": "The Shillong Times",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Shillong Times",
+        "headline": "GNLA kills 4 cops, 1 civilian",
+        "year": 2011,
+        "url": "https://theshillongtimes.com/2011/11/01/gnla-kills-4-cops-1-civilian/",
+        "excerpt": "As many as 12 to 15 heavily armed GNLA militants ambushed a private vehicle that was carrying six policemen on patrol duty from two sides at Nengpatchi village, 4 kms from Dobu towards Darugre police station of Rongjeng, at around 4:30pm.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "SATP",
+        "headline": "Meghalaya: Assessment-2012",
+        "year": 2012,
+        "url": "https://satp.org/terrorism-assessment/india-insurgencynortheast-meghalaya-2012",
+        "excerpt": "October 31, 2011: About 12 to 15 heavily armed GNLA militants ambushed a Police patrol at Nengpatchi village in East Garo Hills District, killing four Policemen and a civilian driver before decamping with five automatic rifles.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sohan-shira-2018",
+    "conflictId": "meghalaya-insurgency",
+    "name": "Sohan D. Shira killed",
+    "kind": "operation",
+    "time": {
+      "year": 2018,
+      "month": 2,
+      "day": 24,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Dobu A'chakpek, East Garo Hills",
+      "longitude": 90.74,
+      "latitude": 25.54,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Meghalaya",
+        "district": "East Garo Hills"
+      }
+    },
+    "summary": "Meghalaya Police Special Force-10 killed GNLA commander-in-chief Sohan D. Shira at a hilltop hideout near Dobu. Remaining cadres surrendered in the weeks after. SATP treats the killing as the end of GNLA as a fighting force; AFSPA left Meghalaya on 31 March.",
+    "story": "The hunt was stepped up after an IED at Samanda on 18 February killed NCP candidate Jonathone N. Sangma and others, an attack police tied to GNLA.",
+    "sides": [
+      {
+        "label": "Meghalaya Police SF-10",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "meghalaya-police"
+      },
+      {
+        "label": "GNLA",
+        "role": "target",
+        "kind": "insurgent",
+        "actorId": "gnla"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 1,
+        "killedMax": 1,
+        "killedBest": 1,
+        "of": "insurgent",
+        "sideLabel": "Sohan D. Shira, GNLA commander-in-chief",
+        "claimedBy": "Meghalaya Police / PTI",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "India Today / PTI",
+        "headline": "Meghalaya’s most-wanted militant shot dead",
+        "year": 2018,
+        "url": "https://www.indiatoday.in/pti-feed/story/meghalayas-most-wanted-militant-shot-dead-1177011-2018-02-24",
+        "excerpt": "Security forces today shot dead Meghalaya’s most-wanted militant and self-styled chief of the outlawed Garo National Liberation Army (GNLA) in an encounter in East Garo Hills district.",
+        "stance": "state"
+      },
+      {
+        "outlet": "SATP",
+        "headline": "Meghalaya: Assessment-2019",
+        "year": 2019,
+        "url": "https://satp.org/terrorism-assessment/india-insurgencynortheast-meghalaya-2019",
+        "excerpt": "The end of this insurgency was marked by the killing of GNLA founder ‘commander’ Sohan D. Shira on February 24, 2018, at Dobu A’chakpek in East Garo Hills District. After Shira’s death, the remaining GNLA militants also surrendered.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "joupi-1993",
+    "conflictId": "kuki-naga-1992",
+    "name": "Joupi massacre",
+    "kind": "massacre",
+    "time": {
+      "year": 1993,
+      "month": 9,
+      "day": 13,
+      "precision": "day",
+      "note": "Kuki Black Day / Sahnit-ni. SATP listed a Zoupi massacre on 16 September; commemorative and scholarly Kuki accounts fix 13 September."
+    },
+    "place": {
+      "name": "Joupi, Tamenglong–Senapati border",
+      "longitude": 93.82,
+      "latitude": 25.1,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Manipur",
+        "district": "Tamenglong"
+      }
+    },
+    "summary": "Kuki villagers walking out of Joupi after a United Naga Council quit notice were stopped on the road toward Tamei. Naga Lim Guard / NSCN-IM-linked attackers tied and hacked them. Kukis observe 13 September as Black Day. Same-day killings are also named at Janglenphai.",
+    "story": "The quit notice had given Kukis in the Jampi area until 15 September to leave. Joupi is the date the war is remembered by, not the start of it.",
+    "sides": [
+      {
+        "label": "Naga Lim Guard / NSCN-IM-linked militants",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "nscn-im"
+      },
+      {
+        "label": "Kuki villagers of Joupi",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 87,
+        "killedMax": 115,
+        "of": "civilian",
+        "sideLabel": "Kuki civilians at Joupi and adjoining hamlets that day",
+        "claimedBy": "Thongkholal Haokip; SATP (90 at Zoupi); The Statesman (87 at Joupi); later Kuki compilations ~115",
+        "contested": true,
+        "note": "Village-day counts disagree. SATP 16 Sep 1993: 90 Kukis at Zoupi. Haokip: more than a hundred on 13 Sep. Do not treat any one integer as a census."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Journal of North East India Studies",
+        "headline": "Memories that always return",
+        "year": 2017,
+        "url": "https://www.jneis.com/7-2-0/",
+        "excerpt": "Twenty four years ago Naga Lim Guard killed more than a hundred innocent Kuki villagers on 13th September 1993 in Tamenglong district of Manipur. The day is observed annually by the Kukis around the world as Sahnit-ni or Black Day.",
+        "stance": "victim"
+      },
+      {
+        "outlet": "SATP",
+        "headline": "Manipur Timeline — Year 1993",
+        "year": 1993,
+        "url": "https://www.satp.org/satporgtp/countries/india/states/manipur/timeline/year_1993.htm",
+        "excerpt": "September 16: 90 Kukis are massacred at Zoupi and in the surrounding areas of Senapati district by suspected NSCN-IM militants.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "In Manipur, shadow of an earlier ethnic clash",
+        "year": 2023,
+        "url": "https://indianexpress.com/article/columns/in-manipur-shadow-of-an-earlier-ethnic-clash-8644350/",
+        "excerpt": "In September 1993, the IM issued a similar order to the Kuki inhabitants of Zoupi village, subsequently killing nearly 100 Kuki villagers which came to be known as the ‘Zoupi massacre’, and is observed by the Kukis to this day as a ‘black day’.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "saikul-1997",
+    "conflictId": "kuki-paite-1997",
+    "name": "Saikul killings",
+    "kind": "massacre",
+    "time": {
+      "year": 1997,
+      "month": 6,
+      "day": 24,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Saikul, Churachandpur",
+      "longitude": 93.62,
+      "latitude": 24.36,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Manipur",
+        "district": "Churachandpur"
+      }
+    },
+    "summary": "KNF cadres attacked the Paite village of Saikul, lining villagers up and shooting them. SATP recorded eight civilians killed and nine injured that night; PTI had the district death toll at 20 (15 Paite, 5 Kuki) by 27 June as more bodies came in. The Kuki–Paite war in Churachandpur starts here.",
+    "sides": [
+      {
+        "label": "Kuki National Front",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "knf"
+      },
+      {
+        "label": "Paite villagers of Saikul",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 8,
+        "killedMax": 10,
+        "of": "civilian",
+        "sideLabel": "Paite civilians at Saikul",
+        "claimedBy": "SATP (8 killed, 9 injured, 24 June); Indian Express/PTI (9 in the first attack)",
+        "contested": true,
+        "note": "District-wide recovery of bodies by 27 June is a wider count (PTI: 15 Paite and 5 Kuki), not the Saikul night alone."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Indian Express / PTI",
+        "headline": "More violence feared after Kuki-Paite clash",
+        "year": 1997,
+        "url": "https://indianexpress.com/article/news-archive/more-violence-feared-after-kuki-paite-clash/",
+        "excerpt": "The first clash was reported on Tuesday night when armed Kukis attacked the Saikul Paite village under Churachandpur police station killing nine Paite villagers and injured several others. The death toll… has gone upto 20 with the recovery of more bodies… 15 Paites and five Kukis.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "SATP",
+        "headline": "Manipur Timeline — Year 1997",
+        "year": 1997,
+        "url": "https://www.satp.org/satporgtp/countries/india/states/manipur/timeline/year_1997.htm",
+        "excerpt": "June 24: Kuki terrorists kill eight civilians belonging to the Paite tribe and injure nine others in an attack on Saikul village in Churachandpur district.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "singhat-1997",
+    "conflictId": "kuki-paite-1997",
+    "name": "Singhat killings",
+    "kind": "massacre",
+    "time": {
+      "year": 1997,
+      "month": 7,
+      "day": 7,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Singhat, Churachandpur",
+      "longitude": 93.59,
+      "latitude": 24.15,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Manipur",
+        "district": "Churachandpur"
+      }
+    },
+    "summary": "Armed Kuki militants attacked a Paite village near Singhat around noon, firing on villagers and burning more than 18 houses. PTI and SATP both put the dead at 25 Paites, with five seriously injured. It was the largest named killing of the Churachandpur war after Saikul.",
+    "sides": [
+      {
+        "label": "Kuki militants",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "knf"
+      },
+      {
+        "label": "Paite villagers near Singhat",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 25,
+        "killedMax": 25,
+        "killedBest": 25,
+        "injuredBest": 5,
+        "of": "civilian",
+        "sideLabel": "Paite civilians",
+        "claimedBy": "The Indian Express / PTI; SATP Manipur 1997 timeline",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Indian Express / PTI",
+        "headline": "Kuki militants gun down 25 in Manipur",
+        "year": 1997,
+        "url": "https://indianexpress.com/article/news-archive/kuki-militants-gun-down-25-in-manipur/",
+        "excerpt": "At least 25 Paiteis were killed and five others seriously injured when armed Kuki militants attacked a Paitei village near Singhat area under Churachandpur district in Manipur today. Official sources said the militants also set ablaze and destroyed over 18 houses.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fgn-1956",
+    "conflictId": "naga-insurgency",
+    "name": "Federal Government of Nagaland proclaimed",
+    "kind": "other",
+    "time": {
+      "year": 1956,
+      "month": 3,
+      "day": 22,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Kohima / Naga Hills",
+      "longitude": 94.11,
+      "latitude": 25.675,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Nagaland",
+        "district": "Kohima"
+      }
+    },
+    "summary": "On 22 March 1956 A.Z. Phizo’s Naga National Council proclaimed a Naga Central Government — later the Federal Government of Nagaland — with a Home Guard. The Naga Hills had already been declared a disturbed area. The armed phase of the insurgency is dated from this year, not from the 1947 independence claim.",
+    "story": "Phizo left for East Pakistan in December 1956 and then London. AFSPA followed in 1958.",
+    "sides": [
+      {
+        "label": "Naga National Council / FGN",
+        "role": "unclear",
+        "kind": "insurgent",
+        "actorId": "nnc"
+      },
+      {
+        "label": "Government of India",
+        "role": "unclear",
+        "kind": "state-forces",
+        "actorId": "in-gov"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "Naga National Council / Adinno Phizo",
+        "headline": "NNC ultimate national institution of the Nagas",
+        "year": 2016,
+        "url": "https://nagalandpost.com/nnc-ultimate-national-institution-of-the-nagas-says-adinno-phizo/",
+        "excerpt": "Phizo also brought in the Eastern Nagas to join the mainland and established the Federal Government of Nagaland on March 22, 1956.",
+        "stance": "insurgent"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Naga National Council",
+        "note": "Standard NNC/FGN chronology: Naga Central Government 22 March 1956, later renamed Federal Government of Nagaland."
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "shillong-accord-1975",
+    "conflictId": "naga-insurgency",
+    "name": "Shillong Accord",
+    "kind": "other",
+    "time": {
+      "year": 1975,
+      "month": 11,
+      "day": 11,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Shillong",
+      "longitude": 91.893,
+      "latitude": 25.579,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Meghalaya",
+        "district": "East Khasi Hills"
+      }
+    },
+    "summary": "Representatives of the Naga underground signed a three-point accord with Governor L.P. Singh at Shillong: accept the Constitution of India, deposit arms, and leave other issues for later talks. Phizo was in London and was not a signatory. The split produced the NSCN in 1980.",
+    "story": "Clause 1 — unconditional acceptance of the Constitution — is why a large part of the movement still calls the accord a surrender.",
+    "sides": [
+      {
+        "label": "Government of India (Governor of Nagaland)",
+        "role": "unclear",
+        "kind": "state-forces",
+        "actorId": "in-gov"
+      },
+      {
+        "label": "Naga underground / NNC faction",
+        "role": "unclear",
+        "kind": "insurgent",
+        "actorId": "nnc"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "UN Peacemaker",
+        "headline": "Shillong Agreement between the Government of India and the Underground Nagas",
+        "year": 1975,
+        "url": "https://peacemaker.un.org/en/node/9008",
+        "excerpt": "The representatives of the underground organisations conveyed their decision, of their own volition, to accept, without condition, the Constitution of India. It was agreed that the arms, now underground, would be brought out and deposited at appointed places.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "nscn-im-ceasefire-1997",
+    "conflictId": "naga-insurgency",
+    "name": "NSCN-IM ceasefire takes effect",
+    "kind": "other",
+    "time": {
+      "year": 1997,
+      "month": 8,
+      "day": 1,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Kohima",
+      "longitude": 94.11,
+      "latitude": 25.675,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Nagaland",
+        "district": "Kohima"
+      }
+    },
+    "summary": "The ceasefire announced by Isak Chishi Swu on 25 July 1997 — and in Parliament by Prime Minister I.K. Gujral — came into force for three months from 1 August. It has been extended, with rewritten ground rules, ever since. It paused army–NSCN-IM fire inside Nagaland; it did not settle flag, constitution, or Nagalim, and factional killing continued.",
+    "sides": [
+      {
+        "label": "Government of India",
+        "role": "unclear",
+        "kind": "state-forces",
+        "actorId": "in-gov"
+      },
+      {
+        "label": "NSCN-IM",
+        "role": "unclear",
+        "kind": "insurgent",
+        "actorId": "nscn-im"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "The Indian Express",
+        "headline": "Naga insurgents agree to cease fire from Aug 1",
+        "year": 1997,
+        "url": "https://indianexpress.com/article/news-archive/naga-insurgents-agree-to-cease-fire-from-aug-1/",
+        "excerpt": "Prime Minister I K Gujral announced in the Parliament today that insurgent groups in Nagaland had agreed to a three-month cease-fire from August 1 during which they will hold political discussions with the Government.",
+        "stance": "state"
+      },
+      {
+        "outlet": "SATP",
+        "headline": "Chronology of cease-fire between NSCN-IM and Union Government",
+        "url": "https://www.satp.org/satporgtp/countries/india/states/nagaland/data_sheets/Chronologynscnim.htm",
+        "excerpt": "July 25, 1997: Cease-fire agreement signed between Government of India and NSCN-IM. August 1, 1997: Cease-fire comes into effect.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "mokokchung-1994",
+    "conflictId": "naga-insurgency",
+    "name": "Mokokchung (Ayatai)",
+    "kind": "massacre",
+    "time": {
+      "year": 1994,
+      "month": 12,
+      "day": 27,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Mokokchung",
+      "longitude": 94.53,
+      "latitude": 26.33,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Nagaland",
+        "district": "Mokokchung"
+      }
+    },
+    "summary": "After NSCN fire killed Lt Col Poonacha of 16 Maratha Light Infantry at Mokokchung’s main traffic point, the unit and 10 Assam Rifles went through the bazaar. Town memory — Ayatai — records civilians shot and burned in shops, rapes, and the heart of the Ao town gutted. Official and Naga counts of the dead do not match.",
+    "story": "Army Chief Shankar Roychowdhury was in Kohima the same day. NPMHR called it one of the blackest days in the annals of democracy.",
+    "sides": [
+      {
+        "label": "16 Maratha Light Infantry and 10 Assam Rifles",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "in-army"
+      },
+      {
+        "label": "NSCN (Khaplang faction, in the army account of the first fire)",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "nscn-k"
+      },
+      {
+        "label": "Mokokchung townspeople",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 7,
+        "killedMax": 12,
+        "of": "civilian",
+        "sideLabel": "Mokokchung civilians",
+        "claimedBy": "Ao Senden / NPMHR / Mokokchung commemorative counts; army PIB put two civilians in the first firefight",
+        "contested": true,
+        "note": "Commemorative tallies commonly give 7 gunned down and 5 burned, including a child. Early official figures were lower. Sexual violence was reported to the Red Cross and a later inquiry."
+      },
+      {
+        "killedMin": 2,
+        "killedMax": 2,
+        "killedBest": 2,
+        "of": "state-forces",
+        "sideLabel": "16 Maratha Light Infantry, including Lt Col Poonacha",
+        "claimedBy": "Army / later Naga commemorative lists",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Federal",
+        "headline": "AFSPA: How the clock turned 24 years back in Nagaland",
+        "year": 2021,
+        "url": "https://thefederal.com/the-eighth-column/afspa-how-the-clock-turned-24-years-back-in-nagaland",
+        "excerpt": "In retaliation to an attack on a patrol of the Maratha Light Infantry in the heart of the Mokokchung town by insurgents on December 27, 1994, army jawans set on fire several houses and shops with civilians trapped inside. Eight persons were burnt to death in the incident. Four women were also allegedly raped at gunpoint.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Mokokchung Times",
+        "headline": "30 Years On: The flames of ‘Ayatai’ still burn in Mokokchung memory",
+        "year": 2024,
+        "url": "https://mokokchungtimes.com/30-years-on-the-flames-of-ayatai-still-burn-in-mokokchung-memory/",
+        "excerpt": "On the fateful day of December 27, 1994… eight women were raped, five people were burned alive, and two others were shot dead by the Indian Armed Forces (16th Maratha Light Infantry). In addition, three members of the National Socialist Council of Nagaland (NSCN) and two Indian Army personnel, including a colonel, lost their lives.",
+        "stance": "victim"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kohima-1995",
+    "conflictId": "naga-insurgency",
+    "name": "Kohima convoy firing",
+    "kind": "attack",
+    "time": {
+      "year": 1995,
+      "month": 3,
+      "day": 5,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Kohima (AOC/BOC)",
+      "longitude": 94.11,
+      "latitude": 25.675,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Nagaland",
+        "district": "Kohima"
+      }
+    },
+    "summary": "A 63-vehicle convoy of 16 Rashtriya Rifles, coming through Kohima from Manipur election duty, opened fire with rifles and mortars after a tyre burst. The army said it had been ambushed. Police, churches and a later inquiry said the troops had mistaken their own tyre for a bomb and then fired into houses. Seven civilians were killed; injured counts run from about 20 to 36.",
+    "sides": [
+      {
+        "label": "16 Rashtriya Rifles",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "in-army"
+      },
+      {
+        "label": "Kohima civilians, including churchgoers",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 7,
+        "killedMax": 8,
+        "killedBest": 7,
+        "injuredBest": 36,
+        "of": "civilian",
+        "sideLabel": "Kohima civilians",
+        "claimedBy": "Nagaland inquiry / church groups / later press; UCA News said eight churchgoers",
+        "contested": true,
+        "note": "Seven is the usual civilian death count. Injured: about 20 in some 1995 reports, 36 in later compilations. The inquiry called the firing irresponsible and named civilian deaths inside houses."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "UCA News",
+        "headline": "Churches decry army shootout that killed eight churchgoers in Nagaland",
+        "year": 1995,
+        "url": "https://www.ucanews.com/story-archive/?post_name=/1995/03/21/churches-decry-army-shootout-that-killed-eight-churchgoers-in-nagaland&post_id=46989",
+        "excerpt": "The Church groups alleged that soldiers, returning from election duties in neighboring Manipur state, resorted to unprovoked gunfire after a tire blowout on a vehicle startled them. The army, however, told reporters they fired after Naga secessionists ambushed their convoy near Kohima.",
+        "stance": "victim"
+      },
+      {
+        "outlet": "The Federal",
+        "headline": "AFSPA: How the clock turned 24 years back in Nagaland",
+        "year": 2021,
+        "url": "https://thefederal.com/the-eighth-column/afspa-how-the-clock-turned-24-years-back-in-nagaland",
+        "excerpt": "Eyewitnesses and police, however, refuted the army’s claim. They said that a tyre of one of the vehicles in the army convoy had burst. An inquiry commission later noted that the RR personnel had ‘acted in a most irresponsible manner’ and termed the action as ‘cold blooded murder of innocent civilians, some within their residential houses.’",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "tupi-ambush-2015",
+    "conflictId": "naga-insurgency",
+    "name": "Tupi convoy ambush",
+    "kind": "ambush",
+    "time": {
+      "year": 2015,
+      "month": 4,
+      "day": 2,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Old Tupi, Tirap",
+      "longitude": 95.4,
+      "latitude": 26.93,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Arunachal Pradesh",
+        "district": "Tirap"
+      }
+    },
+    "summary": "Militants ambushed the last vehicle of a 4 Rajput convoy on the Khonsa–Longding road near Old Tupi, about 15–20 km from Khonsa. Three soldiers were killed and others wounded. First reports named NSCN-K, which had just broken its ceasefire; NIA later chargesheeted NSCN-IM cadres for the attack. Tirap, Changlang and Longding are the disturbed Naga belt of Arunachal — not the 1962 war.",
+    "sides": [
+      {
+        "label": "NSCN (IM in the NIA case; K in first police/army suspicion)",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "nscn-im"
+      },
+      {
+        "label": "4 Rajput Regiment",
+        "role": "target",
+        "kind": "state-forces",
+        "actorId": "in-army"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 3,
+        "killedMax": 3,
+        "killedBest": 3,
+        "injuredBest": 4,
+        "of": "state-forces",
+        "sideLabel": "4 Rajput Regiment (Havildars Sanjeev Kumar, Parmal Singh, Charan Singh)",
+        "claimedBy": "The Hindu / Indian Express / NIA RC-02/2015/NIA/GUW",
+        "contested": true,
+        "note": "Injured: three in some first flashes, four in The Hindu/IE. NIA later named NSCN-IM; day-of reporting also suspected NSCN-K."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "3 Army personnel killed in Arunachal ambush",
+        "year": 2015,
+        "url": "https://www.thehindu.com/news/national/other-states/arunachal-ambush/article7061745.ece",
+        "excerpt": "Three Army personnel were on Thursday killed and four injured when suspected NSCN militants ambushed their vehicle in Arunachal Pradesh’s Tirap district bordering Nagaland. The ambush on the last of the four vehicles of the convoy took place… at Tupi village along Khonsa-Longding road.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "National Investigation Agency",
+        "headline": "RC-02/2015/NIA/GUW — Ambush on Security Forces by NSCN(IM) Cadres at Khonsa",
+        "year": 2015,
+        "url": "https://nia.gov.in/rc-022015niaguw",
+        "excerpt": "NSCN(IM) cadres… involving an armed attack leading to the killing of three (03) and injury to three (03) more personnel of the 4th Rajput Regiment of the Indian Army on 02.04.2015… near village Tupi, under Police Station Khonsa, District Tirap located at a distance of about 15 km from Khonsa town on the Khonsa-Longding road.",
+        "stance": "state"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "unlf-founding-1964",
+    "conflictId": "manipur-insurgency",
+    "name": "UNLF founded",
+    "kind": "other",
+    "time": {
+      "year": 1964,
+      "month": 11,
+      "day": 24,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Imphal",
+      "longitude": 93.937,
+      "latitude": 24.817,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Manipur"
+      }
+    },
+    "summary": "The United National Liberation Front was formed in Imphal on 24 November 1964 — Manipur’s oldest valley group, with a Naga president, a Kuki vice-president and a Meitei general secretary, demanding a sovereign socialist Manipur. The armed wing, the Manipur People’s Army, came only in 1990. PLA followed in 1978 from a China-trained splinter.",
+    "sides": [
+      {
+        "label": "UNLF",
+        "role": "unclear",
+        "kind": "insurgent",
+        "actorId": "unlf"
+      },
+      {
+        "label": "Government of India",
+        "role": "unclear",
+        "kind": "state-forces",
+        "actorId": "in-gov"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "The Indian Express",
+        "headline": "History of UNLF, Meitei insurgent group that signed peace deal with Centre",
+        "year": 2023,
+        "url": "https://indianexpress.com/article/explained/history-of-unlf-meitei-insurgent-group-that-signed-peace-deal-with-centre-9047846/",
+        "excerpt": "The UNLF was formed on November 24, 1964, and is the oldest valley-based insurgent group — distinct from the insurgent groups active in the state’s Naga-dominated and Kuki-Zomi dominated hills. It was formed with the demand of secession from India under the leadership of Arembam Samarendra Singh.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "SATP",
+        "headline": "United National Liberation Front",
+        "url": "https://www.satp.org/satporgtp/countries/India/states/manipur/terrorist_outfits/Unlf.htm",
+        "excerpt": "The United National Liberation Front (UNLF), the oldest Meitei insurgent group in the State was formed under the leadership of Areambam Samrendra Singh on November 24, 1964 to achieve independence and a socialist society. In 1990, it formed an armed wing called Manipur People’s Army (MPA).",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  }
+]

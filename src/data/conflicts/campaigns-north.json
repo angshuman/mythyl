@@ -1,0 +1,1066 @@
+[
+  {
+    "id": "ayodhya-1992",
+    "slug": "ayodhya-1992",
+    "name": "Ayodhya, 1992",
+    "aliases": [
+      "Babri Masjid demolition",
+      "6 December 1992"
+    ],
+    "summary": "Kar sevaks brought down the Babri Masjid in Ayodhya on 6 December 1992. That night the town’s remaining Muslim lanes were burned; in the weeks that followed, riots ran through Uttar Pradesh and much of the country. Bombay is a separate campaign. The Liberhan Commission later called the demolition planned, not a spasm.",
+    "scale": "large",
+    "scaleRationale": "A national political rupture. The mosque’s fall redrew party politics; the riot wave killed about two to three thousand people across India.",
+    "types": [
+      "communal-riot",
+      "pogrom",
+      "agitation-with-violence"
+    ],
+    "family": "communal",
+    "theaters": [
+      "communal"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "multi-sided",
+    "religiousDimension": "central",
+    "identityDimensions": [
+      "religion",
+      "nation"
+    ],
+    "resources": [
+      {
+        "kind": "religion",
+        "centrality": "core",
+        "note": "Ramjanmabhoomi claim on the mosque site"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "identity",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1992,
+        "month": 12,
+        "day": 6,
+        "precision": "day"
+      },
+      "end": {
+        "year": 1993,
+        "month": 1,
+        "precision": "month",
+        "note": "UP wave peaked in December; Bombay’s second wave is recorded under bombay-1992."
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-ayodhya-1992",
+        "name": "Ayodhya",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 82.199,
+        "latitude": 26.792,
+        "admin": {
+          "country": "India",
+          "state": "Uttar Pradesh",
+          "district": "Faizabad"
+        },
+        "note": "District was Faizabad in 1992; later renamed Ayodhya."
+      },
+      {
+        "id": "loc-kanpur-1992",
+        "name": "Kanpur",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 80.332,
+        "latitude": 26.45,
+        "admin": {
+          "country": "India",
+          "state": "Uttar Pradesh",
+          "district": "Kanpur Nagar"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 82.199,
+      "latitude": 26.792,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "vhp",
+        "role": "militia",
+        "note": "Kar seva mobilisation with RSS and Bajrang Dal cadres; Liberhan named VHP among the organisations present at the site."
+      },
+      {
+        "actorId": "rss",
+        "role": "ally"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state",
+        "note": "Kalyan Singh’s UP government until the evening of 6 December; Centre thereafter."
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Muslims of Ayodhya and Uttar Pradesh",
+        "kind": "religion",
+        "role": "primary victims of the post-demolition killings"
+      },
+      {
+        "name": "Hindus / kar sevaks",
+        "kind": "religion"
+      }
+    ],
+    "events": [
+      {
+        "id": "babri-demolition",
+        "name": "Babri Masjid demolished",
+        "time": {
+          "year": 1992,
+          "month": 12,
+          "day": 6,
+          "precision": "day"
+        },
+        "location": {
+          "id": "loc-babri-site",
+          "name": "Ramjanmabhoomi–Babri Masjid site, Ayodhya",
+          "kind": "point",
+          "precision": "city",
+          "longitude": 82.194,
+          "latitude": 26.796
+        },
+        "types": [
+          "agitation-with-violence",
+          "communal-riot"
+        ]
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 2000,
+        "max": 3000,
+        "unit": "persons",
+        "of": "civilian",
+        "contested": true,
+        "sources": [
+          {
+            "title": "Demolition of the Babri Masjid — ensuing riots",
+            "creator": "BBC / contemporary wire reports",
+            "year": 1992,
+            "url": "https://www.bbc.com/news/world-south-asia-11436552",
+            "note": "Contemporary round-ups clustered around 2,000 dead nationwide within days; later tallies often cite 2,000–3,000 including the Bombay wave."
+          }
+        ],
+        "note": "Nationwide figure. Bombay is counted on bombay-1992. In Ayodhya town itself The Hindu later put the 6–7 December dead at about 17. Hindustan Times put Kanpur’s five days at 254."
+      }
+    },
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "bombay-1992",
+        "note": "Bombay’s December–January killings followed the mosque’s fall; recorded as their own campaign."
+      },
+      {
+        "kind": "related",
+        "targetId": "gujarat-2002",
+        "note": "Godhra passengers included kar sevaks returning from Ayodhya."
+      },
+      {
+        "kind": "related",
+        "targetId": "meerut-1987",
+        "note": "Meerut 1987 sat on the unlocking of the Babri locks in 1986."
+      }
+    ],
+    "historiography": [
+      {
+        "claim": "The demolition was spontaneous kar seva that got out of hand.",
+        "heldBy": "BJP / VHP contemporaneous line; later court acquittals of senior leaders"
+      },
+      {
+        "claim": "The mobilisation and the demolition were orchestrated, not voluntary.",
+        "heldBy": "Liberhan Commission, 2009"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Report of the Liberhan Ayodhya Commission of Inquiry",
+        "creator": "Justice M. S. Liberhan",
+        "year": 2009,
+        "url": "https://www.thehindu.com/news/Report-of-the-Liberhan-Ayodhya-Commission-of-Inquiry-Full-Text/article16894055.ece"
+      },
+      {
+        "title": "What happened that December night in Ayodhya",
+        "creator": "The Hindu",
+        "year": 2017,
+        "url": "https://www.thehindu.com/news/national/what-happened-that-december-night-in-ayodhya/article21383162.ece"
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "meerut-1987",
+    "slug": "meerut-1987",
+    "name": "Meerut, 1987",
+    "aliases": [
+      "Hashimpura massacre",
+      "Maliana massacre"
+    ],
+    "summary": "Communal clashes in Meerut in May 1987, after the Babri locks were opened the year before, turned into two police days that still structure the city’s memory. PAC men trucked Muslim youths from Hashimpura to a canal and shot them. The next afternoon they walked into Maliana. Hashimpura produced a life sentence thirty-one years later. Maliana produced an acquittal.",
+    "scale": "medium",
+    "scaleRationale": "A district killing wave: official tallies in the low hundreds, Hashimpura and Maliana alone around a hundred Muslim dead, and a legal afterlife measured in decades.",
+    "types": [
+      "one-sided-violence",
+      "pogrom",
+      "communal-riot"
+    ],
+    "family": "communal",
+    "theaters": [
+      "communal"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "central",
+    "identityDimensions": [
+      "religion"
+    ],
+    "resources": [
+      {
+        "kind": "religion",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1987,
+        "month": 5,
+        "precision": "month",
+        "note": "Street clashes from mid-May; Hashimpura 22 May, Maliana 23 May."
+      },
+      "end": {
+        "year": 1987,
+        "month": 6,
+        "precision": "month"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-hashimpura",
+        "name": "Hashimpura, Meerut",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 77.706,
+        "latitude": 28.985,
+        "admin": {
+          "country": "India",
+          "state": "Uttar Pradesh",
+          "district": "Meerut"
+        }
+      },
+      {
+        "id": "loc-maliana",
+        "name": "Maliana",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 77.665,
+        "latitude": 28.965,
+        "admin": {
+          "country": "India",
+          "state": "Uttar Pradesh",
+          "district": "Meerut",
+          "village": "Maliana"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 77.706,
+      "latitude": 28.985,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "up-pac",
+        "role": "accused"
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Muslims of Meerut",
+        "kind": "religion",
+        "role": "primary targets of PAC operations at Hashimpura and Maliana"
+      },
+      {
+        "name": "Hindus of Meerut",
+        "kind": "religion"
+      }
+    ],
+    "events": [
+      {
+        "id": "hashimpura",
+        "name": "Hashimpura custodial killings",
+        "time": {
+          "year": 1987,
+          "month": 5,
+          "day": 22,
+          "precision": "day"
+        },
+        "location": {
+          "id": "loc-hashimpura-event",
+          "name": "Hashimpura",
+          "kind": "point",
+          "precision": "city",
+          "longitude": 77.706,
+          "latitude": 28.985
+        },
+        "types": [
+          "one-sided-violence"
+        ]
+      },
+      {
+        "id": "maliana",
+        "name": "Maliana killings",
+        "time": {
+          "year": 1987,
+          "month": 5,
+          "day": 23,
+          "precision": "day"
+        },
+        "location": {
+          "id": "loc-maliana-event",
+          "name": "Maliana",
+          "kind": "point",
+          "precision": "village",
+          "longitude": 77.665,
+          "latitude": 28.965
+        },
+        "types": [
+          "pogrom",
+          "one-sided-violence"
+        ]
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 136,
+        "max": 350,
+        "unit": "persons",
+        "of": "civilian",
+        "contested": true,
+        "sources": [
+          {
+            "title": "Meerut riots of May 1987",
+            "creator": "PUCL (Rajindar Sachar and others)",
+            "year": 1987,
+            "url": "https://www.pucl.org/Topics/Human-rights/2006/meerut-riots.html"
+          }
+        ],
+        "note": "Local official memory later cited 136 dead for April–July 1987. PUCL-linked writing put the wider toll near 350. Hashimpura and Maliana are the two days with named body counts."
+      }
+    },
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "ayodhya-1992",
+        "note": "The 1986 unlocking of the Babri locks is the usual local preface."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Delhi HC sentences 16 ex-PAC personnel to life for 1987 Hashimpura massacre",
+        "creator": "The Hindu",
+        "year": 2018,
+        "url": "https://www.thehindu.com/news/national/1987-hashimpura-massacre-delhi-hc-sentences-16-ex-pac-personnel-to-life/article61518791.ece"
+      },
+      {
+        "title": "The Meerut court verdict and the Maliana massacre",
+        "creator": "The Hindu",
+        "year": 2023,
+        "url": "https://www.thehindu.com/news/national/the-meerut-court-verdict-and-the-maliana-massacre/article66748901.ece"
+      },
+      {
+        "title": "Hashimpura 22 May: The Forgotten Story of India’s Biggest Custodial Killing",
+        "creator": "Vibhuti Narain Rai",
+        "year": 2016
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "moradabad-1980",
+    "slug": "moradabad-1980",
+    "name": "Moradabad, 1980",
+    "aliases": [
+      "Moradabad Eidgah firing"
+    ],
+    "summary": "Eid al-Fitr, 13 August 1980. A pig at the city Eidgah, a crush of namazis, and police fire into the crowd. Two constables died when a chowki was burned. What followed for weeks was a police–Muslim confrontation that became a Hindu–Muslim riot and spread into neighbouring districts. The Saxena Commission sat; the numbers never settled.",
+    "scale": "medium",
+    "scaleRationale": "A city-and-district killing wave lasting weeks. Official counts sit in the dozens to low hundreds; contemporaneous reporting went higher.",
+    "types": [
+      "communal-riot",
+      "one-sided-violence"
+    ],
+    "family": "communal",
+    "theaters": [
+      "communal"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "multi-sided",
+    "religiousDimension": "central",
+    "identityDimensions": [
+      "religion"
+    ],
+    "resources": [
+      {
+        "kind": "religion",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1980,
+        "month": 8,
+        "day": 13,
+        "precision": "day"
+      },
+      "end": {
+        "year": 1980,
+        "month": 11,
+        "precision": "month",
+        "note": "Violence continued into neighbouring districts into early 1981."
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-moradabad-eidgah",
+        "name": "Moradabad",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 78.773,
+        "latitude": 28.839,
+        "admin": {
+          "country": "India",
+          "state": "Uttar Pradesh",
+          "district": "Moradabad"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 78.773,
+      "latitude": 28.839,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "up-pac",
+        "role": "accused",
+        "note": "PAC reinforced local police after the Eidgah firing."
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Muslims of Moradabad",
+        "kind": "religion"
+      },
+      {
+        "name": "Hindus of Moradabad",
+        "kind": "religion"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 83,
+        "max": 400,
+        "best": 289,
+        "unit": "persons",
+        "of": "civilian",
+        "contested": true,
+        "sources": [
+          {
+            "title": "The Moradabad riots of 1980: The incident and its political fallout",
+            "creator": "The Indian Express",
+            "year": 2023,
+            "url": "https://indianexpress.com/article/explained/the-moradabad-riots-of-1980-the-incident-and-its-political-fallout-8615182/",
+            "note": "Saxena Commission: 83 dead in communal rioting. Then home minister Swarup Kumari Bakshi told the Assembly the statewide dead-and-missing figure was 289."
+          }
+        ],
+        "note": "Government records cited by Indian Express put Moradabad itself at 83 dead and 112 injured. Contemporaneous press often said 300–400. Scholarly visitors that winter (Saberwal and Hasan) heard community counts much higher; those remain unverified here."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "A pig, a stampede, and a leadership tussle among Muslim politicians explain the dead.",
+        "heldBy": "Justice M. P. Saxena Commission (submitted 1983, long unpublished)"
+      },
+      {
+        "claim": "Police fired into a festive crowd and then ran a reprisal through Muslim neighbourhoods.",
+        "heldBy": "eyewitnesses interviewed by Indian Express, 2023; contemporaneous reporting"
+      }
+    ],
+    "sources": [
+      {
+        "title": "As UP govt plans to table 1980 riot report, in Moradabad, open wounds from an Eidgah clash",
+        "creator": "The Indian Express",
+        "year": 2023,
+        "url": "https://indianexpress.com/article/india/up-government-1980-riot-report-moradabad-eidgah-clash-8611334/"
+      },
+      {
+        "title": "Justice M. P. Saxena Commission report on the 1980 riots",
+        "year": 1983,
+        "note": "Submitted November 1983; not tabled for decades."
+      }
+    ],
+    "confidence": "medium",
+    "status": "draft"
+  },
+  {
+    "id": "bhagalpur-1989",
+    "slug": "bhagalpur-1989",
+    "name": "Bhagalpur, 1989",
+    "aliases": [
+      "Bhagalpur riots",
+      "Logain massacre"
+    ],
+    "summary": "A Ramshila procession and a bomb in Bhagalpur town on 24 October 1989 opened two months of killing across the district. Inquiry judges later wrote that rumours, police, and the press moved together. Whole Muslim weaver villages were emptied. At Logain the dead were buried under a cauliflower field.",
+    "scale": "large",
+    "scaleRationale": "Around a thousand dead, some 250 villages, fifty thousand displaced — a district pogrom with a national afterlife.",
+    "types": [
+      "pogrom",
+      "communal-riot",
+      "one-sided-violence"
+    ],
+    "family": "communal",
+    "theaters": [
+      "communal"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "central",
+    "identityDimensions": [
+      "religion",
+      "class"
+    ],
+    "resources": [
+      {
+        "kind": "religion",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "contributing",
+        "note": "Inquiry and later trials described land grabs after Muslim families fled."
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1989,
+        "month": 10,
+        "day": 24,
+        "precision": "day"
+      },
+      "end": {
+        "year": 1989,
+        "month": 12,
+        "precision": "month"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-bhagalpur",
+        "name": "Bhagalpur",
+        "kind": "area-approx",
+        "precision": "district",
+        "longitude": 86.983,
+        "latitude": 25.25,
+        "admin": {
+          "country": "India",
+          "state": "Bihar",
+          "district": "Bhagalpur"
+        }
+      },
+      {
+        "id": "loc-logain",
+        "name": "Logain",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 86.92,
+        "latitude": 25.18,
+        "admin": {
+          "country": "India",
+          "state": "Bihar",
+          "district": "Bhagalpur",
+          "village": "Logain"
+        },
+        "note": "Jagdishpur police-station area, south of the city."
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 86.983,
+      "latitude": 25.25,
+      "precision": "district"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Muslim weavers of Bhagalpur",
+        "kind": "religion",
+        "role": "primary victims; silk-weaving mohallas and villages"
+      },
+      {
+        "name": "Hindus of Bhagalpur",
+        "kind": "religion"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 982,
+        "max": 2000,
+        "best": 1000,
+        "unit": "persons",
+        "of": "civilian",
+        "contested": true,
+        "sources": [
+          {
+            "title": "Rajya Sabha answer on Bhagalpur enquiry",
+            "creator": "Government of Bihar / Rajya Sabha",
+            "year": 1990,
+            "note": "982 dead and missing, 8 August 1990."
+          },
+          {
+            "title": "Bhagalpur Riot Inquiry Commission Report",
+            "creator": "Asghar Ali Engineer, Economic and Political Weekly",
+            "year": 1995,
+            "note": "Engineer’s reading of the inquiry: around 1,000 dead, about 90 percent Muslim."
+          }
+        ],
+        "note": "PUDR and some later accounts go toward 2,000. About nine in ten of the counted dead were Muslim."
+      },
+      "displaced": {
+        "min": 48000,
+        "max": 50000,
+        "unit": "persons",
+        "contested": true,
+        "sources": [
+          {
+            "title": "The forgotten riots of Bhagalpur",
+            "creator": "Al Jazeera",
+            "year": 2014,
+            "url": "https://www.aljazeera.com/gallery/2014/12/31/the-forgotten-riots-of-bhagalpur"
+          }
+        ]
+      }
+    },
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "ayodhya-1992",
+        "note": "Ramshila processions for the Ayodhya temple were the spark in town."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bhagalpur Riot Inquiry Commission Report",
+        "creator": "Justices R. C. P. Sinha and S. Shamsul Hasan",
+        "year": 1995
+      },
+      {
+        "title": "The forgotten riots of Bhagalpur",
+        "creator": "Al Jazeera",
+        "year": 2014,
+        "url": "https://www.aljazeera.com/gallery/2014/12/31/the-forgotten-riots-of-bhagalpur"
+      }
+    ],
+    "confidence": "medium",
+    "status": "draft"
+  },
+  {
+    "id": "muzaffarnagar-2013",
+    "slug": "muzaffarnagar-2013",
+    "name": "Muzaffarnagar, 2013",
+    "aliases": [
+      "Muzaffarnagar riots"
+    ],
+    "summary": "Three deaths at Kawal on 27 August 2013, a mahapanchayat, a circulated video, and then two days in which Jat and Muslim villages in Muzaffarnagar and Shamli burned each other. Tens of thousands left and many did not go home. The state later told the Supreme Court that 46 of the dead were Muslim and 16 Hindu.",
+    "scale": "medium",
+    "scaleRationale": "A multi-district riot with a documented death toll in the sixties and displacement in the tens of thousands — the worst Hindu–Muslim killing in Uttar Pradesh in a decade.",
+    "types": [
+      "communal-riot"
+    ],
+    "family": "communal",
+    "theaters": [
+      "communal"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "central",
+    "identityDimensions": [
+      "religion",
+      "caste"
+    ],
+    "resources": [
+      {
+        "kind": "religion",
+        "centrality": "core"
+      },
+      {
+        "kind": "identity",
+        "centrality": "core",
+        "note": "Jat honour narrative around Kawal; land and village power underneath."
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2013,
+        "month": 8,
+        "day": 27,
+        "precision": "day"
+      },
+      "end": {
+        "year": 2013,
+        "month": 9,
+        "precision": "month"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-muzaffarnagar",
+        "name": "Muzaffarnagar district",
+        "kind": "area-approx",
+        "precision": "district",
+        "longitude": 77.709,
+        "latitude": 29.473,
+        "admin": {
+          "country": "India",
+          "state": "Uttar Pradesh",
+          "district": "Muzaffarnagar"
+        }
+      },
+      {
+        "id": "loc-kawal",
+        "name": "Kawal",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 77.87,
+        "latitude": 29.32,
+        "admin": {
+          "country": "India",
+          "state": "Uttar Pradesh",
+          "district": "Muzaffarnagar",
+          "village": "Kawal"
+        }
+      },
+      {
+        "id": "loc-kutba",
+        "name": "Kutba",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 77.535,
+        "latitude": 29.401,
+        "admin": {
+          "country": "India",
+          "state": "Uttar Pradesh",
+          "district": "Muzaffarnagar",
+          "village": "Kutba"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 77.709,
+      "latitude": 29.473,
+      "precision": "district"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Jats of western Uttar Pradesh",
+        "kind": "caste"
+      },
+      {
+        "name": "Muslims of Muzaffarnagar and Shamli",
+        "kind": "religion",
+        "role": "majority of the dead and of the displaced"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 62,
+        "max": 65,
+        "best": 62,
+        "unit": "persons",
+        "of": "civilian",
+        "contested": true,
+        "sources": [
+          {
+            "title": "Riot toll break-up: 46 Muslims, 16 Hindus",
+            "creator": "The Indian Express",
+            "year": 2013,
+            "url": "https://indianexpress.com/article/news-archive/web/riot-toll-breakup-46-muslims-16-hindus/"
+          }
+        ],
+        "note": "UP government to the Supreme Court, till 6 October 2013: 46 Muslims and 16 Hindus. Later compensation lists run to 63–65 including adjoining districts."
+      },
+      "displaced": {
+        "min": 40000,
+        "max": 50000,
+        "best": 42000,
+        "unit": "persons",
+        "contested": true,
+        "sources": [
+          {
+            "title": "Muzaffarnagar: Tales of death and despair in India's riot-hit town",
+            "creator": "BBC",
+            "year": 2013,
+            "url": "https://www.bbc.com/news/world-asia-india-24172537"
+          }
+        ]
+      }
+    },
+    "sources": [
+      {
+        "title": "Muzaffarnagar: Tales of death and despair in India's riot-hit town",
+        "creator": "BBC",
+        "year": 2013,
+        "url": "https://www.bbc.com/news/world-asia-india-24172537"
+      },
+      {
+        "title": "Riot toll break-up: 46 Muslims, 16 Hindus",
+        "creator": "The Indian Express",
+        "year": 2013,
+        "url": "https://indianexpress.com/article/news-archive/web/riot-toll-breakup-46-muslims-16-hindus/"
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  },
+  {
+    "id": "ranvir-sena",
+    "slug": "ranvir-sena",
+    "name": "Ranvir Sena / central Bihar caste war",
+    "aliases": [
+      "Ranveer Sena",
+      "Bathani Tola and Laxmanpur Bathe"
+    ],
+    "summary": "A Bhumihar landlord militia, founded in Bhojpur in 1994 to fight CPI-ML and MCC squads, spent the late 1990s killing Dalit and Muslim labourers in their hamlets — women and children first, the Sena said, so that Naxalites would not grow up. Bathani Tola and Laxmanpur Bathe are the two days that still have names. The other side of that caste war, the MCC and Liberation massacres of upper-caste villagers, sits on the Naxal campaign.",
+    "scale": "medium",
+    "scaleRationale": "A multi-district militia campaign over several years. HRW put Ranvir Sena killings of Dalits above 400 between 1995 and 1999; the two emblematic massacres alone killed about eighty people.",
+    "types": [
+      "one-sided-violence",
+      "pogrom"
+    ],
+    "family": "communal",
+    "theaters": [
+      "communal"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "caste",
+      "class",
+      "ideology"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "identity",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1994,
+        "month": 9,
+        "precision": "month",
+        "note": "Founded at Belaur, Bhojpur."
+      },
+      "end": {
+        "year": 2002,
+        "precision": "year",
+        "circa": true,
+        "note": "Commander Brahmeshwar Singh arrested 2002; the large massacres cluster 1996–2000. He was shot in Arrah in 2012."
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-bathani-tola",
+        "name": "Bathani Tola, Bhojpur",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 84.551,
+        "latitude": 25.306,
+        "admin": {
+          "country": "India",
+          "state": "Bihar",
+          "district": "Bhojpur",
+          "village": "Bathani Tola"
+        }
+      },
+      {
+        "id": "loc-laxmanpur-bathe",
+        "name": "Laxmanpur Bathe, Arwal",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 84.64,
+        "latitude": 25.23,
+        "admin": {
+          "country": "India",
+          "state": "Bihar",
+          "district": "Arwal",
+          "village": "Laxmanpur Bathe"
+        },
+        "note": "On the Sone; Jehanabad district in 1997, Arwal after 2001."
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 84.551,
+      "latitude": 25.306,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "ranvir-sena",
+        "role": "militia"
+      },
+      {
+        "actorId": "cpi-ml",
+        "role": "insurgent",
+        "note": "Liberation and Party Unity organised labourers in the same villages; their own massacres of Bhumihar villagers are not recorded here."
+      },
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Dalits of central Bihar",
+        "kind": "caste",
+        "role": "primary targets of Sena massacres"
+      },
+      {
+        "name": "Bhumihar landlords",
+        "kind": "caste"
+      },
+      {
+        "name": "Muslims of Bathani Tola",
+        "kind": "religion",
+        "note": "Among the 21 dead at Bathani Tola."
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Bihar ban on Ranvir Sena",
+        "time": {
+          "start": {
+            "year": 1995,
+            "month": 7,
+            "precision": "month"
+          }
+        },
+        "places": [
+          "Bihar"
+        ],
+        "note": "Lalu Prasad government banned the Sena; the massacres continued."
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 200,
+        "max": 400,
+        "unit": "persons",
+        "of": "civilian",
+        "contested": true,
+        "sources": [
+          {
+            "title": "Broken People: Caste Violence Against India’s Untouchables",
+            "creator": "Human Rights Watch",
+            "year": 1999,
+            "url": "https://www.hrw.org/report/1999/03/01/broken-people/caste-violence-against-indias-untouchables",
+            "note": "HRW: Ranvir Sena responsible for massacre of more than 400 Dalit villagers in Bihar, 1995–1999."
+          }
+        ]
+      },
+      "sexualViolenceReported": true,
+      "note": "HRW recorded rape and mutilation of girls at Laxmanpur Bathe."
+    },
+    "relations": [
+      {
+        "kind": "overlapping",
+        "targetId": "naxal",
+        "note": "Same central Bihar belt. MCC and CPI-ML days — Bara, Senari, Jehanabad jailbreak — stay on conflictId naxal."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Broken People: Caste Violence Against India’s Untouchables",
+        "creator": "Human Rights Watch",
+        "year": 1999,
+        "url": "https://www.hrw.org/report/1999/03/01/broken-people/caste-violence-against-indias-untouchables"
+      },
+      {
+        "title": "Ranvir Sena",
+        "creator": "SATP",
+        "url": "https://satp.org/satporgtp/countries/india/terroristoutfits/Ranvir_Sena.htm",
+        "dataset": "SATP"
+      }
+    ],
+    "confidence": "high",
+    "status": "draft"
+  }
+]
