@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     default: "mythyl",
     template: "%s · mythyl",
   },
-  description: "Visual essays. Conflicts in India, 1947 to now.",
+  description: "The after, drawn. A gallery of maps and infographics.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

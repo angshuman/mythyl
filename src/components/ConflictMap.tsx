@@ -591,8 +591,17 @@ export function ConflictMap() {
           className="conflict-map"
           style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }}
         />
+        {mapError ? <p className="map-error">{mapError}</p> : null}
+        {panel ? (
+          <MapCard
+            focus={panel}
+            locked={Boolean(selected)}
+            dock={panelDock}
+            onClose={() => setSelected(null)}
+            onOpenIncident={openIncident}
+          />
+        ) : null}
       </div>
-      {mapError ? <p className="map-error">{mapError}</p> : null}
 
       <div className="map-hud">
         <div className="map-hud-top">
@@ -712,16 +721,6 @@ export function ConflictMap() {
           </em>
         </div>
       </div>
-
-      {panel ? (
-        <MapCard
-          focus={panel}
-          locked={Boolean(selected)}
-          dock={panelDock}
-          onClose={() => setSelected(null)}
-          onOpenIncident={openIncident}
-        />
-      ) : null}
     </div>
     <ConflictTimeline
       campaigns={scored}
