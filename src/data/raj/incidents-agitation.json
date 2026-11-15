@@ -1,0 +1,835 @@
+[
+  {
+    "id": "jallianwala-day",
+    "conflictId": "jallianwala-1919",
+    "name": "Jallianwala Bagh",
+    "kind": "massacre",
+    "time": {
+      "year": 1919,
+      "precision": "day",
+      "month": 4,
+      "day": 13
+    },
+    "place": {
+      "name": "Jallianwala Bagh, Amritsar",
+      "longitude": 74.86,
+      "latitude": 31.6205,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Punjab"
+      }
+    },
+    "summary": "Dyer marched fifty riflemen of the 9th Gurkhas, 54th Sikhs and 59th Rifles into the bagh on Baisakhi, blocked the narrow lane, and ordered fire without a warning to disperse. About 1,650 rounds were spent in some ten minutes.",
+    "story": "Hunter accepted 379 identified dead. The Congress inquiry said a thousand was no exaggeration. Wagner later sat between those numbers.",
+    "sides": [
+      {
+        "label": "Brigadier-General Dyer’s detachment",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "dyer"
+      },
+      {
+        "label": "Crowd in Jallianwala Bagh",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "people in the bagh",
+        "contested": true,
+        "killedMin": 379,
+        "killedMax": 1500,
+        "injuredBest": 1100,
+        "claimedBy": "Hunter Committee 379; Congress inquiry ~1000–1500",
+        "note": "Official wounded about 1,100; Congress wounded over 1,500. Wagner: perhaps 500–600 dead and ~2,000 casualties all told."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Disorders Inquiry Committee (Hunter)",
+        "headline": "379 identified dead",
+        "year": 1920,
+        "excerpt": "The official list stopped at 379. Indian door-to-door work had already forced it up from a lower first count.",
+        "stance": "state"
+      },
+      {
+        "outlet": "Kim A. Wagner, Amritsar 1919",
+        "headline": "A number that will not close",
+        "year": 2019,
+        "excerpt": "379 was as high as the British were willing to go. It does not reflect the total. A working band of five to six hundred dead still leaves the wounded uncounted.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "crawling-order",
+    "conflictId": "jallianwala-1919",
+    "name": "Crawling order",
+    "kind": "other",
+    "time": {
+      "year": 1919,
+      "precision": "day",
+      "month": 4,
+      "day": 19
+    },
+    "place": {
+      "name": "Kucha Kurrichhan, Amritsar",
+      "longitude": 74.876,
+      "latitude": 31.626,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Punjab"
+      }
+    },
+    "summary": "From 19 April, any Indian who entered the lane where Miss Sherwood had been attacked had to crawl its length. Floggings were public. Martial law made a street into a lesson.",
+    "sides": [
+      {
+        "label": "Martial-law administration, Amritsar",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Residents of the lane",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "Hunter Committee / Congress Punjab inquiry",
+        "headline": "A street that had to be crawled",
+        "year": 1920,
+        "excerpt": "The crawling order is not a death count. It is the other half of April 1919: a city taught to move on its belly.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "qissa-khwani-day",
+    "conflictId": "qissa-khwani-1930",
+    "name": "Qissa Khwani Bazaar",
+    "kind": "massacre",
+    "time": {
+      "year": 1930,
+      "precision": "day",
+      "month": 4,
+      "day": 23
+    },
+    "place": {
+      "name": "Qissa Khwani Bazaar, Peshawar",
+      "longitude": 71.569,
+      "latitude": 34.008,
+      "precision": "building",
+      "admin": {
+        "country": "Pakistan",
+        "state": "Khyber Pakhtunkhwa"
+      }
+    },
+    "summary": "Armoured cars entered the bazaar. A despatch rider was killed. Fire was opened on a crowd that included Khudai Khidmatgars pledged to non-violence. Official dead 20–30; Congress 125; local lists hundreds.",
+    "sides": [
+      {
+        "label": "British Indian Army, Peshawar",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Khudai Khidmatgar crowd",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "demonstrators in the bazaar",
+        "contested": true,
+        "killedMin": 20,
+        "killedMax": 400,
+        "claimedBy": "official 20–30; Congress 125; local/nationalist 200–400"
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Peshawar Enquiry Committee (Congress)",
+        "headline": "A named list of 125",
+        "year": 1930,
+        "excerpt": "The Congress list has names. The official count has a floor. The bazaar has a memory that is larger than both.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "budge-budge-1914",
+    "conflictId": "komagata-maru",
+    "name": "Budge Budge firing",
+    "kind": "massacre",
+    "time": {
+      "year": 1914,
+      "precision": "day",
+      "month": 9,
+      "day": 29
+    },
+    "place": {
+      "name": "Budge Budge",
+      "longitude": 88.182,
+      "latitude": 22.466,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "West Bengal"
+      }
+    },
+    "summary": "Passengers of the Komagata Maru, turned from Vancouver, were ordered to a special train at Budge Budge. They refused. The police fired. Official accounts put the dead near twenty.",
+    "sides": [
+      {
+        "label": "Bengal police",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Komagata Maru passengers",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "passengers and bystanders",
+        "contested": true,
+        "killedMin": 19,
+        "killedMax": 22,
+        "killedBest": 20,
+        "claimedBy": "official Bengal reports and later Ghadar histories"
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Hugh Johnston, Voyage of the Komagata Maru",
+        "headline": "A ship that was not allowed to land, twice",
+        "year": 1989,
+        "excerpt": "Canada turned them under a rule the empire had written. Bengal met them with a rifle at a siding.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "dandi-1930",
+    "conflictId": "civil-disobedience-1930",
+    "name": "Dandi",
+    "kind": "other",
+    "time": {
+      "year": 1930,
+      "precision": "day",
+      "month": 4,
+      "day": 6
+    },
+    "place": {
+      "name": "Dandi",
+      "longitude": 72.632,
+      "latitude": 21.329,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Gujarat"
+      }
+    },
+    "summary": "Gandhi picked up salt on the Dandi mudflats at dawn on 6 April. The walk from Sabarmati had taken twenty-four days. The country already knew what to do with a pinch of it.",
+    "sides": [
+      {
+        "label": "Gandhi and satyagrahis",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Salt monopoly of the Raj",
+        "role": "target",
+        "kind": "unknown"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "Judith M. Brown, Gandhi and Civil Disobedience",
+        "headline": "A pinch that mapped a country",
+        "year": 1977,
+        "excerpt": "Dandi is a theatre. The raids, the pans, the pickets, and the prisons are the geography.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "chauri-chaura",
+    "conflictId": "non-cooperation-1920",
+    "name": "Chauri Chaura",
+    "kind": "riot",
+    "time": {
+      "year": 1922,
+      "precision": "day",
+      "month": 2,
+      "day": 4
+    },
+    "place": {
+      "name": "Chauri Chaura",
+      "longitude": 83.73,
+      "latitude": 26.65,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Uttar Pradesh"
+      }
+    },
+    "summary": "A crowd burned the police station at Chauri Chaura. Twenty-two policemen died. Gandhi suspended non-cooperation. The country argued about that decision for the rest of the movement’s life.",
+    "sides": [
+      {
+        "label": "Crowd at Chauri Chaura",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Police at the thana",
+        "role": "target",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "state-forces",
+        "sideLabel": "policemen in the station",
+        "contested": false,
+        "killedMin": 22,
+        "killedMax": 23,
+        "killedBest": 22,
+        "claimedBy": "official returns and later standard histories"
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Shahid Amin, Event, Metaphor, Memory",
+        "headline": "A thana, a telegram, a halt",
+        "year": 1995,
+        "excerpt": "Chauri Chaura is a day the nationalist calendar cannot make simple. Amin read the peasants. Gandhi read a warning.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "quit-india-bombay",
+    "conflictId": "quit-india-1942",
+    "name": "Quit India, Bombay",
+    "kind": "other",
+    "time": {
+      "year": 1942,
+      "precision": "day",
+      "month": 8,
+      "day": 9
+    },
+    "place": {
+      "name": "Bombay",
+      "longitude": 72.877,
+      "latitude": 18.938,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Maharashtra"
+      }
+    },
+    "summary": "The AICC had spoken at Gowalia Tank the evening before. By morning Gandhi, Nehru, Patel were in custody. Bombay and then the country went out without them.",
+    "sides": [
+      {
+        "label": "Government of India",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Congress and city crowds",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "Sumit Sarkar, Modern India",
+        "headline": "A resolution, then a jail",
+        "year": 1983,
+        "excerpt": "Quit India is a speech that was arrested overnight. The movement that followed was made by people the speech had not named.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "tamluk-1942",
+    "conflictId": "quit-india-1942",
+    "name": "Tamluk",
+    "kind": "clash",
+    "time": {
+      "year": 1942,
+      "precision": "month",
+      "month": 9
+    },
+    "place": {
+      "name": "Tamluk, Midnapore",
+      "longitude": 87.924,
+      "latitude": 22.3,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "West Bengal"
+      }
+    },
+    "summary": "Midnapore set up a national government at Tamluk. The Raj treated it as rebellion. Matangini Hazra was among the dead at a procession. The cyclone of October 1942 and then famine sat on the same district.",
+    "sides": [
+      {
+        "label": "British Indian police and troops",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Tamluk national government / crowds",
+        "role": "defender",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "processionists and villagers in Midnapore, 1942",
+        "contested": true,
+        "note": "Named dead include Matangini Hazra. District totals for Quit India firings in Midnapore are not a single agreed integer."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Midnapore Quit India studies",
+        "headline": "A national government in a district",
+        "year": 1942,
+        "excerpt": "Tamluk is the reminder that 1942 was not only Bombay and a jail. A subdivision tried to govern.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "chimur-1942",
+    "conflictId": "quit-india-1942",
+    "name": "Chimur",
+    "kind": "clash",
+    "time": {
+      "year": 1942,
+      "precision": "day",
+      "month": 8,
+      "day": 16
+    },
+    "place": {
+      "name": "Chimur",
+      "longitude": 79.7,
+      "latitude": 20.49,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Maharashtra"
+      }
+    },
+    "summary": "Chimur in the Central Provinces rose in mid-August 1942. Officials were killed; troops returned fire. Martial method followed. The village became a CP shorthand for Quit India.",
+    "sides": [
+      {
+        "label": "Villagers at Chimur",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Police and troops",
+        "role": "defender",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "both sides at Chimur",
+        "contested": true,
+        "note": "Named official dead and later nationalist lists exist; no single agreed total."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Central Provinces 1942 files / later local histories",
+        "headline": "A village the CP remembered",
+        "year": 1942,
+        "excerpt": "Chimur is a small place with a long file.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "ashti-1942",
+    "conflictId": "quit-india-1942",
+    "name": "Ashti",
+    "kind": "clash",
+    "time": {
+      "year": 1942,
+      "precision": "month",
+      "month": 8
+    },
+    "place": {
+      "name": "Ashti, Wardha",
+      "longitude": 78.21,
+      "latitude": 20.67,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Maharashtra"
+      }
+    },
+    "summary": "Ashti, in Wardha district, is one of the 1942 villages where a crowd and a thana met, and the Raj answered with troops. It sits with Chimur in the CP list.",
+    "sides": [
+      {
+        "label": "Villagers at Ashti",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Police",
+        "role": "defender",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "at Ashti, August 1942",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Wardha district 1942",
+        "headline": "Ashti with Chimur",
+        "year": 1942,
+        "excerpt": "Two villages in the same presidency list. The method was the same.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "chittagong-raid",
+    "conflictId": "chittagong-armoury",
+    "name": "Chittagong armoury raid",
+    "kind": "raid",
+    "time": {
+      "year": 1930,
+      "precision": "day",
+      "month": 4,
+      "day": 18
+    },
+    "place": {
+      "name": "Chittagong",
+      "longitude": 91.831,
+      "latitude": 22.356,
+      "precision": "city",
+      "admin": {
+        "country": "Bangladesh"
+      }
+    },
+    "summary": "Surya Sen’s Indian Republican Army took the police and Auxiliary Force armouries, cut telegraph and rail, and attacked the European club. They could not hold the city. The hills took them afterwards.",
+    "sides": [
+      {
+        "label": "Indian Republican Army, Chittagong",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "British armouries and club",
+        "role": "target",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "both sides on the night of the raid",
+        "contested": true,
+        "note": "A handful of dead on the night; the later hunting killed more. No padded integer."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Manini Chatterjee, Do and Die",
+        "headline": "A city for a night",
+        "year": 1999,
+        "excerpt": "They took the weapons and could not take the town. The after was a guerrilla in the hill tracts, and a rope.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "kakori-day",
+    "conflictId": "kakori-1925",
+    "name": "Kakori train robbery",
+    "kind": "raid",
+    "time": {
+      "year": 1925,
+      "precision": "day",
+      "month": 8,
+      "day": 9
+    },
+    "place": {
+      "name": "Kakori",
+      "longitude": 80.8,
+      "latitude": 26.89,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Uttar Pradesh"
+      }
+    },
+    "summary": "HRA men stopped the Number 8 Down at Kakori and took the treasury chest. A passenger was killed in the firing. The conspiracy case that followed hanged Ram Prasad Bismil, Ashfaqullah Khan, Rajendra Lahiri and Thakur Roshan Singh.",
+    "sides": [
+      {
+        "label": "Hindustan Republican Association",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "Guard of the treasury coach",
+        "role": "target",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "a passenger in the robbery",
+        "contested": false,
+        "killedMin": 1,
+        "killedMax": 1,
+        "killedBest": 1,
+        "claimedBy": "trial record"
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Kakori conspiracy trial",
+        "headline": "A chest, a case, four hangings",
+        "year": 1927,
+        "excerpt": "The robbery is a night. The trial is the politics.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "bhagat-singh-hanged",
+    "conflictId": "lahore-conspiracy",
+    "name": "Bhagat Singh hanged",
+    "kind": "execution",
+    "time": {
+      "year": 1931,
+      "precision": "day",
+      "month": 3,
+      "day": 23
+    },
+    "place": {
+      "name": "Lahore Central Jail",
+      "longitude": 74.329,
+      "latitude": 31.565,
+      "precision": "building",
+      "admin": {
+        "country": "Pakistan",
+        "state": "Punjab"
+      }
+    },
+    "summary": "Bhagat Singh, Rajguru and Sukhdev were hanged at Lahore Central Jail on 23 March 1931. The hanging was moved forward. The city already knew.",
+    "sides": [
+      {
+        "label": "Government of India",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Bhagat Singh, Rajguru, Sukhdev",
+        "role": "target",
+        "kind": "insurgent"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "insurgent",
+        "sideLabel": "the three condemned",
+        "contested": false,
+        "killedMin": 3,
+        "killedMax": 3,
+        "killedBest": 3,
+        "claimedBy": "jail record"
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Kama Maclean, A Revolutionary History of Interwar India",
+        "headline": "A calendar date",
+        "year": 2015,
+        "excerpt": "The trial had been a stage. The hanging made a year that still has a morning.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rin-bombay",
+    "conflictId": "rin-mutiny-1946",
+    "name": "RIN, Bombay",
+    "kind": "mutiny",
+    "time": {
+      "year": 1946,
+      "precision": "day",
+      "month": 2,
+      "day": 18
+    },
+    "place": {
+      "name": "Bombay harbour",
+      "longitude": 72.84,
+      "latitude": 18.93,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Maharashtra"
+      }
+    },
+    "summary": "Ratings of HMIS Talwar struck on 18 February 1946. The mutiny spread through the Bombay squadron and to other ports. City crowds came out. The Congress and the League asked the ratings to stand down.",
+    "sides": [
+      {
+        "label": "RIN ratings",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "Naval officers and Bombay garrison",
+        "role": "defender",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "in Bombay during the mutiny",
+        "contested": true,
+        "note": "City firing killed ratings and civilians; published totals vary and are not stored here as a single integer."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Biswanath Bose, The Indian Naval Revolt of 1946",
+        "headline": "A service that struck the flag",
+        "year": 1988,
+        "excerpt": "The ratings had a list of grievances and a moment. The parties had a transfer of power to protect.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "cellular-opened",
+    "conflictId": "cellular-jail",
+    "name": "Cellular Jail opened",
+    "kind": "other",
+    "time": {
+      "year": 1906,
+      "precision": "year"
+    },
+    "place": {
+      "name": "Port Blair",
+      "longitude": 92.746,
+      "latitude": 11.675,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Andaman and Nicobar Islands"
+      }
+    },
+    "summary": "The Cellular Jail received its first prisoners as a completed machine in 1906. Seven wings from a central tower. The Andaman penal colony was older. This building is the one the photographs kept.",
+    "sides": [
+      {
+        "label": "Government of India",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Political prisoners",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "Andaman gazetteer / jail histories",
+        "headline": "A tower, seven wings, a sea",
+        "year": 1906,
+        "excerpt": "Kala Pani is a phrase. The jail is a plan of isolation drawn in brick.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "bengal-1943-peak",
+    "conflictId": "bengal-famine-1943",
+    "name": "Calcutta, famine peak",
+    "kind": "famine",
+    "time": {
+      "year": 1943,
+      "precision": "month",
+      "month": 10
+    },
+    "place": {
+      "name": "Calcutta",
+      "longitude": 88.363,
+      "latitude": 22.572,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "West Bengal"
+      }
+    },
+    "summary": "By the autumn of 1943 the destitute of the Bengal countryside were dying in Calcutta’s streets. The Statesman published the photographs in August; the peak of starvation and then of epidemic sat in the months that followed. The province had not declared famine.",
+    "sides": [
+      {
+        "label": "Government of Bengal / Government of India",
+        "role": "unclear",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Rural destitute in the city",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "The Statesman, Calcutta",
+        "headline": "Photographs the government could not quite suppress",
+        "year": 1943,
+        "excerpt": "The camera did what the declaration of famine had not. Relief enlarged after the pictures. The countryside had already paid.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  }
+]

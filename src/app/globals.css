@@ -223,18 +223,34 @@ a {
   transform: translateX(4px);
 }
 
-.india-mark {
+.piece[data-piece="raj"] {
+  background:
+    radial-gradient(900px 280px at 18% -10%, rgba(196, 160, 106, 0.1), transparent 60%),
+    rgba(231, 220, 200, 0.025);
+}
+
+.piece[data-piece="raj"]:hover {
+  background:
+    radial-gradient(900px 280px at 18% -10%, rgba(196, 160, 106, 0.18), transparent 60%),
+    rgba(231, 220, 200, 0.05);
+}
+
+.india-mark,
+.raj-mark {
   position: relative;
 }
 
 .india-mark-svg svg,
-.india-mark-dots {
+.india-mark-dots,
+.raj-mark-svg svg,
+.raj-mark-dots {
   width: 100%;
   height: auto;
   display: block;
 }
 
-.india-mark-dots {
+.india-mark-dots,
+.raj-mark-dots {
   position: absolute;
   inset: 0;
   overflow: visible;
@@ -260,7 +276,24 @@ a {
   animation: draw-land 2.2s 0.35s ease forwards, glow-ne 3.2s 2s ease-in-out infinite;
 }
 
-.india-mark-dots circle {
+.raj-mark-svg #fill-land path {
+  fill: rgba(196, 160, 106, 0.07);
+  stroke: rgba(196, 160, 106, 0.82);
+  stroke-width: 0.7;
+  stroke-linejoin: round;
+  stroke-dasharray: 1600;
+  stroke-dashoffset: 1600;
+  animation: draw-land 2.6s ease forwards;
+}
+
+.raj-mark-svg #pakistan path,
+.raj-mark-svg #bangladesh path,
+.raj-mark-svg #myanmar path {
+  stroke: rgba(232, 213, 176, 0.55);
+}
+
+.india-mark-dots circle,
+.raj-mark-dots circle {
   opacity: 0;
   transform-origin: center;
   animation: pop-dot 0.7s ease forwards;
@@ -393,6 +426,59 @@ a {
   min-height: 520px;
   max-height: 820px;
   scroll-margin-top: 0;
+}
+
+.map-shell[data-atlas="raj"] {
+  background: #120e09;
+}
+
+.map-page[data-atlas="raj"] {
+  --ink: #120e09;
+  --rule: rgba(196, 160, 106, 0.22);
+}
+
+.map-page[data-atlas="raj"] .map-kicker {
+  color: #c4a06a;
+}
+
+.map-shell[data-atlas="raj"] .map-canvas {
+  box-shadow: inset 0 0 48px 6px rgba(18, 14, 9, 0.28);
+}
+
+.map-shell[data-atlas="raj"] .map-card {
+  background: rgba(18, 14, 9, 0.88);
+  border-color: rgba(196, 160, 106, 0.3);
+  scrollbar-color: rgba(196, 160, 106, 0.4) #120e09;
+}
+
+.map-shell[data-atlas="raj"] .conflict-dot[data-pulse="true"] {
+  animation: pulse-raj 2.8s ease-out infinite;
+}
+
+.map-shell[data-atlas="raj"] .maplibregl-cooperative-gesture-screen {
+  background: rgba(18, 14, 9, 0.66);
+}
+
+.map-shell[data-atlas="raj"] .map-legend-cluster {
+  background: rgba(196, 160, 106, 0.1);
+  border-color: rgba(196, 160, 106, 0.32);
+}
+
+.map-shell[data-atlas="raj"] .map-legend-cluster[data-focus="true"] {
+  border-color: rgba(196, 160, 106, 0.7);
+  box-shadow: 0 0 16px #c4a06a33;
+}
+
+@keyframes pulse-raj {
+  0% {
+    box-shadow: 0 0 0 0 rgba(181, 74, 58, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 14px rgba(181, 74, 58, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(181, 74, 58, 0);
+  }
 }
 
 .map-canvas {
@@ -1379,6 +1465,10 @@ a {
     gap: 0.9rem;
     background: #070806;
     border-top: 1px solid var(--rule);
+  }
+
+  .map-shell[data-atlas="raj"] .map-hud {
+    background: #120e09;
   }
 
   .map-hud-top {

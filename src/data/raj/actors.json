@@ -1,0 +1,165 @@
+[
+  {
+    "id": "eic",
+    "name": "East India Company",
+    "aliases": [
+      "Company Bahadur",
+      "John Company"
+    ],
+    "kind": "state",
+    "active": {
+      "start": {
+        "year": 1600,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1858,
+        "precision": "year"
+      }
+    }
+  },
+  {
+    "id": "britain-crown",
+    "name": "British Crown",
+    "aliases": [
+      "Government of India",
+      "the Raj"
+    ],
+    "kind": "foreign-state",
+    "active": {
+      "start": {
+        "year": 1858,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1947,
+        "precision": "year"
+      }
+    }
+  },
+  {
+    "id": "mysore-sultanate",
+    "name": "Kingdom of Mysore",
+    "kind": "state"
+  },
+  {
+    "id": "maratha-confederacy",
+    "name": "Maratha Confederacy",
+    "kind": "state"
+  },
+  {
+    "id": "sikh-empire",
+    "name": "Sikh Empire",
+    "aliases": [
+      "Lahore Durbar"
+    ],
+    "kind": "state"
+  },
+  {
+    "id": "konbaung",
+    "name": "Konbaung dynasty",
+    "kind": "state"
+  },
+  {
+    "id": "awadh-nawab",
+    "name": "Nawabs of Awadh",
+    "kind": "state"
+  },
+  {
+    "id": "bengal-nawab",
+    "name": "Nawab of Bengal",
+    "kind": "state"
+  },
+  {
+    "id": "talpur",
+    "name": "Talpur amirs of Sindh",
+    "kind": "state"
+  },
+  {
+    "id": "dalhousie",
+    "name": "Lord Dalhousie",
+    "kind": "state",
+    "parentId": "eic"
+  },
+  {
+    "id": "santhal",
+    "name": "Santhal",
+    "kind": "tribe"
+  },
+  {
+    "id": "birsa-munda",
+    "name": "Birsa Munda",
+    "kind": "insurgent-group"
+  },
+  {
+    "id": "rani-jhansi",
+    "name": "Rani Lakshmibai of Jhansi",
+    "kind": "state"
+  },
+  {
+    "id": "nana-sahib",
+    "name": "Nana Sahib",
+    "kind": "insurgent-group"
+  },
+  {
+    "id": "bahadur-shah",
+    "name": "Bahadur Shah Zafar",
+    "kind": "state"
+  },
+  {
+    "id": "alluri-raju",
+    "name": "Alluri Sitarama Raju",
+    "kind": "insurgent-group"
+  },
+  {
+    "id": "mappila",
+    "name": "Mappila rebels",
+    "kind": "religious-community"
+  },
+  {
+    "id": "indigo-ryots",
+    "name": "Indigo and Bengal ryots",
+    "kind": "caste-group"
+  },
+  {
+    "id": "gandhi",
+    "name": "M. K. Gandhi",
+    "kind": "political-party"
+  },
+  {
+    "id": "nehru",
+    "name": "Jawaharlal Nehru",
+    "kind": "political-party"
+  },
+  {
+    "id": "bhagat-singh",
+    "name": "Bhagat Singh",
+    "kind": "insurgent-group"
+  },
+  {
+    "id": "surya-sen",
+    "name": "Surya Sen",
+    "kind": "insurgent-group"
+  },
+  {
+    "id": "dyer",
+    "name": "Reginald Dyer",
+    "kind": "military",
+    "parentId": "britain-crown"
+  },
+  {
+    "id": "khudai-khidmatgar",
+    "name": "Khudai Khidmatgar",
+    "kind": "political-party"
+  },
+  {
+    "id": "rin-ratings",
+    "name": "Royal Indian Navy ratings",
+    "kind": "military"
+  },
+  {
+    "id": "ghadar",
+    "name": "Ghadar movement",
+    "kind": "insurgent-group"
+  }
+]

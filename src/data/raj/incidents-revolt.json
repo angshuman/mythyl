@@ -1,0 +1,580 @@
+[
+  {
+    "id": "bhognadih-1855",
+    "conflictId": "santhal-hul",
+    "name": "Hul declared at Bhognadih",
+    "kind": "mutiny",
+    "time": {
+      "year": 1855,
+      "precision": "day",
+      "month": 6,
+      "day": 30
+    },
+    "place": {
+      "name": "Bhognadih",
+      "longitude": 87.32,
+      "latitude": 24.5,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Jharkhand"
+      }
+    },
+    "summary": "Sidhu and Kanhu Murmu told a gathering that Thakur Bonga had ordered the Santhal to end the rule of mahajan, zamindar, and Company in the Damin-i-Koh. The hul had a date.",
+    "sides": [
+      {
+        "label": "Santhal under Sidhu and Kanhu",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "Company administration and diku creditors",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "Kalikinkar Datta, The Santal Insurrection",
+        "headline": "A date in the Damin-i-Koh",
+        "year": 1940,
+        "excerpt": "The hul begins as a meeting. The muskets come later.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "meerut-1857",
+    "conflictId": "revolt-1857",
+    "name": "Meerut",
+    "kind": "mutiny",
+    "time": {
+      "year": 1857,
+      "precision": "day",
+      "month": 5,
+      "day": 10
+    },
+    "place": {
+      "name": "Meerut",
+      "longitude": 77.706,
+      "latitude": 28.984,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Uttar Pradesh"
+      }
+    },
+    "summary": "Sowars and sepoys of the Bengal Army rose on a Sunday, freed comrades from the jail, killed British officers and civilians, and rode for Delhi.",
+    "sides": [
+      {
+        "label": "Bengal Army sepoys",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "British officers and cantonment civilians",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "British officers and civilians in Meerut",
+        "contested": true,
+        "claimedBy": "colonial returns",
+        "note": "Named European dead in Meerut are in the contemporary lists; Indian dead that night are not a single figure."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "William Dalrymple, The Last Mughal",
+        "headline": "A Sunday in Meerut",
+        "year": 2006,
+        "excerpt": "The ride to Delhi is the political act. Meerut is the spark that had been drying for a season of cartridges, annexations, and rumours.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "delhi-taken-1857",
+    "conflictId": "revolt-1857",
+    "name": "Delhi taken",
+    "kind": "raid",
+    "time": {
+      "year": 1857,
+      "precision": "day",
+      "month": 5,
+      "day": 11
+    },
+    "place": {
+      "name": "Red Fort, Delhi",
+      "longitude": 77.241,
+      "latitude": 28.656,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Delhi"
+      }
+    },
+    "summary": "The Meerut men entered Delhi. British officers on the Ridge and in the city were killed. Bahadur Shah Zafar was proclaimed; he was old, and the sepoys needed a name.",
+    "sides": [
+      {
+        "label": "Rebel sepoys",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "British Delhi",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "British civilians and officers in Delhi, 11 May",
+        "contested": true,
+        "note": "Named European dead; Indian servants and bystanders are poorly counted."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "William Dalrymple, The Last Mughal",
+        "headline": "A king because a city needed one",
+        "year": 2006,
+        "excerpt": "The proclamation in the Red Fort is not a plan. It is a fact the sepoys made, and the emperor survived as a symbol until the recapture.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "bibighar-kanpur",
+    "conflictId": "revolt-1857",
+    "name": "Bibighar, Kanpur",
+    "kind": "massacre",
+    "time": {
+      "year": 1857,
+      "precision": "day",
+      "month": 7,
+      "day": 15
+    },
+    "place": {
+      "name": "Bibighar, Kanpur",
+      "longitude": 80.331,
+      "latitude": 26.45,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Uttar Pradesh"
+      }
+    },
+    "summary": "After the Sati Chaura ghat killings, surviving British women and children held at the Bibighar in Kanpur were killed on 15 July. The recapture of the city made a memorial of the well, and a method of the reprisal.",
+    "story": "Colonial memory froze this day. Indian dead in the taking of Kanpur and in the Doab did not get a well with a grate.",
+    "sides": [
+      {
+        "label": "Nana Sahib’s forces / local actors at the Bibighar",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "British women and children",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "British women and children at the Bibighar",
+        "contested": true,
+        "killedMin": 120,
+        "killedMax": 200,
+        "claimedBy": "colonial inquiries and later histories",
+        "note": "Contemporary British lists name most of the Bibighar dead; totals vary with who is counted at the ghat as well."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Andrew Ward, Our Bones Are Scattered",
+        "headline": "A well, and a reprisal",
+        "year": 1996,
+        "excerpt": "Kanpur is two files: the killing of prisoners, and the killing that followed when the city was taken back. Histories that keep only one file are doing a job.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "delhi-recapture-1857",
+    "conflictId": "revolt-1857",
+    "name": "Delhi recaptured",
+    "kind": "siege",
+    "time": {
+      "year": 1857,
+      "precision": "day",
+      "month": 9,
+      "day": 14
+    },
+    "place": {
+      "name": "Delhi",
+      "longitude": 77.231,
+      "latitude": 28.656,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Delhi"
+      }
+    },
+    "summary": "The Company army came down from the Ridge on 14 September. Street fighting lasted days. The city was sacked. Bahadur Shah was taken at Humayun’s tomb. Indian dead in the recapture were never given a number that both sides accepted.",
+    "sides": [
+      {
+        "label": "Company and allied forces",
+        "role": "attacker",
+        "kind": "foreign-forces"
+      },
+      {
+        "label": "Rebel Delhi",
+        "role": "defender",
+        "kind": "insurgent"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "inhabitants and defenders of Delhi",
+        "contested": true,
+        "note": "No agreed integer. Contemporary British officers describe wholesale killing; later Indian and academic accounts treat the recapture as a sack."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "William Dalrymple, The Last Mughal",
+        "headline": "A city made an example",
+        "year": 2006,
+        "excerpt": "The Ridge to the Fort is a military narrative. The lanes between them are a massacre the files never quite totalled.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "lucknow-residency-1857",
+    "conflictId": "revolt-1857",
+    "name": "Siege of the Lucknow Residency",
+    "kind": "siege",
+    "time": {
+      "year": 1857,
+      "precision": "month",
+      "month": 7
+    },
+    "place": {
+      "name": "Residency, Lucknow",
+      "longitude": 80.942,
+      "latitude": 26.859,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Uttar Pradesh"
+      }
+    },
+    "summary": "The Residency was held from July until relief in November, then the city was abandoned and retaken in 1858. Awadh’s taluqdars and peasants made the siege possible; the Company’s guns ended it.",
+    "sides": [
+      {
+        "label": "Rebel forces of Awadh",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "Company garrison",
+        "role": "defender",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "garrison and city",
+        "contested": true,
+        "note": "Garrison casualties are in British returns; city deaths across the two takings of Lucknow are not a single figure."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Rudrangshu Mukherjee, Awadh in Revolt",
+        "headline": "A residency, a province",
+        "year": 1984,
+        "excerpt": "Lucknow is a siege in British memory and a peasant war in Awadh’s.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "jhansi-1858",
+    "conflictId": "revolt-1857",
+    "name": "Jhansi",
+    "kind": "siege",
+    "time": {
+      "year": 1858,
+      "precision": "month",
+      "month": 4
+    },
+    "place": {
+      "name": "Jhansi",
+      "longitude": 78.569,
+      "latitude": 25.449,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Uttar Pradesh"
+      }
+    },
+    "summary": "Hugh Rose took Jhansi in April 1858. Lakshmibai escaped and died at Gwalior in June. The lapse of her adopted son’s state had been paperwork; the storm of the fort was not.",
+    "sides": [
+      {
+        "label": "Company army under Hugh Rose",
+        "role": "attacker",
+        "kind": "foreign-forces"
+      },
+      {
+        "label": "Rani of Jhansi",
+        "role": "defender",
+        "kind": "insurgent"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "defenders and townspeople of Jhansi",
+        "contested": true,
+        "note": "Storms of forts in 1858 produced high Indian deaths that were not census-counted."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Tapti Roy, The Politics of a Popular Uprising",
+        "headline": "A rani, a lapse, a fort",
+        "year": 1994,
+        "excerpt": "Jhansi enters the nationalist canon as a woman on a horse. The files are a siege and a doctrine.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "tirurangadi-1921",
+    "conflictId": "mappila-1921",
+    "name": "Tirurangadi",
+    "kind": "clash",
+    "time": {
+      "year": 1921,
+      "precision": "day",
+      "month": 8,
+      "day": 20
+    },
+    "place": {
+      "name": "Tirurangadi",
+      "longitude": 75.92,
+      "latitude": 11.04,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Kerala"
+      }
+    },
+    "summary": "A clash at Tirurangadi in August 1921 is the conventional start of the Malabar rebellion. Khilafat volunteers, tenancy, and a police raid met. Eranad went to war.",
+    "sides": [
+      {
+        "label": "Mappila rebels",
+        "role": "attacker",
+        "kind": "insurgent"
+      },
+      {
+        "label": "Malabar police and British Indian troops",
+        "role": "defender",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "both sides at the outbreak",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "R. H. Hitchcock, A History of the Malabar Rebellion",
+        "headline": "Eranad goes out",
+        "year": 1925,
+        "excerpt": "The official history begins at a police station. The tenancy file had been open for years.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "wagon-tragedy",
+    "conflictId": "mappila-1921",
+    "name": "Wagon Tragedy",
+    "kind": "other",
+    "time": {
+      "year": 1921,
+      "precision": "day",
+      "month": 11,
+      "day": 20
+    },
+    "place": {
+      "name": "Tirur–Podanur line",
+      "longitude": 75.92,
+      "latitude": 10.91,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Kerala"
+      }
+    },
+    "summary": "About a hundred Mappila prisoners were shut in a goods wagon at Tirur for the journey to Podanur. By the time the doors were opened, most of them had suffocated. The official count of the dead is 64 to 70.",
+    "sides": [
+      {
+        "label": "British Indian custody",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Mappila prisoners",
+        "role": "target",
+        "kind": "insurgent"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "insurgent",
+        "sideLabel": "Mappila prisoners in the wagon",
+        "contested": false,
+        "killedMin": 64,
+        "killedMax": 70,
+        "killedBest": 70,
+        "claimedBy": "official inquiry and later histories",
+        "note": "The suffocation deaths are unusually well documented for a colonial repression file. 70 is the figure commonly used; some returns give 64."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Inquiry into the Tirur wagon deaths",
+        "headline": "A closed wagon on the Malabar line",
+        "year": 1921,
+        "excerpt": "Seventy men can die of air in a moving jail. The rebellion had already become a file of methods.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "birsa-captured-1900",
+    "conflictId": "munda-ulgulan",
+    "name": "Birsa captured",
+    "kind": "operation",
+    "time": {
+      "year": 1900,
+      "precision": "day",
+      "month": 2,
+      "day": 3
+    },
+    "place": {
+      "name": "Chotanagpur",
+      "longitude": 85.31,
+      "latitude": 23.344,
+      "precision": "region",
+      "admin": {
+        "country": "India",
+        "state": "Jharkhand"
+      }
+    },
+    "summary": "Birsa Munda was taken in early February 1900 and died in Ranchi jail in June. The ulgulan outlived him as a name.",
+    "sides": [
+      {
+        "label": "Colonial police",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Birsa Munda",
+        "role": "target",
+        "kind": "insurgent"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "K. S. Singh, Birsa Munda and His Movement",
+        "headline": "A prophet in a jail",
+        "year": 1983,
+        "excerpt": "The capture is a police date. The tenancy act is the longer sentence.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "raju-killed-1924",
+    "conflictId": "rampa-1922",
+    "name": "Alluri Sitarama Raju killed",
+    "kind": "execution",
+    "time": {
+      "year": 1924,
+      "precision": "day",
+      "month": 5,
+      "day": 7
+    },
+    "place": {
+      "name": "Koyyuru Agency",
+      "longitude": 82.25,
+      "latitude": 17.65,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Andhra Pradesh"
+      }
+    },
+    "summary": "Raju was shot on 7 May 1924 after two years in the Manyam. Police accounts call it an encounter. His name stayed in the hills.",
+    "sides": [
+      {
+        "label": "Madras Police / Malabar Special Police detachments",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Alluri Sitarama Raju",
+        "role": "target",
+        "kind": "insurgent"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "insurgent",
+        "sideLabel": "Alluri Sitarama Raju",
+        "contested": false,
+        "killedMin": 1,
+        "killedMax": 1,
+        "killedBest": 1,
+        "claimedBy": "police reports"
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Agency police reports / later Andhra histories",
+        "headline": "A rifle in the Manyam",
+        "year": 1924,
+        "excerpt": "The forest law stayed. The man who raided stations for rifles did not.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  }
+]

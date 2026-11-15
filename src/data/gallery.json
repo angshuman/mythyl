@@ -1,5 +1,14 @@
 [
   {
+    "id": "raj",
+    "href": "/raj",
+    "kind": "Map",
+    "span": "1757–1947",
+    "title": "A geography of force.",
+    "lede": "How the Company took the subcontinent, and how the Crown held it — wars, annexations, peasant risings, massacres, famine, jail.",
+    "cover": "raj-mark"
+  },
+  {
     "id": "conflicts",
     "href": "/conflicts",
     "kind": "Map",

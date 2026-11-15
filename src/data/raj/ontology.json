@@ -1,0 +1,25 @@
+{
+  "id": "raj",
+  "title": "Company to Crown",
+  "span": "1757–1947",
+  "note": "Live records are the JSON tables in this folder. Research agents write JSON only. Harm figures are ranges with sources; a missing count is unknown, not zero.",
+  "families": [
+    "conquest",
+    "annexation",
+    "revolt",
+    "tribal",
+    "peasant",
+    "massacre",
+    "agitation",
+    "famine",
+    "penal"
+  ],
+  "eras": [
+    "company",
+    "after",
+    "swadeshi",
+    "movement",
+    "endgame"
+  ],
+  "geo": "Events are plotted on a modern South Asia outline (Natural Earth). Lahore, Peshawar, Dhaka, Rangoon, Port Blair sit where they sat."
+}

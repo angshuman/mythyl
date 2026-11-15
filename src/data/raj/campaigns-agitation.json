@@ -1,0 +1,1723 @@
+[
+  {
+    "id": "bengal-famine-1770",
+    "slug": "bengal-famine-1770",
+    "name": "Bengal famine of 1770",
+    "aliases": [
+      "Great Bengal Famine",
+      "Chiattorer mannantar"
+    ],
+    "summary": "A famine in Bengal and Bihar after the Company took the diwani. W. W. Hunter’s later figure of ten million dead became the traditional number; demographers treat it as an order of magnitude, not a census. Grain still moved. The Company still collected.",
+    "scale": "large",
+    "scaleRationale": "A presidency-scale famine at the start of Company territorial rule.",
+    "types": [
+      "famine",
+      "one-sided-violence"
+    ],
+    "family": "famine",
+    "theaters": [
+      "bengal"
+    ],
+    "rule": "company",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "class",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "taxation",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1769,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1771,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-murshidabad",
+        "name": "Murshidabad / Bengal",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 88.271,
+        "latitude": 24.183,
+        "admin": {
+          "country": "India",
+          "state": "West Bengal"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 88.271,
+      "latitude": 24.183,
+      "precision": "theater"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Bengal peasantry",
+        "kind": "nationality"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Annals of Rural Bengal",
+            "creator": "W. W. Hunter",
+            "year": 1868
+          },
+          {
+            "title": "The Bengal Famine of 1770",
+            "note": "Later cautions in Rajat Datta and in Cambridge Economic History discussions."
+          }
+        ],
+        "contested": true,
+        "max": 10000000,
+        "note": "Hunter’s Annals of Rural Bengal popularised ~10 million (about a third of Bengal). Modern historians treat the figure as traditional and unverifiable; it is not a register count."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "About ten million dead, a third of Bengal.",
+        "heldBy": "W. W. Hunter, 1868, and much later textbook writing"
+      },
+      {
+        "claim": "A disaster whose magnitude is real and whose integer is not recoverable.",
+        "heldBy": "later economic historians"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Annals of Rural Bengal",
+        "creator": "W. W. Hunter",
+        "year": 1868
+      },
+      {
+        "title": "The Anarchy",
+        "creator": "William Dalrymple",
+        "year": 2019
+      }
+    ],
+    "confidence": "medium",
+    "visualization": {
+      "pulse": true
+    },
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "great-famine-1876",
+    "slug": "great-famine-1876",
+    "name": "Great Famine of 1876–78",
+    "aliases": [
+      "Madras famine",
+      "Southern India famine of 1876–78"
+    ],
+    "summary": "Drought from Madras through the Deccan to the Bombay Presidency, under a viceroy who would not stop grain moving to the ports. Relief was the camp and the wage. How many died depends on the historian: several million is the band, not a single count.",
+    "scale": "large",
+    "scaleRationale": "A multi-presidency famine; among the deadliest of the Crown Raj.",
+    "types": [
+      "famine"
+    ],
+    "family": "famine",
+    "theaters": [
+      "south"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "class",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "taxation",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1876,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1878,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-madras",
+        "name": "Madras",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 80.27,
+        "latitude": 13.083,
+        "admin": {
+          "country": "India",
+          "state": "Tamil Nadu"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 80.27,
+      "latitude": 13.083,
+      "precision": "theater"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Madras and Deccan peasantry",
+        "kind": "caste"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Late Victorian Holocausts",
+            "creator": "Mike Davis",
+            "year": 2001
+          },
+          {
+            "title": "The Famine Campaign in Southern India",
+            "creator": "William Digby",
+            "year": 1878
+          },
+          {
+            "title": "Famine in South Asia",
+            "creator": "B. M. Bhatia"
+          }
+        ],
+        "contested": true,
+        "min": 5000000,
+        "max": 8300000,
+        "note": "Digby’s 10.3 million is high. Davis, Late Victorian Holocausts, works a figure of about 5.5 million in British India for 1876–78. Other official and later estimates sit between five and eight million. Not a single register."
+      }
+    },
+    "sources": [
+      {
+        "title": "Late Victorian Holocausts",
+        "creator": "Mike Davis",
+        "year": 2001
+      },
+      {
+        "title": "The Famine Campaign in Southern India",
+        "creator": "William Digby",
+        "year": 1878
+      }
+    ],
+    "confidence": "medium",
+    "visualization": {
+      "pulse": true
+    },
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "bengal-famine-1943",
+    "slug": "bengal-famine-1943",
+    "name": "Bengal famine of 1943",
+    "aliases": [
+      "Panchasher mannantar",
+      "Great Bengal Famine of 1943"
+    ],
+    "summary": "Cyclone, war, rice still leaving, a province that never quite declared famine. The Famine Inquiry Commission counted about 1.5 million excess deaths. Sen put the toll near three million; Maharatna, working the registers, nearer two. Calcutta photographed it; the countryside lived it.",
+    "scale": "large",
+    "scaleRationale": "The last great famine of the Raj; a scholarly range in the millions.",
+    "types": [
+      "famine"
+    ],
+    "family": "famine",
+    "theaters": [
+      "bengal"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "class",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1943,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1944,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-calcutta",
+        "name": "Calcutta / Bengal",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 88.363,
+        "latitude": 22.572,
+        "admin": {
+          "country": "India",
+          "state": "West Bengal"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 88.363,
+      "latitude": 22.572,
+      "precision": "theater"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Bengal rural poor",
+        "kind": "caste"
+      },
+      {
+        "name": "Calcutta destitute",
+        "kind": "ethnicity"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Poverty and Famines",
+            "creator": "Amartya Sen",
+            "year": 1981
+          },
+          {
+            "title": "The Demography of Famines",
+            "creator": "Arup Maharatna",
+            "year": 1996
+          },
+          {
+            "title": "Report on Bengal",
+            "creator": "Famine Inquiry Commission",
+            "year": 1945
+          },
+          {
+            "title": "Prosperity and Misery in Modern Bengal",
+            "creator": "Paul R. Greenough",
+            "year": 1982
+          }
+        ],
+        "contested": true,
+        "min": 2100000,
+        "max": 3000000,
+        "note": "Famine Inquiry Commission ~1.5 million (Jan 1943–Jun 1944). Sen ~3 million. Dyson and Maharatna nearer 2.1 million. Greenough 3.5–3.8 million. Wikipedia’s outer band 0.8–3.8 million. The map stores the scholarly working range 2.1–3 million."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "About 1.5 million excess deaths.",
+        "heldBy": "Famine Inquiry Commission, 1945"
+      },
+      {
+        "claim": "Around 3 million.",
+        "heldBy": "Amartya Sen, Poverty and Famines"
+      },
+      {
+        "claim": "About 2.1 million.",
+        "heldBy": "Dyson and Maharatna, 1991 / Maharatna 1996"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Poverty and Famines",
+        "creator": "Amartya Sen",
+        "year": 1981
+      },
+      {
+        "title": "Excess mortality during the Bengal famine: A re-evaluation",
+        "creator": "Tim Dyson and Arup Maharatna",
+        "year": 1991
+      },
+      {
+        "title": "Report on Bengal",
+        "creator": "Famine Inquiry Commission",
+        "year": 1945
+      }
+    ],
+    "confidence": "high",
+    "visualization": {
+      "pulse": true
+    },
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "jallianwala-1919",
+    "slug": "jallianwala-bagh",
+    "name": "Jallianwala Bagh",
+    "aliases": [
+      "Amritsar massacre",
+      "Jallianwala Bagh massacre"
+    ],
+    "summary": "On Baisakhi 1919, Brigadier-General Dyer marched fifty riflemen into Jallianwala Bagh, blocked the lane, and ordered fire. Hunter’s committee accepted 379 dead. The Congress inquiry said a thousand, perhaps fifteen hundred. A week later a street in Amritsar had to be crawled.",
+    "scale": "large",
+    "scaleRationale": "A single afternoon that broke the moral claim of the Raj for a generation.",
+    "types": [
+      "massacre",
+      "one-sided-violence"
+    ],
+    "family": "massacre",
+    "theaters": [
+      "punjab"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1919,
+        "precision": "day",
+        "month": 4,
+        "day": 13
+      },
+      "end": {
+        "year": 1919,
+        "precision": "day",
+        "month": 4,
+        "day": 25
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-jallianwala",
+        "name": "Jallianwala Bagh, Amritsar",
+        "kind": "point",
+        "precision": "building",
+        "longitude": 74.86,
+        "latitude": 31.6205,
+        "admin": {
+          "country": "India",
+          "state": "Punjab"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 74.86,
+      "latitude": 31.6205,
+      "precision": "building"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "dyer",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Punjabis in Amritsar",
+        "kind": "ethnicity"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Martial law in Amritsar, April 1919"
+      },
+      {
+        "name": "Crawling order, Kucha Kurrichhan"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Report of the Disorders Inquiry Committee (Hunter Committee)",
+            "year": 1920
+          },
+          {
+            "title": "Report of the Commissioners appointed by the Punjab Sub-committee of the Indian National Congress",
+            "year": 1920
+          },
+          {
+            "title": "Amritsar 1919",
+            "creator": "Kim A. Wagner",
+            "year": 2019
+          }
+        ],
+        "contested": true,
+        "min": 379,
+        "max": 1500,
+        "note": "Hunter Committee / official British Indian figure: 379 identified dead, about 1,100 wounded. Congress inquiry: about 1,000 dead, more than 1,500 wounded. Sewa Samiti door-to-door work pushed the official list up to 379. Wagner later judged 500–600 a plausible band, with perhaps 2,000 total casualties."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "379 dead.",
+        "heldBy": "Hunter Committee / Government of India"
+      },
+      {
+        "claim": "About 1,000 dead, 1,500+ wounded.",
+        "heldBy": "Indian National Congress inquiry, 1920"
+      },
+      {
+        "claim": "A working band of 500–600 dead.",
+        "heldBy": "Kim Wagner, Amritsar 1919"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "rowlatt-1919"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Report of the Disorders Inquiry Committee",
+        "year": 1920,
+        "note": "Hunter Committee"
+      },
+      {
+        "title": "Amritsar 1919: An Empire of Fear and the Making of a Massacre",
+        "creator": "Kim A. Wagner",
+        "year": 2019
+      }
+    ],
+    "confidence": "high",
+    "visualization": {
+      "pulse": true
+    },
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "qissa-khwani-1930",
+    "slug": "qissa-khwani",
+    "name": "Qissa Khwani",
+    "aliases": [
+      "Qissa Khwani Bazaar massacre",
+      "Peshawar 23 April 1930"
+    ],
+    "summary": "Khudai Khidmatgars gathered in Peshawar’s storytellers’ bazaar on 23 April 1930. Armoured cars went in. Official dead were twenty, or thirty. A Congress list reached 125. Local memory kept hundreds.",
+    "scale": "medium",
+    "scaleRationale": "A city’s defining massacre of the civil-disobedience years.",
+    "types": [
+      "massacre",
+      "one-sided-violence"
+    ],
+    "family": "massacre",
+    "theaters": [
+      "punjab"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "ethnicity",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1930,
+        "precision": "day",
+        "month": 4,
+        "day": 23
+      },
+      "end": {
+        "year": 1930,
+        "precision": "day",
+        "month": 4,
+        "day": 23
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-qissa",
+        "name": "Qissa Khwani Bazaar, Peshawar",
+        "kind": "point",
+        "precision": "building",
+        "longitude": 71.569,
+        "latitude": 34.008,
+        "admin": {
+          "country": "Pakistan",
+          "state": "Khyber Pakhtunkhwa"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 71.569,
+      "latitude": 34.008,
+      "precision": "building"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "khudai-khidmatgar",
+        "role": "civilian-target"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Pashtuns",
+        "kind": "ethnicity"
+      },
+      {
+        "name": "Khudai Khidmatgars",
+        "kind": "ethnicity"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Report of the Peshawar Enquiry Committee (Congress)"
+          },
+          {
+            "title": "Sulaiman Report / official Peshawar inquiry",
+            "year": 1930
+          }
+        ],
+        "contested": true,
+        "min": 20,
+        "max": 400,
+        "note": "Official/Sulaiman figures 20–30. Congress inquiry 125 with a named list. Nationalist and later Pakistani accounts 200–400. No agreed integer."
+      }
+    },
+    "sources": [
+      {
+        "title": "The Frontier Gandhi",
+        "note": "Abdul Ghaffar Khan biographies; Congress Peshawar Enquiry."
+      },
+      {
+        "title": "Report (with Evidence) of the Peshawar Enquiry Committee"
+      }
+    ],
+    "confidence": "medium",
+    "visualization": {
+      "pulse": true
+    },
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "partition-bengal-1905",
+    "slug": "partition-of-bengal",
+    "name": "Partition of Bengal",
+    "aliases": [
+      "Swadeshi movement",
+      "Banga bhango"
+    ],
+    "summary": "Curzon split Bengal in 1905. Swadeshi was boycott, school, bomb, and a new Muslim-majority province in the east. The partition was undone in 1911. The communal map it taught was not.",
+    "scale": "large",
+    "scaleRationale": "A presidency redrawn, a national method born, a communal after that outlived the map.",
+    "types": [
+      "agitation-with-violence"
+    ],
+    "family": "agitation",
+    "theaters": [
+      "bengal"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "unclear",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "religion",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "identity",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1905,
+        "precision": "day",
+        "month": 10,
+        "day": 16
+      },
+      "end": {
+        "year": 1911,
+        "precision": "month",
+        "month": 12
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-calcutta-1905",
+        "name": "Calcutta",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 88.363,
+        "latitude": 22.572,
+        "admin": {
+          "country": "India",
+          "state": "West Bengal"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 88.363,
+      "latitude": 22.572,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Bengali Hindus",
+        "kind": "religion"
+      },
+      {
+        "name": "Bengali Muslims",
+        "kind": "religion"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Swadeshi Movement in Bengal, 1903–1908",
+        "creator": "Sumit Sarkar",
+        "year": 1973
+      },
+      {
+        "title": "Modern India 1885–1947",
+        "creator": "Sumit Sarkar",
+        "year": 1983
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "rowlatt-1919",
+    "slug": "rowlatt-satyagraha",
+    "name": "Rowlatt satyagraha",
+    "aliases": [
+      "Rowlatt Act protests"
+    ],
+    "summary": "The Rowlatt Act let the state hold a body without a court. Gandhi called a hartal. Punjab went into a different tense; Amritsar is its own file. The Act taught a country a new kind of no.",
+    "scale": "medium",
+    "scaleRationale": "A national hartal whose Punjab after is the massacre file.",
+    "types": [
+      "agitation-with-violence"
+    ],
+    "family": "agitation",
+    "theaters": [
+      "punjab",
+      "gangetic"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "unclear",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1919,
+        "precision": "month",
+        "month": 3
+      },
+      "end": {
+        "year": 1919,
+        "precision": "month",
+        "month": 4
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-delhi-rowlatt",
+        "name": "Delhi",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 77.21,
+        "latitude": 28.61,
+        "admin": {
+          "country": "India",
+          "state": "Delhi"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 77.21,
+      "latitude": 28.61,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "gandhi",
+        "role": "mediator"
+      }
+    ],
+    "peoples": [],
+    "legalRegimes": [
+      {
+        "name": "Anarchical and Revolutionary Crimes Act, 1919 (Rowlatt)"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "jallianwala-1919"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Gandhi's Rise to Power",
+        "creator": "Judith M. Brown",
+        "year": 1972
+      },
+      {
+        "title": "The Rowlatt satyagraha",
+        "note": "Brown; Sarkar, Modern India."
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "non-cooperation-1920",
+    "slug": "non-cooperation",
+    "name": "Non-cooperation",
+    "aliases": [
+      "Non-cooperation movement",
+      "Khilafat–Non-cooperation"
+    ],
+    "summary": "Gandhi and the Khilafat leadership asked a country to leave the schools, the courts, the titles, the cloth. Chauri Chaura in February 1922 — a police station burned, constables dead — is the day he stopped it.",
+    "scale": "large",
+    "scaleRationale": "The first all-India mass movement of the Gandhi years.",
+    "types": [
+      "agitation-with-violence"
+    ],
+    "family": "agitation",
+    "theaters": [
+      "gangetic",
+      "bengal",
+      "south"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "unclear",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "religion"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "identity",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1920,
+        "precision": "month",
+        "month": 8
+      },
+      "end": {
+        "year": 1922,
+        "precision": "month",
+        "month": 2
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-ahmedabad",
+        "name": "Ahmedabad / movement centre",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 72.571,
+        "latitude": 23.023,
+        "admin": {
+          "country": "India",
+          "state": "Gujarat"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 72.571,
+      "latitude": 23.023,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "gandhi",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "Gandhi's Rise to Power",
+        "creator": "Judith M. Brown",
+        "year": 1972
+      },
+      {
+        "title": "Modern India 1885–1947",
+        "creator": "Sumit Sarkar",
+        "year": 1983
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "civil-disobedience-1930",
+    "slug": "civil-disobedience",
+    "name": "Civil Disobedience",
+    "aliases": [
+      "Salt March",
+      "Dandi March",
+      "Salt satyagraha"
+    ],
+    "summary": "Gandhi walked from Sabarmati to Dandi and picked up salt. The country picked up the method: pans, raids, pickets, prison. Qissa Khwani is of this season and has its own file. Irwin bargained. The movement paused, then did not quite end.",
+    "scale": "large",
+    "scaleRationale": "The salt satyagraha as a national geography, 1930–31.",
+    "types": [
+      "agitation-with-violence"
+    ],
+    "family": "agitation",
+    "theaters": [
+      "konkan",
+      "punjab",
+      "bengal",
+      "south"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "unclear",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation"
+    ],
+    "resources": [
+      {
+        "kind": "taxation",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1930,
+        "precision": "day",
+        "month": 3,
+        "day": 12
+      },
+      "end": {
+        "year": 1931,
+        "precision": "month",
+        "month": 3
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-dandi",
+        "name": "Dandi",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 72.632,
+        "latitude": 21.329,
+        "admin": {
+          "country": "India",
+          "state": "Gujarat"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 72.632,
+      "latitude": 21.329,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "gandhi",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "qissa-khwani-1930"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Gandhi and Civil Disobedience",
+        "creator": "Judith M. Brown",
+        "year": 1977
+      },
+      {
+        "title": "The Salt March",
+        "note": "Brown; Dalton; Sarkar."
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "quit-india-1942",
+    "slug": "quit-india",
+    "name": "Quit India",
+    "aliases": [
+      "August Kranti",
+      "Quit India movement"
+    ],
+    "summary": "The Congress asked the British to quit. The leadership was jailed by morning. What followed was a country improvising: rails, telegraph, a national government at Tamluk, firings at Chimur and Ashti. The Raj held. The timetable of leaving had changed.",
+    "scale": "large",
+    "scaleRationale": "The last all-India rising against the Raj; repression was nationwide.",
+    "types": [
+      "agitation-with-violence"
+    ],
+    "family": "agitation",
+    "theaters": [
+      "gangetic",
+      "bengal",
+      "south",
+      "konkan"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1942,
+        "precision": "day",
+        "month": 8,
+        "day": 8
+      },
+      "end": {
+        "year": 1944,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-bombay-qi",
+        "name": "Bombay",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 72.877,
+        "latitude": 18.938,
+        "admin": {
+          "country": "India",
+          "state": "Maharashtra"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 72.877,
+      "latitude": 18.938,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "gandhi",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "nehru",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "The Quit India Movement",
+        "note": "Hutchins; Pandey; Sarkar, Modern India."
+      },
+      {
+        "title": "Modern India 1885–1947",
+        "creator": "Sumit Sarkar",
+        "year": 1983
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "chittagong-armoury",
+    "slug": "chittagong-armoury-raid",
+    "name": "Chittagong armoury raid",
+    "aliases": [
+      "Chittagong uprising",
+      "Indian Republican Army, Chittagong"
+    ],
+    "summary": "Surya Sen’s group took the armoury and the European club in Chittagong on 18 April 1930, cut the wires, and tried to hold a city. They did not hold it. The after was years of hunting, and a hanging.",
+    "scale": "small",
+    "scaleRationale": "A city, a night, a guerrilla after.",
+    "types": [
+      "agitation-with-violence",
+      "military-operation"
+    ],
+    "family": "agitation",
+    "theaters": [
+      "bengal"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation",
+      "ideology"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1930,
+        "precision": "day",
+        "month": 4,
+        "day": 18
+      },
+      "end": {
+        "year": 1934,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-chittagong",
+        "name": "Chittagong",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 91.831,
+        "latitude": 22.356,
+        "admin": {
+          "country": "Bangladesh"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 91.831,
+      "latitude": 22.356,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "surya-sen",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Bengali revolutionaries",
+        "kind": "ethnicity"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Do and Die: The Chittagong Uprising 1930–34",
+        "creator": "Manini Chatterjee",
+        "year": 1999
+      },
+      {
+        "title": "The Chittagong Armoury Raiders",
+        "note": "Memoirs of survivors; Chatterjee."
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "kakori-1925",
+    "slug": "kakori",
+    "name": "Kakori",
+    "aliases": [
+      "Kakori conspiracy",
+      "Kakori train robbery"
+    ],
+    "summary": "Hindustan Republican Association men stopped the Number 8 Down at Kakori in August 1925 and took the treasury chest. The after was a conspiracy case and hangings. A siding became a nationalist station.",
+    "scale": "small",
+    "scaleRationale": "A robbery and a trial; the geography is a platform.",
+    "types": [
+      "agitation-with-violence"
+    ],
+    "family": "agitation",
+    "theaters": [
+      "gangetic"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation",
+      "ideology"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1925,
+        "precision": "day",
+        "month": 8,
+        "day": 9
+      },
+      "end": {
+        "year": 1927,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-kakori",
+        "name": "Kakori",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 80.8,
+        "latitude": 26.89,
+        "admin": {
+          "country": "India",
+          "state": "Uttar Pradesh"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 80.8,
+      "latitude": 26.89,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "The Kakori case",
+        "note": "HRA histories; Chandra, India's Struggle for Independence."
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "lahore-conspiracy",
+    "slug": "lahore-conspiracy",
+    "name": "Lahore conspiracy",
+    "aliases": [
+      "Bhagat Singh",
+      "Saunders assassination",
+      "Central Assembly bombing"
+    ],
+    "summary": "Bhagat Singh, Rajguru and Sukhdev were hanged at Lahore Central Jail on 23 March 1931 for the Saunders killing and the Assembly bombs. The trial had been a stage. The hanging made a calendar.",
+    "scale": "medium",
+    "scaleRationale": "Three executions that became a national date.",
+    "types": [
+      "agitation-with-violence"
+    ],
+    "family": "agitation",
+    "theaters": [
+      "punjab"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation",
+      "ideology"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1928,
+        "precision": "month",
+        "month": 12
+      },
+      "end": {
+        "year": 1931,
+        "precision": "day",
+        "month": 3,
+        "day": 23
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-lahore",
+        "name": "Lahore",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 74.329,
+        "latitude": 31.565,
+        "admin": {
+          "country": "Pakistan",
+          "state": "Punjab"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 74.329,
+      "latitude": 31.565,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "bhagat-singh",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Punjab revolutionaries",
+        "kind": "ethnicity"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Men Who Killed Gandhi / Bhagat Singh studies",
+        "note": "HSRA; Nayar; Maclean, A Revolutionary History of Interwar India."
+      },
+      {
+        "title": "A Revolutionary History of Interwar India",
+        "creator": "Kama Maclean",
+        "year": 2015
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "rin-mutiny-1946",
+    "slug": "rin-mutiny",
+    "name": "RIN mutiny",
+    "aliases": [
+      "Royal Indian Navy mutiny",
+      "Bombay naval uprising"
+    ],
+    "summary": "Ratings of the Royal Indian Navy struck in February 1946, from Bombay harbour to Karachi and beyond. The Congress and the League asked them to stand down. The guns in the city did not wait for the politics.",
+    "scale": "medium",
+    "scaleRationale": "A service-wide mutiny in the last full year of the Raj.",
+    "types": [
+      "mutiny",
+      "agitation-with-violence"
+    ],
+    "family": "agitation",
+    "theaters": [
+      "konkan",
+      "sindh"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation",
+      "class"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1946,
+        "precision": "day",
+        "month": 2,
+        "day": 18
+      },
+      "end": {
+        "year": 1946,
+        "precision": "day",
+        "month": 2,
+        "day": 23
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-bombay-harbour",
+        "name": "Bombay harbour",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 72.84,
+        "latitude": 18.93,
+        "admin": {
+          "country": "India",
+          "state": "Maharashtra"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 72.84,
+      "latitude": 18.93,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "rin-ratings",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "The Indian Naval Revolt of 1946",
+        "creator": "Biswanath Bose",
+        "year": 1988
+      },
+      {
+        "title": "1946: The Last War of Independence",
+        "note": "Later popular histories; service records."
+      }
+    ],
+    "confidence": "medium",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "cellular-jail",
+    "slug": "cellular-jail",
+    "name": "Cellular Jail",
+    "aliases": [
+      "Kala Pani",
+      "Port Blair Cellular Jail"
+    ],
+    "summary": "The jail at Port Blair opened in 1906 as a machine for isolating the political prisoner: seven wings from a tower, the sea as the wall. Savarkar was here; so were hundreds of others. The Andaman penal colony is older than the building. The building is the picture.",
+    "scale": "medium",
+    "scaleRationale": "A penal regime across decades, not a battle.",
+    "types": [
+      "penal"
+    ],
+    "family": "penal",
+    "theaters": [
+      "andaman"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation",
+      "ideology"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1906,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1945,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-port-blair",
+        "name": "Cellular Jail, Port Blair",
+        "kind": "point",
+        "precision": "building",
+        "longitude": 92.746,
+        "latitude": 11.675,
+        "admin": {
+          "country": "India",
+          "state": "Andaman and Nicobar Islands"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 92.746,
+      "latitude": 11.675,
+      "precision": "building"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      }
+    ],
+    "peoples": [],
+    "legalRegimes": [
+      {
+        "name": "Andaman penal colony / Cellular Jail"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Kala Pani",
+        "note": "Andaman gazetteers; Savarkar’s prison memoir; later ASI histories of the jail."
+      },
+      {
+        "title": "The Cellular Jail",
+        "note": "Port Blair memorial literature, used with caution."
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "komagata-maru",
+    "slug": "komagata-maru",
+    "name": "Komagata Maru",
+    "aliases": [
+      "Guru Nanak Jahaz",
+      "Budge Budge riot"
+    ],
+    "summary": "A ship of Punjabi migrants was turned from Vancouver under Canadian continuous-journey rules the empire had written. At Budge Budge on 29 September 1914 the police met them with rifles. Official dead were about twenty.",
+    "scale": "small",
+    "scaleRationale": "A ship, a siding, a firing; Ghadar’s most famous landing that was not a landing.",
+    "types": [
+      "penal",
+      "massacre"
+    ],
+    "family": "penal",
+    "theaters": [
+      "bengal"
+    ],
+    "rule": "crown",
+    "internalExternal": "transnational",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "religion",
+      "migration"
+    ],
+    "resources": [
+      {
+        "kind": "citizenship",
+        "centrality": "core"
+      },
+      {
+        "kind": "identity",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1914,
+        "precision": "month",
+        "month": 5
+      },
+      "end": {
+        "year": 1914,
+        "precision": "day",
+        "month": 9,
+        "day": 29
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-budge",
+        "name": "Budge Budge",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 88.182,
+        "latitude": 22.466,
+        "admin": {
+          "country": "India",
+          "state": "West Bengal"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 88.182,
+      "latitude": 22.466,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "ghadar",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Punjabi Sikhs",
+        "kind": "religion"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Voyage of the Komagata Maru",
+        "creator": "Hugh Johnston",
+        "year": 1989
+      },
+      {
+        "title": "The Komagata Maru Incident",
+        "note": "Johnston; Canadian and Bengal police files."
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  }
+]

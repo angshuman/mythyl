@@ -1,0 +1,471 @@
+[
+  {
+    "id": "plassey-day",
+    "conflictId": "plassey-1757",
+    "name": "Plassey",
+    "kind": "clash",
+    "time": {
+      "year": 1757,
+      "precision": "day",
+      "month": 6,
+      "day": 23
+    },
+    "place": {
+      "name": "Palashi",
+      "longitude": 88.246,
+      "latitude": 23.796,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "West Bengal"
+      }
+    },
+    "summary": "Clive’s force faced Siraj-ud-Daulah on the Bhagirathi. Mir Jafar’s wing did not fight. The nawab fled; he was killed days later. The Company had Bengal.",
+    "story": "The field was wet from monsoon. The political work had been done in Murshidabad.",
+    "sides": [
+      {
+        "label": "East India Company",
+        "role": "attacker",
+        "kind": "foreign-forces",
+        "actorId": "eic"
+      },
+      {
+        "label": "Nawab of Bengal",
+        "role": "defender",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "combatants on the field",
+        "contested": true,
+        "note": "Field deaths were in the hundreds on the nawab’s side in contemporary estimates; Clive’s losses were small. No agreed integer."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "William Dalrymple, The Anarchy",
+        "headline": "A grove, a bribe, a province",
+        "year": 2019,
+        "excerpt": "Plassey is remembered as a battle. It was a transaction that needed a few guns to look like one.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "srirangapatna-1799",
+    "conflictId": "anglo-mysore",
+    "name": "Storm of Srirangapatna",
+    "kind": "siege",
+    "time": {
+      "year": 1799,
+      "precision": "day",
+      "month": 5,
+      "day": 4
+    },
+    "place": {
+      "name": "Srirangapatna",
+      "longitude": 76.57,
+      "latitude": 12.42,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Karnataka"
+      }
+    },
+    "summary": "The Company and its allies breached the island fortress. Tipu Sultan was killed in the fighting near a gate. Mysore was placed under a restored Wodeyar with a British resident.",
+    "sides": [
+      {
+        "label": "Company and allies",
+        "role": "attacker",
+        "kind": "foreign-forces"
+      },
+      {
+        "label": "Mysore under Tipu",
+        "role": "defender",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "Mysore garrison and townsfolk",
+        "contested": true,
+        "note": "Storm deaths are described in British despatches; no single agreed civilian count."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Kate Brittlebank, Tipu Sultan's Search for Legitimacy",
+        "headline": "The sultan in the breach",
+        "year": 1997,
+        "excerpt": "Tipu died as he had fought: in the fort, not in exile. The Company needed that death to be a victory, not a martyrdom, and never quite managed both.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "assaye-1803",
+    "conflictId": "anglo-maratha",
+    "name": "Assaye",
+    "kind": "clash",
+    "time": {
+      "year": 1803,
+      "precision": "day",
+      "month": 9,
+      "day": 23
+    },
+    "place": {
+      "name": "Assaye",
+      "longitude": 75.887,
+      "latitude": 20.241,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Maharashtra"
+      }
+    },
+    "summary": "Wellington later said Assaye was the bloodiest for its size he ever saw. A Company army beat a Maratha force trained on French lines in the Deccan.",
+    "sides": [
+      {
+        "label": "Company army under Wellesley",
+        "role": "attacker",
+        "kind": "foreign-forces"
+      },
+      {
+        "label": "Maratha forces of the Daulat Rao Scindia / Bhonsle alliance",
+        "role": "defender",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "both armies",
+        "contested": true,
+        "note": "British returns list heavy Company casualties for the size of the force; Maratha losses are less securely counted."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Rory Muir, Wellington",
+        "headline": "The Deccan field",
+        "year": 2013,
+        "excerpt": "Assaye is a European-style battle on an Indian plain — artillery, infantry, a river, a butcher’s bill Wellesley never forgot.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "miani-1843",
+    "conflictId": "sindh-1843",
+    "name": "Miani",
+    "kind": "clash",
+    "time": {
+      "year": 1843,
+      "precision": "day",
+      "month": 2,
+      "day": 17
+    },
+    "place": {
+      "name": "Miani",
+      "longitude": 68.37,
+      "latitude": 25.45,
+      "precision": "village",
+      "admin": {
+        "country": "Pakistan",
+        "state": "Sindh"
+      }
+    },
+    "summary": "Napier’s force met the Talpur amirs on the Fuleli. The amirs were beaten; Hyderabad fell. Sindh was annexed.",
+    "sides": [
+      {
+        "label": "Company army under Napier",
+        "role": "attacker",
+        "kind": "foreign-forces"
+      },
+      {
+        "label": "Talpur amirs",
+        "role": "defender",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "Talpur army and Company force",
+        "contested": true,
+        "note": "Napier’s own despatches give round numbers; treat as a victor’s count."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Charles Napier’s despatches",
+        "headline": "Peccavi",
+        "year": 1843,
+        "excerpt": "The pun — ‘I have Sindh’ — is later folklore. The annexation was real, and the pretext remains thin in the files.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "ferozeshah-1845",
+    "conflictId": "anglo-sikh",
+    "name": "Ferozeshah",
+    "kind": "clash",
+    "time": {
+      "year": 1845,
+      "precision": "day",
+      "month": 12,
+      "day": 21
+    },
+    "place": {
+      "name": "Ferozeshah",
+      "longitude": 74.78,
+      "latitude": 30.87,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Punjab"
+      }
+    },
+    "summary": "A night battle in December 1845. The Khalsa army came close to breaking the Company line. British casualties were among the worst of the Sikh wars.",
+    "sides": [
+      {
+        "label": "Company army",
+        "role": "attacker",
+        "kind": "foreign-forces"
+      },
+      {
+        "label": "Khalsa army",
+        "role": "defender",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "both armies",
+        "contested": true,
+        "note": "British returns are detailed; Khalsa losses are estimated from those returns and later Sikh histories."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Amarpal Singh, The First Anglo-Sikh War",
+        "headline": "A night the Company nearly lost",
+        "year": 2010,
+        "excerpt": "Ferozeshah is the reminder that the Punjab was not taken cheaply.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "gujrat-1849",
+    "conflictId": "anglo-sikh",
+    "name": "Gujrat",
+    "kind": "clash",
+    "time": {
+      "year": 1849,
+      "precision": "day",
+      "month": 2,
+      "day": 21
+    },
+    "place": {
+      "name": "Gujrat",
+      "longitude": 74.078,
+      "latitude": 32.574,
+      "precision": "city",
+      "admin": {
+        "country": "Pakistan",
+        "state": "Punjab"
+      }
+    },
+    "summary": "The ‘battle of the guns’ ended the Second Anglo-Sikh War. The Khalsa army was broken; the Punjab was annexed weeks later.",
+    "sides": [
+      {
+        "label": "Company army under Gough",
+        "role": "attacker",
+        "kind": "foreign-forces"
+      },
+      {
+        "label": "Sikh empire",
+        "role": "defender",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "insurgent",
+        "sideLabel": "Khalsa army",
+        "contested": true,
+        "note": "British victory despatches. Sikh combatant deaths are not independently census-counted."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Khushwant Singh, A History of the Sikhs",
+        "headline": "The last independent army of the plains",
+        "year": 1966,
+        "excerpt": "Gujrat is where the Sikh state ends as a state. The Sikh soldier does not disappear; he is recruited.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rangoon-1824",
+    "conflictId": "anglo-burmese",
+    "name": "Landing at Rangoon",
+    "kind": "operation",
+    "time": {
+      "year": 1824,
+      "precision": "month",
+      "month": 5
+    },
+    "place": {
+      "name": "Rangoon",
+      "longitude": 96.156,
+      "latitude": 16.84,
+      "precision": "city",
+      "admin": {
+        "country": "Myanmar"
+      }
+    },
+    "summary": "The first Anglo-Burmese War opened with a seaborne landing at Rangoon in May 1824. Disease killed more Company soldiers than the Konbaung army did.",
+    "sides": [
+      {
+        "label": "Company expedition",
+        "role": "attacker",
+        "kind": "foreign-forces"
+      },
+      {
+        "label": "Konbaung kingdom",
+        "role": "defender",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "state-forces",
+        "sideLabel": "Company expedition, mostly from disease",
+        "contested": true,
+        "note": "Contemporary returns emphasise sickness over battle deaths. No single civilian figure for the landing."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Thant Myint-U, The Making of Modern Burma",
+        "headline": "A war the climate fought",
+        "year": 2001,
+        "excerpt": "Rangoon was taken. The army that took it melted in the rains. Burma was not finished in 1824.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "mandalay-1885",
+    "conflictId": "anglo-burmese",
+    "name": "Thibaw deposed",
+    "kind": "operation",
+    "time": {
+      "year": 1885,
+      "precision": "day",
+      "month": 11,
+      "day": 28
+    },
+    "place": {
+      "name": "Mandalay",
+      "longitude": 96.09,
+      "latitude": 21.975,
+      "precision": "city",
+      "admin": {
+        "country": "Myanmar"
+      }
+    },
+    "summary": "A short third war. British forces entered Mandalay. King Thibaw and Queen Supayalat were sent into exile in Ratnagiri. The Konbaung monarchy ended.",
+    "sides": [
+      {
+        "label": "British Indian Army",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Konbaung court",
+        "role": "defender",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "unknown",
+        "sideLabel": "not a massacre day",
+        "contested": true,
+        "note": "The taking of Mandalay was a collapse more than a slaughter; guerrilla resistance in Upper Burma followed."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Thant Myint-U, The Making of Modern Burma",
+        "headline": "A palace emptied",
+        "year": 2001,
+        "excerpt": "The third war was brief. The pacification of Upper Burma was not.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "awadh-annexed-1856",
+    "conflictId": "awadh-1856",
+    "name": "Awadh annexed",
+    "kind": "other",
+    "time": {
+      "year": 1856,
+      "precision": "day",
+      "month": 2,
+      "day": 7
+    },
+    "place": {
+      "name": "Lucknow",
+      "longitude": 80.946,
+      "latitude": 26.847,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Uttar Pradesh"
+      }
+    },
+    "summary": "A proclamation, not a battle. The nawab was removed. Residents in Lucknow watched a court end. Sepoys from these districts would rise the next year.",
+    "sides": [
+      {
+        "label": "East India Company",
+        "role": "attacker",
+        "kind": "foreign-forces"
+      },
+      {
+        "label": "Court of Awadh",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "Rudrangshu Mukherjee, Awadh in Revolt",
+        "headline": "A province taken at a desk",
+        "year": 1984,
+        "excerpt": "The annexation of Awadh is a date in a gazette. Its consequence is a year in the Doab.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  }
+]

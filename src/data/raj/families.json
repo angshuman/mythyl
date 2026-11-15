@@ -1,0 +1,58 @@
+[
+  {
+    "id": "conquest",
+    "label": "Conquest",
+    "color": "#c4a06a",
+    "hint": "Company wars for territory"
+  },
+  {
+    "id": "annexation",
+    "label": "Annexation",
+    "color": "#9a7b4f",
+    "hint": "Lapse, treaty, a province taken at a desk"
+  },
+  {
+    "id": "revolt",
+    "label": "1857",
+    "color": "#b54a3a",
+    "hint": "The year the Raj renamed"
+  },
+  {
+    "id": "tribal",
+    "label": "Hills",
+    "color": "#7a8f5a",
+    "hint": "Santhal, Munda, Rampa, Malabar",
+    "group": "rural"
+  },
+  {
+    "id": "peasant",
+    "label": "Peasant",
+    "color": "#d4a06a",
+    "hint": "Indigo, Deccan, Champaran",
+    "group": "rural"
+  },
+  {
+    "id": "massacre",
+    "label": "Massacre",
+    "color": "#8b2e2e",
+    "hint": "A bagh, a bazaar, a crawling order"
+  },
+  {
+    "id": "agitation",
+    "label": "Movement",
+    "color": "#c9a227",
+    "hint": "Swadeshi to the Navy"
+  },
+  {
+    "id": "famine",
+    "label": "Famine",
+    "color": "#8a7350",
+    "hint": "Hunger the state counted, or did not"
+  },
+  {
+    "id": "penal",
+    "label": "Jail",
+    "color": "#5c6b7a",
+    "hint": "Kala Pani, a wagon, an Act"
+  }
+]

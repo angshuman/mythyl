@@ -29,3 +29,30 @@ export const INDIA_BOUNDS: [[number, number], [number, number]] = [
 ];
 
 export const INDIA_FIT_PADDING = { top: 80, bottom: 96, left: 40, right: 40 };
+
+/** Company-to-Crown theater: Karachi to Rangoon, Colombo to the Khyber. */
+export const RAJ_CENTER: [number, number] = [81.2, 22.4];
+
+export const RAJ_BOUNDS: [[number, number], [number, number]] = [
+  [64.0, 5.8],
+  [98.5, 37.4],
+];
+
+export const RAJ_FIT_PADDING = { top: 76, bottom: 118, left: 28, right: 40 };
+
+export const RAJ_LANDING_VIEW = {
+  minLon: 64.0,
+  minLat: 5.9,
+  maxLon: 98.5,
+  maxLat: 37.5,
+  width: 560,
+  height: 620,
+  pad: 18,
+};
+
+export function projectRajLanding(lon: number, lat: number): { x: number; y: number } {
+  const { minLon, minLat, maxLon, maxLat, width, height, pad } = RAJ_LANDING_VIEW;
+  const x = ((lon - minLon) / (maxLon - minLon)) * (width - 2 * pad) + pad;
+  const y = ((maxLat - lat) / (maxLat - minLat)) * (height - 2 * pad) + pad;
+  return { x, y };
+}

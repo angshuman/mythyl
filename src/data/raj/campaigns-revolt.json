@@ -1,0 +1,1079 @@
+[
+  {
+    "id": "santhal-hul",
+    "slug": "santhal-hul",
+    "name": "Santhal Hul",
+    "aliases": [
+      "Santhal rebellion",
+      "Santal Hool",
+      "1855 Hul"
+    ],
+    "summary": "Sidhu and Kanhu Murmu called a hul at Bhognadih on 30 June 1855 against mahajans, zamindars, and the Company in the Damin-i-Koh. Martial law followed. A new district, the Santhal Parganas, was carved out of the wreckage.",
+    "scale": "large",
+    "scaleRationale": "The largest Adivasi rising of Company rule; tens of thousands mobilised.",
+    "types": [
+      "tribal-rising"
+    ],
+    "family": "tribal",
+    "theaters": [
+      "hills",
+      "bengal"
+    ],
+    "rule": "company",
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "tribe",
+      "class"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "taxation",
+        "centrality": "core"
+      },
+      {
+        "kind": "identity",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1855,
+        "precision": "day",
+        "month": 6,
+        "day": 30
+      },
+      "end": {
+        "year": 1856,
+        "precision": "day",
+        "month": 1,
+        "day": 3
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-bhognadih",
+        "name": "Bhognadih",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 87.32,
+        "latitude": 24.5,
+        "admin": {
+          "country": "India",
+          "state": "Jharkhand"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 87.32,
+      "latitude": 24.5,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "santhal",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Santhal",
+        "kind": "tribe"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Santhal Rebellion",
+            "creator": "Encyclopaedia Britannica"
+          },
+          {
+            "title": "The Santal Insurrection of 1855–57",
+            "creator": "Kalikinkar Datta",
+            "year": 1940
+          }
+        ],
+        "contested": true,
+        "min": 10000,
+        "max": 20000,
+        "note": "Britannica and many secondary works give 15,000–20,000 Santhal dead, most from hunger and disease after the fighting. Wikipedia/Datta-adjacent counts sit nearer 10,000–15,000. Not a census."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "15,000–20,000 Santhal dead, many from hunger after villages were burned.",
+        "heldBy": "later summaries, including Britannica",
+        "sources": [
+          {
+            "title": "Santhal Rebellion",
+            "creator": "Encyclopaedia Britannica"
+          }
+        ]
+      },
+      {
+        "claim": "About 10,000 Santhal lives, most women and children, from hunger and illness.",
+        "heldBy": "Peter Stanley, 2024",
+        "sources": [
+          {
+            "title": "The Santal Hul: Arrows against muskets",
+            "creator": "Peter Stanley",
+            "year": 2024
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Santal Insurrection of 1855–57",
+        "creator": "Kalikinkar Datta",
+        "year": 1940
+      },
+      {
+        "title": "Elementary Aspects of Peasant Insurgency in Colonial India",
+        "creator": "Ranajit Guha",
+        "year": 1983
+      }
+    ],
+    "confidence": "medium",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "revolt-1857",
+    "slug": "1857",
+    "name": "1857",
+    "aliases": [
+      "Sepoy Mutiny",
+      "First War of Independence",
+      "Indian Rebellion of 1857"
+    ],
+    "summary": "Meerut, then Delhi, then the Doab: sepoys, taluqdars, peasants, and a Mughal pensioner in the Red Fort. The Company recaptured the cities through a year of sieges and reprisals. In 1858 the Crown took the government of India from the Company.",
+    "scale": "large",
+    "scaleRationale": "The political rupture of the century in India; the death toll was never agreed.",
+    "types": [
+      "mutiny",
+      "peasant-rising",
+      "military-operation"
+    ],
+    "family": "revolt",
+    "theaters": [
+      "gangetic",
+      "punjab"
+    ],
+    "rule": "company",
+    "internalExternal": "internal",
+    "direction": "multi-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "religion",
+      "caste",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "contributing"
+      },
+      {
+        "kind": "identity",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1857,
+        "precision": "day",
+        "month": 5,
+        "day": 10
+      },
+      "end": {
+        "year": 1859,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-delhi",
+        "name": "Delhi",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 77.241,
+        "latitude": 28.656,
+        "admin": {
+          "country": "India",
+          "state": "Delhi"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 77.241,
+      "latitude": 28.656,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "bahadur-shah",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "rani-jhansi",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "nana-sahib",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Bengal Army sepoys",
+        "kind": "caste",
+        "role": "many high-caste Hindus of Awadh and Bihar"
+      },
+      {
+        "name": "Muslims of Delhi",
+        "kind": "religion"
+      },
+      {
+        "name": "British civilians",
+        "kind": "nationality"
+      }
+    ],
+    "harm": {
+      "note": "No agreed total. European civilian deaths (Kanpur and elsewhere) are named in colonial histories; Indian deaths in the recapture of Delhi and in the countryside are far larger and not a single integer. Store incidents, not a round patriotic or imperial number."
+    },
+    "historiography": [
+      {
+        "claim": "A sepoy mutiny.",
+        "heldBy": "Company and Victorian writing"
+      },
+      {
+        "claim": "A war of independence.",
+        "heldBy": "V. D. Savarkar, 1909, and much later nationalist writing",
+        "sources": [
+          {
+            "title": "The Indian War of Independence",
+            "creator": "V. D. Savarkar",
+            "year": 1909
+          }
+        ]
+      },
+      {
+        "claim": "A set of regional revolts with different social bases, not one national war.",
+        "heldBy": "Eric Stokes, Rudrangshu Mukherjee, C. A. Bayly",
+        "sources": [
+          {
+            "title": "The Peasant and the Raj",
+            "creator": "Eric Stokes",
+            "year": 1978
+          },
+          {
+            "title": "Awadh in Revolt, 1857–1858",
+            "creator": "Rudrangshu Mukherjee",
+            "year": 1984
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Peasant and the Raj",
+        "creator": "Eric Stokes",
+        "year": 1978
+      },
+      {
+        "title": "The Last Mughal",
+        "creator": "William Dalrymple",
+        "year": 2006
+      },
+      {
+        "title": "Awadh in Revolt, 1857–1858",
+        "creator": "Rudrangshu Mukherjee",
+        "year": 1984
+      }
+    ],
+    "confidence": "high",
+    "visualization": {
+      "pulse": true
+    },
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "indigo-1859",
+    "slug": "indigo-revolt",
+    "name": "Indigo revolt",
+    "aliases": [
+      "Nilbidroha",
+      "Blue Mutiny"
+    ],
+    "summary": "Ryots in Nadia and neighbouring Bengal districts refused the indigo contract in 1859–60. Planters used the lathiyal; peasants used the field. An official commission followed. The crop’s coercion was never quite the same.",
+    "scale": "medium",
+    "scaleRationale": "A dense, one-season agrarian revolt across several Bengal districts.",
+    "types": [
+      "peasant-rising"
+    ],
+    "family": "peasant",
+    "theaters": [
+      "bengal"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "class",
+      "caste",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "taxation",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1859,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1860,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-nadia",
+        "name": "Nadia",
+        "kind": "point",
+        "precision": "district",
+        "longitude": 88.556,
+        "latitude": 23.406,
+        "admin": {
+          "country": "India",
+          "state": "West Bengal"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 88.556,
+      "latitude": 23.406,
+      "precision": "district"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "indigo-ryots",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Bengal peasantry",
+        "kind": "caste"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Indigo Commission, 1860"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nil Darpan",
+        "creator": "Dinabandhu Mitra",
+        "year": 1860
+      },
+      {
+        "title": "Elementary Aspects of Peasant Insurgency in Colonial India",
+        "creator": "Ranajit Guha",
+        "year": 1983
+      },
+      {
+        "title": "The Blue Mutiny",
+        "creator": "Blair B. Kling",
+        "year": 1966
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "pabna-1873",
+    "slug": "pabna-agrarian-league",
+    "name": "Pabna agrarian league",
+    "aliases": [
+      "Pabna uprising"
+    ],
+    "summary": "Tenants in Pabna formed a league against zamindari rent hikes in 1873. The method was combination and the court more than the pike. The Bengal Tenancy Act of 1885 is part of its after.",
+    "scale": "small",
+    "scaleRationale": "A district movement, influential out of proportion to its violence.",
+    "types": [
+      "peasant-rising"
+    ],
+    "family": "peasant",
+    "theaters": [
+      "bengal"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "unclear",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "class",
+      "caste"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "taxation",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1873,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1876,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-pabna",
+        "name": "Pabna",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 89.233,
+        "latitude": 24.014,
+        "admin": {
+          "country": "Bangladesh"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 89.233,
+      "latitude": 24.014,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "indigo-ryots",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Bengal tenantry",
+        "kind": "caste"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Peasant Labour and Colonial Capital",
+        "creator": "Sugata Bose",
+        "year": 1993
+      },
+      {
+        "title": "The Unquiet Woods / agrarian essays",
+        "note": "Standard account in Sen, Agrarian Relations in India; Bose on Bengal."
+      },
+      {
+        "title": "Agrarian Bengal",
+        "creator": "Sugata Bose",
+        "year": 1986
+      }
+    ],
+    "confidence": "medium",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "deccan-riots-1875",
+    "slug": "deccan-riots",
+    "name": "Deccan riots",
+    "aliases": [
+      "Deccan Riots of 1875"
+    ],
+    "summary": "Cultivators in Ahmednagar and Poona districts attacked Gujarati and Marwari moneylenders’ houses and bond-chests in 1875. A commission followed. The Deccan Agriculturists’ Relief Act of 1879 is the legal after.",
+    "scale": "small",
+    "scaleRationale": "A few weeks in two Deccan districts; the paper trail is longer than the burning.",
+    "types": [
+      "peasant-rising"
+    ],
+    "family": "peasant",
+    "theaters": [
+      "south"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "class",
+      "caste",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "taxation",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1875,
+        "precision": "month",
+        "month": 5
+      },
+      "end": {
+        "year": 1875,
+        "precision": "month",
+        "month": 7
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-ahmednagar",
+        "name": "Ahmednagar",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 74.749,
+        "latitude": 19.095,
+        "admin": {
+          "country": "India",
+          "state": "Maharashtra"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 74.749,
+      "latitude": 19.095,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Deccan Kunbis",
+        "kind": "caste"
+      },
+      {
+        "name": "Gujarati and Marwari sahukars",
+        "kind": "ethnicity",
+        "role": "creditors"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Deccan Riots of 1875",
+        "note": "Deccan Riots Commission Report, 1876."
+      },
+      {
+        "title": "The Peasant and the Raj",
+        "creator": "Eric Stokes",
+        "year": 1978
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "munda-ulgulan",
+    "slug": "munda-ulgulan",
+    "name": "Munda Ulgulan",
+    "aliases": [
+      "Birsa Munda’s rising",
+      "Ulgulan 1899–1900"
+    ],
+    "summary": "Birsa Munda preached a new time in Chotanagpur and then an ulgulan — a great tumult — against dikus, missionaries, and the Raj. He was taken in 1900 and died in Ranchi jail. The Chotanagpur Tenancy Act of 1908 is part of the after.",
+    "scale": "medium",
+    "scaleRationale": "A hill rising with a prophet’s name, a year of fighting, a long legal shadow.",
+    "types": [
+      "tribal-rising"
+    ],
+    "family": "tribal",
+    "theaters": [
+      "hills"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "tribe",
+      "religion"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "forest",
+        "centrality": "core"
+      },
+      {
+        "kind": "identity",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1899,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1900,
+        "precision": "month",
+        "month": 6
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-ranchi",
+        "name": "Ranchi / Chotanagpur",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 85.31,
+        "latitude": 23.344,
+        "admin": {
+          "country": "India",
+          "state": "Jharkhand"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 85.31,
+      "latitude": 23.344,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "birsa-munda",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Munda",
+        "kind": "tribe"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Birsa Munda and His Movement",
+        "creator": "K. S. Singh",
+        "year": 1983
+      },
+      {
+        "title": "Elementary Aspects of Peasant Insurgency in Colonial India",
+        "creator": "Ranajit Guha",
+        "year": 1983
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "champaran-1917",
+    "slug": "champaran",
+    "name": "Champaran",
+    "aliases": [
+      "Champaran satyagraha"
+    ],
+    "summary": "Gandhi went to Motihari in 1917 for the indigo ryots of Champaran, who were still held to tinkathia. The method was inquiry, oath, and the magistrate’s court. A provincial Act followed. A local grievance became a national method.",
+    "scale": "small",
+    "scaleRationale": "A district satyagraha; little killing, large after.",
+    "types": [
+      "peasant-rising",
+      "agitation-with-violence"
+    ],
+    "family": "peasant",
+    "theaters": [
+      "gangetic"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "unclear",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "class",
+      "caste",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1917,
+        "precision": "month",
+        "month": 4
+      },
+      "end": {
+        "year": 1918,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-motihari",
+        "name": "Motihari",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 84.917,
+        "latitude": 26.657,
+        "admin": {
+          "country": "India",
+          "state": "Bihar"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 84.917,
+      "latitude": 26.657,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "gandhi",
+        "role": "mediator"
+      },
+      {
+        "actorId": "indigo-ryots",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Champaran peasantry",
+        "kind": "caste"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Champaran Satyagraha",
+        "note": "Gandhi, Satyagraha in Champaran; Brown, Gandhi’s Rise to Power (1972)."
+      },
+      {
+        "title": "Gandhi's Rise to Power: Indian Politics 1915–1922",
+        "creator": "Judith M. Brown",
+        "year": 1972
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "mappila-1921",
+    "slug": "mappila-rebellion",
+    "name": "Mappila rebellion",
+    "aliases": [
+      "Malabar rebellion",
+      "Moplah uprising",
+      "Malabar 1921"
+    ],
+    "summary": "A tenancy revolt in Eranad and neighbouring Malabar taluks in 1921, in the wake of Khilafat and non-cooperation, that became a war with the Raj and a communal killing of Hindu jenmis and neighbours. The Wagon Tragedy is one of its files.",
+    "scale": "large",
+    "scaleRationale": "Thousands dead; a district under martial method for months.",
+    "types": [
+      "peasant-rising",
+      "tribal-rising"
+    ],
+    "family": "tribal",
+    "theaters": [
+      "malabar",
+      "south"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "multi-sided",
+    "religiousDimension": "central",
+    "identityDimensions": [
+      "religion",
+      "class",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "religion",
+        "centrality": "core"
+      },
+      {
+        "kind": "identity",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1921,
+        "precision": "month",
+        "month": 8
+      },
+      "end": {
+        "year": 1922,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-eranad",
+        "name": "Eranad / Malappuram",
+        "kind": "point",
+        "precision": "district",
+        "longitude": 76.07,
+        "latitude": 11.07,
+        "admin": {
+          "country": "India",
+          "state": "Kerala"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 76.07,
+      "latitude": 11.07,
+      "precision": "district"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "mappila",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Mappila Muslims",
+        "kind": "religion"
+      },
+      {
+        "name": "Nair and Namboodiri jenmis",
+        "kind": "caste"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "all",
+        "sources": [
+          {
+            "title": "A History of the Malabar Rebellion, 1921",
+            "creator": "R. H. Hitchcock",
+            "year": 1925
+          },
+          {
+            "title": "Mappila Muslims of Kerala",
+            "creator": "Roland E. Miller",
+            "year": 1976
+          }
+        ],
+        "contested": true,
+        "min": 2000,
+        "max": 10000,
+        "note": "Hitchcock and colonial returns sit lower; later and nationalist counts run higher. Civilian Hindu deaths, Mappila combatant deaths, and repression deaths are often mixed. No single agreed integer."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "A fanatical outbreak.",
+        "heldBy": "Hitchcock and colonial files"
+      },
+      {
+        "claim": "A tenancy revolt that took a communal turn.",
+        "heldBy": "later social historians of Malabar",
+        "sources": [
+          {
+            "title": "The Mappilla Rebellion, 1921",
+            "creator": "Conrad Wood"
+          },
+          {
+            "title": "Muslim Identity, Print Culture and the Dravidian Factor in Tamil Nadu / Malabar studies"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "A History of the Malabar Rebellion, 1921",
+        "creator": "R. H. Hitchcock",
+        "year": 1925
+      },
+      {
+        "title": "Mappila Muslims of Kerala",
+        "creator": "Roland E. Miller",
+        "year": 1976
+      }
+    ],
+    "confidence": "medium",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "rampa-1922",
+    "slug": "rampa-rebellion",
+    "name": "Rampa rebellion",
+    "aliases": [
+      "Manyam rebellion",
+      "Alluri Sitarama Raju"
+    ],
+    "summary": "Alluri Sitarama Raju led the Agency hills of Visakhapatnam against forest law and the Raj from 1922 to 1924. Police stations were raided for rifles. He was killed in May 1924. The Manyam did not get a settlement with his name on it.",
+    "scale": "medium",
+    "scaleRationale": "A two-year guerrilla in the Agency; locally defining, not a presidency war.",
+    "types": [
+      "tribal-rising"
+    ],
+    "family": "tribal",
+    "theaters": [
+      "hills",
+      "south"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "tribe",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "forest",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1922,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1924,
+        "precision": "day",
+        "month": 5,
+        "day": 7
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-chintapalle",
+        "name": "Chintapalle / Agency",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 82.35,
+        "latitude": 17.73,
+        "admin": {
+          "country": "India",
+          "state": "Andhra Pradesh"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 82.35,
+      "latitude": 17.73,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "alluri-raju",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Koya and other Agency peoples",
+        "kind": "tribe"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Alluri Sitarama Raju and the Manyam rebellion",
+        "note": "David Arnold and Andhra Agency studies; forest-law context in Guha, The Unquiet Woods."
+      },
+      {
+        "title": "The Unquiet Woods",
+        "creator": "Ramachandra Guha",
+        "year": 1989
+      }
+    ],
+    "confidence": "medium",
+    "northeast": false,
+    "status": "published"
+  }
+]

@@ -1,11 +1,15 @@
 import Link from "next/link";
 import { IndiaMark } from "@/components/IndiaMark";
+import { RajMark } from "@/components/RajMark";
 import { GALLERY, type GalleryPiece } from "@/lib/gallery";
 import { allConflicts } from "@/lib/conflicts";
+import { allConflicts as allRaj, allIncidents as rajDays } from "@/lib/raj";
 
 export default async function Home() {
   const conflicts = allConflicts();
   const northeast = conflicts.filter((conflict) => conflict.northeast).length;
+  const raj = allRaj();
+  const days = rajDays().length;
 
   return (
     <main className="landing">
@@ -36,7 +40,12 @@ export default async function Home() {
                     { value: conflicts.length, label: "campaigns" },
                     { value: northeast, label: "in the Northeast" },
                   ]
-                : []
+                : piece.id === "raj"
+                  ? [
+                      { value: raj.length, label: "campaigns" },
+                      { value: days, label: "days" },
+                    ]
+                  : []
             }
           />
         ))}
@@ -53,8 +62,11 @@ function PieceCard({
   stats: { value: number; label: string }[];
 }) {
   return (
-    <Link className="piece" href={piece.href}>
-      <div className="piece-stage">{piece.cover === "india-mark" ? <IndiaMark /> : null}</div>
+    <Link className="piece" data-piece={piece.id} href={piece.href}>
+      <div className="piece-stage">
+        {piece.cover === "india-mark" ? <IndiaMark /> : null}
+        {piece.cover === "raj-mark" ? <RajMark /> : null}
+      </div>
       <div className="piece-copy">
         <p className="piece-kicker">
           {piece.kind}

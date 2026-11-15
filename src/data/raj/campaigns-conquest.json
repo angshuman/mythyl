@@ -1,0 +1,887 @@
+[
+  {
+    "id": "plassey-1757",
+    "slug": "plassey",
+    "name": "Plassey",
+    "aliases": [
+      "Battle of Plassey",
+      "Palashi"
+    ],
+    "summary": "A short fight in a mango grove at Palashi, decided as much by a bought-off nawab’s general as by Clive’s guns. Bengal’s revenue passed to the Company; the rest of the subcontinent followed the money.",
+    "scale": "large",
+    "scaleRationale": "The political hinge of Company rule in India, even though the field itself was small.",
+    "types": [
+      "colonial-war"
+    ],
+    "family": "conquest",
+    "theaters": [
+      "bengal"
+    ],
+    "rule": "company",
+    "internalExternal": "mixed",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation",
+      "class"
+    ],
+    "resources": [
+      {
+        "kind": "taxation",
+        "centrality": "core"
+      },
+      {
+        "kind": "trade-route",
+        "centrality": "contributing"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1757,
+        "precision": "day",
+        "month": 6,
+        "day": 23
+      },
+      "end": {
+        "year": 1757,
+        "precision": "day",
+        "month": 6,
+        "day": 23
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-palashi",
+        "name": "Palashi (Plassey)",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 88.246,
+        "latitude": 23.796,
+        "admin": {
+          "country": "India",
+          "state": "West Bengal"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 88.246,
+      "latitude": 23.796,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "bengal-nawab",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Bengalis",
+        "kind": "ethnicity"
+      },
+      {
+        "name": "East India Company",
+        "kind": "nationality"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Anarchy",
+        "creator": "William Dalrymple",
+        "year": 2019
+      },
+      {
+        "title": "Bengal: The British Bridgehead",
+        "creator": "P. J. Marshall",
+        "year": 1987
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "anglo-mysore",
+    "slug": "anglo-mysore-wars",
+    "name": "Anglo-Mysore Wars",
+    "aliases": [
+      "Four Anglo-Mysore Wars",
+      "Srirangapatna campaigns"
+    ],
+    "summary": "Four wars between the Company and Mysore under Haidar Ali and Tipu Sultan, ending in 1799 when Srirangapatna was stormed and Tipu killed in the breach. The south’s strongest remaining state was broken into a subsidiary alliance.",
+    "scale": "large",
+    "scaleRationale": "A thirty-year war for the Carnatic and the Deccan that redrew southern India.",
+    "types": [
+      "colonial-war"
+    ],
+    "family": "conquest",
+    "theaters": [
+      "south"
+    ],
+    "rule": "company",
+    "internalExternal": "mixed",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "religion",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "trade-route",
+        "centrality": "contributing"
+      },
+      {
+        "kind": "land",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1767,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1799,
+        "precision": "day",
+        "month": 5,
+        "day": 4
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-srirangapatna",
+        "name": "Srirangapatna",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 76.57,
+        "latitude": 12.42,
+        "admin": {
+          "country": "India",
+          "state": "Karnataka"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 76.57,
+      "latitude": 12.42,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "mysore-sultanate",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Kannadigas",
+        "kind": "ethnicity"
+      },
+      {
+        "name": "Mysore",
+        "kind": "nationality"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tipu Sultan's Search for Legitimacy",
+        "creator": "Kate Brittlebank",
+        "year": 1997
+      },
+      {
+        "title": "The Sword of Tipu Sultan and the historiography of Mysore",
+        "note": "Standard military narratives in Cambridge History of India, vol. 5."
+      },
+      {
+        "title": "The Cambridge History of India, Vol. 5: British India 1497–1858",
+        "year": 1929
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "anglo-maratha",
+    "slug": "anglo-maratha-wars",
+    "name": "Anglo-Maratha Wars",
+    "aliases": [
+      "Three Anglo-Maratha Wars"
+    ],
+    "summary": "Three wars that took the Company from a coastal power to the paramount power in the Deccan. Assaye in 1803 made Wellesley’s name; 1817–18 broke the Peshwa and the remaining Maratha houses into princely clients.",
+    "scale": "large",
+    "scaleRationale": "The campaign that ended Maratha confederacy as an independent military system.",
+    "types": [
+      "colonial-war"
+    ],
+    "family": "conquest",
+    "theaters": [
+      "south",
+      "konkan",
+      "gangetic"
+    ],
+    "rule": "company",
+    "internalExternal": "mixed",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "taxation",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1775,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1818,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-pune",
+        "name": "Pune / Peshwa’s seat",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 73.856,
+        "latitude": 18.52,
+        "admin": {
+          "country": "India",
+          "state": "Maharashtra"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 73.856,
+      "latitude": 18.52,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "maratha-confederacy",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Marathas",
+        "kind": "ethnicity"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Marathas 1600–1818",
+        "creator": "Stewart Gordon",
+        "year": 1993
+      },
+      {
+        "title": "Wellington: The Path to Victory 1769–1814",
+        "creator": "Rory Muir",
+        "year": 2013
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "sindh-1843",
+    "slug": "conquest-of-sindh",
+    "name": "Conquest of Sindh",
+    "aliases": [
+      "Battle of Miani",
+      "Napier in Sindh"
+    ],
+    "summary": "Charles Napier beat the Talpur amirs at Miani in February 1843 and annexed Sindh. The campaign was short, the pretext thin, and the province became a Company possession on the Indus.",
+    "scale": "medium",
+    "scaleRationale": "A single-season war that added a province; smaller than Mysore or the Maratha wars.",
+    "types": [
+      "colonial-war",
+      "annexation"
+    ],
+    "family": "conquest",
+    "theaters": [
+      "sindh"
+    ],
+    "rule": "company",
+    "internalExternal": "mixed",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "region",
+      "religion"
+    ],
+    "resources": [
+      {
+        "kind": "trade-route",
+        "centrality": "core",
+        "note": "Indus"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1843,
+        "precision": "month",
+        "month": 2
+      },
+      "end": {
+        "year": 1843,
+        "precision": "month",
+        "month": 3
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-miani",
+        "name": "Miani, near Hyderabad",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 68.37,
+        "latitude": 25.45,
+        "admin": {
+          "country": "Pakistan",
+          "state": "Sindh"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 68.357,
+      "latitude": 25.394,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "talpur",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Sindhis",
+        "kind": "ethnicity"
+      },
+      {
+        "name": "Talpur Baloch",
+        "kind": "ethnicity"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Conquest of Sindh",
+        "creator": "Sir William Napier",
+        "year": 1845
+      },
+      {
+        "title": "Aligarh, Annexation and the Company in Sindh",
+        "note": "Standard treatments in Bayly, Indian Society and the Making of the British Empire (1988)."
+      },
+      {
+        "title": "Indian Society and the Making of the British Empire",
+        "creator": "C. A. Bayly",
+        "year": 1988
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "anglo-sikh",
+    "slug": "anglo-sikh-wars",
+    "name": "Anglo-Sikh Wars",
+    "aliases": [
+      "First and Second Anglo-Sikh Wars",
+      "Annexation of the Punjab"
+    ],
+    "summary": "Two short, expensive wars against Ranjit Singh’s successor state. Ferozeshah in 1845 nearly broke the Company army; Gujrat in 1849 ended Sikh independence. The Punjab was annexed; the Khalsa army was disbanded, then later recruited.",
+    "scale": "large",
+    "scaleRationale": "The last major independent Indian army on the plains, destroyed in four years.",
+    "types": [
+      "colonial-war"
+    ],
+    "family": "conquest",
+    "theaters": [
+      "punjab"
+    ],
+    "rule": "company",
+    "internalExternal": "mixed",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "religion",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "border",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1845,
+        "precision": "month",
+        "month": 12
+      },
+      "end": {
+        "year": 1849,
+        "precision": "month",
+        "month": 3
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-ferozeshah",
+        "name": "Ferozeshah",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 74.78,
+        "latitude": 30.87,
+        "admin": {
+          "country": "India",
+          "state": "Punjab"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 74.78,
+      "latitude": 30.87,
+      "precision": "theater"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "sikh-empire",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Sikhs",
+        "kind": "religion"
+      },
+      {
+        "name": "Punjabis",
+        "kind": "ethnicity"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The First Anglo-Sikh War",
+        "creator": "Amarpal Singh",
+        "year": 2010
+      },
+      {
+        "title": "A History of the Sikhs, Vol. 2",
+        "creator": "Khushwant Singh",
+        "year": 1966
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "anglo-burmese",
+    "slug": "anglo-burmese-wars",
+    "name": "Anglo-Burmese Wars",
+    "aliases": [
+      "Three Anglo-Burmese Wars",
+      "Annexation of Burma"
+    ],
+    "summary": "Three wars, 1824 to 1885, that took the Company and then the Crown from Rangoon up the Irrawaddy to Mandalay. Lower Burma was annexed after the second war; Thibaw was deposed in 1885 and the Konbaung kingdom ended.",
+    "scale": "large",
+    "scaleRationale": "A sixty-year conquest that added Burma to British India.",
+    "types": [
+      "colonial-war"
+    ],
+    "family": "conquest",
+    "theaters": [
+      "burma"
+    ],
+    "rule": "company",
+    "internalExternal": "external",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "religion",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "trade-route",
+        "centrality": "core"
+      },
+      {
+        "kind": "forest",
+        "centrality": "contributing"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1824,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1885,
+        "precision": "day",
+        "month": 11,
+        "day": 28
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-rangoon",
+        "name": "Rangoon (Yangon)",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 96.156,
+        "latitude": 16.84,
+        "admin": {
+          "country": "Myanmar"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 96.156,
+      "latitude": 16.84,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "konbaung",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Bamar",
+        "kind": "ethnicity"
+      },
+      {
+        "name": "Burmese",
+        "kind": "nationality"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Making of Modern Burma",
+        "creator": "Thant Myint-U",
+        "year": 2001
+      },
+      {
+        "title": "The First Anglo-Burmese War",
+        "note": "Standard narrative in Cambridge History of India and Harvey, History of Burma."
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "awadh-1856",
+    "slug": "annexation-of-awadh",
+    "name": "Annexation of Awadh",
+    "aliases": [
+      "Oudh annexation",
+      "Awadh 1856"
+    ],
+    "summary": "Dalhousie annexed Awadh in February 1856 on a charge of misgovernment. Wajid Ali Shah was pensioned to Calcutta. A year later the sepoys of the Bengal Army, many of them Awadh men, rose.",
+    "scale": "medium",
+    "scaleRationale": "A single annexation that helped detonate 1857; not itself a war.",
+    "types": [
+      "annexation"
+    ],
+    "family": "annexation",
+    "theaters": [
+      "gangetic"
+    ],
+    "rule": "company",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "region",
+      "class",
+      "religion"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "taxation",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1856,
+        "precision": "day",
+        "month": 2,
+        "day": 7
+      },
+      "end": {
+        "year": 1856,
+        "precision": "day",
+        "month": 2,
+        "day": 7
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-lucknow",
+        "name": "Lucknow",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 80.946,
+        "latitude": 26.847,
+        "admin": {
+          "country": "India",
+          "state": "Uttar Pradesh"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 80.946,
+      "latitude": 26.847,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "awadh-nawab",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Awadhis",
+        "kind": "ethnicity"
+      },
+      {
+        "name": "Shia court of Awadh",
+        "kind": "religion"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Annexation on grounds of misgovernment",
+        "note": "Dalhousie’s minute; not Doctrine of Lapse strictly, though of the same season."
+      }
+    ],
+    "relations": [
+      {
+        "kind": "cause",
+        "targetId": "revolt-1857",
+        "note": "Awadh sepoys and taluqdars were central to 1857."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Last King in India: Wajid Ali Shah",
+        "creator": "Rosie Llewellyn-Jones",
+        "year": 2014
+      },
+      {
+        "title": "Awadh in Revolt, 1857–1858",
+        "creator": "Rudrangshu Mukherjee",
+        "year": 1984
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "doctrine-of-lapse",
+    "slug": "doctrine-of-lapse",
+    "name": "Doctrine of Lapse",
+    "aliases": [
+      "Satara, Jhansi, Nagpur annexations"
+    ],
+    "summary": "Dalhousie’s rule that a princely state without a natural heir lapsed to the Company. Satara, Jhansi, Nagpur and others were taken between 1848 and 1856. Adopted heirs, and the Rani of Jhansi, did not accept the paperwork.",
+    "scale": "medium",
+    "scaleRationale": "A cluster of desk annexations whose political cost arrived in 1857.",
+    "types": [
+      "annexation"
+    ],
+    "family": "annexation",
+    "theaters": [
+      "south",
+      "gangetic"
+    ],
+    "rule": "company",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1848,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1856,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-nagpur",
+        "name": "Nagpur",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 79.088,
+        "latitude": 21.145,
+        "admin": {
+          "country": "India",
+          "state": "Maharashtra"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 79.088,
+      "latitude": 21.145,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "dalhousie",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Marathas",
+        "kind": "ethnicity"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Doctrine of Lapse",
+        "note": "Company policy under Dalhousie, 1848–56."
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "revolt-1857"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Doctrine of Lapse",
+        "note": "Metcalf, The Aftermath of Revolt (1964); Dalhousie’s minutes."
+      },
+      {
+        "title": "The Aftermath of Revolt: India 1857–1870",
+        "creator": "Thomas R. Metcalf",
+        "year": 1964
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  }
+]
