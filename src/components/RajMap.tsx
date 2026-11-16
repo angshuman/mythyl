@@ -77,13 +77,13 @@ function isolateFamily(id: ConflictFamily): Record<ConflictFamily, boolean> {
 }
 
 const LAND_FILL: [string, string][] = [
-  ["India", "#7a6240"],
-  ["Pakistan", "#6a5638"],
-  ["Bangladesh", "#8a6e46"],
-  ["Myanmar", "#655436"],
-  ["Nepal", "#705c3c"],
-  ["Bhutan", "#6a583a"],
-  ["Sri Lanka", "#7a6240"],
+  ["India", "#3a3126"],
+  ["Pakistan", "#2c261e"],
+  ["Bangladesh", "#433628"],
+  ["Myanmar", "#2a241c"],
+  ["Nepal", "#352c22"],
+  ["Bhutan", "#31281f"],
+  ["Sri Lanka", "#3a3126"],
 ];
 
 const COUNTRY_LABELS = {
@@ -219,7 +219,7 @@ export function RajMap() {
                 "match",
                 ["get", "ADMIN"],
                 ...LAND_FILL.flat(),
-                "#6a5638",
+                "#2c261e",
               ] as unknown as ExpressionSpecification,
               "fill-opacity": 1,
             },
@@ -229,9 +229,9 @@ export function RajMap() {
             type: "line",
             source: "land",
             paint: {
-              "line-color": "#e2c48a",
-              "line-width": ["interpolate", ["linear"], ["zoom"], 3.5, 0.95, 5.5, 1.4, 7.5, 1.9],
-              "line-opacity": 0.92,
+              "line-color": "#8a7350",
+              "line-width": ["interpolate", ["linear"], ["zoom"], 3.5, 0.7, 5.5, 1.05, 7.5, 1.4],
+              "line-opacity": 0.38,
             },
           },
           {
@@ -240,9 +240,9 @@ export function RajMap() {
             source: "india",
             minzoom: 4.8,
             paint: {
-              "line-color": "#e8d5b0",
-              "line-width": ["interpolate", ["linear"], ["zoom"], 4.8, 0.5, 6.5, 0.95, 8, 1.35],
-              "line-opacity": 0.55,
+              "line-color": "#9a8060",
+              "line-width": ["interpolate", ["linear"], ["zoom"], 4.8, 0.4, 6.5, 0.7, 8, 1.05],
+              "line-opacity": 0.22,
             },
           },
           {
@@ -260,10 +260,10 @@ export function RajMap() {
               "text-max-width": 10,
             },
             paint: {
-              "text-color": "#f0e0c0",
+              "text-color": "#bba88a",
               "text-halo-color": "#120e09",
-              "text-halo-width": 1.5,
-              "text-opacity": 0.92,
+              "text-halo-width": 2.2,
+              "text-opacity": 0.48,
             },
           },
           {

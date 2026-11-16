@@ -95,64 +95,66 @@ function CampaignRail({
 
   return (
     <div className="map-rail" aria-label={`${campaign.name} timeline`}>
-      <span className="map-rail-year" data-edge="start" style={{ left: `${pct(start)}%` }}>
-        {startYear}
-      </span>
-      {same ? null : (
-        <span className="map-rail-year" data-edge="end" style={{ left: `${pct(end)}%` }}>
-          {endYear}
+      <div className="map-rail-scale">
+        <span className="map-rail-year" data-edge="start" style={{ left: `${pct(start)}%` }}>
+          {startYear}
         </span>
-      )}
-      <i className="map-rail-track" />
-      <b
-        className={spanHot ? "map-rail-span map-rail-hot" : "map-rail-span"}
-        data-hot={spanHot ? "true" : "false"}
-        style={{
-          left: `${pct(start)}%`,
-          width: `${Math.max(0.9, pct(end) - pct(start))}%`,
-          background: color,
-          opacity: hoverConflictId && !spanHot ? 0.22 : 0.88,
-          boxShadow: spanHot
-            ? "0 0 0 1.5px #f0d24a, 0 0 12px rgba(240, 210, 74, 0.55)"
-            : undefined,
-        }}
-      />
-      {days.map((day) => {
-        const hot =
-          day.id === hoverIncidentId || (!hoverIncidentId && spanHot);
-        const dim = Boolean(hoverConflictId) && !hot;
-        return (
-          <button
-            key={day.id}
-            type="button"
-            className={hot ? "map-rail-day map-rail-hot" : "map-rail-day"}
-            data-on={day.id === activeId ? "true" : "false"}
-            data-hot={hot ? "true" : "false"}
-            aria-label={day.name}
-            title={`${formatFuzzyDate(day.time)} · ${day.name}`}
-            style={{
-              left: `${pct(incidentAt(day))}%`,
-              borderColor: color,
-              background: hot ? "#f0d24a" : undefined,
-              opacity: dim ? 0.22 : 1,
-              zIndex: hot ? 2 : 1,
-              boxShadow: hot
-                ? "0 0 0 1px #070806, 0 0 0 3px #f0d24a, 0 0 10px rgba(240, 210, 74, 0.55)"
-                : undefined,
-              transform: hot
-                ? "translateX(-50%) rotate(45deg) scale(1.4)"
-                : "translateX(-50%) rotate(45deg)",
-            }}
-            onMouseEnter={() => onHover?.({ type: "incident", incident: day })}
-            onMouseLeave={() =>
-              onHover?.((current) =>
-                current?.type === "incident" && current.incident.id === day.id ? null : current,
-              )
-            }
-            onClick={() => onOpenIncident(day)}
-          />
-        );
-      })}
+        {same ? null : (
+          <span className="map-rail-year" data-edge="end" style={{ left: `${pct(end)}%` }}>
+            {endYear}
+          </span>
+        )}
+        <i className="map-rail-track" />
+        <b
+          className={spanHot ? "map-rail-span map-rail-hot" : "map-rail-span"}
+          data-hot={spanHot ? "true" : "false"}
+          style={{
+            left: `${pct(start)}%`,
+            width: `${Math.max(0.9, pct(end) - pct(start))}%`,
+            background: color,
+            opacity: hoverConflictId && !spanHot ? 0.22 : 0.88,
+            boxShadow: spanHot
+              ? "0 0 0 1.5px #f0d24a, 0 0 12px rgba(240, 210, 74, 0.55)"
+              : undefined,
+          }}
+        />
+        {days.map((day) => {
+          const hot =
+            day.id === hoverIncidentId || (!hoverIncidentId && spanHot);
+          const dim = Boolean(hoverConflictId) && !hot;
+          return (
+            <button
+              key={day.id}
+              type="button"
+              className={hot ? "map-rail-day map-rail-hot" : "map-rail-day"}
+              data-on={day.id === activeId ? "true" : "false"}
+              data-hot={hot ? "true" : "false"}
+              aria-label={day.name}
+              title={`${formatFuzzyDate(day.time)} · ${day.name}`}
+              style={{
+                left: `${pct(incidentAt(day))}%`,
+                borderColor: color,
+                background: hot ? "#f0d24a" : undefined,
+                opacity: dim ? 0.22 : 1,
+                zIndex: hot ? 2 : 1,
+                boxShadow: hot
+                  ? "0 0 0 1px #070806, 0 0 0 3px #f0d24a, 0 0 10px rgba(240, 210, 74, 0.55)"
+                  : undefined,
+                transform: hot
+                  ? "translateX(-50%) rotate(45deg) scale(1.4)"
+                  : "translateX(-50%) rotate(45deg)",
+              }}
+              onMouseEnter={() => onHover?.({ type: "incident", incident: day })}
+              onMouseLeave={() =>
+                onHover?.((current) =>
+                  current?.type === "incident" && current.incident.id === day.id ? null : current,
+                )
+              }
+              onClick={() => onOpenIncident(day)}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 }
