@@ -77,6 +77,17 @@
     ]
   },
   {
+    "id": "environment",
+    "kicker": "Environment",
+    "title": "Dams, mines, plants, and the forest",
+    "color": "#7a8f4e",
+    "match": { "family": "environment" },
+    "paragraphs": [
+      "Chipko at Reni was women on a forest path. Narmada was a valley told to move for a wall; the Court let the wall rise in 2000. Then the firings: Maikanch for bauxite, Tapkara for a dam, Kalinganagar for a steel wall, Sompeta and Kakarapalli for thermal plants on wetlands, Tawang for Himalayan hydro, Barkagaon for coal, Thoothukudi for a copper smelter. Dongria Kondh gram sabhas closed Niyamgiri. Hasdeo is still being cut for coal. These are not insurgencies. They are villages, fisher coasts, and hill peoples against a plant, a mine, or a reservoir — and a police line.",
+      "Deaths, when they are counted, are ones and tens on named days. Displacement is the larger file and it does not agree with itself. Isolate Environment; the years fill with named bars from Chipko to Hasdeo, and they sit on forests and coasts, not on a border."
+    ]
+  },
+  {
     "id": "external",
     "kicker": "External terror",
     "title": "Transnational terrorist attacks on Indian cities",

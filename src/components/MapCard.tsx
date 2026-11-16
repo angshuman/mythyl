@@ -1,13 +1,16 @@
-import type { CSSProperties, SetStateAction } from "react";
+"use client";
+
+import { type CSSProperties, type SetStateAction } from "react";
 import {
   actorById,
   conflictById,
+  conflictsInFamily,
   formatCasualtyLine,
   formatFuzzyDate,
   familyOf,
   formatSides,
   incidentAt,
-  incidentsForConflict,
+  incidentsInFamily,
   reportsForConflict,
   spanEnd,
   spanStart,
@@ -27,11 +30,20 @@ type Props = {
   dock?: "left" | "right";
   onClose: () => void;
   onOpenIncident: (incident: Incident) => void;
+  onOpenConflict?: (conflict: Conflict) => void;
   onHover?: (focus: SetStateAction<MapFocus | null>) => void;
   hovered?: MapFocus | null;
 };
 
-export function MapCard({ focus, locked, onClose, onOpenIncident, onHover, hovered }: Props) {
+export function MapCard({
+  focus,
+  locked,
+  onClose,
+  onOpenIncident,
+  onOpenConflict,
+  onHover,
+  hovered,
+}: Props) {
   if (focus.type === "incident") {
     return (
       <IncidentBody
@@ -39,6 +51,7 @@ export function MapCard({ focus, locked, onClose, onOpenIncident, onHover, hover
         locked={locked}
         onClose={onClose}
         onOpenIncident={onOpenIncident}
+        onOpenConflict={onOpenConflict}
         onHover={onHover}
         hovered={hovered}
       />
@@ -50,6 +63,7 @@ export function MapCard({ focus, locked, onClose, onOpenIncident, onHover, hover
       locked={locked}
       onClose={onClose}
       onOpenIncident={onOpenIncident}
+      onOpenConflict={onOpenConflict}
       onHover={onHover}
       hovered={hovered}
     />
@@ -60,15 +74,20 @@ function CampaignRail({
   campaign,
   activeId,
   onOpenIncident,
+  onOpenConflict,
   onHover,
   hovered,
 }: {
   campaign: Conflict;
   activeId?: string;
   onOpenIncident: (incident: Incident) => void;
+  onOpenConflict?: (conflict: Conflict) => void;
   onHover?: (focus: SetStateAction<MapFocus | null>) => void;
   hovered?: MapFocus | null;
 }) {
+  const family = familyOf(campaign);
+  const familyCampaigns = conflictsInFamily(campaign.family);
+  const days = incidentsInFamily(campaign.family);
   const hoverIncidentId = hovered?.type === "incident" ? hovered.incident.id : null;
   const hoverConflictId =
     hovered?.type === "conflict"
@@ -76,82 +95,156 @@ function CampaignRail({
       : hovered?.type === "incident"
         ? hovered.incident.conflictId
         : null;
-  const spanHot = hoverConflictId === campaign.id;
-  const days = incidentsForConflict(campaign.id);
-  const start = spanStart(campaign.time);
-  const end = spanEnd(campaign.time);
-  const marks = [start, end, ...days.map((day) => incidentAt(day))];
+  const marks = [
+    ...familyCampaigns.flatMap((row) => [spanStart(row.time), spanEnd(row.time)]),
+    ...days.map((day) => incidentAt(day)),
+  ];
   const min = Math.min(...marks);
   const max = Math.max(...marks);
   const pad = Math.max(0.35, (max - min) * 0.08);
   const from = min - pad;
   const to = max + pad <= from ? from + 1 : max + pad;
   const pct = (year: number) => ((year - from) / (to - from)) * 100;
-  const color = familyOf(campaign).color;
-  const startYear = Math.round(start);
-  const endYear = Math.round(end);
-  const same = startYear === endYear && !campaign.time.ongoing;
+  const color = family.color;
+  const anyOngoing = familyCampaigns.some((row) => row.time.ongoing);
+  const startYear = Math.round(min);
+  const endYear = Math.round(max);
+  const same = startYear === endYear && !anyOngoing;
 
   return (
-    <div className="map-rail" aria-label={`${campaign.name} timeline`}>
-      <span className="map-rail-year" data-edge="start" style={{ left: `${pct(start)}%` }}>
-        {startYear}
-      </span>
-      {same ? null : (
-        <span className="map-rail-year" data-edge="end" style={{ left: `${pct(end)}%` }}>
-          {campaign.time.ongoing ? "now" : endYear}
+    <div className="map-rail" aria-label={`${family.label} timeline`}>
+      <div className="map-rail-scale">
+        <span className="map-rail-year" data-edge="start" style={{ left: `${pct(min)}%` }}>
+          {startYear}
         </span>
-      )}
-      <i className="map-rail-track" />
-      <b
-        className={spanHot ? "map-rail-span map-rail-hot" : "map-rail-span"}
-        data-hot={spanHot ? "true" : "false"}
-        style={{
-          left: `${pct(start)}%`,
-          width: `${Math.max(0.9, pct(end) - pct(start))}%`,
-          background: color,
-          opacity: hoverConflictId && !spanHot ? 0.22 : 0.88,
-          boxShadow: spanHot
-            ? "0 0 0 1.5px #f0d24a, 0 0 12px rgba(240, 210, 74, 0.55)"
-            : undefined,
-        }}
-      />
-      {days.map((day) => {
-        const hot =
-          day.id === hoverIncidentId || (!hoverIncidentId && spanHot);
-        const dim = Boolean(hoverConflictId) && !hot;
-        return (
-          <button
-            key={day.id}
-            type="button"
-            className={hot ? "map-rail-day map-rail-hot" : "map-rail-day"}
-            data-on={day.id === activeId ? "true" : "false"}
-            data-hot={hot ? "true" : "false"}
-            aria-label={day.name}
-            title={`${formatFuzzyDate(day.time)} · ${day.name}`}
-            style={{
-              left: `${pct(incidentAt(day))}%`,
-              borderColor: color,
-              background: hot ? "#f0d24a" : undefined,
-              opacity: dim ? 0.22 : 1,
-              zIndex: hot ? 2 : 1,
-              boxShadow: hot
-                ? "0 0 0 1px #070806, 0 0 0 3px #f0d24a, 0 0 10px rgba(240, 210, 74, 0.55)"
-                : undefined,
-              transform: hot
-                ? "translateX(-50%) rotate(45deg) scale(1.4)"
-                : "translateX(-50%) rotate(45deg)",
-            }}
-            onMouseEnter={() => onHover?.({ type: "incident", incident: day })}
-            onMouseLeave={() =>
-              onHover?.((current) =>
-                current?.type === "incident" && current.incident.id === day.id ? null : current,
-              )
-            }
-            onClick={() => onOpenIncident(day)}
-          />
-        );
-      })}
+        {same ? null : (
+          <span className="map-rail-year" data-edge="end" style={{ left: `${pct(max)}%` }}>
+            {anyOngoing ? "now" : endYear}
+          </span>
+        )}
+        <i className="map-rail-track" />
+        {familyCampaigns.map((row) => {
+          const start = spanStart(row.time);
+          const end = spanEnd(row.time);
+          const spanHot = hoverConflictId === row.id;
+          const current = row.id === campaign.id;
+          const dim = Boolean(hoverConflictId) && !spanHot;
+          return (
+            <b
+              key={row.id}
+              className={spanHot ? "map-rail-span map-rail-hot" : "map-rail-span"}
+              data-hot={spanHot ? "true" : "false"}
+              style={{
+                left: `${pct(start)}%`,
+                width: `${Math.max(0.9, pct(end) - pct(start))}%`,
+                background: color,
+                opacity: dim ? 0.18 : current ? 0.92 : 0.55,
+                zIndex: spanHot ? 2 : current ? 1 : 0,
+                boxShadow: spanHot
+                  ? "0 0 0 1.5px #f0d24a, 0 0 12px rgba(240, 210, 74, 0.55)"
+                  : undefined,
+              }}
+            />
+          );
+        })}
+        {days.map((day) => {
+          const dayHot =
+            day.id === hoverIncidentId ||
+            (!hoverIncidentId && hoverConflictId === day.conflictId);
+          const dim = Boolean(hoverConflictId) && !dayHot;
+          return (
+            <button
+              key={day.id}
+              type="button"
+              className={dayHot ? "map-rail-day map-rail-hot" : "map-rail-day"}
+              data-on={day.id === activeId ? "true" : "false"}
+              data-hot={dayHot ? "true" : "false"}
+              aria-label={day.name}
+              title={`${formatFuzzyDate(day.time)} · ${day.name}`}
+              style={{
+                left: `${pct(incidentAt(day))}%`,
+                borderColor: color,
+                background: dayHot ? "#f0d24a" : undefined,
+                opacity: dim ? 0.22 : 1,
+                zIndex: dayHot ? 3 : 1,
+                boxShadow: dayHot
+                  ? "0 0 0 1px #070806, 0 0 0 3px #f0d24a, 0 0 10px rgba(240, 210, 74, 0.55)"
+                  : undefined,
+                transform: dayHot
+                  ? "translateX(-50%) rotate(45deg) scale(1.4)"
+                  : "translateX(-50%) rotate(45deg)",
+              }}
+              onMouseEnter={() => onHover?.({ type: "incident", incident: day })}
+              onMouseLeave={() =>
+                onHover?.((currentHover) =>
+                  currentHover?.type === "incident" && currentHover.incident.id === day.id
+                    ? null
+                    : currentHover,
+                )
+              }
+              onClick={() => onOpenIncident(day)}
+            />
+          );
+        })}
+      </div>
+      <div
+        className="map-rail-chips"
+        style={{ display: "flex", flexWrap: "wrap", gap: "0.28rem", width: "100%", minWidth: 0 }}
+      >
+        {familyCampaigns.map((row) => {
+          const on = row.id === campaign.id;
+          const hot = hoverConflictId === row.id;
+          const year = row.time.start.year;
+          const chipClass =
+            on && hot
+              ? "map-rail-chip map-rail-chip-on map-rail-hot"
+              : on
+                ? "map-rail-chip map-rail-chip-on"
+                : hot
+                  ? "map-rail-chip map-rail-hot"
+                  : "map-rail-chip";
+          return (
+            <button
+              key={row.id}
+              type="button"
+              className={chipClass}
+              data-on={on ? "true" : "false"}
+              data-hot={hot ? "true" : "false"}
+              title={row.name}
+              style={
+                hot
+                  ? {
+                      color: "#070806",
+                      background: "#f0d24a",
+                      borderColor: "#f0d24a",
+                    }
+                  : on
+                    ? { borderColor: color, color }
+                    : undefined
+              }
+              onMouseEnter={() => onHover?.({ type: "conflict", conflict: row })}
+              onMouseLeave={() =>
+                onHover?.((currentHover) =>
+                  currentHover?.type === "conflict" && currentHover.conflict.id === row.id
+                    ? null
+                    : currentHover,
+                )
+              }
+              onClick={() => {
+                if (onOpenConflict) {
+                  onOpenConflict(row);
+                  return;
+                }
+                const first = days.find((day) => day.conflictId === row.id);
+                if (first) onOpenIncident(first);
+              }}
+            >
+              {row.name}
+              {year ? ` · ${year}` : ""}
+            </button>
+          );
+        })}
+      </div>
     </div>
   );
 }
@@ -312,6 +405,7 @@ function ConflictBody({
   locked,
   onClose,
   onOpenIncident,
+  onOpenConflict,
   onHover,
   hovered,
 }: {
@@ -319,6 +413,7 @@ function ConflictBody({
   locked: boolean;
   onClose: () => void;
   onOpenIncident: (incident: Incident) => void;
+  onOpenConflict?: (conflict: Conflict) => void;
   onHover?: (focus: SetStateAction<MapFocus | null>) => void;
   hovered?: MapFocus | null;
 }) {
@@ -348,7 +443,13 @@ function ConflictBody({
           Close
         </button>
       </div>
-      <CampaignRail campaign={conflict} onOpenIncident={onOpenIncident} onHover={onHover} hovered={hovered} />
+      <CampaignRail
+        campaign={conflict}
+        onOpenIncident={onOpenIncident}
+        onOpenConflict={onOpenConflict}
+        onHover={onHover}
+        hovered={hovered}
+      />
       <p className="map-card-summary">{conflict.summary}</p>
       {killed ? (
         <p className={styles.killed}>
@@ -380,6 +481,7 @@ function IncidentBody({
   locked,
   onClose,
   onOpenIncident,
+  onOpenConflict,
   onHover,
   hovered,
 }: {
@@ -387,6 +489,7 @@ function IncidentBody({
   locked: boolean;
   onClose: () => void;
   onOpenIncident: (incident: Incident) => void;
+  onOpenConflict?: (conflict: Conflict) => void;
   onHover?: (focus: SetStateAction<MapFocus | null>) => void;
   hovered?: MapFocus | null;
 }) {
@@ -416,7 +519,14 @@ function IncidentBody({
         </button>
       </div>
       {campaign ? (
-        <CampaignRail campaign={campaign} activeId={incident.id} onOpenIncident={onOpenIncident} onHover={onHover} hovered={hovered} />
+        <CampaignRail
+          campaign={campaign}
+          activeId={incident.id}
+          onOpenIncident={onOpenIncident}
+          onOpenConflict={onOpenConflict}
+          onHover={onHover}
+          hovered={hovered}
+        />
       ) : null}
       <p className="map-card-summary">{incident.summary}</p>
       {incident.sides.length > 0 ? <p className={styles.sides}>{formatSides(incident.sides)}</p> : null}

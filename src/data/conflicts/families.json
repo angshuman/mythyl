@@ -51,6 +51,12 @@
     "hint": "Riot sequences"
   },
   {
+    "id": "environment",
+    "label": "Environment",
+    "color": "#7a8f4e",
+    "hint": "Dams, mines, plants, forests"
+  },
+  {
     "id": "external",
     "label": "External terror",
     "color": "#c07a9a",

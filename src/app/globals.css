@@ -32,6 +32,7 @@ body {
 html::-webkit-scrollbar,
 body::-webkit-scrollbar,
 .map-card::-webkit-scrollbar,
+.map-rail-chips::-webkit-scrollbar,
 .years-drawer-inner::-webkit-scrollbar {
   width: 9px;
   height: 9px;
@@ -40,6 +41,7 @@ body::-webkit-scrollbar,
 html::-webkit-scrollbar-track,
 body::-webkit-scrollbar-track,
 .map-card::-webkit-scrollbar-track,
+.map-rail-chips::-webkit-scrollbar-track,
 .years-drawer-inner::-webkit-scrollbar-track {
   background: #070806;
 }
@@ -47,6 +49,7 @@ body::-webkit-scrollbar-track,
 html::-webkit-scrollbar-thumb,
 body::-webkit-scrollbar-thumb,
 .map-card::-webkit-scrollbar-thumb,
+.map-rail-chips::-webkit-scrollbar-thumb,
 .years-drawer-inner::-webkit-scrollbar-thumb {
   background: rgba(231, 220, 200, 0.28);
   border-radius: 99px;
@@ -56,6 +59,7 @@ body::-webkit-scrollbar-thumb,
 html::-webkit-scrollbar-thumb:hover,
 body::-webkit-scrollbar-thumb:hover,
 .map-card::-webkit-scrollbar-thumb:hover,
+.map-rail-chips::-webkit-scrollbar-thumb:hover,
 .years-drawer-inner::-webkit-scrollbar-thumb:hover {
   background: rgba(231, 220, 200, 0.48);
 }
@@ -998,8 +1002,51 @@ a {
 
 .map-rail {
   position: relative;
-  height: 1.9rem;
   margin: 0.28rem 0 0.45rem;
+}
+
+.map-rail-scale {
+  position: relative;
+  height: 1.9rem;
+}
+
+.map-rail-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.28rem;
+  width: 100%;
+  min-width: 0;
+  margin-top: 0.38rem;
+  padding: 0.04rem 0 0.08rem;
+}
+
+.map-rail-chip {
+  flex: 0 0 auto;
+  max-width: 12.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.56rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--paper-dim);
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 0.2rem 0.52rem;
+  cursor: pointer;
+}
+
+.map-rail-chip-on {
+  color: var(--paper);
+  border-color: rgba(231, 220, 200, 0.45);
+  background: rgba(231, 220, 200, 0.1);
+}
+
+.map-rail-chip.map-rail-hot {
+  color: #070806;
+  background: #f0d24a;
+  border-color: #f0d24a;
 }
 
 .map-rail-track {

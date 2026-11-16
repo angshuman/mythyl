@@ -1,0 +1,1508 @@
+[
+  {
+    "family": "environment",
+    "theaters": [
+      "environment"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "status": "draft",
+    "confidence": "high",
+    "id": "chipko",
+    "slug": "chipko-movement",
+    "name": "Chipko",
+    "aliases": [
+      "Chipko movement",
+      "Reni Chipko"
+    ],
+    "summary": "Village women at Reni stopped contractors felling ash trees. No one was shot. The stand became the image of a Himalayan forest movement.",
+    "scale": "small",
+    "scaleRationale": "One forest path, then a hill movement. No sourced lethal day.",
+    "types": [
+      "resource-conflict"
+    ],
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "region",
+      "class"
+    ],
+    "resources": [
+      {
+        "kind": "forest",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1973,
+        "month": 4,
+        "precision": "month",
+        "note": "Mandal, April 1973"
+      },
+      "end": {
+        "year": 1974,
+        "month": 3,
+        "day": 26,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-chipko",
+        "name": "Reni forest path",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 79.61,
+        "latitude": 30.54,
+        "admin": {
+          "country": "India",
+          "state": "Uttarakhand",
+          "district": "Chamoli",
+          "village": "Reni"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 79.61,
+      "latitude": 30.54,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Garhwal village women",
+        "kind": "ethnicity",
+        "role": "Reni / Chipko"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nature, How a tree-hugging protest transformed Indian environmentalism",
+        "year": 2024,
+        "url": "https://www.nature.com/articles/d41586-024-00895-y"
+      }
+    ]
+  },
+  {
+    "family": "environment",
+    "theaters": [
+      "environment"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "status": "draft",
+    "confidence": "high",
+    "id": "narmada",
+    "slug": "narmada-bachao-andolan",
+    "name": "Narmada Bachao Andolan",
+    "aliases": [
+      "NBA",
+      "Sardar Sarovar"
+    ],
+    "summary": "A valley told to move for a wall. The Supreme Court let Sardar Sarovar rise in October 2000. Displacement is counted in tens of thousands of families and does not agree with itself.",
+    "scale": "medium",
+    "scaleRationale": "Three states, decades. No sourced lethal firing day is stored; the harm is displacement.",
+    "types": [
+      "resource-conflict"
+    ],
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "tribe",
+      "class",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "water",
+        "centrality": "core",
+        "note": "Sardar Sarovar and the Narmada valley"
+      },
+      {
+        "kind": "land",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1985,
+        "precision": "year",
+        "note": "Medha Patkar’s petition; NBA named 1989"
+      },
+      "ongoing": true
+    },
+    "locations": [
+      {
+        "id": "loc-narmada",
+        "name": "Sardar Sarovar",
+        "kind": "area-approx",
+        "precision": "region",
+        "longitude": 73.75,
+        "latitude": 21.83,
+        "admin": {
+          "country": "India",
+          "state": "Gujarat",
+          "district": "Narmada"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 73.75,
+      "latitude": 21.83,
+      "precision": "region"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "nba",
+        "role": "victim-community"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Narmada valley Adivasis and farmers",
+        "kind": "tribe"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Frontline, Going beyond the Narmada Valley",
+        "creator": "Lyla Bavadam",
+        "year": 2000,
+        "url": "https://frontline.thehindu.com/other/article30255359.ece"
+      }
+    ],
+    "harm": {
+      "displaced": {
+        "min": 32552,
+        "max": 40827,
+        "unit": "households",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Rajya Sabha Unstarred Question 102, Rehabilitation of people displaced by Sardar Sarovar Dam",
+            "year": 2024,
+            "url": "https://sansad.in/getFile/annex/265/AU102_2F86nD.pdf?source=pqars"
+          }
+        ],
+        "contested": true,
+        "note": "Sardar Sarovar only. Union answer, 22 July 2024: 230 villages, 32,552 families given R&R. The 2000 Court narration used 245 villages and 40,827 PAFs."
+      }
+    }
+  },
+  {
+    "family": "environment",
+    "theaters": [
+      "environment"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "status": "draft",
+    "confidence": "high",
+    "id": "kashipur-uail",
+    "slug": "kashipur-maikanch",
+    "name": "Kashipur / Maikanch",
+    "aliases": [
+      "UAIL",
+      "Maikanch firing"
+    ],
+    "summary": "Kashipur Adivasis against Utkal Alumina’s bauxite project. On 16 December 2000 police killed three Jhodia men at Maikanch.",
+    "scale": "small",
+    "scaleRationale": "One block, one firing. Three named dead.",
+    "types": [
+      "resource-conflict",
+      "agitation-with-violence",
+      "one-sided-violence"
+    ],
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "tribe",
+      "class"
+    ],
+    "resources": [
+      {
+        "kind": "minerals",
+        "centrality": "core",
+        "note": "Bauxite"
+      },
+      {
+        "kind": "land",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1993,
+        "precision": "year",
+        "note": "UAIL enters Kashipur"
+      },
+      "end": {
+        "year": 2000,
+        "month": 12,
+        "day": 16,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-kashipur-uail",
+        "name": "Maikanch",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 83.077,
+        "latitude": 19.395,
+        "admin": {
+          "country": "India",
+          "state": "Odisha",
+          "district": "Rayagada",
+          "village": "Maikanch"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 83.077,
+      "latitude": 19.395,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "odisha-police",
+        "role": "state"
+      },
+      {
+        "actorId": "uail",
+        "role": "accused"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Jhodia and other Kashipur Adivasis",
+        "kind": "tribe"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Frontline, Profits over people",
+        "year": 2001,
+        "url": "https://frontline.thehindu.com/other/article30249642.ece"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 3,
+        "max": 3,
+        "unit": "persons",
+        "of": "all",
+        "sources": [
+          {
+            "title": "Frontline, 6 January 2001"
+          }
+        ],
+        "contested": false,
+        "note": "Named dead. Police version: stones and arrows forced the firing."
+      }
+    }
+  },
+  {
+    "family": "environment",
+    "theaters": [
+      "environment"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "status": "draft",
+    "confidence": "high",
+    "id": "koel-karo",
+    "slug": "koel-karo-tapkara",
+    "name": "Koel-Karo",
+    "aliases": [
+      "Tapkara firing"
+    ],
+    "summary": "Munda villages against the Koel-Karo hydel project. Police fired from the Tapkara outpost on 2 February 2001. Official next-day toll six; Frontline ten; later lists name eight.",
+    "scale": "small",
+    "scaleRationale": "One outpost, one afternoon. Deaths in single digits.",
+    "types": [
+      "resource-conflict",
+      "agitation-with-violence",
+      "one-sided-violence"
+    ],
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "tribe"
+    ],
+    "resources": [
+      {
+        "kind": "water",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1995,
+        "precision": "year",
+        "note": "Janata curfew around the project"
+      },
+      "end": {
+        "year": 2001,
+        "month": 2,
+        "day": 2,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-koel-karo",
+        "name": "Tapkara police outpost",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 85.37,
+        "latitude": 22.92,
+        "admin": {
+          "country": "India",
+          "state": "Jharkhand",
+          "district": "Khunti",
+          "village": "Tapkara"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 85.37,
+      "latitude": 22.92,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "koel-karo-jan-sangathan",
+        "role": "victim-community"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Munda",
+        "kind": "tribe",
+        "role": "Koel-Karo / Tapkara"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Frontline, Resistance and repression",
+        "year": 2001,
+        "url": "https://frontline.thehindu.com/other/article30249970.ece"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 6,
+        "max": 10,
+        "unit": "persons",
+        "of": "all",
+        "sources": [
+          {
+            "title": "PTI via Rediff 3 Feb 2001 (6); Frontline March 2001 (10); later named lists (8)"
+          }
+        ],
+        "contested": true,
+        "note": "PTI/official next day: five on the spot, one en route to RMCH, total 6. Frontline, from Jan Sangathan and hospital: five on the spot, five later, total 10. Later Jharkhand anniversary reporting names eight agitators. A policeman, Jaleshwar Ram, was found burned the next day."
+      }
+    }
+  },
+  {
+    "family": "environment",
+    "theaters": [
+      "environment"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "status": "draft",
+    "confidence": "high",
+    "id": "kalinganagar",
+    "slug": "kalinganagar-2006",
+    "name": "Kalinganagar",
+    "aliases": [
+      "Kalinga Nagar firing",
+      "Tata Steel Kalinganagar"
+    ],
+    "summary": "Adivasis tried to stop a Tata Steel boundary wall on 2 January 2006. A policeman died in the melee; police then fired. Frontline recorded twelve tribal dead, including a schoolboy and three women.",
+    "scale": "medium",
+    "scaleRationale": "An industrial estate and a decade of land fights. The named day is twelve and thirteen dead.",
+    "types": [
+      "resource-conflict",
+      "agitation-with-violence",
+      "one-sided-violence"
+    ],
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "tribe",
+      "class"
+    ],
+    "resources": [
+      {
+        "kind": "minerals",
+        "centrality": "core",
+        "note": "Steel / iron"
+      },
+      {
+        "kind": "land",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2005,
+        "precision": "year"
+      },
+      "end": {
+        "year": 2006,
+        "month": 1,
+        "day": 2,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-kalinganagar",
+        "name": "Nuagaon–Champakoila",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 86.015,
+        "latitude": 20.97,
+        "admin": {
+          "country": "India",
+          "state": "Odisha",
+          "district": "Jajpur"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 86.015,
+      "latitude": 20.97,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "odisha-police",
+        "role": "state"
+      },
+      {
+        "actorId": "tata-steel",
+        "role": "accused"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Ho, Munda and other Kalinganagar Adivasis",
+        "kind": "tribe"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Frontline, Resistance and tragedy",
+        "creator": "Prafulla Das",
+        "year": 2006,
+        "url": "https://frontline.thehindu.com/other/article30208072.ece"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 13,
+        "max": 14,
+        "unit": "persons",
+        "of": "all",
+        "sources": [
+          {
+            "title": "Frontline, 27 January 2006; BBC 12 tribals and a policeman"
+          },
+          {
+            "title": "Frontline; PUCL"
+          }
+        ],
+        "contested": true,
+        "note": "Frontline: 12, including a 13-year-old and three women. Some later accounts use 13 Adivasis. Palms of five bodies were amputated for fingerprints; doctors were later suspended."
+      }
+    }
+  },
+  {
+    "family": "environment",
+    "theaters": [
+      "environment"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "status": "draft",
+    "confidence": "high",
+    "id": "sompeta",
+    "slug": "sompeta-2010",
+    "name": "Sompeta",
+    "aliases": [
+      "Beela wetland",
+      "NCC Sompeta"
+    ],
+    "summary": "Farmers and fishers against an NCC thermal plant on the Beela wetland. Police fired on 14 July 2010. Later Hindu reporting names three dead. The plant was shelved.",
+    "scale": "small",
+    "scaleRationale": "One wetland, one firing. Two or three dead.",
+    "types": [
+      "resource-conflict",
+      "agitation-with-violence",
+      "one-sided-violence"
+    ],
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "region",
+      "class"
+    ],
+    "resources": [
+      {
+        "kind": "water",
+        "centrality": "core",
+        "note": "Beela wetland"
+      },
+      {
+        "kind": "land",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2009,
+        "precision": "year"
+      },
+      "end": {
+        "year": 2010,
+        "month": 7,
+        "day": 14,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-sompeta",
+        "name": "Beela wetland",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 84.163,
+        "latitude": 18.944,
+        "admin": {
+          "country": "India",
+          "state": "Andhra Pradesh",
+          "district": "Srikakulam"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 84.163,
+      "latitude": 18.944,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "The Hindu, 13 years post Sompeta stir",
+        "year": 2023,
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/hundreds-of-families-denied-passports-visas-govt-jobs-thanks-to-cases-pending-for-13-years-in-ap/article67204348.ece"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 2,
+        "max": 3,
+        "unit": "persons",
+        "of": "all",
+        "sources": [
+          {
+            "title": "The Hindu 2023 (3 named); Justice P.K. Misra fact-finding (2 on the spot)"
+          }
+        ],
+        "contested": true
+      }
+    }
+  },
+  {
+    "family": "environment",
+    "theaters": [
+      "environment"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "status": "draft",
+    "confidence": "high",
+    "id": "kakarapalli",
+    "slug": "kakarapalli-2011",
+    "name": "Kakarapalli",
+    "aliases": [
+      "Naupada swamp",
+      "East Coast Energy"
+    ],
+    "summary": "Fishers and salt-pan workers of the Naupada swamp against a 2,640 MW plant. Police fired on 28 February 2011. Two agitators died. MoEF ordered work suspended.",
+    "scale": "small",
+    "scaleRationale": "Companion wetland to Sompeta. Two dead.",
+    "types": [
+      "resource-conflict",
+      "agitation-with-violence",
+      "one-sided-violence"
+    ],
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "region",
+      "class"
+    ],
+    "resources": [
+      {
+        "kind": "water",
+        "centrality": "core",
+        "note": "Naupada swamp"
+      },
+      {
+        "kind": "land",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2010,
+        "month": 8,
+        "precision": "month",
+        "note": "Relay hunger strike from 15 August 2010"
+      },
+      "end": {
+        "year": 2011,
+        "month": 2,
+        "day": 28,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-kakarapalli",
+        "name": "Kakarapalli / Hanumanthanaidupeta",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 84.226,
+        "latitude": 18.507,
+        "admin": {
+          "country": "India",
+          "state": "Andhra Pradesh",
+          "district": "Srikakulam",
+          "village": "Kakarapalli"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 84.226,
+      "latitude": 18.507,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "The Hindu, TDP demands compensation for Srikakulam firing victims",
+        "year": 2011,
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/TDP-demands-compensation-for-Srikakulam-firing-victims/article14931488.ece"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 2,
+        "max": 2,
+        "unit": "persons",
+        "of": "all",
+        "sources": [
+          {
+            "title": "The Hindu, 2 March 2011; Business Line, 1 March 2011"
+          }
+        ],
+        "contested": false
+      }
+    }
+  },
+  {
+    "family": "environment",
+    "theaters": [
+      "environment"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "status": "draft",
+    "confidence": "high",
+    "id": "kudankulam",
+    "slug": "kudankulam-protests",
+    "name": "Kudankulam",
+    "aliases": [
+      "KKNPP",
+      "PMANE",
+      "Idinthakarai"
+    ],
+    "summary": "PMANE’s shore campaign against the Kudankulam reactors. On 10 September 2012 police fired at Manapad; the DGP said one person was killed there.",
+    "scale": "small",
+    "scaleRationale": "A coastal agitation. One sourced death, at Manapad, not at the plant fence.",
+    "types": [
+      "resource-conflict",
+      "agitation-with-violence",
+      "one-sided-violence"
+    ],
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "region",
+      "class"
+    ],
+    "resources": [
+      {
+        "kind": "water",
+        "centrality": "core",
+        "note": "Coastal nuclear plant"
+      },
+      {
+        "kind": "land",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2011,
+        "month": 8,
+        "precision": "month"
+      },
+      "end": {
+        "year": 2012,
+        "month": 9,
+        "day": 10,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-kudankulam",
+        "name": "Manapad",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 78.071,
+        "latitude": 8.377,
+        "admin": {
+          "country": "India",
+          "state": "Tamil Nadu",
+          "district": "Thoothukudi",
+          "village": "Manapad"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 78.071,
+      "latitude": 8.377,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "tn-police",
+        "role": "state"
+      },
+      {
+        "actorId": "pmane",
+        "role": "victim-community"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "The Hindu, Protesters had plans to attack KKNPP: DGP",
+        "year": 2012,
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/protesters-had-plans-to-attack-kknpp-dgp/article3882508.ece"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 1,
+        "max": 1,
+        "unit": "persons",
+        "of": "all",
+        "sources": [
+          {
+            "title": "The Hindu, quoting DGP K. Ramanujam"
+          }
+        ],
+        "contested": false,
+        "note": "DGP statement on the Tuticorin-district firing. Plant-site clashes the same morning are not given a death count here."
+      }
+    }
+  },
+  {
+    "family": "environment",
+    "theaters": [
+      "environment"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "status": "draft",
+    "confidence": "high",
+    "id": "posco-jagatsinghpur",
+    "slug": "posco-jagatsinghpur",
+    "name": "POSCO, Jagatsinghpur",
+    "aliases": [
+      "Dhinkia",
+      "PPSS"
+    ],
+    "summary": "A decade against a Korean steel plant and captive port near Paradip. On 2 March 2013 a crude bomb killed three anti-POSCO men at Patana. Police and PPSS still disagree on who threw it.",
+    "scale": "medium",
+    "scaleRationale": "Eight years of village blockade. Three dead in one blast; attribution contested.",
+    "types": [
+      "resource-conflict",
+      "agitation-with-violence"
+    ],
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "region",
+      "class"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "minerals",
+        "centrality": "core",
+        "note": "Steel / port"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2005,
+        "month": 6,
+        "precision": "month",
+        "note": "POSCO MoU"
+      },
+      "end": {
+        "year": 2017,
+        "precision": "year",
+        "note": "POSCO asks Odisha to take the land back"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-posco-jagatsinghpur",
+        "name": "Patana",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 86.51,
+        "latitude": 20.23,
+        "admin": {
+          "country": "India",
+          "state": "Odisha",
+          "district": "Jagatsinghpur",
+          "village": "Patana"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 86.51,
+      "latitude": 20.23,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "posco",
+        "role": "accused"
+      },
+      {
+        "actorId": "ppss",
+        "role": "victim-community"
+      },
+      {
+        "actorId": "odisha-police",
+        "role": "state"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "The Hindu, Police, protesters clash in Posco project site",
+        "year": 2013,
+        "url": "https://www.thehindu.com/todays-paper/tp-national/police-protesters-clash-in-posco-project-site/article4486648.ece"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 3,
+        "max": 3,
+        "unit": "persons",
+        "of": "all",
+        "sources": [
+          {
+            "title": "The Hindu; News18/CNN-IBN"
+          }
+        ],
+        "contested": true,
+        "note": "Three dead is not in dispute. Who threw or assembled the bomb is."
+      }
+    }
+  },
+  {
+    "family": "environment",
+    "theaters": [
+      "environment"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "status": "draft",
+    "confidence": "high",
+    "id": "niyamgiri",
+    "slug": "niyamgiri-gram-sabhas",
+    "name": "Niyamgiri",
+    "aliases": [
+      "Dongria Kondh",
+      "Lanjigarh",
+      "Vedanta bauxite"
+    ],
+    "summary": "Dongria Kondh gram sabhas, ordered after the 2013 Supreme Court judgment, all twelve rejected bauxite mining on Niyam Raja. No one was killed that day. The Lanjigarh refinery lost its captive hill.",
+    "scale": "medium",
+    "scaleRationale": "A hill, a people, a court-ordered referendum. No sourced lethal day.",
+    "types": [
+      "resource-conflict"
+    ],
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "tribe",
+      "religion"
+    ],
+    "resources": [
+      {
+        "kind": "minerals",
+        "centrality": "core",
+        "note": "Bauxite"
+      },
+      {
+        "kind": "forest",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2003,
+        "precision": "year"
+      },
+      "end": {
+        "year": 2013,
+        "month": 8,
+        "day": 19,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-niyamgiri",
+        "name": "Jarapa",
+        "kind": "area-approx",
+        "precision": "village",
+        "longitude": 83.39,
+        "latitude": 19.72,
+        "admin": {
+          "country": "India",
+          "state": "Odisha",
+          "district": "Rayagada"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 83.39,
+      "latitude": 19.72,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "vedanta",
+        "role": "accused"
+      },
+      {
+        "actorId": "dongria-kondh",
+        "role": "victim-community"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Dongria Kondh",
+        "kind": "tribe",
+        "role": "Niyamgiri"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Hindu, Dongria Kondhs have shown the way",
+        "year": 2013,
+        "url": "https://www.thehindu.com/news/national/other-states/dongria-kondhs-have-shown-the-way/article5044669.ece"
+      }
+    ]
+  },
+  {
+    "family": "environment",
+    "theaters": [
+      "environment"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "status": "draft",
+    "confidence": "high",
+    "id": "tawang-hydro",
+    "slug": "tawang-anti-dam",
+    "name": "Tawang hydro",
+    "aliases": [
+      "Save Mon Region Federation",
+      "Tawang firing"
+    ],
+    "summary": "Monpa opposition to hydel projects in Tawang. On 2 May 2016 police fired at the police station during a protest for Lama Lobsang Gyatso. Officials named two dead; unofficial sources said three.",
+    "scale": "small",
+    "scaleRationale": "One town, one firing. Two or three dead.",
+    "types": [
+      "resource-conflict",
+      "agitation-with-violence",
+      "one-sided-violence"
+    ],
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "tribe",
+      "religion",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "water",
+        "centrality": "core",
+        "note": "Himalayan hydro"
+      },
+      {
+        "kind": "land",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2012,
+        "precision": "year",
+        "note": "SMRF anti-dam campaign"
+      },
+      "end": {
+        "year": 2016,
+        "month": 5,
+        "day": 2,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-tawang-hydro",
+        "name": "Tawang police station",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 91.87,
+        "latitude": 27.586,
+        "admin": {
+          "country": "India",
+          "state": "Arunachal Pradesh",
+          "district": "Tawang"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 91.87,
+      "latitude": 27.586,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "smrf",
+        "role": "victim-community"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Monpa",
+        "kind": "tribe",
+        "role": "Tawang hydro"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Hindu, 2 killed in police firing on anti-dam activists in Tawang",
+        "year": 2016,
+        "url": "https://www.thehindu.com/news/national/other-states/2-killed-in-police-firing-on-antidam-activists-in-tawang/article8547791.ece"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 2,
+        "max": 3,
+        "unit": "persons",
+        "of": "all",
+        "sources": [
+          {
+            "title": "The Hindu, quoting officials (2 named); unofficial sources (3)"
+          }
+        ],
+        "contested": true,
+        "note": "Official: Tenpa and Nima Wangdi. Unofficial same-day claim of a third death, including a woman."
+      }
+    }
+  },
+  {
+    "family": "environment",
+    "theaters": [
+      "environment"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "status": "draft",
+    "confidence": "high",
+    "id": "barkagaon-ntpc",
+    "slug": "barkagaon-ntpc",
+    "name": "Barkagaon",
+    "aliases": [
+      "Pakri-Barwadih",
+      "Dadikala firing"
+    ],
+    "summary": "Farmers against NTPC’s Pakri-Barwadih coal block. On 1 October 2016 police fired at Dadikala after a crowd freed an arrested MLA. Indian Express recorded four dead, three of them minors.",
+    "scale": "small",
+    "scaleRationale": "One coal block, one morning. Four or five dead.",
+    "types": [
+      "resource-conflict",
+      "agitation-with-violence",
+      "one-sided-violence"
+    ],
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "class",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "minerals",
+        "centrality": "core",
+        "note": "Coal"
+      },
+      {
+        "kind": "land",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2016,
+        "month": 9,
+        "precision": "month",
+        "note": "Kafan satyagraha from mid-September"
+      },
+      "end": {
+        "year": 2016,
+        "month": 10,
+        "day": 1,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-barkagaon-ntpc",
+        "name": "Dadikala",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 85.216,
+        "latitude": 23.855,
+        "admin": {
+          "country": "India",
+          "state": "Jharkhand",
+          "district": "Hazaribagh",
+          "village": "Dadikala"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 85.216,
+      "latitude": 23.855,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "jharkhand-police",
+        "role": "state"
+      },
+      {
+        "actorId": "ntpc",
+        "role": "accused"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "Indian Express, Land acquisition and protests in Jharkhand’s coal belt",
+        "year": 2016,
+        "url": "https://indianexpress.com/article/explained/jharkhand-hazaribagh-deaths-in-police-firing-mining-site-violence-land-acquisition-3067366/"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 4,
+        "max": 5,
+        "unit": "persons",
+        "of": "all",
+        "sources": [
+          {
+            "title": "Indian Express 4 (three minors); Scroll named 5; Down to Earth 6"
+          }
+        ],
+        "contested": true,
+        "note": "Express, 6 October 2016: 4 individuals including 3 minors. Scroll listed five names. Down to Earth used six. Max stored is 5."
+      }
+    }
+  },
+  {
+    "family": "environment",
+    "theaters": [
+      "environment"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "status": "draft",
+    "confidence": "high",
+    "id": "sterlite-thoothukudi",
+    "slug": "sterlite-thoothukudi",
+    "name": "Sterlite, Thoothukudi",
+    "aliases": [
+      "anti-Sterlite protests",
+      "Tuticorin firing"
+    ],
+    "summary": "The hundredth day of protest against Vedanta’s copper smelter. A rally toward the collectorate on 22 May 2018 met rifles. Thirteen people were killed over two days. Tamil Nadu shut the plant.",
+    "scale": "medium",
+    "scaleRationale": "A town, a smelter, two days. Thirteen dead.",
+    "types": [
+      "resource-conflict",
+      "agitation-with-violence",
+      "one-sided-violence"
+    ],
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "region",
+      "class"
+    ],
+    "resources": [
+      {
+        "kind": "water",
+        "centrality": "core",
+        "note": "Coastal effluent"
+      },
+      {
+        "kind": "land",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2018,
+        "month": 2,
+        "precision": "month",
+        "note": "Hundred days of protest leading to 22 May"
+      },
+      "end": {
+        "year": 2018,
+        "month": 5,
+        "day": 23,
+        "precision": "day"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-sterlite-thoothukudi",
+        "name": "Thoothukudi collectorate / Palayamkottai Road",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 78.144,
+        "latitude": 8.805,
+        "admin": {
+          "country": "India",
+          "state": "Tamil Nadu",
+          "district": "Thoothukudi"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 78.144,
+      "latitude": 8.805,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "tn-police",
+        "role": "state"
+      },
+      {
+        "actorId": "vedanta",
+        "role": "accused"
+      }
+    ],
+    "peoples": [],
+    "sources": [
+      {
+        "title": "The Hindu, Thoothukudi remembers victims of police firing",
+        "year": 2019,
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/anti-sterlite-protests-thoothukudi-remembers-victims-of-police-firing/article62004324.ece"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 13,
+        "max": 13,
+        "unit": "persons",
+        "of": "all",
+        "sources": [
+          {
+            "title": "The Hindu 2019 anniversary; Tamil Nadu CM relief 2026 (13 dead, 40 grievously injured)"
+          }
+        ],
+        "contested": false,
+        "note": "Same-day explainers used 10 on 22 May plus one on the 23rd; Frontline and later state relief settle at 13, one of them from alleged beating rather than a bullet."
+      }
+    }
+  },
+  {
+    "family": "environment",
+    "theaters": [
+      "environment"
+    ],
+    "northeast": false,
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "status": "draft",
+    "confidence": "high",
+    "id": "hasdeo-arand",
+    "slug": "hasdeo-arand",
+    "name": "Hasdeo Arand",
+    "aliases": [
+      "Parsa coal",
+      "Hasdeo Bachao"
+    ],
+    "summary": "Hasdeo forest villages against coal blocks mined for Rajasthan power. On 17 October 2024 police lathi-charged at Salhi and Fatehpur; two policemen took arrow wounds. No sourced civilian death total for that day.",
+    "scale": "medium",
+    "scaleRationale": "A forest the size of a district, still being cut. The named day is injuries, not a death count.",
+    "types": [
+      "resource-conflict",
+      "agitation-with-violence"
+    ],
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "tribe",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "forest",
+        "centrality": "core"
+      },
+      {
+        "kind": "minerals",
+        "centrality": "core",
+        "note": "Coal"
+      },
+      {
+        "kind": "land",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 2012,
+        "precision": "year",
+        "note": "PEKB mining in Hasdeo"
+      },
+      "ongoing": true
+    },
+    "locations": [
+      {
+        "id": "loc-hasdeo-arand",
+        "name": "Salhi / Fatehpur",
+        "kind": "area-approx",
+        "precision": "village",
+        "longitude": 82.75,
+        "latitude": 22.85,
+        "admin": {
+          "country": "India",
+          "state": "Chhattisgarh",
+          "district": "Surguja"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 82.75,
+      "latitude": 22.85,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "in-gov",
+        "role": "state"
+      },
+      {
+        "actorId": "hasdeo-bachao",
+        "role": "victim-community"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Gond and other Hasdeo forest villages",
+        "kind": "tribe"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Indian Express, What is the Hasdeo Arand mining issue",
+        "year": 2024,
+        "url": "https://indianexpress.com/article/explained/hasdeo-arand-mining-issue-protest-9641436/"
+      }
+    ]
+  }
+]

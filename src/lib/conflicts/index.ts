@@ -14,6 +14,7 @@ import {
   type NewsReport,
   type Scale,
 } from "./schema";
+import { incidentAt, spanStart } from "./timeline";
 
 export const FAMILIES = familyRows as FamilyDef[];
 export const FAMILY_BY_ID = new Map(FAMILIES.map((family) => [family.id, family]));
@@ -94,6 +95,19 @@ export function allIncidents(): Incident[] {
 
 export function incidentsForConflict(conflictId: string): Incident[] {
   return allIncidents().filter((incident) => incident.conflictId === conflictId);
+}
+
+export function conflictsInFamily(family: ConflictFamily): Conflict[] {
+  return allConflicts()
+    .filter((conflict) => conflict.family === family)
+    .sort((a, b) => spanStart(a.time) - spanStart(b.time) || a.name.localeCompare(b.name));
+}
+
+export function incidentsInFamily(family: ConflictFamily): Incident[] {
+  const ids = new Set(conflictsInFamily(family).map((conflict) => conflict.id));
+  return allIncidents()
+    .filter((incident) => ids.has(incident.conflictId))
+    .sort((a, b) => incidentAt(a) - incidentAt(b) || a.name.localeCompare(b.name));
 }
 
 export function incidentsInYear(year: number, list: Incident[] = allIncidents()): Incident[] {

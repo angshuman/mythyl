@@ -1,0 +1,883 @@
+[
+  {
+    "id": "chipko-reni-1974",
+    "conflictId": "chipko",
+    "name": "Chipko at Reni",
+    "kind": "other",
+    "time": {
+      "year": 1974,
+      "month": 3,
+      "day": 26,
+      "precision": "day",
+      "note": "Some accounts give 25 March; 26 March is the date kept as the anniversary."
+    },
+    "place": {
+      "name": "Reni forest path, Chamoli",
+      "longitude": 79.61,
+      "latitude": 30.54,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Uttarakhand",
+        "district": "Chamoli",
+        "village": "Reni"
+      }
+    },
+    "summary": "With the men of Reni drawn to Chamoli on a compensation errand, Gaura Devi led about two dozen village women onto the forest path and stopped contractors from felling ash trees auctioned above the village. No one was shot. The stand became the image of Chipko.",
+    "sides": [
+      {
+        "label": "Gaura Devi and Reni Mahila Mangal Dal",
+        "role": "defender",
+        "kind": "civilian"
+      },
+      {
+        "label": "Forest contractors and labourers",
+        "role": "attacker",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "Nature",
+        "headline": "How a tree-hugging protest transformed Indian environmentalism",
+        "year": 2024,
+        "url": "https://www.nature.com/articles/d41586-024-00895-y",
+        "excerpt": "Fifty years ago this week, Gaura Devi, an ordinary woman from a nondescript village in India, hugged a tree, using her body as a shield to stop the tree from being cut down.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "narmada-sc-2000",
+    "conflictId": "narmada",
+    "name": "Sardar Sarovar judgment",
+    "kind": "other",
+    "time": {
+      "year": 2000,
+      "month": 10,
+      "day": 18,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Sardar Sarovar, Kevadia",
+      "longitude": 73.75,
+      "latitude": 21.83,
+      "precision": "region",
+      "admin": {
+        "country": "India",
+        "state": "Gujarat",
+        "district": "Narmada"
+      }
+    },
+    "summary": "A three-judge Bench allowed the Sardar Sarovar wall to rise from 88 m to 90 m at once and toward 138 m in stages, with rehabilitation to run pari passu. Justice Bharucha dissented. No one was shot that day. The valley’s displacement file is still unagreed.",
+    "sides": [
+      {
+        "label": "Narmada Bachao Andolan",
+        "role": "defender",
+        "kind": "civilian",
+        "actorId": "nba"
+      },
+      {
+        "label": "Union of India / Gujarat",
+        "role": "unclear",
+        "kind": "state-forces",
+        "actorId": "in-gov"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "Frontline",
+        "headline": "Going beyond the Narmada Valley",
+        "year": 2000,
+        "url": "https://frontline.thehindu.com/other/article30255359.ece",
+        "excerpt": "Leader of the NBA, Medha Patkar, who went on a three-day fast in Bhopal from October 25, described the October 18 ruling as \"an inhuman crime\".",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "maikanch-2000",
+    "conflictId": "kashipur-uail",
+    "name": "Maikanch firing",
+    "kind": "clash",
+    "time": {
+      "year": 2000,
+      "month": 12,
+      "day": 16,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Maikanch, Kashipur",
+      "longitude": 83.077,
+      "latitude": 19.395,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Odisha",
+        "district": "Rayagada",
+        "village": "Maikanch"
+      }
+    },
+    "summary": "Two platoons entered Maikanch, the centre of a five-year agitation against Utkal Alumina’s bauxite project. Abhilas Jhodia, Raghu Jhodia and Jamudhar Jhodia were killed; eight others were seriously injured. Police said they were answering an attack on a BJD leader the day before. A Left fact-finding team called it pre-designed.",
+    "sides": [
+      {
+        "label": "Odisha Police",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "odisha-police"
+      },
+      {
+        "label": "Kashipur Adivasis opposing UAIL",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 3,
+        "killedMax": 3,
+        "killedBest": 3,
+        "injuredBest": 8,
+        "of": "civilian",
+        "sideLabel": "Abhilas, Raghu and Jamudhar Jhodia",
+        "claimedBy": "Frontline, 6 January 2001",
+        "contested": false,
+        "note": "Named dead. Police version: stones and arrows forced the firing."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Frontline",
+        "headline": "Profits over people",
+        "year": 2001,
+        "url": "https://frontline.thehindu.com/other/article30249642.ece",
+        "excerpt": "On December 16, two platoons of armed police entered Maikanch village in Kashipur block and opened fire at the residents. Abhilas Jhodia (25), Raghu Jhodia (18) and Jamudhar Jhodia (43) died and eight others sustained serious injuries.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Indian Express",
+        "headline": "Probe ordered into Orissa cops’ clash with tribals",
+        "year": 2000,
+        "url": "https://indianexpress.com/article/news-archive/probe-ordered-into-orissa-cops-clash-with-tribals/",
+        "excerpt": "The Orissa government today ordered an administrative inquiry into yesterday's police firing at Maikanch village under Kashipur police station in Rayagada district in which three persons were killed.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "tapkara-2001",
+    "conflictId": "koel-karo",
+    "name": "Tapkara firing",
+    "kind": "clash",
+    "time": {
+      "year": 2001,
+      "month": 2,
+      "day": 2,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Tapkara police outpost, Torpa",
+      "longitude": 85.37,
+      "latitude": 22.92,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Jharkhand",
+        "district": "Khunti",
+        "village": "Tapkara"
+      }
+    },
+    "summary": "Several thousand Munda, under the Koel-Karo Jan Sangathan, sat at the Tapkara outpost after police broke a janata curfew against the hydroelectric project. Police fired from inside the post. PTI the next day put the civilian toll at six; Frontline, from the Sangathan and hospital, at ten; later Jharkhand anniversary lists name eight. A policeman, Jaleshwar Ram, was found burned the next day.",
+    "sides": [
+      {
+        "label": "Jharkhand Police",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Koel-Karo Jan Sangathan / Munda assembly",
+        "role": "target",
+        "kind": "civilian",
+        "actorId": "koel-karo-jan-sangathan"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 6,
+        "killedMax": 10,
+        "killedBest": 8,
+        "of": "civilian",
+        "sideLabel": "Munda protesters at Tapkara",
+        "claimedBy": "PTI via Rediff 3 Feb 2001 (6); Frontline March 2001 (10); later named lists (8)",
+        "contested": true,
+        "note": "PTI/official next day: five on the spot, one en route to RMCH, total 6. Frontline, from Jan Sangathan and hospital: five on the spot, five later, total 10. Later Jharkhand anniversary reporting names eight agitators. A policeman, Jaleshwar Ram, was found burned the next day."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Frontline",
+        "headline": "Resistance and repression",
+        "year": 2001,
+        "url": "https://frontline.thehindu.com/other/article30249970.ece",
+        "excerpt": "According to eyewitness accounts, the police fired more than 150 rounds, killing five persons on the spot. Five others succumbed to their injuries in the following hours, bringing the toll to 10.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Economic and Political Weekly",
+        "headline": "Massacres of Adivasis",
+        "year": 2001,
+        "url": "https://www.epw.in/journal/2001/09/commentary/massacres-adivasis.html",
+        "excerpt": "On February 2, 2001, a large contingent of police at the police outpost at Tapkara in Ranchi district of Jharkhand, opened fire from rifles and stenguns for a full hour on a 4,000-5,000 strong crowd of mostly munda adivasis.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "PTI / Rediff",
+        "headline": "Tapkara firing death toll rises to six",
+        "year": 2001,
+        "url": "https://m.rediff.com/news/2001/feb/03ranchi.htm",
+        "excerpt": "The death toll following Friday's police firing at Tapkara rose to six, with another death being reported, official sources said in Ranchi on Saturday. A person died on way to the Rajendra Medical College and Hospital late on Friday night, Ranchi Deputy Commissioner Sukhdeo Singh stated.",
+        "stance": "state"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kalinganagar-2006",
+    "conflictId": "kalinganagar",
+    "name": "Kalinganagar firing",
+    "kind": "clash",
+    "time": {
+      "year": 2006,
+      "month": 1,
+      "day": 2,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Nuagaon–Champakoila, Kalinganagar",
+      "longitude": 86.015,
+      "latitude": 20.97,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Odisha",
+        "district": "Jajpur"
+      }
+    },
+    "summary": "Adivasis tried to stop a Tata Steel boundary wall. Havildar Gopabandhu Mohanty was killed in the melee; police then fired for nearly an hour. Frontline recorded twelve tribal dead, including a schoolboy and three women. Five bodies came back with palms cut for fingerprints. Villagers blocked the Daitari–Paradip highway with the corpses.",
+    "sides": [
+      {
+        "label": "Odisha Police",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "odisha-police"
+      },
+      {
+        "label": "Kalinganagar Adivasis / Visthapan Virodhi Janmanch",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 12,
+        "killedMax": 13,
+        "killedBest": 12,
+        "of": "civilian",
+        "sideLabel": "Adivasi protesters",
+        "claimedBy": "Frontline, 27 January 2006; BBC 12 tribals and a policeman",
+        "contested": true,
+        "note": "Frontline: 12, including a 13-year-old and three women. Some later accounts use 13 Adivasis. Palms of five bodies were amputated for fingerprints; doctors were later suspended."
+      },
+      {
+        "killedMin": 1,
+        "killedMax": 1,
+        "killedBest": 1,
+        "of": "state-forces",
+        "sideLabel": "Havildar Gopabandhu Mohanty",
+        "claimedBy": "Frontline; PUCL",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Frontline",
+        "headline": "Resistance and tragedy",
+        "year": 2006,
+        "url": "https://frontline.thehindu.com/other/article30208072.ece",
+        "excerpt": "On January 2, the police gunned down 12 of them who opposed the construction of a boundary wall for the proposed steel plant of Tata Steel. The murder of a policeman by the agitators sparked off the killing.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "BBC",
+        "headline": "Tribals protest steel mill deaths",
+        "year": 2006,
+        "url": "https://news.bbc.co.uk/2/hi/south_asia/4577370.stm",
+        "excerpt": "At least 12 tribals and a policeman died in clashes at Kalinganagar, 120km (80 miles) north of Bhubaneswar. Police say they fired in self-defence after they were attacked with arrows.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sompeta-2010",
+    "conflictId": "sompeta",
+    "name": "Sompeta firing",
+    "kind": "clash",
+    "time": {
+      "year": 2010,
+      "month": 7,
+      "day": 14,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Beela wetland, Sompeta",
+      "longitude": 84.163,
+      "latitude": 18.944,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Andhra Pradesh",
+        "district": "Srikakulam"
+      }
+    },
+    "summary": "Farmers and fishers of the Paryavarana Parirakshana Sangham tried to stop fencing of the Beela wetland for an NCC thermal plant. Police fired from a van on the Sompeta–Baruva road. A 2023 Hindu report names three dead — Gunna Jogarao, Bendalam Krishnamurthy and Gonapa Krishnamurthy. The plant was shelved; criminal cases against hundreds of villagers remained.",
+    "sides": [
+      {
+        "label": "Andhra Pradesh Police",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Sompeta farmers and fishers",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 2,
+        "killedMax": 3,
+        "killedBest": 3,
+        "of": "civilian",
+        "sideLabel": "protesters at Sompeta",
+        "claimedBy": "The Hindu 2023 (3 named); Justice P.K. Misra fact-finding (2 on the spot)",
+        "contested": true
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "13 years post Sompeta stir in A.P., hundreds of families still being denied govt. jobs, passports",
+        "year": 2023,
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/hundreds-of-families-denied-passports-visas-govt-jobs-thanks-to-cases-pending-for-13-years-in-ap/article67204348.ece",
+        "excerpt": "Three persons — Gunna Jogarao, Bendalam Krishnamurthy and Gonapa Krishnamurthy — were killed in the police firing and around 20 policemen were injured in the clashes during the protest.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "kakarapalli-2011",
+    "conflictId": "kakarapalli",
+    "name": "Kakarapalli firing",
+    "kind": "clash",
+    "time": {
+      "year": 2011,
+      "month": 2,
+      "day": 28,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Kakarapalli / Hanumanthanaidupeta, Srikakulam",
+      "longitude": 84.226,
+      "latitude": 18.507,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Andhra Pradesh",
+        "district": "Srikakulam",
+        "village": "Kakarapalli"
+      }
+    },
+    "summary": "Fishers and salt-pan workers of the Naupada swamp tried to stop East Coast Energy’s 2,640 MW plant on the Kakarapalli wetland, companion to Sompeta the year before. Police fired on 28 February. Two agitators died. MoEF ordered work suspended.",
+    "sides": [
+      {
+        "label": "Andhra Pradesh Police",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Kakarapalli farmers and fishers",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 2,
+        "killedMax": 2,
+        "killedBest": 2,
+        "injuredBest": 5,
+        "of": "civilian",
+        "sideLabel": "anti-plant protesters",
+        "claimedBy": "The Hindu, 2 March 2011; Business Line, 1 March 2011",
+        "contested": false
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "TDP demands compensation for Srikakulam firing victims",
+        "year": 2011,
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/TDP-demands-compensation-for-Srikakulam-firing-victims/article14931488.ece",
+        "excerpt": "The villagers’ protests turned violent over the last week leading to police firing two days ago killing two persons and injuring five others.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Hindu Business Line",
+        "headline": "Firing at Kakarapalli rocks AP Assembly",
+        "year": 2011,
+        "url": "https://www.thehindubusinessline.com/companies/firing-at-kakarapalli-rocks-ap-assembly/article20105290.ece",
+        "excerpt": "The firing incident on Monday in at Kakarapalli village in Srikakulam mandal, where two agitators died and several others injured, protesting against the establishment of 2,640-MW thermal power plant by East Coast Energy rocked the Andhra Pradesh Legislative Assembly.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "kudankulam-manapad-2012",
+    "conflictId": "kudankulam",
+    "name": "Manapad firing, Kudankulam protests",
+    "kind": "clash",
+    "time": {
+      "year": 2012,
+      "month": 9,
+      "day": 10,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Manapad, Thoothukudi district",
+      "longitude": 78.071,
+      "latitude": 8.377,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Tamil Nadu",
+        "district": "Thoothukudi",
+        "village": "Manapad"
+      }
+    },
+    "summary": "The same day PMANE tried to reach the Kudankulam plant from the Idinthakarai shore, police opened fire at Manapad in neighbouring Thoothukudi after a crowd set fire to a temporary outpost. The DGP said one person was killed there. Teargas and lathi-charge at the plant itself injured police and protesters; no sourced plant-site death is stored.",
+    "sides": [
+      {
+        "label": "Tamil Nadu Police",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "tn-police"
+      },
+      {
+        "label": "anti-KKNPP protesters / PMANE",
+        "role": "target",
+        "kind": "civilian",
+        "actorId": "pmane"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 1,
+        "killedMax": 1,
+        "killedBest": 1,
+        "of": "civilian",
+        "sideLabel": "protester at Manapad",
+        "claimedBy": "The Hindu, quoting DGP K. Ramanujam",
+        "contested": false,
+        "note": "DGP statement on the Tuticorin-district firing. Plant-site clashes the same morning are not given a death count here."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Protesters had plans to attack KKNPP: DGP",
+        "year": 2012,
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/protesters-had-plans-to-attack-kknpp-dgp/article3882508.ece",
+        "excerpt": "On the firing in Tuticorin district which claimed the life of one person, Mr. Ramanujam said a group of agitators set on fire a temporary out-post and attacked the police when they tried to prevent further damage.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "posco-patana-2013",
+    "conflictId": "posco-jagatsinghpur",
+    "name": "Patana blast, POSCO site",
+    "kind": "bombing",
+    "time": {
+      "year": 2013,
+      "month": 3,
+      "day": 2,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Patana, Dhinkia",
+      "longitude": 86.51,
+      "latitude": 20.23,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Odisha",
+        "district": "Jagatsinghpur",
+        "village": "Patana"
+      }
+    },
+    "summary": "A crude bomb killed three anti-POSCO men at Patana in Dhinkia, the village that had blocked the Korean steel plant for eight years. Police said the dead were making bombs to use against the force. PPSS said project supporters threw the bomb. The names in later reporting include Narahari Sahoo, Tarun Mandal and Manas Jena.",
+    "sides": [
+      {
+        "label": "unidentified (police: bomb-makers; PPSS: pro-POSCO attackers)",
+        "role": "attacker",
+        "kind": "unknown"
+      },
+      {
+        "label": "POSCO Pratirodh Sangram Samiti",
+        "role": "target",
+        "kind": "civilian",
+        "actorId": "ppss"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 3,
+        "killedMax": 3,
+        "killedBest": 3,
+        "of": "civilian",
+        "sideLabel": "anti-POSCO activists at Patana",
+        "claimedBy": "The Hindu; News18/CNN-IBN",
+        "contested": true,
+        "note": "Three dead is not in dispute. Who threw or assembled the bomb is."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Police, protesters clash in Posco project site",
+        "year": 2013,
+        "url": "https://www.thehindu.com/todays-paper/tp-national/police-protesters-clash-in-posco-project-site/article4486648.ece",
+        "excerpt": "The villagers staged the demonstration, defying the prohibitions that have been in force in the area ever since three anti-POSCO activists died at Patana on March 2. While police had claimed that the anti-POSCO activists were killed when they were preparing explosives, the Sangram Samiti had countered saying that the activists were killed by bombs hurled at them.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "niyamgiri-gramsaba-2013",
+    "conflictId": "niyamgiri",
+    "name": "Niyamgiri gram sabhas close the mine",
+    "kind": "other",
+    "time": {
+      "year": 2013,
+      "month": 8,
+      "day": 19,
+      "precision": "day",
+      "note": "Twelfth and last of the gram sabhas ordered after the 18 April 2013 Supreme Court judgment."
+    },
+    "place": {
+      "name": "Jarapa, Rayagada / Niyamgiri",
+      "longitude": 83.39,
+      "latitude": 19.72,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Odisha",
+        "district": "Rayagada"
+      }
+    },
+    "summary": "All twelve gram sabhas held after Orissa Mining Corporation v. MoEF voted against bauxite mining on Niyamgiri, the Dongria Kondh’s Niyam Raja. No one was killed that day. The Lanjigarh refinery lost its captive hill.",
+    "sides": [
+      {
+        "label": "Dongria Kondh gram sabhas",
+        "role": "defender",
+        "kind": "civilian",
+        "actorId": "dongria-kondh"
+      },
+      {
+        "label": "Vedanta / Odisha Mining Corporation",
+        "role": "unclear",
+        "kind": "civilian",
+        "actorId": "vedanta"
+      }
+    ],
+    "casualties": [],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Dongria Kondhs have shown the way",
+        "year": 2013,
+        "url": "https://www.thehindu.com/news/national/other-states/dongria-kondhs-have-shown-the-way/article5044669.ece",
+        "excerpt": "The 12 and last gram sabha held at Jarapa in Rayagada district also adopted a unanimous resolution strongly opposing mining in Niyamgiri hills – which they said was the abode of Niyamraja, their ista debata.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "tawang-2016",
+    "conflictId": "tawang-hydro",
+    "name": "Tawang anti-dam firing",
+    "kind": "clash",
+    "time": {
+      "year": 2016,
+      "month": 5,
+      "day": 2,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Tawang police station",
+      "longitude": 91.87,
+      "latitude": 27.586,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Arunachal Pradesh",
+        "district": "Tawang"
+      }
+    },
+    "summary": "Save Mon Region Federation gathered at Tawang police station for Lama Lobsang Gyatso, secretary of the anti-hydel group, arrested after an audio clip on monastery hydro politics. Police fired. Officials named two dead, Tenpa and Nima Wangdi; unofficial sources said three. The Army marched the town.",
+    "sides": [
+      {
+        "label": "Arunachal Pradesh Police",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Save Mon Region Federation",
+        "role": "target",
+        "kind": "civilian",
+        "actorId": "smrf"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 2,
+        "killedMax": 3,
+        "killedBest": 2,
+        "injuredBest": 8,
+        "of": "civilian",
+        "sideLabel": "anti-dam protesters at Tawang",
+        "claimedBy": "The Hindu, quoting officials (2 named); unofficial sources (3)",
+        "contested": true,
+        "note": "Official: Tenpa and Nima Wangdi. Unofficial same-day claim of a third death, including a woman."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "2 killed in police firing on anti-dam activists in Tawang",
+        "year": 2016,
+        "url": "https://www.thehindu.com/news/national/other-states/2-killed-in-police-firing-on-antidam-activists-in-tawang/article8547791.ece",
+        "excerpt": "At least two persons were killed and eight others injured on Monday when policemen opened fire on anti-dam activists trying to barge into a police station demanding release of a monk at Tawang district of Arunachal Pradesh, officials said.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "BBC",
+        "headline": "Two killed in India border town police firing",
+        "year": 2016,
+        "url": "https://www.bbc.com/news/world-asia-india-36189604",
+        "excerpt": "Six others were injured when police fired on protestors demanding the release of an anti-dam activist in the border town of Tawang.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "barkagaon-2016",
+    "conflictId": "barkagaon-ntpc",
+    "name": "Barkagaon / Dadikala firing",
+    "kind": "clash",
+    "time": {
+      "year": 2016,
+      "month": 10,
+      "day": 1,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Dadikala, Barkagaon",
+      "longitude": 85.216,
+      "latitude": 23.855,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Jharkhand",
+        "district": "Hazaribagh",
+        "village": "Dadikala"
+      }
+    },
+    "summary": "Fifteen days of sit-in against NTPC’s Pakri-Barwadih coal block. Police arrested Congress MLA Nirmala Devi; a crowd at Dadikala freed her and beat two officers. Police fired. Indian Express recorded four dead, three of them minors. Some same-week counts ran to five or six.",
+    "sides": [
+      {
+        "label": "Jharkhand Police",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "jharkhand-police"
+      },
+      {
+        "label": "Barkagaon farmers / Karanpura Bachao Samiti",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 4,
+        "killedMax": 5,
+        "killedBest": 4,
+        "of": "civilian",
+        "sideLabel": "protesters at Dadikala",
+        "claimedBy": "Indian Express 4 (three minors); Scroll named 5; Down to Earth 6",
+        "contested": true,
+        "note": "Express, 6 October 2016: 4 individuals including 3 minors. Scroll listed five names. Down to Earth used six. Max stored is 5."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Indian Express",
+        "headline": "Land acquisition and protests, power and politics in Jharkhand’s coal belt",
+        "year": 2016,
+        "url": "https://indianexpress.com/article/explained/jharkhand-hazaribagh-deaths-in-police-firing-mining-site-violence-land-acquisition-3067366/",
+        "excerpt": "On October 1, at a village called Dadi Kala on the road from Barkagaon town in Jharkhand’s Hazaribagh district to Chirudih in the same district, a 1,000-strong mob attacked a police team that had arrested a Congress MLA who had been leading a protest at a local coal mining project site for the past 15 days. Police opened fire, in which 4 individuals, including 3 minors, were killed.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sterlite-thoothukudi-2018",
+    "conflictId": "sterlite-thoothukudi",
+    "name": "Thoothukudi anti-Sterlite firing",
+    "kind": "clash",
+    "time": {
+      "year": 2018,
+      "month": 5,
+      "day": 22,
+      "precision": "day",
+      "note": "Deaths on 22 and 23 May; later state relief treats 13 killed across both days."
+    },
+    "place": {
+      "name": "Thoothukudi collectorate / Palayamkottai Road",
+      "longitude": 78.144,
+      "latitude": 8.805,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Tamil Nadu",
+        "district": "Thoothukudi"
+      }
+    },
+    "summary": "The hundredth day of protest against Vedanta’s Sterlite copper smelter. A rally toward the collectorate met a police line; stones, teargas, then rifles. Ten died on the 22nd, including a teenager later named Snowlin; more firing the next day. The settled public count is thirteen. Tamil Nadu ordered the plant permanently closed.",
+    "sides": [
+      {
+        "label": "Tamil Nadu Police",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "tn-police"
+      },
+      {
+        "label": "anti-Sterlite protesters",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 13,
+        "killedMax": 13,
+        "killedBest": 13,
+        "injuredBest": 40,
+        "of": "civilian",
+        "sideLabel": "anti-Sterlite protesters, 22–23 May 2018",
+        "claimedBy": "The Hindu 2019 anniversary; Tamil Nadu CM relief 2026 (13 dead, 40 grievously injured)",
+        "contested": false,
+        "note": "Same-day explainers used 10 on 22 May plus one on the 23rd; Frontline and later state relief settle at 13, one of them from alleged beating rather than a bullet."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "Thoothukudi remembers victims of police firing during anti-Sterlite protests",
+        "year": 2019,
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/anti-sterlite-protests-thoothukudi-remembers-victims-of-police-firing/article62004324.ece",
+        "excerpt": "On May 22, 2018, police fired on protesters demanding the closure of Vedanta’s Sterlite Copper unit. Thirteen people were killed in the firing.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Hindu",
+        "headline": "The Hindu explains: Sterlite protests",
+        "year": 2018,
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/the-hindu-explains-sterlite-protests/article61833422.ece",
+        "excerpt": "On May 22, 2018, the 100th day of protest against Sterlite Copper, a Vedanta group copper smelter unit, Thoothukudi witnessed mayhem, with 10 people getting killed in police firing when a rally demanding the plant's closure turned violent.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "hasdeo-2024",
+    "conflictId": "hasdeo-arand",
+    "name": "Hasdeo tree-felling clash",
+    "kind": "clash",
+    "time": {
+      "year": 2024,
+      "month": 10,
+      "day": 17,
+      "precision": "day"
+    },
+    "place": {
+      "name": "Salhi / Fatehpur, Hasdeo Arand",
+      "longitude": 82.75,
+      "latitude": 22.85,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Chhattisgarh",
+        "district": "Surguja"
+      }
+    },
+    "summary": "Villagers of Salhi, Hariharpur, Ghatbarra and Fatehpur tried to stop felling for the Parsa coal block, mined for Rajasthan power and operated by Adani. Police lathi-charged; two policemen took arrow wounds; villagers and an activist, Ram Lal Kariyam, were injured. No sourced civilian death total for this day is stored.",
+    "sides": [
+      {
+        "label": "Chhattisgarh Police / forest staff",
+        "role": "attacker",
+        "kind": "state-forces"
+      },
+      {
+        "label": "Hasdeo Arand Bachao Andolan",
+        "role": "defender",
+        "kind": "civilian",
+        "actorId": "hasdeo-bachao"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "villagers and police",
+        "claimedBy": "Indian Express, 27 October 2024",
+        "contested": true,
+        "note": "Express: two police personnel sustained arrow injuries; ten tribals booked. Frontline: Ram Lal Kariyam among the injured. No agreed death count for 17 October 2024."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Indian Express",
+        "headline": "What is the Hasdeo Arand mining issue, and why villagers clashed with the police",
+        "year": 2024,
+        "url": "https://indianexpress.com/article/explained/hasdeo-arand-mining-issue-protest-9641436/",
+        "excerpt": "The Hasdeo forest in Chhattisgarh saw villagers clash with the police earlier this month, after tree-felling for mining of coal resumed in the green belt. Two police personnel, part of the security cover provided to forest officials, sustained arrow injuries, and 10 tribal people were booked for attempt to murder and rioting by the Sarguja police.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  }
+]

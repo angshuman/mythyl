@@ -1,5 +1,6 @@
 import actorRows from "@/data/conflicts/actors.json";
 import actorsEast from "@/data/conflicts/actors-east.json";
+import actorsEnvironment from "@/data/conflicts/actors-environment.json";
 import actorsNe from "@/data/conflicts/actors-ne.json";
 import actorsNorth from "@/data/conflicts/actors-north.json";
 import actorsSouth from "@/data/conflicts/actors-south.json";
@@ -12,6 +13,7 @@ export const actors = [
   ...actorsSouth,
   ...actorsEast,
   ...actorsNe,
+  ...actorsEnvironment,
 ] as Actor[];
 
 export const actorById = new Map(actors.map((actor) => [actor.id, actor]));

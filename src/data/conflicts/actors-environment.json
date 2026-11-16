@@ -1,0 +1,130 @@
+[
+  {
+    "id": "vedanta",
+    "name": "Vedanta",
+    "aliases": [
+      "Vedanta Resources",
+      "Sterlite Copper",
+      "Vedanta Aluminium",
+      "VAL"
+    ],
+    "kind": "corporation"
+  },
+  {
+    "id": "tata-steel",
+    "name": "Tata Steel",
+    "aliases": [
+      "TISCO"
+    ],
+    "kind": "corporation"
+  },
+  {
+    "id": "uail",
+    "name": "Utkal Alumina",
+    "aliases": [
+      "UAIL",
+      "Utkal Alumina International Limited"
+    ],
+    "kind": "corporation"
+  },
+  {
+    "id": "posco",
+    "name": "POSCO",
+    "aliases": [
+      "Pohang Iron and Steel Company"
+    ],
+    "kind": "corporation"
+  },
+  {
+    "id": "nba",
+    "name": "Narmada Bachao Andolan",
+    "aliases": [
+      "NBA",
+      "Save the Narmada Movement"
+    ],
+    "kind": "civilian-crowd"
+  },
+  {
+    "id": "dongria-kondh",
+    "name": "Dongria Kondh",
+    "aliases": [
+      "Dongria Kondhs"
+    ],
+    "kind": "tribe",
+    "tribes": [
+      "Dongria Kondh",
+      "Kutia Kondh"
+    ]
+  },
+  {
+    "id": "koel-karo-jan-sangathan",
+    "name": "Koel-Karo Jan Sangathan",
+    "kind": "civilian-crowd",
+    "tribes": [
+      "Munda"
+    ]
+  },
+  {
+    "id": "pmane",
+    "name": "People's Movement Against Nuclear Energy",
+    "aliases": [
+      "PMANE"
+    ],
+    "kind": "civilian-crowd"
+  },
+  {
+    "id": "ppss",
+    "name": "POSCO Pratirodh Sangram Samiti",
+    "aliases": [
+      "PPSS"
+    ],
+    "kind": "civilian-crowd"
+  },
+  {
+    "id": "hasdeo-bachao",
+    "name": "Hasdeo Arand Bachao Andolan",
+    "aliases": [
+      "Hasdeo Aranya Bachao Sangharsh Samiti",
+      "HABSS"
+    ],
+    "kind": "civilian-crowd"
+  },
+  {
+    "id": "ntpc",
+    "name": "NTPC",
+    "aliases": [
+      "National Thermal Power Corporation"
+    ],
+    "kind": "state-agency",
+    "parentId": "in-gov"
+  },
+  {
+    "id": "smrf",
+    "name": "Save Mon Region Federation",
+    "aliases": [
+      "SMRF"
+    ],
+    "kind": "civilian-crowd"
+  },
+  {
+    "id": "jharkhand-police",
+    "name": "Jharkhand Police",
+    "kind": "police",
+    "parentId": "in-gov"
+  },
+  {
+    "id": "tn-police",
+    "name": "Tamil Nadu Police",
+    "kind": "police",
+    "parentId": "in-gov"
+  },
+  {
+    "id": "odisha-police",
+    "name": "Odisha Police",
+    "aliases": [
+      "Orissa Police"
+    ],
+    "kind": "police",
+    "parentId": "in-gov"
+  }
+]

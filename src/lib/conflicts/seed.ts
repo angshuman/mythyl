@@ -1,5 +1,6 @@
 import campaigns from "@/data/conflicts/campaigns.json";
 import campaignsEast from "@/data/conflicts/campaigns-east.json";
+import campaignsEnvironment from "@/data/conflicts/campaigns-environment.json";
 import campaignsNe from "@/data/conflicts/campaigns-ne.json";
 import campaignsNorth from "@/data/conflicts/campaigns-north.json";
 import campaignsSouth from "@/data/conflicts/campaigns-south.json";
@@ -12,6 +13,7 @@ export const conflicts = [
   ...campaignsSouth,
   ...campaignsEast,
   ...campaignsNe,
+  ...campaignsEnvironment,
 ] as Conflict[];
 
 export const YEAR_MIN = 1947;

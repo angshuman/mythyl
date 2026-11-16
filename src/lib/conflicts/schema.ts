@@ -74,6 +74,7 @@ export type ConflictFamily =
   | "kashmir"
   | "punjab"
   | "communal"
+  | "environment"
   | "external";
 
 export type FamilyDef = {
@@ -502,6 +503,7 @@ export const THEATERS = [
   "naxal",
   "northeast",
   "communal",
+  "environment",
   "integration",
   "west-india",
   "south-india",

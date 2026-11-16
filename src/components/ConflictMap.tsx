@@ -32,6 +32,7 @@ import {
   NORTHEAST_STATES,
   SCALE_RADIUS,
   YEAR_MAX,
+  type Conflict,
   type ConflictFamily,
   type Era,
   type Incident,
@@ -449,15 +450,20 @@ export function ConflictMap() {
       map.fitBounds(INDIA_BOUNDS, { padding: INDIA_FIT_PADDING, duration: 800 });
       return;
     }
-    const points = allConflicts()
-      .filter((conflict) => {
-        if (!next[conflict.family]) return false;
-        if (!enabledScales[conflict.scale]) return false;
-        if (lens === "northeast" && !conflict.northeast) return false;
-        if (lens === "external" && !isExternalTerrorism(conflict)) return false;
-        return true;
-      })
-      .map((conflict) => conflict.primaryPoint);
+    const campaigns = allConflicts().filter((conflict) => {
+      if (!next[conflict.family]) return false;
+      if (!enabledScales[conflict.scale]) return false;
+      if (lens === "northeast" && !conflict.northeast) return false;
+      if (lens === "external" && !isExternalTerrorism(conflict)) return false;
+      return true;
+    });
+    const campaignIds = new Set(campaigns.map((conflict) => conflict.id));
+    const points = [
+      ...campaigns.map((conflict) => conflict.primaryPoint),
+      ...allIncidents()
+        .filter((incident) => campaignIds.has(incident.conflictId))
+        .map((incident) => incident.place),
+    ];
     if (points.length === 0) {
       map.fitBounds(INDIA_BOUNDS, { padding: INDIA_FIT_PADDING, duration: 800 });
       return;
@@ -583,6 +589,11 @@ export function ConflictMap() {
   function openIncident(incident: Incident) {
     setSelected({ type: "incident", incident });
     flyToFocus({ type: "incident", incident });
+  }
+
+  function openConflict(conflict: Conflict) {
+    setSelected({ type: "conflict", conflict });
+    flyToFocus({ type: "conflict", conflict });
   }
 
   function selectFromYears(focus: MapFocus) {
@@ -741,6 +752,7 @@ export function ConflictMap() {
             locked
             onClose={() => setSelected(null)}
             onOpenIncident={openIncident}
+            onOpenConflict={openConflict}
             onHover={hoverAt}
             hovered={hovered}
           />

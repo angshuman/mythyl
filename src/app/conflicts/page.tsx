@@ -6,7 +6,7 @@ import { ViewSwitch } from "@/components/ViewSwitch";
 export const metadata = {
   title: "Armed conflict in India",
   description:
-    "Interstate wars, insurgencies, communal massacres, and terrorist attacks in India since 1947, with a short essay for each kind.",
+    "Interstate wars, insurgencies, communal massacres, environmental conflicts, and terrorist attacks in India since 1947, with a short essay for each kind.",
 };
 
 export default function ConflictsPage() {
