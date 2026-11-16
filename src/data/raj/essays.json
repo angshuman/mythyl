@@ -6,8 +6,8 @@
     "color": "#c4a06a",
     "match": { "families": ["conquest", "annexation"] },
     "paragraphs": [
-      "Plassey, 23 June 1757, was a short battle made decisive by the defection of Mir Jafar. With Bengal’s revenue the East India Company financed sixty years of colonial war against Mysore, the Marathas, Sindh, the Sikh empire, and Burma. Dalhousie’s Doctrine of Lapse treated a kingdom without a recognised heir as a possession the Company could annex.",
-      "The geography is a chain of forts, treaties, and annexed courts — Srirangapatna, Assaye, Miani, Ferozeshah, Rangoon, Lucknow — not a single frontier. Isolate Conquest and Annexation; the years before 1857 read as a taking of territory, not a transfer of government."
+      "The East India Company became a territorial power in India by war and by treaty, not by a single grant. At Plassey, on 23 June 1757, a short battle was decided by the defection of Mir Jafar. After Buxar, the grant of the Bengal diwani in 1765 gave the Company the land revenue of Bengal, Bihar, and Orissa. That revenue paid for further wars: against Mysore, the Marathas, the Rohillas, Nepal, Burma, Afghanistan, Sindh, and the Sikh kingdom, and for the suppression of the Polygars in the south. The geography is a sequence of forts, battlefields, and annexed courts, among them Srirangapatna, Assaye, Miani, and Ferozeshah, rather than a single moving frontier.",
+      "Annexation under an administrative rule is mapped separately from annexation by battle, but it is the same process of taking territory. Under Dalhousie, the doctrine of lapse treated a principality without an heir whom the Company recognised as forfeit. Satara, Jhansi, and Nagpur were taken on that ground. Awadh was annexed in 1856 on a charge of misgovernment, not under the doctrine of lapse. The rebellion of 1857, which followed these annexations, is a separate layer."
     ]
   },
   {
@@ -17,19 +17,19 @@
     "color": "#b54a3a",
     "match": { "family": "revolt" },
     "paragraphs": [
-      "Meerut on a Sunday in May; Delhi the next morning; Kanpur, Lucknow, Jhansi through a summer. The Company called it a mutiny. Later Indian writing called it a war of independence. On the ground it was sepoys, princes, peasants, and a dying Mughal emperor, followed by a recapture that used massacre and collective punishment as method: the well at Kanpur, the taking of Delhi, villages burned in the Doab.",
-      "The death toll was never agreed. European civilians at the Bibighar, Indian dead in the storming of Delhi, rural killings that were never counted — each figure belongs to a side. Isolate 1857; the score is one bar, and the days inside it still argue."
+      "The rebellion began with the sepoys at Meerut on 10 May 1857 and reached Delhi the next day. Over the following months it drew in soldiers of the Bengal Army, landholders, peasants, and the Mughal court, in different combinations at Delhi, Kanpur, Lucknow, Jhansi, and in the countryside of Awadh and the Doab. The Company called it a mutiny. A later Indian nationalist tradition called it the first war of independence. Neither description covers the whole. It was a mutiny in the army that became a political rebellion, supported in some districts and opposed in others, including by Indians.",
+      "The reconquest was, in several places, conducted as reprisal. At Kanpur, after European women and children were killed at the Bibighar, British forces used summary execution and collective punishment. Delhi was stormed in September 1857. Villages in the Doab were burned. There is no single defensible total of the dead. European civilian deaths, Indian deaths in the capture of the cities, and rural killings that were never enumerated were recorded by different parties for different purposes. In 1858 the Crown abolished the Company’s rule in India. That constitutional change is not a measure of the killing."
     ]
   },
   {
     "id": "rural",
     "kicker": "Adivasi and peasant",
-    "title": "Tribal and peasant resistance to colonial rule",
+    "title": "Tribal and peasant resistance, and colonial campaigns in the hills",
     "color": "#8a9a62",
     "match": { "families": ["tribal", "peasant"] },
     "paragraphs": [
-      "Sidhu and Kanhu called a hul at Bhognadih in 1855. Birsa Munda called an ulgulan in Chotanagpur. Alluri Sitarama Raju walked the Agency hills after a forest law closed the commons. In Malabar in 1921 a tenancy revolt became a communal war, and a British prison wagon became a grave. These are not one rising. They share a geography the plains administration never fully held.",
-      "On the plains the fights were over crop and rent: indigo in Nadia, grain in Pabna, debt in the Deccan, tinkathia in Champaran. A lawyer from Gujarat sat with the indigo planters’ ryots in 1917 and turned a local grievance into a national method. Isolate Forest and field; the map is a scatter of rural war, not a border."
+      "The risings in this layer did not share one programme. In 1855 Sidhu and Kanhu Murmu led the Santhal hul from Bhognadih against moneylenders, landlords, and the Company’s administration. Birsa Munda’s ulgulan in Chotanagpur, in 1899–1900, was directed at landlords, Christian missions, and the colonial state. Alluri Sitarama Raju’s rebellion in the Rampa Agency hills, in 1922–24, followed forest laws that restricted shifting cultivation. The Mappila rebellion in Malabar in 1921 began as a tenancy and Khilafat agitation and became, in places, an attack on Hindus. Prisoners being transported by the authorities died of suffocation in a closed railway wagon. Other entries are colonial campaigns rather than rebellions against the Company or the Crown: the Anglo-Khasi war, the Lushai hills expeditions, and the Anglo-Manipur war of 1891 sit here with the Paika, Kol, Bastar, and Kuki risings. What they share is a geography of hill and forest that the administration of the plains did not continuously control.",
+      "On the agricultural plains the recorded conflicts are over rent, debt, and crops that cultivators were forced to grow. Indigo growers in Bengal refused the planters in 1859–60. Tenants in Pabna organised against rent increases in the 1870s. In 1875, Deccan cultivators attacked moneylenders. At Champaran in 1917, the obligation to grow indigo on a portion of the holding was the occasion of Gandhi’s first political campaign in India. The Telangana rebellion of 1946–47 was a Communist-led war against landlords in Hyderabad state, and it continued for a short time after independence. These campaigns are plotted together because they were rural. They were not one movement."
     ]
   },
   {
@@ -39,19 +39,19 @@
     "color": "#8b2e2e",
     "match": { "family": "massacre" },
     "paragraphs": [
-      "Baisakhi, 1919. Brigadier-General Dyer marched fifty riflemen into Jallianwala Bagh, blocked the lane, and fired until the ammunition ran low. Hunter’s committee counted 379 dead. The Congress inquiry said a thousand, perhaps fifteen hundred. A week later a street in Amritsar had to be crawled — a colonial humiliation written as an order. The same method appears earlier at Malerkotla in 1872, where Namdhari prisoners were blown from guns without trial, and later at Hijli Detention Camp, where the Crown shot its own detenus.",
-      "Peshawar, April 1930: armoured cars in Qissa Khwani Bazaar, against Khudai Khidmatgars who had put down the rifle. The official dead were twenty, or thirty. Local lists ran to the hundreds. In 1946–47 the empire’s end was a communal massacre: Calcutta in August, Noakhali in October, Punjab through the Partition months. Isolate Massacre; the days are crowds, camps, and trains, not battlefields."
+      "Several of these events were killings carried out by colonial forces. At Malerkotla in January 1872, Namdhari prisoners were blown from guns without trial. On 13 April 1919, troops under Brigadier-General Dyer fired on a crowd in Jallianwala Bagh, a walled ground in Amritsar with few exits. The Hunter Committee reported 379 dead. The inquiry conducted for the Indian National Congress put the figure at about 1,000 to 1,500. Both numbers are recorded. They are not averaged. Within days, Dyer ordered that Indians using the street where a British woman had been assaulted must crawl along it. On 23 April 1930, at the Qissa Khwani bazaar in Peshawar, troops fired on the Khudai Khidmatgar movement, which had adopted non-violence. Official deaths were numbered in the tens. Local lists were much longer. In September 1931, guards at Hijli Detention Camp shot political prisoners; two died. The massacre at Nankana Sahib in February 1921 is a different case. The killers were retainers of the gurdwara’s mahant, and the dead were Sikh reformers.",
+      "The killings of 1946 and 1947 are placed here because of when they occurred, not because they were the same kind of act as Jallianwala Bagh. Direct Action Day in Calcutta in August 1946, the violence in Noakhali that October, and the Partition massacres in Punjab in 1947 were communal killings among Indians, during the transfer of power. The colonial government did not prevent them. Death tolls for Partition in particular are estimates with wide ranges. This map does not choose one."
     ]
   },
   {
     "id": "agitation",
     "kicker": "Nationalism",
-    "title": "Nationalist agitation and revolutionary violence, 1905–1946",
+    "title": "Nationalist agitation and revolutionary violence",
     "color": "#c9a227",
     "match": { "family": "agitation" },
     "paragraphs": [
-      "Bengal partitioned in 1905, unpartitioned in 1911, and in between a swadeshi that was boycott, bomb, and school. Then the Rowlatt Act, a salt march to Dandi, a raid on the Chittagong armoury, a train stopped at Kakori, three men hanged in Lahore on a March morning. In 1942 the Congress asked the British to quit; Midnapore, Chimur, Ashti answered with their own force. In 1946 the ratings of the Royal Indian Navy struck the flag in Bombay harbour.",
-      "These are not one campaign. They are a sequence that learned, split, and returned — some of it non-violent, some of it not, all of it mapped. Isolate Movement; the years after 1905 get loud, then louder."
+      "The layer runs from Vasudev Balwant Phadke’s rising in 1879 to the strike by ratings of the Royal Indian Navy in February 1946. It is more than one political tradition. It includes the partition of Bengal and the Swadeshi movement (1905–11); revolutionary cases and raids, among them Alipore, Kakori, the Lahore conspiracy, and the Chittagong armoury raid; the Ghadar network and the mutiny of Indian troops at Singapore in 1915; and the mass campaigns associated with the Indian National Congress: the Rowlatt satyagraha, non-cooperation, civil disobedience and the salt march, and Quit India. Bhagat Singh, Sukhdev, and Rajguru were hanged at Lahore on 23 March 1931. After the Congress leadership was imprisoned in August 1942, protest continued locally, some of it violent, including a parallel administration in Midnapore. The Indian National Army, reorganised under Subhas Chandra Bose, fought alongside Japanese forces in 1944–45. The naval ratings’ strike of 1946 began in Bombay. Congress did not lead it.",
+      "Non-violent campaigns and political assassinations are in one layer because both were aimed at ending British rule. They were not the same method, and the map does not present them as one. The rebellion of 1857, the famines, and the colonial massacres each have their own layer."
     ]
   },
   {
@@ -61,19 +61,19 @@
     "color": "#8a7350",
     "match": { "family": "famine" },
     "paragraphs": [
-      "Bengal in 1770, after the Company took the diwani: a traditional figure of ten million, which later demographers treat as an order of magnitude rather than a census. The Deccan and Madras in 1876–78, under a viceroy who would not stop grain exports while people starved. Bengal again in 1943, in a war, after a cyclone, with rice still leaving the province. Sen put the later famine near three million. Maharatna, working the registers, nearer two.",
-      "A famine is not a battle. It has a geography anyway — Murshidabad, Madras, Calcutta — and a file of commissions that argued weather against colonial policy. Isolate Famine; the circles are large, and the days are few, because hunger does not always have a date."
+      "Nine famines are plotted, from Bengal in 1769–70 to Bengal in 1943. A traditional estimate of ten million dead in 1770 is not a census. Later demographic research does not treat it as a reliable count. The Chalisa famine of 1783–84 and the Doji bara of 1791–92 fall in the same early period of Company government. Under the Crown, the large famines on this map are Orissa in 1866, Rajputana in 1868–70, the Deccan and Madras in 1876–78, the Indian famines of 1896–97 and 1899–1900, and Bengal in 1943. For 1876–78, published estimates run from about five million deaths to more than eight million, and the range is contested. During that famine, under Lord Lytton, grain continued to be exported under a policy of not interfering with the market.",
+      "The famine of 1943 is the one for which the evidence is strongest and the argument most developed. Amartya Sen’s estimate is about three million dead. Arup Maharatna’s reconstruction from registration data is closer to two million. Other scholars give other figures. The causes under debate include the cyclone of 1942, the war, inflation, the purchasing policy of the Bengal government, and the colonial denial policy adopted against a possible Japanese invasion. The disagreement is about the weight of weather, war, and policy. It is not about whether a famine occurred. These events have a geography — districts of Bengal, the Deccan, Rajputana, Orissa — even though a famine rarely has a single date in the way a battle does."
     ]
   },
   {
     "id": "penal",
     "kicker": "Penal colony",
-    "title": "Transportation, detention, and colonial criminal law",
+    "title": "Transportation, detention, and the political prisoner",
     "color": "#5c6b7a",
     "match": { "family": "penal" },
     "paragraphs": [
-      "Cellular Jail at Port Blair opened as a machine for isolating the political prisoner: seven wings from a tower, the Andaman sea as the wall. The Komagata Maru was turned from Vancouver and met colonial rifles at a siding in Budge Budge. Neither is a war. Each is a way of keeping a person, or moving one, until the person breaks or the law does.",
-      "The map of jail is an archipelago. Port Blair is a point in the sea; Budge Budge is a point on the Hooghly. Isolate Jail; the score is short, and it sits under everything else."
+      "Two institutions of colonial control are mapped. Neither was a war of conquest. The Cellular Jail at Port Blair opened in 1906 to hold political prisoners in solitary confinement, in wings built out from a central tower. Transportation to the Andaman Islands was older than the jail. What this layer records is the jail’s use, into the 1940s, as a prison for opponents of British rule. In 1914 the Komagata Maru, with Punjabi passengers aboard, was refused permission to land its passengers at Vancouver. On the ship’s return, police fired on the passengers at Budge Budge, outside Calcutta. Official and Indian accounts do not agree on the number killed.",
+      "Beside conquest, rebellion, and famine, these are small entries. They are included because detention, transportation, and exclusion were among the means by which British rule dealt with political opposition, not only with armies in the field."
     ]
   }
 ]

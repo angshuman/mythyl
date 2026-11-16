@@ -2,34 +2,34 @@
   {
     "id": "northeast",
     "kicker": "The Northeast",
-    "title": "Insurgency in Northeast India",
+    "title": "Armed conflict in Northeast India",
     "color": "#6a9b88",
     "match": { "northeast": true },
     "paragraphs": [
-      "Eight states, many peoples, a border that is also a forest. When the Republic arrived in 1947 the Naga hills were already in an argument about belonging. Mizoram went to war after a famine and came back through an accord that held. Assam spent six years asking who counted as a citizen — and Nellie, in a morning, made that question lethal. Tripura’s indigenous majority became a minority. In Manipur in 2023 the valley and the hills split in practice.",
-      "These fights are about land, census lists, who may enter a hill district, and who is a citizen. Religion is in some of them and beside the point in others. Neighbouring Myanmar and Bangladesh are part of the military geography; so is migration across the same ridges. Isolate the region on the map, then move through the years."
+      "This layer is geographic. It gathers armed conflicts in the eight northeastern states, including two campaigns that are classified elsewhere on the map by type: the 1962 war with China, and the merger of Sikkim in 1975. The longest insurgency is the Naga conflict. Naga opposition to incorporation into India predates 1947, and fighting with the Indian state has continued since the mid-1950s, through ceasefires and organisational splits that have not ended it. In Mizoram the Mizo National Front rose in 1966 after the mautam famine of 1959–60 and a relief effort that is widely judged to have failed. Indian aircraft attacked Aizawl. The 1986 accord ended that war, and Mizoram became a state.",
+      "The Assam Movement (1979–85) demanded that people it described as foreigners be removed from the electoral rolls. On 18 February 1983, during an election the movement had boycotted, Bengali-speaking Muslims were massacred at Nellie. Published counts of the dead do not agree. ULFA, also from 1979, was a separate armed campaign for a sovereign Assam. In Tripura, migration from East Bengal, above all after Partition, reduced the indigenous population to a minority; tribal insurgent groups fought on that issue from the late 1970s. Manipur has had a valley insurgency since the 1960s. From May 2023, violence between Meitei and Kuki-Zo communities, after a high-court order on Scheduled Tribe status, divided much of the valley from the hills. Casualty and displacement figures for that violence are not yet stable. The same layer includes Bodo militancy, the Naga–Kuki conflict of the 1990s, the Kuki–Paite clash of 1997–98, and a smaller insurgency in Meghalaya. Several of these wars have used the borders with Myanmar and Bangladesh as sanctuary or as a route of migration."
     ]
   },
   {
     "id": "integration",
     "kicker": "Integration",
-    "title": "The integration of the princely states",
+    "title": "Accession and merger, 1947–1975",
     "color": "#9a937e",
     "match": { "family": "integration" },
     "paragraphs": [
-      "Junagadh’s nawab acceded to Pakistan; India blockaded a Hindu-majority enclave in Kathiawar and the nawab fled. Hyderabad’s nizam held out until a five-day operation in September 1948; what followed in the countryside is still argued over. France handed Pondicherry across a table. Sikkim’s palace guard was disarmed on an April morning in 1975, and a referendum made a protectorate the twenty-second state.",
-      "These are not wars with another country. They are the Republic assembling itself — accession, force, vote, treaty — while the people inside the old princely lines lived that assembly as something else. Isolate Integration and the years 1947–48 read as a scramble, not a ceremony."
+      "Four changes of sovereignty are grouped here. They were not wars between two existing states, although force was used in three of them. In August 1947 the nawab of Junagadh, a Hindu-majority state with no border on Pakistan, acceded to Pakistan. India blockaded the state. The nawab left, Indian troops entered in November 1947, and a plebiscite in February 1948 was reported as a near-unanimous vote for India. Pakistan has not formally withdrawn its claim. The nizam of Hyderabad also refused accession. Indian forces took the state between 13 and 17 September 1948. A committee appointed by the Government of India recorded widespread killing of Muslims in the countryside afterwards. Its report was withheld at the time. Estimates of the dead still differ by a wide margin, and this map does not adopt one.",
+      "The French establishments of Pondicherry, Karaikal, Mahe, and Yanam passed to Indian administration on 1 November 1954, after local takeovers and a vote at Kizhoor. De jure transfer was completed in 1962. Sikkim was an Indian protectorate, not one of the princely states of 1947. On 9 April 1975 the Indian Army disarmed the palace guard in Gangtok. A referendum on 14 April endorsed the end of the monarchy, and Sikkim became a state on 16 May. The Government of India describes this as a merger. The last Chogyal described it as an annexation."
     ]
   },
   {
     "id": "interstate",
     "kicker": "Interstate wars",
-    "title": "India’s wars with neighbouring states",
+    "title": "Wars with neighbouring states",
     "color": "#d7c4a0",
     "match": { "family": "interstate" },
     "paragraphs": [
-      "The first war was over a princely accession, and it left a line that is still a ceasefire. A month on the Himalaya with China in 1962 did the same: a border that both sides still draw differently. Between them, a morning in Goa ended four centuries of Portuguese colonial rule. Kargil, in 1999, was a ridgeline war between two nuclear states that both refused to call a war while it lasted.",
-      "There are only a handful of these. They look like wars in the textbooks — two states, a ceasefire, a map that does not quite hold — and they sit underneath later insurgencies and later attacks. Isolate Interstate wars; the score is short, and the shadows are not."
+      "Four wars with another state are plotted. The war of 1947–48 followed the decision of the Maharaja of Jammu and Kashmir to accede to India. It ended in a ceasefire on 1 January 1949, supervised by the United Nations. The ceasefire line was redefined as the Line of Control in the Simla Agreement of 1972. The line is still disputed. In December 1961, after years of diplomacy and a blockade, Indian forces ended Portuguese rule in Goa, Daman, and Diu. The war with China lasted from 20 October to 21 November 1962 and was fought in the North-East Frontier Agency and in Aksai Chin. The ceasefire did not settle the boundary. India and China still publish different lines.",
+      "The Kargil conflict, from May to July 1999, began when Pakistani soldiers and militants occupied ridges on the Indian side of the Line of Control. Pakistan initially described the intruders as irregulars. India fought a limited campaign to retake the ridges and did not open a second front. Both states had conducted nuclear tests in 1998. The wars with Pakistan in 1965 and 1971 are not on this map."
     ]
   },
   {
@@ -39,8 +39,8 @@
     "color": "#e85d4c",
     "match": { "family": "naxal" },
     "paragraphs": [
-      "Naxalbari was a village in 1967. From there a rural insurgency walked into forests and mine belts — Andhra, Dandakaranya, Jharkhand, Bihar — and, after the 2004 merger, spoke with one party name. It is the longest internal war that is not about a homeland with a name on a flag. Land, caste, the state in the village, a revolution that still uses the word.",
-      "The map of it is a strip through the centre of the country, not a frontier. Days are ambushes, raids, encounters; the names attach to junctions and forests, not capitals. Isolate Naxal–Maoist and the years become a pulse that never quite goes out."
+      "The campaign begins at Naxalbari, in Darjeeling district, in May 1967, when a local Communist leadership turned a conflict between sharecroppers and landlords into a programme of armed agrarian revolution. From West Bengal it spread into parts of Andhra Pradesh, the Dandakaranya forests, Bihar, Jharkhand, Odisha, and adjoining districts. The organisations were not continuous. The Communist Party of India (Marxist-Leninist) and its fragments, the People’s War Group, and the Maoist Communist Centre fought related but separate wars until 2004, when the People’s War Group and the Maoist Communist Centre merged as the Communist Party of India (Maoist).",
+      "This is not a secessionist war, and it is not a communal conflict. The issues named by the insurgents are land, caste, forest rights, and the removal of the state and of mining projects from Adivasi districts. The incidents on the map include killings of leaders, massacres of people accused of informing, ambushes of security forces, raids on armouries, and firings recorded as encounters. The circumstances of several encounters are disputed. The area of Maoist activity is smaller than it was in the late 2000s. The conflict has not ended."
     ]
   },
   {
@@ -50,8 +50,8 @@
     "color": "#c9a227",
     "match": { "family": "punjab" },
     "paragraphs": [
-      "A Sikh militant campaign for a state called Khalistan; an army assault on the Golden Temple in June 1984; a prime minister shot in her garden that October; three days in Delhi whose name is still fought over. By the mid-1990s the armed campaign in Punjab had been broken. The memory had not.",
-      "The years are few and the days are dense. Blue Star, the capital in early November, the long counterinsurgency that followed. Isolate Punjab and the score is almost a single bar with a cluster of squares."
+      "One campaign is plotted, from 1978 to 1993: a Sikh militant movement for an independent Khalistan, the response of the Indian state, and the killings of Sikhs outside Punjab in November 1984. From 1 to 8 June 1984 the army attacked the Golden Temple complex in Amritsar, where Jarnail Singh Bhindranwale and other militants were based. The operation is called Blue Star. The Akal Takht was heavily damaged. Official and unofficial counts of soldiers, militants, and pilgrims killed do not agree, and no single total is used here. On 31 October 1984 Indira Gandhi was shot by two of her Sikh bodyguards. Over the next three days Sikhs were killed in Delhi, in Kanpur, and at Hondh-Chillar in Haryana. Commissions, trials, and a large research literature treat the Delhi killings as organised. The term most often used in that literature is pogrom. Counts of the dead still differ.",
+      "By the early 1990s the armed campaign inside Punjab had been defeated. Human-rights investigations have documented illegal detention, disappearance, and extrajudicial killing by the Punjab police as part of that defeat. Those findings belong to the record of the counterinsurgency. They do not replace the militant campaign’s own killings of civilians and officials."
     ]
   },
   {
@@ -61,41 +61,41 @@
     "color": "#6b8cce",
     "match": { "family": "kashmir" },
     "paragraphs": [
-      "The first war over Jammu and Kashmir was between two new states. The insurgency that opened in 1989 is a different shape: militants in the Valley, a heavy army, the leaving of Kashmiri Pandits, and a claim — always contested, often documented — of sanctuary across the Line of Control. It has not ended. It has changed clothes.",
-      "This is not the same file as Kargil, or as Pulwama. Those sit in other kinds. Isolate Kashmir and you get the long bar, and the days inside it."
+      "The insurgency plotted here begins in 1989. It is not the war of 1947–48, not the Kargil conflict, and not the later attacks at Uri, Pathankot, or Pulwama, which are classified as interstate war or as transnational terrorism. The armed groups were not a single movement. The Jammu and Kashmir Liberation Front argued for independence. Other organisations, of which Hizbul Mujahideen became the largest, argued for accession to Pakistan. India kept a very large security force in the Valley. On 21 January 1990 the Central Reserve Police Force fired on a procession at Gawkadal in Srinagar. How many people were killed is disputed.",
+      "That winter most Kashmiri Pandits left the Valley, after killings and public threats directed at the community. Pandit organisations describe an expulsion. Other accounts emphasise fear and the failure of protection. The departure itself is well documented. Indian governments treat training and infiltration from Pakistan, across the Line of Control, as a central cause. Research that accepts the fact of that support also treats the insurgency as a revolt inside Kashmir, with causes that include the conduct of the 1987 state election. The fighting has continued in a narrower form than in the early 1990s, alongside large street protests in 2008, 2010, and 2016."
     ]
   },
   {
     "id": "communal",
     "kicker": "Communal",
-    "title": "Communal massacres since 1947",
+    "title": "Communal, caste, and ethnic violence",
     "color": "#c47a3a",
     "match": { "family": "communal" },
     "paragraphs": [
-      "Ranchi, Moradabad, Meerut, Bhagalpur; then Ayodhya and the country after it — Bombay, Bhopal, Hyderabad; then Godhra and Gujarat; then Kandhamal, Muzaffarnagar. Some of these are two days. Some are a season. A procession, a rumour, a police line, a neighbourhood burned. Cauvery is the one that is about language and a river. Marichjhapi is a refugee island the state cleared. A landlord militia in Bihar is in this file too.",
-      "Religion is the name most of the files use. The fights are also about who may live on a street, who walks first in a procession, and what the police do when the crowd turns. Isolate Communal: after 1989 the years get loud."
+      "Most of the events in this layer are Hindu–Muslim violence since the 1960s. The sequence runs from the killings of January and March 1964, after anti-Hindu violence in East Pakistan that followed the theft of the Hazratbal relic; through Ranchi–Hatia (1967), Jamshedpur (1979), Moradabad (1980), Meerut (1987), Bhagalpur (1989), and Hyderabad (1990); to the demolition of the Babri Masjid at Ayodhya on 6 December 1992 and the violence afterwards in Ayodhya, Bombay, Bhopal, Rajasthan, and elsewhere. At Meerut in May 1987, men of the Provincial Armed Constabulary took Muslim men from Hashimpura and shot them. The trial court acquitted the accused; on appeal, life sentences were imposed. Gujarat in 2002 followed the burning of a coach of the Sabarmati Express at Godhra, in which 59 passengers died. Indian courts have held that the fire was the result of a conspiracy. That finding is still debated outside the judgments. The scale of the killings of Muslims across Gujarat, and the responsibility of the state government, remain disputed in the scholarship. Later entries are Marad in Kerala (2002 and 2003), the attacks on Christians in Kandhamal, Odisha, in 2008 after the murder of Lakshmanananda Saraswati, and Muzaffarnagar in 2013. Where a commission published a toll, it is in the campaign note. Several of those tolls are contested. They are not added up here.",
+      "Three campaigns are in this layer for a reason other than a Hindu–Muslim riot. The Cauvery violence of 1991 and 2016 was an attack on Tamil residents and property in Karnataka during a dispute over river water. Marichjhapi in 1979 was the eviction, by the Government of West Bengal, of Namasudra refugees who had settled on an island in the Sundarbans. The official death toll is in single digits. Independent accounts are much higher. The two should not be averaged. The Ranvir Sena, a Bhumihar landlord militia founded in Bhojpur in 1994, killed Dalit labourers in a caste war with Maoist squads, including at Bathani Tola and Laxmanpur-Bathe. Maoist killings of upper-caste villagers in that war are plotted with the Naxalite conflict."
     ]
   },
   {
     "id": "environment",
     "kicker": "Environment",
-    "title": "Dams, mines, plants, and the forest",
+    "title": "Environmental and resource conflicts",
     "color": "#7a8f4e",
     "match": { "family": "environment" },
     "paragraphs": [
-      "Chipko at Reni was women on a forest path. Narmada was a valley told to move for a wall; the Court let the wall rise in 2000. Then the firings: Maikanch for bauxite, Tapkara for a dam, Kalinganagar for a steel wall, Sompeta and Kakarapalli for thermal plants on wetlands, Tawang for Himalayan hydro, Barkagaon for coal, Thoothukudi for a copper smelter. Dongria Kondh gram sabhas closed Niyamgiri. Hasdeo is still being cut for coal. These are not insurgencies. They are villages, fisher coasts, and hill peoples against a plant, a mine, or a reservoir — and a police line.",
-      "Deaths, when they are counted, are ones and tens on named days. Displacement is the larger file and it does not agree with itself. Isolate Environment; the years fill with named bars from Chipko to Hasdeo, and they sit on forests and coasts, not on a border."
+      "These are conflicts over forests, dams, mines, and power plants. They are not insurgencies. In most of them, Adivasi or other rural residents faced a project and, on the days that turned violent, the police. Three plotted days carry no death count. At Reni on 26 March 1974, village women stopped contractors from felling trees, the action associated with the Chipko movement. On 18 October 2000 the Supreme Court allowed the Sardar Sarovar dam to be raised. In 2013 all twelve Dongria Kondh gram sabhas refused consent to bauxite mining on Niyamgiri. The other days are firings or clashes: Maikanch (2000), Tapkara (2001), Kalinganagar (2006), Sompeta (2010), Kakarapalli (2011), a firing at Manapad during the Kudankulam protests (2012), Tawang (2016), Barkagaon (2016), and Thoothukudi on 22–23 May 2018, where the public count of the dead is thirteen. At Patana, near the POSCO site, on 2 March 2013, three opponents of the project were killed by a bomb. Police and the protesters do not agree on who was responsible. The Hasdeo clash of 17 October 2024 produced injuries and no agreed number of civilian dead.",
+      "Deaths on these days, where they are reported, are in single digits or the low tens. The campaign notes give the range when sources differ. Displacement is the larger harm, and it is not a settled figure. For Sardar Sarovar alone, the Supreme Court in 2000 referred to 40,827 project-affected families. A Rajya Sabha answer of 22 July 2024 reported rehabilitation recorded for 32,552 families. Those are counts of households for one dam, not of people, and not of the Narmada valley as a whole. The Bhopal gas disaster of 1984 is not in this layer. It was an industrial accident. Nandigram is not in it either. That was a conflict over land for a special economic zone, and it is not plotted here."
     ]
   },
   {
     "id": "external",
     "kicker": "External terror",
-    "title": "Transnational terrorist attacks on Indian cities",
+    "title": "Transnational terrorist attacks",
     "color": "#c07a9a",
     "match": { "family": "external" },
     "paragraphs": [
-      "A suicide bomber at Sriperumbudur. Thirteen bombs across Bombay, then trains, markets, a bakery, a temple, Parliament, hotels by the sea. A convoy at Pulwama. Some of these conspiracies were staged from across a border and named Lashkar or Jaish or the LTTE. Some were homegrown modules that used the same method. Maoist and Northeast campaigns are not this. They are internal wars, even when they use a bomb.",
-      "External here means a strike on Indian soil that is not a riot, not a secession, not a village insurgency. Isolate External terror; the days cluster in cities."
+      "This layer records bombings, armed assaults, and one hijacking, aimed at civilians or at security forces, and attributed either to organisations based outside India or to Indian networks using the same methods. Maoist attacks are excluded, including when they use explosives. So are the insurgencies of the Northeast, and so are communal riots. The first incident is the killing of Rajiv Gandhi at Sriperumbudur on 21 May 1991 by a suicide bomber of the Liberation Tigers of Tamil Eelam. The Bombay blasts of 12 March 1993 follow. Later incidents include the Coimbatore blasts (1998), the hijacking of IC-814 (1999), the attack on Parliament (2001), the attack on the Akshardham temple (2002), serial blasts in Delhi (2005), on Mumbai trains (2006), and in Hyderabad (2007), the attacks in Mumbai of 26–29 November 2008, bombings attributed to the Indian Mujahideen, the German Bakery in Pune (2010), and attacks on security forces at Gurdaspur (2015), Pathankot (2016), Uri (2016), and Pulwama (2019).",
+      "The strength of attribution is not the same in every case. Court findings and public investigations support the LTTE at Sriperumbudur, Lashkar-e-Taiba for the Mumbai attacks of 2008, and Jaish-e-Mohammed for Pulwama. The Indian Mujahideen was a domestic network. Where attribution is contested, the campaign note says so. Most of the attacks on civilians were in cities. Gurdaspur, Pathankot, Uri, and Pulwama were attacks on police, on an airbase, or on soldiers."
     ]
   }
 ]
