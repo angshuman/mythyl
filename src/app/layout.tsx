@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     default: "mythyl",
     template: "%s · mythyl",
   },
-  description: "The after, drawn. A gallery of maps and infographics.",
+  description: "A subject, made visible. Infographics from mythyl.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

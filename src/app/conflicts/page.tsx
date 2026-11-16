@@ -4,9 +4,9 @@ import { ConflictMapLoader } from "@/components/ConflictMapLoader";
 import { ViewSwitch } from "@/components/ViewSwitch";
 
 export const metadata = {
-  title: "Conflicts in India",
+  title: "Armed conflict in India",
   description:
-    "A geographic reading of post-independence conflict in India — wars, insurgencies, riots — with a short essay for each kind.",
+    "Interstate wars, insurgencies, communal massacres, and terrorist attacks in India since 1947, with a short essay for each kind.",
 };
 
 export default function ConflictsPage() {
@@ -22,7 +22,7 @@ export default function ConflictsPage() {
       <ConflictEssays />
 
       <footer className="site-footer">
-        mythyl · conflicts in india · 1947 to now
+        mythyl · armed conflict in india · 1947 to now
       </footer>
     </main>
   );

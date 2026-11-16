@@ -1,0 +1,1008 @@
+[
+  {
+    "id": "buxar-1764",
+    "slug": "buxar",
+    "name": "Battle of Buxar",
+    "aliases": [
+      "Baksar",
+      "Treaty of Allahabad"
+    ],
+    "summary": "On 22 October 1764 a Company army under Hector Munro beat the combined forces of Mir Qasim of Bengal, Shuja-ud-Daula of Awadh, and the Mughal emperor Shah Alam II on the Ganga at Buxar. The Treaty of Allahabad in August 1765 gave the Company the diwani of Bengal, Bihar, and Orissa: the legal right to collect the land revenue of the richest provinces in eastern India. Colonial conquest here was a revenue grant, not a map colour.",
+    "scale": "large",
+    "scaleRationale": "The diwani turned a trading company into the territorial power of the eastern Gangetic plain.",
+    "types": [
+      "colonial-war"
+    ],
+    "family": "conquest",
+    "theaters": [
+      "bengal",
+      "gangetic"
+    ],
+    "northeast": false,
+    "rule": "company",
+    "internalExternal": "mixed",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation",
+      "class",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "taxation",
+        "centrality": "core",
+        "note": "Diwani of Bengal, Bihar, and Orissa."
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1764,
+        "precision": "day",
+        "month": 10,
+        "day": 22
+      },
+      "end": {
+        "year": 1765,
+        "precision": "day",
+        "month": 8,
+        "day": 12
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-buxar",
+        "name": "Buxar, Bihar",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 83.98,
+        "latitude": 25.575,
+        "admin": {
+          "country": "India",
+          "state": "Bihar",
+          "district": "Buxar"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 83.98,
+      "latitude": 25.575,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "bengal-nawab",
+        "role": "state",
+        "note": "Mir Qasim, deposed nawab of Bengal."
+      },
+      {
+        "actorId": "awadh-nawab",
+        "role": "state",
+        "note": "Shuja-ud-Daula."
+      },
+      {
+        "actorId": "mughal-empire",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Bengalis",
+        "kind": "ethnicity"
+      },
+      {
+        "name": "Awadhis",
+        "kind": "ethnicity"
+      },
+      {
+        "name": "Mughals",
+        "kind": "nationality"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Treaty of Allahabad / Diwani grant",
+        "time": {
+          "start": {
+            "year": 1765,
+            "precision": "day",
+            "month": 8,
+            "day": 12
+          }
+        },
+        "note": "Shah Alam II granted the Company the diwani of Bengal, Bihar, and Orissa."
+      }
+    ],
+    "relations": [
+      {
+        "kind": "previous",
+        "targetId": "plassey-1757",
+        "note": "Plassey put a puppet in Murshidabad; Buxar took the revenue."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Battle of Buxar",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Battle-of-Buxar"
+      },
+      {
+        "title": "Battle of Buxar",
+        "creator": "World History Encyclopedia",
+        "year": 2022,
+        "url": "https://www.worldhistory.org/article/2116/battle-of-buxar/"
+      },
+      {
+        "title": "The Anarchy",
+        "creator": "William Dalrymple",
+        "year": 2019
+      }
+    ],
+    "confidence": "high",
+    "status": "published"
+  },
+  {
+    "id": "carnatic-wars",
+    "slug": "carnatic-wars",
+    "name": "Third Carnatic War",
+    "aliases": [
+      "Battle of Wandiwash",
+      "Anglo-French struggle in the Carnatic"
+    ],
+    "summary": "The Third Carnatic War was the Indian theatre of the Seven Years’ War. At Vandavasi (Wandiwash) on 22 January 1760, Eyre Coote routed the comte de Lally. Pondicherry surrendered in January 1761. The Treaty of Paris restored French trading posts but not French political power. Colonial conquest in the south was decided as an Anglo-French war on Tamil ground.",
+    "scale": "large",
+    "scaleRationale": "The battle that ended France as a territorial rival in India and left the Carnatic to the Company.",
+    "types": [
+      "colonial-war"
+    ],
+    "family": "conquest",
+    "theaters": [
+      "south"
+    ],
+    "northeast": false,
+    "rule": "company",
+    "internalExternal": "mixed",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "trade-route",
+        "centrality": "core",
+        "note": "Coromandel ports."
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1756,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1763,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-vandavasi",
+        "name": "Vandavasi (Wandiwash), Tamil Nadu",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 79.62,
+        "latitude": 12.5,
+        "admin": {
+          "country": "India",
+          "state": "Tamil Nadu",
+          "district": "Tiruvannamalai"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 79.62,
+      "latitude": 12.5,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "french-company",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Tamils",
+        "kind": "ethnicity"
+      },
+      {
+        "name": "French",
+        "kind": "nationality"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Battle of Wandiwash",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Battle-of-Wandiwash"
+      },
+      {
+        "title": "The famous Battle of Wandiwash which gave India to the British",
+        "creator": "The Hindu",
+        "year": 2022,
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/the-famous-battle-of-wandiwash-which-gave-india-to-the-british/article66293916.ece"
+      }
+    ],
+    "confidence": "high",
+    "status": "published"
+  },
+  {
+    "id": "rohilla-1774",
+    "slug": "rohilla-war",
+    "name": "First Rohilla War",
+    "aliases": [
+      "Rohilla War",
+      "Battle of Miranpur Katra"
+    ],
+    "summary": "In 1774 Warren Hastings hired a Company brigade to the Nawab of Awadh to crush the Rohilla Afghans of Rohilkhand. The stated aim was a buffer against the Marathas; the price was a subsidy. Hafiz Rahmat Khan was killed at Miranpur Katra. Rohilkhand passed to Awadh, except Rampur. Hastings’s critics, Edmund Burke among them, charged that Company troops had been let out on hire and that atrocities against Rohilla civilians were condoned. Colonial conquest here was a paid campaign inside another Indian state’s war.",
+    "scale": "medium",
+    "scaleRationale": "A single-season war that redrew Rohilkhand and later became an article of Hastings’s impeachment.",
+    "types": [
+      "colonial-war"
+    ],
+    "family": "conquest",
+    "theaters": [
+      "gangetic"
+    ],
+    "northeast": false,
+    "rule": "company",
+    "internalExternal": "mixed",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "ethnicity",
+      "region",
+      "nation"
+    ],
+    "resources": [
+      {
+        "kind": "border",
+        "centrality": "core",
+        "note": "Awadh as buffer against the Marathas."
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1774,
+        "precision": "month",
+        "month": 4
+      },
+      "end": {
+        "year": 1774,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-bareilly",
+        "name": "Bareilly, Rohilkhand",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 79.43,
+        "latitude": 28.367,
+        "admin": {
+          "country": "India",
+          "state": "Uttar Pradesh",
+          "district": "Bareilly"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 79.43,
+      "latitude": 28.367,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "ally",
+        "note": "Company brigade hired to Awadh."
+      },
+      {
+        "actorId": "awadh-nawab",
+        "role": "state"
+      },
+      {
+        "actorId": "rohilla",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Rohillas",
+        "kind": "ethnicity"
+      },
+      {
+        "name": "Awadhis",
+        "kind": "ethnicity"
+      }
+    ],
+    "historiography": [
+      {
+        "claim": "Hastings let out Company troops on hire and condoned atrocities in Rohilkhand.",
+        "heldBy": "Edmund Burke and later critics at the impeachment; Parliament later vindicated Hastings.",
+        "sources": [
+          {
+            "title": "Rohilla War",
+            "creator": "Encyclopaedia Britannica",
+            "url": "https://www.britannica.com/event/Rohilla-War"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Rohilla War",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Rohilla-War"
+      }
+    ],
+    "confidence": "high",
+    "status": "published"
+  },
+  {
+    "id": "polygar-wars",
+    "slug": "polygar-wars",
+    "name": "Polygar Wars",
+    "aliases": [
+      "Palaiyakkarar Wars",
+      "Poligar Wars"
+    ],
+    "summary": "Between 1799 and 1805 the Company broke the palaiyakkarars of the old Tirunelveli country. Veerapandiya Kattabomman of Panchalankurichi refused the Arcot-assigned revenue. His fort was taken; he was hanged at Kayathar on 16 October 1799. The Maruthu brothers rose in 1801. The Company razed forts, disbanded polygar armies, and turned surviving chiefs into zamindars under the Permanent Settlement. Colonial conquest in the deep south was a tax war against local military households.",
+    "scale": "medium",
+    "scaleRationale": "A multi-year jungle and fort war that ended independent palayam power in Tamil country.",
+    "types": [
+      "colonial-war"
+    ],
+    "family": "conquest",
+    "theaters": [
+      "south"
+    ],
+    "northeast": false,
+    "rule": "company",
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "region",
+      "nation",
+      "class"
+    ],
+    "resources": [
+      {
+        "kind": "taxation",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1799,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1805,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-panchalankurichi",
+        "name": "Panchalankurichi, Tirunelveli country",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 78.083,
+        "latitude": 8.978,
+        "admin": {
+          "country": "India",
+          "state": "Tamil Nadu",
+          "district": "Thoothukudi"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 78.083,
+      "latitude": 8.978,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "palaiyakkarar",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Tamils",
+        "kind": "ethnicity"
+      },
+      {
+        "name": "Palaiyakkarars",
+        "kind": "caste",
+        "note": "Nayak and other polygar houses of the Tirunelveli palayams."
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Permanent Settlement of the palayams",
+        "note": "After 1801–02 surviving polygars were reduced to zamindars."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Polygar Heroes of Tamil Nadu",
+        "creator": "Live History India",
+        "year": 2019,
+        "url": "https://www.livehistoryindia.com/story/people/the-polygar-heroes-of-tamil-nadu"
+      },
+      {
+        "title": "Memorial for Kattabomman to be erected at Kayathar",
+        "creator": "The Hindu",
+        "year": 2013,
+        "url": "https://www.thehindu.com/todays-paper/tp-national/tp-tamilnadu/memorial-for-kattabomman-to-be-erected-at-kayathar/article4600795.ece"
+      }
+    ],
+    "confidence": "high",
+    "status": "published"
+  },
+  {
+    "id": "vellore-mutiny-1806",
+    "slug": "vellore-mutiny",
+    "name": "Vellore Mutiny",
+    "aliases": [
+      "Vellore Rebellion",
+      "Vellore Revolt"
+    ],
+    "summary": "On 10 July 1806 sepoys of the Madras army seized Vellore Fort, killed about 130 British troops, and raised the Mysore flag. Tipu Sultan’s sons, lodged in the fort since 1799, were present. The immediate grievance was new dress regulations — headgear, shaving, ornaments, caste marks — read as an attack on Hindu and Muslim practice, with pay behind it. Gillespie’s relief from Arcot retook the fort the same day. Hundreds of sepoys were killed in the fighting or in executions, some blown from guns. Colonial conquest had already taken Mysore; Vellore was the garrison answering back.",
+    "scale": "medium",
+    "scaleRationale": "A one-day mutiny, but the first large violent rising of Company sepoys, and a rehearsal of 1857’s religious grievance.",
+    "types": [
+      "mutiny"
+    ],
+    "family": "conquest",
+    "theaters": [
+      "south"
+    ],
+    "northeast": false,
+    "rule": "company",
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "religion",
+      "caste",
+      "nation"
+    ],
+    "resources": [
+      {
+        "kind": "religion",
+        "centrality": "core",
+        "note": "Dress and caste-mark orders."
+      },
+      {
+        "kind": "jobs",
+        "centrality": "contributing",
+        "note": "Sepoy pay."
+      },
+      {
+        "kind": "political-power",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1806,
+        "precision": "day",
+        "month": 7,
+        "day": 10
+      },
+      "end": {
+        "year": 1806,
+        "precision": "day",
+        "month": 7,
+        "day": 10
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-vellore-fort",
+        "name": "Vellore Fort",
+        "kind": "point",
+        "precision": "building",
+        "longitude": 79.133,
+        "latitude": 12.921,
+        "admin": {
+          "country": "India",
+          "state": "Tamil Nadu",
+          "district": "Vellore"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 79.133,
+      "latitude": 12.921,
+      "precision": "building"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "madras-sepoys",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "mysore-sultanate",
+        "role": "accused",
+        "note": "Tipu’s sons were interned in the fort; Britannica treats them as encouraging the outbreak."
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Madras sepoys",
+        "kind": "nationality"
+      },
+      {
+        "name": "Mysore family of Tipu Sultan",
+        "kind": "nationality"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "anglo-mysore",
+        "note": "Tipu’s family had been held at Vellore since Srirangapatna, 1799."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vellore Mutiny",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Vellore-Mutiny"
+      }
+    ],
+    "confidence": "high",
+    "status": "published"
+  },
+  {
+    "id": "anglo-nepal",
+    "slug": "anglo-nepal-war",
+    "name": "Anglo-Nepalese War",
+    "aliases": [
+      "Gurkha War",
+      "Treaty of Sugauli"
+    ],
+    "summary": "From 1814 to 1816 the Company invaded the Gorkha kingdom. Early columns were beaten in the hills; Gillespie was killed at Nalapani above Dehradun. Ochterlony took the western front at Malaun in 1815 and threatened Kathmandu in 1816. The Treaty of Sugauli, ratified 4 March 1816, stripped Nepal of Kumaon, Garhwal, and much of the Tarai, placed a resident at Kathmandu, and opened Gurkha recruitment into Company service. Colonial conquest here was a Himalayan border war that also hired the defeated army.",
+    "scale": "large",
+    "scaleRationale": "A two-year mountain war that set Nepal’s modern borders and began Gurkha enlistment.",
+    "types": [
+      "colonial-war"
+    ],
+    "family": "conquest",
+    "theaters": [
+      "himalaya"
+    ],
+    "northeast": false,
+    "rule": "company",
+    "internalExternal": "external",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation",
+      "ethnicity",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "border",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "core",
+        "note": "Kumaon, Garhwal, Tarai."
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1814,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1816,
+        "precision": "day",
+        "month": 3,
+        "day": 4
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-dehradun-nalapani",
+        "name": "Nalapani (Kalunga), Dehradun",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 78.087,
+        "latitude": 30.375,
+        "admin": {
+          "country": "India",
+          "state": "Uttarakhand",
+          "district": "Dehradun"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 78.087,
+      "latitude": 30.375,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "nepal-kingdom",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Gurkhas",
+        "kind": "ethnicity"
+      },
+      {
+        "name": "Nepalis",
+        "kind": "nationality"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Treaty of Sugauli",
+        "time": {
+          "start": {
+            "year": 1816,
+            "precision": "day",
+            "month": 3,
+            "day": 4
+          }
+        },
+        "note": "Nepal ceded western hill conquests and accepted a British resident."
+      }
+    ],
+    "sources": [
+      {
+        "title": "From Conflict to Comradeship: the Treaty of Sugauli",
+        "creator": "The Gurkha Museum",
+        "year": 2026,
+        "url": "https://thegurkhamuseum.co.uk/blog/treaty-of-sugauli/"
+      },
+      {
+        "title": "Anglo-Nepalese War",
+        "creator": "World History Encyclopedia",
+        "year": 2022,
+        "url": "https://www.worldhistory.org/Anglo-Nepalese_War/"
+      },
+      {
+        "title": "Treaty of Sagauli",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Treaty-of-Sagauli"
+      }
+    ],
+    "confidence": "high",
+    "status": "published"
+  },
+  {
+    "id": "first-afghan-war",
+    "slug": "first-afghan-war",
+    "name": "First Anglo-Afghan War",
+    "aliases": [
+      "First Afghan War",
+      "Retreat from Kabul"
+    ],
+    "summary": "In 1839 the Company invaded Afghanistan to replace Dost Mohammad with Shah Shuja and block a supposed Russian advance. Kabul was occupied; the occupation was not accepted. In January 1842 some 4,500 British and Indian troops and about 12,000 camp followers marched out of Kabul under a promise of safe conduct. The column was destroyed in the passes. An Army of Retribution re-entered Kabul that autumn, burned the bazaar, and left. Dost Mohammad returned. Colonial conquest failed as occupation and was remembered as a massacre on the road.",
+    "scale": "large",
+    "scaleRationale": "A three-year invasion whose destruction of the Kabul column was among the worst British military disasters of the century.",
+    "types": [
+      "colonial-war"
+    ],
+    "family": "conquest",
+    "theaters": [
+      "afghanistan"
+    ],
+    "northeast": false,
+    "rule": "company",
+    "internalExternal": "external",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "religion",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "border",
+        "centrality": "core",
+        "note": "Forward defence of India against Russia."
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "trade-route",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1839,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1842,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-kabul",
+        "name": "Kabul",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 69.172,
+        "latitude": 34.528,
+        "admin": {
+          "country": "Afghanistan"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 69.172,
+      "latitude": 34.528,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "emirate-afghanistan",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Afghans",
+        "kind": "nationality"
+      },
+      {
+        "name": "Pashtuns",
+        "kind": "ethnicity"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 12000,
+        "max": 16000,
+        "unit": "persons",
+        "of": "mixed",
+        "sources": [
+          {
+            "title": "First Afghan War",
+            "creator": "National Army Museum",
+            "url": "https://www.nam.ac.uk/explore/first-afghan-war"
+          },
+          {
+            "title": "Anglo-Afghan Wars",
+            "creator": "Encyclopaedia Britannica",
+            "url": "https://www.britannica.com/event/Anglo-Afghan-Wars"
+          }
+        ],
+        "contested": true,
+        "note": "NAM and Britannica describe a January 1842 column of about 4,500 troops and 12,000 camp followers destroyed on the road to Jalalabad. Survivor counts remain contested; NAM records one European, Dr William Brydon, reaching Jalalabad."
+      }
+    },
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "anglo-sikh",
+        "note": "NAM: the Kabul disaster undermined the Company’s reputation and emboldened the Sikhs."
+      }
+    ],
+    "sources": [
+      {
+        "title": "First Afghan War",
+        "creator": "National Army Museum",
+        "url": "https://www.nam.ac.uk/explore/first-afghan-war"
+      },
+      {
+        "title": "Anglo-Afghan Wars",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Anglo-Afghan-Wars"
+      }
+    ],
+    "confidence": "high",
+    "status": "published"
+  },
+  {
+    "id": "second-afghan-war",
+    "slug": "second-afghan-war",
+    "name": "Second Anglo-Afghan War",
+    "aliases": [
+      "Second Afghan War",
+      "Battle of Kandahar"
+    ],
+    "summary": "In 1878 the Crown invaded Afghanistan after Kabul received a Russian mission and turned back a British one. Sher Ali fled. The Treaty of Gandamak (1879) put a British resident in Kabul and Afghan foreign policy under Indian control. The residency was massacred in September 1879. Roberts reoccupied Kabul; Maiwand was lost in 1880; Roberts marched to Kandahar and beat Ayub Khan on 1 September. Abdur Rahman kept the throne and the foreign-policy clause; the resident was dropped. Colonial conquest this time was a buffer war, not an annexation.",
+    "scale": "large",
+    "scaleRationale": "A two-year invasion that fixed Afghan foreign policy as a British Indian interest and seized border districts.",
+    "types": [
+      "colonial-war"
+    ],
+    "family": "conquest",
+    "theaters": [
+      "afghanistan"
+    ],
+    "northeast": false,
+    "rule": "crown",
+    "internalExternal": "external",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "religion",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "border",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1878,
+        "precision": "month",
+        "month": 11
+      },
+      "end": {
+        "year": 1880,
+        "precision": "day",
+        "month": 9,
+        "day": 1
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-kandahar",
+        "name": "Kandahar",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 65.737,
+        "latitude": 31.628,
+        "admin": {
+          "country": "Afghanistan"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 65.737,
+      "latitude": 31.628,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "emirate-afghanistan",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Afghans",
+        "kind": "nationality"
+      },
+      {
+        "name": "Pashtuns",
+        "kind": "ethnicity"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Treaty of Gandamak",
+        "time": {
+          "start": {
+            "year": 1879,
+            "precision": "day",
+            "month": 5,
+            "day": 26
+          }
+        },
+        "note": "Afghan foreign relations to be conducted with British wishes and advice; a resident at Kabul, later dropped."
+      }
+    ],
+    "relations": [
+      {
+        "kind": "previous",
+        "targetId": "first-afghan-war"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Second Afghan War",
+        "creator": "National Army Museum",
+        "url": "https://www.nam.ac.uk/explore/second-afghan-war"
+      },
+      {
+        "title": "Anglo-Afghan Wars",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Anglo-Afghan-Wars"
+      }
+    ],
+    "confidence": "high",
+    "status": "published"
+  }
+]

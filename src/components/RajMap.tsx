@@ -114,22 +114,9 @@ export function RajMap() {
   const [enabledFamilies, setEnabledFamilies] = useState<Record<ConflictFamily, boolean>>(ALL_FAMILIES_ON);
   const [selected, setSelected] = useState<MapFocus | null>(null);
   const [hovered, setHovered] = useState<MapFocus | null>(null);
-  const [hoverDock, setHoverDock] = useState<"left" | "right">("right");
   const [mapError, setMapError] = useState<string | null>(null);
 
   const hoverAt = useCallback((focus: SetStateAction<MapFocus | null>) => {
-    if (typeof focus === "function") {
-      setHovered(focus);
-      return;
-    }
-    if (focus) {
-      const point = focus.type === "conflict" ? focus.conflict.primaryPoint : focus.incident.place;
-      const map = mapRef.current;
-      if (map) {
-        const x = map.project([point.longitude, point.latitude]).x;
-        setHoverDock(x > map.getContainer().clientWidth * 0.52 ? "left" : "right");
-      }
-    }
     setHovered(focus);
   }, []);
 
@@ -322,6 +309,7 @@ export function RajMap() {
     });
     map.on("load", () => {
       setMapError(null);
+      map.getContainer().querySelector(".maplibregl-ctrl-bottom-left")?.remove();
       map.resize();
       map.fitBounds(RAJ_BOUNDS, { padding: RAJ_FIT_PADDING, duration: 0 });
     });
@@ -351,26 +339,17 @@ export function RajMap() {
       const el = document.createElement("button");
       el.type = "button";
       el.className = "conflict-dot";
+      el.dataset.id = conflict.id;
       el.dataset.scale = conflict.scale;
       el.dataset.family = conflict.family;
       const famine = conflict.family === "famine";
       const weighty = isWeightyConflict(conflict) || Boolean(conflict.visualization?.pulse);
       if (weighty && !famine) el.dataset.pulse = "true";
+      if (famine) el.dataset.ring = "hollow";
       const radius = famine ? SCALE_RADIUS[conflict.scale] + 5 : SCALE_RADIUS[conflict.scale];
       el.style.width = `${radius * 2}px`;
       el.style.height = `${radius * 2}px`;
-      const color = familyColor(conflict);
-      if (famine) {
-        el.style.background = "transparent";
-        el.style.boxShadow = `inset 0 0 0 2.2px ${color}, 0 0 0 1px rgba(18,14,9,0.55), 0 0 0 8px ${color}36, 0 0 22px ${color}40`;
-        el.style.opacity = "0.96";
-      } else {
-        el.style.background = color;
-        el.style.opacity = weighty ? "1" : "0.82";
-        if (conflict.family === "massacre") {
-          el.style.boxShadow = `0 0 0 1px rgba(18,14,9,0.5), 0 0 0 5px ${color}55, 0 0 18px ${color}66`;
-        }
-      }
+      el.style.setProperty("--dot", familyColor(conflict));
       el.setAttribute("aria-label", conflict.name);
 
       el.addEventListener("mouseenter", () => hoverAt({ type: "conflict", conflict }));
@@ -408,24 +387,13 @@ export function RajMap() {
       const el = document.createElement("button");
       el.type = "button";
       el.className = "incident-dot";
+      el.dataset.id = incident.id;
       el.dataset.kind = incident.kind;
+      el.dataset.campaign = incident.conflictId;
       const campaign = conflictById(incident.conflictId);
       const weighty = isWeightyIncident(incident);
-      const color = campaign ? familyColor(campaign) : "#e8d5b0";
-      el.style.cssText = [
-        "width:12px",
-        "height:12px",
-        "padding:0",
-        "border:1px solid #120e09",
-        "border-radius:2px",
-        `background:${color}`,
-        weighty
-          ? `box-shadow:0 0 0 1px rgba(18,14,9,0.4), 0 0 0 5px ${color}55`
-          : "box-shadow:0 0 0 1px rgba(18,14,9,0.4)",
-        `opacity:${weighty ? 1 : 0.84}`,
-        "cursor:pointer",
-        "transform:rotate(45deg)",
-      ].join(";");
+      if (weighty) el.dataset.pulse = "true";
+      el.style.setProperty("--dot", campaign ? familyColor(campaign) : "#e8d5b0");
       el.setAttribute("aria-label", incident.name);
       el.addEventListener("mouseenter", () => hoverAt({ type: "incident", incident }));
       el.addEventListener("mouseleave", () =>
@@ -449,13 +417,47 @@ export function RajMap() {
       const marker = new Marker({
         element: el,
         anchor: "center",
-        offset: [slot * 18, slot * 6],
+        offset: [slot * 12, slot * 5],
       })
         .setLngLat([incident.place.longitude, incident.place.latitude])
         .addTo(map);
       incidentMarkersRef.current.push(marker);
     }
   }, [visibleIncidents, hoverAt]);
+
+  useEffect(() => {
+    const selectedConflictId =
+      selected?.type === "conflict"
+        ? selected.conflict.id
+        : selected?.type === "incident"
+          ? selected.incident.conflictId
+          : null;
+    const selectedIncidentId = selected?.type === "incident" ? selected.incident.id : null;
+    const hoverConflictId =
+      hovered?.type === "conflict"
+        ? hovered.conflict.id
+        : hovered?.type === "incident"
+          ? hovered.incident.conflictId
+          : null;
+    const hoverIncidentId = hovered?.type === "incident" ? hovered.incident.id : null;
+
+    for (const marker of markersRef.current) {
+      const el = marker.getElement();
+      const id = el.dataset.id ?? "";
+      el.dataset.on = id === selectedConflictId ? "true" : "false";
+      el.dataset.hot = id === hoverConflictId ? "true" : "false";
+    }
+    for (const marker of incidentMarkersRef.current) {
+      const el = marker.getElement();
+      const id = el.dataset.id ?? "";
+      el.dataset.on = id === selectedIncidentId ? "true" : "false";
+      el.dataset.hot =
+        id === hoverIncidentId ||
+        (!hoverIncidentId && hoverConflictId && el.dataset.campaign === hoverConflictId)
+          ? "true"
+          : "false";
+    }
+  }, [selected, hovered, visible, visibleIncidents]);
 
   function flyCompany() {
     setLens("company");
@@ -509,7 +511,7 @@ export function RajMap() {
         [minLon - pad, minLat - pad],
         [maxLon + pad, maxLat + pad],
       ],
-      { padding: { top: 96, bottom: 88, left: 48, right: 56 }, duration: 900, maxZoom: 6.6 },
+      { padding: { top: 32, bottom: 48, left: 32, right: 36 }, duration: 900, maxZoom: 6.6 },
     );
   }
 
@@ -584,23 +586,22 @@ export function RajMap() {
           focused ? { boxShadow: `0 0 0 1px ${family.color}, 0 0 18px ${family.color}55` } : undefined
         }
       >
-        <span className="swatch" style={{ background: family.color, width: "0.55rem", height: "0.55rem" }} />
+        <span className="swatch" style={{ background: family.color }} />
         {family.label}
       </button>
     );
   }
 
-  const panel = hovered ?? selected;
-  const panelDock = selected ? "right" : hoverDock;
-
   function flyToFocus(focus: MapFocus) {
     const map = mapRef.current;
     if (!map) return;
+    const padding = { top: 28, bottom: 120, left: 28, right: 28 };
     if (focus.type === "conflict") {
       map.easeTo({
         center: [focus.conflict.primaryPoint.longitude, focus.conflict.primaryPoint.latitude],
         zoom: Math.max(map.getZoom(), focus.conflict.primaryPoint.precision === "village" ? 7.5 : 5.6),
         duration: 700,
+        padding,
       });
       return;
     }
@@ -608,6 +609,7 @@ export function RajMap() {
       center: [focus.incident.place.longitude, focus.incident.place.latitude],
       zoom: Math.max(map.getZoom(), focus.incident.place.precision === "building" ? 8 : 6.2),
       duration: 700,
+      padding,
     });
   }
 
@@ -621,55 +623,61 @@ export function RajMap() {
     flyToFocus(focus);
   }
 
+  const tip = hovered && !selected ? hovered : null;
+
   return (
     <>
-    <div className="map-shell" id="map" data-atlas="raj">
-      <div className="map-canvas">
-        <div
-          ref={rootRef}
-          className="conflict-map"
-          style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }}
-        />
-        {mapError ? <p className="map-error">{mapError}</p> : null}
-        {panel ? (
-          <MapCard
-            focus={panel}
-            locked={Boolean(selected)}
-            dock={panelDock}
-            onClose={() => setSelected(null)}
-            onOpenIncident={openIncident}
-          />
-        ) : null}
-      </div>
-
-      <div className="map-hud">
-        <div className="map-hud-top">
-          <p className="map-kicker">Company 1757–1857 · Crown 1858–{YEAR_MAX}</p>
-          <h1>A geography of force.</h1>
-          <p className="map-lede">
-            How the Company took the subcontinent, and how the Crown held it.
-            Colour is the kind of force; size is scale. Squares are days. A
-            hollow ring is a famine. A glow is a massacre, or 1857.
-          </p>
+    <div className="map-stage">
+      <header className="map-head">
+        <div className="map-head-top">
+          <p className="map-kicker">East India Company and British Crown · 1757–{YEAR_MAX}</p>
+          <h1>Colonial violence in India</h1>
+          <em className="map-tools-count">
+            {visible.length} campaigns
+            {visibleIncidents.length ? ` · ${visibleIncidents.length} days` : ""}
+          </em>
+        </div>
+      </header>
+      <div className="map-tools">
+        <div className="map-tools-row">
+          <div className="map-key">
+            <span className="map-key-item">
+              <i className="map-key-ring" />
+              campaign
+            </span>
+            <span className="map-key-item">
+              <i className="map-key-day" />
+              day
+            </span>
+            <span className="map-key-item">
+              <i className="map-key-ring" data-ring="hollow" />
+              famine
+            </span>
+          </div>
           <div className="map-filters">
+            {ERAS.map((item) => (
+              <button
+                key={item.id}
+                type="button"
+                className={era.id === item.id ? "on" : ""}
+                title={item.hint}
+                onClick={() => setEra(item)}
+              >
+                {item.label}
+              </button>
+            ))}
             {SCALES.map((scale) => (
               <button
                 key={scale}
                 type="button"
                 className={enabledScales[scale] ? "on" : ""}
                 data-scale={scale}
+                title={`${scale} campaigns`}
                 onClick={() =>
                   setEnabledScales((current) => ({ ...current, [scale]: !current[scale] }))
                 }
               >
-                <span
-                  className="swatch"
-                  style={{
-                    width: scale === "large" ? "0.7rem" : scale === "medium" ? "0.55rem" : "0.4rem",
-                    height: scale === "large" ? "0.7rem" : scale === "medium" ? "0.55rem" : "0.4rem",
-                    background: "#e7dcc8",
-                  }}
-                />
+                <i className="map-key-ring" data-scale={scale} />
                 {scale}
               </button>
             ))}
@@ -693,7 +701,9 @@ export function RajMap() {
               Whole map
             </button>
           </div>
-          <div className="map-filters map-legend" style={{ marginTop: "0.7rem" }}>
+        </div>
+        <div className="map-tools-row">
+          <div className="map-filters map-legend">
             <button
               type="button"
               className={familiesAllOn ? "on" : ""}
@@ -744,26 +754,37 @@ export function RajMap() {
             })}
           </div>
         </div>
-
-        <div className="map-slider map-eras" style={{ flexWrap: "wrap", maxWidth: "54rem", rowGap: "0.55rem" }}>
-          <div className="map-filters">
-            {ERAS.map((item) => (
-              <button
-                key={item.id}
-                type="button"
-                className={era.id === item.id ? "on" : ""}
-                title={item.hint}
-                onClick={() => setEra(item)}
-              >
-                {item.label}
-              </button>
-            ))}
-          </div>
-          <em>
-            {visible.length} campaigns
-            {visibleIncidents.length ? ` · ${visibleIncidents.length} days` : ""}
-          </em>
+      </div>
+      <div className="map-shell" id="map" data-atlas="raj">
+        <div className="map-canvas">
+          <div
+            ref={rootRef}
+            className="conflict-map"
+            style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }}
+          />
+          {mapError ? <p className="map-error">{mapError}</p> : null}
         </div>
+        {tip ? (
+          <p className="map-tip">
+            {tip.type === "conflict"
+              ? `${tip.conflict.name} · ${tip.conflict.time.start.year}${
+                  tip.conflict.time.end?.year && tip.conflict.time.end.year !== tip.conflict.time.start.year
+                    ? `–${tip.conflict.time.end.year}`
+                    : ""
+                }`
+              : `${tip.incident.name} · ${tip.incident.time.year}`}
+          </p>
+        ) : null}
+        {selected ? (
+          <MapCard
+            focus={selected}
+            locked
+            onClose={() => setSelected(null)}
+            onOpenIncident={openIncident}
+            onHover={hoverAt}
+            hovered={hovered}
+          />
+        ) : null}
       </div>
     </div>
     <RajTimeline

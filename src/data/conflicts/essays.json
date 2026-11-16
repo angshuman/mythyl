@@ -2,7 +2,7 @@
   {
     "id": "northeast",
     "kicker": "The Northeast",
-    "title": "The Northeast is not one conflict.",
+    "title": "Insurgency in Northeast India",
     "color": "#6a9b88",
     "match": { "northeast": true },
     "paragraphs": [
@@ -13,7 +13,7 @@
   {
     "id": "integration",
     "kicker": "Integration",
-    "title": "The map was not finished in August.",
+    "title": "The integration of the princely states",
     "color": "#9a937e",
     "match": { "family": "integration" },
     "paragraphs": [
@@ -24,18 +24,18 @@
   {
     "id": "interstate",
     "kicker": "Interstate wars",
-    "title": "Wars with another flag.",
+    "title": "India’s wars with neighbouring states",
     "color": "#d7c4a0",
     "match": { "family": "interstate" },
     "paragraphs": [
-      "The first war was over a princely accession, and it left a line that is still a ceasefire. A month on the Himalaya with China in 1962 did the same: a border that both sides still draw differently. Between them, a morning in Goa ended four centuries of Portuguese rule. Kargil, in 1999, was a ridgeline war between two nuclear states that both refused to call a war while it lasted.",
+      "The first war was over a princely accession, and it left a line that is still a ceasefire. A month on the Himalaya with China in 1962 did the same: a border that both sides still draw differently. Between them, a morning in Goa ended four centuries of Portuguese colonial rule. Kargil, in 1999, was a ridgeline war between two nuclear states that both refused to call a war while it lasted.",
       "There are only a handful of these. They look like wars in the textbooks — two states, a ceasefire, a map that does not quite hold — and they sit underneath later insurgencies and later attacks. Isolate Interstate wars; the score is short, and the shadows are not."
     ]
   },
   {
     "id": "naxal",
     "kicker": "Naxal–Maoist",
-    "title": "A corridor, not a border.",
+    "title": "The Naxalite–Maoist insurgency",
     "color": "#e85d4c",
     "match": { "family": "naxal" },
     "paragraphs": [
@@ -46,7 +46,7 @@
   {
     "id": "punjab",
     "kicker": "Punjab",
-    "title": "A decade with a long after.",
+    "title": "Punjab, Operation Blue Star, and the Khalistan insurgency",
     "color": "#c9a227",
     "match": { "family": "punjab" },
     "paragraphs": [
@@ -57,7 +57,7 @@
   {
     "id": "kashmir",
     "kicker": "Kashmir",
-    "title": "A valley after 1989.",
+    "title": "Insurgency in Jammu and Kashmir",
     "color": "#6b8cce",
     "match": { "family": "kashmir" },
     "paragraphs": [
@@ -68,7 +68,7 @@
   {
     "id": "communal",
     "kicker": "Communal",
-    "title": "A sequence, not a riot.",
+    "title": "Communal massacres since 1947",
     "color": "#c47a3a",
     "match": { "family": "communal" },
     "paragraphs": [
@@ -79,7 +79,7 @@
   {
     "id": "external",
     "kicker": "External terror",
-    "title": "A city, a rush hour, a claim after.",
+    "title": "Transnational terrorist attacks on Indian cities",
     "color": "#c07a9a",
     "match": { "family": "external" },
     "paragraphs": [

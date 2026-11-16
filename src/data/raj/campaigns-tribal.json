@@ -1,0 +1,1193 @@
+[
+  {
+    "id": "paika-1817",
+    "slug": "paika-rebellion",
+    "name": "Paika Rebellion",
+    "aliases": [
+      "Paika Bidroha",
+      "Paik Rebellion of 1817"
+    ],
+    "summary": "The Company took Khurda, cancelled Paika jagirs, monopolised salt, and demanded revenue in silver instead of cowrie. In 1817 Bakshi Jagabandhu and the Paikas, joined by Kandhas from Ghumsur, burned the Banapur thana and emptied Khurda. Martial law followed. Jagabandhu died a Company prisoner in Cuttack in 1829.",
+    "scale": "medium",
+    "scaleRationale": "A provincial rising across Khurda, Banapur, and Puri, with Kandha allies, put down in months and hunted for years.",
+    "types": [
+      "tribal-rising"
+    ],
+    "family": "tribal",
+    "theaters": [
+      "hills"
+    ],
+    "northeast": false,
+    "rule": "company",
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "tribe",
+      "caste",
+      "region",
+      "class"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core",
+        "note": "Confiscation of Paika jagirs and of Jagabandhu’s estate of Killa Rorang."
+      },
+      {
+        "kind": "taxation",
+        "centrality": "core",
+        "note": "Revenue in silver; salt monopoly from 1814."
+      },
+      {
+        "kind": "autonomy",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1817,
+        "precision": "month",
+        "month": 3
+      },
+      "end": {
+        "year": 1825,
+        "precision": "year",
+        "note": "Open fighting was broken in 1817; Jagabandhu surrendered in 1825 and died in 1829."
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-khurda",
+        "name": "Khurda",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 85.618,
+        "latitude": 20.182,
+        "admin": {
+          "country": "India",
+          "state": "Odisha",
+          "district": "Khordha"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 85.618,
+      "latitude": 20.182,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "bakshi-jagabandhu",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "paika",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Paika",
+        "kind": "caste",
+        "role": "landed militia of Khurda"
+      },
+      {
+        "name": "Kandha",
+        "kind": "tribe",
+        "note": "About 400 Kandhas crossed from Ghumsur into Khurda in March 1817."
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Company salt monopoly and silver revenue, Odisha",
+        "time": {
+          "start": {
+            "year": 1803,
+            "precision": "year"
+          }
+        },
+        "places": [
+          "Khurda",
+          "Puri",
+          "Cuttack"
+        ],
+        "note": "Cowrie currency abolished; salt taxed from 1814; Paika jagirs treated as ordinary ryoti land."
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "unknown",
+        "sources": [
+          {
+            "title": "Paika Rebellion",
+            "creator": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Paika_Rebellion"
+          },
+          {
+            "title": "Unsung Paikas and the first armed struggle for freedom",
+            "creator": "India Today",
+            "year": 2022,
+            "url": "https://www.indiatoday.in/news-analysis/story/unsung-paikas-rebellion-first-armed-freedom-struggle-against-british-buxi-jagabandhu-1987959-2022-08-14"
+          }
+        ],
+        "contested": true,
+        "note": "No census of the dead. Company courts used execution, transportation, and imprisonment. Later nationalist tallies are not a register."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "The first war of Indian independence, forty years before 1857.",
+        "heldBy": "Odisha government memorialisation; Union Culture Ministry has refused the title"
+      },
+      {
+        "claim": "An early popular rising against Company annexation, salt monopoly, and the destruction of Paika jagirs — not a national war.",
+        "heldBy": "standard academic summaries"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Paika Rebellion",
+        "creator": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Paika_Rebellion"
+      },
+      {
+        "title": "Paika Rebellion, History, Causes, Leadership, Outcomes",
+        "creator": "Vajiram & Ravi",
+        "year": 2025,
+        "url": "https://vajiramandravi.com/current-affairs/paika-rebellion/"
+      },
+      {
+        "title": "Unsung Paikas and the first armed struggle for freedom",
+        "creator": "India Today",
+        "year": 2022,
+        "url": "https://www.indiatoday.in/news-analysis/story/unsung-paikas-rebellion-first-armed-freedom-struggle-against-british-buxi-jagabandhu-1987959-2022-08-14"
+      }
+    ],
+    "confidence": "high",
+    "status": "published"
+  },
+  {
+    "id": "kol-1831",
+    "slug": "kol-rebellion",
+    "name": "Kol Rebellion",
+    "aliases": [
+      "Kol uprising",
+      "Kol mutiny",
+      "Kol Insurrection of Chota-Nagpur"
+    ],
+    "summary": "Company land law and diku thikedars broke the Munda-Manki tenure of Chotanagpur. Mundas, Oraons, Hos and Bhumijs rose in 1831–32 against Sikh and Muslim contractors, Hindu settlers, and the Company. Wilkinson killed Budhu Bhagat at Silagai. The South-West Frontier Agency was the administrative after.",
+    "scale": "large",
+    "scaleRationale": "A plateau-wide rising across Ranchi, Singhbhum, Manbhum, Hazaribagh and Palamau.",
+    "types": [
+      "tribal-rising"
+    ],
+    "family": "tribal",
+    "theaters": [
+      "hills"
+    ],
+    "northeast": false,
+    "rule": "company",
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "tribe",
+      "class",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core",
+        "note": "Dispossession of Mankis; villages granted to Sikh and Muslim thikedars."
+      },
+      {
+        "kind": "taxation",
+        "centrality": "core",
+        "note": "Abwabs, salami, and salt duties on a tenure that had not paid them."
+      },
+      {
+        "kind": "identity",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1831,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1832,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-ranchi-kol",
+        "name": "Chotanagpur / Ranchi",
+        "kind": "point",
+        "precision": "region",
+        "longitude": 85.31,
+        "latitude": 23.344,
+        "admin": {
+          "country": "India",
+          "state": "Jharkhand"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 85.31,
+      "latitude": 23.344,
+      "precision": "region"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "kol",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "budhu-bhagat",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Munda",
+        "kind": "tribe"
+      },
+      {
+        "name": "Oraon",
+        "kind": "tribe"
+      },
+      {
+        "name": "Ho",
+        "kind": "tribe"
+      },
+      {
+        "name": "Bhumij",
+        "kind": "tribe"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "South-West Frontier Agency",
+        "time": {
+          "start": {
+            "year": 1833,
+            "precision": "year"
+          }
+        },
+        "places": [
+          "Lohardaga",
+          "Chotanagpur"
+        ],
+        "note": "Created after the rising; police thanas planted on a plateau the Company had administered through diku contractors."
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "unknown",
+        "sources": [
+          {
+            "title": "Kol uprising",
+            "creator": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Kol_uprising"
+          },
+          {
+            "title": "The Kol Insurrection of Chota-Nagpur",
+            "creator": "Jagdish Chandra Jha",
+            "year": 1964
+          }
+        ],
+        "contested": true,
+        "note": "No agreed total. One named action at Silagai killed Budhu Bhagat and a body of followers; colonial and later counts for that day sit in a range, not a census of the rising."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "Banditry.",
+        "heldBy": "Company writing"
+      },
+      {
+        "claim": "A rising against the wreck of Munda-Manki tenure by Company land law and diku thikedars.",
+        "heldBy": "Jagdish Chandra Jha and later tribal history"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Kol Insurrection of Chota-Nagpur",
+        "creator": "Jagdish Chandra Jha",
+        "year": 1964,
+        "url": "https://archive.org/details/in.ernet.dli.2015.136403"
+      },
+      {
+        "title": "Kol uprising",
+        "creator": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Kol_uprising"
+      },
+      {
+        "title": "Kol Uprising, Causes, Leader, Outcomes",
+        "creator": "Vajiram & Ravi",
+        "url": "https://vajiramandravi.com/upsc-exam/kol-uprising/"
+      }
+    ],
+    "confidence": "medium",
+    "status": "published"
+  },
+  {
+    "id": "khasi-1829",
+    "slug": "anglo-khasi-war",
+    "name": "Anglo-Khasi War",
+    "aliases": [
+      "Nongkhlaw rising",
+      "Tirot Sing’s war"
+    ],
+    "summary": "After the Treaty of Yandabo the Company wanted a road from Sylhet to Assam through Nongkhlaw. Tirot Sing, Syiem of Nongkhlaw, first agreed, then ordered the garrison out. On 4 April 1829 Khasi fighters killed the British officers at Nongkhlaw. Four years of guerrilla war followed. Tirot Sing was taken in 1833 and died in Dhaka jail.",
+    "scale": "medium",
+    "scaleRationale": "A four-year hill war over a road, a garrison, and the sovereignty of Khasi himas.",
+    "types": [
+      "tribal-rising",
+      "colonial-war"
+    ],
+    "family": "tribal",
+    "theaters": [
+      "hills"
+    ],
+    "northeast": true,
+    "rule": "company",
+    "internalExternal": "mixed",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "tribe",
+      "nation",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "trade-route",
+        "centrality": "core",
+        "note": "Sylhet–Assam road through Nongkhlaw after Yandabo."
+      },
+      {
+        "kind": "autonomy",
+        "centrality": "core"
+      },
+      {
+        "kind": "border",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1829,
+        "precision": "day",
+        "month": 4,
+        "day": 4
+      },
+      "end": {
+        "year": 1833,
+        "precision": "month",
+        "month": 1
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-nongkhlaw",
+        "name": "Nongkhlaw",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 91.637,
+        "latitude": 25.684,
+        "admin": {
+          "country": "India",
+          "state": "Meghalaya",
+          "district": "Eastern West Khasi Hills"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 91.637,
+      "latitude": 25.684,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "tirot-sing",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "khasi",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Khasi",
+        "kind": "tribe"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Khasi Hills Political Agency",
+        "time": {
+          "start": {
+            "year": 1835,
+            "precision": "year"
+          }
+        },
+        "places": [
+          "Khasi Hills"
+        ],
+        "note": "Indirect Company control after Tirot Sing’s deportation; the road was the annexation."
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "unknown",
+        "sources": [
+          {
+            "title": "Tirot Sing",
+            "creator": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Tirot_Sing"
+          },
+          {
+            "title": "A fight for motherland & Khasi honour",
+            "creator": "Meghalaya Monitor",
+            "year": 2022,
+            "url": "https://meghalayamonitor.com/a-fight-for-motherland-khasi-honour/"
+          }
+        ],
+        "contested": true,
+        "note": "Two named British officers died at Nongkhlaw; a later Khasi account puts Company dead that day near 50–60. Khasi dead in the four-year war are not a register."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "The Nongkhlaw massacre: treachery against a garrison.",
+        "heldBy": "Company correspondence"
+      },
+      {
+        "claim": "A war to expel a road that had become a claim of sovereignty over the Khasi hima.",
+        "heldBy": "Khasi public history; Andrew May’s reading of altitude and colonisation"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tirot Sing",
+        "creator": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tirot_Sing"
+      },
+      {
+        "title": "A fight for motherland & Khasi honour",
+        "creator": "Meghalaya Monitor",
+        "year": 2022,
+        "url": "https://meghalayamonitor.com/a-fight-for-motherland-khasi-honour/"
+      },
+      {
+        "title": "Homo in Nubibus: Altitude, Colonisation and Political Order in the Khasi Hills",
+        "creator": "Andrew J. May",
+        "year": 2014,
+        "url": "https://www.tandfonline.com/doi/full/10.1080/03086534.2013.826458"
+      }
+    ],
+    "confidence": "high",
+    "status": "published"
+  },
+  {
+    "id": "anglo-manipur-1891",
+    "slug": "anglo-manipur-war",
+    "name": "Anglo-Manipur War",
+    "aliases": [
+      "Manipur Rebellion of 1891",
+      "Manipur Expedition"
+    ],
+    "summary": "After a palace coup the Raj sent Quinton to arrest Senapati Tikendrajit. Five British officers were killed at Kangla. Three columns took Imphal. On 13 August 1891 the Crown hanged Tikendrajit and Thangal General at the Imphal polo ground. A child raja was installed. Manipur became a princely state under British paramountcy.",
+    "scale": "medium",
+    "scaleRationale": "A short war that ended Manipur’s independence and was argued for months in Westminster and the colonial press.",
+    "types": [
+      "tribal-rising",
+      "colonial-war"
+    ],
+    "family": "tribal",
+    "theaters": [
+      "hills"
+    ],
+    "northeast": true,
+    "rule": "crown",
+    "internalExternal": "mixed",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation",
+      "ethnicity",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "autonomy",
+        "centrality": "core"
+      },
+      {
+        "kind": "border",
+        "centrality": "contributing",
+        "note": "Buffer against Burma until Upper Burma was annexed in 1885."
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1891,
+        "precision": "day",
+        "month": 3,
+        "day": 31
+      },
+      "end": {
+        "year": 1891,
+        "precision": "day",
+        "month": 8,
+        "day": 13
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-imphal",
+        "name": "Imphal",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 93.936,
+        "latitude": 24.817,
+        "admin": {
+          "country": "India",
+          "state": "Manipur"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 93.936,
+      "latitude": 24.817,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "manipur-kingdom",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "tikendrajit",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "thangal-general",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Meitei",
+        "kind": "ethnicity"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "British paramountcy over Manipur",
+        "time": {
+          "start": {
+            "year": 1891,
+            "precision": "month",
+            "month": 9
+          }
+        },
+        "places": [
+          "Manipur"
+        ],
+        "note": "State declared forfeit, then regranted to the child Churachand. Queen Victoria thought hanging Tikendrajit would create very bad feeling; the Viceroy hanged him."
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "unknown",
+        "sources": [
+          {
+            "title": "Anglo-Manipur War",
+            "creator": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Anglo-Manipur_War"
+          },
+          {
+            "title": "A forgotten war of British Raj that became an International scandal",
+            "creator": "Penguin Random House India / The Daily Guardian",
+            "year": 2020,
+            "url": "https://www.penguin.co.in/aforgottenwarofbritishraj/"
+          }
+        ],
+        "contested": true,
+        "note": "Khongjom dead are a later tally, not a census. Five Manipuri commanders were hanged in August 1891; Kulachandra and others were transported. British field dead in the war are small named lists."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "Treachery and rebellion against the Queen.",
+        "heldBy": "Government of India; the special court at Imphal"
+      },
+      {
+        "claim": "A war of a sovereign state, followed by a colonial execution that Queen Victoria tried to stop.",
+        "heldBy": "Manipur public history; contemporary international comment"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Anglo-Manipur War",
+        "creator": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Anglo-Manipur_War"
+      },
+      {
+        "title": "Manipur",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/place/Manipur"
+      },
+      {
+        "title": "A forgotten war of British Raj that became an International scandal",
+        "creator": "Somi Roy and Wangam Somorjit / Penguin India",
+        "year": 2020,
+        "url": "https://www.penguin.co.in/aforgottenwarofbritishraj/"
+      },
+      {
+        "title": "Trial and death of Tikendrajit and Thangal General",
+        "creator": "e-pao.net",
+        "url": "https://e-pao.net/epSubPageExtractor.asp?src=manipur.History_of_Manipur.Historical_War_Manipur.13august1891"
+      }
+    ],
+    "confidence": "high",
+    "status": "published"
+  },
+  {
+    "id": "bastar-bhumkal-1910",
+    "slug": "bastar-bhumkal",
+    "name": "Bastar Bhumkal",
+    "aliases": [
+      "Bastar Rebellion of 1910",
+      "Bhumkal Movement"
+    ],
+    "summary": "The Indian Forest Act of 1878 and a 1905 plan to reserve two-thirds of Bastar’s forest turned shifting cultivation, hunting, and forest produce into offences. Gunda Dhur of Nethanar and the Dhurwas of the Kanger forest rose in February 1910. Troops took months to recover the state. The reserved area was cut to about half of what had been planned. Gunda Dhur was never taken.",
+    "scale": "medium",
+    "scaleRationale": "A state-wide Adivasi rising in a princely forest, broken in a season, with a lasting cut in reserved acreage.",
+    "types": [
+      "tribal-rising"
+    ],
+    "family": "tribal",
+    "theaters": [
+      "hills"
+    ],
+    "northeast": false,
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "tribe",
+      "class"
+    ],
+    "resources": [
+      {
+        "kind": "forest",
+        "centrality": "core",
+        "note": "Reservation under the Indian Forest Act; 1905 proposal to reserve two-thirds of Bastar forest."
+      },
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "taxation",
+        "centrality": "contributing",
+        "note": "Begar, land rent, and thekedari leasing of villages."
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1910,
+        "precision": "month",
+        "month": 2
+      },
+      "end": {
+        "year": 1910,
+        "precision": "month",
+        "month": 5
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-jagdalpur",
+        "name": "Jagdalpur / Bastar",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 82.021,
+        "latitude": 19.074,
+        "admin": {
+          "country": "India",
+          "state": "Chhattisgarh",
+          "district": "Bastar"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 82.021,
+      "latitude": 19.074,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "gunda-dhur",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "dhurwa",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Dhurwa",
+        "kind": "tribe"
+      },
+      {
+        "name": "Maria and Muria Gond",
+        "kind": "tribe"
+      },
+      {
+        "name": "Halba",
+        "kind": "tribe"
+      },
+      {
+        "name": "Bhatra",
+        "kind": "tribe"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Indian Forest Act, 1878",
+        "time": {
+          "start": {
+            "year": 1878,
+            "precision": "year"
+          }
+        },
+        "places": [
+          "Bastar"
+        ],
+        "note": "Reserved, protected, and village forests. In 1905 the government proposed to reserve two-thirds of Bastar and to stop shifting cultivation, hunting, and collection of produce. Some villages were kept as forest villages on condition of unpaid labour for the Forest Department."
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "unknown",
+        "sources": [
+          {
+            "title": "Forest Society and Colonialism",
+            "creator": "NCERT",
+            "note": "Class 9 India and the Contemporary World I"
+          },
+          {
+            "title": "Bastar’s Bhumkaal Rebellion and its Forgotten Legacy",
+            "creator": "Live History India",
+            "year": 2020,
+            "url": "https://www.livehistoryindia.com/story/eras/bhumkaal-rebellion"
+          }
+        ],
+        "contested": true,
+        "note": "NCERT does not give a death total. Villages were flogged, deserted, and driven into the jungle. Gunda Dhur was never captured. The documented after is a halved reservation, not a body count."
+      }
+    },
+    "sources": [
+      {
+        "title": "Forest Society and Colonialism",
+        "creator": "NCERT",
+        "note": "Class 9; Bastar as the Indian case of colonial forest law."
+      },
+      {
+        "title": "Bastar rebellion",
+        "creator": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bastar_rebellion"
+      },
+      {
+        "title": "Bastar’s Bhumkaal Rebellion and its Forgotten Legacy",
+        "creator": "Live History India",
+        "year": 2020,
+        "url": "https://www.livehistoryindia.com/story/eras/bhumkaal-rebellion"
+      }
+    ],
+    "confidence": "high",
+    "status": "published"
+  },
+  {
+    "id": "kuki-1917",
+    "slug": "kuki-uprising",
+    "name": "Kuki Uprising",
+    "aliases": [
+      "Anglo-Kuki War",
+      "Kuki Rebellion of 1917–1919",
+      "Zou Gal"
+    ],
+    "summary": "The Raj ordered the Maharaja of Manipur to send hillmen to the First World War Labour Corps. Kuki chiefs refused conscription. On 17 October 1917 the Political Agent burned Mombi. Two years of counter-insurgency followed: villages burned, chiefs transported, communal penal labour. Colonial returns listed 126 villages burned.",
+    "scale": "large",
+    "scaleRationale": "A two-year war over some 6,000 square miles of the Manipur–Burma hills; Robert Reid called it the most serious incident in Manipur’s relations with its hill subjects.",
+    "types": [
+      "tribal-rising"
+    ],
+    "family": "tribal",
+    "theaters": [
+      "hills"
+    ],
+    "northeast": true,
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "tribe",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "other",
+        "centrality": "core",
+        "note": "Labour conscription for the War: hillmen as coolies for France."
+      },
+      {
+        "kind": "autonomy",
+        "centrality": "core",
+        "note": "House tax, pothang, and the declining authority of chiefs."
+      },
+      {
+        "kind": "taxation",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1917,
+        "precision": "month",
+        "month": 3
+      },
+      "end": {
+        "year": 1919,
+        "precision": "month",
+        "month": 5
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-mombi",
+        "name": "Mombi / Manipur hills",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 93.915,
+        "latitude": 24.132,
+        "admin": {
+          "country": "India",
+          "state": "Manipur",
+          "district": "Chandel"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 93.915,
+      "latitude": 24.132,
+      "precision": "village"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "kuki",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Kuki",
+        "kind": "tribe"
+      },
+      {
+        "name": "Thadou",
+        "kind": "tribe"
+      },
+      {
+        "name": "Zou",
+        "kind": "tribe"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Labour Corps conscription, Manipur hills",
+        "time": {
+          "start": {
+            "year": 1917,
+            "precision": "month",
+            "month": 1
+          }
+        },
+        "places": [
+          "Manipur hills"
+        ],
+        "note": "The Maharaja was ordered to supply non-combatants for the Great War. After the rising, chiefs were tried and transported; the Kuki population was put to communal penal labour."
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 120,
+        "max": 300,
+        "unit": "persons",
+        "of": "unknown",
+        "sources": [
+          {
+            "title": "Kuki Rebellion of 1917–1919",
+            "creator": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Kuki_Rebellion_of_1917%E2%80%931919"
+          },
+          {
+            "title": "The Anglo-Kuki War, 1917–1919",
+            "creator": "Jangkhomang Guite and Thongkholal Haokip",
+            "year": 2019
+          }
+        ],
+        "contested": true,
+        "note": "Colonial returns: about 60 British/Indian troops killed, 142 wounded, 97 dead of disease; an estimate of 120 Kuki killed and 126 villages burned. Kuki oral history and later work treat those figures as a floor, not a census. The range is the argument, not a register."
+      },
+      "infrastructure": "At least 126 Kuki villages burned on colonial returns, with grain and livestock destroyed as collective punishment."
+    },
+    "historiography": [
+      {
+        "claim": "A rebellion against enlistment in the Labour Corps.",
+        "heldBy": "colonial political officers; still used in some Meitei and Naga contestations of the name ‘war’"
+      },
+      {
+        "claim": "A war of independence for land, chiefs, and the refusal of overseas conscription.",
+        "heldBy": "Kuki public history; Guite and Haokip 2019"
+      }
+    ],
+    "sources": [
+      {
+        "title": "A war of independence that India forgot: Kukis rose up against the British in 1917",
+        "creator": "Scroll.in",
+        "year": 2017,
+        "url": "https://scroll.in/article/847136/a-war-of-independence-that-india-forgot-kukis-rose-up-against-the-british-in-1917"
+      },
+      {
+        "title": "Kuki Rebellion of 1917–1919",
+        "creator": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Kuki_Rebellion_of_1917%E2%80%931919"
+      },
+      {
+        "title": "The Anglo-Kuki War, 1917–1919: A Frontier Uprising against Imperialism during the First World War",
+        "creator": "Jangkhomang Guite and Thongkholal Haokip",
+        "year": 2019
+      },
+      {
+        "title": "Manipur",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/place/Manipur",
+        "note": "Notes the administrative subdivision of the hills after the 1917 uprising."
+      }
+    ],
+    "confidence": "high",
+    "status": "published"
+  },
+  {
+    "id": "lushai-expeditions",
+    "slug": "lushai-expeditions",
+    "name": "Lushai Hills expeditions",
+    "aliases": [
+      "Lushai Expedition 1871–72",
+      "Chin-Lushai Expedition",
+      "Annexation of the Lushai Hills"
+    ],
+    "summary": "Lushai raids on Cachar tea gardens, including the taking of Mary Winchester in 1871, gave the Crown its public case for a punitive war. Two columns entered the hills in 1871–72. Raiding resumed; the Chin-Lushai expedition of 1889–90 left posts at Aizawl. The Lushai Hills were annexed in the 1890s.",
+    "scale": "medium",
+    "scaleRationale": "Repeated punitive columns from 1871 to the 1890s that turned unadministered hills into a district of the Raj.",
+    "types": [
+      "tribal-rising",
+      "military-operation"
+    ],
+    "family": "tribal",
+    "theaters": [
+      "hills"
+    ],
+    "northeast": true,
+    "rule": "crown",
+    "internalExternal": "mixed",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "tribe",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "tea",
+        "centrality": "core",
+        "note": "Cachar tea gardens and the Inner Line against hill raids."
+      },
+      {
+        "kind": "border",
+        "centrality": "core"
+      },
+      {
+        "kind": "autonomy",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1871,
+        "precision": "day",
+        "month": 1,
+        "day": 23
+      },
+      "end": {
+        "year": 1895,
+        "precision": "year",
+        "note": "1871–72 expedition; Chin-Lushai 1889–90; North and South Lushai Hills brought under administration in the early 1890s."
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-aizawl",
+        "name": "Aizawl / Lushai Hills",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 92.718,
+        "latitude": 23.727,
+        "admin": {
+          "country": "India",
+          "state": "Mizoram"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 92.718,
+      "latitude": 23.727,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "lushai",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Lushai",
+        "kind": "tribe"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Annexation of the Lushai Hills",
+        "time": {
+          "start": {
+            "year": 1890,
+            "precision": "year"
+          },
+          "end": {
+            "year": 1898,
+            "precision": "year"
+          }
+        },
+        "places": [
+          "North Lushai Hills",
+          "South Lushai Hills",
+          "Aizawl"
+        ],
+        "note": "Punitive war first; then posts at Aizawl and Changsil; then a district. The Inner Line had already marked the tea frontier from the unadministered hills."
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "unknown",
+        "sources": [
+          {
+            "title": "Lushai Expedition",
+            "creator": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Lushai_Expedition"
+          },
+          {
+            "title": "The Lushai Expedition 1871–1872",
+            "creator": "R. G. Woodthorpe",
+            "year": 1873,
+            "url": "https://archive.org/details/in.ernet.dli.2015.458408"
+          }
+        ],
+        "contested": true,
+        "note": "Combat dead are not a census. The Cachar column lost hundreds of Nepalese coolies to cholera on the march in; that is expedition labour, not a Lushai battle roll. Villages were burned as punishment in both 1871–72 and 1889–90."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "A rescue of captives, notably Mary Winchester, and a lesson to raiding chiefs.",
+        "heldBy": "Woodthorpe, Mackenzie, and the official narrative of 1871–72"
+      },
+      {
+        "claim": "A war for the tea frontier and then annexation, for which the child captive was the public case.",
+        "heldBy": "later readings of Inner Line and plantation expansion"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Lushai Expedition 1871–1872",
+        "creator": "R. G. Woodthorpe",
+        "year": 1873,
+        "url": "https://archive.org/details/in.ernet.dli.2015.458408"
+      },
+      {
+        "title": "Lushai Expedition",
+        "creator": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lushai_Expedition"
+      },
+      {
+        "title": "The British policy towards the Lushai Hills: A case study of the Lushai Expedition 1871–1872",
+        "creator": "T. David Suanlian",
+        "year": 2025,
+        "url": "https://cmdr.tezu.ernet.in/index.php/journals/article/view/27"
+      }
+    ],
+    "confidence": "high",
+    "status": "published"
+  }
+]

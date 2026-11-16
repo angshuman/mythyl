@@ -1,8 +1,8 @@
 {
   "id": "raj",
-  "title": "Company to Crown",
+  "title": "Colonial violence in India",
   "span": "1757–1947",
-  "note": "Live records are the JSON tables in this folder. Research agents write JSON only. Harm figures are ranges with sources; a missing count is unknown, not zero.",
+  "note": "Live records are the JSON tables in this folder. Research agents write JSON only; see .grok/skills/raj-research. Harm figures are ranges with sources; a missing count is unknown, not zero. Extra campaign/incident/actor drops: campaigns-wars, campaigns-tribal, campaigns-famine, campaigns-endgame, campaigns-revolution, and matching incidents-* / actors-* files.",
   "families": [
     "conquest",
     "annexation",

@@ -28,7 +28,7 @@ export const INDIA_BOUNDS: [[number, number], [number, number]] = [
   [97.6, 37.3],
 ];
 
-export const INDIA_FIT_PADDING = { top: 80, bottom: 96, left: 40, right: 40 };
+export const INDIA_FIT_PADDING = { top: 36, bottom: 48, left: 32, right: 36 };
 
 /** Company-to-Crown theater: Karachi to Rangoon, Colombo to the Khyber. */
 export const RAJ_CENTER: [number, number] = [81.2, 22.4];
@@ -38,7 +38,7 @@ export const RAJ_BOUNDS: [[number, number], [number, number]] = [
   [98.5, 37.4],
 ];
 
-export const RAJ_FIT_PADDING = { top: 76, bottom: 118, left: 28, right: 40 };
+export const RAJ_FIT_PADDING = { top: 32, bottom: 56, left: 28, right: 36 };
 
 export const RAJ_LANDING_VIEW = {
   minLon: 64.0,

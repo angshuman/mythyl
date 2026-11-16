@@ -1,0 +1,1138 @@
+[
+  {
+    "id": "kuka-1872",
+    "slug": "kuka-1872",
+    "name": "Kuka executions, Malerkotla",
+    "aliases": [
+      "Namdhari executions of 1872",
+      "Kooka outbreak",
+      "Malerkotla cannon executions"
+    ],
+    "summary": "After Namdhari raids on Malodh and Malerkotla, Deputy Commissioner J. L. Cowan of Ludhiana had captured Kukas blown from guns on the Malerkotla parade ground. It was a colonial execution as massacre: forty-nine without trial on 17 January 1872, a fiftieth cut down, sixteen more the next day under Commissioner Forsyth. The Under-Secretary told the Commons Cowan had held no trial of any sort. The Government of India dismissed him.",
+    "scale": "medium",
+    "scaleRationale": "Sixty-six named dead in two days of Crown execution; the integer is small, the method is not.",
+    "types": [
+      "massacre",
+      "one-sided-violence"
+    ],
+    "family": "massacre",
+    "theaters": [
+      "punjab"
+    ],
+    "northeast": false,
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "religion",
+      "nation"
+    ],
+    "resources": [
+      {
+        "kind": "religion",
+        "centrality": "core",
+        "note": "Cow protection and Namdhari boycott of British institutions."
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1872,
+        "precision": "day",
+        "month": 1,
+        "day": 14
+      },
+      "end": {
+        "year": 1872,
+        "precision": "day",
+        "month": 1,
+        "day": 18
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-malerkotla",
+        "name": "Malerkotla",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 75.879,
+        "latitude": 30.642,
+        "admin": {
+          "country": "India",
+          "state": "Punjab"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 75.879,
+      "latitude": 30.642,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "cowan",
+        "role": "state",
+        "note": "Deputy Commissioner of Ludhiana; executed without trial."
+      },
+      {
+        "actorId": "namdhari",
+        "role": "victim-community"
+      },
+      {
+        "actorId": "ram-singh-namdhari",
+        "role": "accused",
+        "note": "Exiled to Burma without trial after the executions."
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Namdhari Sikhs",
+        "kind": "religion"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Summary execution without trial, Malerkotla, January 1872",
+        "note": "Grant Duff told the Commons Cowan executed without trial of any sort. Viceroy Mayo telegraphed on 19 January to stop further summary executions."
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 65,
+        "max": 66,
+        "best": 66,
+        "unit": "persons",
+        "of": "unknown",
+        "sources": [
+          {
+            "title": "India—The Kooka Insurrection (Hansard)",
+            "creator": "House of Commons",
+            "year": 1872,
+            "url": "https://api.parliament.uk/historic-hansard/commons/1872/feb/29/question-2"
+          },
+          {
+            "title": "Namdhari Shaheedi Diwas: 66 Kukas executed by cannon",
+            "creator": "The Tribune",
+            "year": 2025,
+            "url": "https://www.tribuneindia.com/news/anniversary/namdhari-shaheedi-diwas-66-kukas-executed-by-cannon/"
+          }
+        ],
+        "contested": true,
+        "note": "Hansard, 29 February 1872: 49 blown from guns on 17 January, a fiftieth cut down, 16 more executed by Forsyth on the 18th. Namdhari memorial and most Punjab sources speak of 66 martyrs. A few later counts sit at 65 or 68."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "49 blown from guns; no trial of any sort by Cowan.",
+        "heldBy": "Mountstuart Grant Duff, Under-Secretary of State for India, House of Commons, 29 February 1872"
+      },
+      {
+        "claim": "66 Namdhari martyrs, including a boy of twelve.",
+        "heldBy": "Namdhari memorial practice and Punjab press"
+      }
+    ],
+    "sources": [
+      {
+        "title": "India—The Kooka Insurrection",
+        "creator": "Hansard (Commons)",
+        "year": 1872,
+        "url": "https://api.parliament.uk/historic-hansard/commons/1872/feb/29/question-2"
+      },
+      {
+        "title": "India’s Kuka Revolt Ends in Death",
+        "creator": "History Today",
+        "year": 2024,
+        "url": "https://www.historytoday.com/archive/months-past/indias-kuka-revolt-ends-death"
+      },
+      {
+        "title": "What is the history of the Kuka martyrs’ day?",
+        "creator": "The Indian Express",
+        "year": 2025,
+        "url": "https://indianexpress.com/article/explained/explained-history/what-is-the-history-of-the-kuka-martyrs-day-9784916/"
+      },
+      {
+        "title": "Namdhari Shaheedi Diwas: 66 Kukas executed by cannon",
+        "creator": "The Tribune",
+        "year": 2025,
+        "url": "https://www.tribuneindia.com/news/anniversary/namdhari-shaheedi-diwas-66-kukas-executed-by-cannon/"
+      },
+      {
+        "title": "Kuka Movement",
+        "creator": "Fauja Singh Bajwa",
+        "year": 1965
+      }
+    ],
+    "confidence": "high",
+    "visualization": {
+      "pulse": true
+    },
+    "status": "published"
+  },
+  {
+    "id": "nankana-1921",
+    "slug": "nankana-1921",
+    "name": "Nankana Sahib massacre",
+    "aliases": [
+      "Saka Nankana",
+      "Saka Nankana Sahib"
+    ],
+    "summary": "On 20 February 1921, men hired by Mahant Narain Das, the Udasi custodian of Guru Nanak’s birthplace, fired on an Akali jatha inside Gurdwara Janam Asthan and burned the bodies. The police were certain of 88 dead; Sikhs said 135; Gandhi wrote over 150. The fire made a census impossible. Commissioner King of Lahore handed the keys to a Sikh committee the next day. The Crown had failed to protect the shrine it had left in a mahant’s hands.",
+    "scale": "medium",
+    "scaleRationale": "The bloodiest day of the Gurdwara Reform movement; a shrine massacre, not a battlefield.",
+    "types": [
+      "massacre",
+      "one-sided-violence"
+    ],
+    "family": "massacre",
+    "theaters": [
+      "punjab"
+    ],
+    "northeast": false,
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "central",
+    "identityDimensions": [
+      "religion"
+    ],
+    "resources": [
+      {
+        "kind": "religion",
+        "centrality": "core",
+        "note": "Control of Gurdwara Janam Asthan and its estate."
+      },
+      {
+        "kind": "political-power",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1921,
+        "precision": "day",
+        "month": 2,
+        "day": 20
+      },
+      "end": {
+        "year": 1921,
+        "precision": "day",
+        "month": 2,
+        "day": 23
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-nankana",
+        "name": "Gurdwara Janam Asthan, Nankana Sahib",
+        "kind": "point",
+        "precision": "building",
+        "longitude": 73.697,
+        "latitude": 31.449,
+        "admin": {
+          "country": "Pakistan",
+          "state": "Punjab"
+        },
+        "note": "Guru Nanak’s birthplace; now in Pakistan."
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 73.697,
+      "latitude": 31.449,
+      "precision": "building"
+    },
+    "parties": [
+      {
+        "actorId": "mahant-narain-das",
+        "role": "accused"
+      },
+      {
+        "actorId": "akali-reformers",
+        "role": "victim-community"
+      },
+      {
+        "actorId": "britain-crown",
+        "role": "state",
+        "note": "Failure of protection: the Deputy Commissioner was in camp miles off; troops came from Lahore that evening."
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Sikhs",
+        "kind": "religion"
+      },
+      {
+        "name": "Udasi mahants",
+        "kind": "religion"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 88,
+        "max": 260,
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Affray at Nankana Saheb (Hansard)",
+            "creator": "House of Lords",
+            "year": 1921,
+            "url": "https://api.parliament.uk/historic-hansard/lords/1921/may/31/affray-at-nankana-saheb"
+          },
+          {
+            "title": "Revisiting Nankana Sahib massacre after 100 years",
+            "creator": "The Times of India",
+            "year": 2021,
+            "url": "https://timesofindia.indiatimes.com/city/chandigarh/revisiting-nankana-sahib-massacre-after-100-years/articleshow/81130566.cms"
+          }
+        ],
+        "contested": true,
+        "note": "Earl of Lytton, Lords, 31 May 1921: police certain of 88 deaths; Sikhs stated 135. Gandhi wrote over 150. Encyclopaedia of Sikhism 82–156. ICHR Dictionary of Martyrs 140. Later estimates reach 260. Many bodies were burned; no agreed integer."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "Police certain of 88 deaths; Sikhs stated 135.",
+        "heldBy": "Earl of Lytton, House of Lords, 31 May 1921"
+      },
+      {
+        "claim": "Over 150 Sikhs killed; bodies burned to destroy evidence.",
+        "heldBy": "Gandhi; later Sikh and ICHR counts"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Affray at Nankana Saheb",
+        "creator": "Hansard (Lords)",
+        "year": 1921,
+        "url": "https://api.parliament.uk/historic-hansard/lords/1921/may/31/affray-at-nankana-saheb"
+      },
+      {
+        "title": "Revisiting Nankana Sahib massacre after 100 years",
+        "creator": "The Times of India",
+        "year": 2021,
+        "url": "https://timesofindia.indiatimes.com/city/chandigarh/revisiting-nankana-sahib-massacre-after-100-years/articleshow/81130566.cms"
+      },
+      {
+        "title": "Nankana Sahib massacre martyrs remembered",
+        "creator": "The Tribune",
+        "year": 2022,
+        "url": "https://www.tribuneindia.com/news/amritsar/nankana-sahib-massacre-martyrs-remembered-371932/"
+      }
+    ],
+    "confidence": "medium",
+    "visualization": {
+      "pulse": true
+    },
+    "status": "published"
+  },
+  {
+    "id": "hijli-1931",
+    "slug": "hijli-1931",
+    "name": "Hijli Detention Camp firing",
+    "aliases": [
+      "Hijli firing",
+      "Hijli jail shooting"
+    ],
+    "summary": "On 16 September 1931 the police fired inside the Hijli Detention Camp at Kharagpur. Santosh Kumar Mitra and Tarakeswar Sengupta, unarmed detenus held without trial, were shot dead. About twenty others were badly hurt. Subhas Chandra Bose took the bodies. Tagore condemned the shooting. It is the only recorded police firing inside a Crown detention camp.",
+    "scale": "small",
+    "scaleRationale": "Two named dead inside a detention camp; the method, not the integer, is the event.",
+    "types": [
+      "massacre",
+      "one-sided-violence"
+    ],
+    "family": "massacre",
+    "theaters": [
+      "bengal"
+    ],
+    "northeast": false,
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation",
+      "ideology"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1931,
+        "precision": "day",
+        "month": 9,
+        "day": 16
+      },
+      "end": {
+        "year": 1931,
+        "precision": "day",
+        "month": 9,
+        "day": 16
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-hijli",
+        "name": "Hijli Detention Camp, Kharagpur",
+        "kind": "point",
+        "precision": "building",
+        "longitude": 87.31,
+        "latitude": 22.315,
+        "admin": {
+          "country": "India",
+          "state": "West Bengal"
+        },
+        "note": "Now Shaheed Bhavan / Nehru Museum on the IIT Kharagpur campus."
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 87.31,
+      "latitude": 22.315,
+      "precision": "building"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Bengal detenus",
+        "kind": "nationality",
+        "note": "Held without charge in a camp, not a convict jail."
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Detention without trial, Hijli camp, 1930–31",
+        "note": "Security prisoners warehoused beyond ordinary jail process."
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 2,
+        "max": 2,
+        "best": 2,
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "IIT-Kharagpur’s link to the freedom struggle and an infamous detention camp",
+            "creator": "The Indian Express",
+            "year": 2018,
+            "url": "https://indianexpress.com/article/education/iit-kharagpurs-link-to-the-freedom-struggle-and-an-infamous-detention-camp-5306582/"
+          },
+          {
+            "title": "On the Firing at Hijli Detention Camp",
+            "creator": "Jawaharlal Nehru",
+            "year": 1931,
+            "url": "https://nehruarchive.in/documents/on-the-firing-at-hijli-detention-camp-24-september-1931-2xx46"
+          }
+        ],
+        "contested": false,
+        "note": "Santosh Kumar Mitra and Tarakeswar Sengupta. Nehru wrote of two deaths and serious injuries to about 20. Indian Express: guards opened fire and used rifle butts."
+      },
+      "injured": {
+        "min": 20,
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "To Vallabhbhai Patel",
+            "creator": "Jawaharlal Nehru",
+            "year": 1931,
+            "url": "https://nehruarchive.in/documents/to-vallabhbhai-patel-24-september-1931-x6jj6"
+          }
+        ],
+        "contested": true,
+        "note": "Nehru: serious injuries to about 20. Later local accounts speak of more hurt; no agreed wounded integer."
+      }
+    },
+    "sources": [
+      {
+        "title": "IIT-Kharagpur’s link to the freedom struggle and an infamous detention camp",
+        "creator": "The Indian Express",
+        "year": 2018,
+        "url": "https://indianexpress.com/article/education/iit-kharagpurs-link-to-the-freedom-struggle-and-an-infamous-detention-camp-5306582/"
+      },
+      {
+        "title": "On the Firing at Hijli Detention Camp",
+        "creator": "Jawaharlal Nehru",
+        "year": 1931,
+        "url": "https://nehruarchive.in/documents/on-the-firing-at-hijli-detention-camp-24-september-1931-2xx46"
+      },
+      {
+        "title": "Kharagpur's legend",
+        "creator": "Frontline",
+        "year": 2002,
+        "url": "https://frontline.thehindu.com/other/article30244753.ece"
+      }
+    ],
+    "confidence": "high",
+    "visualization": {
+      "pulse": true
+    },
+    "status": "published"
+  },
+  {
+    "id": "direct-action-1946",
+    "slug": "direct-action-1946",
+    "name": "Direct Action Day",
+    "aliases": [
+      "Great Calcutta Killings",
+      "1946 Calcutta riots"
+    ],
+    "summary": "Jinnah called 16 August 1946 a day of direct action for Pakistan. In Calcutta the League ministry declared a holiday. Suhrawardy spoke at the Maidan. The city then killed itself for four days. This was communal massacre at the end of the Raj. Tuker, Das, Markovits and later Britannica work a band of four to ten thousand dead. The army came late. British departure had already begun as communal massacre.",
+    "scale": "large",
+    "scaleRationale": "The single most violent urban massacre in the year before Partition; a scholarly range in the thousands.",
+    "types": [
+      "massacre"
+    ],
+    "family": "massacre",
+    "theaters": [
+      "bengal"
+    ],
+    "northeast": false,
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "multi-sided",
+    "religiousDimension": "central",
+    "identityDimensions": [
+      "religion",
+      "nation",
+      "ideology"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "religion",
+        "centrality": "core"
+      },
+      {
+        "kind": "identity",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1946,
+        "precision": "day",
+        "month": 8,
+        "day": 16
+      },
+      "end": {
+        "year": 1946,
+        "precision": "day",
+        "month": 8,
+        "day": 22
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-calcutta-1946",
+        "name": "Calcutta",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 88.363,
+        "latitude": 22.572,
+        "admin": {
+          "country": "India",
+          "state": "West Bengal"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 88.363,
+      "latitude": 22.572,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "muslim-league",
+        "role": "accused"
+      },
+      {
+        "actorId": "jinnah",
+        "role": "sponsor"
+      },
+      {
+        "actorId": "suhrawardy",
+        "role": "accused",
+        "note": "Premier of Bengal; Joya Chatterji holds him grossly negligent, deliberately or otherwise, in failing to quell the riot."
+      },
+      {
+        "actorId": "britain-crown",
+        "role": "state",
+        "note": "Governor Burrows authorised the holiday; the army was late."
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Bengali Muslims",
+        "kind": "religion"
+      },
+      {
+        "name": "Bengali Hindus",
+        "kind": "religion"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 4000,
+        "max": 10000,
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Direct Action Day",
+            "creator": "Encyclopaedia Britannica",
+            "url": "https://www.britannica.com/event/Direct-Action-Day-India-1946"
+          },
+          {
+            "title": "Remembering the Great Calcutta Killings",
+            "creator": "The Indian Express",
+            "year": 2024,
+            "url": "https://indianexpress.com/article/explained/explained-history/remembering-great-calcutta-killings-jinnah-direct-action-9517614/"
+          },
+          {
+            "title": "While Memory Serves",
+            "creator": "Francis Tuker",
+            "year": 1950
+          }
+        ],
+        "contested": true,
+        "note": "Britannica and later summaries: 4,000–10,000. Indian Express: 5,000–10,000 dead, some 15,000 wounded. An Eastern Command military report of 24 August 1946 guessed 2–3,000 at least. Early official floors of a few hundred were not a census. No agreed integer."
+      },
+      "injured": {
+        "min": 15000,
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Remembering the Great Calcutta Killings",
+            "creator": "The Indian Express",
+            "year": 2024,
+            "url": "https://indianexpress.com/article/explained/explained-history/remembering-great-calcutta-killings-jinnah-direct-action-9517614/"
+          }
+        ],
+        "contested": true
+      },
+      "displaced": {
+        "min": 100000,
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Direct Action Day",
+            "creator": "Encyclopaedia Britannica",
+            "url": "https://www.britannica.com/event/Direct-Action-Day-India-1946"
+          }
+        ],
+        "contested": true,
+        "note": "Tens of thousands injured or displaced; some accounts of 100,000 left homeless in 72 hours."
+      },
+      "sexualViolenceReported": true
+    },
+    "historiography": [
+      {
+        "claim": "4,000–10,000 killed.",
+        "heldBy": "Britannica; later scholarly summaries"
+      },
+      {
+        "claim": "5,000–10,000 dead, some 15,000 wounded.",
+        "heldBy": "The Indian Express, 2024, following Das and others"
+      },
+      {
+        "claim": "Both communities equally savage; criminal elements among the followers.",
+        "heldBy": "Francis Tuker, While Memory Serves"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "cause",
+        "targetId": "noakhali-1946",
+        "note": "Noakhali in October was read as revenge and continuation."
+      },
+      {
+        "kind": "related",
+        "targetId": "partition-1947"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Direct Action Day",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Direct-Action-Day-India-1946"
+      },
+      {
+        "title": "Remembering the Great Calcutta Killings",
+        "creator": "The Indian Express",
+        "year": 2024,
+        "url": "https://indianexpress.com/article/explained/explained-history/remembering-great-calcutta-killings-jinnah-direct-action-9517614/"
+      },
+      {
+        "title": "While Memory Serves",
+        "creator": "Francis Tuker",
+        "year": 1950
+      },
+      {
+        "title": "Bengal Divided",
+        "creator": "Joya Chatterji",
+        "year": 1994
+      }
+    ],
+    "confidence": "medium",
+    "visualization": {
+      "pulse": true
+    },
+    "status": "published"
+  },
+  {
+    "id": "noakhali-1946",
+    "slug": "noakhali-1946",
+    "name": "Noakhali riots",
+    "aliases": [
+      "Noakhali massacres",
+      "Noakhali 1946"
+    ],
+    "summary": "From 10 October 1946, after a meeting at Ramganj, Muslim crowds attacked Hindu villages across Noakhali and Tippera. Official returns sat near two hundred dead. Congress and later nationalist counts ran to thousands. Forced conversion, abduction and rape were the method. Gandhi walked the district for months. The League ministry in Bengal did not stop it. Communal massacre, not a two-sided riot.",
+    "scale": "large",
+    "scaleRationale": "A district of East Bengal put under goonda-raj; the death integer is contested, the conversions and flight are not.",
+    "types": [
+      "massacre",
+      "one-sided-violence"
+    ],
+    "family": "massacre",
+    "theaters": [
+      "bengal"
+    ],
+    "northeast": false,
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "central",
+    "identityDimensions": [
+      "religion",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "religion",
+        "centrality": "core"
+      },
+      {
+        "kind": "identity",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1946,
+        "precision": "day",
+        "month": 10,
+        "day": 10
+      },
+      "end": {
+        "year": 1946,
+        "precision": "month",
+        "month": 11
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-ramganj",
+        "name": "Ramganj, Noakhali",
+        "kind": "point",
+        "precision": "district",
+        "longitude": 90.86,
+        "latitude": 22.968,
+        "admin": {
+          "country": "Bangladesh"
+        },
+        "note": "Now in Lakshmipur district, Bangladesh."
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 90.86,
+      "latitude": 22.968,
+      "precision": "district"
+    },
+    "parties": [
+      {
+        "actorId": "gholam-sarwar",
+        "role": "militia"
+      },
+      {
+        "actorId": "muslim-league",
+        "role": "accused"
+      },
+      {
+        "actorId": "britain-crown",
+        "role": "state",
+        "note": "Bengal still under a League ministry; the Governor’s returns understated the conversions."
+      },
+      {
+        "actorId": "gandhi",
+        "role": "mediator"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Bengali Hindus",
+        "kind": "religion",
+        "role": "targets"
+      },
+      {
+        "name": "Bengali Muslims",
+        "kind": "religion"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 200,
+        "max": 5000,
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "An epic peace mission",
+            "creator": "Hindustan Times",
+            "year": 2019,
+            "url": "https://www.hindustantimes.com/india-news/an-epic-peace-mission/story-02FOudy86ERzbkG3FVIuzI.html"
+          },
+          {
+            "title": "Remembering Nehru’s Stand for Humanism in the 1946 Bihar Riots",
+            "creator": "Frontline",
+            "year": 2025,
+            "url": "https://frontline.thehindu.com/the-nation/nehrus-61st-death-anniversary-humanism-partition-1946-bihar-noakhali/article69625386.ece"
+          },
+          {
+            "title": "Communalism in Bengal",
+            "creator": "Rakesh Batabyal",
+            "year": 2005
+          }
+        ],
+        "contested": true,
+        "note": "Official and ICS floors near 200–250 dead. Sukumar Roy named 285 Hindus. Congress leaders spoke of 5,000 in the first days. No register closes it. Forced conversions ran into thousands (Suhrawardy admitted 9,895 in Tippera alone; Noakhali ‘ran into thousands’)."
+      },
+      "sexualViolenceReported": true,
+      "note": "Abduction, forced marriage and conversion of Hindu women were reported throughout Ramganj, Raipur, Begumganj and Lakshmipur."
+    },
+    "historiography": [
+      {
+        "claim": "About 200 dead.",
+        "heldBy": "official Bengal / ICS returns"
+      },
+      {
+        "claim": "At least 5,000 Hindus slaughtered in the first six days.",
+        "heldBy": "Congress chapter in Bengal, 1946"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "consequence",
+        "targetId": "direct-action-1946"
+      },
+      {
+        "kind": "related",
+        "targetId": "partition-1947"
+      }
+    ],
+    "sources": [
+      {
+        "title": "An epic peace mission",
+        "creator": "Hindustan Times",
+        "year": 2019,
+        "url": "https://www.hindustantimes.com/india-news/an-epic-peace-mission/story-02FOudy86ERzbkG3FVIuzI.html"
+      },
+      {
+        "title": "Remembering Nehru’s Stand for Humanism in the 1946 Bihar Riots",
+        "creator": "Frontline",
+        "year": 2025,
+        "url": "https://frontline.thehindu.com/the-nation/nehrus-61st-death-anniversary-humanism-partition-1946-bihar-noakhali/article69625386.ece"
+      },
+      {
+        "title": "Gandhi visited areas hit by communal riots in Noakhali to restore peace",
+        "creator": "The Hindu",
+        "year": 2023,
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/gandhi-visited-areas-hit-by-communal-riots-in-noakhali-to-restore-peace-recalls-stalin/article67197319.ece"
+      },
+      {
+        "title": "Communalism in Bengal: From Famine to Noakhali, 1943–47",
+        "creator": "Rakesh Batabyal",
+        "year": 2005
+      }
+    ],
+    "confidence": "medium",
+    "visualization": {
+      "pulse": true
+    },
+    "status": "published"
+  },
+  {
+    "id": "partition-1947",
+    "slug": "partition-1947",
+    "name": "Partition massacres",
+    "aliases": [
+      "Partition of India, 1947",
+      "Punjab 1947",
+      "August anarchy"
+    ],
+    "summary": "The British left in August 1947 with the Radcliffe line unpublished until the 17th. Punjab and Bengal were cut. Communal massacre was the form of the departure. The Punjab Boundary Force under Rees, some 25,000 men for twelve districts, failed. Trains arrived as corpses. Britannica stores the death range as 200,000 to 2,000,000. No census will close it.",
+    "scale": "large",
+    "scaleRationale": "The largest forced migration of the century, with a death band in the hundreds of thousands to the low millions.",
+    "types": [
+      "massacre"
+    ],
+    "family": "massacre",
+    "theaters": [
+      "punjab",
+      "bengal"
+    ],
+    "northeast": false,
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "multi-sided",
+    "religiousDimension": "central",
+    "identityDimensions": [
+      "religion",
+      "nation",
+      "citizenship",
+      "region",
+      "migration"
+    ],
+    "resources": [
+      {
+        "kind": "citizenship",
+        "centrality": "core"
+      },
+      {
+        "kind": "religion",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "land",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1947,
+        "precision": "month",
+        "month": 3
+      },
+      "end": {
+        "year": 1947,
+        "precision": "month",
+        "month": 12
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-amritsar-1947",
+        "name": "Amritsar",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 74.86,
+        "latitude": 31.6205,
+        "admin": {
+          "country": "India",
+          "state": "Punjab"
+        }
+      },
+      {
+        "id": "loc-lahore-1947",
+        "name": "Lahore",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 74.329,
+        "latitude": 31.565,
+        "admin": {
+          "country": "Pakistan",
+          "state": "Punjab"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 74.86,
+      "latitude": 31.6205,
+      "precision": "theater"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state",
+        "note": "Transfer of power advanced to August 1947; the border announced two days late."
+      },
+      {
+        "actorId": "punjab-boundary-force",
+        "role": "mediator",
+        "note": "Punjab Boundary Force failure: mixed units, twelve districts, disbanded within weeks."
+      },
+      {
+        "actorId": "muslim-league",
+        "role": "militia"
+      },
+      {
+        "actorId": "sikh-jathas",
+        "role": "militia"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Punjabi Muslims",
+        "kind": "religion"
+      },
+      {
+        "name": "Punjabi Hindus",
+        "kind": "religion"
+      },
+      {
+        "name": "Sikhs",
+        "kind": "religion"
+      },
+      {
+        "name": "Bengali Hindus",
+        "kind": "religion"
+      },
+      {
+        "name": "Bengali Muslims",
+        "kind": "religion"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Indian Independence Act, 1947"
+      },
+      {
+        "name": "Punjab Boundary Force, July–September 1947"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "min": 200000,
+        "max": 2000000,
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Partition of India",
+            "creator": "Encyclopaedia Britannica",
+            "url": "https://www.britannica.com/event/Partition-of-India"
+          },
+          {
+            "title": "Partition: Why was British India divided 75 years ago?",
+            "creator": "BBC News",
+            "year": 2022,
+            "url": "https://www.bbc.com/news/world-south-asia-62467438"
+          },
+          {
+            "title": "The Punjab Bloodied, Partitioned and Cleansed",
+            "creator": "Ishtiaq Ahmed",
+            "year": 2011
+          }
+        ],
+        "contested": true,
+        "note": "Britannica: estimates range from 200,000 to 2,000,000. BBC often works ~1 million, or 200,000–1 million. Ishtiaq Ahmed, for Punjab, 500,000–800,000. Not a register. Do not flatten it to a single integer."
+      },
+      "displaced": {
+        "min": 12000000,
+        "max": 20000000,
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Partition of India",
+            "creator": "Encyclopaedia Britannica",
+            "url": "https://www.britannica.com/event/Partition-of-India"
+          },
+          {
+            "title": "The Hidden Story of Partition and its Legacies",
+            "creator": "Crispin Bates / BBC History",
+            "url": "https://www.bbc.com/history/british/modern/partition1947_01.shtml"
+          }
+        ],
+        "contested": true,
+        "note": "Britannica ~15 million. Other working bands 12–20 million. Punjab took most of the movement."
+      },
+      "sexualViolenceReported": true,
+      "note": "Tens of thousands of women abducted, raped or disfigured on all sides; BBC and later work."
+    },
+    "historiography": [
+      {
+        "claim": "200,000 to 2,000,000 dead.",
+        "heldBy": "Encyclopaedia Britannica, standard range"
+      },
+      {
+        "claim": "About one million civilians died, particularly in Punjab.",
+        "heldBy": "BBC History / Yasmin Khan-adjacent summaries"
+      },
+      {
+        "claim": "500,000–800,000 killed in the Punjab.",
+        "heldBy": "Ishtiaq Ahmed, The Punjab Bloodied, Partitioned and Cleansed"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "direct-action-1946"
+      },
+      {
+        "kind": "related",
+        "targetId": "noakhali-1946"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Partition of India",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Partition-of-India"
+      },
+      {
+        "title": "Partition: Why was British India divided 75 years ago?",
+        "creator": "BBC News",
+        "year": 2022,
+        "url": "https://www.bbc.com/news/world-south-asia-62467438"
+      },
+      {
+        "title": "Independence, Partition & Punjab Boundary Force",
+        "creator": "The Indian Express",
+        "year": 2022,
+        "url": "https://indianexpress.com/article/cities/chandigarh/independence-partition-punjab-boundary-force-8090629/"
+      },
+      {
+        "title": "The Punjab Bloodied, Partitioned and Cleansed",
+        "creator": "Ishtiaq Ahmed",
+        "year": 2011
+      }
+    ],
+    "confidence": "medium",
+    "visualization": {
+      "pulse": true
+    },
+    "status": "published"
+  }
+]

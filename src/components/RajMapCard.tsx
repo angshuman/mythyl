@@ -1,4 +1,4 @@
-import type { CSSProperties } from "react";
+import type { CSSProperties, SetStateAction } from "react";
 import {
   actorById,
   conflictById,
@@ -7,8 +7,11 @@ import {
   formatKilledEstimate,
   familyOf,
   formatSides,
+  incidentAt,
   incidentsForConflict,
   reportsForConflict,
+  spanEnd,
+  spanStart,
   type Conflict,
   type Incident,
   type NewsReport,
@@ -25,20 +28,132 @@ type Props = {
   dock?: "left" | "right";
   onClose: () => void;
   onOpenIncident: (incident: Incident) => void;
+  onHover?: (focus: SetStateAction<MapFocus | null>) => void;
+  hovered?: MapFocus | null;
 };
 
-export function MapCard({ focus, locked, dock = "right", onClose, onOpenIncident }: Props) {
+export function MapCard({ focus, locked, onClose, onOpenIncident, onHover, hovered }: Props) {
   if (focus.type === "incident") {
-    return <IncidentBody incident={focus.incident} locked={locked} dock={dock} onClose={onClose} />;
+    return (
+      <IncidentBody
+        incident={focus.incident}
+        locked={locked}
+        onClose={onClose}
+        onOpenIncident={onOpenIncident}
+        onHover={onHover}
+        hovered={hovered}
+      />
+    );
   }
   return (
     <ConflictBody
       conflict={focus.conflict}
       locked={locked}
-      dock={dock}
       onClose={onClose}
       onOpenIncident={onOpenIncident}
+      onHover={onHover}
+      hovered={hovered}
     />
+  );
+}
+
+function CampaignRail({
+  campaign,
+  activeId,
+  onOpenIncident,
+  onHover,
+  hovered,
+}: {
+  campaign: Conflict;
+  activeId?: string;
+  onOpenIncident: (incident: Incident) => void;
+  onHover?: (focus: SetStateAction<MapFocus | null>) => void;
+  hovered?: MapFocus | null;
+}) {
+  const hoverIncidentId = hovered?.type === "incident" ? hovered.incident.id : null;
+  const hoverConflictId =
+    hovered?.type === "conflict"
+      ? hovered.conflict.id
+      : hovered?.type === "incident"
+        ? hovered.incident.conflictId
+        : null;
+  const spanHot = hoverConflictId === campaign.id;
+  const days = incidentsForConflict(campaign.id);
+  const start = spanStart(campaign.time);
+  const end = spanEnd(campaign.time);
+  const marks = [start, end, ...days.map((day) => incidentAt(day))];
+  const min = Math.min(...marks);
+  const max = Math.max(...marks);
+  const pad = Math.max(0.35, (max - min) * 0.08);
+  const from = min - pad;
+  const to = max + pad <= from ? from + 1 : max + pad;
+  const pct = (year: number) => ((year - from) / (to - from)) * 100;
+  const color = familyOf(campaign).color;
+  const startYear = Math.round(start);
+  const endYear = Math.round(end);
+  const same = startYear === endYear && !campaign.time.ongoing;
+
+  return (
+    <div className="map-rail" aria-label={`${campaign.name} timeline`}>
+      <span className="map-rail-year" data-edge="start" style={{ left: `${pct(start)}%` }}>
+        {startYear}
+      </span>
+      {same ? null : (
+        <span className="map-rail-year" data-edge="end" style={{ left: `${pct(end)}%` }}>
+          {endYear}
+        </span>
+      )}
+      <i className="map-rail-track" />
+      <b
+        className={spanHot ? "map-rail-span map-rail-hot" : "map-rail-span"}
+        data-hot={spanHot ? "true" : "false"}
+        style={{
+          left: `${pct(start)}%`,
+          width: `${Math.max(0.9, pct(end) - pct(start))}%`,
+          background: color,
+          opacity: hoverConflictId && !spanHot ? 0.22 : 0.88,
+          boxShadow: spanHot
+            ? "0 0 0 1.5px #f0d24a, 0 0 12px rgba(240, 210, 74, 0.55)"
+            : undefined,
+        }}
+      />
+      {days.map((day) => {
+        const hot =
+          day.id === hoverIncidentId || (!hoverIncidentId && spanHot);
+        const dim = Boolean(hoverConflictId) && !hot;
+        return (
+          <button
+            key={day.id}
+            type="button"
+            className={hot ? "map-rail-day map-rail-hot" : "map-rail-day"}
+            data-on={day.id === activeId ? "true" : "false"}
+            data-hot={hot ? "true" : "false"}
+            aria-label={day.name}
+            title={`${formatFuzzyDate(day.time)} · ${day.name}`}
+            style={{
+              left: `${pct(incidentAt(day))}%`,
+              borderColor: color,
+              background: hot ? "#f0d24a" : undefined,
+              opacity: dim ? 0.22 : 1,
+              zIndex: hot ? 2 : 1,
+              boxShadow: hot
+                ? "0 0 0 1px #070806, 0 0 0 3px #f0d24a, 0 0 10px rgba(240, 210, 74, 0.55)"
+                : undefined,
+              transform: hot
+                ? "translateX(-50%) rotate(45deg) scale(1.4)"
+                : "translateX(-50%) rotate(45deg)",
+            }}
+            onMouseEnter={() => onHover?.({ type: "incident", incident: day })}
+            onMouseLeave={() =>
+              onHover?.((current) =>
+                current?.type === "incident" && current.incident.id === day.id ? null : current,
+              )
+            }
+            onClick={() => onOpenIncident(day)}
+          />
+        );
+      })}
+    </div>
   );
 }
 
@@ -196,40 +311,44 @@ export function NewsList({
 function ConflictBody({
   conflict,
   locked,
-  dock,
   onClose,
   onOpenIncident,
+  onHover,
+  hovered,
 }: {
   conflict: Conflict;
   locked: boolean;
-  dock: "left" | "right";
   onClose: () => void;
   onOpenIncident: (incident: Incident) => void;
+  onHover?: (focus: SetStateAction<MapFocus | null>) => void;
+  hovered?: MapFocus | null;
 }) {
-  const related = incidentsForConflict(conflict.id).slice(0, 5);
   const papers = reportsForConflict(conflict.id);
   const killed = conflict.harm?.killed;
 
   return (
-    <aside
-      className="map-card"
-      aria-live="polite"
-      data-locked={locked ? "true" : "false"}
-      data-dock={dock}
-    >
-      <p className="card-meta">
-        <span data-scale={conflict.scale}>{conflict.scale}</span>
-        <span style={{ borderColor: familyOf(conflict).color, color: familyOf(conflict).color }}>
-          {familyOf(conflict).label}
-        </span>
-        <span>{conflict.rule === "company" ? "Company" : "Crown"}</span>
-      </p>
-      <h2>{conflict.name}</h2>
-      <p className="card-years">
-        {conflict.time.start.year}
-        {conflict.time.end?.year ? ` — ${conflict.time.end.year}` : ""}
-      </p>
-      <p>{conflict.summary}</p>
+    <aside className="map-card" aria-live="polite" data-locked={locked ? "true" : "false"}>
+      <div className="map-strip-head">
+        <div className="map-strip-copy">
+          <p className="card-meta">
+            <span data-scale={conflict.scale}>{conflict.scale}</span>
+            <span style={{ borderColor: familyOf(conflict).color, color: familyOf(conflict).color }}>
+              {familyOf(conflict).label}
+            </span>
+            <span>{conflict.rule === "company" ? "Company" : "Crown"}</span>
+          </p>
+          <h2>{conflict.name}</h2>
+          <p className="card-years">
+            {conflict.time.start.year}
+            {conflict.time.end?.year ? ` — ${conflict.time.end.year}` : ""}
+          </p>
+        </div>
+        <button type="button" className="card-close" onClick={onClose}>
+          Close
+        </button>
+      </div>
+      <CampaignRail campaign={conflict} onOpenIncident={onOpenIncident} onHover={onHover} hovered={hovered} />
+      <p className="map-card-summary">{conflict.summary}</p>
       {killed ? <p className={styles.killed}>{formatKilledEstimate(killed)}</p> : null}
       {conflict.peoples.length > 0 ? (
         <p className="card-peoples">{conflict.peoples.map((people) => people.name).join(" · ")}</p>
@@ -241,63 +360,7 @@ function ConflictBody({
             .join(" · ")}
         </p>
       ) : null}
-      <NewsList reports={papers.map((row) => row.report)} />
-      {related.length > 0 ? (
-        <ul
-          className={styles.days}
-          style={{
-            listStyle: "none",
-            margin: "1.05rem 0 0",
-            padding: "0.75rem 0 0",
-            borderTop: "1px solid var(--rule)",
-          }}
-        >
-          {related.map((incident) => (
-            <li key={incident.id}>
-              <button
-                type="button"
-                onClick={() => onOpenIncident(incident)}
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  gap: "0.12rem",
-                  width: "100%",
-                  padding: "0.35rem 0",
-                  border: 0,
-                  background: "transparent",
-                  color: "inherit",
-                  textAlign: "left",
-                  cursor: "pointer",
-                }}
-              >
-                <span
-                  style={{
-                    display: "block",
-                    fontSize: "0.68rem",
-                    letterSpacing: "0.1em",
-                    textTransform: "uppercase",
-                    color: "var(--paper-dim)",
-                    fontWeight: 500,
-                  }}
-                >
-                  {formatFuzzyDate(incident.time)}
-                </span>
-                <span style={{ display: "block", marginTop: "0.14rem", fontSize: "0.88rem" }}>
-                  {incident.name}
-                </span>
-              </button>
-            </li>
-          ))}
-        </ul>
-      ) : null}
-      {locked ? (
-        <button type="button" className="card-close" onClick={onClose}>
-          Close
-        </button>
-      ) : (
-        <p className="card-hint">Click to lock · hover a square for a day</p>
-      )}
+      <NewsList reports={papers.map((row) => row.report)} layout="row" />
     </aside>
   );
 }
@@ -305,13 +368,17 @@ function ConflictBody({
 function IncidentBody({
   incident,
   locked,
-  dock,
   onClose,
+  onOpenIncident,
+  onHover,
+  hovered,
 }: {
   incident: Incident;
   locked: boolean;
-  dock: "left" | "right";
   onClose: () => void;
+  onOpenIncident: (incident: Incident) => void;
+  onHover?: (focus: SetStateAction<MapFocus | null>) => void;
+  hovered?: MapFocus | null;
 }) {
   const campaign = conflictById(incident.conflictId);
   const papers = incident.reports;
@@ -321,18 +388,27 @@ function IncidentBody({
       className="map-card map-card-day"
       aria-live="polite"
       data-locked={locked ? "true" : "false"}
-      data-dock={dock}
     >
-      <p className="card-meta">
-        <span>{incident.kind.replace("-", " ")}</span>
-        {campaign ? <span>{campaign.name}</span> : null}
-      </p>
-      <h2>{incident.name}</h2>
-      <p className="card-years">
-        {formatFuzzyDate(incident.time)}
-        {incident.place.name ? ` · ${incident.place.name}` : ""}
-      </p>
-      <p>{incident.summary}</p>
+      <div className="map-strip-head">
+        <div className="map-strip-copy">
+          <p className="card-meta">
+            <span>{incident.kind.replace("-", " ")}</span>
+            {campaign ? <span>{campaign.name}</span> : null}
+          </p>
+          <h2>{incident.name}</h2>
+          <p className="card-years">
+            {formatFuzzyDate(incident.time)}
+            {incident.place.name ? ` · ${incident.place.name}` : ""}
+          </p>
+        </div>
+        <button type="button" className="card-close" onClick={onClose}>
+          Close
+        </button>
+      </div>
+      {campaign ? (
+        <CampaignRail campaign={campaign} activeId={incident.id} onOpenIncident={onOpenIncident} onHover={onHover} hovered={hovered} />
+      ) : null}
+      <p className="map-card-summary">{incident.summary}</p>
       {incident.sides.length > 0 ? <p className={styles.sides}>{formatSides(incident.sides)}</p> : null}
       {incident.casualties.length > 0 ? (
         <ul className={styles.toll}>
@@ -342,14 +418,7 @@ function IncidentBody({
         </ul>
       ) : null}
       {incident.story ? <p className={styles.story}>{incident.story}</p> : null}
-      <NewsList reports={papers} />
-      {locked ? (
-        <button type="button" className="card-close" onClick={onClose}>
-          Close
-        </button>
-      ) : (
-        <p className="card-hint">Click to lock this day</p>
-      )}
+      <NewsList reports={papers} layout="row" />
     </aside>
   );
 }

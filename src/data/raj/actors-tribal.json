@@ -1,0 +1,180 @@
+[
+  {
+    "id": "bakshi-jagabandhu",
+    "name": "Bakshi Jagabandhu",
+    "aliases": [
+      "Buxi Jagabandhu",
+      "Jagabandhu Bidyadhar Mahapatra Bhramarabar Ray"
+    ],
+    "kind": "insurgent-group",
+    "active": {
+      "start": {
+        "year": 1817,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1829,
+        "precision": "year"
+      }
+    }
+  },
+  {
+    "id": "paika",
+    "name": "Paikas of Khurda",
+    "aliases": [
+      "Paik",
+      "Paika militia"
+    ],
+    "kind": "militia"
+  },
+  {
+    "id": "kol",
+    "name": "Kol",
+    "aliases": [
+      "Kols of Chotanagpur"
+    ],
+    "kind": "tribe",
+    "tribes": [
+      "Munda",
+      "Oraon",
+      "Ho",
+      "Bhumij"
+    ]
+  },
+  {
+    "id": "budhu-bhagat",
+    "name": "Budhu Bhagat",
+    "aliases": [
+      "Buddho Bhagat",
+      "Budho Bhagat"
+    ],
+    "kind": "insurgent-group",
+    "ethnicity": [
+      "Oraon"
+    ],
+    "active": {
+      "start": {
+        "year": 1831,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1832,
+        "precision": "day",
+        "month": 2,
+        "day": 13
+      }
+    }
+  },
+  {
+    "id": "tirot-sing",
+    "name": "U Tirot Sing",
+    "aliases": [
+      "Tirot Singh",
+      "U Tirot Sing Syiem"
+    ],
+    "kind": "state",
+    "ethnicity": [
+      "Khasi"
+    ],
+    "active": {
+      "start": {
+        "year": 1829,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1835,
+        "precision": "day",
+        "month": 7,
+        "day": 17
+      }
+    }
+  },
+  {
+    "id": "khasi",
+    "name": "Khasi",
+    "kind": "tribe",
+    "ethnicity": [
+      "Khasi"
+    ]
+  },
+  {
+    "id": "manipur-kingdom",
+    "name": "Kingdom of Manipur",
+    "aliases": [
+      "Manipur State"
+    ],
+    "kind": "state"
+  },
+  {
+    "id": "tikendrajit",
+    "name": "Tikendrajit Singh",
+    "aliases": [
+      "Bir Tikendrajit",
+      "Yubaraj Tikendrajit",
+      "Senapati Tikendrajit"
+    ],
+    "kind": "state",
+    "ethnicity": [
+      "Meitei"
+    ]
+  },
+  {
+    "id": "thangal-general",
+    "name": "Thangal General",
+    "kind": "military",
+    "ethnicity": [
+      "Meitei"
+    ]
+  },
+  {
+    "id": "gunda-dhur",
+    "name": "Gunda Dhur",
+    "aliases": [
+      "Gundadhur",
+      "Gunda Dhur of Nethanar"
+    ],
+    "kind": "insurgent-group",
+    "tribes": [
+      "Dhurwa"
+    ]
+  },
+  {
+    "id": "dhurwa",
+    "name": "Dhurwa",
+    "aliases": [
+      "Duruwa"
+    ],
+    "kind": "tribe",
+    "tribes": [
+      "Dhurwa",
+      "Gond"
+    ]
+  },
+  {
+    "id": "kuki",
+    "name": "Kuki chiefs",
+    "aliases": [
+      "Thadou-Kuki",
+      "Kuki tribes"
+    ],
+    "kind": "tribe",
+    "tribes": [
+      "Kuki",
+      "Thadou",
+      "Zou"
+    ]
+  },
+  {
+    "id": "lushai",
+    "name": "Lushai chiefs",
+    "aliases": [
+      "Mizo",
+      "Lushai tribes"
+    ],
+    "kind": "tribe",
+    "tribes": [
+      "Lushai",
+      "Mizo"
+    ]
+  }
+]

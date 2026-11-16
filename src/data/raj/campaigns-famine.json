@@ -1,0 +1,1023 @@
+[
+  {
+    "id": "chalisa-1783",
+    "slug": "chalisa-famine",
+    "name": "Chalisa famine",
+    "aliases": [
+      "Chalisa of VS 1840",
+      "North India famine of 1783–84"
+    ],
+    "summary": "Named for Vikram Samvat 1840. Drought from Delhi through the Doab, Awadh, Punjab, Rajputana and Kashmir, on Company, Awadh and Maratha ground. The southern dearth of 1782–83 had already sat on Madras. Where the Company collected, it collected. Grain still moved. Grove’s later figure of about eleven million covers this famine and that southern dearth together; it is not a register.",
+    "scale": "large",
+    "scaleRationale": "A North Indian famine on Company and Maratha ground; later writers treat it as one of the great mortalities of the 1780s, without a census.",
+    "types": [
+      "famine",
+      "one-sided-violence"
+    ],
+    "family": "famine",
+    "theaters": [
+      "gangetic",
+      "punjab"
+    ],
+    "northeast": false,
+    "rule": "company",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "class",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "taxation",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1783,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1784,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-delhi-chalisa",
+        "name": "Delhi / North India",
+        "kind": "point",
+        "precision": "theater",
+        "longitude": 77.21,
+        "latitude": 28.61,
+        "admin": {
+          "country": "India",
+          "state": "Delhi"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 77.21,
+      "latitude": 28.61,
+      "precision": "theater"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "maratha-confederacy",
+        "role": "state",
+        "note": "Maratha and Awadh zones sat inside the drought as well as Company ground."
+      }
+    ],
+    "peoples": [
+      {
+        "name": "North Indian peasantry",
+        "kind": "nationality"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "The Great El Nino of 1789–93 and its Global Consequences",
+            "creator": "Richard H. Grove",
+            "year": 2007
+          },
+          {
+            "title": "Rulers, Townsmen, and Bazaars",
+            "creator": "C. A. Bayly",
+            "year": 2002
+          },
+          {
+            "title": "Imperial Gazetteer of India, vol. III (Economic)",
+            "year": 1907,
+            "page": "502"
+          }
+        ],
+        "contested": true,
+        "max": 11000000,
+        "note": "Grove’s ~11 million is for Chalisa together with the southern famine of 1782–83, not a register. Later lists often pin the same figure on Chalisa alone. Bayly and Stokes record village depopulation in the middle Doab and around Delhi. No recoverable integer."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "Up to about eleven million dead in the two famines of 1782–84.",
+        "heldBy": "Richard Grove, 2007"
+      },
+      {
+        "claim": "The same round figure attached to Chalisa alone.",
+        "heldBy": "later timeline compilations"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "doji-bara-1791",
+        "note": "The next great El Niño famine of the Company decades."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Great El Nino of 1789–93 and its Global Consequences",
+        "creator": "Richard H. Grove",
+        "year": 2007,
+        "url": "https://doi.org/10.1177/097194580701000203"
+      },
+      {
+        "title": "Rulers, Townsmen, and Bazaars",
+        "creator": "C. A. Bayly",
+        "year": 2002
+      },
+      {
+        "title": "Imperial Gazetteer of India, vol. III (Economic)",
+        "year": 1907,
+        "url": "https://archive.org/details/imperialgazettee03grea"
+      },
+      {
+        "title": "Chalisa famine",
+        "creator": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chalisa_famine"
+      }
+    ],
+    "confidence": "medium",
+    "visualization": {
+      "pulse": true
+    },
+    "status": "published"
+  },
+  {
+    "id": "doji-bara-1791",
+    "slug": "doji-bara-famine",
+    "name": "Doji bara famine",
+    "aliases": [
+      "Skull famine",
+      "Dogi Barra",
+      "Dongi Bura"
+    ],
+    "summary": "Four failed monsoons. In Bijapur the unburied whitened the roads. In Hyderabad the kotwal counted ninety thousand bodies carried out in four months, and the amildars still tried to collect. Madras banned Tanjore rice for export except to the starving districts, imported from Bengal, and fed a few thousand on porridge. Grove’s eleven million for 1789–92 is an order of magnitude, not a census.",
+    "scale": "large",
+    "scaleRationale": "Deccan, Hyderabad, Gujarat, Marwar and the Northern Circars; Company Madras kept the only systematic files.",
+    "types": [
+      "famine",
+      "one-sided-violence"
+    ],
+    "family": "famine",
+    "theaters": [
+      "south"
+    ],
+    "northeast": false,
+    "rule": "company",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "class",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "taxation",
+        "centrality": "core"
+      },
+      {
+        "kind": "trade-route",
+        "centrality": "contributing",
+        "note": "Madras moved Bengal rice north and stopped Tanjore export except to the distressed districts."
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1791,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1792,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-hyderabad-doji",
+        "name": "Hyderabad / Deccan",
+        "kind": "point",
+        "precision": "theater",
+        "longitude": 78.474,
+        "latitude": 17.385,
+        "admin": {
+          "country": "India",
+          "state": "Telangana"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 78.474,
+      "latitude": 17.385,
+      "precision": "theater"
+    },
+    "parties": [
+      {
+        "actorId": "eic",
+        "role": "state"
+      },
+      {
+        "actorId": "maratha-confederacy",
+        "role": "state",
+        "note": "Southern Maratha country; Peshwa grain doles at Poona did not reach Bijapur."
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Deccan peasantry",
+        "kind": "caste"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "The Great El Nino of 1789–93 and its Global Consequences",
+            "creator": "Richard H. Grove",
+            "year": 2007
+          },
+          {
+            "title": "Imperial Gazetteer of India, vol. III (Economic)",
+            "year": 1907,
+            "page": "502"
+          },
+          {
+            "title": "Historical and descriptive sketch of His Highness the Nizam's dominions",
+            "creator": "Hosain Bilgrami and C. Willmott",
+            "year": 1884
+          }
+        ],
+        "contested": true,
+        "max": 11000000,
+        "note": "Grove: about 11 million may have died in 1789–92 from starvation and epidemic. The Hyderabad kotwal’s 90,000 bodies in four months is a city carry-out, not a famine total. Northern Circars districts lost perhaps half their people in Company files. Not a register."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "About eleven million dead, 1789–92.",
+        "heldBy": "Richard Grove, 2007"
+      },
+      {
+        "claim": "Half the inhabitants of many Belgaum villages; 25,000 dead in Gokak town and district from starvation alone.",
+        "heldBy": "Gazetteer of the Bombay Presidency: Belgaum, 1884"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "chalisa-1783"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Great El Nino of 1789–93 and its Global Consequences",
+        "creator": "Richard H. Grove",
+        "year": 2007,
+        "url": "https://doi.org/10.1177/097194580701000203"
+      },
+      {
+        "title": "Doji bara famine",
+        "creator": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Doji_bara_famine"
+      },
+      {
+        "title": "The dead speak after centuries",
+        "creator": "The New Indian Express",
+        "year": 2012,
+        "url": "https://www.newindianexpress.com/thesundaystandard/2012/Aug/26/the-dead-speak-after-centuries-400651.html"
+      },
+      {
+        "title": "Imperial Gazetteer of India, vol. III (Economic)",
+        "year": 1907,
+        "url": "https://archive.org/details/imperialgazettee03grea"
+      }
+    ],
+    "confidence": "medium",
+    "visualization": {
+      "pulse": true
+    },
+    "status": "published"
+  },
+  {
+    "id": "orissa-famine-1866",
+    "slug": "orissa-famine-1866",
+    "name": "Orissa famine of 1866",
+    "aliases": [
+      "Na'anka durbhiksha",
+      "Na-Anka Durbhikshya",
+      "Odisha famine of 1866"
+    ],
+    "summary": "Na'anka: the ninth anka of the Puri king. Rice left for Britain while Orissa starved. Beadon would not touch the market. The Campbell Commission named the failure. Official dead in the division about a million, a third of the population; the Gazetteer’s wider band is four to five million. Not a single integer.",
+    "scale": "large",
+    "scaleRationale": "A named colonial failure of relief; a third of coastal Orissa dead on the official count, and a multi-million band for the east-coast famine as a whole.",
+    "types": [
+      "famine",
+      "one-sided-violence"
+    ],
+    "family": "famine",
+    "theaters": [
+      "bengal"
+    ],
+    "northeast": false,
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "class",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "taxation",
+        "centrality": "core"
+      },
+      {
+        "kind": "trade-route",
+        "centrality": "core",
+        "note": "Naoroji: more than 200 million pounds of rice exported from India in the famine year."
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1865,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1868,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-cuttack-1866",
+        "name": "Cuttack / Orissa Division",
+        "kind": "point",
+        "precision": "theater",
+        "longitude": 85.882,
+        "latitude": 20.462,
+        "admin": {
+          "country": "India",
+          "state": "Odisha"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 85.882,
+      "latitude": 20.462,
+      "precision": "theater"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "famine-commission",
+        "role": "mediator",
+        "note": "Campbell Commission, report 6 April 1867."
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Odia peasantry",
+        "kind": "nationality"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Laissez-faire grain trade, Bengal Presidency",
+        "note": "Beadon refused to regulate prices; the Board of Revenue trusted fictitious lists until the monsoon closed the ports."
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Imperial Gazetteer of India, vol. III (Economic)",
+            "year": 1907,
+            "page": "486"
+          },
+          {
+            "title": "Report of the Commissioners Appointed to Enquire into the Famine in Bengal and Orissa in 1866",
+            "creator": "George Campbell et al.",
+            "year": 1867
+          },
+          {
+            "title": "Poverty and Un-British Rule in India",
+            "creator": "Dadabhai Naoroji",
+            "year": 1901
+          },
+          {
+            "title": "Viewpoint: How British let one million Indians die in famine",
+            "creator": "Dinyar Patel / BBC News",
+            "year": 2016
+          }
+        ],
+        "contested": true,
+        "min": 1000000,
+        "max": 5000000,
+        "note": "Official/Campbell-adjacent: about 1 million in the Orissa Division, roughly a third of the population. Imperial Gazetteer: 4–5 million across the east-coast famine over two years. Naoroji spoke of a million and a half. Not a census."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "About one million dead in Orissa, a third of the division.",
+        "heldBy": "Imperial Gazetteer; Campbell Commission aftermath"
+      },
+      {
+        "claim": "Four to five million in the wider east-coast famine, 1866–68.",
+        "heldBy": "Imperial Gazetteer of India, vol. III"
+      },
+      {
+        "claim": "A million and a half lives destroyed in one famine, while India exported rice.",
+        "heldBy": "Dadabhai Naoroji"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "rajputana-1869",
+        "note": "Muir’s 1868 starvation-responsibility order was written in the wreck of Orissa."
+      },
+      {
+        "kind": "related",
+        "targetId": "great-famine-1876",
+        "note": "The Famine Codes of the 1880s were built, in part, on what Orissa had taught."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Viewpoint: How British let one million Indians die in famine",
+        "creator": "Dinyar Patel / BBC News",
+        "year": 2016,
+        "url": "https://www.bbc.com/news/world-asia-india-36339524"
+      },
+      {
+        "title": "The Orissa famine of 1866",
+        "creator": "Ganeswar Nayak / IIAS Newsletter",
+        "url": "https://www.iias.asia/sites/iias/files/nwl_article/2019-05/IIAS_NL52_14.pdf"
+      },
+      {
+        "title": "Imperial Gazetteer of India, vol. III (Economic)",
+        "year": 1907,
+        "url": "https://archive.org/details/imperialgazettee03grea"
+      },
+      {
+        "title": "Orissa famine of 1866",
+        "creator": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Orissa_famine_of_1866"
+      }
+    ],
+    "confidence": "medium",
+    "visualization": {
+      "pulse": true
+    },
+    "status": "published"
+  },
+  {
+    "id": "rajputana-1869",
+    "slug": "rajputana-famine-1869",
+    "name": "Rajputana famine of 1868–70",
+    "aliases": [
+      "Great Rajputana Famine",
+      "Bundelkhand and Upper Hindustan famine"
+    ],
+    "summary": "After Orissa, Muir told every district officer he would answer for a starvation death. Relief works sat in Ajmer. The princely states spent almost nothing. Two-thirds of Marwar walked. Grain still had to come in on camels. The Gazetteer put the dead over a million and a half. Brooke’s working count was lower. Contested.",
+    "scale": "large",
+    "scaleRationale": "Rajputana, Ajmer, Agra and the Hissar tract; a famine of emigration as much as of camps.",
+    "types": [
+      "famine",
+      "one-sided-violence"
+    ],
+    "family": "famine",
+    "theaters": [
+      "rajputana",
+      "gangetic"
+    ],
+    "northeast": false,
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "class",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "taxation",
+        "centrality": "core"
+      },
+      {
+        "kind": "grazing",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1868,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1870,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-ajmer-1869",
+        "name": "Ajmer / Rajputana",
+        "kind": "point",
+        "precision": "theater",
+        "longitude": 74.639,
+        "latitude": 26.449,
+        "admin": {
+          "country": "India",
+          "state": "Rajasthan"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 74.639,
+      "latitude": 26.449,
+      "precision": "theater"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Rajputana peasantry",
+        "kind": "nationality"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Muir’s starvation-responsibility order, 1868",
+        "note": "Written after Orissa: every district officer personally responsible that no avoidable starvation death occurred."
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "Imperial Gazetteer of India, vol. III (Economic)",
+            "year": 1907,
+            "page": "488"
+          },
+          {
+            "title": "The History of Famines in Rajputana (1858–1900 A.D.)",
+            "note": "Brooke’s famine report, cited in later Rajputana famine histories, worked a figure near 1.3 million."
+          }
+        ],
+        "contested": true,
+        "min": 1300000,
+        "max": 1500000,
+        "note": "Imperial Gazetteer: over 1.5 million dead across Rajputana. Brooke’s rough calculation, cited in later state histories, nearer 1.3 million (about 1.25 million if Ajmer-Merwara is excluded). Not a census."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "Over 1.5 million dead in Rajputana.",
+        "heldBy": "Imperial Gazetteer of India, vol. III"
+      },
+      {
+        "claim": "About 1.3 million from starvation and sickness (Brooke).",
+        "heldBy": "later Rajputana famine histories citing J. C. Brooke, 1870"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "orissa-famine-1866"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Imperial Gazetteer of India, vol. III (Economic)",
+        "year": 1907,
+        "url": "https://archive.org/details/imperialgazettee03grea"
+      },
+      {
+        "title": "Rajputana famine of 1869",
+        "creator": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rajputana_famine_of_1869"
+      },
+      {
+        "title": "The History of Famines in Rajputana (1858–1900 A.D.)",
+        "url": "https://archive.org/details/in.ernet.dli.2015.118875"
+      }
+    ],
+    "confidence": "medium",
+    "visualization": {
+      "pulse": true
+    },
+    "status": "published"
+  },
+  {
+    "id": "famine-1896",
+    "slug": "indian-famine-1896",
+    "name": "Indian famine of 1896–97",
+    "aliases": [
+      "Famine of 1896–1897",
+      "Bundelkhand famine"
+    ],
+    "summary": "Bundelkhand first, then the Central Provinces, the Deccan, Madras. Ganjam and Vizagapatam kept exporting grain. The Famine Code made a camp and a wage. Official British-territory dead about a million; Visaria and Maharatna, working the censuses, four and a half to five. Lyall’s commission of 1898 kept the Code and tightened the tests. Lytton’s Temple wage was still in the file.",
+    "scale": "large",
+    "scaleRationale": "A multi-presidency famine; official dead in the millions’ floor, later demography several times that.",
+    "types": [
+      "famine",
+      "one-sided-violence"
+    ],
+    "family": "famine",
+    "theaters": [
+      "gangetic",
+      "south"
+    ],
+    "northeast": false,
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "class",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "taxation",
+        "centrality": "core"
+      },
+      {
+        "kind": "trade-route",
+        "centrality": "core",
+        "note": "Sea- and rail-borne grain left Ganjam and Vizagapatam throughout the famine year."
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1896,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1897,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-allahabad-1896",
+        "name": "Allahabad / famine belt",
+        "kind": "point",
+        "precision": "theater",
+        "longitude": 81.846,
+        "latitude": 25.436,
+        "admin": {
+          "country": "India",
+          "state": "Uttar Pradesh"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 81.846,
+      "latitude": 25.436,
+      "precision": "theater"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "famine-commission",
+        "role": "mediator",
+        "note": "Lyall Commission, 1898."
+      }
+    ],
+    "peoples": [
+      {
+        "name": "United Provinces and Central Provinces peasantry",
+        "kind": "caste"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Provisional Famine Code, 1883",
+        "note": "Relief as camp and wage; tribal groups in Chota Nagpur were judged to have forest produce and so fell outside charitable relief."
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "The Demography of Famines",
+            "creator": "Arup Maharatna",
+            "year": 1996
+          },
+          {
+            "title": "Late Victorian Holocausts",
+            "creator": "Mike Davis",
+            "year": 2001
+          },
+          {
+            "title": "Imperial Gazetteer of India, vol. III (Economic)",
+            "year": 1907
+          },
+          {
+            "title": "On the Demography of South Asian Famines: Part I",
+            "creator": "Tim Dyson",
+            "year": 1991
+          }
+        ],
+        "contested": true,
+        "min": 1000000,
+        "max": 5000000,
+        "note": "Gazetteer/official: about 750,000–1 million in British territory. Visaria and Maharatna, census back-projection including epidemic: 4.5–5 million. Davis reads the famine as part of the late-Victorian wave. Dyson: deaths peaked around September 1897, a year after prices rose. Not a single register."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "About one million dead in British territory.",
+        "heldBy": "Imperial Gazetteer / colonial returns"
+      },
+      {
+        "claim": "4.5 to 5 million once famine-related epidemic is counted.",
+        "heldBy": "Pravin Visaria and Arup Maharatna"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "great-famine-1876",
+        "note": "The 1880 Famine Commission and the Code of 1883 were the Lytton-era after; 1896 ran them."
+      },
+      {
+        "kind": "next",
+        "targetId": "famine-1899"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Demography of Famines",
+        "creator": "Arup Maharatna",
+        "year": 1996
+      },
+      {
+        "title": "Late Victorian Holocausts",
+        "creator": "Mike Davis",
+        "year": 2001
+      },
+      {
+        "title": "Report of the Indian Famine Commission",
+        "year": 1898,
+        "url": "https://archive.org/details/FamineCommissionReport"
+      },
+      {
+        "title": "Indian famine of 1896–1897",
+        "creator": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Indian_famine_of_1896%E2%80%931897"
+      },
+      {
+        "title": "Imperial Gazetteer of India, vol. III (Economic)",
+        "year": 1907,
+        "url": "https://archive.org/details/imperialgazettee03grea"
+      }
+    ],
+    "confidence": "medium",
+    "visualization": {
+      "pulse": true
+    },
+    "status": "published"
+  },
+  {
+    "id": "famine-1899",
+    "slug": "indian-famine-1899",
+    "name": "Indian famine of 1899–1900",
+    "aliases": [
+      "Chhappania Kal",
+      "Chhappania Akal",
+      "Famine of VS 1956"
+    ],
+    "summary": "Chhappania Kal. The country had not recovered from 1896. Wheat and cotton still left Bombay. Curzon cut rations he called dangerously high and brought back the Temple tests. Relief camps filled; cholera and then monsoon malaria emptied them. Official about a million in British districts; Maharatna three to four and a half. MacDonnell’s commission of 1901 wrote the last all-India famine of the Victorian codes.",
+    "scale": "large",
+    "scaleRationale": "Bombay, the Central Provinces, Ajmer, Rajputana and Gujarat; the last all-India famine of the Crown Raj.",
+    "types": [
+      "famine",
+      "one-sided-violence"
+    ],
+    "family": "famine",
+    "theaters": [
+      "south",
+      "rajputana"
+    ],
+    "northeast": false,
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "class",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "taxation",
+        "centrality": "core"
+      },
+      {
+        "kind": "trade-route",
+        "centrality": "core",
+        "note": "Davis: wheat and cotton still exported through Bombay — dearth amidst plenty."
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1899,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1900,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-ahmedabad-1899",
+        "name": "Ahmedabad / western famine belt",
+        "kind": "point",
+        "precision": "theater",
+        "longitude": 72.571,
+        "latitude": 23.023,
+        "admin": {
+          "country": "India",
+          "state": "Gujarat"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 72.571,
+      "latitude": 23.023,
+      "precision": "theater"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "famine-commission",
+        "role": "mediator",
+        "note": "MacDonnell Commission, 1901."
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Gujarat, Deccan and Rajputana peasantry",
+        "kind": "caste"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Indian Famine Codes, as applied under Curzon",
+        "note": "Rations cut; Temple tests restored. Dutt’s open letters to Curzon put land assessment beside the camps."
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "civilian",
+        "sources": [
+          {
+            "title": "The Demography of Famines",
+            "creator": "Arup Maharatna",
+            "year": 1996
+          },
+          {
+            "title": "Late Victorian Holocausts",
+            "creator": "Mike Davis",
+            "year": 2001
+          },
+          {
+            "title": "Imperial Gazetteer of India, vol. III (Economic)",
+            "year": 1907
+          },
+          {
+            "title": "On the Demography of South Asian Famines: Part I",
+            "creator": "Tim Dyson",
+            "year": 1991
+          }
+        ],
+        "contested": true,
+        "min": 1000000,
+        "max": 4500000,
+        "note": "Gazetteer: about 1 million in British-administered districts. Fieldhouse ~1 million. Maharatna 3–4.4 million. Seavoy 3.2 million. Fagan’s outer 4.5 million. Dyson: deaths peaked around August 1900, after cholera and then malaria. Not a single register."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "About one million dead in British districts.",
+        "heldBy": "Imperial Gazetteer of India"
+      },
+      {
+        "claim": "Three to 4.4 million.",
+        "heldBy": "Arup Maharatna, 1996"
+      },
+      {
+        "claim": "Any government that weakened self-reliance by indiscriminate alms would be guilty of a public crime.",
+        "heldBy": "Lord Curzon, cited in Davis, Late Victorian Holocausts"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "previous",
+        "targetId": "famine-1896"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Late Victorian Holocausts",
+        "creator": "Mike Davis",
+        "year": 2001
+      },
+      {
+        "title": "The Demography of Famines",
+        "creator": "Arup Maharatna",
+        "year": 1996
+      },
+      {
+        "title": "Open Letters to Lord Curzon on Famines and Land Assessments in India",
+        "creator": "Romesh Chunder Dutt",
+        "year": 1900,
+        "url": "https://archive.org/details/openletterstolor00duttrich"
+      },
+      {
+        "title": "Report of the Indian Famine Commission, 1901",
+        "creator": "A. P. MacDonnell",
+        "year": 1901,
+        "url": "https://archive.org/details/dli.csl.1202"
+      },
+      {
+        "title": "Indian famine of 1899–1900",
+        "creator": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Indian_famine_of_1899%E2%80%931900"
+      },
+      {
+        "title": "Made in India: The drought is no longer a natural disaster",
+        "creator": "Amita Baviskar / India Today",
+        "year": 2016,
+        "url": "https://www.indiatoday.in/magazine/up-front/story/20160509-drought-water-crisis-el-nino-amita-baviskar-828821-2016-04-27"
+      }
+    ],
+    "confidence": "medium",
+    "visualization": {
+      "pulse": true
+    },
+    "status": "published"
+  }
+]

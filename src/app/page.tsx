@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { IndiaMark } from "@/components/IndiaMark";
+import { MythylMark } from "@/components/MythylMark";
 import { RajMark } from "@/components/RajMark";
 import { GALLERY, type GalleryPiece } from "@/lib/gallery";
 import { allConflicts } from "@/lib/conflicts";
@@ -14,19 +15,20 @@ export default async function Home() {
   return (
     <main className="landing">
       <header className="landing-mast">
-        <p className="wordmark">mythyl</p>
-        <p className="landing-kicker">pictures that stay</p>
+        <div className="brand">
+          <MythylMark className="brand-mark" detail="compact" />
+          <p className="wordmark">mythyl</p>
+        </div>
+        <p className="landing-kicker">infographics</p>
       </header>
 
       <section className="landing-hero">
         <h1>
-          The after,
+          A subject,
           <br />
-          drawn.
+          made visible.
         </h1>
-        <p className="landing-lede">
-          Maps and infographics for things that are usually a speech.
-        </p>
+        <MythylMark className="landing-mark" />
       </section>
 
       <section className="gallery" aria-label="Works">

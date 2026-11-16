@@ -2,77 +2,77 @@
   {
     "id": "conquest",
     "kicker": "Conquest",
-    "title": "The Company did not inherit a map.",
+    "title": "The East India Company as a conquering state",
     "color": "#c4a06a",
     "match": { "families": ["conquest", "annexation"] },
     "paragraphs": [
-      "Plassey was a bribe with a battle attached. From a grove on the Bhagirathi the Company took Bengal’s revenue, then spent the next sixty years making war on Mysore, the Marathas, Sindh, the Sikhs, and Burma. Dalhousie finished what Clive began: a doctrine that a state without a son was a state the Company could keep.",
-      "The geography of it is a chain of forts and treaties — Srirangapatna, Assaye, Miani, Ferozeshah, Rangoon, Lucknow — not a single frontier. Isolate Conquest and Annexation; the years before 1857 read as a taking, not a transfer."
+      "Plassey, 23 June 1757, was a short battle made decisive by the defection of Mir Jafar. With Bengal’s revenue the East India Company financed sixty years of colonial war against Mysore, the Marathas, Sindh, the Sikh empire, and Burma. Dalhousie’s Doctrine of Lapse treated a kingdom without a recognised heir as a possession the Company could annex.",
+      "The geography is a chain of forts, treaties, and annexed courts — Srirangapatna, Assaye, Miani, Ferozeshah, Rangoon, Lucknow — not a single frontier. Isolate Conquest and Annexation; the years before 1857 read as a taking of territory, not a transfer of government."
     ]
   },
   {
     "id": "revolt",
     "kicker": "1857",
-    "title": "A year the Raj renamed.",
+    "title": "The rebellion of 1857 and colonial reprisal",
     "color": "#b54a3a",
     "match": { "family": "revolt" },
     "paragraphs": [
-      "Meerut on a Sunday in May; Delhi the next morning; Kanpur, Lucknow, Jhansi through a summer. The Company called it a mutiny. Later Indian writing called it a war of independence. What it was, on the ground, was sepoys, princes, peasants, and a dying Mughal, then a recapture that made examples of cities.",
-      "The death toll was never agreed. European civilians at the Bibighar, Indian dead in the taking of Delhi, villages burned in the Doab — each count belongs to a side. Isolate 1857; the score is one bar, and the days inside it still argue."
+      "Meerut on a Sunday in May; Delhi the next morning; Kanpur, Lucknow, Jhansi through a summer. The Company called it a mutiny. Later Indian writing called it a war of independence. On the ground it was sepoys, princes, peasants, and a dying Mughal emperor, followed by a recapture that used massacre and collective punishment as method: the well at Kanpur, the taking of Delhi, villages burned in the Doab.",
+      "The death toll was never agreed. European civilians at the Bibighar, Indian dead in the storming of Delhi, rural killings that were never counted — each figure belongs to a side. Isolate 1857; the score is one bar, and the days inside it still argue."
     ]
   },
   {
     "id": "rural",
-    "kicker": "Forest & field",
-    "title": "The forest was a frontier. So was a field of indigo.",
+    "kicker": "Adivasi and peasant",
+    "title": "Tribal and peasant resistance to colonial rule",
     "color": "#8a9a62",
     "match": { "families": ["tribal", "peasant"] },
     "paragraphs": [
-      "Sidhu and Kanhu called a hul at Bhognadih in 1855. Birsa Munda called an ulgulan in Chotanagpur. Alluri Sitarama Raju walked the Agency hills with a rifle after a forest law. In Malabar in 1921 a tenancy revolt became a communal war, and a railway wagon became a grave. These are not the same rising. They share a geography the plains never quite administered.",
-      "On the plains the fights were over crop and rent: indigo in Nadia, grain in Pabna, debt in the Deccan, tinkathia in Champaran. A lawyer from Gujarat sat with the indigo planters’ ryots in 1917 and made a local grievance a national method. Isolate Forest & field; the map is a scatter, not a border."
+      "Sidhu and Kanhu called a hul at Bhognadih in 1855. Birsa Munda called an ulgulan in Chotanagpur. Alluri Sitarama Raju walked the Agency hills after a forest law closed the commons. In Malabar in 1921 a tenancy revolt became a communal war, and a British prison wagon became a grave. These are not one rising. They share a geography the plains administration never fully held.",
+      "On the plains the fights were over crop and rent: indigo in Nadia, grain in Pabna, debt in the Deccan, tinkathia in Champaran. A lawyer from Gujarat sat with the indigo planters’ ryots in 1917 and turned a local grievance into a national method. Isolate Forest and field; the map is a scatter of rural war, not a border."
     ]
   },
   {
     "id": "massacre",
     "kicker": "Massacre",
-    "title": "Ten minutes in a bagh.",
+    "title": "Colonial massacre and the killings of 1946–47",
     "color": "#8b2e2e",
     "match": { "family": "massacre" },
     "paragraphs": [
-      "Baisakhi, 1919. Dyer marched fifty riflemen into Jallianwala Bagh, blocked the lane, and fired until the ammunition ran low. Hunter’s committee counted 379 dead. The Congress inquiry said a thousand, perhaps fifteen hundred. Wagner, later, sat between those numbers and still could not close them. A week later a street in Amritsar had to be crawled.",
-      "Peshawar, April 1930: armoured cars in Qissa Khwani Bazaar, Khudai Khidmatgars who had put down the rifle. The official dead were twenty, or thirty. Local lists ran to the hundreds. Isolate Massacre; two cities, two bazaars, a method that does not need a battlefield."
+      "Baisakhi, 1919. Brigadier-General Dyer marched fifty riflemen into Jallianwala Bagh, blocked the lane, and fired until the ammunition ran low. Hunter’s committee counted 379 dead. The Congress inquiry said a thousand, perhaps fifteen hundred. A week later a street in Amritsar had to be crawled — a colonial humiliation written as an order. The same method appears earlier at Malerkotla in 1872, where Namdhari prisoners were blown from guns without trial, and later at Hijli Detention Camp, where the Crown shot its own detenus.",
+      "Peshawar, April 1930: armoured cars in Qissa Khwani Bazaar, against Khudai Khidmatgars who had put down the rifle. The official dead were twenty, or thirty. Local lists ran to the hundreds. In 1946–47 the empire’s end was a communal massacre: Calcutta in August, Noakhali in October, Punjab through the Partition months. Isolate Massacre; the days are crowds, camps, and trains, not battlefields."
     ]
   },
   {
     "id": "agitation",
-    "kicker": "Movement",
-    "title": "A movement with a geography.",
+    "kicker": "Nationalism",
+    "title": "Nationalist agitation and revolutionary violence, 1905–1946",
     "color": "#c9a227",
     "match": { "family": "agitation" },
     "paragraphs": [
-      "Bengal partitioned in 1905, unpartitioned in 1911, and in between a swadeshi that was boycott, bomb, and school. Then Rowlatt, a salt march to Dandi, a raid on the Chittagong armoury, a train stopped at Kakori, three men hanged in Lahore on a March morning. In 1942 the Congress asked the British to quit; Midnapore, Chimur, Ashti answered in their own tense. In 1946 the ratings of the Royal Indian Navy struck the flag in Bombay harbour.",
+      "Bengal partitioned in 1905, unpartitioned in 1911, and in between a swadeshi that was boycott, bomb, and school. Then the Rowlatt Act, a salt march to Dandi, a raid on the Chittagong armoury, a train stopped at Kakori, three men hanged in Lahore on a March morning. In 1942 the Congress asked the British to quit; Midnapore, Chimur, Ashti answered with their own force. In 1946 the ratings of the Royal Indian Navy struck the flag in Bombay harbour.",
       "These are not one campaign. They are a sequence that learned, split, and returned — some of it non-violent, some of it not, all of it mapped. Isolate Movement; the years after 1905 get loud, then louder."
     ]
   },
   {
     "id": "famine",
     "kicker": "Famine",
-    "title": "Hunger the state counted, or did not.",
+    "title": "Famine under Company and Crown",
     "color": "#8a7350",
     "match": { "family": "famine" },
     "paragraphs": [
-      "Bengal in 1770, after the Company took the diwani: a traditional figure of ten million, which later demographers treat as an order of magnitude rather than a census. The Deccan and Madras in 1876–78, under a viceroy who would not stop grain exports. Bengal again in 1943, in a war, after a cyclone, with rice still leaving the province. Sen put the later famine near three million. Maharatna, working the registers, nearer two.",
-      "A famine is not a battle. It has a geography anyway — Murshidabad, Madras, Calcutta — and a file of commissions that argued weather against policy. Isolate Famine; the circles are large, and the days are few, because hunger does not always have a date."
+      "Bengal in 1770, after the Company took the diwani: a traditional figure of ten million, which later demographers treat as an order of magnitude rather than a census. The Deccan and Madras in 1876–78, under a viceroy who would not stop grain exports while people starved. Bengal again in 1943, in a war, after a cyclone, with rice still leaving the province. Sen put the later famine near three million. Maharatna, working the registers, nearer two.",
+      "A famine is not a battle. It has a geography anyway — Murshidabad, Madras, Calcutta — and a file of commissions that argued weather against colonial policy. Isolate Famine; the circles are large, and the days are few, because hunger does not always have a date."
     ]
   },
   {
     "id": "penal",
-    "kicker": "Jail",
-    "title": "An island, a wagon, an Act.",
+    "kicker": "Penal colony",
+    "title": "Transportation, detention, and colonial criminal law",
     "color": "#5c6b7a",
     "match": { "family": "penal" },
     "paragraphs": [
-      "Cellular Jail at Port Blair opened as a machine for isolating the political prisoner: seven wings from a tower, the Andaman sea as the wall. The Komagata Maru was turned from Vancouver and met rifles at a siding in Budge Budge. Neither is a war. Each is a way of keeping a person, or moving one, until the person breaks or the law does.",
+      "Cellular Jail at Port Blair opened as a machine for isolating the political prisoner: seven wings from a tower, the Andaman sea as the wall. The Komagata Maru was turned from Vancouver and met colonial rifles at a siding in Budge Budge. Neither is a war. Each is a way of keeping a person, or moving one, until the person breaks or the law does.",
       "The map of jail is an archipelago. Port Blair is a point in the sea; Budge Budge is a point on the Hooghly. Isolate Jail; the score is short, and it sits under everything else."
     ]
   }

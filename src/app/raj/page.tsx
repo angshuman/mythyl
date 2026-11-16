@@ -4,9 +4,9 @@ import { RajMapLoader } from "@/components/RajMapLoader";
 import { ViewSwitch } from "@/components/ViewSwitch";
 
 export const metadata = {
-  title: "A geography of force",
+  title: "Colonial violence in India",
   description:
-    "How the Company took the subcontinent, and how the Crown held it — conquest, revolt, famine, massacre, law. 1757 to 1947.",
+    "Wars of conquest, annexation, famine, colonial massacre, and resistance under the East India Company and the British Crown, 1757–1947.",
 };
 
 export default function RajPage() {
@@ -22,7 +22,7 @@ export default function RajPage() {
       <RajEssays />
 
       <footer className="site-footer">
-        mythyl · company to crown · 1757 to 1947
+        mythyl · colonial violence in india · 1757 to 1947
       </footer>
     </main>
   );

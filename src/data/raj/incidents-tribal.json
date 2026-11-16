@@ -1,0 +1,540 @@
+[
+  {
+    "id": "banapur-1817",
+    "conflictId": "paika-1817",
+    "name": "Banapur thana burned",
+    "kind": "raid",
+    "time": {
+      "year": 1817,
+      "precision": "month",
+      "month": 3
+    },
+    "place": {
+      "name": "Banapur",
+      "longitude": 85.174,
+      "latitude": 19.778,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Odisha",
+        "district": "Khordha"
+      }
+    },
+    "summary": "About 400 Kandhas crossed from Ghumsur into Khurda. Paikas under Bakshi Jagabandhu joined them, looted and burned the police station and post office at Banapur, then marched on Khurda, which the Company abandoned.",
+    "sides": [
+      {
+        "label": "Paikas and Kandhas under Bakshi Jagabandhu",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "bakshi-jagabandhu"
+      },
+      {
+        "label": "Company thana and treasury at Banapur",
+        "role": "target",
+        "kind": "state-forces",
+        "actorId": "eic"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "Company officials and servants at Banapur",
+        "contested": true,
+        "claimedBy": "later secondary accounts",
+        "note": "Some later summaries say nearly 100 men killed at Banapur. Wikipedia records the burning of the thana without that integer. Not a register."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Wikipedia",
+        "headline": "Banapur, then Khurda",
+        "year": 2026,
+        "excerpt": "In March 1817 a 400-strong party of Kandhas crossed into Khurda from Ghumsur. The Paikas under Jagabandhu joined them, looting and setting fire to the police station and post office at Banpur.",
+        "stance": "independent",
+        "url": "https://en.wikipedia.org/wiki/Paika_Rebellion"
+      },
+      {
+        "outlet": "Vajiram & Ravi",
+        "headline": "The Banapur police station",
+        "year": 2025,
+        "excerpt": "The Paikas attacked the Banapur Police Station, burned government offices, and looted the treasury. The rebellion spread to Khurda.",
+        "stance": "independent",
+        "url": "https://vajiramandravi.com/current-affairs/paika-rebellion/"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "silagai-1832",
+    "conflictId": "kol-1831",
+    "name": "Budhu Bhagat killed at Silagai",
+    "kind": "clash",
+    "time": {
+      "year": 1832,
+      "precision": "day",
+      "month": 2,
+      "day": 13
+    },
+    "place": {
+      "name": "Silagai",
+      "longitude": 84.958,
+      "latitude": 23.45,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Jharkhand",
+        "district": "Ranchi"
+      }
+    },
+    "summary": "Company troops under Wilkinson closed on Silagai in Chanho. Budhu Bhagat, an Oraon leader of the Kol rising, was killed with sons and followers who met muskets with bows, axes, and swords. The date in colonial and later lists sits on 13 or 14 February.",
+    "sides": [
+      {
+        "label": "Company column under Wilkinson",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "eic"
+      },
+      {
+        "label": "Budhu Bhagat and Kol fighters",
+        "role": "defender",
+        "kind": "insurgent",
+        "actorId": "budhu-bhagat"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 150,
+        "killedMax": 300,
+        "of": "insurgent",
+        "sideLabel": "Budhu Bhagat and followers at Silagai",
+        "claimedBy": "colonial returns and later local accounts",
+        "contested": true,
+        "note": "Wikipedia’s Kol-uprising page, following Wilkinson, gives about 150 followers on 14 February. Local commemorations give a higher figure and the 13th. Budhu Bhagat and named sons died in the same action. Not a census of the rising."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Wikipedia",
+        "headline": "Silagai",
+        "year": 2026,
+        "excerpt": "On 14 February 1832 Wilkinson killed a Munda leader along with his seven sons and approximately 150 of his followers in the village of Sillagaon.",
+        "stance": "independent",
+        "url": "https://en.wikipedia.org/wiki/Kol_uprising"
+      },
+      {
+        "outlet": "Wikipedia",
+        "headline": "Budhu Bhagat",
+        "year": 2026,
+        "excerpt": "British forces arrived at Silagai village on 13 February 1832. Budhu Bhagat’s sons were killed. Budhu Bhagat was captured and killed.",
+        "stance": "independent",
+        "url": "https://en.wikipedia.org/wiki/Budhu_Bhagat"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "nongkhlaw-1829",
+    "conflictId": "khasi-1829",
+    "name": "Nongkhlaw attacked",
+    "kind": "attack",
+    "time": {
+      "year": 1829,
+      "precision": "day",
+      "month": 4,
+      "day": 4
+    },
+    "place": {
+      "name": "Nongkhlaw",
+      "longitude": 91.637,
+      "latitude": 25.684,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Meghalaya",
+        "district": "Eastern West Khasi Hills"
+      }
+    },
+    "summary": "Tirot Sing’s durbar had ordered the Company to leave Nongkhlaw. The garrison stayed. On 4 April 1829 Khasi fighters killed Lieutenants Bedingfield and Burlton. David Scott was at Cherrapunji and lived. The Company called it a massacre and opened a four-year war.",
+    "sides": [
+      {
+        "label": "Khasi fighters under Tirot Sing",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "tirot-sing"
+      },
+      {
+        "label": "Company garrison at Nongkhlaw",
+        "role": "target",
+        "kind": "state-forces",
+        "actorId": "eic"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 2,
+        "killedMax": 60,
+        "of": "state-forces",
+        "sideLabel": "British officers and sepoys at Nongkhlaw",
+        "claimedBy": "Company lists and later Khasi accounts",
+        "contested": true,
+        "note": "Two officers are named: Richard Gurdon Bedingfield and Philip Bowles Burlton. A Meghalaya account puts Company dead that day near 50–60. Khasi dead are not listed."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Wikipedia",
+        "headline": "Nongkhlaw, 4 April 1829",
+        "year": 2026,
+        "excerpt": "The Khasis attacked the British garrison in Nongkhlaw on 4 April 1829. His men killed two British officers, Richard Gurdon Bedingfield and Philip Bowles Burlton.",
+        "stance": "independent",
+        "url": "https://en.wikipedia.org/wiki/Tirot_Sing"
+      },
+      {
+        "outlet": "Meghalaya Monitor",
+        "headline": "A fight for motherland and Khasi honour",
+        "year": 2022,
+        "excerpt": "On 4 April 1829 the Khasis attacked the British at Nongkhlaw. The two commanding officers, British soldiers and sepoys, about 50 or 60 men, were killed. David Scott was in Cherrapunji.",
+        "stance": "victim",
+        "url": "https://meghalayamonitor.com/a-fight-for-motherland-khasi-honour/"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "khongjom-1891",
+    "conflictId": "anglo-manipur-1891",
+    "name": "Khongjom",
+    "kind": "clash",
+    "time": {
+      "year": 1891,
+      "precision": "month",
+      "month": 4,
+      "note": "Manipur chronicles and later memory give 23 April; some British field reports give 25 April."
+    },
+    "place": {
+      "name": "Khongjom",
+      "longitude": 94.0,
+      "latitude": 24.522,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Manipur",
+        "district": "Thoubal"
+      }
+    },
+    "summary": "The last stand of the Manipur army against the Tamu column. Paona Brajabasi died on the hillock. The date is argued; the defeat is not. Imphal was taken days later.",
+    "sides": [
+      {
+        "label": "British Tamu column",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "britain-crown"
+      },
+      {
+        "label": "Manipur army under Paona Brajabasi",
+        "role": "defender",
+        "kind": "insurgent",
+        "actorId": "manipur-kingdom"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 128,
+        "of": "insurgent",
+        "sideLabel": "Manipur soldiers at Khongjom",
+        "claimedBy": "later summaries of the war",
+        "contested": true,
+        "note": "A commonly cited figure of over 128 Manipuri dead, including Paona Brajabasi. Contemporary British reports give small named British losses. Not a census."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Wikipedia",
+        "headline": "Khongjom Battle",
+        "year": 2026,
+        "excerpt": "On 25 April British scouts encountered Manipuri soldiers on the Khongjom hillock. Hand-to-hand fighting ensued. The Manipuri lost over 128 men including Major Paona Brajabasi.",
+        "stance": "independent",
+        "url": "https://en.wikipedia.org/wiki/Anglo-Manipur_War"
+      },
+      {
+        "outlet": "Penguin Random House India",
+        "headline": "A forgotten war of the British Raj",
+        "year": 2020,
+        "excerpt": "The Manipuris were defeated at the decisive Battle of Khongjom. In April the British captured the palace at Kangla.",
+        "stance": "independent",
+        "url": "https://www.penguin.co.in/aforgottenwarofbritishraj/"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "tikendrajit-hanged-1891",
+    "conflictId": "anglo-manipur-1891",
+    "name": "Tikendrajit and Thangal hanged",
+    "kind": "execution",
+    "time": {
+      "year": 1891,
+      "precision": "day",
+      "month": 8,
+      "day": 13
+    },
+    "place": {
+      "name": "Imphal polo ground",
+      "longitude": 93.937,
+      "latitude": 24.807,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Manipur",
+        "district": "Imphal West"
+      }
+    },
+    "summary": "A special court sentenced Tikendrajit, Kulachandra, and Thangal General to death. The Governor-General confirmed the hangings of Tikendrajit and Thangal and commuted the Maharaja to transportation. The two were hanged at the polo ground on 13 August 1891. Queen Victoria had thought the hanging would create very bad feeling in Manipur and in all India.",
+    "sides": [
+      {
+        "label": "British occupation government",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "britain-crown"
+      },
+      {
+        "label": "Tikendrajit Singh and Thangal General",
+        "role": "target",
+        "kind": "insurgent",
+        "actorId": "tikendrajit"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 2,
+        "killedMax": 5,
+        "killedBest": 2,
+        "of": "insurgent",
+        "sideLabel": "Manipur commanders hanged at Imphal",
+        "claimedBy": "the special court and later Manipur memory",
+        "contested": true,
+        "note": "Tikendrajit and Thangal were hanged at the polo ground on the evening of 13 August. e-pao also names Kajao. Wikipedia’s war page says five commanders including Tikendrajit were hanged. The two named at the polo ground are not in dispute."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "e-pao.net",
+        "headline": "Trial and death of Tikendrajit and Thangal General",
+        "year": 2026,
+        "excerpt": "The order was announced on 13 August 1891 and in the evening of the same day Tikendrajit and Thangal General were hanged at the present Sahid Minar.",
+        "stance": "victim",
+        "url": "https://e-pao.net/epSubPageExtractor.asp?src=manipur.History_of_Manipur.Historical_War_Manipur.13august1891"
+      },
+      {
+        "outlet": "Penguin Random House India",
+        "headline": "Queen Victoria tried to save Tikendrajit",
+        "year": 2020,
+        "excerpt": "Queen Victoria thought hanging him would create very bad feeling in Manipur and in all India. The Viceroy threatened to resign and refused to comply. The Crown Prince was hanged in August 1891.",
+        "stance": "independent",
+        "url": "https://www.penguin.co.in/aforgottenwarofbritishraj/"
+      },
+      {
+        "outlet": "Northeast Today",
+        "headline": "Manipur Governor pays tribute to heroes of 1891",
+        "year": 2025,
+        "excerpt": "Patriots’ Day at Heecham Yaicham Pat, the cremation site of Yubaraj Bir Tikendrajit Singh, executed by the British on 13 August 1891.",
+        "stance": "independent",
+        "url": "https://northeasttoday.in/northeast/manipur-governor-pays-tribute-to-heroes-of-1891-anglo-manipur-war/"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "jagdalpur-1910",
+    "conflictId": "bastar-bhumkal-1910",
+    "name": "Bastar rising begins",
+    "kind": "raid",
+    "time": {
+      "year": 1910,
+      "precision": "month",
+      "month": 2
+    },
+    "place": {
+      "name": "Jagdalpur",
+      "longitude": 82.021,
+      "latitude": 19.074,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Chhattisgarh",
+        "district": "Bastar"
+      }
+    },
+    "summary": "Mango boughs, earth, chillies and arrows had gone from village to village. In February 1910 the Dhurwas of the Kanger forest and Gunda Dhur of Nethanar attacked thanas, forest offices, bazaars, and the houses of officials and sahukars in Jagdalpur. The 1905 plan to reserve two-thirds of the forest was the law they were burning.",
+    "sides": [
+      {
+        "label": "Dhurwas and other Bastar Adivasis under Gunda Dhur",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "gunda-dhur"
+      },
+      {
+        "label": "Colonial forest and police administration, Jagdalpur",
+        "role": "target",
+        "kind": "state-forces",
+        "actorId": "britain-crown"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "unknown",
+        "sideLabel": "Officials, traders, and Adivasi fighters in the first days",
+        "contested": true,
+        "note": "NCERT records attacks on police stations, officials, and traders, then three months of flogging and flight into the jungle. It does not give a death total. Gunda Dhur was never captured."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Live History India",
+        "headline": "Bastar’s Bhumkaal Rebellion",
+        "year": 2020,
+        "excerpt": "The Indian Forest Act of 1878 divided forests into reserved, protected, and village forests. In 1905 the government wanted to reserve almost two-thirds of Bastar. Gunda Dhur of Nethanar looted granaries and attacked Jagdalpur. The reserved area was later cut to about half of what had been planned.",
+        "stance": "independent",
+        "url": "https://www.livehistoryindia.com/story/eras/bhumkaal-rebellion"
+      },
+      {
+        "outlet": "Wikipedia",
+        "headline": "Bastar Rebellion",
+        "year": 2026,
+        "excerpt": "On 6 February 1910 violence erupted throughout the state, directed at forest officials and outsiders. Until 13 February the tribals practically ruled Bastar.",
+        "stance": "independent",
+        "url": "https://en.wikipedia.org/wiki/Bastar_rebellion"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "mombi-1917",
+    "conflictId": "kuki-1917",
+    "name": "Mombi burned",
+    "kind": "raid",
+    "time": {
+      "year": 1917,
+      "precision": "day",
+      "month": 10,
+      "day": 17
+    },
+    "place": {
+      "name": "Mombi",
+      "longitude": 93.915,
+      "latitude": 24.132,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Manipur",
+        "district": "Chandel"
+      }
+    },
+    "summary": "Kuki chiefs had refused the Labour Corps. J. C. Higgins took fifty rifles to Mombi and burned the village on 17 October 1917. The Political Officers were reprimanded for using force to recruit labour. Armed resistance followed into 1919. Colonial returns later listed 126 villages burned.",
+    "sides": [
+      {
+        "label": "Political Agent’s column",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "britain-crown"
+      },
+      {
+        "label": "Kuki of Mombi under Ngulkhup",
+        "role": "target",
+        "kind": "insurgent",
+        "actorId": "kuki"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "Mombi village",
+        "contested": true,
+        "note": "The documented fact of 17 October is the burning of the village, not a named death roll for that day. The war’s later colonial return — 126 villages burned — is the scale of the method."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Wikipedia",
+        "headline": "The burning of Mombi",
+        "year": 2026,
+        "excerpt": "Negotiations failed, and J. C. Higgins took 50 soldiers to Mombi Kuki village and burned it down on 17 October 1917. The Political Officers were reprimanded and forbidden to use force for labour recruitment.",
+        "stance": "independent",
+        "url": "https://en.wikipedia.org/wiki/Kuki_Rebellion_of_1917%E2%80%931919"
+      },
+      {
+        "outlet": "Scroll.in",
+        "headline": "A war of independence that India forgot",
+        "year": 2017,
+        "excerpt": "The British had demanded recruits to the Labour Corps and the Manipur king promised 2,000 men. Kuki chiefs refused and declared war. The conflict lasted two years.",
+        "stance": "independent",
+        "url": "https://scroll.in/article/847136/a-war-of-independence-that-india-forgot-kukis-rose-up-against-the-british-in-1917"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "alexandrapur-1871",
+    "conflictId": "lushai-expeditions",
+    "name": "Alexandrapur raid",
+    "kind": "raid",
+    "time": {
+      "year": 1871,
+      "precision": "day",
+      "month": 1,
+      "day": 23
+    },
+    "place": {
+      "name": "Alexandrapur tea garden, Cachar",
+      "longitude": 92.56,
+      "latitude": 24.68,
+      "precision": "district",
+      "admin": {
+        "country": "India",
+        "state": "Assam",
+        "district": "Cachar"
+      }
+    },
+    "summary": "A Howlong party under Bengkhuaia struck the Alexandrapur tea garden in Cachar. James Winchester was killed. His six-year-old daughter Mary was carried into the hills. The Crown used the child as the public case for the 1871–72 Lushai expedition, then for posts and annexation.",
+    "sides": [
+      {
+        "label": "Howlong Lushai under Bengkhuaia",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "lushai"
+      },
+      {
+        "label": "Cachar tea garden and labourers",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "Planter James Winchester and garden labourers",
+        "contested": true,
+        "note": "Winchester is named. Labourers were killed; Mary Winchester, aged about six, was taken. No agreed integer for the garden that morning."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Wikipedia",
+        "headline": "Alexandrapore, 23 January 1871",
+        "year": 2026,
+        "excerpt": "The same day the tea garden of Alexandrapore was destroyed by a party of the Howlong tribe. James Winchester was speared. His child Mary, a girl of six years, was carried off. The rescue of this kidnapped British girl became a major factor in the expedition that followed.",
+        "stance": "independent",
+        "url": "https://en.wikipedia.org/wiki/Lushai_Expedition"
+      },
+      {
+        "outlet": "Internet Archive",
+        "headline": "The Lushai Expedition 1871–1872",
+        "year": 1873,
+        "excerpt": "Woodthorpe’s official narrative of the two columns sent into the hills after the Cachar raids.",
+        "stance": "state",
+        "url": "https://archive.org/details/in.ernet.dli.2015.458408"
+      }
+    ],
+    "confidence": "high"
+  }
+]

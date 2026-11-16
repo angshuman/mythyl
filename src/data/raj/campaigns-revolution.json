@@ -1,0 +1,1004 @@
+[
+  {
+    "id": "phadke-1879",
+    "slug": "phadke-1879",
+    "name": "Phadke’s Deccan rising",
+    "aliases": [
+      "Vasudev Balwant Phadke",
+      "Ramoshi rising of 1879"
+    ],
+    "summary": "After the Deccan famine, Vasudev Balwant Phadke left the Military Accounts office in Pune and raised Ramoshi, Koli, Bhil and Dhangar bands against Crown rule. The first raid was at Dhamari on 23 February 1879. He was taken in July, transported to Aden, and died in jail in 1883. The method was the treasury and the hill, not the petition.",
+    "scale": "small",
+    "scaleRationale": "A few months of raids in the western Deccan; a clerk’s army, not a presidency war.",
+    "types": [
+      "agitation-with-violence"
+    ],
+    "family": "agitation",
+    "theaters": [
+      "south"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "caste",
+      "class",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "taxation",
+        "centrality": "contributing"
+      },
+      {
+        "kind": "land",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1879,
+        "precision": "day",
+        "month": 2,
+        "day": 23
+      },
+      "end": {
+        "year": 1879,
+        "precision": "day",
+        "month": 7,
+        "day": 20
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-pune-phadke",
+        "name": "Pune",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 73.856,
+        "latitude": 18.52,
+        "admin": {
+          "country": "India",
+          "state": "Maharashtra"
+        }
+      },
+      {
+        "id": "loc-dhamari",
+        "name": "Dhamari, Shirur",
+        "kind": "point",
+        "precision": "village",
+        "longitude": 74.096,
+        "latitude": 18.792,
+        "admin": {
+          "country": "India",
+          "state": "Maharashtra",
+          "district": "Pune"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 73.856,
+      "latitude": 18.52,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "phadke",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "ramoshis",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Ramoshis",
+        "kind": "tribe"
+      },
+      {
+        "name": "Kolis, Bhils and Dhangars",
+        "kind": "tribe"
+      }
+    ],
+    "harm": {
+      "note": "The raids took cash and bond-books. A death integer for 1879 is not in the sources used here."
+    },
+    "historiography": [
+      {
+        "claim": "The first non-royal to preach swaraj by arms after 1857, a short and small rising that still named a method.",
+        "heldBy": "Lok Sabha profile; later Pune histories"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "deccan-riots-1875",
+        "note": "The same Deccan distress; Phadke turned the moneylender raid into a war on the Raj."
+      },
+      {
+        "kind": "next",
+        "targetId": "chapekar-1897"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Know Your City: Vasudev Balwant Phadke",
+        "creator": "The Indian Express",
+        "year": 2021,
+        "url": "https://indianexpress.com/article/cities/pune/know-your-city-vasudev-balwant-phadke-pune-7644141/"
+      },
+      {
+        "title": "Vasudev Balwant Phadke: A Profile",
+        "creator": "Lok Sabha Secretariat",
+        "year": 2004
+      },
+      {
+        "title": "Vasudev Balvant Phadke: First Indian Rebel Against British Rule",
+        "creator": "V. S. Joshi"
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "chapekar-1897",
+    "slug": "chapekar-1897",
+    "name": "Chapekar assassination of W. C. Rand",
+    "aliases": [
+      "Chapekar brothers",
+      "Rand assassination",
+      "Poona plague assassination"
+    ],
+    "summary": "On the night of Queen Victoria’s Diamond Jubilee, 22 June 1897, the Chapekar brothers shot W. C. Rand, chairman of the Poona Plague Committee, on Ganeshkhind Road. Lieutenant Ayerst died at once. Rand died on 3 July. The plague searches had gone through houses, kitchens and temples. Damodar, Vasudeo and Balkrishna were hanged.",
+    "scale": "small",
+    "scaleRationale": "An assassination and three hangings; Pune, not a campaign of armies.",
+    "types": [
+      "agitation-with-violence"
+    ],
+    "family": "agitation",
+    "theaters": [
+      "south"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "religion",
+      "ideology"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "identity",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1897,
+        "precision": "day",
+        "month": 6,
+        "day": 22
+      },
+      "end": {
+        "year": 1899,
+        "precision": "day",
+        "month": 5,
+        "day": 12
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-ganeshkhind",
+        "name": "Ganeshkhind Road, Pune",
+        "kind": "point",
+        "precision": "building",
+        "longitude": 73.827,
+        "latitude": 18.553,
+        "admin": {
+          "country": "India",
+          "state": "Maharashtra",
+          "district": "Pune"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 73.827,
+      "latitude": 18.553,
+      "precision": "building"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "chapekar",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Pune residents under plague search",
+        "kind": "nationality"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "all",
+        "min": 2,
+        "max": 5,
+        "sources": [
+          {
+            "title": "How Pune’s 1897 plague led the Chapekar brothers to assassinate a British officer",
+            "creator": "The Indian Express",
+            "year": 2026,
+            "url": "https://indianexpress.com/article/explained/explained-history/chapekar-brothers-story-assassination-pune-plague-10752318/"
+          }
+        ],
+        "contested": false,
+        "note": "Ayerst dead on 22 June; Rand on 3 July. The three brothers were hanged in 1898–99. No padded crowd count."
+      }
+    },
+    "relations": [
+      {
+        "kind": "previous",
+        "targetId": "phadke-1879",
+        "note": "The Chapekars grew up on Phadke’s story in the same Pune streets."
+      }
+    ],
+    "sources": [
+      {
+        "title": "How Pune’s 1897 plague led the Chapekar brothers to assassinate a British officer",
+        "creator": "The Indian Express",
+        "year": 2026,
+        "url": "https://indianexpress.com/article/explained/explained-history/chapekar-brothers-story-assassination-pune-plague-10752318/"
+      },
+      {
+        "title": "Musings from the Gallows",
+        "creator": "Damodar Hari Chapekar",
+        "note": "Autobiography cited in later Pune accounts."
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "alipore-1908",
+    "slug": "alipore-bomb-case",
+    "name": "Alipore bomb case",
+    "aliases": [
+      "Muzaffarpur bombing",
+      "Khudiram Bose",
+      "Maniktala conspiracy"
+    ],
+    "summary": "On 30 April 1908 Khudiram Bose and Prafulla Chaki threw a bomb at a carriage leaving the European Club in Muzaffarpur, intending to kill magistrate Douglas Kingsford. Kingsford was in the next carriage. Two British women, the wife and daughter of barrister Pringle Kennedy, were killed. The police opened the Maniktala garden house. The Alipore trial followed. Khudiram, eighteen, was hanged at Muzaffarpur on 11 August.",
+    "scale": "medium",
+    "scaleRationale": "A bombing, a presidency trial, and the making of a teenage martyr.",
+    "types": [
+      "agitation-with-violence"
+    ],
+    "family": "agitation",
+    "theaters": [
+      "gangetic",
+      "bengal"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "one-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation",
+      "ideology"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1908,
+        "precision": "day",
+        "month": 4,
+        "day": 30
+      },
+      "end": {
+        "year": 1909,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-muzaffarpur",
+        "name": "Muzaffarpur",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 85.391,
+        "latitude": 26.12,
+        "admin": {
+          "country": "India",
+          "state": "Bihar",
+          "district": "Muzaffarpur"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 85.391,
+      "latitude": 26.12,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "anushilan-samiti",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Bengali revolutionaries",
+        "kind": "ethnicity"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Alipore bomb case / Emperor v. Aurobindo Ghosh and others"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "civilian",
+        "min": 2,
+        "max": 2,
+        "best": 2,
+        "sources": [
+          {
+            "title": "Sri Aurobindo",
+            "creator": "Encyclopaedia Britannica",
+            "url": "https://www.britannica.com/biography/Sri-Aurobindo"
+          }
+        ],
+        "contested": false,
+        "note": "Mrs Kennedy and her daughter died in the wrong carriage. Chaki shot himself. Khudiram was hanged on 11 August 1908. Later Alipore sentences were transportation, not a second death count for Muzaffarpur."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "An unsuccessful attempt on Kingsford that opened the Maniktala circle to the police.",
+        "heldBy": "Britannica; the Alipore record"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sri Aurobindo",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Sri-Aurobindo"
+      },
+      {
+        "title": "Mamata pays tribute to Khudiram Bose",
+        "creator": "The Hindu",
+        "year": 2025,
+        "url": "https://www.thehindu.com/news/national/west-bengal/mamata-pays-tribute-to-khudiram-bose-slams-makers-of-kesari-chapter-2-film/article69919018.ece"
+      }
+    ],
+    "confidence": "high",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "ghadr-1915",
+    "slug": "ghadar-conspiracy",
+    "name": "Ghadar conspiracy",
+    "aliases": [
+      "Ghadar Mutiny",
+      "February 1915 rising",
+      "First Lahore conspiracy case"
+    ],
+    "summary": "Punjabi migrants organised as the Ghadar Party on the Pacific Coast came home after August 1914 to raise the Indian Army. Rash Behari Bose set a rising for February 1915. An informer reached the CID. Police raided the Lahore houses on the 19th. The rising did not rise. The Lahore conspiracy trials hanged the men it had named.",
+    "scale": "medium",
+    "scaleRationale": "A transnational conspiracy and a foiled army mutiny; the geography is Punjab and the Pacific.",
+    "types": [
+      "agitation-with-violence",
+      "mutiny"
+    ],
+    "family": "agitation",
+    "theaters": [
+      "punjab"
+    ],
+    "rule": "crown",
+    "internalExternal": "transnational",
+    "direction": "two-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "nation",
+      "religion",
+      "migration",
+      "ideology"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "citizenship",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1914,
+        "precision": "month",
+        "month": 8
+      },
+      "end": {
+        "year": 1915,
+        "precision": "day",
+        "month": 11,
+        "day": 16
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-lahore-ghadar",
+        "name": "Lahore",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 74.329,
+        "latitude": 31.565,
+        "admin": {
+          "country": "Pakistan",
+          "state": "Punjab"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 74.329,
+      "latitude": 31.565,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "ghadar-party",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Punjabi Sikhs",
+        "kind": "religion"
+      },
+      {
+        "name": "Pacific Coast Indian migrants",
+        "kind": "nationality",
+        "role": "returned Ghadarites"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Defence of India Act, 1915 / First Lahore conspiracy case"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "insurgent",
+        "min": 7,
+        "sources": [
+          {
+            "title": "The rebels who sparked Ghadar",
+            "creator": "The Tribune",
+            "year": 2019,
+            "url": "https://www.tribuneindia.com/news/features/the-rebels-who-sparked-ghadar-321/"
+          }
+        ],
+        "contested": true,
+        "note": "Seven men were hanged on 16 November 1915 in the first Lahore conspiracy case. Other batches and commutations sit outside that morning. February itself was a raid, not a battlefield integer."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "A heroic failure whose printed circuit linked California to Punjab.",
+        "heldBy": "Harish K. Puri; Maia Ramnath"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "komagata-maru",
+        "note": "The Budge Budge firing is Ghadar’s most famous landing that was not a landing."
+      },
+      {
+        "kind": "related",
+        "targetId": "singapore-mutiny-1915",
+        "note": "Punjab CID and later writers tied Ghadar propaganda to the 5th Light Infantry. The connection is argued, not a single order."
+      }
+    ],
+    "sources": [
+      {
+        "title": "The rebels who sparked Ghadar",
+        "creator": "The Tribune",
+        "year": 2019,
+        "url": "https://www.tribuneindia.com/news/features/the-rebels-who-sparked-ghadar-321/"
+      },
+      {
+        "title": "India As I Knew It, 1885–1925",
+        "creator": "Michael O’Dwyer",
+        "year": 1925,
+        "url": "https://archive.org/details/in.ernet.dli.2015.276594",
+        "note": "Lieutenant-Governor’s account of the 19 February Lahore raids."
+      }
+    ],
+    "confidence": "medium",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "singapore-mutiny-1915",
+    "slug": "singapore-mutiny",
+    "name": "Singapore mutiny",
+    "aliases": [
+      "1915 Singapore Mutiny",
+      "5th Light Infantry mutiny"
+    ],
+    "summary": "On 15 February 1915 the Rajput companies of the 5th Light Infantry mutinied at Alexandra Barracks, Singapore. The regiment was about to sail; rumour said they were being sent against the Ottomans. British officers, soldiers and civilians were killed in the streets. A court-martial shot forty-seven. Crewe told the Lords it was a regimental riot. Later writers kept Ghadar and pan-Islam in the file.",
+    "scale": "medium",
+    "scaleRationale": "A wartime mutiny of an Indian regiment in a Crown colony; days of shooting, months of courts-martial.",
+    "types": [
+      "mutiny"
+    ],
+    "family": "agitation",
+    "theaters": [
+      "southeast-asia"
+    ],
+    "rule": "crown",
+    "internalExternal": "mixed",
+    "direction": "two-sided",
+    "religiousDimension": "contested",
+    "identityDimensions": [
+      "religion",
+      "nation",
+      "ideology"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "religion",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1915,
+        "precision": "day",
+        "month": 2,
+        "day": 15
+      },
+      "end": {
+        "year": 1915,
+        "precision": "month",
+        "month": 5
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-alexandra-barracks",
+        "name": "Alexandra Barracks, Singapore",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 103.802,
+        "latitude": 1.287,
+        "admin": {
+          "country": "Singapore"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 103.802,
+      "latitude": 1.287,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "5th-light-infantry",
+        "role": "insurgent"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Rajput Muslim sepoys",
+        "kind": "religion"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "all",
+        "min": 44,
+        "max": 94,
+        "sources": [
+          {
+            "title": "Re-examining the 1915 Singapore mutiny",
+            "creator": "Ranjit Singh Malhi / Malaysiakini",
+            "year": 2022,
+            "url": "https://www.malaysiakini.com/columns/634494"
+          },
+          {
+            "title": "The Regimental Riot At Singapore",
+            "creator": "Hansard",
+            "year": 1915,
+            "url": "https://hansard.parliament.uk/lords/1915-03-02/debates/36f889f0-916a-4d5c-b576-86f2c6476c45/TheRegimentalRiotAtSingapore"
+          }
+        ],
+        "contested": true,
+        "note": "Malaysiakini, citing the common later count, gives 44 dead excluding mutineers, and 47 of the 5th Light Infantry sentenced to death. Hansard in March 1915 had no civilian integer and spoke of some fifty rioters killed or wounded. The band mixes the street and the later firing squad."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "A purely local regimental feud, not a jihad.",
+        "heldBy": "Crewe in the Lords, 2 March 1915"
+      },
+      {
+        "claim": "Pan-Islam and Ghadar propaganda in an ill-disciplined regiment.",
+        "heldBy": "later writers using Colonial Office and Punjab CID files"
+      }
+    ],
+    "relations": [
+      {
+        "kind": "related",
+        "targetId": "ghadr-1915"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Regimental Riot At Singapore",
+        "creator": "Hansard",
+        "year": 1915,
+        "url": "https://hansard.parliament.uk/lords/1915-03-02/debates/36f889f0-916a-4d5c-b576-86f2c6476c45/TheRegimentalRiotAtSingapore"
+      },
+      {
+        "title": "Re-examining the 1915 Singapore mutiny",
+        "creator": "Ranjit Singh Malhi / Malaysiakini",
+        "year": 2022,
+        "url": "https://www.malaysiakini.com/columns/634494"
+      }
+    ],
+    "confidence": "medium",
+    "northeast": false,
+    "status": "published"
+  },
+  {
+    "id": "ina-1943",
+    "slug": "indian-national-army",
+    "name": "Indian National Army",
+    "aliases": [
+      "Azad Hind",
+      "Azad Hind Fauj",
+      "INA"
+    ],
+    "summary": "Subhas Chandra Bose took the Indian National Army in Japanese-occupied Southeast Asia in 1943 and declared Azad Hind that October. INA units crossed into Manipur with the Japanese Fifteenth Army in March 1944. They did not take Imphal. The army dissolved with Japan’s defeat. The Red Fort trials of 1945 made the defeat a political fact in India.",
+    "scale": "large",
+    "scaleRationale": "An army raised from prisoners and the diaspora, committed on India’s north-east frontier in 1944.",
+    "types": [
+      "agitation-with-violence",
+      "military-operation"
+    ],
+    "family": "agitation",
+    "theaters": [
+      "northeast",
+      "burma"
+    ],
+    "rule": "crown",
+    "internalExternal": "transnational",
+    "direction": "two-sided",
+    "religiousDimension": "absent",
+    "identityDimensions": [
+      "nation",
+      "ideology"
+    ],
+    "resources": [
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "autonomy",
+        "centrality": "core"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1943,
+        "precision": "month",
+        "month": 7
+      },
+      "end": {
+        "year": 1945,
+        "precision": "month",
+        "month": 8
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-imphal",
+        "name": "Imphal",
+        "kind": "point",
+        "precision": "city",
+        "longitude": 93.937,
+        "latitude": 24.817,
+        "admin": {
+          "country": "India",
+          "state": "Manipur"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 93.937,
+      "latitude": 24.817,
+      "precision": "city"
+    },
+    "parties": [
+      {
+        "actorId": "britain-crown",
+        "role": "state"
+      },
+      {
+        "actorId": "ina",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "japan-empire",
+        "role": "sponsor"
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Indian prisoners of war and Southeast Asian Indian civilians",
+        "kind": "nationality"
+      }
+    ],
+    "legalRegimes": [
+      {
+        "name": "Provisional Government of Azad Hind, 21 October 1943"
+      },
+      {
+        "name": "INA / Red Fort trials, 1945–46"
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "all",
+        "sources": [
+          {
+            "title": "Battles of Imphal and Kohima",
+            "creator": "National Army Museum",
+            "url": "https://www.nam.ac.uk/explore/battle-imphal"
+          }
+        ],
+        "contested": true,
+        "note": "NAM gives Japanese Fifteenth Army losses of 53,000 dead and missing at Imphal–Kohima, and British casualties of about 12,500 at Imphal and 4,000 at Kohima. Those are campaign totals. An INA-only integer is not recovered here."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "A Japanese auxiliary that failed in the field.",
+        "heldBy": "British official and much military history"
+      },
+      {
+        "claim": "A liberation army whose political afterlife, in the Red Fort trials, mattered more than Imphal.",
+        "heldBy": "Indian nationalist writing; later political histories of 1945–46"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Subhas Chandra Bose",
+        "creator": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Subhas-Chandra-Bose"
+      },
+      {
+        "title": "Battles of Imphal and Kohima",
+        "creator": "National Army Museum",
+        "url": "https://www.nam.ac.uk/explore/battle-imphal"
+      }
+    ],
+    "confidence": "high",
+    "northeast": true,
+    "status": "published"
+  },
+  {
+    "id": "telangana-1946",
+    "slug": "telangana-rebellion",
+    "name": "Telangana rebellion",
+    "aliases": [
+      "Telangana armed struggle",
+      "Telangana peasant revolt"
+    ],
+    "summary": "In July 1946 a sangham procession at Kadavendi was fired on by a deshmukh’s men. Doddi Komarayya was killed. Peasants in Nalgonda, Warangal and neighbouring taluks of Hyderabad State seized grain, ended vetti, and fought landlords and, later, Razakars. This map stops at 1947. The Nizam had not acceded. The Indian Army had not yet gone in.",
+    "scale": "medium",
+    "scaleRationale": "A dense peasant war across Telangana districts of Hyderabad, cut at 1947 for this map. The later years against the Indian Army are another file.",
+    "types": [
+      "peasant-rising"
+    ],
+    "family": "peasant",
+    "theaters": [
+      "south"
+    ],
+    "rule": "crown",
+    "internalExternal": "internal",
+    "direction": "multi-sided",
+    "religiousDimension": "present",
+    "identityDimensions": [
+      "class",
+      "caste",
+      "region"
+    ],
+    "resources": [
+      {
+        "kind": "land",
+        "centrality": "core"
+      },
+      {
+        "kind": "political-power",
+        "centrality": "core"
+      },
+      {
+        "kind": "autonomy",
+        "centrality": "contributing"
+      }
+    ],
+    "time": {
+      "start": {
+        "year": 1946,
+        "precision": "day",
+        "month": 7,
+        "day": 4
+      },
+      "end": {
+        "year": 1947,
+        "precision": "year"
+      }
+    },
+    "locations": [
+      {
+        "id": "loc-nalgonda",
+        "name": "Nalgonda",
+        "kind": "point",
+        "precision": "district",
+        "longitude": 79.267,
+        "latitude": 17.054,
+        "admin": {
+          "country": "India",
+          "state": "Telangana",
+          "district": "Nalgonda"
+        }
+      }
+    ],
+    "primaryPoint": {
+      "longitude": 79.267,
+      "latitude": 17.054,
+      "precision": "district"
+    },
+    "parties": [
+      {
+        "actorId": "nizam-hyderabad",
+        "role": "state"
+      },
+      {
+        "actorId": "cpi-telangana",
+        "role": "insurgent"
+      },
+      {
+        "actorId": "razakars",
+        "role": "militia"
+      },
+      {
+        "actorId": "britain-crown",
+        "role": "state",
+        "note": "Paramount power over Hyderabad until August 1947."
+      }
+    ],
+    "peoples": [
+      {
+        "name": "Telangana peasantry",
+        "kind": "caste"
+      },
+      {
+        "name": "Kuruma / Golla shepherds",
+        "kind": "caste",
+        "note": "Doddi Komarayya’s community."
+      }
+    ],
+    "harm": {
+      "killed": {
+        "unit": "persons",
+        "of": "civilian",
+        "max": 4000,
+        "sources": [
+          {
+            "title": "Social origins of the peasant insurrection in Telangana (1946–51)",
+            "creator": "D. N. Dhanagare",
+            "year": 1974,
+            "url": "https://www.marxists.org/subject/india/dhanagare-74.pdf"
+          },
+          {
+            "title": "Telangana People’s Struggle and Its Lessons",
+            "creator": "P. Sundarayya",
+            "year": 1972
+          }
+        ],
+        "contested": true,
+        "note": "The often-cited figure of about four thousand dead is for the whole 1946–51 struggle, including the years after this map’s 1947 cut. A clean 1946–47 integer is not recovered. Do not treat 4,000 as a 1947 census."
+      }
+    },
+    "historiography": [
+      {
+        "claim": "A CPI-led class war against vetti and the deshmukh.",
+        "heldBy": "Dhanagare; Sundarayya"
+      },
+      {
+        "claim": "A struggle that, after August 1947, also became a war on the Razakars and then on the Indian Union.",
+        "heldBy": "later political histories of Hyderabad"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Martyr’s statue planned at Lakkaram",
+        "creator": "The Hindu",
+        "year": 2020,
+        "url": "https://www.thehindu.com/news/cities/Hyderabad/martyrs-statue-planned-at-lakkaram/article32423808.ece"
+      },
+      {
+        "title": "Social origins of the peasant insurrection in Telangana (1946–51)",
+        "creator": "D. N. Dhanagare",
+        "year": 1974,
+        "url": "https://www.marxists.org/subject/india/dhanagare-74.pdf"
+      },
+      {
+        "title": "Telangana People’s Struggle and Its Lessons",
+        "creator": "P. Sundarayya",
+        "year": 1972
+      }
+    ],
+    "confidence": "medium",
+    "northeast": false,
+    "status": "published"
+  }
+]

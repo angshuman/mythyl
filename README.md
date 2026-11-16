@@ -1,6 +1,6 @@
 # mythyl
 
-Visual essays at [mythyl.art](https://mythyl.art). First piece: **Conflicts in India** after 1947.
+Infographics at [mythyl.art](https://mythyl.art). A subject, made visible.
 
 ```
 npm install

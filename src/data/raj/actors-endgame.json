@@ -1,0 +1,196 @@
+[
+  {
+    "id": "namdhari",
+    "name": "Namdhari (Kuka) Sikhs",
+    "aliases": [
+      "Kukas",
+      "Kookas"
+    ],
+    "kind": "religious-community",
+    "religion": [
+      "Sikh"
+    ],
+    "ethnicity": [
+      "Punjabi"
+    ],
+    "active": {
+      "start": {
+        "year": 1857,
+        "precision": "year"
+      }
+    }
+  },
+  {
+    "id": "cowan",
+    "name": "J. L. Cowan",
+    "aliases": [
+      "John Lambert Cowan",
+      "Deputy Commissioner Cowan"
+    ],
+    "kind": "state-agency",
+    "parentId": "britain-crown",
+    "active": {
+      "start": {
+        "year": 1872,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1872,
+        "precision": "year"
+      }
+    }
+  },
+  {
+    "id": "ram-singh-namdhari",
+    "name": "Satguru Ram Singh",
+    "aliases": [
+      "Baba Ram Singh",
+      "Ram Singh of Bhaini Sahib"
+    ],
+    "kind": "religious-community",
+    "parentId": "namdhari",
+    "religion": [
+      "Sikh"
+    ],
+    "active": {
+      "start": {
+        "year": 1857,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1885,
+        "precision": "year"
+      }
+    }
+  },
+  {
+    "id": "mahant-narain-das",
+    "name": "Mahant Narain Das",
+    "aliases": [
+      "Narayan Das",
+      "Udasi mahant of Nankana Sahib"
+    ],
+    "kind": "religious-community",
+    "religion": [
+      "Hindu",
+      "Udasi"
+    ]
+  },
+  {
+    "id": "akali-reformers",
+    "name": "Akali reformers",
+    "aliases": [
+      "Akali jathas",
+      "Shiromani Committee",
+      "Gurdwara Reform movement"
+    ],
+    "kind": "religious-community",
+    "religion": [
+      "Sikh"
+    ],
+    "active": {
+      "start": {
+        "year": 1920,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1925,
+        "precision": "year"
+      }
+    }
+  },
+  {
+    "id": "muslim-league",
+    "name": "All-India Muslim League",
+    "aliases": [
+      "Muslim League",
+      "AIML"
+    ],
+    "kind": "political-party",
+    "ideology": [
+      "Pakistan demand"
+    ],
+    "religion": [
+      "Islam"
+    ],
+    "active": {
+      "start": {
+        "year": 1906,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1947,
+        "precision": "year"
+      }
+    }
+  },
+  {
+    "id": "jinnah",
+    "name": "Muhammad Ali Jinnah",
+    "aliases": [
+      "Mohammed Ali Jinnah"
+    ],
+    "kind": "political-party",
+    "parentId": "muslim-league"
+  },
+  {
+    "id": "suhrawardy",
+    "name": "H. S. Suhrawardy",
+    "aliases": [
+      "Huseyn Shaheed Suhrawardy",
+      "Premier of Bengal"
+    ],
+    "kind": "political-party",
+    "parentId": "muslim-league"
+  },
+  {
+    "id": "gholam-sarwar",
+    "name": "Gholam Sarwar Husseini",
+    "aliases": [
+      "Ghulam Sarwar",
+      "Pir of Noakhali"
+    ],
+    "kind": "militia",
+    "religion": [
+      "Islam"
+    ]
+  },
+  {
+    "id": "punjab-boundary-force",
+    "name": "Punjab Boundary Force",
+    "aliases": [
+      "PBF",
+      "Indian Boundary Force"
+    ],
+    "kind": "military",
+    "parentId": "britain-crown",
+    "active": {
+      "start": {
+        "year": 1947,
+        "precision": "day",
+        "month": 7,
+        "day": 17
+      },
+      "end": {
+        "year": 1947,
+        "precision": "month",
+        "month": 9
+      }
+    }
+  },
+  {
+    "id": "sikh-jathas",
+    "name": "Sikh jathas",
+    "aliases": [
+      "Sikh armed bands",
+      "Akal Fauj remnants"
+    ],
+    "kind": "militia",
+    "religion": [
+      "Sikh"
+    ],
+    "ethnicity": [
+      "Punjabi"
+    ]
+  }
+]

@@ -22,10 +22,10 @@ import {
 } from "@/lib/raj";
 import { NewsList, type MapFocus } from "./RajMapCard";
 
-const BAR_H = 6;
-const TRACK_GAP = 6;
-const LANE_PAD = 6;
-const DAY = 7;
+const BAR_H = 4;
+const TRACK_GAP = 3;
+const LANE_PAD = 3;
+const DAY = 6;
 const DECADES = [1800, 1857, 1905, 1919, 1942];
 const CROWN_YEAR = 1858;
 
@@ -94,10 +94,13 @@ export function RajTimeline({
     [incidents, campaigns, enabledFamilies],
   );
 
-  const panel = hovered ?? selected;
   const hotConflictId =
-    panel?.type === "conflict" ? panel.conflict.id : panel?.type === "incident" ? panel.incident.conflictId : null;
-  const hotIncidentId = panel?.type === "incident" ? panel.incident.id : null;
+    hovered?.type === "conflict"
+      ? hovered.conflict.id
+      : hovered?.type === "incident"
+        ? hovered.incident.conflictId
+        : null;
+  const hotIncidentId = hovered?.type === "incident" ? hovered.incident.id : null;
   const openFamily =
     selected?.type === "conflict"
       ? selected.conflict.family
@@ -327,6 +330,7 @@ export function RajTimeline({
                           className="years-bar"
                           data-ongoing={campaign.time.ongoing ? "true" : "false"}
                           data-conflict={campaign.id}
+                          data-hot={hot ? "true" : "false"}
                           aria-label={campaign.name}
                           title={campaign.name}
                           style={{
@@ -336,7 +340,6 @@ export function RajTimeline({
                             height: BAR_H,
                             background: family.color,
                             opacity: dim ? 0.22 : hot ? 1 : 0.9,
-                            boxShadow: hot ? `0 0 0 1px #e7dcc8, 0 0 16px ${family.color}66` : "none",
                             zIndex: hot ? 4 : 2,
                           }}
                           onMouseEnter={() => onHover({ type: "conflict", conflict: campaign })}
@@ -363,7 +366,9 @@ export function RajTimeline({
                         const track = campaign ? packed.get(campaign.id) ?? 0 : 0;
                         const top = LANE_PAD + track * (BAR_H + TRACK_GAP) + (BAR_H - DAY) / 2;
                         const left = yearToPct(incidentAt(incident));
-                        const hot = hotIncidentId === incident.id;
+                        const hot =
+                          hotIncidentId === incident.id ||
+                          (!hotIncidentId && hotConflictId === campaign?.id);
                         const dim = Boolean(hotConflictId) && campaign?.id !== hotConflictId;
                         return (
                           <button
@@ -371,6 +376,7 @@ export function RajTimeline({
                             type="button"
                             className="years-day"
                             data-day={incident.id}
+                            data-hot={hot ? "true" : "false"}
                             aria-label={incident.name}
                             title={`${incident.name} · ${incident.time.year}`}
                             style={{
@@ -380,11 +386,7 @@ export function RajTimeline({
                               height: DAY,
                               background: family.color,
                               opacity: dim ? 0.2 : 1,
-                              boxShadow: hot
-                                ? "0 0 0 1px #070806, 0 0 0 3px #e7dcc8"
-                                : "0 0 0 1px #070806",
                               zIndex: hot ? 6 : 5,
-                              transform: hot ? "rotate(45deg) scale(1.28)" : "rotate(45deg)",
                             }}
                             onMouseEnter={() => onHover({ type: "incident", incident })}
                             onMouseLeave={() =>

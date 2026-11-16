@@ -3,56 +3,56 @@
     "id": "conquest",
     "label": "Conquest",
     "color": "#c4a06a",
-    "hint": "Company wars for territory"
+    "hint": "Company wars of territorial conquest"
   },
   {
     "id": "annexation",
     "label": "Annexation",
     "color": "#9a7b4f",
-    "hint": "Lapse, treaty, a province taken at a desk"
+    "hint": "Doctrine of Lapse and annexation by treaty"
   },
   {
     "id": "revolt",
     "label": "1857",
     "color": "#b54a3a",
-    "hint": "The year the Raj renamed"
+    "hint": "The 1857 rebellion and its suppression"
   },
   {
     "id": "tribal",
     "label": "Hills",
     "color": "#7a8f5a",
-    "hint": "Santhal, Munda, Rampa, Malabar",
+    "hint": "Adivasi and hill risings against colonial rule",
     "group": "rural"
   },
   {
     "id": "peasant",
     "label": "Peasant",
     "color": "#d4a06a",
-    "hint": "Indigo, Deccan, Champaran",
+    "hint": "Agrarian revolt against rent, indigo, and debt",
     "group": "rural"
   },
   {
     "id": "massacre",
     "label": "Massacre",
     "color": "#8b2e2e",
-    "hint": "A bagh, a bazaar, a crawling order"
+    "hint": "Colonial massacre of civilians"
   },
   {
     "id": "agitation",
     "label": "Movement",
     "color": "#c9a227",
-    "hint": "Swadeshi to the Navy"
+    "hint": "Nationalist agitation and revolutionary violence"
   },
   {
     "id": "famine",
     "label": "Famine",
     "color": "#8a7350",
-    "hint": "Hunger the state counted, or did not"
+    "hint": "Famine under Company and Crown"
   },
   {
     "id": "penal",
     "label": "Jail",
     "color": "#5c6b7a",
-    "hint": "Kala Pani, a wagon, an Act"
+    "hint": "Transportation, detention, and colonial criminal law"
   }
 ]

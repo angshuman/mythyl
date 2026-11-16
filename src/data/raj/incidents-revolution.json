@@ -1,0 +1,450 @@
+[
+  {
+    "id": "dhamari-raid",
+    "conflictId": "phadke-1879",
+    "name": "Dhamari raid",
+    "kind": "raid",
+    "time": {
+      "year": 1879,
+      "precision": "day",
+      "month": 2,
+      "day": 23
+    },
+    "place": {
+      "name": "Dhamari, Shirur",
+      "longitude": 74.096,
+      "latitude": 18.792,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Maharashtra",
+        "district": "Pune"
+      }
+    },
+    "summary": "Phadke’s men entered Dhamari after dark, stripped Marwari houses, and burned account books. The Indian Express, following the Lok Sabha profile, calls it the first attack of the 1879 rising. A death integer for the night is not in those pages.",
+    "sides": [
+      {
+        "label": "Phadke’s Ramoshi band",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "phadke"
+      },
+      {
+        "label": "Marwari houses at Dhamari",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "unknown",
+        "sideLabel": "Dhamari village",
+        "contested": true,
+        "note": "The sources describe loot and burned books, not a body count."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Indian Express",
+        "headline": "The first attack was on Dhamari",
+        "year": 2021,
+        "excerpt": "On February 23, 1879, the first attack was on Dhamari, a village in Poona, where the houses of Marwaris were stripped of their wealth and their account books set on fire.",
+        "stance": "independent",
+        "url": "https://indianexpress.com/article/cities/pune/know-your-city-vasudev-balwant-phadke-pune-7644141/"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rand-assassination",
+    "conflictId": "chapekar-1897",
+    "name": "Assassination of W. C. Rand",
+    "kind": "assassination",
+    "time": {
+      "year": 1897,
+      "precision": "day",
+      "month": 6,
+      "day": 22
+    },
+    "place": {
+      "name": "Ganeshkhind Road, Pune",
+      "longitude": 73.827,
+      "latitude": 18.553,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Maharashtra",
+        "district": "Pune"
+      }
+    },
+    "summary": "As carriages left Government House after the Diamond Jubilee, Damodar and Balkrishna Chapekar fired on two coaches. Lieutenant Ayerst died at once. Walter Charles Rand, chairman of the Poona Plague Committee, was hit and died at Sassoon Hospital on 3 July.",
+    "sides": [
+      {
+        "label": "Chapekar brothers",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "chapekar"
+      },
+      {
+        "label": "W. C. Rand and Lt. Ayerst",
+        "role": "target",
+        "kind": "state-forces",
+        "actorId": "britain-crown"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "state-forces",
+        "sideLabel": "Rand and Ayerst",
+        "contested": false,
+        "killedMin": 1,
+        "killedMax": 2,
+        "claimedBy": "The Indian Express, 2026",
+        "note": "Ayerst dead on the road. Rand died on 3 July. Two men; one night and a hospital week."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Indian Express",
+        "headline": "Two coaches on Ganeshkhind Road",
+        "year": 2026,
+        "excerpt": "On the night of June 22, 1897, a grand celebration to mark Queen Victoria’s Diamond Jubilee was wrapping up at Governor’s House in Ganeshkhind. Moments later, two coaches were attacked, and two men were killed. One of them was Walter Charles Rand.",
+        "stance": "independent",
+        "url": "https://indianexpress.com/article/explained/explained-history/chapekar-brothers-story-assassination-pune-plague-10752318/"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "muzaffarpur-bomb",
+    "conflictId": "alipore-1908",
+    "name": "Muzaffarpur bombing",
+    "kind": "bombing",
+    "time": {
+      "year": 1908,
+      "precision": "day",
+      "month": 4,
+      "day": 30
+    },
+    "place": {
+      "name": "European Club, Muzaffarpur",
+      "longitude": 85.391,
+      "latitude": 26.12,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Bihar",
+        "district": "Muzaffarpur"
+      }
+    },
+    "summary": "Khudiram Bose and Prafulla Chaki threw a bomb at a carriage they took for Douglas Kingsford’s outside the European Club. Kingsford was in the next carriage. The wife and daughter of barrister Pringle Kennedy were killed. The Alipore case opened from the search that followed.",
+    "sides": [
+      {
+        "label": "Khudiram Bose and Prafulla Chaki",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "anushilan-samiti"
+      },
+      {
+        "label": "Kennedy carriage, mistaken for Kingsford",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "Mrs Kennedy and her daughter",
+        "contested": false,
+        "killedMin": 2,
+        "killedMax": 2,
+        "killedBest": 2,
+        "claimedBy": "Britannica; Alipore investigation",
+        "note": "Two British women in the wrong carriage. Kingsford lived."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "A bombing in Muzaffarpur",
+        "year": 2026,
+        "excerpt": "The case resulted from the police investigation of a bombing in Muzaffarpur, in present-day Bihar state, which was an unsuccessful attempt to assassinate British official Douglas Kingsford.",
+        "stance": "independent",
+        "url": "https://www.britannica.com/biography/Sri-Aurobindo"
+      },
+      {
+        "outlet": "The Hindu",
+        "headline": "Hanged at eighteen for Muzaffarpur",
+        "year": 2025,
+        "excerpt": "Khudiram Bose, one of the country’s youngest freedom fighters, was hanged on August 11, 1908, at the age of 18 for his role in the Muzaffarpur bomb case.",
+        "stance": "independent",
+        "url": "https://www.thehindu.com/news/national/west-bengal/mamata-pays-tribute-to-khudiram-bose-slams-makers-of-kesari-chapter-2-film/article69919018.ece"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ghadar-february-1915",
+    "conflictId": "ghadr-1915",
+    "name": "February 1915 rising foiled",
+    "kind": "mutiny",
+    "time": {
+      "year": 1915,
+      "precision": "day",
+      "month": 2,
+      "day": 19
+    },
+    "place": {
+      "name": "Lahore",
+      "longitude": 74.329,
+      "latitude": 31.565,
+      "precision": "city",
+      "admin": {
+        "country": "Pakistan",
+        "state": "Punjab"
+      }
+    },
+    "summary": "Ghadar men and Rash Behari Bose had fixed a rising of Punjab cantonments for late February. An informer reached the CID. On 19 February police raided the Lahore houses. Suspect regiments were moved or disarmed. The war declared in the San Francisco paper did not leave the barracks.",
+    "sides": [
+      {
+        "label": "Ghadar Party and returned migrants",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "ghadar-party"
+      },
+      {
+        "label": "Punjab CID and garrison",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "britain-crown"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "insurgent",
+        "sideLabel": "Ghadar men taken in the Lahore raids",
+        "contested": true,
+        "note": "The 19th was a police day. The hangings of 16 November 1915 are the integer that followed, not a battlefield count for February."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Tribune",
+        "headline": "War declared in February 1915",
+        "year": 2019,
+        "excerpt": "These measures were taken by the colonial government as one of many in order to curb the war declared by the Ghadarites on the colonial government in India in February of 1915.",
+        "stance": "independent",
+        "url": "https://www.tribuneindia.com/news/features/the-rebels-who-sparked-ghadar-321/"
+      },
+      {
+        "outlet": "Michael O’Dwyer, India As I Knew It",
+        "headline": "The coup at Lahore on 19th February",
+        "year": 1925,
+        "excerpt": "On the morning of the 19th February we received information that Rash Bihari and Pingle had moved their headquarters to Lahore and, suspecting leakage, had antedated the rising to that night. The rebel headquarters in four separate houses at Lahore were raided that afternoon.",
+        "stance": "state",
+        "url": "https://archive.org/details/in.ernet.dli.2015.276594"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "singapore-mutiny-day",
+    "conflictId": "singapore-mutiny-1915",
+    "name": "5th Light Infantry mutiny",
+    "kind": "mutiny",
+    "time": {
+      "year": 1915,
+      "precision": "day",
+      "month": 2,
+      "day": 15
+    },
+    "place": {
+      "name": "Alexandra Barracks, Singapore",
+      "longitude": 103.802,
+      "latitude": 1.287,
+      "precision": "city",
+      "admin": {
+        "country": "Singapore"
+      }
+    },
+    "summary": "About 3 p.m. on 15 February, Rajput companies of the 5th Light Infantry broke at Alexandra Barracks. Officers were shot. The mutineers moved on the town and on Tanglin. It took the best part of three days to quell. Forty-seven men of the regiment were later sentenced to death.",
+    "sides": [
+      {
+        "label": "Rajput wing, 5th Light Infantry",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "5th-light-infantry"
+      },
+      {
+        "label": "British officers, volunteers and civilians",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "britain-crown"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "British officers, soldiers and civilians",
+        "contested": true,
+        "killedMin": 39,
+        "killedMax": 47,
+        "claimedBy": "later counts; Malaysiakini citing 44 excluding mutineers",
+        "note": "Hansard in March 1915 had no civilian integer. Forty-seven of the 5th Light Infantry were later shot. Mutineer dead in the street sit outside the 44."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Hansard",
+        "headline": "The regiment broke out on February 15",
+        "year": 1915,
+        "excerpt": "The regiment, or a great part of it, broke out on February 15, attacked the commanding officer in his house, and created a condition of much local disorder which involved the death of not a few civilians. It took something like the best part of three days to quell the mutiny altogether.",
+        "stance": "state",
+        "url": "https://hansard.parliament.uk/lords/1915-03-02/debates/36f889f0-916a-4d5c-b576-86f2c6476c45/TheRegimentalRiotAtSingapore"
+      },
+      {
+        "outlet": "Malaysiakini",
+        "headline": "300–400 Rajput Muslims, 44 dead excluding mutineers",
+        "year": 2022,
+        "excerpt": "On Feb 15, 1915, at about 3pm, a short-lived rebellion broke out in Singapore involving about 300–400 Rajput Muslims of the British Indian Army’s 5th Light Infantry regiment. The mutiny resulted in the death of 44 people — excluding the mutineers. All of the 47 insurgents sentenced to death were men of the 5th Light Infantry.",
+        "stance": "independent",
+        "url": "https://www.malaysiakini.com/columns/634494"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "imphal-kohima-1944",
+    "conflictId": "ina-1943",
+    "name": "Imphal and Kohima",
+    "kind": "clash",
+    "time": {
+      "year": 1944,
+      "precision": "day",
+      "month": 3,
+      "day": 8
+    },
+    "place": {
+      "name": "Imphal",
+      "longitude": 93.937,
+      "latitude": 24.817,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Manipur"
+      }
+    },
+    "summary": "On 8 March 1944 the Japanese Fifteenth Army, with an INA division attached, opened the offensive against Imphal and the Kohima road. Bose’s army reached the Manipur plain. It did not take the base. NAM dates the battles to 18 July. INA deaths inside the Japanese totals are not a recovered integer.",
+    "story": "Britannica: the INA, alongside Japanese troops, reached Kohima and Imphal by March 1944; lacking air support, they were defeated and forced to retreat.",
+    "sides": [
+      {
+        "label": "INA and Japanese Fifteenth Army",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "ina"
+      },
+      {
+        "label": "Fourteenth Army / IV Corps",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "britain-crown"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "Imphal–Kohima campaign, all armies",
+        "contested": true,
+        "claimedBy": "National Army Museum",
+        "note": "NAM: Japanese Fifteenth Army lost 53,000 dead and missing; British casualties about 12,500 at Imphal and 4,000 at Kohima. Those are campaign totals. An INA-only integer is not used here."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "National Army Museum",
+        "headline": "Three Japanese divisions and one Indian National Army division",
+        "year": 2024,
+        "excerpt": "Fought between 8 March and 18 July 1944, these battles were the turning point of one of the most gruelling campaigns of the Second World War. Mutaguchi led three Japanese divisions and one Indian National Army division.",
+        "stance": "independent",
+        "url": "https://www.nam.ac.uk/explore/battle-imphal"
+      },
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "Reaching Kohima and Imphal",
+        "year": 2026,
+        "excerpt": "The INA, alongside Japanese troops, advanced to Rangoon in Burma and thence overland into India, reaching Kohima and Imphal by March 1944. However, lacking air support, they were defeated and forced to retreat.",
+        "stance": "independent",
+        "url": "https://www.britannica.com/biography/Subhas-Chandra-Bose"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "kadavendi-1946",
+    "conflictId": "telangana-1946",
+    "name": "Killing of Doddi Komarayya",
+    "kind": "attack",
+    "time": {
+      "year": 1946,
+      "precision": "day",
+      "month": 7,
+      "day": 4
+    },
+    "place": {
+      "name": "Kadavendi",
+      "longitude": 79.337,
+      "latitude": 17.579,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Telangana",
+        "district": "Jangaon"
+      }
+    },
+    "summary": "On 4 July 1946 a deshmukh’s men fired on a sangham procession at Kadavendi, then in Nalgonda/Warangal country, now Jangaon. Doddi Komarayya, a shepherd and local sangham leader, was killed. The Hindu later called him the first martyr of the Telangana Peasants’ Armed Struggle. Villages around Nalgonda took it as the start.",
+    "sides": [
+      {
+        "label": "Deshmukh’s retainers",
+        "role": "attacker",
+        "kind": "militia"
+      },
+      {
+        "label": "Sangham procession, Kadavendi",
+        "role": "target",
+        "kind": "civilian",
+        "actorId": "cpi-telangana"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "Doddi Komarayya",
+        "contested": false,
+        "killedMin": 1,
+        "killedMax": 1,
+        "killedBest": 1,
+        "claimedBy": "The Hindu, 2020",
+        "note": "Named dead on 4 July. Later nationalist counts of the whole 1946–51 struggle are not this day’s integer."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Hindu",
+        "headline": "First martyr of the Telangana Peasants’ Armed Struggle",
+        "year": 2020,
+        "excerpt": "Doddi Komaraiah was hero of Telangana Peasants’ Armed Struggle of 1946. The martyrdom of the valiant leader of Kadavendi village, now in present Jangaon district, inspired the historic Telangana Armed Struggle by the oppressed peasants in 1946.",
+        "stance": "independent",
+        "url": "https://www.thehindu.com/news/cities/Hyderabad/martyrs-statue-planned-at-lakkaram/article32423808.ece"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Social origins of the peasant insurrection in Telangana (1946–51)",
+        "creator": "D. N. Dhanagare",
+        "year": 1974,
+        "url": "https://www.marxists.org/subject/india/dhanagare-74.pdf"
+      }
+    ],
+    "confidence": "high"
+  }
+]

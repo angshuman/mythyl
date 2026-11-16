@@ -1,0 +1,231 @@
+[
+  {
+    "id": "phadke",
+    "name": "Vasudev Balwant Phadke",
+    "aliases": [
+      "Wasudeo Balwant Phadke"
+    ],
+    "kind": "insurgent-group",
+    "ideology": [
+      "swaraj",
+      "armed republicanism"
+    ],
+    "active": {
+      "start": {
+        "year": 1879,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1883,
+        "precision": "year"
+      }
+    }
+  },
+  {
+    "id": "ramoshis",
+    "name": "Ramoshis",
+    "aliases": [
+      "Ramoshi"
+    ],
+    "kind": "tribe",
+    "ethnicity": [
+      "Ramoshi"
+    ]
+  },
+  {
+    "id": "chapekar",
+    "name": "Chapekar brothers",
+    "aliases": [
+      "Damodar, Balkrishna and Vasudeo Chapekar"
+    ],
+    "kind": "insurgent-group",
+    "ideology": [
+      "armed nationalism"
+    ],
+    "active": {
+      "start": {
+        "year": 1897,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1899,
+        "precision": "year"
+      }
+    }
+  },
+  {
+    "id": "anushilan-samiti",
+    "name": "Anushilan Samiti",
+    "aliases": [
+      "Jugantar",
+      "Maniktala group"
+    ],
+    "kind": "insurgent-group",
+    "ideology": [
+      "revolutionary nationalism"
+    ],
+    "active": {
+      "start": {
+        "year": 1902,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1910,
+        "precision": "year"
+      }
+    }
+  },
+  {
+    "id": "ghadar-party",
+    "name": "Ghadar Party",
+    "aliases": [
+      "Hindi Association of the Pacific Coast",
+      "Ghadar movement"
+    ],
+    "kind": "insurgent-group",
+    "ideology": [
+      "revolutionary nationalism",
+      "anti-colonial"
+    ],
+    "ethnicity": [
+      "Punjabi"
+    ],
+    "active": {
+      "start": {
+        "year": 1913,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1915,
+        "precision": "year"
+      }
+    }
+  },
+  {
+    "id": "5th-light-infantry",
+    "name": "5th Light Infantry",
+    "aliases": [
+      "5th Native Light Infantry"
+    ],
+    "kind": "military",
+    "parentId": "britain-crown",
+    "religion": [
+      "Islam"
+    ],
+    "active": {
+      "start": {
+        "year": 1915,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1915,
+        "precision": "year"
+      }
+    }
+  },
+  {
+    "id": "ina",
+    "name": "Indian National Army",
+    "aliases": [
+      "Azad Hind Fauj",
+      "INA"
+    ],
+    "kind": "military",
+    "ideology": [
+      "Indian independence",
+      "Azad Hind"
+    ],
+    "active": {
+      "start": {
+        "year": 1942,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1945,
+        "precision": "year"
+      }
+    }
+  },
+  {
+    "id": "japan-empire",
+    "name": "Empire of Japan",
+    "aliases": [
+      "Imperial Japan"
+    ],
+    "kind": "foreign-state",
+    "active": {
+      "start": {
+        "year": 1868,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1945,
+        "precision": "year"
+      }
+    }
+  },
+  {
+    "id": "cpi-telangana",
+    "name": "Communist Party of India (Telangana)",
+    "aliases": [
+      "CPI",
+      "Andhra Mahasabha communists"
+    ],
+    "kind": "political-party",
+    "ideology": [
+      "communism",
+      "agrarian revolution"
+    ],
+    "active": {
+      "start": {
+        "year": 1946,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1951,
+        "precision": "year"
+      }
+    }
+  },
+  {
+    "id": "nizam-hyderabad",
+    "name": "Nizam of Hyderabad",
+    "aliases": [
+      "Hyderabad State",
+      "Mir Osman Ali Khan"
+    ],
+    "kind": "state",
+    "active": {
+      "start": {
+        "year": 1724,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1948,
+        "precision": "year"
+      }
+    }
+  },
+  {
+    "id": "razakars",
+    "name": "Razakars",
+    "aliases": [
+      "Majlis-e-Ittehadul Muslimeen militia"
+    ],
+    "kind": "militia",
+    "parentId": "nizam-hyderabad",
+    "religion": [
+      "Islam"
+    ],
+    "active": {
+      "start": {
+        "year": 1938,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1948,
+        "precision": "year"
+      }
+    }
+  }
+]

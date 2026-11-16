@@ -1,0 +1,68 @@
+[
+  {
+    "id": "mughal-empire",
+    "name": "Mughal Empire",
+    "aliases": [
+      "Shah Alam II",
+      "Mughal emperor"
+    ],
+    "kind": "state"
+  },
+  {
+    "id": "french-company",
+    "name": "French East India Company",
+    "aliases": [
+      "Compagnie des Indes",
+      "French forces in India"
+    ],
+    "kind": "foreign-state"
+  },
+  {
+    "id": "rohilla",
+    "name": "Rohillas of Rohilkhand",
+    "aliases": [
+      "Rohilla Afghans",
+      "Hafiz Rahmat Khan"
+    ],
+    "kind": "ethnic-group",
+    "ethnicity": [
+      "Pashtun",
+      "Rohilla"
+    ]
+  },
+  {
+    "id": "palaiyakkarar",
+    "name": "Palaiyakkarars",
+    "aliases": [
+      "Polygars",
+      "Palayakkarars",
+      "Veerapandiya Kattabomman"
+    ],
+    "kind": "militia"
+  },
+  {
+    "id": "madras-sepoys",
+    "name": "Madras Native Infantry sepoys",
+    "kind": "military",
+    "parentId": "eic"
+  },
+  {
+    "id": "nepal-kingdom",
+    "name": "Kingdom of Nepal",
+    "aliases": [
+      "Gorkha kingdom",
+      "Gurkhas"
+    ],
+    "kind": "state"
+  },
+  {
+    "id": "emirate-afghanistan",
+    "name": "Emirate of Afghanistan",
+    "aliases": [
+      "Barakzai emirs",
+      "Kabul",
+      "Dost Mohammad Khan"
+    ],
+    "kind": "state"
+  }
+]

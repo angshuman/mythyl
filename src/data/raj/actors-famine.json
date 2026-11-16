@@ -1,0 +1,25 @@
+[
+  {
+    "id": "famine-commission",
+    "name": "Indian Famine Commissions",
+    "aliases": [
+      "Campbell Commission",
+      "Orissa Famine Commission",
+      "Famine Commission of 1880",
+      "Lyall Commission",
+      "MacDonnell Commission"
+    ],
+    "kind": "state-agency",
+    "parentId": "britain-crown",
+    "active": {
+      "start": {
+        "year": 1866,
+        "precision": "year"
+      },
+      "end": {
+        "year": 1901,
+        "precision": "year"
+      }
+    }
+  }
+]

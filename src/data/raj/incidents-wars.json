@@ -1,0 +1,781 @@
+[
+  {
+    "id": "buxar-day",
+    "conflictId": "buxar-1764",
+    "name": "Buxar",
+    "kind": "clash",
+    "time": {
+      "year": 1764,
+      "precision": "day",
+      "month": 10,
+      "day": 22
+    },
+    "place": {
+      "name": "Buxar",
+      "longitude": 83.98,
+      "latitude": 25.575,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Bihar",
+        "district": "Buxar"
+      }
+    },
+    "summary": "Munro’s Company army met Mir Qasim, Shuja-ud-Daula, and Shah Alam II on the Ganga. The Indian alliance was encircled and broken. The Treaty of Allahabad the next year gave the Company the diwani of Bengal, Bihar, and Orissa.",
+    "sides": [
+      {
+        "label": "East India Company under Hector Munro",
+        "role": "attacker",
+        "kind": "foreign-forces",
+        "actorId": "eic"
+      },
+      {
+        "label": "Bengal, Awadh, and the Mughal emperor",
+        "role": "defender",
+        "kind": "state-forces"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 2000,
+        "killedMax": 6000,
+        "of": "mixed",
+        "sideLabel": "Bengal–Awadh–Mughal alliance",
+        "contested": true,
+        "note": "Britannica gives about 6,000 Indian-alliance casualties of some 35,000 engaged; World History Encyclopedia gives perhaps 2,000–5,000 dead. Victor’s counts."
+      },
+      {
+        "of": "state-forces",
+        "sideLabel": "Company army",
+        "claimedBy": "Encyclopaedia Britannica",
+        "contested": true,
+        "note": "Britannica: fewer than 1,000 Company casualties of about 8,000. World History Encyclopedia: around 850 dead, wounded, or missing. Combined figures, not killed-only integers."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "Battle of Buxar",
+        "year": 2026,
+        "excerpt": "On 22 October 1764 a Company army under Hector Munro defeated the combined forces of Bengal, Awadh, and the Mughal emperor at Buxar. The 1765 Treaty of Allahabad followed. The emperor surrendered sovereignty of Bengal to the British.",
+        "stance": "independent",
+        "url": "https://www.britannica.com/event/Battle-of-Buxar"
+      },
+      {
+        "outlet": "World History Encyclopedia",
+        "headline": "Battle of Buxar",
+        "year": 2022,
+        "excerpt": "Shah Alam II signed the Treaty of Allahabad on 12 August 1765 and awarded the Company the perpetual right to collect land revenue, the dewani, in Bengal, Bihar, and Orissa.",
+        "stance": "independent",
+        "url": "https://www.worldhistory.org/article/2116/battle-of-buxar/"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "wandiwash-1760",
+    "conflictId": "carnatic-wars",
+    "name": "Wandiwash",
+    "kind": "clash",
+    "time": {
+      "year": 1760,
+      "precision": "day",
+      "month": 1,
+      "day": 22
+    },
+    "place": {
+      "name": "Vandavasi",
+      "longitude": 79.62,
+      "latitude": 12.5,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Tamil Nadu",
+        "district": "Tiruvannamalai"
+      }
+    },
+    "summary": "Eyre Coote attacked and routed Lally’s attempt to recover the fort of Wandiwash. Bussy was captured. The French were confined to Pondicherry, which surrendered on 16 January 1761. The Carnatic was left to the Company.",
+    "sides": [
+      {
+        "label": "East India Company under Eyre Coote",
+        "role": "attacker",
+        "kind": "foreign-forces",
+        "actorId": "eic"
+      },
+      {
+        "label": "French under the comte de Lally",
+        "role": "defender",
+        "kind": "foreign-forces",
+        "actorId": "french-company"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "French and British forces",
+        "contested": true,
+        "note": "Britannica records a rout of about 2,000 French by about 1,700 British troops and the capture of Bussy. No agreed integer for the field."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "Battle of Wandiwash",
+        "year": 1998,
+        "excerpt": "On 22 January 1760 Coote attacked and routed Lally at Wandiwash near Pondicherry. Bussy was captured. The French were thereafter confined to Pondicherry, which surrendered on 16 January 1761.",
+        "stance": "independent",
+        "url": "https://www.britannica.com/event/Battle-of-Wandiwash"
+      },
+      {
+        "outlet": "The Hindu",
+        "headline": "The famous Battle of Wandiwash which gave India to the British",
+        "year": 2022,
+        "excerpt": "In January 1760 the British under Eyre Coote defeated the French under Thomas-Arthur, Comte de Lally, at Vandavasi in present-day Tiruvannamalai district.",
+        "stance": "independent",
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/the-famous-battle-of-wandiwash-which-gave-india-to-the-british/article66293916.ece"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "miranpur-katra-1774",
+    "conflictId": "rohilla-1774",
+    "name": "Miranpur Katra",
+    "kind": "clash",
+    "time": {
+      "year": 1774,
+      "precision": "day",
+      "month": 4,
+      "day": 23
+    },
+    "place": {
+      "name": "Bareilly, Rohilkhand",
+      "longitude": 79.43,
+      "latitude": 28.367,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Uttar Pradesh",
+        "district": "Bareilly"
+      }
+    },
+    "summary": "A Company brigade hired to Shuja-ud-Daula of Awadh met the Rohillas under Hafiz Rahmat Khan. The Rohilla chief was killed. Rohilkhand was annexed to Awadh, except Rampur. Hastings was later charged with hiring out troops and condoning atrocities.",
+    "sides": [
+      {
+        "label": "Awadh and a Company brigade",
+        "role": "attacker",
+        "kind": "foreign-forces",
+        "actorId": "eic"
+      },
+      {
+        "label": "Rohillas under Hafiz Rahmat Khan",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "rohilla"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "Rohilla population of Rohilkhand",
+        "contested": true,
+        "note": "Britannica records that Hastings’s critics charged atrocities. No census count of Rohilla civilian dead. Do not treat a missing figure as zero."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "Rohilla War",
+        "year": 1998,
+        "excerpt": "Warren Hastings lent a brigade of Company troops to the nawab of Oudh to defeat the Rohillas. The action later formed a preliminary charge in his impeachment. Critics charged him with letting out troops on hire and condoning atrocities.",
+        "stance": "independent",
+        "url": "https://www.britannica.com/event/Rohilla-War"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kayathar-1799",
+    "conflictId": "polygar-wars",
+    "name": "Kattabomman hanged at Kayathar",
+    "kind": "execution",
+    "time": {
+      "year": 1799,
+      "precision": "day",
+      "month": 10,
+      "day": 16
+    },
+    "place": {
+      "name": "Kayathar, near Panchalankurichi",
+      "longitude": 77.774,
+      "latitude": 8.948,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Tamil Nadu",
+        "district": "Thoothukudi"
+      }
+    },
+    "summary": "After the fall of Panchalankurichi, Veerapandiya Kattabomman was captured with the help of rival polygars and the raja of Pudukkottai. He was hanged at Kayathar on 16 October 1799. The fort was later razed. The Maruthu brothers rose in 1801 and were hanged in their turn.",
+    "sides": [
+      {
+        "label": "East India Company",
+        "role": "attacker",
+        "kind": "foreign-forces",
+        "actorId": "eic"
+      },
+      {
+        "label": "Palaiyakkarar of Panchalankurichi",
+        "role": "target",
+        "kind": "militia",
+        "actorId": "palaiyakkarar"
+      }
+    ],
+    "casualties": [
+      {
+        "killedBest": 1,
+        "of": "insurgent",
+        "sideLabel": "Veerapandiya Kattabomman",
+        "contested": false,
+        "note": "Public hanging of the polygar of Panchalankurichi. Wider campaign deaths in the palayam forts are not census-counted here."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Live History India",
+        "headline": "The Polygar Heroes of Tamil Nadu",
+        "year": 2019,
+        "excerpt": "After a brief trial, Kattabomman was sentenced to death and publicly hanged on 16 October 1799. The British later forced the polygars to disband their armies and turned them into zamindars.",
+        "stance": "independent",
+        "url": "https://www.livehistoryindia.com/story/people/the-polygar-heroes-of-tamil-nadu"
+      },
+      {
+        "outlet": "The Hindu",
+        "headline": "Memorial for Kattabomman to be erected at Kayathar",
+        "year": 2013,
+        "excerpt": "Kattabomman, the palayagar of Panchalamkurichi, who resisted the British, was captured and hanged at Kayathar. Major Bannerman, who oversaw the hanging, recorded that he walked to the tree with a daring air.",
+        "stance": "independent",
+        "url": "https://www.thehindu.com/todays-paper/tp-national/tp-tamilnadu/memorial-for-kattabomman-to-be-erected-at-kayathar/article4600795.ece"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "vellore-fort-1806",
+    "conflictId": "vellore-mutiny-1806",
+    "name": "Vellore Fort",
+    "kind": "mutiny",
+    "time": {
+      "year": 1806,
+      "precision": "day",
+      "month": 7,
+      "day": 10
+    },
+    "place": {
+      "name": "Vellore Fort",
+      "longitude": 79.133,
+      "latitude": 12.921,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "Tamil Nadu",
+        "district": "Vellore"
+      }
+    },
+    "summary": "Madras sepoys broke into the fort where Tipu’s family was held, killed about 130 British troops, and raised the Mysore flag. The grievance was new dress orders that touched Hindu and Muslim practice. Gillespie recovered the fort the same day from Arcot. Hundreds of sepoys were killed in the fighting or in executions; some were blown from guns.",
+    "sides": [
+      {
+        "label": "Madras Native Infantry sepoys",
+        "role": "attacker",
+        "kind": "insurgent",
+        "actorId": "madras-sepoys"
+      },
+      {
+        "label": "East India Company garrison",
+        "role": "defender",
+        "kind": "foreign-forces",
+        "actorId": "eic"
+      }
+    ],
+    "casualties": [
+      {
+        "killedBest": 130,
+        "of": "state-forces",
+        "sideLabel": "British garrison",
+        "claimedBy": "Encyclopaedia Britannica",
+        "contested": true,
+        "note": "Britannica: about 130 British troops killed in the initial assault."
+      },
+      {
+        "of": "insurgent",
+        "sideLabel": "Madras sepoys",
+        "contested": true,
+        "note": "Britannica: hundreds of mutineers killed in the fighting or in subsequent executions, including men tied to cannon barrels and fired. No single agreed integer."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "Vellore Mutiny",
+        "year": 1998,
+        "excerpt": "On 10 July 1806 sepoys at Vellore rose against new dress regulations that they read as an attack on Hindu and Muslim practice. About 130 British troops were killed. The fort was recovered the same day. Hundreds of mutineers were killed in the fighting or in executions.",
+        "stance": "independent",
+        "url": "https://www.britannica.com/event/Vellore-Mutiny"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "nalapani-1814",
+    "conflictId": "anglo-nepal",
+    "name": "Nalapani (Kalunga)",
+    "kind": "siege",
+    "time": {
+      "year": 1814,
+      "precision": "day",
+      "month": 10,
+      "day": 31
+    },
+    "place": {
+      "name": "Nalapani (Kalunga), Dehradun",
+      "longitude": 78.087,
+      "latitude": 30.375,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Uttarakhand",
+        "district": "Dehradun"
+      }
+    },
+    "summary": "Gillespie’s column tried to take the hill fort of Kalunga above the Dun. The garrison was a few hundred Gurkhas. Gillespie was killed on 31 October. The fort was occupied only after severe Company losses. The war did not end here; Ochterlony later took Malaun and forced the Treaty of Sugauli.",
+    "sides": [
+      {
+        "label": "Company column under Gillespie",
+        "role": "attacker",
+        "kind": "foreign-forces",
+        "actorId": "eic"
+      },
+      {
+        "label": "Gorkha garrison of Kalunga",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "nepal-kingdom"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "state-forces",
+        "sideLabel": "Company force",
+        "claimedBy": "The Gurkha Museum",
+        "contested": true,
+        "note": "Gurkha Museum: approximately 750 Company killed or wounded taking Kalunga. Combined figure, not a killed-only integer."
+      },
+      {
+        "of": "state-forces",
+        "sideLabel": "Gorkha garrison",
+        "contested": true,
+        "note": "Gurkha Museum: original garrison of about 600; about 70 survivors after the break-out. Treat as a contemporary estimate."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Gurkha Museum",
+        "headline": "From Conflict to Comradeship: the Treaty of Sugauli",
+        "year": 2026,
+        "excerpt": "At Kalunga in October 1814 a few hundred Gurkhas held a hill fort against Gillespie’s column. Gillespie was killed. The Company occupied the fort only after about 750 killed or wounded. The Treaty of Sugauli in 1816 ended the war.",
+        "stance": "independent",
+        "url": "https://thegurkhamuseum.co.uk/blog/treaty-of-sugauli/"
+      },
+      {
+        "outlet": "World History Encyclopedia",
+        "headline": "Anglo-Nepalese War",
+        "year": 2022,
+        "excerpt": "The Company lost several battles in the hills before Ochterlony secured victory. Under the 1816 Treaty of Sugauli, Nepal gave up Kumaon and Garhwal and accepted a British resident.",
+        "stance": "independent",
+        "url": "https://www.worldhistory.org/Anglo-Nepalese_War/"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "kabul-retreat-1842",
+    "conflictId": "first-afghan-war",
+    "name": "Retreat from Kabul",
+    "kind": "massacre",
+    "time": {
+      "year": 1842,
+      "precision": "day",
+      "month": 1,
+      "day": 6,
+      "note": "The column left Kabul on 6 January; the destruction in the passes ran to 13 January."
+    },
+    "place": {
+      "name": "Kabul",
+      "longitude": 69.172,
+      "latitude": 34.528,
+      "precision": "city",
+      "admin": {
+        "country": "Afghanistan"
+      }
+    },
+    "summary": "Elphinstone marched about 4,500 British and Indian troops and some 12,000 camp followers out of Kabul under a promise of safe conduct. The escort and supplies did not appear. The column was shot to pieces in the winter passes. NAM records one European, Dr William Brydon, reaching Jalalabad. Most of the Indian sepoys were killed. An Army of Retribution later burned the Kabul bazaar and left.",
+    "sides": [
+      {
+        "label": "Afghan forces under Akbar Khan and the hill tribes",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "emirate-afghanistan"
+      },
+      {
+        "label": "Company garrison and camp followers",
+        "role": "target",
+        "kind": "foreign-forces",
+        "actorId": "eic"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 12000,
+        "killedMax": 16000,
+        "of": "mixed",
+        "sideLabel": "Company troops and camp followers",
+        "contested": true,
+        "note": "NAM and Britannica describe a column of about 4,500 troops and 12,000 camp followers destroyed. Exact survivor counts remain contested. NAM: one European reached Jalalabad; most Indian sepoys were killed."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "National Army Museum",
+        "headline": "First Afghan War",
+        "year": 2024,
+        "excerpt": "In January 1842 the Kabul garrison of 4,500 British and Indian troops, with 12,000 camp followers, marched out under a promise of safe conduct. The column was destroyed in the passes. Just one European, Dr William Brydon, reached Jalalabad.",
+        "stance": "independent",
+        "url": "https://www.nam.ac.uk/explore/first-afghan-war"
+      },
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "Anglo-Afghan Wars",
+        "year": 1998,
+        "excerpt": "On 6 January 1842 some 4,500 British and Indian troops, with 12,000 camp followers, marched out of Kabul. Bands of Afghans swarmed around them, and the retreat ended in a bloodbath.",
+        "stance": "independent",
+        "url": "https://www.britannica.com/event/Anglo-Afghan-Wars"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "kandahar-1880",
+    "conflictId": "second-afghan-war",
+    "name": "Kandahar",
+    "kind": "clash",
+    "time": {
+      "year": 1880,
+      "precision": "day",
+      "month": 9,
+      "day": 1
+    },
+    "place": {
+      "name": "Kandahar",
+      "longitude": 65.737,
+      "latitude": 31.628,
+      "precision": "city",
+      "admin": {
+        "country": "Afghanistan"
+      }
+    },
+    "summary": "After Maiwand, Roberts marched from Kabul to Kandahar and on 1 September 1880 defeated Ayub Khan outside the city. The Crown left Abdur Rahman on the throne, kept control of Afghan foreign policy, and dropped the resident in Kabul. The last British and Indian soldiers left in 1881.",
+    "sides": [
+      {
+        "label": "British Indian Army under Roberts",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "britain-crown"
+      },
+      {
+        "label": "Ayub Khan’s army",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "emirate-afghanistan"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "both armies",
+        "contested": true,
+        "note": "NAM records a decisive British victory outside Kandahar after the march from Kabul. Field deaths are not given as a single agreed integer."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "National Army Museum",
+        "headline": "Second Afghan War",
+        "year": 2024,
+        "excerpt": "Roberts covered over 300 miles from Kabul to Kandahar in 20 days. On 1 September 1880 he defeated Ayub Khan outside Kandahar and ended the siege. The British left Afghanistan in the hands of Abdur Rahman, who agreed to conduct his foreign policy through the Government of India.",
+        "stance": "independent",
+        "url": "https://www.nam.ac.uk/explore/second-afghan-war"
+      },
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "Anglo-Afghan Wars",
+        "year": 1998,
+        "excerpt": "The Second Anglo-Afghan War opened in November 1878 after Kabul received a Russian envoy and turned a British one back. Gandamak put a resident in Kabul; the residency was murdered in September 1879. Abdur Rahman became emir in 1880.",
+        "stance": "independent",
+        "url": "https://www.britannica.com/event/Anglo-Afghan-Wars"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "pollilur-1780",
+    "conflictId": "anglo-mysore",
+    "name": "Pollilur",
+    "kind": "clash",
+    "time": {
+      "year": 1780,
+      "precision": "day",
+      "month": 9,
+      "day": 10,
+      "note": "Most narratives date the action 10 September 1780; a surviving Mysore painting and some later accounts place the morning of the fight on 7 September."
+    },
+    "place": {
+      "name": "Pollilur, near Kanchipuram",
+      "longitude": 79.7,
+      "latitude": 12.967,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Tamil Nadu",
+        "district": "Kanchipuram"
+      }
+    },
+    "summary": "Tipu Sultan and Haidar Ali destroyed Colonel William Baillie’s Company column near Pollilur in the Second Anglo-Mysore War. Baillie’s square was broken after ammunition carts exploded. Dalrymple has called it the most crushing Company defeat of the period. Mysore’s rockets and cavalry matched European drill on this field.",
+    "sides": [
+      {
+        "label": "Mysore under Haidar Ali and Tipu Sultan",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "mysore-sultanate"
+      },
+      {
+        "label": "Company column under William Baillie",
+        "role": "defender",
+        "kind": "foreign-forces",
+        "actorId": "eic"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "state-forces",
+        "sideLabel": "Baillie’s Company column",
+        "contested": true,
+        "note": "BBC, following Dalrymple, treats the column as destroyed or captured. No single agreed integer for the field."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "BBC News",
+        "headline": "Tipu Sultan: Painting of British defeat in India sold at auction",
+        "year": 2022,
+        "excerpt": "Haidar Ali and Tipu defeated Company forces at Pollilur in 1780. William Dalrymple has called it the most crushing defeat, one that nearly ended British rule in India. Tipu’s army had better guns, artillery, and rocket cavalry on that field.",
+        "stance": "independent",
+        "url": "https://www.bbc.com/news/world-asia-india-60911182"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "kirkee-1817",
+    "conflictId": "anglo-maratha",
+    "name": "Kirkee (Khadki)",
+    "kind": "clash",
+    "time": {
+      "year": 1817,
+      "precision": "day",
+      "month": 11,
+      "day": 5
+    },
+    "place": {
+      "name": "Khadki (Kirkee), Pune",
+      "longitude": 73.851,
+      "latitude": 18.564,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Maharashtra",
+        "district": "Pune"
+      }
+    },
+    "summary": "On 5 November 1817 the Peshwa’s army met a smaller Company force at Khadki, then recorded as Kirkee, on the edge of Pune. The Company held the field. The residency was burned. The Third Anglo-Maratha War ended the Peshwa’s office and annexed his lands to Bombay. Colonial conquest of the Deccan was completed in this season.",
+    "sides": [
+      {
+        "label": "East India Company",
+        "role": "defender",
+        "kind": "foreign-forces",
+        "actorId": "eic"
+      },
+      {
+        "label": "Peshwa’s Maratha army",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "maratha-confederacy"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "mixed",
+        "sideLabel": "both armies",
+        "contested": true,
+        "note": "Britannica records the rising at Kirkee in November 1817 and the swift defeat of the Peshwa. Field deaths are not given as a single agreed integer."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "Maratha Wars",
+        "year": 1998,
+        "excerpt": "The peshwa’s forces rose against the British in November 1817. Defeat was swift, followed by the pensioning of the peshwa and the annexation of his territories.",
+        "stance": "independent",
+        "url": "https://www.britannica.com/event/Maratha-Wars"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "How the Battle of Khadki became the final major gamble by the Maratha",
+        "year": 2026,
+        "excerpt": "On 5 November 1817 the Maratha army met the Company at Khadki, also called Kirkee or Ganeshkhind. Baji Rao II had already signed the Treaty of Poona, which stationed British troops in his state and bound his foreign policy.",
+        "stance": "independent",
+        "url": "https://indianexpress.com/article/cities/pune/how-battle-of-khadki-final-major-gamble-maratha-10493263/"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sobraon-1846",
+    "conflictId": "anglo-sikh",
+    "name": "Sobraon",
+    "kind": "clash",
+    "time": {
+      "year": 1846,
+      "precision": "day",
+      "month": 2,
+      "day": 10
+    },
+    "place": {
+      "name": "Sobraon, Sutlej",
+      "longitude": 74.85,
+      "latitude": 31.183,
+      "precision": "village",
+      "admin": {
+        "country": "India",
+        "state": "Punjab"
+      }
+    },
+    "summary": "The last battle of the First Anglo-Sikh War. The Khalsa was entrenched on the Company’s bank of the Sutlej, retreat by a bridge of boats. Gough stormed the works. The bridge failed. NAM: British losses more than 2,000; Sikh dead perhaps as many as 10,000. The Treaty of Lahore followed. Colonial conquest of the Punjab began as a river slaughter.",
+    "sides": [
+      {
+        "label": "Company army under Gough",
+        "role": "attacker",
+        "kind": "foreign-forces",
+        "actorId": "eic"
+      },
+      {
+        "label": "Khalsa army",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "sikh-empire"
+      }
+    ],
+    "casualties": [
+      {
+        "killedMin": 2000,
+        "killedMax": 10000,
+        "of": "mixed",
+        "sideLabel": "Khalsa army",
+        "claimedBy": "National Army Museum",
+        "contested": true,
+        "note": "NAM: the Sikhs sustained perhaps as many as 10,000 casualties. An older Britannica summary gives more than 10,000 Sikhs killed trying to cross the river. Treat as a victor’s range."
+      },
+      {
+        "of": "state-forces",
+        "sideLabel": "Company army",
+        "claimedBy": "National Army Museum",
+        "contested": true,
+        "note": "NAM: British losses more than 2,000 killed or wounded. Not a killed-only integer."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "National Army Museum",
+        "headline": "First Sikh War",
+        "year": 2024,
+        "excerpt": "The reinforced British attacked the main Sikh force at Sobraon on 10 February 1846. The Sikhs fought with their backs to the Sutlej. British losses were more than 2,000; the Sikhs sustained perhaps as many as 10,000. The Treaty of Lahore followed.",
+        "stance": "independent",
+        "url": "https://www.nam.ac.uk/explore/first-sikh-war"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "chillianwala-1849",
+    "conflictId": "anglo-sikh",
+    "name": "Chillianwala",
+    "kind": "clash",
+    "time": {
+      "year": 1849,
+      "precision": "day",
+      "month": 1,
+      "day": 13
+    },
+    "place": {
+      "name": "Chillianwala",
+      "longitude": 73.606,
+      "latitude": 32.661,
+      "precision": "village",
+      "admin": {
+        "country": "Pakistan",
+        "state": "Punjab"
+      }
+    },
+    "summary": "Gough launched a frontal attack through scrub that hid Sikh guns. The 24th Regiment reached the batteries too soon and was cut up. NAM records about 2,300 British casualties. Gough claimed a victory; Sher Singh marched off to join Chattar Singh. Gujrat, weeks later, ended the Sikh state. Chillianwala is the reminder that the Punjab was not taken cheaply.",
+    "sides": [
+      {
+        "label": "Company army under Gough",
+        "role": "attacker",
+        "kind": "foreign-forces",
+        "actorId": "eic"
+      },
+      {
+        "label": "Sikh army under Sher Singh Attariwalla",
+        "role": "defender",
+        "kind": "state-forces",
+        "actorId": "sikh-empire"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "state-forces",
+        "sideLabel": "Company army",
+        "claimedBy": "National Army Museum",
+        "contested": true,
+        "note": "NAM: about 2,300 British casualties (killed, wounded, or missing). Combined figure, not a killed-only integer."
+      },
+      {
+        "of": "mixed",
+        "sideLabel": "Khalsa army",
+        "contested": true,
+        "note": "No independent census of Sikh dead. NAM: the Sikhs withdrew with captured colours and recovered guns in the night."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "National Army Museum",
+        "headline": "Second Sikh War",
+        "year": 2024,
+        "excerpt": "On 13 January 1849 Gough met Sher Singh near Chillianwala. A frontal attack through thick scrub hid the Khalsa’s artillery. Gough claimed a victory despite 2,300 British casualties and Sher Singh’s army remaining in the field.",
+        "stance": "independent",
+        "url": "https://www.nam.ac.uk/explore/second-sikh-war"
+      }
+    ],
+    "confidence": "high"
+  }
+]

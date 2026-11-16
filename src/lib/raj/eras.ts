@@ -12,11 +12,11 @@ export type Era = {
 
 export const ERAS: Era[] = [
   { id: "all", label: "All years", hint: "1757 to 1947", start: 1757, end: 1947 },
-  { id: "company", label: "Company", hint: "Plassey to the revolt", start: 1757, end: 1857 },
-  { id: "after", label: "After 1857", hint: "The Crown’s India", start: 1858, end: 1904 },
-  { id: "swadeshi", label: "Swadeshi years", hint: "Partition, jail, war", start: 1905, end: 1918 },
-  { id: "movement", label: "Mass movement", hint: "Bagh to Dandi", start: 1919, end: 1941 },
-  { id: "endgame", label: "Endgame", hint: "Quit India to the Navy", start: 1942, end: 1947 },
+  { id: "company", label: "Company", hint: "Plassey to 1857", start: 1757, end: 1857 },
+  { id: "after", label: "After 1857", hint: "Crown rule after the rebellion", start: 1858, end: 1904 },
+  { id: "swadeshi", label: "Swadeshi years", hint: "Partition of Bengal to the First World War", start: 1905, end: 1918 },
+  { id: "movement", label: "Mass movement", hint: "Rowlatt to the 1930s", start: 1919, end: 1941 },
+  { id: "endgame", label: "Endgame", hint: "Quit India to Partition", start: 1942, end: 1947 },
 ];
 
 export function conflictInEra(conflict: Conflict, era: Era): boolean {

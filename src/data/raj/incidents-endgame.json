@@ -1,0 +1,575 @@
+[
+  {
+    "id": "malerkotla-17-jan-1872",
+    "conflictId": "kuka-1872",
+    "name": "Blown from guns, 17 January",
+    "kind": "execution",
+    "time": {
+      "year": 1872,
+      "precision": "day",
+      "month": 1,
+      "day": 17
+    },
+    "place": {
+      "name": "Malerkotla parade ground",
+      "longitude": 75.879,
+      "latitude": 30.642,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Punjab"
+      }
+    },
+    "summary": "After the Namdhari raids on Malodh and Malerkotla had already failed, Deputy Commissioner J. L. Cowan had forty-nine captured Kukas blown from guns on the parade ground. A fiftieth was cut down. Forsyth had told him in writing to wait. It was a colonial execution as massacre, without a trial.",
+    "story": "Grant Duff told the Commons the number was 49, the fiftieth having been cut down, and that so far as the India Office knew there had been no trial of any sort by Cowan.",
+    "sides": [
+      {
+        "label": "J. L. Cowan and allied princely troops",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "cowan"
+      },
+      {
+        "label": "Captured Namdhari (Kuka) prisoners",
+        "role": "target",
+        "kind": "civilian",
+        "actorId": "namdhari"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "unknown",
+        "sideLabel": "Namdhari prisoners",
+        "contested": true,
+        "killedMin": 50,
+        "killedMax": 50,
+        "killedBest": 50,
+        "claimedBy": "Grant Duff, House of Commons, 29 February 1872",
+        "note": "49 blown from guns; a fiftieth cut down. Namdhari memory folds the boy Bishan Singh into this day."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Hansard (Commons)",
+        "headline": "No trial of any sort by Mr. Cowan",
+        "year": 1872,
+        "url": "https://api.parliament.uk/historic-hansard/commons/1872/feb/29/question-2",
+        "excerpt": "The number was 49, the fiftieth having been cut down. So far as we are aware, there was no trial of any sort by Mr. Cowan; he executed without trial.",
+        "stance": "state"
+      },
+      {
+        "outlet": "History Today",
+        "headline": "India’s Kuka Revolt Ends in Death",
+        "year": 2024,
+        "url": "https://www.historytoday.com/archive/months-past/indias-kuka-revolt-ends-death",
+        "excerpt": "Towards sunset on 17 January Cowan ordered 49 of the captured Namdhari to be strapped backwards over cannon muzzles on the Malerkotla parade ground.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Tribune",
+        "headline": "66 Kukas executed by cannon",
+        "year": 2025,
+        "url": "https://www.tribuneindia.com/news/anniversary/namdhari-shaheedi-diwas-66-kukas-executed-by-cannon/",
+        "excerpt": "Forty-nine Kukas were killed on the first day of the execution, and 16 others the next day. Cowan had ignored orders received mid-execution which read, Avoid any hasty action.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "malerkotla-18-jan-1872",
+    "conflictId": "kuka-1872",
+    "name": "Forsyth’s sixteen, 18 January",
+    "kind": "execution",
+    "time": {
+      "year": 1872,
+      "precision": "day",
+      "month": 1,
+      "day": 18
+    },
+    "place": {
+      "name": "Malerkotla",
+      "longitude": 75.879,
+      "latitude": 30.642,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "Punjab"
+      }
+    },
+    "summary": "Commissioner T. D. Forsyth of Ambala had sixteen more Kukas executed the next morning. Grant Duff told the Commons the proceedings were not, on the face of them, irregular. The Namdhari total for the two days is sixty-six.",
+    "sides": [
+      {
+        "label": "T. D. Forsyth, Commissioner of Ambala",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "britain-crown"
+      },
+      {
+        "label": "Remaining Namdhari prisoners",
+        "role": "target",
+        "kind": "civilian",
+        "actorId": "namdhari"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "unknown",
+        "sideLabel": "Namdhari prisoners",
+        "contested": false,
+        "killedMin": 16,
+        "killedMax": 16,
+        "killedBest": 16,
+        "claimedBy": "Grant Duff, House of Commons, 29 February 1872"
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Hansard (Commons)",
+        "headline": "Sixteen more by Forsyth",
+        "year": 1872,
+        "url": "https://api.parliament.uk/historic-hansard/commons/1872/feb/29/question-2",
+        "excerpt": "Mr. Forsyth, the Commissioner at Umballa, caused sixteen other men connected with the same Mutiny to be executed. On the 19th the Viceroy telegraphed: Stop any summary execution of Kookas without your express orders.",
+        "stance": "state"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "What is the history of the Kuka martyrs’ day?",
+        "year": 2025,
+        "url": "https://indianexpress.com/article/explained/explained-history/what-is-the-history-of-the-kuka-martyrs-day-9784916/",
+        "excerpt": "On January 17 and 18, 1872, some 66 Namdhari Sikhs, also known as Kukas, were executed — placed in front of cannons and blown up — in the town.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "nankana-20-feb-1921",
+    "conflictId": "nankana-1921",
+    "name": "Saka Nankana",
+    "kind": "massacre",
+    "time": {
+      "year": 1921,
+      "precision": "day",
+      "month": 2,
+      "day": 20
+    },
+    "place": {
+      "name": "Gurdwara Janam Asthan, Nankana Sahib",
+      "longitude": 73.697,
+      "latitude": 31.449,
+      "precision": "building",
+      "admin": {
+        "country": "Pakistan",
+        "state": "Punjab"
+      }
+    },
+    "summary": "An Akali jatha led by Lachhman Singh of Dharowali entered Guru Nanak’s birthplace soon after daybreak. Men hired by Mahant Narain Das fired from the roofs, then came down with axes. The dead were smeared with kerosene and set on fire. The Deputy Commissioner was in camp miles off. Troops came from Lahore that evening.",
+    "sides": [
+      {
+        "label": "Mahant Narain Das and hired men",
+        "role": "attacker",
+        "kind": "militia",
+        "actorId": "mahant-narain-das"
+      },
+      {
+        "label": "Akali jatha in the shrine",
+        "role": "target",
+        "kind": "civilian",
+        "actorId": "akali-reformers"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "Sikhs in the gurdwara",
+        "contested": true,
+        "killedMin": 88,
+        "killedMax": 260,
+        "claimedBy": "police 88 (Lords, May 1921); Sikhs 135; Gandhi over 150; later estimates to 260",
+        "note": "Many bodies were burned immediately. The exact figures will probably never be obtained, as Lord Sydenham told the Lords."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Hansard (Lords)",
+        "headline": "Police certain of 88 deaths",
+        "year": 1921,
+        "url": "https://api.parliament.uk/historic-hansard/lords/1921/may/31/affray-at-nankana-saheb",
+        "excerpt": "An Akali Jatha of about one hundred men entered the temple soon after daybreak and was fired upon from the roofs. The dead bodies were smeared with kerosene and set on fire. The Sikhs state that 135 persons were killed; the police were certain of 88 deaths.",
+        "stance": "state"
+      },
+      {
+        "outlet": "The Times of India",
+        "headline": "Revisiting Nankana Sahib massacre after 100 years",
+        "year": 2021,
+        "url": "https://timesofindia.indiatimes.com/city/chandigarh/revisiting-nankana-sahib-massacre-after-100-years/articleshow/81130566.cms",
+        "excerpt": "Around 150 Sikhs were butchered by Mahant Narain Das and his hired criminals and they burnt the bodies of those massacred to destroy evidence. Lachhman Singh of Dharowali was tied to a tree in an injured state and burnt alive. The Lahore commissioner gave the keys to Akali leaders the next day.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "hijli-16-sep-1931",
+    "conflictId": "hijli-1931",
+    "name": "Hijli firing",
+    "kind": "massacre",
+    "time": {
+      "year": 1931,
+      "precision": "day",
+      "month": 9,
+      "day": 16
+    },
+    "place": {
+      "name": "Hijli Detention Camp, Kharagpur",
+      "longitude": 87.31,
+      "latitude": 22.315,
+      "precision": "building",
+      "admin": {
+        "country": "India",
+        "state": "West Bengal"
+      }
+    },
+    "summary": "Guards opened fire inside the Hijli Detention Camp. Santosh Kumar Mitra and Tarakeswar Sengupta, unarmed detenus held without trial, were shot dead. About twenty others were badly hurt. Bose and J. M. Sengupta took the bodies. Tagore called the shooting tragic and cowardly.",
+    "sides": [
+      {
+        "label": "Police and camp guards",
+        "role": "attacker",
+        "kind": "state-forces",
+        "actorId": "britain-crown"
+      },
+      {
+        "label": "Unarmed detenus",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "detenus in the camp",
+        "contested": false,
+        "killedMin": 2,
+        "killedMax": 2,
+        "killedBest": 2,
+        "injuredBest": 20,
+        "claimedBy": "Nehru, 24 September 1931; later IIT and press histories",
+        "note": "Named dead: Santosh Kumar Mitra and Tarakeswar Sengupta. Nehru: two deaths and serious injuries to about 20."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Indian Express",
+        "headline": "IIT-Kharagpur’s link to an infamous detention camp",
+        "year": 2018,
+        "url": "https://indianexpress.com/article/education/iit-kharagpurs-link-to-the-freedom-struggle-and-an-infamous-detention-camp-5306582/",
+        "excerpt": "On September 16, 1931, a group of guards opened fire and cracked the skulls of some prisoners with their rifle butts. Freedom fighters Tarakeswar Sengupta and Santosh Mitra were shot dead. Subhas Chandra Bose went to Hijli to take over the dead bodies.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Nehru Archive",
+        "headline": "On the Firing at Hijli Detention Camp",
+        "year": 1931,
+        "url": "https://nehruarchive.in/documents/on-the-firing-at-hijli-detention-camp-24-september-1931-2xx46",
+        "excerpt": "The firing at Hijli detention camp has shaken Bengal from one end to the other. Respectable and educated young men, whose only fault has been their patriotism, have been detained in the camp. To shoot down such people is altogether inhuman and unpardonable.",
+        "stance": "victim"
+      },
+      {
+        "outlet": "Frontline",
+        "headline": "Kharagpur's legend",
+        "year": 2002,
+        "url": "https://frontline.thehindu.com/other/article30244753.ece",
+        "excerpt": "It was here that two unarmed detainees — Santosh Kumar Mitra and Tarakeswar Sengupta — were shot dead by the British police on September 16, 1931. Netaji Subhas Chandra Bose himself came to Hijli to collect their bodies.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "calcutta-16-aug-1946",
+    "conflictId": "direct-action-1946",
+    "name": "Great Calcutta Killings",
+    "kind": "massacre",
+    "time": {
+      "year": 1946,
+      "precision": "day",
+      "month": 8,
+      "day": 16
+    },
+    "place": {
+      "name": "Calcutta",
+      "longitude": 88.363,
+      "latitude": 22.572,
+      "precision": "city",
+      "admin": {
+        "country": "India",
+        "state": "West Bengal"
+      }
+    },
+    "summary": "Direct Action Day in Calcutta. The League ministry had declared a holiday. Suhrawardy spoke at the Maidan and said the police had been restrained. By night the lanes of North Calcutta were a communal massacre. The killing ran through 19 August. The army came late. Scholarly bands sit at four to ten thousand dead.",
+    "sides": [
+      {
+        "label": "Muslim League crowds and gangs",
+        "role": "attacker",
+        "kind": "militia",
+        "actorId": "muslim-league"
+      },
+      {
+        "label": "Hindu crowds and neighbourhood defence",
+        "role": "attacker",
+        "kind": "civilian"
+      },
+      {
+        "label": "Bengal police and Governor Burrows",
+        "role": "unclear",
+        "kind": "state-forces",
+        "actorId": "britain-crown"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "Hindus and Muslims in Calcutta, 16–19 August",
+        "contested": true,
+        "killedMin": 4000,
+        "killedMax": 10000,
+        "injuredBest": 15000,
+        "claimedBy": "Britannica 4,000–10,000; Indian Express 5,000–10,000; Eastern Command report ~2–3,000 at least",
+        "note": "Both communities killed. No community integer is stored here. Tuker blamed both; Chatterji put heavy responsibility on Suhrawardy."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "Direct Action Day",
+        "year": 2026,
+        "url": "https://www.britannica.com/event/Direct-Action-Day-India-1946",
+        "excerpt": "The death toll remains disputed, with estimates ranging between 4,000 and 10,000 people killed and tens of thousands injured or displaced. By August 22 the army had brought the city under control.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Indian Express",
+        "headline": "Remembering the Great Calcutta Killings",
+        "year": 2024,
+        "url": "https://indianexpress.com/article/explained/explained-history/remembering-great-calcutta-killings-jinnah-direct-action-9517614/",
+        "excerpt": "Between August 16 to August 19, 1946, Calcutta witnessed one of the worst episodes of Hindu-Muslim communal violence, which left between 5,000 to 10,000 dead, and some 15,000 wounded.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "ramganj-10-oct-1946",
+    "conflictId": "noakhali-1946",
+    "name": "Ramganj, 10 October",
+    "kind": "massacre",
+    "time": {
+      "year": 1946,
+      "precision": "day",
+      "month": 10,
+      "day": 10
+    },
+    "place": {
+      "name": "Ramganj, Noakhali",
+      "longitude": 90.86,
+      "latitude": 22.968,
+      "precision": "district",
+      "admin": {
+        "country": "Bangladesh"
+      }
+    },
+    "summary": "On Kojagari Lakshmi Puja a meeting at Ramganj under Gholam Sarwar was followed by attacks on Hindu houses, beginning with local zamindars. The violence spread through Ramganj, Raipur, Begumganj and Lakshmipur, and into Tippera. Official dead sat near two hundred. Conversion, abduction and rape were the method. Gandhi came in November.",
+    "sides": [
+      {
+        "label": "Gholam Sarwar’s following",
+        "role": "attacker",
+        "kind": "militia",
+        "actorId": "gholam-sarwar"
+      },
+      {
+        "label": "Hindu villagers of Noakhali",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "Hindus in Noakhali and Tippera, October–November 1946",
+        "contested": true,
+        "killedMin": 200,
+        "killedMax": 5000,
+        "claimedBy": "official ~200; Congress up to 5,000",
+        "note": "Official and ICS floors 200–250. Sukumar Roy 285 named Hindus. Congress spoke of thousands. Forced conversions in the thousands. No agreed death integer."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Hindustan Times",
+        "headline": "An epic peace mission",
+        "year": 2019,
+        "url": "https://www.hindustantimes.com/india-news/an-epic-peace-mission/story-02FOudy86ERzbkG3FVIuzI.html",
+        "excerpt": "Communal violence had broken out on October 10, 1946, and rapidly swept the district. Reports poured in of poor Hindu families slaughtered, women raped and murdered and forcible conversions. The state ministry, under the Muslim League, was accused of doing nothing.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Frontline",
+        "headline": "Remembering Nehru’s stand, 1946",
+        "year": 2025,
+        "url": "https://frontline.thehindu.com/the-nation/nehrus-61st-death-anniversary-humanism-partition-1946-bihar-noakhali/article69625386.ece",
+        "excerpt": "The Muslim peasantry of Noakhali, under the instigation and participation of the Muslim League leadership running the interim government in Bengal, had planned and orchestrated a massacre of Hindus from 10 October.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "The Hindu",
+        "headline": "Gandhi visited areas hit by communal riots in Noakhali",
+        "year": 2023,
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/gandhi-visited-areas-hit-by-communal-riots-in-noakhali-to-restore-peace-recalls-stalin/article67197319.ece",
+        "excerpt": "Gandhi visited areas hit by communal riots at Noakhali in the then Bengal to restore peace. Mountbatten later wrote that a one-man boundary force had succeeded in Bengal where tens of thousands of troops had failed in Punjab.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "rawalpindi-march-1947",
+    "conflictId": "partition-1947",
+    "name": "Rawalpindi, March 1947",
+    "kind": "massacre",
+    "time": {
+      "year": 1947,
+      "precision": "month",
+      "month": 3
+    },
+    "place": {
+      "name": "Rawalpindi",
+      "longitude": 73.047,
+      "latitude": 33.565,
+      "precision": "district",
+      "admin": {
+        "country": "Pakistan",
+        "state": "Punjab"
+      }
+    },
+    "summary": "In March 1947, after the Punjab Unionist ministry fell, Muslim crowds and League National Guards attacked Sikh and Hindu villages in the Rawalpindi division. Official non-Muslim dead in Rawalpindi district were 2,263 on police cases; the SGPC put the division’s dead over 7,000. The flight from West Punjab had begun before the Radcliffe line was drawn.",
+    "sides": [
+      {
+        "label": "Muslim League National Guards and local crowds",
+        "role": "attacker",
+        "kind": "militia",
+        "actorId": "muslim-league"
+      },
+      {
+        "label": "Sikh and Hindu villagers",
+        "role": "target",
+        "kind": "civilian"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "Sikhs and Hindus in Rawalpindi division",
+        "contested": true,
+        "killedMin": 2263,
+        "killedMax": 8000,
+        "claimedBy": "official Rawalpindi district 2,263; SGPC over 7,000 for the division",
+        "note": "Official count from registered police cases, excluding households wiped out with no claimant. Not a Partition total."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "Frontline",
+        "headline": "Tragic divide",
+        "year": 2017,
+        "url": "https://frontline.thehindu.com/books/tragic-divide/article9968251.ece",
+        "excerpt": "On March 4, Muslim gangs, egged on by the League paramilitaries, attacked Hindus and Sikhs in Lahore. In the following week the violence was widespread and Sikhs retaliated in Amritsar.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "Partition of India",
+        "url": "https://www.britannica.com/event/Partition-of-India",
+        "excerpt": "Estimates of the number of people who died during the partition range from 200,000 to 2,000,000. The March killings in the Punjab were the first wave of that communal massacre.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "amritsar-august-1947",
+    "conflictId": "partition-1947",
+    "name": "Punjab, August 1947",
+    "kind": "massacre",
+    "time": {
+      "year": 1947,
+      "precision": "month",
+      "month": 8
+    },
+    "place": {
+      "name": "Amritsar",
+      "longitude": 74.86,
+      "latitude": 31.6205,
+      "precision": "theater",
+      "admin": {
+        "country": "India",
+        "state": "Punjab"
+      }
+    },
+    "summary": "Independence came on 14–15 August; the Radcliffe award on the 17th. Punjab was already killing. The Punjab Boundary Force under Major-General Rees, mixed units for twelve districts, failed. Trains arrived as corpses. Communal massacre was the form of British departure. No death integer for this fortnight is stored here; the campaign holds the published range.",
+    "sides": [
+      {
+        "label": "Punjab Boundary Force",
+        "role": "unclear",
+        "kind": "state-forces",
+        "actorId": "punjab-boundary-force"
+      },
+      {
+        "label": "Sikh jathas",
+        "role": "attacker",
+        "kind": "militia",
+        "actorId": "sikh-jathas"
+      },
+      {
+        "label": "Muslim armed bands",
+        "role": "attacker",
+        "kind": "militia",
+        "actorId": "muslim-league"
+      }
+    ],
+    "casualties": [
+      {
+        "of": "civilian",
+        "sideLabel": "refugees and villagers on both sides of the new Punjab line",
+        "contested": true,
+        "note": "No invented integer for August Punjab. Britannica’s Partition band is 200,000–2,000,000 overall. Rees reported, before the 15th, an average daily killing of about 100 in his area, with occasional raids of 70–80."
+      }
+    ],
+    "reports": [
+      {
+        "outlet": "The Indian Express",
+        "headline": "Independence, Partition & Punjab Boundary Force",
+        "year": 2022,
+        "url": "https://indianexpress.com/article/cities/chandigarh/independence-partition-punjab-boundary-force-8090629/",
+        "excerpt": "Raised around the 4th Indian Division commanded by Maj Gen T. W. Rees, the PBF comprised 25,818 troops for East and West Punjab. It was woefully under strength. Rees wrote on 11 August that the disturbances were producing an average daily killing of about 100 people.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "BBC News",
+        "headline": "Partition: Why was British India divided 75 years ago?",
+        "year": 2022,
+        "url": "https://www.bbc.com/news/world-south-asia-62467438",
+        "excerpt": "This created an upsurge of violence, in which approximately 15 million people were displaced and an estimated one million died. Between 200,000 and one million people are estimated to have been killed or died of disease in refugee camps.",
+        "stance": "independent"
+      },
+      {
+        "outlet": "Encyclopaedia Britannica",
+        "headline": "Partition of India",
+        "url": "https://www.britannica.com/event/Partition-of-India",
+        "excerpt": "Estimates of the number of people who died during the partition range from 200,000 to 2,000,000. As many as 2,000,000 people were slaughtered in communal massacres, although scarce documentation has left a wide range of estimates.",
+        "stance": "independent"
+      }
+    ],
+    "confidence": "medium"
+  }
+]
