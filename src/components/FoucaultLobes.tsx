@@ -241,7 +241,7 @@ export function FoucaultLobes({ data }: { data: FoucaultTaxonomy }) {
                       dominantBaseline="middle"
                       data-hot={isHot ? "true" : "false"}
                     >
-                      {clipLine(fiber.mark.line)}
+                      {fiber.mark.label ?? clipLine(fiber.mark.line)}
                     </text>
                   </g>
                 );
@@ -274,7 +274,7 @@ export function FoucaultLobes({ data }: { data: FoucaultTaxonomy }) {
             <p className="foucault-tray-source">{current.mark.source}</p>
           </>
         ) : (
-          <p className="foucault-tray-empty">Hover a line. Thickness is the load.</p>
+          <p className="foucault-tray-empty">Hover a line.</p>
         )}
       </aside>
     </section>

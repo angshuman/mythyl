@@ -1,7 +1,7 @@
 {
   "span": "1926–1984",
-  "kicker": "A decomposition · not a map",
-  "origin": "Michel Foucault is one point: a historian of systems of thought who showed that power does not merely forbid — it produces subjects, bodies, truths, and seminars. The humanities then produced him back, until the man who wrote in order to have no face became the face on every syllabus.",
+  "kicker": "Theories · hover a line",
+  "origin": "Michel Foucault argued that power produces subjects rather than merely forbidding them; that knowledge is bound to the institutions which examine, archive, and train; that the body is an object of discipline and of biopolitics; that discourse governs what may be said; that history has no destination; that the modern West put sex into speech rather than liberating it; and that the self is an exercise.",
   "categories": [
     {
       "id": "power",
@@ -9,147 +9,168 @@
       "marks": [
         {
           "id": "power-yes",
-          "line": "Power is not a king’s no. It is a yes that makes you.",
+          "label": "Power produces subjects",
+          "line": "Power is not only a prohibition. It produces the kinds of people who can be forbidden, examined, and ruled — subjects, not merely the objects of a law.",
           "source": "History of Sexuality I, 1976",
-          "gloss": "The repressive hypothesis was the easy story: power says no, we say yes, liberation follows. Foucault’s better insult is that power produces the very subjects who then congratulate themselves on speaking. Desire, identity, the confessing animal — manufactured, then called nature."
+          "gloss": "He discovered your mother, renamed her a diagram, and billed the seminar. The claim is real enough: a law that only says no cannot explain how anyone becomes the sort of person the law can address. Families, parishes, and regiments already knew that. They called it bringing someone up. If power makes you, so does gravy. One of these still has a claim to be true. The other has a reading list."
         },
         {
           "id": "power-makes",
-          "line": "Discipline makes individuals. You were not born a case.",
+          "label": "Discipline makes individuals",
+          "line": "Discipline does not crush the individual from outside. It manufactures individuals by distributing bodies in space, time, exercise, and rank — in the school, the barracks, the factory, and the prison.",
           "source": "Discipline and Punish, 1975",
-          "gloss": "The individual is not what power finds and then oppresses. It is what the school, the barracks, the clinic, and the prison turn out. ‘Discipline “makes” individuals’ is the line; the scare quotes are doing the work your seminar skipped."
+          "gloss": "The school, the barracks, the factory, and the prison share techniques. They also share lunch. He drew that overlap and gasped, as if a timetable were a coup. The claim is that the individual is an output of drill, not a soul the drill then meets. Shared form is not shared guilt. Civilisation drills people because undrilled people cannot read, march, or ship. A child who cannot sit still is not a martyr of micro-physics. He is late for arithmetic."
         },
         {
           "id": "power-capillary",
-          "line": "Micro-physics: capillary, not a throne you seize.",
+          "label": "Power at the extremities",
+          "line": "Do not look for power as a prize stored in the palace. Study it at its extremities: the gesture, the timetable, the file, the little procedures that train a body.",
           "source": "Discipline and Punish, 1975",
-          "gloss": "He asked that power be studied at its extremities — in gestures, timetables, files — not as a commodity stored in the palace. The left wanted a Winter Palace. He gave them a timetable. They cited him anyway, then went looking for a palace."
+          "gloss": "Study the timetable if you like. The palace still exists. He found power in the file clerk and forgot the Tsar, which is a very indoor theory of politics. The claim is that sovereignty is the least interesting place to look. The trouble is scale. A hall monitor and a secret policeman both use paper; only one of them can ruin a country. A philosophy that cannot tell them apart will sit out an actual tyranny and still feel busy."
         },
         {
           "id": "power-resist",
-          "line": "Where there is power, there is resistance. Then a reading list.",
+          "label": "Resistance is interior",
+          "line": "Where there is power there is resistance. Resistance is never exterior to power; it is born inside the relations it opposes, and has no pure outside from which to strike.",
           "source": "History of Sexuality I, 1976",
-          "gloss": "The line is real, and so is the next clause: resistance is never exterior to power. There is no Great Refusal waiting offstage. There is a plurality of resistances, each a special case — which is why every special case now has a special issue."
+          "gloss": "Then there is no outside, which is a very convenient inside. The claim is that every no is already a move in the game, so you cannot leave the game, you can only invert a relation. The older hope was a soul that could refuse the world, not a special issue. If resistance is always already power, the seminar is not the underground. The underground had worse coffee and, occasionally, a door."
         },
         {
           "id": "power-conduct",
-          "line": "Governmentality: the conduct of conduct.",
+          "label": "Government of populations",
+          "line": "Governmentality is the conduct of conduct: the art of acting on other people’s actions. Sovereignty, discipline, and the government of a population are three forms of that art, not a single throne.",
           "source": "Security, Territory, Population, 1977–78",
-          "gloss": "Not the state as origin, but a triangle of sovereignty, discipline, and government, aimed at the population. The state, he said, is a composite of tactics. Birth of Biopolitics (1978–79) then spends a year on German ordoliberals and the Chicago School. The title is a trap. The lectures are about neoliberalism."
+          "gloss": "States govern populations. He named the job description and the room went quiet, as if census and grain were a scandal. The claim is that modern rule is less a king’s sword than an art of managing a living mass — births, health, circulation. They are the job. The 1978–79 lectures then wander into German ordoliberals and Chicago, as if markets had been hiding behind a curtain. The left filed that under unfinished. Everyone else filed it under he noticed the century had a cost, and the cost was not a timetable."
         }
       ]
     },
     {
       "id": "knowledge",
-      "title": "Knowledge is a police",
+      "title": "Knowledge is institutional",
       "marks": [
         {
           "id": "know-gaze",
-          "line": "The medical gaze sees a case, not a person.",
+          "label": "The medical gaze",
+          "line": "The clinic’s medical gaze does not simply find a disease waiting in the body. It constitutes the patient as a case — a visible, classifiable object of knowledge.",
           "source": "The Birth of the Clinic, 1963",
-          "gloss": "Naissance de la clinique is the book in which looking becomes an institution. The clinic does not simply find disease in a body; it redistributes what a body is allowed to mean. Empiricism, in his account, is a political anatomy with a white coat."
+          "gloss": "He watched a doctor look at a lung and discovered looking. The claim is that the clinic does not uncover a disease so much as make a case: a body that can be seen, named, and filed. Fine as a note on paperwork. Fatal as a theory of medicine. Empiricism with a white coat is why you are not bled for humours. If looking is already domination, closing your eyes is not a method. The tumour, untheorised, remains on the scan."
         },
         {
           "id": "know-exam",
-          "line": "The examination is a ceremony of truth that files you.",
+          "label": "The examination",
+          "line": "The examination is a ritual that objectifies a person and archives them in the same gesture. It makes a case of you, ranks you, and files the result.",
           "source": "Discipline and Punish, 1975",
-          "gloss": "Tests, case-notes, inspections: a ritual that objectifies and archives in the same gesture. You leave with a grade, a diagnosis, a record. Power, instead of displaying its splendour, arranges objects. You are one of them."
+          "gloss": "He sat an exam, then theorised the exam. The claim is that testing is not a measure of what you know so much as a ceremony that turns you into a record. Tests exist because some answers are wrong, and a civilisation that will not say so will still rank people — by charm, cousinage, and volume. He made failing a ceremony of power. The rest of us called it Tuesday. Two plus two is not a vibe, and the archive of who got it right is not a police file. It is a school."
         },
         {
           "id": "know-archive",
-          "line": "The archive is not a warehouse. It is the law of what can be said.",
+          "label": "The archive of statements",
+          "line": "The archive is not a warehouse of facts. It is the system of rules that governs which statements may appear, be repeated, or disappear in a given period.",
           "source": "The Archaeology of Knowledge, 1969",
-          "gloss": "He did sit in the actual archives — the Bibliothèque Nationale, the Arsenal, the Bastille files. Then he defined ‘archive’ as the system that governs the appearance of statements. Librarians were not consulted. Historians have not forgiven the vocabulary."
+          "gloss": "He sat in the Bibliothèque Nationale and then defined archive so that librarians could not recognise the building. The claim is that what can be said is already policed by a system, not stored as fact waiting on a shelf. If that is all there is, his own sentences are just more police. He wrote as if they weren’t. The stamp on the card still works, and so does the book that answers back."
         },
         {
           "id": "know-madness",
-          "line": "Madness is partitioned, not discovered. Uppsala almost refused the thesis.",
+          "label": "Madness is partitioned",
+          "line": "Madness is not simply found as a natural kind. It is historically partitioned — confined, medicalised, silenced — by the institutions that claim to know it.",
           "source": "History of Madness, 1961",
-          "gloss": "Folie et déraison, defended in France with Georges Canguilhem after Sten Lindroth in Uppsala found the draft brilliant essayism and not empiricist history. The story has grown in the telling; the book is still the one that treats the ship of fools and the great confinement as operations, not metaphors you get to keep."
+          "gloss": "Some people are ill. He put them on a ship of fools and called it history. The claim is that ‘madness’ is a changing partition, not a thing in nature waiting to be named. Useful against treating the asylum as eternal. Reckless if it forgets the illness. Uppsala’s examiner found brilliant essayism and not empiricist history: the most expensive way to say lovely, but. Fill the ward with metaphors and you still have a ward. The metaphor belongs in the book. The doctor belongs in the room."
         },
         {
           "id": "know-episteme",
-          "line": "An episteme decides what counts as a statement before you speak.",
+          "label": "The episteme",
+          "line": "An episteme is the historical a priori of an age: the underground grid that decides, before any particular science, what will count as a statement.",
           "source": "The Order of Things, 1966",
-          "gloss": "Les mots et les choses made him famous in France, a surprise bestseller about the historical a priori of knowledge. Renaissance resemblance, classical representation, the modern figure of Man. You do not think your way out of an episteme in a blog post. That has not stopped the blog posts."
+          "gloss": "He announced the rules of what can be said, from inside the rules of what can be said, and did not giggle. The claim is that each age has a hidden grammar of knowledge — Renaissance resemblance, classical representation, then the figure of Man — and that sciences do not simply accumulate. A gorgeous three-act. The heckle is that some statements do not wait for the scenery. Two plus two did not wait for an episteme. Neither did the harvest. The harvest has a deadline, which is a kind of truth the seminar never quite scheduled."
         }
       ]
     },
     {
       "id": "body",
-      "title": "The body is a file",
+      "title": "The body is disciplined",
       "marks": [
         {
           "id": "body-damiens",
-          "line": "Damiens, 1757: the set piece every syllabus opens.",
+          "label": "From scaffold to cell",
+          "line": "Modern punishment shifts from the spectacle of the scaffold — the body as public example — to the timetable of the cell, where the body is trained rather than displayed.",
           "source": "Discipline and Punish, 1975",
-          "gloss": "The book begins with the torture and quartering of Robert-François Damiens, then cuts to a prison timetable. The point is the shift from the spectacle of the scaffold to the discipline of the cell. Undergraduates remember the horses. He wanted the timetable."
+          "gloss": "He opened with the horses. Undergraduates never recover. Then he asked you to mourn the timetable, as if not drawing and quartering people were a loss of authenticity. The claim is that the cell is not kinder so much as a different technology: it works on the days of a life instead of an afternoon of pain. Preferring the cell to the scaffold is not a conspiracy. It is called progress, and also Tuesday. The horses were not a pedagogy. They were horses."
         },
         {
           "id": "body-docile",
-          "line": "Docile bodies: school, barracks, factory, prison share a diagram.",
+          "label": "Docile bodies",
+          "line": "A docile body is one that can be used, transformed, and improved. It is produced by shared techniques of space, time, exercise, and rank.",
           "source": "Discipline and Punish, 1975",
-          "gloss": "Not a conspiracy. A set of techniques — distribution in space, control of activity, exercises, ranks — that travel. The soldier, the pupil, the worker, the inmate are cousins. If your campus map looks like a barracks, he already filed the drawing."
+          "gloss": "Space, time, exercise, rank: he found the school day and gasped. The claim is that a useful body is not born, it is made — by rooms, clocks, drills, and places in a line. The ordinary word is habit. His word is diagram. Habit is how you get a regiment that holds, a factory that ships, a child who can read. A diagram is how you get a citation. One of these gets a bus to arrive. The other gets a waitlist. A child who can read is not a docile body in the interesting sense. He is a child who can read."
         },
         {
           "id": "body-panopticon",
-          "line": "Bentham’s 1791 panopticon was barely built. Foucault made it inescapable.",
+          "label": "The panopticon",
+          "line": "Bentham’s panopticon — a circular prison in which one unseen watcher can see all — is offered as the diagram of a society that trains people by the mere possibility of being seen.",
           "source": "Discipline and Punish, 1975",
-          "gloss": "Jeremy Bentham’s circular prison with a central inspector’s lodge was a reformer’s dream, not a widely built fact. Foucault turned it into the diagram of a society that trains by being seen. Bentham scholars have been clearing their throats ever since. The rest of us assigned the chapter."
+          "gloss": "Bentham’s circular prison was barely built. Foucault built it in every syllabus — the neatest real-estate trick in French letters. The claim is that modern society does not need a whip if it can install the feeling of an eye: you watch yourself because you might be watched. We already knew God and the neighbours were watching. We called it the village, then conscience. He called it a machine and sold the machine to people who had demolished the village and needed a villain with a floor plan."
         },
         {
           "id": "body-visible",
-          "line": "“Visibility is a trap.” Then everyone watched the quote.",
+          "label": "Visibility is a trap",
+          "line": "Visibility is a trap. Full light captures better than darkness, which once protected; being seen becomes a means of control rather than a guarantee of truth.",
           "source": "Discipline and Punish, 1975",
-          "gloss": "A real line, from the panopticism chapter. Full lighting and the supervisor’s eye capture better than darkness, which protected. He meant a machine for inducing self-surveillance. We meant CCTV, social media, and the seminar in which someone says ‘panopticon’ and sits down."
+          "gloss": "A fortune cookie for anyone with a camera, and a real line. The claim is that Enlightenment light — see everything, hide nothing — is a capture device, not a liberation. Darkness protected the thief as well as the mystic. The leap is the problem: being seen is treated as already guilt, so the only innocent life is an unlit one. He made visibility a trap and then sat for the photograph. The village managed both. You were seen, and you were still allowed a door."
         },
         {
           "id": "body-soul",
-          "line": "“The soul is the prison of the body.” A reversal with a footnote.",
+          "label": "Soul as prison of the body",
+          "line": "The soul, in this account, is not a substance waiting inside the flesh. It is the effect and instrument of a political anatomy: the soul is the prison of the body.",
           "source": "Discipline and Punish, 1975",
-          "gloss": "The full sentence: ‘The soul is the effect and instrument of a political anatomy; the soul is the prison of the body.’ Not theology inverted for the poster. A claim that the modern ‘soul’ — psyche, conscience, character — is produced by punishment, supervision, and constraint, then used to hold the body still."
+          "gloss": "Christianity said the opposite and built hospitals: the soul as the thing the body is for, not a lock on it. The claim is that ‘soul’ is what discipline invents so that a body can be judged, trained, and held responsible. He inverted a sentence and called it a political anatomy. If the soul is only a prison, the discovery is a typo with tenure. Scare quotes do not set a bone. They make a poor anaesthetic and an excellent seminar title."
         },
         {
           "id": "body-bio",
-          "line": "Biopolitics: power that takes charge of life, rates, populations.",
+          "label": "Biopolitics",
+          "line": "Biopolitics is power that takes charge of life itself — birth rates, health, populations, species — rather than the old right of the sword to take life or let live.",
           "source": "Society Must Be Defended, 1975–76",
-          "gloss": "The right of the sword becomes a power to make live and let die. History of Sexuality I names it; the 1975–76 lectures tie it to state racism. A concept so useful it now explains everything, which is how a concept dies of overwork and is reborn in a grant."
+          "gloss": "Power that keeps you alive is the villain now. He watched a state count births and heard a coup. The claim is that modern rule no longer shows itself mainly as the right to kill; it manages life as a mass — fertility, hygiene, longevity. The older right of the sword at least had the courtesy to be visible. A census is not a massacre. Sanitation is not a sword. A theory that cannot tell them apart will treat the drain as a politics. Try cholera as the footnote. It remains a very persuasive critic, and it does not need a diagram."
         }
       ]
     },
     {
       "id": "discourse",
-      "title": "Discourse speaks you",
+      "title": "Discourse has rules",
       "marks": [
         {
           "id": "disc-author",
-          "line": "Barthes killed the author in 1967. Foucault made him a function.",
+          "label": "The author-function",
+          "line": "The author is a function of discourse: a principle of thrift that limits what a text can mean by attaching it to a name, a legal person, and a corpus.",
           "source": "What Is an Author?, 1969",
-          "gloss": "Roland Barthes’s ‘The Death of the Author’ is the slogan. Foucault’s lecture is the instrument: the author as a function of discourse, ‘the principle of thrift in the proliferation of meaning.’ He then became, by the 2007 Thomson Reuters count, the most cited author of books in the humanities. The function is very productive."
+          "gloss": "Barthes killed him. Foucault made him a function. The claim is that ‘the author’ is not a person with a pen so much as a rule for reading: this name, this oeuvre, these meanings allowed. The function then became the most-cited author of books in the humanities. You cannot liquidate the author and keep the royalties in influence. Someone wrote the book. Credit is a receipt, not a bourgeois plot. He would like you to misplace it."
         },
         {
           "id": "disc-face",
-          "line": "“I write in order to have no face.” The face became a brand.",
+          "label": "To have no face",
+          "line": "The writer of an archaeology should have no face, and should not be made to remain the same. The work is a method, not a portrait of a self.",
           "source": "The Archaeology of Knowledge, 1969",
-          "gloss": "From the introduction: ‘I am no doubt not the only one who writes in order to have no face. Do not ask who I am and do not ask me to remain the same.’ Leave that to the bureaucrats and the police, he said. The author-function filed the papers anyway. The photograph is in the course packet."
+          "gloss": "He asked for no face, meaning: do not pin this method on a biography or demand that the next book match the last. The photograph is in the course packet. Do not ask who I am: then stop answering from the most universal pulpit in France. Anonymity is a luxury of people whose names already travel. The poster travelled further, which is what happens when you refuse a face and keep the chair."
         },
         {
           "id": "disc-order",
-          "line": "2 December 1970: every society polices what may be said.",
+          "label": "Discourse is rarefied",
+          "line": "Every society selects, organises, and redistributes discourse. Commentary, the author, and the disciplines are among the procedures that rarefy what may be said.",
           "source": "The Order of Discourse, 1970",
-          "gloss": "The inaugural lecture at the Collège de France: discourse is controlled, selected, organised, redistributed. Commentary, the author, the disciplines — procedures of rarefaction. He delivered this from the chair he had just won. Self-awareness and self-placement, in that order."
+          "gloss": "Every society picks what may be said. He discovered the guest list and called it rarefaction, as if a culture were a crime scene. The claim is that speech is not free flow: it is thinned by commentary, by names, by the disciplines that decide who may talk. The rest of us called it manners, the canon, or blasphemy — the ordinary names for not letting everything in. He delivered the news from the chair he had just won. Either a joke he was in on, or the French for we have a list and a nicer font."
         },
         {
           "id": "disc-sand",
-          "line": "Man is a recent invention. A face in the sand. A bestseller.",
+          "label": "A face drawn in sand",
+          "line": "Man, as both object and subject of the human sciences, is a recent invention — a face drawn in sand at the edge of the sea, liable to be erased.",
           "source": "The Order of Things, 1966",
-          "gloss": "The last page wagers that man would be ‘erased, like a face drawn in sand at the edge of the sea.’ France bought the book. Humanists have been standing on the beach with a bucket ever since, insisting the face is still there, citing Foucault as they do it."
+          "gloss": "France bought the book. The claim is that ‘Man’ is not a given. It is a late figure of knowledge, invented when the human sciences needed a centre, and it can go. Humanists have been standing on the beach with a bucket ever since, waiting for a tide that is a metaphor. The face is still there. It has a name. It has a mother. If man is recent, so is the seminar that announced his funeral. Both can be late. The tide, unhelpfully, is still a tide."
         },
         {
           "id": "disc-sentence",
-          "line": "The sentence that subordinates, parenthesizes, and never quite arrives.",
+          "label": "Statement, not sentence",
+          "line": "A statement is not a sentence that simply refers to the world. It is an event in a discourse: something that appears under rules, can be repeated, and has a place.",
           "source": "The Archaeology of Knowledge, 1969",
-          "gloss": "The prose is a labyrinth he admitted, with a rather shaky hand, to building. Statements, enunciative functions, positivities, the historical a priori. You can finish a Foucault sentence. You cannot finish it in the tone you started. That is not obscurity. It is a method that charges rent."
+          "gloss": "He decided a sentence does not point at the world so much as occur inside a discourse. The claim is that meaning is a matter of position and repeatability, not of a word hitting a thing. The world, unconsulted, continued. If reference is naïve, so is the footnote, and so is the butcher’s bill. The enunciative function does not pay either. Take the boring sentence that points. The butcher, inconveniently, exists."
         }
       ]
     },
@@ -159,141 +180,161 @@
       "marks": [
         {
           "id": "hist-arch",
-          "line": "Archaeology: not origins. The rules of what can appear.",
+          "label": "Archaeology of knowledge",
+          "line": "Archaeology describes the rules of what can appear in a given period. It refuses history as a march of influences, intentions, and great minds handing truth down the line.",
           "source": "The Archaeology of Knowledge, 1969",
-          "gloss": "Written mostly in Sidi Bou Saïd. A method book that refuses the history of ideas — influences, precursors, the spirit of the age — and describes discursive formations instead. It is the book everyone assigns and nobody loves. That is how you know it is working."
+          "gloss": "A method book nobody loves, written mostly in Sidi Bou Saïd, which is how you know the method is working. The claim is that you should map the rules of what can be said, not tell a story of genius influencing genius. After the rules, you still have to explain why this army moved and that harvest failed. Discursive formation is not a weather report. When the roof leaks, someone is still to blame, and it is not a statement."
         },
         {
           "id": "hist-gene",
-          "line": "Genealogy after Nietzsche: a history of the present, not a march toward us.",
+          "label": "Genealogy of the present",
+          "line": "Genealogy, after Nietzsche, is a history of the present. It traces descent and emergence — accidents, captures, reversals — not a destiny that was ripening toward us.",
           "source": "Nietzsche, Genealogy, History, 1971",
-          "gloss": "No secret destiny ripening in the archive. Descent, emergence, the body as a surface of events. The essay is short, which is why it is assigned more often than the books. Effective history, he said, shortens vision to see nearer. The disciples lengthened it into a brand."
+          "gloss": "Nietzsche at least had the good taste to like the strong. Foucault’s genealogy is a solvent: pour it on tradition, nature, the family, and watch them unstick into accidents. The claim is that what looks given — the prison, the self, the norm — has a dirty, contingent past, and that past does not aim at us. Useful against destiny-talk. Useless when you still have to stand somewhere. Someone has to see far enough to plant, and to know whose field it is."
         },
         {
           "id": "hist-sat",
-          "line": "He sat in the BN, the Arsenal, the Bastille files.",
+          "label": "Infamous lives",
+          "line": "Power leaves a record of the obscure. Internment papers, lettres de cachet, and police files catch lives that had no other monument, in the light of the apparatus that seized them.",
           "source": "Lives of Infamous Men, 1977",
-          "gloss": "Not a theorist who ‘did the archives’ as a personality trait. Internment records, lettres de cachet, the obscure caught for a moment in the light of power. ‘La vie des hommes infâmes’ wanted to publish those flashes. The infamous got a theorist. The theorist got a method."
+          "gloss": "Good. Read the files. The claim is that the archive of power is also a portrait of people who would otherwise have left no name — the interned, the denounced, the briefly lit. He found the obscure in the carton and made a priesthood of the finding. The infamous get a theorist, the theorist gets a method, the method gets disciples who have never opened a box. Documents are not improved by being called flashes of power. They are improved by being read first, preferably before the theory arrives."
         },
         {
           "id": "hist-tunis",
-          "line": "Tunisia, 1966–68: missed Paris in May. Did not miss Tunis.",
+          "label": "Power as a policeman",
+          "line": "Power is not only a Western timetable. In a recently independent state it can be a policeman, an arrest, a force that does not need a diagram to be intolerable.",
           "source": "University of Tunis, 1966–68",
-          "gloss": "He taught philosophy in a recently independent Tunisia, wrote the Archaeology in Sidi Bou Saïd, and was in Tunis for the student revolts of 1967–68 and the arrests that followed. He later said that encounter with intolerable power pushed him toward the prisons. The disciples still talk as if May 68 happened to him in the Latin Quarter."
+          "gloss": "He was not in the Latin Quarter in May. He was in Tunisia, teaching, writing the Archaeology, and watching a policeman in a recently independent state. The claim, if you take the years seriously, is that some power is still a gun and a cell, not a school timetable. The disciples still talk as if 68 happened to him in Paris. The policeman, unlike the diagram, has a gun. The postcard was never assigned."
         },
         {
           "id": "hist-vincennes",
-          "line": "Vincennes 1969: staffed the experiment, then took the oldest chair.",
+          "label": "The university as apparatus",
+          "line": "After 1968 the university itself is an apparatus that produces authorised intellectuals: a place that makes names, publics, and the right to speak.",
           "source": "Paris-VIII / Collège de France",
-          "gloss": "He headed philosophy at the new experimental university after 68, and tried to hire ‘the best’ — Deleuze came later; Lyotard, Badiou, Rancière, Serres passed through the department. Then, elected 1970, chair in the History of Systems of Thought at the Collège de France until 1984. He mapped how institutions make subjects from inside the institution that makes names."
+          "gloss": "He mapped how institutions make subjects from inside the institution that makes names. The claim is that Vincennes and then the Collège are not a view from nowhere: they are machines for authorised speech. To his friends this is not a contradiction. To everyone else it is the joke: storm the Bastille, be given a flat there, call the flat an apparatus. The vulgar word is a job. The job came with a pulpit, which is an excellent place from which to theorise pulpits."
         }
       ]
     },
     {
       "id": "sex",
-      "title": "Sex was not liberated",
+      "title": "Sex was put into speech",
       "marks": [
         {
           "id": "sex-repress",
-          "line": "The repressive hypothesis: talking about it is not freedom.",
+          "label": "Against the repressive hypothesis",
+          "line": "The repressive hypothesis is false. We are not silent Victorians who became free by speaking. The modern West multiplied ways of making sex speak, and called that speech liberation.",
           "source": "History of Sexuality I, 1976",
-          "gloss": "We are not more free because we will not shut up. The injunction to speak, the experts who listen, the truth that must come from sex — that is the apparatus. Volume I is short, savage, and still unread by people who quote it about ‘breaking taboos.’"
+          "gloss": "Agreed: the West did not shut up about sex. The claim is that the story ‘they silenced us, we spoke, we are free’ is the wrong story — speech itself was the apparatus, not the jailbreak. He discovered the Victorians talking and called it a hypothesis, which is fair as far as it goes. The sequel he did not stay for is a culture that will not shut up about it and calls the noise liberation. Incitement to discourse is now a content vertical with ads. Some things are private because they are serious. A door that closes remains a technology."
         },
         {
           "id": "sex-victorians",
-          "line": "The Victorians did not shut up about sex. They invented new ways to make it speak.",
+          "label": "We Other Victorians",
+          "line": "The Victorians did not hush sex. They multiplied its languages — medicine, pedagogy, demography, confession — and installed them in clinics, schools, and the state.",
           "source": "History of Sexuality I, 1976",
-          "gloss": "‘We Other Victorians’: the joke is that the supposed silence was a din of pedagogies, medicines, demographics, and confessions. Incitement to discourse, not a lid. If your liberation is a podcast, he already had a chapter."
+          "gloss": "We Other Victorians. The joke is on the people who thought they had escaped. They built podcasts. The claim is that the nineteenth century did not bury sex; it professionalised it, filed it, taught it, and counted it. He found the medical file, the schoolbook, and the confession, and gasped as if speech itself were the plot. A society that talks less about sex and builds more is not a footnote in a history of avowal. It has railways. Railways remain a stronger argument than a confession."
         },
         {
           "id": "sex-scientia",
-          "line": "Scientia sexualis: the West extracted confession, not an ars erotica.",
+          "label": "Scientia sexualis",
+          "line": "The West developed a scientia sexualis: a will to knowledge that extracts a truth of sex through avowal. It is offered against an ars erotica, in which pleasure is an art rather than a confession.",
           "source": "History of Sexuality I, 1976",
-          "gloss": "A blunt contrast, and scholars have disputed how clean it is. His point stands as a diagnosis of a procedure: truth through avowal, sex as a secret that must be told to someone who knows. The clinic and the couch are cousins of the confessional. The memoir is the mass edition."
+          "gloss": "He split the world into people who confess and people who have an art of love, which is a very French map. The claim is that Western sex is a science of truth extracted by talking — priest, doctor, couch — not a craft of pleasure. Wanting a truth about the body is not a Christian plot if the body has one. Confession, clinic, and couch are not the same as a policeman. The memoir as mass edition is a market. Markets are not epistemes. They are what you get when you stop pretending desire is a secret and start selling it by the episode."
         },
         {
           "id": "sex-series",
-          "line": "Volume I promised a six-book series. II and III arrived as Greeks and Romans.",
+          "label": "Ethics of the self",
+          "line": "Volume I sketched a history of sexuality as a six-book series on children, women, perverts, and population. The late volumes recast the problem as Greco-Roman ethics: sexual conduct as a practice of the self rather than a law of desire.",
           "source": "The Use of Pleasure / The Care of the Self, 1984",
-          "gloss": "La volonté de savoir sketched volumes on children, women, perverts, population. Eight years later he published two books on ancient sexual ethics instead. Confessions of the Flesh, the Christian volume, waited until 2018. Changing one’s mind is allowed. Selling a series and delivering a conversion is very French."
+          "gloss": "He sold a six-book raid on the bourgeoisie and delivered the Greeks. Allowed to change his mind. The claim of the late work is that the interesting question is no longer how power made us confess, but how an ancient free man gave himself rules for pleasure. He discovered antiquity the way a man discovers a second bottle. Confessions of the Flesh waited until 2018. The product, it turned out, was not the children. It was a syllabus, and a much quieter theory than the one he had sold."
         },
         {
           "id": "sex-iran",
-          "line": "Iran, autumn 1978: two trips, Corriere della Sera, ‘political spirituality.’",
+          "label": "Political spirituality",
+          "line": "In the Iranian revolt of 1978 he saw a political spirituality: a people willing a different regime of truth against the modernising state, not only a transfer of palaces.",
           "source": "What Are the Iranians Dreaming About?, 1978",
-          "gloss": "September and November in Iran for the Corriere; ‘À quoi rêvent les Iraniens?’ in Le Nouvel Observateur. He wrote that a political spirituality had been forgotten since the Renaissance, and ‘I can already hear the French laughing, but I know that they are wrong.’ After Khomeini’s return the repressions arrived. Whether he was seduced or reporting a revolt is still fought over. The articles are real; the afterlife is a seminar."
+          "gloss": "The articles are real. I can already hear the French laughing, but I know that they are wrong. The claim is that the revolt was not only a change of government but a will to another kind of truth — a spirituality against the Shah’s modernisation. He went twice, heard a sermon, and discovered that will. What arrived was a clergy that did not need his permission. When a philosopher of power meets a theocracy and hears music, believe the theocracy. The laugh could tell a sermon from a state."
         }
       ]
     },
     {
       "id": "self",
-      "title": "The self is a workshop",
+      "title": "The self is an exercise",
       "marks": [
         {
           "id": "self-care",
-          "line": "Care of the self: Greco-Roman askesis, not a spa.",
+          "label": "Care of the self",
+          "line": "Care of the self is Greco-Roman askesis: diet, letters, examination of conscience. It is work on oneself, not a mood and not the discovery of a hidden inner person.",
           "source": "The Care of the Self, 1984",
-          "gloss": "The late books and the 1981–82 lectures (The Hermeneutics of the Subject) turn to techniques of the self — diet, letters, examination of conscience, the ancient art of not being a slave to oneself. Disciples heard a glow-up: from prisons to wellness. He meant work. The spa kept the citation."
+          "gloss": "Disciples heard a glow-up. He meant exercises. The claim is that the self is something you do — a diet, a letter, a nightly look at one’s appetites — not a pearl waiting under a questionnaire. The spa kept the citation. He discovered Lent, vespers, and not being a slave to one’s hungers, then routed them through the Collège so they would count as thought. The ancients had a city attached. Wellness has a subscription. Guess which one buried its dead with a rite."
         },
         {
           "id": "self-parrhesia",
-          "line": "Parrhesia: the courage of truth, spoken at a cost.",
+          "label": "Parrhesia",
+          "line": "Parrhesia is frank speech that risks the speaker. It is the courage of truth before someone who can punish you, not a brand of authenticity.",
           "source": "The Courage of Truth, 1983–84",
-          "gloss": "The last Collège de France course, given while he was ill, on frank speech that risks the speaker. Not ‘speaking your truth’ into a branded microphone. A Greek practice with a price. The irony of citing it from a secure chair is almost too neat to use, so everyone uses it."
+          "gloss": "A Greek practice with a price: say the true thing to the person who can hurt you. The claim is that truth-telling is an act with a body on the line, not a style of being genuine. He cited it from a chair that did not wobble, which is almost too neat, so everyone uses it. He discovered losing the dinner, then named it. If your microphone is safe, it is not parrhesia. It is a take. Takes need a follow button. They do not need a Collège de France."
         },
         {
           "id": "self-refuse",
-          "line": "“Refuse what we are.” Not a discovery. A refusal.",
+          "label": "Refuse what we are",
+          "line": "The political target is not to discover what we are — a true self waiting under the files — but to refuse what we are, the identity that power has installed.",
           "source": "The Subject and Power, 1982",
-          "gloss": "‘Maybe the target nowadays is not to discover what we are but to refuse what we are.’ A real line, from the essay that also calls him a specific intellectual. The identity industry heard ‘become yourself.’ He had spent twenty years showing how ‘yourself’ gets installed."
+          "gloss": "A real line, 1982. The claim is that liberation is not finding the real you under the clinic and the school; it is refusing the you those places produced. He spent twenty years showing how ‘yourself’ gets installed, then said refuse it. The identity industry heard become yourself and hired a photographer. A theory of refusal that cannot say what is worth keeping — the person, the promise, the child — is a solvent with tenure. Tenure, unlike the self, has a committee."
         },
         {
           "id": "self-work",
-          "line": "You do not find a self. You work one.",
+          "label": "The self is worked",
+          "line": "The self is not found under a questionnaire. It is worked, as the ancients worked it: a form one gives oneself by exercises, not a secret one reports.",
           "source": "The Hermeneutics of the Subject, 1981–82",
-          "gloss": "Subjectivation as practice, not as a nugget waiting under trauma and a questionnaire. The ancients had exercises. We have profiles. He would have been unbearable on the internet, which is why the internet cannot leave him alone."
+          "gloss": "The ancients had exercises. We have profiles. The claim is that you do not uncover a self, you fashion one — subjectivation as practice, not as confession. He discovered working on yourself and called it a long word for an old job. The older word was character. It did not require a neologism, and it could still be ashamed, which is more than a profile can manage. He would have been unbearable on the internet. The internet cannot leave him alone."
         },
         {
           "id": "self-confess",
-          "line": "The 1970s mapped confession as power. The 1980s asked how the ancients examined themselves.",
+          "label": "From confession to askesis",
+          "line": "The 1970s mapped Christian and clinical confession as a power that produces a subject by making one speak. The 1980s asked how the ancients examined themselves without that police: as an art of living, not an avowal to an authority.",
           "source": "History of Sexuality I–III",
-          "gloss": "Not a contradiction so much as a relocation: from the Christian and clinical avowal that produces a subject, to older arts of self-governance that do not require a police of the interior. Readers who needed one Foucault — the prophet of discipline — treat the late work as a betrayal. It is a sequel. Sequels annoy fans."
+          "gloss": "The 1970s: you become a subject by avowing to a priest, a doctor, a couch. The 1980s: the Greeks had a look at themselves without that police, as an exercise. The claim is a sequel, not a betrayal — from how power makes you talk, to how a free man might train himself. He discovered prayer and routed it through Athens. It is possible to examine your conscience without a theorist in the room. It is also cheaper than a course."
         }
       ]
     },
     {
       "id": "citation",
-      "title": "The citation is the panopticon",
+      "title": "The author-function",
       "marks": [
         {
           "id": "cite-the",
-          "line": "THE, 2007: most-cited author of books in the humanities.",
+          "label": "The name as apparatus",
+          "line": "A name in the humanities can become an apparatus of authorised speech: a canon, a method, a way one is required to talk.",
           "source": "Times Higher Education / ISI, 2007",
-          "gloss": "Thomson Reuters counted citations to books: Foucault 2,521, Bourdieu 2,465, Derrida 1,874. A century after his birth he is still introduced as the most cited in the human sciences. The man who theorised the author-function became the function. Nobody is more interior to the apparatus he described."
+          "gloss": "Foucault 2,521; Bourdieu 2,465; Derrida 1,874. Thomson Reuters counted him the most-cited author of books in the humanities. The claim, applied to himself, is that a name can do the work he assigned to the author-function: it licenses speech. He discovered the name, then became the name. Interior to the apparatus is not a refutation. It is a confession to be read aloud, slowly, to the class that assigned him as the way out. The way out had a waiting list."
         },
         {
           "id": "cite-bentham",
-          "line": "Every campus has a panopticon paper that cites Foucault citing Bentham.",
+          "label": "Diagram outruns the building",
+          "line": "A diagram of visibility travels further than the building it describes. The panopticon as image outruns Bentham’s prison and becomes a general theory of being watched.",
           "source": "Discipline and Punish, 1975, industrialised",
-          "gloss": "Bentham designed a prison. Foucault designed a diagram. The profession designed a genre. Surveillance studies, architecture midterms, op-eds about phones: the panopticon-industrial complex. Visibility, in this market, is a citation trap."
+          "gloss": "Bentham designed a prison. Foucault designed a diagram. The profession designed an industry of campus papers, architecture midterms, and op-eds about phones. The claim is that a sketch can govern more lives than a building. He found a prison that was barely built and franchised the floor plan. If every camera is Bentham, then nothing is, and a word that used to mean a building now means a feeling. A prison is a prison. Your phone is a nuisance. The citation is the product. The product ships."
         },
         {
           "id": "cite-pk",
-          "line": "“Power/knowledge” is where the sentence stops.",
+          "label": "Power/knowledge",
+          "line": "Power/knowledge names a compound. There is no knowledge that is not entangled with power, and no power that does not make a knowledge of what it rules.",
           "source": "Power/Knowledge, 1980 (interviews)",
-          "gloss": "The slash is a whole theory: no knowledge without power relations, no power that does not make knowledge. The English book of that title is a 1980 collection of interviews, not a monograph he named. Undergraduates say the phrase and sit down. That is the sentence nobody can finish."
+          "gloss": "The slash is a whole theory: you never just know, you always also rule, and ruling always makes a knowledge. The English book of that title is a 1980 interview collection, not a monograph he named. Undergraduates say the phrase and sit down. The claim dissolves the old courtesy that knowledge might correct power. He discovered that knowing and ruling keep company. The child’s question remains: if your knowledge is only power, why should I believe you? Children are rude that way. Facts are ruder."
         },
         {
           "id": "cite-gip",
-          "line": "GIP, 8 February 1971: he stood at the prison gates.",
+          "label": "The subjugated should speak",
+          "line": "The imprisoned should speak in their own name. The intellectual’s task is to make a space for that speech, not to represent the prisoner as a cause.",
           "source": "Groupe d’information sur les prisons",
-          "gloss": "Manifesto signed with Jean-Marie Domenach and Pierre Vidal-Naquet; Daniel Defert was decisive in the founding. The point was to let prisoners speak, not to let philosophers speak about prisoners. Eighteen months, then self-dissolution. The disciples kept the footnote and lost the gates."
+          "gloss": "GIP, February 1971, with Domenach and Vidal-Naquet: let prisoners speak, do not speak for them. The claim is that the universal intellectual who represents the wretched is another apparatus; the job is to get out of the way. Eighteen months at the gate, then self-dissolution. The disciples kept the footnote and lost the gates. A philosopher at the gate is still a philosopher. The prisoners went back in. The footnote did not. Footnotes rarely do."
         },
         {
           "id": "cite-college",
-          "line": "Collège de France, 1970–84: he diagnosed power from its summit.",
+          "label": "The lecture as institution",
+          "line": "The public lecture is itself an institution. It authorises a body of thought, gathers a public, and makes a name that can be cited.",
           "source": "History of Systems of Thought",
-          "gloss": "Annual public lectures, packed rooms, the chair Jules Vuillemin steered into existence. He refused the role of universal intellectual and then occupied the most universal pulpit in French letters. The analysis of how institutions subjectivate is not refuted by this. It is illustrated."
+          "gloss": "From 1970 to 1984 he held the chair Jules Vuillemin steered into existence. Packed rooms. The claim, applied at home, is that the Collège lecture is not a view from nowhere: it is an apparatus that produces authorised thought. He refused the role of universal intellectual and then occupied the most universal pulpit in French letters. He discovered how institutions subjectivate from the nicest institution in the arrondissement. The analysis is not refuted by this. It is illustrated by this. Filed under jobs for the boys. The boys got the jobs."
         }
       ]
     }

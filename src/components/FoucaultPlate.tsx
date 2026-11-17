@@ -43,7 +43,7 @@ export function FoucaultPlate({ data, showOrigin = true }: Props) {
           <h1 className="foucault-thesis">{data.origin}</h1>
         </div>
       ) : (
-        <h2 className="foucault-list-head">The same split, as a list</h2>
+        <h2 className="foucault-list-head">The same theories, as a list</h2>
       )}
 
       <div className="foucault-fork" data-plain={showOrigin ? "false" : "true"} aria-hidden="true">
@@ -106,7 +106,7 @@ export function FoucaultPlate({ data, showOrigin = true }: Props) {
             <p className="foucault-tray-source">{current.mark.source}</p>
           </>
         ) : (
-          <p className="foucault-tray-empty">Hover a mark. The point splits.</p>
+          <p className="foucault-tray-empty">Hover a mark.</p>
         )}
       </aside>
     </section>

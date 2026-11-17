@@ -3,6 +3,8 @@ import taxonomy from "@/data/foucault/taxonomy.json";
 export type FoucaultMark = {
   id: string;
   line: string;
+  /** Short theory label for the diagram leaf. Falls back to a clipped line. */
+  label?: string;
   source: string;
   gloss: string;
 };
