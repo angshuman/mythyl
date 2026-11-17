@@ -35,7 +35,7 @@ type Props = {
   incidents: Incident[];
   era: Era;
   enabledFamilies: Record<ConflictFamily, boolean>;
-  selected: MapFocus | null;
+  yearsSelected: MapFocus | null;
   hovered: MapFocus | null;
   onHover: (focus: SetStateAction<MapFocus | null>) => void;
   onSelect: (focus: MapFocus) => void;
@@ -50,7 +50,7 @@ export function ConflictTimeline({
   incidents,
   era,
   enabledFamilies,
-  selected,
+  yearsSelected,
   hovered,
   onHover,
   onSelect,
@@ -101,24 +101,24 @@ export function ConflictTimeline({
         : null;
   const hotIncidentId = hovered?.type === "incident" ? hovered.incident.id : null;
   const openFamily =
-    selected?.type === "conflict"
-      ? selected.conflict.family
-      : selected?.type === "incident"
-        ? (campaigns.find((row) => row.id === selected.incident.conflictId)?.family ??
-          conflictById(selected.incident.conflictId)?.family ??
+    yearsSelected?.type === "conflict"
+      ? yearsSelected.conflict.family
+      : yearsSelected?.type === "incident"
+        ? (campaigns.find((row) => row.id === yearsSelected.incident.conflictId)?.family ??
+          conflictById(yearsSelected.incident.conflictId)?.family ??
           null)
         : null;
   const openPapers =
-    selected?.type === "incident"
-      ? selected.incident.reports
-      : selected?.type === "conflict"
-        ? reportsForConflict(selected.conflict.id).map((row) => row.report)
+    yearsSelected?.type === "incident"
+      ? yearsSelected.incident.reports
+      : yearsSelected?.type === "conflict"
+        ? reportsForConflict(yearsSelected.conflict.id).map((row) => row.report)
         : [];
   const openTitle =
-    selected?.type === "incident"
-      ? selected.incident.name
-      : selected?.type === "conflict"
-        ? selected.conflict.name
+    yearsSelected?.type === "incident"
+      ? yearsSelected.incident.name
+      : yearsSelected?.type === "conflict"
+        ? yearsSelected.conflict.name
         : null;
   if (openFamily && openTitle && held[openFamily]?.title !== openTitle) {
     setHeld({ ...held, [openFamily]: { title: openTitle, papers: openPapers } });
@@ -156,6 +156,9 @@ export function ConflictTimeline({
 
   return (
     <section className="years" id="years">
+      <header className="years-head">
+        <p className="years-kicker">Years</p>
+      </header>
       <div className="years-body">
         <div
           className="years-stage"
@@ -260,7 +263,7 @@ export function ConflictTimeline({
               const on = enabledFamilies[family.id];
               const packedHeight = LANE_PAD * 2 + tracks * BAR_H + (tracks - 1) * TRACK_GAP;
               const height = on ? packedHeight : Math.min(packedHeight, 16);
-              const drawerOpen = openFamily === family.id && Boolean(selected);
+              const drawerOpen = openFamily === family.id && Boolean(yearsSelected);
               const bits = held[family.id];
               return (
                 <div
@@ -329,7 +332,7 @@ export function ConflictTimeline({
                           }
                           onClick={(event) => {
                             event.stopPropagation();
-                            if (selected?.type === "conflict" && selected.conflict.id === campaign.id) {
+                            if (yearsSelected?.type === "conflict" && yearsSelected.conflict.id === campaign.id) {
                               onClose();
                               return;
                             }
@@ -377,7 +380,7 @@ export function ConflictTimeline({
                             }
                             onClick={(event) => {
                               event.stopPropagation();
-                              if (selected?.type === "incident" && selected.incident.id === incident.id) {
+                              if (yearsSelected?.type === "incident" && yearsSelected.incident.id === incident.id) {
                                 onClose();
                                 return;
                               }

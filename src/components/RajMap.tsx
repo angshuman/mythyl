@@ -112,7 +112,8 @@ export function RajMap() {
     large: true,
   });
   const [enabledFamilies, setEnabledFamilies] = useState<Record<ConflictFamily, boolean>>(ALL_FAMILIES_ON);
-  const [selected, setSelected] = useState<MapFocus | null>(null);
+  const [mapSelected, setMapSelected] = useState<MapFocus | null>(null);
+  const [yearsSelected, setYearsSelected] = useState<MapFocus | null>(null);
   const [hovered, setHovered] = useState<MapFocus | null>(null);
   const [mapError, setMapError] = useState<string | null>(null);
 
@@ -137,10 +138,10 @@ export function RajMap() {
   }, [era, enabledScales, enabledFamilies, lens]);
 
   const focusedConflictId =
-    selected?.type === "conflict"
-      ? selected.conflict.id
-      : selected?.type === "incident"
-        ? selected.incident.conflictId
+    mapSelected?.type === "conflict"
+      ? mapSelected.conflict.id
+      : mapSelected?.type === "incident"
+        ? mapSelected.incident.conflictId
         : null;
 
   const visibleIncidents = useMemo(() => {
@@ -299,7 +300,7 @@ export function RajMap() {
     map.addControl(
       new AttributionControl({
         compact: true,
-        customAttribution: "Land: Natural Earth · states: GADM-derived · mythyl.art",
+        customAttribution: "India: official external boundary · neighbors: Natural Earth · mythyl.art",
       }),
     );
 
@@ -360,7 +361,7 @@ export function RajMap() {
       );
       el.addEventListener("click", (event) => {
         event.stopPropagation();
-        setSelected({ type: "conflict", conflict });
+        setMapSelected({ type: "conflict", conflict });
         map.easeTo({
           center: [conflict.primaryPoint.longitude, conflict.primaryPoint.latitude],
           zoom: Math.max(map.getZoom(), conflict.primaryPoint.precision === "village" ? 7.5 : 5.6),
@@ -403,7 +404,7 @@ export function RajMap() {
       );
       el.addEventListener("click", (event) => {
         event.stopPropagation();
-        setSelected({ type: "incident", incident });
+        setMapSelected({ type: "incident", incident });
         map.easeTo({
           center: [incident.place.longitude, incident.place.latitude],
           zoom: Math.max(map.getZoom(), incident.place.precision === "building" ? 8 : 6.2),
@@ -427,12 +428,12 @@ export function RajMap() {
 
   useEffect(() => {
     const selectedConflictId =
-      selected?.type === "conflict"
-        ? selected.conflict.id
-        : selected?.type === "incident"
-          ? selected.incident.conflictId
+      mapSelected?.type === "conflict"
+        ? mapSelected.conflict.id
+        : mapSelected?.type === "incident"
+          ? mapSelected.incident.conflictId
           : null;
-    const selectedIncidentId = selected?.type === "incident" ? selected.incident.id : null;
+    const selectedIncidentId = mapSelected?.type === "incident" ? mapSelected.incident.id : null;
     const hoverConflictId =
       hovered?.type === "conflict"
         ? hovered.conflict.id
@@ -457,7 +458,7 @@ export function RajMap() {
           ? "true"
           : "false";
     }
-  }, [selected, hovered, visible, visibleIncidents]);
+  }, [mapSelected, hovered, visible, visibleIncidents]);
 
   function flyCompany() {
     setLens("company");
@@ -515,17 +516,20 @@ export function RajMap() {
     );
   }
 
+  function keepFocus(current: MapFocus | null, next: Record<ConflictFamily, boolean>) {
+    if (!current) return current;
+    const family =
+      current.type === "conflict"
+        ? current.conflict.family
+        : conflictById(current.incident.conflictId)?.family;
+    if (family && !next[family]) return null;
+    return current;
+  }
+
   function applyFamilies(next: Record<ConflictFamily, boolean>, fit: boolean) {
     setEnabledFamilies(next);
-    setSelected((current) => {
-      if (!current) return current;
-      const family =
-        current.type === "conflict"
-          ? current.conflict.family
-          : conflictById(current.incident.conflictId)?.family;
-      if (family && !next[family]) return null;
-      return current;
-    });
+    setMapSelected((current) => keepFocus(current, next));
+    setYearsSelected((current) => keepFocus(current, next));
     if (fit) fitFamilyView(next);
   }
 
@@ -614,16 +618,16 @@ export function RajMap() {
   }
 
   function openIncident(incident: Incident) {
-    setSelected({ type: "incident", incident });
+    setMapSelected({ type: "incident", incident });
     flyToFocus({ type: "incident", incident });
   }
 
   function selectFromYears(focus: MapFocus) {
-    setSelected(focus);
+    setYearsSelected(focus);
     flyToFocus(focus);
   }
 
-  const tip = hovered && !selected ? hovered : null;
+  const tip = hovered && !mapSelected ? hovered : null;
 
   return (
     <>
@@ -775,11 +779,11 @@ export function RajMap() {
               : `${tip.incident.name} · ${tip.incident.time.year}`}
           </p>
         ) : null}
-        {selected ? (
+        {mapSelected ? (
           <MapCard
-            focus={selected}
+            focus={mapSelected}
             locked
-            onClose={() => setSelected(null)}
+            onClose={() => setMapSelected(null)}
             onOpenIncident={openIncident}
             onHover={hoverAt}
             hovered={hovered}
@@ -792,11 +796,11 @@ export function RajMap() {
       incidents={scoredIncidents}
       era={era}
       enabledFamilies={enabledFamilies}
-      selected={selected}
+      yearsSelected={yearsSelected}
       hovered={hovered}
       onHover={hoverAt}
       onSelect={selectFromYears}
-      onClose={() => setSelected(null)}
+      onClose={() => setYearsSelected(null)}
       familySolo={familySolo}
       familiesAllOn={familiesAllOn}
       onFocusFamily={onFamilyClick}

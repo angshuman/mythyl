@@ -1,0 +1,301 @@
+{
+  "span": "1926–1984",
+  "kicker": "A decomposition · not a map",
+  "origin": "Michel Foucault is one point: a historian of systems of thought who showed that power does not merely forbid — it produces subjects, bodies, truths, and seminars. The humanities then produced him back, until the man who wrote in order to have no face became the face on every syllabus.",
+  "categories": [
+    {
+      "id": "power",
+      "title": "Power is productive",
+      "marks": [
+        {
+          "id": "power-yes",
+          "line": "Power is not a king’s no. It is a yes that makes you.",
+          "source": "History of Sexuality I, 1976",
+          "gloss": "The repressive hypothesis was the easy story: power says no, we say yes, liberation follows. Foucault’s better insult is that power produces the very subjects who then congratulate themselves on speaking. Desire, identity, the confessing animal — manufactured, then called nature."
+        },
+        {
+          "id": "power-makes",
+          "line": "Discipline makes individuals. You were not born a case.",
+          "source": "Discipline and Punish, 1975",
+          "gloss": "The individual is not what power finds and then oppresses. It is what the school, the barracks, the clinic, and the prison turn out. ‘Discipline “makes” individuals’ is the line; the scare quotes are doing the work your seminar skipped."
+        },
+        {
+          "id": "power-capillary",
+          "line": "Micro-physics: capillary, not a throne you seize.",
+          "source": "Discipline and Punish, 1975",
+          "gloss": "He asked that power be studied at its extremities — in gestures, timetables, files — not as a commodity stored in the palace. The left wanted a Winter Palace. He gave them a timetable. They cited him anyway, then went looking for a palace."
+        },
+        {
+          "id": "power-resist",
+          "line": "Where there is power, there is resistance. Then a reading list.",
+          "source": "History of Sexuality I, 1976",
+          "gloss": "The line is real, and so is the next clause: resistance is never exterior to power. There is no Great Refusal waiting offstage. There is a plurality of resistances, each a special case — which is why every special case now has a special issue."
+        },
+        {
+          "id": "power-conduct",
+          "line": "Governmentality: the conduct of conduct.",
+          "source": "Security, Territory, Population, 1977–78",
+          "gloss": "Not the state as origin, but a triangle of sovereignty, discipline, and government, aimed at the population. The state, he said, is a composite of tactics. Birth of Biopolitics (1978–79) then spends a year on German ordoliberals and the Chicago School. The title is a trap. The lectures are about neoliberalism."
+        }
+      ]
+    },
+    {
+      "id": "knowledge",
+      "title": "Knowledge is a police",
+      "marks": [
+        {
+          "id": "know-gaze",
+          "line": "The medical gaze sees a case, not a person.",
+          "source": "The Birth of the Clinic, 1963",
+          "gloss": "Naissance de la clinique is the book in which looking becomes an institution. The clinic does not simply find disease in a body; it redistributes what a body is allowed to mean. Empiricism, in his account, is a political anatomy with a white coat."
+        },
+        {
+          "id": "know-exam",
+          "line": "The examination is a ceremony of truth that files you.",
+          "source": "Discipline and Punish, 1975",
+          "gloss": "Tests, case-notes, inspections: a ritual that objectifies and archives in the same gesture. You leave with a grade, a diagnosis, a record. Power, instead of displaying its splendour, arranges objects. You are one of them."
+        },
+        {
+          "id": "know-archive",
+          "line": "The archive is not a warehouse. It is the law of what can be said.",
+          "source": "The Archaeology of Knowledge, 1969",
+          "gloss": "He did sit in the actual archives — the Bibliothèque Nationale, the Arsenal, the Bastille files. Then he defined ‘archive’ as the system that governs the appearance of statements. Librarians were not consulted. Historians have not forgiven the vocabulary."
+        },
+        {
+          "id": "know-madness",
+          "line": "Madness is partitioned, not discovered. Uppsala almost refused the thesis.",
+          "source": "History of Madness, 1961",
+          "gloss": "Folie et déraison, defended in France with Georges Canguilhem after Sten Lindroth in Uppsala found the draft brilliant essayism and not empiricist history. The story has grown in the telling; the book is still the one that treats the ship of fools and the great confinement as operations, not metaphors you get to keep."
+        },
+        {
+          "id": "know-episteme",
+          "line": "An episteme decides what counts as a statement before you speak.",
+          "source": "The Order of Things, 1966",
+          "gloss": "Les mots et les choses made him famous in France, a surprise bestseller about the historical a priori of knowledge. Renaissance resemblance, classical representation, the modern figure of Man. You do not think your way out of an episteme in a blog post. That has not stopped the blog posts."
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "title": "The body is a file",
+      "marks": [
+        {
+          "id": "body-damiens",
+          "line": "Damiens, 1757: the set piece every syllabus opens.",
+          "source": "Discipline and Punish, 1975",
+          "gloss": "The book begins with the torture and quartering of Robert-François Damiens, then cuts to a prison timetable. The point is the shift from the spectacle of the scaffold to the discipline of the cell. Undergraduates remember the horses. He wanted the timetable."
+        },
+        {
+          "id": "body-docile",
+          "line": "Docile bodies: school, barracks, factory, prison share a diagram.",
+          "source": "Discipline and Punish, 1975",
+          "gloss": "Not a conspiracy. A set of techniques — distribution in space, control of activity, exercises, ranks — that travel. The soldier, the pupil, the worker, the inmate are cousins. If your campus map looks like a barracks, he already filed the drawing."
+        },
+        {
+          "id": "body-panopticon",
+          "line": "Bentham’s 1791 panopticon was barely built. Foucault made it inescapable.",
+          "source": "Discipline and Punish, 1975",
+          "gloss": "Jeremy Bentham’s circular prison with a central inspector’s lodge was a reformer’s dream, not a widely built fact. Foucault turned it into the diagram of a society that trains by being seen. Bentham scholars have been clearing their throats ever since. The rest of us assigned the chapter."
+        },
+        {
+          "id": "body-visible",
+          "line": "“Visibility is a trap.” Then everyone watched the quote.",
+          "source": "Discipline and Punish, 1975",
+          "gloss": "A real line, from the panopticism chapter. Full lighting and the supervisor’s eye capture better than darkness, which protected. He meant a machine for inducing self-surveillance. We meant CCTV, social media, and the seminar in which someone says ‘panopticon’ and sits down."
+        },
+        {
+          "id": "body-soul",
+          "line": "“The soul is the prison of the body.” A reversal with a footnote.",
+          "source": "Discipline and Punish, 1975",
+          "gloss": "The full sentence: ‘The soul is the effect and instrument of a political anatomy; the soul is the prison of the body.’ Not theology inverted for the poster. A claim that the modern ‘soul’ — psyche, conscience, character — is produced by punishment, supervision, and constraint, then used to hold the body still."
+        },
+        {
+          "id": "body-bio",
+          "line": "Biopolitics: power that takes charge of life, rates, populations.",
+          "source": "Society Must Be Defended, 1975–76",
+          "gloss": "The right of the sword becomes a power to make live and let die. History of Sexuality I names it; the 1975–76 lectures tie it to state racism. A concept so useful it now explains everything, which is how a concept dies of overwork and is reborn in a grant."
+        }
+      ]
+    },
+    {
+      "id": "discourse",
+      "title": "Discourse speaks you",
+      "marks": [
+        {
+          "id": "disc-author",
+          "line": "Barthes killed the author in 1967. Foucault made him a function.",
+          "source": "What Is an Author?, 1969",
+          "gloss": "Roland Barthes’s ‘The Death of the Author’ is the slogan. Foucault’s lecture is the instrument: the author as a function of discourse, ‘the principle of thrift in the proliferation of meaning.’ He then became, by the 2007 Thomson Reuters count, the most cited author of books in the humanities. The function is very productive."
+        },
+        {
+          "id": "disc-face",
+          "line": "“I write in order to have no face.” The face became a brand.",
+          "source": "The Archaeology of Knowledge, 1969",
+          "gloss": "From the introduction: ‘I am no doubt not the only one who writes in order to have no face. Do not ask who I am and do not ask me to remain the same.’ Leave that to the bureaucrats and the police, he said. The author-function filed the papers anyway. The photograph is in the course packet."
+        },
+        {
+          "id": "disc-order",
+          "line": "2 December 1970: every society polices what may be said.",
+          "source": "The Order of Discourse, 1970",
+          "gloss": "The inaugural lecture at the Collège de France: discourse is controlled, selected, organised, redistributed. Commentary, the author, the disciplines — procedures of rarefaction. He delivered this from the chair he had just won. Self-awareness and self-placement, in that order."
+        },
+        {
+          "id": "disc-sand",
+          "line": "Man is a recent invention. A face in the sand. A bestseller.",
+          "source": "The Order of Things, 1966",
+          "gloss": "The last page wagers that man would be ‘erased, like a face drawn in sand at the edge of the sea.’ France bought the book. Humanists have been standing on the beach with a bucket ever since, insisting the face is still there, citing Foucault as they do it."
+        },
+        {
+          "id": "disc-sentence",
+          "line": "The sentence that subordinates, parenthesizes, and never quite arrives.",
+          "source": "The Archaeology of Knowledge, 1969",
+          "gloss": "The prose is a labyrinth he admitted, with a rather shaky hand, to building. Statements, enunciative functions, positivities, the historical a priori. You can finish a Foucault sentence. You cannot finish it in the tone you started. That is not obscurity. It is a method that charges rent."
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History has no destination",
+      "marks": [
+        {
+          "id": "hist-arch",
+          "line": "Archaeology: not origins. The rules of what can appear.",
+          "source": "The Archaeology of Knowledge, 1969",
+          "gloss": "Written mostly in Sidi Bou Saïd. A method book that refuses the history of ideas — influences, precursors, the spirit of the age — and describes discursive formations instead. It is the book everyone assigns and nobody loves. That is how you know it is working."
+        },
+        {
+          "id": "hist-gene",
+          "line": "Genealogy after Nietzsche: a history of the present, not a march toward us.",
+          "source": "Nietzsche, Genealogy, History, 1971",
+          "gloss": "No secret destiny ripening in the archive. Descent, emergence, the body as a surface of events. The essay is short, which is why it is assigned more often than the books. Effective history, he said, shortens vision to see nearer. The disciples lengthened it into a brand."
+        },
+        {
+          "id": "hist-sat",
+          "line": "He sat in the BN, the Arsenal, the Bastille files.",
+          "source": "Lives of Infamous Men, 1977",
+          "gloss": "Not a theorist who ‘did the archives’ as a personality trait. Internment records, lettres de cachet, the obscure caught for a moment in the light of power. ‘La vie des hommes infâmes’ wanted to publish those flashes. The infamous got a theorist. The theorist got a method."
+        },
+        {
+          "id": "hist-tunis",
+          "line": "Tunisia, 1966–68: missed Paris in May. Did not miss Tunis.",
+          "source": "University of Tunis, 1966–68",
+          "gloss": "He taught philosophy in a recently independent Tunisia, wrote the Archaeology in Sidi Bou Saïd, and was in Tunis for the student revolts of 1967–68 and the arrests that followed. He later said that encounter with intolerable power pushed him toward the prisons. The disciples still talk as if May 68 happened to him in the Latin Quarter."
+        },
+        {
+          "id": "hist-vincennes",
+          "line": "Vincennes 1969: staffed the experiment, then took the oldest chair.",
+          "source": "Paris-VIII / Collège de France",
+          "gloss": "He headed philosophy at the new experimental university after 68, and tried to hire ‘the best’ — Deleuze came later; Lyotard, Badiou, Rancière, Serres passed through the department. Then, elected 1970, chair in the History of Systems of Thought at the Collège de France until 1984. He mapped how institutions make subjects from inside the institution that makes names."
+        }
+      ]
+    },
+    {
+      "id": "sex",
+      "title": "Sex was not liberated",
+      "marks": [
+        {
+          "id": "sex-repress",
+          "line": "The repressive hypothesis: talking about it is not freedom.",
+          "source": "History of Sexuality I, 1976",
+          "gloss": "We are not more free because we will not shut up. The injunction to speak, the experts who listen, the truth that must come from sex — that is the apparatus. Volume I is short, savage, and still unread by people who quote it about ‘breaking taboos.’"
+        },
+        {
+          "id": "sex-victorians",
+          "line": "The Victorians did not shut up about sex. They invented new ways to make it speak.",
+          "source": "History of Sexuality I, 1976",
+          "gloss": "‘We Other Victorians’: the joke is that the supposed silence was a din of pedagogies, medicines, demographics, and confessions. Incitement to discourse, not a lid. If your liberation is a podcast, he already had a chapter."
+        },
+        {
+          "id": "sex-scientia",
+          "line": "Scientia sexualis: the West extracted confession, not an ars erotica.",
+          "source": "History of Sexuality I, 1976",
+          "gloss": "A blunt contrast, and scholars have disputed how clean it is. His point stands as a diagnosis of a procedure: truth through avowal, sex as a secret that must be told to someone who knows. The clinic and the couch are cousins of the confessional. The memoir is the mass edition."
+        },
+        {
+          "id": "sex-series",
+          "line": "Volume I promised a six-book series. II and III arrived as Greeks and Romans.",
+          "source": "The Use of Pleasure / The Care of the Self, 1984",
+          "gloss": "La volonté de savoir sketched volumes on children, women, perverts, population. Eight years later he published two books on ancient sexual ethics instead. Confessions of the Flesh, the Christian volume, waited until 2018. Changing one’s mind is allowed. Selling a series and delivering a conversion is very French."
+        },
+        {
+          "id": "sex-iran",
+          "line": "Iran, autumn 1978: two trips, Corriere della Sera, ‘political spirituality.’",
+          "source": "What Are the Iranians Dreaming About?, 1978",
+          "gloss": "September and November in Iran for the Corriere; ‘À quoi rêvent les Iraniens?’ in Le Nouvel Observateur. He wrote that a political spirituality had been forgotten since the Renaissance, and ‘I can already hear the French laughing, but I know that they are wrong.’ After Khomeini’s return the repressions arrived. Whether he was seduced or reporting a revolt is still fought over. The articles are real; the afterlife is a seminar."
+        }
+      ]
+    },
+    {
+      "id": "self",
+      "title": "The self is a workshop",
+      "marks": [
+        {
+          "id": "self-care",
+          "line": "Care of the self: Greco-Roman askesis, not a spa.",
+          "source": "The Care of the Self, 1984",
+          "gloss": "The late books and the 1981–82 lectures (The Hermeneutics of the Subject) turn to techniques of the self — diet, letters, examination of conscience, the ancient art of not being a slave to oneself. Disciples heard a glow-up: from prisons to wellness. He meant work. The spa kept the citation."
+        },
+        {
+          "id": "self-parrhesia",
+          "line": "Parrhesia: the courage of truth, spoken at a cost.",
+          "source": "The Courage of Truth, 1983–84",
+          "gloss": "The last Collège de France course, given while he was ill, on frank speech that risks the speaker. Not ‘speaking your truth’ into a branded microphone. A Greek practice with a price. The irony of citing it from a secure chair is almost too neat to use, so everyone uses it."
+        },
+        {
+          "id": "self-refuse",
+          "line": "“Refuse what we are.” Not a discovery. A refusal.",
+          "source": "The Subject and Power, 1982",
+          "gloss": "‘Maybe the target nowadays is not to discover what we are but to refuse what we are.’ A real line, from the essay that also calls him a specific intellectual. The identity industry heard ‘become yourself.’ He had spent twenty years showing how ‘yourself’ gets installed."
+        },
+        {
+          "id": "self-work",
+          "line": "You do not find a self. You work one.",
+          "source": "The Hermeneutics of the Subject, 1981–82",
+          "gloss": "Subjectivation as practice, not as a nugget waiting under trauma and a questionnaire. The ancients had exercises. We have profiles. He would have been unbearable on the internet, which is why the internet cannot leave him alone."
+        },
+        {
+          "id": "self-confess",
+          "line": "The 1970s mapped confession as power. The 1980s asked how the ancients examined themselves.",
+          "source": "History of Sexuality I–III",
+          "gloss": "Not a contradiction so much as a relocation: from the Christian and clinical avowal that produces a subject, to older arts of self-governance that do not require a police of the interior. Readers who needed one Foucault — the prophet of discipline — treat the late work as a betrayal. It is a sequel. Sequels annoy fans."
+        }
+      ]
+    },
+    {
+      "id": "citation",
+      "title": "The citation is the panopticon",
+      "marks": [
+        {
+          "id": "cite-the",
+          "line": "THE, 2007: most-cited author of books in the humanities.",
+          "source": "Times Higher Education / ISI, 2007",
+          "gloss": "Thomson Reuters counted citations to books: Foucault 2,521, Bourdieu 2,465, Derrida 1,874. A century after his birth he is still introduced as the most cited in the human sciences. The man who theorised the author-function became the function. Nobody is more interior to the apparatus he described."
+        },
+        {
+          "id": "cite-bentham",
+          "line": "Every campus has a panopticon paper that cites Foucault citing Bentham.",
+          "source": "Discipline and Punish, 1975, industrialised",
+          "gloss": "Bentham designed a prison. Foucault designed a diagram. The profession designed a genre. Surveillance studies, architecture midterms, op-eds about phones: the panopticon-industrial complex. Visibility, in this market, is a citation trap."
+        },
+        {
+          "id": "cite-pk",
+          "line": "“Power/knowledge” is where the sentence stops.",
+          "source": "Power/Knowledge, 1980 (interviews)",
+          "gloss": "The slash is a whole theory: no knowledge without power relations, no power that does not make knowledge. The English book of that title is a 1980 collection of interviews, not a monograph he named. Undergraduates say the phrase and sit down. That is the sentence nobody can finish."
+        },
+        {
+          "id": "cite-gip",
+          "line": "GIP, 8 February 1971: he stood at the prison gates.",
+          "source": "Groupe d’information sur les prisons",
+          "gloss": "Manifesto signed with Jean-Marie Domenach and Pierre Vidal-Naquet; Daniel Defert was decisive in the founding. The point was to let prisoners speak, not to let philosophers speak about prisoners. Eighteen months, then self-dissolution. The disciples kept the footnote and lost the gates."
+        },
+        {
+          "id": "cite-college",
+          "line": "Collège de France, 1970–84: he diagnosed power from its summit.",
+          "source": "History of Systems of Thought",
+          "gloss": "Annual public lectures, packed rooms, the chair Jules Vuillemin steered into existence. He refused the role of universal intellectual and then occupied the most universal pulpit in French letters. The analysis of how institutions subjectivate is not refuted by this. It is illustrated."
+        }
+      ]
+    }
+  ]
+}

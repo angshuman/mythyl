@@ -400,6 +400,50 @@ export function NewsList({
   );
 }
 
+function sourcesOf(reports: NewsReport[]): NewsReport[] {
+  const seen = new Set<string>();
+  const rows: NewsReport[] = [];
+  for (const report of reports) {
+    if (!report.outlet && !report.headline) continue;
+    const key = report.url || `${report.outlet}:${report.headline}:${report.year ?? ""}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    rows.push(report);
+  }
+  return rows;
+}
+
+function sourceLine(report: NewsReport): string {
+  const parts = [report.outlet];
+  if (report.year) parts.push(String(report.year));
+  if (report.headline) parts.push(report.headline);
+  return parts.filter(Boolean).join(" · ");
+}
+
+function SourceList({ reports }: { reports: NewsReport[] }) {
+  const rows = sourcesOf(reports);
+  if (rows.length === 0) return null;
+  return (
+    <ul className="map-card-sources">
+      {rows.map((report) => {
+        const line = sourceLine(report);
+        const key = report.url || `${report.outlet}:${report.headline}:${report.year ?? ""}`;
+        return (
+          <li key={key} className="map-card-source">
+            {report.url ? (
+              <a className="map-card-source-link" href={report.url} target="_blank" rel="noreferrer">
+                {line}
+              </a>
+            ) : (
+              line
+            )}
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
 function ConflictBody({
   conflict,
   locked,
@@ -471,7 +515,7 @@ function ConflictBody({
             .join(" · ")}
         </p>
       ) : null}
-      <NewsList reports={papers.map((row) => row.report)} layout="row" />
+      <SourceList reports={papers.map((row) => row.report)} />
     </aside>
   );
 }
@@ -538,7 +582,7 @@ function IncidentBody({
         </ul>
       ) : null}
       {incident.story ? <p className={styles.story}>{incident.story}</p> : null}
-      <NewsList reports={papers} layout="row" />
+      <SourceList reports={papers} />
     </aside>
   );
 }

@@ -1196,6 +1196,43 @@ a {
   overflow: hidden;
 }
 
+.map-card-sources {
+  list-style: none;
+  margin: 0.4rem 0 0;
+  padding: 0.32rem 0 0;
+  border-top: 1px solid var(--rule);
+}
+
+.map-card-source {
+  margin: 0;
+  font-size: 0.68rem;
+  line-height: 1.35;
+  color: var(--paper-dim);
+  letter-spacing: 0.01em;
+}
+
+.map-card-source + .map-card-source {
+  margin-top: 0.18rem;
+}
+
+.map-card-source-link {
+  color: var(--paper-dim);
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+}
+
+.map-card-source-link:hover {
+  color: var(--paper);
+}
+
+.map-page[data-atlas="raj"] .map-card-sources {
+  border-top-color: rgba(196, 160, 106, 0.22);
+}
+
+.map-page[data-atlas="raj"] .map-card-source-link:hover {
+  color: #e7dcc8;
+}
+
 .card-peoples {
   margin-top: 0.35rem;
   color: var(--paper-dim) !important;
@@ -1578,18 +1615,51 @@ a {
 
 .years {
   position: relative;
-  padding: 1.35rem 0 1.2rem;
+  margin-top: 2.4rem;
+  padding: 2.2rem 0 1.8rem;
   border-top: 1px solid var(--rule);
   background:
     radial-gradient(1200px 280px at 50% -40px, rgba(231, 220, 200, 0.05), transparent 70%),
     #070806;
   overflow: hidden;
-  scroll-margin-top: 0;
+  scroll-margin-top: 3.6rem;
+}
+
+.map-page[data-atlas="raj"] .years {
+  border-top: 1px solid rgba(196, 160, 106, 0.32);
+  background:
+    radial-gradient(1200px 280px at 50% -40px, rgba(196, 160, 106, 0.05), transparent 70%),
+    #120e09;
+}
+
+.years-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin: 0 0 0.85rem;
+  padding: 0 1.2rem 0.85rem 1rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.map-page[data-atlas="raj"] .years-head {
+  border-bottom-color: rgba(196, 160, 106, 0.22);
+}
+
+.years-kicker {
+  margin: 0;
+  font-size: 0.58rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--paper-dim);
+}
+
+.map-page[data-atlas="raj"] .years-kicker {
+  color: #c4a06a;
 }
 
 .years-body {
   display: block;
-  padding: 0 1.1rem 0 0.85rem;
+  padding: 0.15rem 1.2rem 0 1rem;
 }
 
 .years-stage {
@@ -2026,8 +2096,18 @@ a {
     bottom: 0.65rem;
   }
 
+  .years {
+    margin-top: 1.5rem;
+    padding: 1.7rem 0 1.35rem;
+  }
+
+  .years-head {
+    padding: 0 0.75rem 0.65rem;
+    margin-bottom: 0.65rem;
+  }
+
   .years-body {
-    padding: 0 0.75rem;
+    padding: 0.1rem 0.75rem 0;
   }
 
   .years-ridge-row,
