@@ -1,0 +1,3653 @@
+[
+  {
+    "id": "andaman",
+    "name": "Andaman and Nicobar Islands",
+    "geoName": "Andaman and Nicobar",
+    "region": "islands",
+    "formed": 1956,
+    "center": {
+      "longitude": 92.73,
+      "latitude": 11.67
+    },
+    "series": [
+      {
+        "year": 1981,
+        "perCapitaRs": 2613,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 5590,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 30,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 26910,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 89100,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 3978,
+        "imr": 23,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 160513,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 7081,
+        "imr": 7,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 177335,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 8126,
+        "imr": 9,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      }
+    ],
+    "politics": []
+  },
+  {
+    "id": "andhra-pradesh",
+    "name": "Andhra Pradesh",
+    "geoName": "Andhra Pradesh",
+    "region": "south",
+    "formed": 1956,
+    "center": {
+      "longitude": 80.65,
+      "latitude": 16.51
+    },
+    "series": [
+      {
+        "year": 1971,
+        "imr": 106,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1981,
+        "perCapitaRs": 1380,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 86,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 4531,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 73,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 18630,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 66,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 69000,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 379402,
+        "imr": 43,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 118349,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 706791,
+        "imr": 22,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 24
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 131083,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 799400,
+        "imr": 19,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 21
+      }
+    ],
+    "politics": [
+      {
+        "start": 1956,
+        "cm": "Neelam Sanjiva Reddy",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1960
+      },
+      {
+        "start": 1983,
+        "cm": "N. T. Rama Rao",
+        "party": "TDP",
+        "partyFamily": "regional",
+        "end": 1989
+      },
+      {
+        "start": 1995,
+        "cm": "N. Chandrababu Naidu",
+        "party": "TDP",
+        "partyFamily": "regional",
+        "end": 2004
+      },
+      {
+        "start": 2004,
+        "cm": "Y. S. Rajasekhara Reddy",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2009
+      },
+      {
+        "start": 2014,
+        "cm": "N. Chandrababu Naidu",
+        "party": "TDP",
+        "partyFamily": "regional",
+        "end": 2019
+      },
+      {
+        "start": 2019,
+        "cm": "Y. S. Jagan Mohan Reddy",
+        "party": "YSRCP",
+        "partyFamily": "regional",
+        "end": 2024
+      },
+      {
+        "start": 2024,
+        "cm": "N. Chandrababu Naidu",
+        "party": "TDP",
+        "partyFamily": "regional",
+        "end": null
+      }
+    ],
+    "note": "Telangana is not a separate polygon on this map. MOSPI publishes a 2011–12-base series for residual Andhra Pradesh and a parallel series for Telangana (backcast through 2011–12). The split array holds the Telangana figures. Undivided Andhra Pradesh GSDP before 2 June 2014 is not the same unit.",
+    "split": [
+      {
+        "id": "telangana",
+        "from": 2014,
+        "label": "Telangana",
+        "series": [
+          {
+            "year": 2011,
+            "perCapitaRs": 91121,
+            "price": "2011-12",
+            "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+            "gsdpCr": 359434
+          },
+          {
+            "year": 2021,
+            "perCapitaRs": 156455,
+            "price": "2011-12",
+            "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+            "gsdpCr": 669769,
+            "imr": 20,
+            "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+            "u5mr": 22
+          },
+          {
+            "year": 2023,
+            "perCapitaRs": 177000,
+            "price": "2011-12",
+            "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+            "gsdpCr": 772684,
+            "imr": 18,
+            "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+            "u5mr": 22
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arunachal-pradesh",
+    "name": "Arunachal Pradesh",
+    "geoName": "Arunachal Pradesh",
+    "region": "northeast",
+    "formed": 1987,
+    "center": {
+      "longitude": 93.62,
+      "latitude": 27.1
+    },
+    "series": [
+      {
+        "year": 1981,
+        "perCapitaRs": 1571,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 5398,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 17664,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 73540,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 11063,
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 104980,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 18649,
+        "imr": 21,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 111107,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 20449,
+        "imr": 20,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      }
+    ],
+    "politics": [
+      {
+        "start": 1987,
+        "cm": "Gegong Apang",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1990
+      },
+      {
+        "start": 1999,
+        "cm": "Mukut Mithi",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2003
+      },
+      {
+        "start": 2007,
+        "cm": "Dorjee Khandu",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2011
+      },
+      {
+        "start": 2016,
+        "cm": "Pema Khandu",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "assam",
+    "name": "Assam",
+    "geoName": "Assam",
+    "region": "northeast",
+    "formed": 1950,
+    "center": {
+      "longitude": 92.94,
+      "latitude": 26.2
+    },
+    "series": [
+      {
+        "year": 1971,
+        "imr": 139,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1981,
+        "perCapitaRs": 1284,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 106,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 4281,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 81,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 13059,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 74,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 41142,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 143175,
+        "imr": 55,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 63657,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 258140,
+        "imr": 34,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 37
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 75938,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 324556,
+        "imr": 30,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 33
+      }
+    ],
+    "politics": [
+      {
+        "start": 1950,
+        "cm": "Bishnuram Medhi",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1957
+      },
+      {
+        "start": 1957,
+        "cm": "Bimala Prasad Chaliha",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1970
+      },
+      {
+        "start": 1978,
+        "cm": "Golap Borbora",
+        "party": "Janata",
+        "partyFamily": "janata",
+        "end": 1979
+      },
+      {
+        "start": 1985,
+        "cm": "Prafulla Kumar Mahanta",
+        "party": "AGP",
+        "partyFamily": "regional",
+        "end": 1990
+      },
+      {
+        "start": 2001,
+        "cm": "Tarun Gogoi",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2016
+      },
+      {
+        "start": 2016,
+        "cm": "Sarbananda Sonowal",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2021
+      },
+      {
+        "start": 2021,
+        "cm": "Himanta Biswa Sarma",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "bihar",
+    "name": "Bihar",
+    "geoName": "Bihar",
+    "region": "hindi-belt",
+    "formed": 1950,
+    "center": {
+      "longitude": 85.31,
+      "latitude": 25.61
+    },
+    "series": [
+      {
+        "year": 1981,
+        "perCapitaRs": 917,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 118,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 2660,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 69,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 6200,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 62,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 21750,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 247144,
+        "imr": 44,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 27674,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 387256,
+        "imr": 27,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 31
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 32227,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 489126,
+        "imr": 23,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 27
+      }
+    ],
+    "politics": [
+      {
+        "start": 1946,
+        "cm": "Shri Krishna Sinha",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1961
+      },
+      {
+        "start": 1977,
+        "cm": "Karpoori Thakur",
+        "party": "Janata",
+        "partyFamily": "janata",
+        "end": 1979
+      },
+      {
+        "start": 1980,
+        "cm": "Jagannath Mishra",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1983
+      },
+      {
+        "start": 1990,
+        "cm": "Lalu Prasad Yadav",
+        "party": "JD/RJD",
+        "partyFamily": "regional",
+        "end": 1997
+      },
+      {
+        "start": 1997,
+        "cm": "Rabri Devi",
+        "party": "RJD",
+        "partyFamily": "regional",
+        "end": 2005
+      },
+      {
+        "start": 2005,
+        "cm": "Nitish Kumar",
+        "party": "JD(U)",
+        "partyFamily": "janata",
+        "end": 2014
+      },
+      {
+        "start": 2015,
+        "cm": "Nitish Kumar",
+        "party": "JD(U)",
+        "partyFamily": "janata",
+        "end": 2026
+      },
+      {
+        "start": 2026,
+        "cm": "Samrat Choudhary",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "chandigarh",
+    "name": "Chandigarh",
+    "geoName": "Chandigarh",
+    "region": "north",
+    "formed": 1966,
+    "center": {
+      "longitude": 76.78,
+      "latitude": 30.73
+    },
+    "series": [
+      {
+        "year": 1991,
+        "imr": 35,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 54836,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 158967,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 18768,
+        "imr": 20,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 222250,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 30582,
+        "imr": 7,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 256912,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 38186,
+        "imr": 7,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      }
+    ],
+    "politics": []
+  },
+  {
+    "id": "chhattisgarh",
+    "name": "Chhattisgarh",
+    "geoName": "Chhattisgarh",
+    "region": "hindi-belt",
+    "formed": 2000,
+    "center": {
+      "longitude": 81.87,
+      "latitude": 21.28
+    },
+    "series": [
+      {
+        "year": 2001,
+        "perCapitaRs": 12170,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 55177,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 158074,
+        "imr": 48,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 78350,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 267033,
+        "imr": 38,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 41
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 87681,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 306712,
+        "imr": 37,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 41
+      }
+    ],
+    "politics": [
+      {
+        "start": 2000,
+        "cm": "Ajit Jogi",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2003
+      },
+      {
+        "start": 2003,
+        "cm": "Raman Singh",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2018
+      },
+      {
+        "start": 2018,
+        "cm": "Bhupesh Baghel",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2023
+      },
+      {
+        "start": 2023,
+        "cm": "Vishnu Deo Sai",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": null
+      }
+    ],
+    "note": "Created on 1 November 2000 from sixteen districts of Madhya Pradesh. Pre-2000 Madhya Pradesh figures on this map include the territory that became Chhattisgarh."
+  },
+  {
+    "id": "dadra-and-nagar-haveli",
+    "name": "Dadra and Nagar Haveli",
+    "geoName": "Dadra and Nagar Haveli",
+    "region": "west",
+    "formed": 1961,
+    "center": {
+      "longitude": 73.02,
+      "latitude": 20.27
+    },
+    "series": [
+      {
+        "year": 2011,
+        "imr": 35,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "imr": 9,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2023,
+        "imr": 9,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      }
+    ],
+    "politics": [],
+    "note": "RBI Table 4 notes that from 2020 the Dadra and Nagar Haveli infant-mortality figures include Daman and Diu. The 2021 and 2023 IMR points are therefore duplicated onto both Union Territory polygons. The two territories were merged as a single UT in January 2020; this outline still draws them separately."
+  },
+  {
+    "id": "daman-and-diu",
+    "name": "Daman and Diu",
+    "geoName": "Daman and Diu",
+    "region": "west",
+    "formed": 1961,
+    "center": {
+      "longitude": 72.83,
+      "latitude": 20.43
+    },
+    "series": [
+      {
+        "year": 2011,
+        "imr": 22,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "imr": 9,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2023,
+        "imr": 9,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      }
+    ],
+    "politics": [],
+    "note": "RBI Table 4 marks Daman and Diu IMR as not available from 2020 and states that Dadra and Nagar Haveli figures include Daman and Diu. The 2021 and 2023 IMR points repeat that merged series. MOSPI does not publish a separate GSDP series for this polygon in the 2011–12-base tables used here."
+  },
+  {
+    "id": "delhi",
+    "name": "Delhi",
+    "geoName": "Delhi",
+    "region": "north",
+    "formed": 1956,
+    "center": {
+      "longitude": 77.21,
+      "latitude": 28.61
+    },
+    "series": [
+      {
+        "year": 1981,
+        "perCapitaRs": 4030,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 11057,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 43,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 42375,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 185001,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 343798,
+        "imr": 28,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 239821,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 572051,
+        "imr": 12,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 14
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 271490,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 669863,
+        "imr": 14,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 16
+      }
+    ],
+    "politics": [
+      {
+        "start": 1993,
+        "cm": "Madan Lal Khurana",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 1996
+      },
+      {
+        "start": 1998,
+        "cm": "Sheila Dikshit",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2013
+      },
+      {
+        "start": 2013,
+        "cm": "Arvind Kejriwal",
+        "party": "AAP",
+        "partyFamily": "regional",
+        "end": 2014
+      },
+      {
+        "start": 2015,
+        "cm": "Arvind Kejriwal",
+        "party": "AAP",
+        "partyFamily": "regional",
+        "end": 2025
+      },
+      {
+        "start": 2025,
+        "cm": "Rekha Gupta",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "goa",
+    "name": "Goa",
+    "geoName": "Goa",
+    "region": "west",
+    "formed": 1987,
+    "center": {
+      "longitude": 73.83,
+      "latitude": 15.5
+    },
+    "series": [
+      {
+        "year": 1981,
+        "perCapitaRs": 3145,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 8797,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 21,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 44110,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 259444,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 42367,
+        "imr": 11,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 294563,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 53168,
+        "imr": 5,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 357611,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 64137,
+        "imr": 6,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      }
+    ],
+    "politics": [
+      {
+        "start": 1987,
+        "cm": "Pratapsingh Rane",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1990
+      },
+      {
+        "start": 2000,
+        "cm": "Manohar Parrikar",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2012
+      },
+      {
+        "start": 2012,
+        "cm": "Manohar Parrikar",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2014
+      },
+      {
+        "start": 2014,
+        "cm": "Laxmikant Parsekar",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2019
+      },
+      {
+        "start": 2019,
+        "cm": "Pramod Sawant",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "gujarat",
+    "name": "Gujarat",
+    "geoName": "Gujarat",
+    "region": "west",
+    "formed": 1960,
+    "center": {
+      "longitude": 72.57,
+      "latitude": 23.02
+    },
+    "series": [
+      {
+        "year": 1971,
+        "imr": 144,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1981,
+        "perCapitaRs": 1940,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 116,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 5891,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 69,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 19823,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 60,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 87481,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 615606,
+        "imr": 41,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 170519,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 1365587,
+        "imr": 21,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 24
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 195617,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 20,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 23
+      }
+    ],
+    "politics": [
+      {
+        "start": 1960,
+        "cm": "Jivraj Narayan Mehta",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1963
+      },
+      {
+        "start": 1975,
+        "cm": "Chimanbhai Patel",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1976
+      },
+      {
+        "start": 1980,
+        "cm": "Madhavsinh Solanki",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1985
+      },
+      {
+        "start": 1990,
+        "cm": "Chimanbhai Patel",
+        "party": "JD",
+        "partyFamily": "janata",
+        "end": 1994
+      },
+      {
+        "start": 1995,
+        "cm": "Keshubhai Patel",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 1996
+      },
+      {
+        "start": 2001,
+        "cm": "Narendra Modi",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2014
+      },
+      {
+        "start": 2014,
+        "cm": "Anandiben Patel",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2016
+      },
+      {
+        "start": 2016,
+        "cm": "Vijay Rupani",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2021
+      },
+      {
+        "start": 2021,
+        "cm": "Bhupendra Patel",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": null
+      }
+    ],
+    "note": "RBI Table 22 (constant 2011–12 GSDP) does not publish a 2023–24 figure for Gujarat; the 2023 point therefore carries per-capita NSDP from Table 10 without a GSDP total."
+  },
+  {
+    "id": "haryana",
+    "name": "Haryana",
+    "geoName": "Haryana",
+    "region": "north",
+    "formed": 1966,
+    "center": {
+      "longitude": 76.78,
+      "latitude": 29.06
+    },
+    "series": [
+      {
+        "year": 1971,
+        "imr": 72,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1981,
+        "perCapitaRs": 2370,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 101,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 7508,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 68,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 27998,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 66,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 106085,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 297539,
+        "imr": 44,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 166873,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 559922,
+        "imr": 27,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 33
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 182816,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 629491,
+        "imr": 26,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 30
+      }
+    ],
+    "politics": [
+      {
+        "start": 1966,
+        "cm": "Bhagwat Dayal Sharma",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1967
+      },
+      {
+        "start": 1968,
+        "cm": "Bansi Lal",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1975
+      },
+      {
+        "start": 1977,
+        "cm": "Devi Lal",
+        "party": "Janata",
+        "partyFamily": "janata",
+        "end": 1979
+      },
+      {
+        "start": 1999,
+        "cm": "Om Prakash Chautala",
+        "party": "INLD",
+        "partyFamily": "regional",
+        "end": 2005
+      },
+      {
+        "start": 2005,
+        "cm": "Bhupinder Singh Hooda",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2014
+      },
+      {
+        "start": 2014,
+        "cm": "Manohar Lal Khattar",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2024
+      },
+      {
+        "start": 2024,
+        "cm": "Nayab Singh Saini",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "himachal-pradesh",
+    "name": "Himachal Pradesh",
+    "geoName": "Himachal Pradesh",
+    "region": "north",
+    "formed": 1971,
+    "center": {
+      "longitude": 77.17,
+      "latitude": 31.1
+    },
+    "series": [
+      {
+        "year": 1981,
+        "perCapitaRs": 1704,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 4910,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 75,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 24608,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 43,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 87721,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 72720,
+        "imr": 38,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 137402,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 121191,
+        "imr": 17,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 23
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 154330,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 137343,
+        "imr": 14,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 17
+      }
+    ],
+    "politics": [
+      {
+        "start": 1971,
+        "cm": "Yashwant Singh Parmar",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1977
+      },
+      {
+        "start": 1977,
+        "cm": "Shanta Kumar",
+        "party": "Janata",
+        "partyFamily": "janata",
+        "end": 1980
+      },
+      {
+        "start": 1993,
+        "cm": "Virbhadra Singh",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1998
+      },
+      {
+        "start": 1998,
+        "cm": "Prem Kumar Dhumal",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2003
+      },
+      {
+        "start": 2012,
+        "cm": "Virbhadra Singh",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2017
+      },
+      {
+        "start": 2017,
+        "cm": "Jai Ram Thakur",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2022
+      },
+      {
+        "start": 2022,
+        "cm": "Sukhvinder Singh Sukhu",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "jammu-and-kashmir",
+    "name": "Jammu and Kashmir",
+    "geoName": "Jammu and Kashmir",
+    "region": "north",
+    "formed": 1957,
+    "center": {
+      "longitude": 74.8,
+      "latitude": 34.08
+    },
+    "series": [
+      {
+        "year": 1981,
+        "perCapitaRs": 1776,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 3816,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 15019,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 51775,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 78256,
+        "imr": 41,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 66029,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 115402,
+        "imr": 16,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 16
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 76653,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 133421,
+        "imr": 14,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 15
+      }
+    ],
+    "politics": [
+      {
+        "start": 1948,
+        "cm": "Sheikh Abdullah",
+        "party": "JKNC",
+        "partyFamily": "regional",
+        "end": 1953
+      },
+      {
+        "start": 1975,
+        "cm": "Sheikh Abdullah",
+        "party": "JKNC",
+        "partyFamily": "regional",
+        "end": 1977
+      },
+      {
+        "start": 1982,
+        "cm": "Farooq Abdullah",
+        "party": "JKNC",
+        "partyFamily": "regional",
+        "end": 1984
+      },
+      {
+        "start": 1996,
+        "cm": "Farooq Abdullah",
+        "party": "JKNC",
+        "partyFamily": "regional",
+        "end": 2002
+      },
+      {
+        "start": 2002,
+        "cm": "Mufti Mohammad Sayeed",
+        "party": "PDP",
+        "partyFamily": "regional",
+        "end": 2005
+      },
+      {
+        "start": 2009,
+        "cm": "Omar Abdullah",
+        "party": "JKNC",
+        "partyFamily": "regional",
+        "end": 2015
+      },
+      {
+        "start": 2024,
+        "cm": "Omar Abdullah",
+        "party": "JKNC",
+        "partyFamily": "regional",
+        "end": null
+      }
+    ],
+    "note": "The Jammu and Kashmir Reorganisation Act, 2019 (appointed day 31 October 2019) created the Union Territories of Jammu and Kashmir and Ladakh. RBI notes that NSDP/GSDP from 2011–12 to 2018–19 relate to Jammu and Kashmir and Ladakh together; from 2019–20 they relate to the UT of Jammu and Kashmir only."
+  },
+  {
+    "id": "jharkhand",
+    "name": "Jharkhand",
+    "geoName": "Jharkhand",
+    "region": "hindi-belt",
+    "formed": 2000,
+    "center": {
+      "longitude": 85.33,
+      "latitude": 23.61
+    },
+    "series": [
+      {
+        "year": 2001,
+        "perCapitaRs": 11034,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 41254,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 150918,
+        "imr": 39,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 57172,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 245856,
+        "imr": 25,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 28
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 65062,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 283284,
+        "imr": 29,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 32
+      }
+    ],
+    "politics": [
+      {
+        "start": 2000,
+        "cm": "Babulal Marandi",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2003
+      },
+      {
+        "start": 2006,
+        "cm": "Madhu Koda",
+        "party": "Independent",
+        "partyFamily": "other",
+        "end": 2008
+      },
+      {
+        "start": 2009,
+        "cm": "Shibu Soren",
+        "party": "JMM",
+        "partyFamily": "regional",
+        "end": 2010
+      },
+      {
+        "start": 2014,
+        "cm": "Raghubar Das",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2019
+      },
+      {
+        "start": 2019,
+        "cm": "Hemant Soren",
+        "party": "JMM",
+        "partyFamily": "regional",
+        "end": 2024
+      },
+      {
+        "start": 2024,
+        "cm": "Hemant Soren",
+        "party": "JMM",
+        "partyFamily": "regional",
+        "end": null
+      }
+    ],
+    "note": "Created on 15 November 2000 from southern Bihar. Pre-2000 Bihar figures include the territory that became Jharkhand."
+  },
+  {
+    "id": "karnataka",
+    "name": "Karnataka",
+    "geoName": "Karnataka",
+    "region": "south",
+    "formed": 1956,
+    "center": {
+      "longitude": 77.59,
+      "latitude": 12.97
+    },
+    "series": [
+      {
+        "year": 1971,
+        "imr": 95,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1981,
+        "perCapitaRs": 1520,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 69,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 4598,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 77,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 18547,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 58,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 90263,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 606010,
+        "imr": 35,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 165517,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 1248654,
+        "imr": 17,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 21
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 191970,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 1462578,
+        "imr": 14,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 17
+      }
+    ],
+    "politics": [
+      {
+        "start": 1956,
+        "cm": "S. Nijalingappa",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1958
+      },
+      {
+        "start": 1972,
+        "cm": "D. Devaraj Urs",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1977
+      },
+      {
+        "start": 1983,
+        "cm": "Ramakrishna Hegde",
+        "party": "Janata",
+        "partyFamily": "janata",
+        "end": 1988
+      },
+      {
+        "start": 1999,
+        "cm": "S. M. Krishna",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2004
+      },
+      {
+        "start": 2008,
+        "cm": "B. S. Yediyurappa",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2011
+      },
+      {
+        "start": 2013,
+        "cm": "Siddaramaiah",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2018
+      },
+      {
+        "start": 2019,
+        "cm": "B. S. Yediyurappa",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2021
+      },
+      {
+        "start": 2023,
+        "cm": "Siddaramaiah",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2026
+      },
+      {
+        "start": 2026,
+        "cm": "D. K. Shivakumar",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "kerala",
+    "name": "Kerala",
+    "geoName": "Kerala",
+    "region": "south",
+    "formed": 1956,
+    "center": {
+      "longitude": 76.27,
+      "latitude": 9.93
+    },
+    "series": [
+      {
+        "year": 1971,
+        "imr": 58,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1981,
+        "perCapitaRs": 1508,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 37,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 4200,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 16,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 21257,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 11,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 97912,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 364048,
+        "imr": 12,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 147376,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 571983,
+        "imr": 6,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 8
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 162040,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 645310,
+        "imr": 5,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 8
+      }
+    ],
+    "politics": [
+      {
+        "start": 1957,
+        "cm": "E. M. S. Namboodiripad",
+        "party": "CPI",
+        "partyFamily": "left",
+        "end": 1959
+      },
+      {
+        "start": 1967,
+        "cm": "E. M. S. Namboodiripad",
+        "party": "CPI(M)",
+        "partyFamily": "left",
+        "end": 1969
+      },
+      {
+        "start": 1969,
+        "cm": "C. Achutha Menon",
+        "party": "CPI",
+        "partyFamily": "left",
+        "end": 1977
+      },
+      {
+        "start": 1981,
+        "cm": "K. Karunakaran",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1987
+      },
+      {
+        "start": 1987,
+        "cm": "E. K. Nayanar",
+        "party": "CPI(M)",
+        "partyFamily": "left",
+        "end": 1991
+      },
+      {
+        "start": 1991,
+        "cm": "K. Karunakaran",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1995
+      },
+      {
+        "start": 1996,
+        "cm": "E. K. Nayanar",
+        "party": "CPI(M)",
+        "partyFamily": "left",
+        "end": 2001
+      },
+      {
+        "start": 2001,
+        "cm": "A. K. Antony",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2004
+      },
+      {
+        "start": 2006,
+        "cm": "V. S. Achuthanandan",
+        "party": "CPI(M)",
+        "partyFamily": "left",
+        "end": 2011
+      },
+      {
+        "start": 2011,
+        "cm": "Oommen Chandy",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2016
+      },
+      {
+        "start": 2016,
+        "cm": "Pinarayi Vijayan",
+        "party": "CPI(M)",
+        "partyFamily": "left",
+        "end": 2026
+      },
+      {
+        "start": 2026,
+        "cm": "V. D. Satheesan",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "ladakh",
+    "name": "Ladakh",
+    "geoName": "Ladakh",
+    "region": "north",
+    "formed": 2019,
+    "center": {
+      "longitude": 77.58,
+      "latitude": 34.15
+    },
+    "series": [],
+    "politics": [],
+    "note": "Ladakh became a Union Territory on 31 October 2019. MOSPI/RBI GSDP tables in this compilation do not publish a separate Ladakh series. SRS infant-mortality tables likewise do not list Ladakh as a reporting unit. The card is present so the 2019 reorganisation can be read against the Jammu and Kashmir series."
+  },
+  {
+    "id": "lakshadweep",
+    "name": "Lakshadweep",
+    "geoName": "Lakshadweep",
+    "region": "islands",
+    "formed": 1956,
+    "center": {
+      "longitude": 72.64,
+      "latitude": 10.57
+    },
+    "series": [
+      {
+        "year": 1991,
+        "imr": 44,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2011,
+        "imr": 24,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "imr": 16,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2023,
+        "imr": 9,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      }
+    ],
+    "politics": []
+  },
+  {
+    "id": "madhya-pradesh",
+    "name": "Madhya Pradesh",
+    "geoName": "Madhya Pradesh",
+    "region": "hindi-belt",
+    "formed": 1956,
+    "center": {
+      "longitude": 77.41,
+      "latitude": 23.26
+    },
+    "series": [
+      {
+        "year": 1971,
+        "imr": 135,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1981,
+        "perCapitaRs": 1358,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 142,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 4049,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 117,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 12697,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 86,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 38497,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 315562,
+        "imr": 59,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 61011,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 593665,
+        "imr": 41,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 49
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 67301,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 671636,
+        "imr": 37,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 44
+      }
+    ],
+    "politics": [
+      {
+        "start": 1956,
+        "cm": "Ravishankar Shukla",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1956
+      },
+      {
+        "start": 1963,
+        "cm": "Dwarka Prasad Mishra",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1967
+      },
+      {
+        "start": 1980,
+        "cm": "Arjun Singh",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1985
+      },
+      {
+        "start": 1993,
+        "cm": "Digvijaya Singh",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2003
+      },
+      {
+        "start": 2005,
+        "cm": "Shivraj Singh Chouhan",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2018
+      },
+      {
+        "start": 2018,
+        "cm": "Kamal Nath",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2020
+      },
+      {
+        "start": 2020,
+        "cm": "Shivraj Singh Chouhan",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2023
+      },
+      {
+        "start": 2023,
+        "cm": "Mohan Yadav",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "maharashtra",
+    "name": "Maharashtra",
+    "geoName": "Maharashtra",
+    "region": "west",
+    "formed": 1960,
+    "center": {
+      "longitude": 72.88,
+      "latitude": 19.08
+    },
+    "series": [
+      {
+        "year": 1971,
+        "imr": 105,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1981,
+        "perCapitaRs": 2435,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 79,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 7439,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 60,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 24035,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 45,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 99597,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 1280369,
+        "imr": 25,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 141651,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 2058845,
+        "imr": 15,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 16
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 166013,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 2435259,
+        "imr": 14,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 16
+      }
+    ],
+    "politics": [
+      {
+        "start": 1960,
+        "cm": "Yashwantrao Chavan",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1962
+      },
+      {
+        "start": 1963,
+        "cm": "Vasantrao Naik",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1975
+      },
+      {
+        "start": 1978,
+        "cm": "Sharad Pawar",
+        "party": "INC(S)",
+        "partyFamily": "congress",
+        "end": 1980
+      },
+      {
+        "start": 1995,
+        "cm": "Manohar Joshi",
+        "party": "Shiv Sena",
+        "partyFamily": "regional",
+        "end": 1999
+      },
+      {
+        "start": 1999,
+        "cm": "Vilasrao Deshmukh",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2008
+      },
+      {
+        "start": 2014,
+        "cm": "Devendra Fadnavis",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2019
+      },
+      {
+        "start": 2019,
+        "cm": "Uddhav Thackeray",
+        "party": "Shiv Sena",
+        "partyFamily": "regional",
+        "end": 2022
+      },
+      {
+        "start": 2022,
+        "cm": "Eknath Shinde",
+        "party": "Shiv Sena",
+        "partyFamily": "regional",
+        "end": 2024
+      },
+      {
+        "start": 2024,
+        "cm": "Devendra Fadnavis",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "manipur",
+    "name": "Manipur",
+    "geoName": "Manipur",
+    "region": "northeast",
+    "formed": 1972,
+    "center": {
+      "longitude": 93.94,
+      "latitude": 24.82
+    },
+    "series": [
+      {
+        "year": 1981,
+        "perCapitaRs": 1419,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 3976,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 22,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 12970,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 39762,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 12915,
+        "imr": 11,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 54587,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 19981,
+        "imr": 4,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 65471,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 22849,
+        "imr": 3,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      }
+    ],
+    "politics": [
+      {
+        "start": 1972,
+        "cm": "Mohammed Alimuddin",
+        "party": "MPP",
+        "partyFamily": "regional",
+        "end": 1973
+      },
+      {
+        "start": 2002,
+        "cm": "Okram Ibobi Singh",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2017
+      },
+      {
+        "start": 2017,
+        "cm": "N. Biren Singh",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2025
+      },
+      {
+        "start": 2026,
+        "cm": "Yumnam Khemchand Singh",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "meghalaya",
+    "name": "Meghalaya",
+    "geoName": "Meghalaya",
+    "region": "northeast",
+    "formed": 1972,
+    "center": {
+      "longitude": 91.88,
+      "latitude": 25.57
+    },
+    "series": [
+      {
+        "year": 1981,
+        "perCapitaRs": 1361,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 4375,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 57,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 17241,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 59794,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 19918,
+        "imr": 52,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 65313,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 24876,
+        "imr": 30,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 74489,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 30154,
+        "imr": 34,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      }
+    ],
+    "politics": [
+      {
+        "start": 1972,
+        "cm": "Williamson A. Sangma",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1978
+      },
+      {
+        "start": 2008,
+        "cm": "Donkupar Roy",
+        "party": "UDP",
+        "partyFamily": "regional",
+        "end": 2010
+      },
+      {
+        "start": 2010,
+        "cm": "Mukul Sangma",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2018
+      },
+      {
+        "start": 2018,
+        "cm": "Conrad K. Sangma",
+        "party": "NPP",
+        "partyFamily": "regional",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "mizoram",
+    "name": "Mizoram",
+    "geoName": "Mizoram",
+    "region": "northeast",
+    "formed": 1987,
+    "center": {
+      "longitude": 92.72,
+      "latitude": 23.73
+    },
+    "series": [
+      {
+        "year": 1981,
+        "perCapitaRs": 1289,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 4474,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 19430,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 57654,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 7259,
+        "imr": 34,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 123907,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 17662,
+        "imr": 4,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 152363,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 21664,
+        "imr": 13,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      }
+    ],
+    "politics": [
+      {
+        "start": 1987,
+        "cm": "Lal Thanhawla",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1988
+      },
+      {
+        "start": 1998,
+        "cm": "Zoramthanga",
+        "party": "MNF",
+        "partyFamily": "regional",
+        "end": 2008
+      },
+      {
+        "start": 2008,
+        "cm": "Lal Thanhawla",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2018
+      },
+      {
+        "start": 2018,
+        "cm": "Zoramthanga",
+        "party": "MNF",
+        "partyFamily": "regional",
+        "end": 2023
+      },
+      {
+        "start": 2023,
+        "cm": "Lalduhoma",
+        "party": "ZPM",
+        "partyFamily": "regional",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "nagaland",
+    "name": "Nagaland",
+    "geoName": "Nagaland",
+    "region": "northeast",
+    "formed": 1963,
+    "center": {
+      "longitude": 94.11,
+      "latitude": 25.67
+    },
+    "series": [
+      {
+        "year": 1981,
+        "perCapitaRs": 1361,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 4990,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 7,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 18961,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 53010,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 12177,
+        "imr": 21,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 69531,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 18292,
+        "imr": 7,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 81158,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 20610,
+        "imr": 10,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      }
+    ],
+    "politics": [
+      {
+        "start": 1963,
+        "cm": "P. Shilu Ao",
+        "party": "NNO",
+        "partyFamily": "regional",
+        "end": 1966
+      },
+      {
+        "start": 2003,
+        "cm": "Neiphiu Rio",
+        "party": "NPF",
+        "partyFamily": "regional",
+        "end": 2008
+      },
+      {
+        "start": 2008,
+        "cm": "Neiphiu Rio",
+        "party": "NPF",
+        "partyFamily": "regional",
+        "end": 2014
+      },
+      {
+        "start": 2018,
+        "cm": "Neiphiu Rio",
+        "party": "NDPP",
+        "partyFamily": "regional",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "orissa",
+    "name": "Odisha",
+    "geoName": "Orissa",
+    "region": "east",
+    "formed": 1950,
+    "center": {
+      "longitude": 85.82,
+      "latitude": 20.3
+    },
+    "series": [
+      {
+        "year": 1971,
+        "imr": 127,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1981,
+        "perCapitaRs": 1314,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 135,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 3077,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 129,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 11075,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 91,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 48387,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 230987,
+        "imr": 57,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 85516,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 452836,
+        "imr": 35,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 38
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 99396,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 483509,
+        "imr": 30,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 35
+      }
+    ],
+    "politics": [
+      {
+        "start": 1956,
+        "cm": "Harekrushna Mahatab",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1961
+      },
+      {
+        "start": 1961,
+        "cm": "Biju Patnaik",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1963
+      },
+      {
+        "start": 1980,
+        "cm": "Janaki Ballabh Patnaik",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1989
+      },
+      {
+        "start": 1990,
+        "cm": "Biju Patnaik",
+        "party": "Janata Dal",
+        "partyFamily": "janata",
+        "end": 1995
+      },
+      {
+        "start": 2000,
+        "cm": "Naveen Patnaik",
+        "party": "BJD",
+        "partyFamily": "regional",
+        "end": 2024
+      },
+      {
+        "start": 2024,
+        "cm": "Mohan Charan Majhi",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": null
+      }
+    ],
+    "note": "The map label is Orissa (NAME_1). The state was renamed Odisha in 2011. The series is the MOSPI/RBI Odisha series."
+  },
+  {
+    "id": "puducherry",
+    "name": "Puducherry",
+    "geoName": "Puducherry",
+    "region": "south",
+    "formed": 1963,
+    "center": {
+      "longitude": 79.83,
+      "latitude": 11.94
+    },
+    "series": [
+      {
+        "year": 1981,
+        "perCapitaRs": 2794,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 6683,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 21,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 38704,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 119649,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 16818,
+        "imr": 19,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 135715,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 24604,
+        "imr": 5,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 145921,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 27164,
+        "imr": 7,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      }
+    ],
+    "politics": [
+      {
+        "start": 1963,
+        "cm": "V. Venkatasubba Reddiar",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1974
+      },
+      {
+        "start": 1991,
+        "cm": "V. Vaithilingam",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1996
+      },
+      {
+        "start": 2001,
+        "cm": "N. Rangasamy",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2008
+      },
+      {
+        "start": 2021,
+        "cm": "N. Rangasamy",
+        "party": "AINRC",
+        "partyFamily": "regional",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "punjab",
+    "name": "Punjab",
+    "geoName": "Punjab",
+    "region": "north",
+    "formed": 1966,
+    "center": {
+      "longitude": 75.86,
+      "latitude": 30.9
+    },
+    "series": [
+      {
+        "year": 1971,
+        "imr": 102,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1981,
+        "perCapitaRs": 2674,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 81,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 8318,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 53,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 28943,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 52,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 85577,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 266628,
+        "imr": 30,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 118307,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 437373,
+        "imr": 18,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 22
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 129561,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 497764,
+        "imr": 17,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 22
+      }
+    ],
+    "politics": [
+      {
+        "start": 1966,
+        "cm": "Giani Gurmukh Singh Musafir",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1967
+      },
+      {
+        "start": 1967,
+        "cm": "Gurnam Singh",
+        "party": "SAD",
+        "partyFamily": "regional",
+        "end": 1968
+      },
+      {
+        "start": 1977,
+        "cm": "Parkash Singh Badal",
+        "party": "SAD",
+        "partyFamily": "regional",
+        "end": 1980
+      },
+      {
+        "start": 1980,
+        "cm": "Darbara Singh",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1983
+      },
+      {
+        "start": 1997,
+        "cm": "Parkash Singh Badal",
+        "party": "SAD",
+        "partyFamily": "regional",
+        "end": 2002
+      },
+      {
+        "start": 2002,
+        "cm": "Amarinder Singh",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2007
+      },
+      {
+        "start": 2007,
+        "cm": "Parkash Singh Badal",
+        "party": "SAD",
+        "partyFamily": "regional",
+        "end": 2017
+      },
+      {
+        "start": 2017,
+        "cm": "Amarinder Singh",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2021
+      },
+      {
+        "start": 2022,
+        "cm": "Bhagwant Mann",
+        "party": "AAP",
+        "partyFamily": "regional",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "rajasthan",
+    "name": "Rajasthan",
+    "geoName": "Rajasthan",
+    "region": "hindi-belt",
+    "formed": 1950,
+    "center": {
+      "longitude": 75.79,
+      "latitude": 26.91
+    },
+    "series": [
+      {
+        "year": 1971,
+        "imr": 123,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1981,
+        "perCapitaRs": 1222,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 108,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 4191,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 79,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 14098,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 80,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 57192,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 434837,
+        "imr": 52,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 79490,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 725464,
+        "imr": 31,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 39
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 90414,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 840599,
+        "imr": 29,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 34
+      }
+    ],
+    "politics": [
+      {
+        "start": 1954,
+        "cm": "Mohan Lal Sukhadia",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1971
+      },
+      {
+        "start": 1977,
+        "cm": "Bhairon Singh Shekhawat",
+        "party": "Janata/BJP",
+        "partyFamily": "janata",
+        "end": 1980
+      },
+      {
+        "start": 1993,
+        "cm": "Bhairon Singh Shekhawat",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 1998
+      },
+      {
+        "start": 1998,
+        "cm": "Ashok Gehlot",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2003
+      },
+      {
+        "start": 2003,
+        "cm": "Vasundhara Raje",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2008
+      },
+      {
+        "start": 2008,
+        "cm": "Ashok Gehlot",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2013
+      },
+      {
+        "start": 2013,
+        "cm": "Vasundhara Raje",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2018
+      },
+      {
+        "start": 2018,
+        "cm": "Ashok Gehlot",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2023
+      },
+      {
+        "start": 2023,
+        "cm": "Bhajan Lal Sharma",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "sikkim",
+    "name": "Sikkim",
+    "geoName": "Sikkim",
+    "region": "northeast",
+    "formed": 1975,
+    "center": {
+      "longitude": 88.61,
+      "latitude": 27.33
+    },
+    "series": [
+      {
+        "year": 1981,
+        "perCapitaRs": 1571,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 5302,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 51,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 17324,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 158667,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 11165,
+        "imr": 26,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 255016,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 21240,
+        "imr": 4,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 292339,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 24902,
+        "imr": 6,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      }
+    ],
+    "politics": [
+      {
+        "start": 1975,
+        "cm": "Kazi Lhendup Dorjee",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1979
+      },
+      {
+        "start": 1979,
+        "cm": "Nar Bahadur Bhandari",
+        "party": "SSP",
+        "partyFamily": "regional",
+        "end": 1994
+      },
+      {
+        "start": 1994,
+        "cm": "Pawan Kumar Chamling",
+        "party": "SDF",
+        "partyFamily": "regional",
+        "end": 2019
+      },
+      {
+        "start": 2019,
+        "cm": "Prem Singh Tamang",
+        "party": "SKM",
+        "partyFamily": "regional",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "tamil-nadu",
+    "name": "Tamil Nadu",
+    "geoName": "Tamil Nadu",
+    "region": "south",
+    "formed": 1956,
+    "center": {
+      "longitude": 80.27,
+      "latitude": 13.08
+    },
+    "series": [
+      {
+        "year": 1971,
+        "imr": 113,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1981,
+        "perCapitaRs": 1498,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 91,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 4983,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 57,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 20942,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 49,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 93112,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 751486,
+        "imr": 22,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 154269,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 1342817,
+        "imr": 12,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 14
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 179732,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 1557821,
+        "imr": 12,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 13
+      }
+    ],
+    "politics": [
+      {
+        "start": 1952,
+        "cm": "K. Kamaraj",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1963
+      },
+      {
+        "start": 1967,
+        "cm": "C. N. Annadurai",
+        "party": "DMK",
+        "partyFamily": "regional",
+        "end": 1969
+      },
+      {
+        "start": 1969,
+        "cm": "M. Karunanidhi",
+        "party": "DMK",
+        "partyFamily": "regional",
+        "end": 1976
+      },
+      {
+        "start": 1977,
+        "cm": "M. G. Ramachandran",
+        "party": "AIADMK",
+        "partyFamily": "regional",
+        "end": 1987
+      },
+      {
+        "start": 1991,
+        "cm": "J. Jayalalithaa",
+        "party": "AIADMK",
+        "partyFamily": "regional",
+        "end": 1996
+      },
+      {
+        "start": 1996,
+        "cm": "M. Karunanidhi",
+        "party": "DMK",
+        "partyFamily": "regional",
+        "end": 2001
+      },
+      {
+        "start": 2001,
+        "cm": "J. Jayalalithaa",
+        "party": "AIADMK",
+        "partyFamily": "regional",
+        "end": 2006
+      },
+      {
+        "start": 2006,
+        "cm": "M. Karunanidhi",
+        "party": "DMK",
+        "partyFamily": "regional",
+        "end": 2011
+      },
+      {
+        "start": 2011,
+        "cm": "J. Jayalalithaa",
+        "party": "AIADMK",
+        "partyFamily": "regional",
+        "end": 2016
+      },
+      {
+        "start": 2021,
+        "cm": "M. K. Stalin",
+        "party": "DMK",
+        "partyFamily": "regional",
+        "end": 2026
+      },
+      {
+        "start": 2026,
+        "cm": "C. Joseph Vijay",
+        "party": "TVK",
+        "partyFamily": "regional",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "tripura",
+    "name": "Tripura",
+    "geoName": "Tripura",
+    "region": "northeast",
+    "formed": 1972,
+    "center": {
+      "longitude": 91.29,
+      "latitude": 23.83
+    },
+    "series": [
+      {
+        "year": 1981,
+        "perCapitaRs": 1307,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 3370,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 56,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 18368,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 47155,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 19208,
+        "imr": 29,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 85378,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 39516,
+        "imr": 19,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 97250,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 46225,
+        "imr": 15,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      }
+    ],
+    "politics": [
+      {
+        "start": 1978,
+        "cm": "Nripen Chakraborty",
+        "party": "CPI(M)",
+        "partyFamily": "left",
+        "end": 1988
+      },
+      {
+        "start": 1993,
+        "cm": "Dasarath Deb",
+        "party": "CPI(M)",
+        "partyFamily": "left",
+        "end": 1998
+      },
+      {
+        "start": 1998,
+        "cm": "Manik Sarkar",
+        "party": "CPI(M)",
+        "partyFamily": "left",
+        "end": 2018
+      },
+      {
+        "start": 2018,
+        "cm": "Biplab Kumar Deb",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2022
+      },
+      {
+        "start": 2022,
+        "cm": "Manik Saha",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "uttar-pradesh",
+    "name": "Uttar Pradesh",
+    "geoName": "Uttar Pradesh",
+    "region": "hindi-belt",
+    "formed": 1950,
+    "center": {
+      "longitude": 80.95,
+      "latitude": 26.85
+    },
+    "series": [
+      {
+        "year": 1971,
+        "imr": 167,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1981,
+        "perCapitaRs": 1278,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 150,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 3590,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 97,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 9995,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 83,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 32002,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 737070,
+        "imr": 57,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 44161,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 1240799,
+        "imr": 37,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 43
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 50341,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 1452033,
+        "imr": 37,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 42
+      }
+    ],
+    "politics": [
+      {
+        "start": 1950,
+        "cm": "Govind Ballabh Pant",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1954
+      },
+      {
+        "start": 1954,
+        "cm": "Sampurnanand",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1960
+      },
+      {
+        "start": 1967,
+        "cm": "Charan Singh",
+        "party": "BKD",
+        "partyFamily": "janata",
+        "end": 1968
+      },
+      {
+        "start": 1989,
+        "cm": "Mulayam Singh Yadav",
+        "party": "JD",
+        "partyFamily": "janata",
+        "end": 1991
+      },
+      {
+        "start": 1991,
+        "cm": "Kalyan Singh",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 1992
+      },
+      {
+        "start": 2002,
+        "cm": "Mayawati",
+        "party": "BSP",
+        "partyFamily": "regional",
+        "end": 2003
+      },
+      {
+        "start": 2003,
+        "cm": "Mulayam Singh Yadav",
+        "party": "SP",
+        "partyFamily": "regional",
+        "end": 2007
+      },
+      {
+        "start": 2007,
+        "cm": "Mayawati",
+        "party": "BSP",
+        "partyFamily": "regional",
+        "end": 2012
+      },
+      {
+        "start": 2012,
+        "cm": "Akhilesh Yadav",
+        "party": "SP",
+        "partyFamily": "regional",
+        "end": 2017
+      },
+      {
+        "start": 2017,
+        "cm": "Yogi Adityanath",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": null
+      }
+    ]
+  },
+  {
+    "id": "uttaranchal",
+    "name": "Uttarakhand",
+    "geoName": "Uttaranchal",
+    "region": "north",
+    "formed": 2000,
+    "center": {
+      "longitude": 78.03,
+      "latitude": 30.32
+    },
+    "series": [
+      {
+        "year": 2001,
+        "perCapitaRs": 16232,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 100314,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 115328,
+        "imr": 36,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 131794,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 174635,
+        "imr": 23,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 27
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 150931,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 204315,
+        "imr": 20,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 23
+      }
+    ],
+    "politics": [
+      {
+        "start": 2000,
+        "cm": "Nityanand Swami",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2002
+      },
+      {
+        "start": 2002,
+        "cm": "N. D. Tiwari",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 2007
+      },
+      {
+        "start": 2007,
+        "cm": "B. C. Khanduri",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2009
+      },
+      {
+        "start": 2009,
+        "cm": "Ramesh Pokhriyal",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2011
+      },
+      {
+        "start": 2017,
+        "cm": "Trivendra Singh Rawat",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": 2021
+      },
+      {
+        "start": 2021,
+        "cm": "Pushkar Singh Dhami",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": null
+      }
+    ],
+    "note": "The map label is Uttaranchal (NAME_1). The state was created as Uttaranchal on 9 November 2000 and renamed Uttarakhand in 2007. Income and IMR series begin after the split from Uttar Pradesh."
+  },
+  {
+    "id": "west-bengal",
+    "name": "West Bengal",
+    "geoName": "West Bengal",
+    "region": "east",
+    "formed": 1950,
+    "center": {
+      "longitude": 88.36,
+      "latitude": 22.57
+    },
+    "series": [
+      {
+        "year": 1981,
+        "perCapitaRs": 1773,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 91,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 1991,
+        "perCapitaRs": 4673,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 71,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2001,
+        "perCapitaRs": 17862,
+        "price": "current",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "imr": 51,
+        "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
+      },
+      {
+        "year": 2011,
+        "perCapitaRs": 51543,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 520485,
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2021,
+        "perCapitaRs": 70100,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 786004,
+        "imr": 18,
+        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "u5mr": 20
+      },
+      {
+        "year": 2023,
+        "perCapitaRs": 77933,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "gsdpCr": 881892,
+        "imr": 17,
+        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "u5mr": 18
+      }
+    ],
+    "politics": [
+      {
+        "start": 1948,
+        "cm": "Bidhan Chandra Roy",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1962
+      },
+      {
+        "start": 1972,
+        "cm": "Siddhartha Shankar Ray",
+        "party": "INC",
+        "partyFamily": "congress",
+        "end": 1977
+      },
+      {
+        "start": 1977,
+        "cm": "Jyoti Basu",
+        "party": "CPI(M)",
+        "partyFamily": "left",
+        "end": 2000
+      },
+      {
+        "start": 2000,
+        "cm": "Buddhadeb Bhattacharjee",
+        "party": "CPI(M)",
+        "partyFamily": "left",
+        "end": 2011
+      },
+      {
+        "start": 2011,
+        "cm": "Mamata Banerjee",
+        "party": "AITC",
+        "partyFamily": "regional",
+        "end": 2026
+      },
+      {
+        "start": 2026,
+        "cm": "Suvendu Adhikari",
+        "party": "BJP",
+        "partyFamily": "nda",
+        "end": null
+      }
+    ]
+  }
+]

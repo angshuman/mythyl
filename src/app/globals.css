@@ -270,22 +270,54 @@ a {
     rgba(231, 220, 200, 0.05);
 }
 
+.piece[data-piece="states"] {
+  background:
+    radial-gradient(900px 280px at 18% -10%, rgba(126, 184, 160, 0.1), transparent 60%),
+    rgba(231, 220, 200, 0.025);
+}
+
+.piece[data-piece="states"]:hover {
+  background:
+    radial-gradient(900px 280px at 18% -10%, rgba(126, 184, 160, 0.18), transparent 60%),
+    rgba(231, 220, 200, 0.05);
+}
+
+.piece[data-piece="works"] {
+  background:
+    radial-gradient(900px 280px at 18% -10%, rgba(201, 162, 39, 0.1), transparent 60%),
+    rgba(231, 220, 200, 0.025);
+}
+
+.piece[data-piece="works"]:hover {
+  background:
+    radial-gradient(900px 280px at 18% -10%, rgba(201, 162, 39, 0.18), transparent 60%),
+    rgba(231, 220, 200, 0.05);
+}
+
 .india-mark,
-.raj-mark {
+.raj-mark,
+.states-mark,
+.works-mark {
   position: relative;
 }
 
 .india-mark-svg svg,
 .india-mark-dots,
 .raj-mark-svg svg,
-.raj-mark-dots {
+.raj-mark-dots,
+.states-mark-svg svg,
+.states-mark-dots,
+.works-mark-svg svg,
+.works-mark-dots {
   width: 100%;
   height: auto;
   display: block;
 }
 
 .india-mark-dots,
-.raj-mark-dots {
+.raj-mark-dots,
+.states-mark-dots,
+.works-mark-dots {
   position: absolute;
   inset: 0;
   overflow: visible;
@@ -311,6 +343,26 @@ a {
   animation: draw-land 2.2s 0.35s ease forwards, glow-ne 3.2s 2s ease-in-out infinite;
 }
 
+.states-mark-svg #fill-states path {
+  fill: rgba(126, 184, 160, 0.05);
+  stroke: rgba(126, 184, 160, 0.78);
+  stroke-width: 0.7;
+  stroke-linejoin: round;
+  stroke-dasharray: 1400;
+  stroke-dashoffset: 1400;
+  animation: draw-land 2.4s ease forwards;
+}
+
+.works-mark-svg #fill-states path {
+  fill: rgba(201, 162, 39, 0.05);
+  stroke: rgba(201, 162, 39, 0.78);
+  stroke-width: 0.7;
+  stroke-linejoin: round;
+  stroke-dasharray: 1400;
+  stroke-dashoffset: 1400;
+  animation: draw-land 2.4s ease forwards;
+}
+
 .raj-mark-svg #fill-land path {
   fill: rgba(196, 160, 106, 0.07);
   stroke: rgba(196, 160, 106, 0.82);
@@ -328,7 +380,9 @@ a {
 }
 
 .india-mark-dots circle,
-.raj-mark-dots circle {
+.raj-mark-dots circle,
+.states-mark-dots circle,
+.works-mark-dots circle {
   opacity: 0;
   transform-origin: center;
   animation: pop-dot 0.7s ease forwards;
@@ -430,6 +484,14 @@ a {
 .map-page[data-atlas="raj"] .page-nav {
   background: #120e09;
   border-bottom-color: rgba(196, 160, 106, 0.22);
+}
+
+.map-page[data-atlas="states"] .page-nav {
+  background: #0b100f;
+}
+
+.map-page[data-atlas="works"] .page-nav {
+  background: #0c0e12;
 }
 
 .view-switch {
@@ -756,7 +818,11 @@ a {
 
 /* Do not name this .map-root — Tailwind 4 drops that selector from the bundle. */
 .conflict-map,
-.conflict-map.maplibregl-map {
+.conflict-map.maplibregl-map,
+.states-map,
+.states-map.maplibregl-map,
+.works-map,
+.works-map.maplibregl-map {
   position: absolute !important;
   inset: 0 !important;
   width: 100% !important;

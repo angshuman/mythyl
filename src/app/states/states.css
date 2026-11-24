@@ -1,0 +1,172 @@
+.map-page[data-atlas="states"] {
+  --ink: #0b100f;
+  --small: #7eb8a0;
+  --medium: #c9a227;
+  --large: #7f4540;
+}
+
+.map-page[data-atlas="states"] .map-tools-label {
+  background: #0b100f;
+}
+
+.states-map,
+.states-map.maplibregl-map {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.map-shell[data-atlas="states"] .maplibregl-ctrl-bottom-left {
+  display: none;
+}
+
+.state-event {
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  border: 1.2px solid #efe4cc;
+  background: transparent;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.state-event[data-scale="union"] {
+  background: #6b8cce;
+  width: 10px;
+  height: 10px;
+}
+
+.state-event[data-scale="state"] {
+  background: #c9a227;
+}
+
+.state-event[data-scale="local"] {
+  background: #7eb8a0;
+  width: 7px;
+  height: 7px;
+}
+
+.state-hover {
+  display: grid;
+  gap: 0.15rem;
+  min-width: 9.5rem;
+  padding: 0.45rem 0.55rem 0.4rem;
+}
+
+.state-hover strong {
+  font-weight: 500;
+  font-size: 0.82rem;
+}
+
+.state-hover span {
+  color: var(--paper-dim);
+  font-size: 0.68rem;
+}
+
+.state-sparks {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.6rem 1rem;
+  align-items: end;
+  margin: 0.35rem 0 0.2rem;
+}
+
+.spark-label {
+  margin: 0;
+  font-size: 0.52rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--paper-dim);
+}
+
+.spark-figure {
+  margin: 0;
+  font-family: var(--font-serif), ui-serif, Georgia, serif;
+  font-size: 1.15rem;
+}
+
+.spark {
+  display: block;
+}
+
+.party-strip {
+  display: flex;
+  height: 7px;
+  gap: 1px;
+  margin: 0.4rem 0 0.25rem;
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.party-strip i {
+  display: block;
+  height: 100%;
+}
+
+.years-lede {
+  margin: 0;
+  color: var(--paper-dim);
+  font-size: 0.78rem;
+}
+
+.state-years .years-plot {
+  position: relative;
+  min-height: 1.35rem;
+}
+
+.state-years .years-bar {
+  top: 0.42rem;
+  height: 8px;
+}
+
+.state-years .years-day {
+  top: 0.48rem;
+  background: #e7dcc8;
+}
+
+.state-years .years-day[data-scale="union"] {
+  background: #6b8cce;
+}
+
+.state-years .years-day[data-scale="state"] {
+  background: #c9a227;
+}
+
+.state-years .years-day[data-scale="local"] {
+  background: #7eb8a0;
+}
+
+.state-years .years-tick {
+  top: -0.05rem;
+  font-size: 0.5rem;
+  opacity: 0.7;
+}
+
+.map-key-ring[data-metric="survival"] {
+  border-color: #7eb8a0;
+  background: color-mix(in srgb, #7eb8a0 35%, transparent);
+}
+
+.map-key-ring[data-metric="income"] {
+  border-color: #c9a227;
+  background: color-mix(in srgb, #c9a227 35%, transparent);
+}
+
+.map-filters button[data-scale="union"] .map-key-ring {
+  background: #6b8cce;
+}
+
+.map-filters button[data-scale="state"] .map-key-ring {
+  background: #c9a227;
+}
+
+.map-filters button[data-scale="local"] .map-key-ring {
+  background: #7eb8a0;
+}
+
+@media (max-width: 800px) {
+  .state-sparks {
+    grid-template-columns: 1fr;
+  }
+}

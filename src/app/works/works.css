@@ -1,0 +1,124 @@
+.map-page[data-atlas="works"] {
+  --ink: #0c0e12;
+  --small: #7eb8a0;
+  --medium: #c9a227;
+  --large: #c47a3a;
+}
+
+.map-page[data-atlas="works"] .map-tools-label {
+  background: #0c0e12;
+}
+
+.works-map,
+.works-map.maplibregl-map {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.map-shell[data-atlas="works"] .maplibregl-ctrl-bottom-left {
+  display: none;
+}
+
+.work-mark {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 1.4px solid color-mix(in srgb, var(--dot) 85%, #e7dcc8);
+  border-radius: 999px;
+  background: color-mix(in srgb, #141820 35%, var(--dot));
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--dot) 28%, transparent);
+  cursor: pointer;
+}
+
+.work-mark[data-scale="landmark"] {
+  width: 34px;
+  height: 34px;
+}
+
+.work-mark[data-scale="civic"] {
+  width: 24px;
+  height: 24px;
+}
+
+.work-mark[data-status="ongoing"] {
+  animation: work-pulse 2.8s ease-in-out infinite;
+}
+
+.work-mark[data-status="stalled"] {
+  border-style: dashed;
+}
+
+.work-mark svg {
+  display: block;
+  opacity: 0;
+  animation: work-fade 0.45s ease forwards;
+  animation-delay: var(--pop-delay, 0s);
+}
+
+@keyframes work-fade {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes work-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--dot) 28%, transparent);
+  }
+  50% {
+    box-shadow: 0 0 0 8px color-mix(in srgb, var(--dot) 0%, transparent);
+  }
+}
+
+.years-lede {
+  margin: 0;
+  color: var(--paper-dim);
+  font-size: 0.78rem;
+}
+
+.work-years .years-plot {
+  position: relative;
+  min-height: 1.15rem;
+}
+
+.work-years .years-bar {
+  top: 0.38rem;
+  height: 7px;
+}
+
+.work-years .years-tick {
+  top: -0.1rem;
+  font-size: 0.5rem;
+  opacity: 0.65;
+}
+
+.map-filters button[data-scale="landmark"] .map-key-ring,
+.map-key-ring[data-scale="landmark"] {
+  width: 13px;
+  height: 13px;
+}
+
+.map-filters button[data-scale="trunk"] .map-key-ring,
+.map-key-ring[data-scale="trunk"] {
+  width: 10px;
+  height: 10px;
+}
+
+.map-filters button[data-scale="civic"] .map-key-ring,
+.map-key-ring[data-scale="civic"] {
+  width: 7px;
+  height: 7px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .work-mark,
+  .work-mark svg {
+    animation: none;
+    opacity: 1;
+  }
+}

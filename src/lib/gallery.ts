@@ -1,6 +1,6 @@
 import galleryRows from "@/data/gallery.json";
 
-export type GalleryCover = "india-mark" | "raj-mark";
+export type GalleryCover = "india-mark" | "raj-mark" | "states-mark" | "works-mark";
 
 export type GalleryPiece = {
   id: string;

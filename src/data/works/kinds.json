@@ -1,0 +1,18 @@
+[
+  { "id": "dam", "label": "Dams", "color": "#6a9bb8" },
+  { "id": "irrigation", "label": "Irrigation", "color": "#4f8f7b" },
+  { "id": "steel", "label": "Steel", "color": "#c47a3a" },
+  { "id": "plant", "label": "Works", "color": "#b08968" },
+  { "id": "port", "label": "Ports", "color": "#3d6e8c" },
+  { "id": "road", "label": "Roads", "color": "#e3b23c" },
+  { "id": "rail", "label": "Rail", "color": "#c9a227" },
+  { "id": "metro", "label": "Metro", "color": "#8a6dac" },
+  { "id": "power", "label": "Power", "color": "#d4a056" },
+  { "id": "nuclear", "label": "Nuclear", "color": "#7f4540" },
+  { "id": "space", "label": "Space", "color": "#6b8cce" },
+  { "id": "campus", "label": "Campuses", "color": "#7eb8a0" },
+  { "id": "bridge", "label": "Bridges", "color": "#c4a06a" },
+  { "id": "airport", "label": "Airports", "color": "#9aa7b4" },
+  { "id": "city", "label": "New towns", "color": "#9a937e" },
+  { "id": "water", "label": "Water", "color": "#5b8ea6" }
+]

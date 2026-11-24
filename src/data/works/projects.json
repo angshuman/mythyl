@@ -1,0 +1,2904 @@
+[
+  {
+    "id": "hirakud",
+    "name": "Hirakud Dam",
+    "kind": "dam",
+    "scale": "landmark",
+    "started": 1946,
+    "opened": 1957,
+    "status": "open",
+    "place": {
+      "longitude": 83.87,
+      "latitude": 21.57,
+      "label": "Hirakud, Sambalpur, Odisha",
+      "precision": "site"
+    },
+    "states": [
+      "Odisha"
+    ],
+    "path": null,
+    "summary": "A composite dam on the Mahanadi above Sambalpur, planned after the floods of 1937 and begun under the colonial government. Sir Hawthorne Lewis laid a foundation in 1946; Jawaharlal Nehru laid the first concrete in 1948; Odisha Hydro Power Corporation records the dam complete in August 1956 and Nehru’s inauguration on 13 January 1957. It was independent India’s first major multipurpose river-valley work, for flood control in the delta, irrigation, and hydropower at Burla and Chiplima.",
+    "displacement": {
+      "note": "Later official accounts do not agree. The Hindu (2023) recorded about 18,000 families displaced, 111 villages fully submerged (108 in Odisha) and 174 partially submerged. Hindustan Times, citing the state government, gave 26,561 families from several districts, 325 villages, and about a lakh of people. Rehabilitation remained incomplete decades later; the National Human Rights Commission inquired into more than 26,000 families.",
+      "sources": [
+        "https://www.thehindu.com/news/national/other-states/odisha-announces-plan-to-rehabilitate-those-displaced-by-construction-of-the-hirakud-dam/article67263445.ece",
+        "https://www.hindustantimes.com/cities/others/odisha-government-to-provide-land-pattas-to-displaced-families-from-hirakud-dam-in-jharsuguda-district-101693732825206.html"
+      ]
+    },
+    "sources": [
+      {
+        "title": "OHPC — Hirakud events",
+        "url": "https://ohpcltd.com/Hirakud/events",
+        "year": 2026
+      },
+      {
+        "title": "Odisha Hydro Power Corporation — Hirakud Hydro Electric Project",
+        "url": "https://www.ohpc.co.in/project/projects-overview/hirakud-hydro-electric-project-burla/welcome/",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "bhakra-nangal",
+    "name": "Bhakra-Nangal",
+    "kind": "dam",
+    "scale": "landmark",
+    "started": 1948,
+    "opened": 1963,
+    "status": "open",
+    "place": {
+      "longitude": 76.433,
+      "latitude": 31.411,
+      "label": "Bhakra, Bilaspur district, Himachal Pradesh",
+      "precision": "site"
+    },
+    "states": [
+      "Himachal Pradesh",
+      "Punjab",
+      "Haryana",
+      "Rajasthan"
+    ],
+    "path": null,
+    "summary": "A concrete gravity dam on the Sutlej at the former village of Bhakra, with Nangal Dam, hydel channels, and canals downstream. Preliminary work began in 1946; construction of the high dam in 1948; Nehru dedicated it on 22 October 1963. He called it a new temple of resurgent India. Gobind Sagar stores water for irrigation across Punjab, Haryana, and Rajasthan and for power on the northern grid. The project is run by the Bhakra Beas Management Board.",
+    "sources": [
+      {
+        "title": "BBMB — Construction phase of Bhakra-Nangal, 1951–1963",
+        "url": "https://web.archive.org/web/20160604131824/http://bbmb.gov.in/english/history_nangal_dam.asp",
+        "year": 2016
+      },
+      {
+        "title": "Bhakra Dam — Britannica",
+        "url": "https://www.britannica.com/topic/Bhakra-Dam",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "nagarjuna-sagar",
+    "name": "Nagarjuna Sagar",
+    "kind": "dam",
+    "scale": "landmark",
+    "started": 1955,
+    "opened": 1967,
+    "status": "open",
+    "place": {
+      "longitude": 79.312,
+      "latitude": 16.576,
+      "label": "Nagarjuna Sagar, Telangana–Andhra Pradesh",
+      "precision": "site"
+    },
+    "states": [
+      "Telangana",
+      "Andhra Pradesh"
+    ],
+    "path": null,
+    "summary": "A masonry dam on the Krishna at the Telangana–Andhra Pradesh border, among the works Nehru named temples of modern India. He inaugurated construction on 10 December 1955. Andhra Pradesh irrigation records commencement in 1956 and completion in 1967; Indira Gandhi released water into the canals on 4 August 1967. Left and right bank canals irrigate a large ayacut in both Telugu states; hydropower units followed in the late 1970s and 1980s.",
+    "sources": [
+      {
+        "title": "Nagarjunasagar Dam — Andhra Pradesh WRD (archived)",
+        "url": "https://web.archive.org/web/20240416064910/https://irrigationap.cgg.gov.in/wrd/static/approjects/Nagarjuna.html",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "koyna",
+    "name": "Koyna Hydroelectric Project",
+    "kind": "dam",
+    "scale": "trunk",
+    "started": 1954,
+    "opened": 1962,
+    "status": "open",
+    "place": {
+      "longitude": 73.752,
+      "latitude": 17.402,
+      "label": "Koyna Nagar, Satara district, Maharashtra",
+      "precision": "site"
+    },
+    "states": [
+      "Maharashtra"
+    ],
+    "path": null,
+    "summary": "A rubble-concrete dam on the Koyna River in the Western Ghats, forming Shivasagar Lake. The hydroelectric project was approved in 1953 and construction began in 1954; the first generating units were commissioned in 1962. Later stages raised installed capacity to among the largest completed hydropower complexes in the country. The 1967 Koynanagar earthquake, widely discussed as reservoir-triggered, damaged the dam but did not breach it.",
+    "sources": [
+      {
+        "title": "Loksatta — Koyna commissioned 16 May 1962",
+        "url": "https://www.loksatta.com/maharashtra/today-marks-the-60th-anniversary-of-the-koyna-project-akp-94-2472276/",
+        "year": 2021
+      },
+      {
+        "title": "CEA / Global Energy Monitor — Koyna-I&II commissioning 1962",
+        "url": "https://www.gem.wiki/Koyna-I%26II_hydroelectric_plant",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "idukki",
+    "name": "Idukki Arch Dam",
+    "kind": "dam",
+    "scale": "trunk",
+    "started": 1969,
+    "opened": 1976,
+    "status": "open",
+    "place": {
+      "longitude": 76.976,
+      "latitude": 9.843,
+      "label": "Idukki, Kerala",
+      "precision": "site"
+    },
+    "states": [
+      "Kerala"
+    ],
+    "path": null,
+    "summary": "A double-curvature concrete arch dam on the Periyar between the Kuravan and Kurathi hills, built with Canadian assistance under the Colombo Plan together with Cheruthoni and Kulamavu dams. Construction of the arch dam is dated from 30 April 1969. The underground station at Moolamattom began generating on 4 October 1975; Indira Gandhi dedicated the project in February 1976. It remains Kerala’s principal hydropower storage.",
+    "sources": [
+      {
+        "title": "Idukki Arch Dam — District Idukki",
+        "url": "https://idukki.nic.in/en/tourist-place/idukki-arch-dam/",
+        "year": 2026
+      },
+      {
+        "title": "Idukki hydel project turns 50",
+        "url": "https://timesofindia.indiatimes.com/city/kochi/idukki-hydel-project-an-engineering-marvel-turns-50/articleshow/128145177.cms",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "tehridam",
+    "name": "Tehri Dam",
+    "kind": "dam",
+    "scale": "landmark",
+    "started": 1978,
+    "opened": 2006,
+    "status": "open",
+    "place": {
+      "longitude": 78.481,
+      "latitude": 30.378,
+      "label": "New Tehri, Tehri Garhwal, Uttarakhand",
+      "precision": "site"
+    },
+    "states": [
+      "Uttarakhand",
+      "Uttar Pradesh",
+      "Delhi"
+    ],
+    "path": null,
+    "summary": "An earth-and-rockfill dam on the Bhagirathi, among the tallest of its type, built by THDC after a 1972 sanction and a 1978 start delayed by environment, seismic, and rehabilitation litigation. All four 250 MW units of Tehri HPP were synchronised in 2006–07. The reservoir supplies irrigation and drinking water downstream, including to Delhi, and drowned Old Tehri town.",
+    "displacement": {
+      "note": "THDC recorded 5,291 fully affected urban families from Old Tehri town, all relocated, and 5,299 fully affected rural families for relocation, plus several thousand partially affected rural families paid cash compensation. Britannica states that the dam displaced about 100,000 people. The two statements are not the same unit of count.",
+      "sources": [
+        "https://www.thdc.co.in/sites/default/files/2022-09/rehab-tehri.pdf",
+        "https://www.britannica.com/topic/Tehri-Dam"
+      ]
+    },
+    "sources": [
+      {
+        "title": "Tehri Dam — Britannica",
+        "url": "https://www.britannica.com/topic/Tehri-Dam",
+        "year": 2025
+      },
+      {
+        "title": "THDC — Tehri Dam and HPP progress",
+        "url": "https://thdc.co.in/sites/default/files/operational-performance%20/THDC_Tehri_Progress_Report_April24.pdf",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "sardar-sarovar",
+    "name": "Sardar Sarovar",
+    "kind": "dam",
+    "scale": "landmark",
+    "started": 1961,
+    "opened": 2017,
+    "status": "open",
+    "place": {
+      "longitude": 73.747,
+      "latitude": 21.83,
+      "label": "Kevadia, Narmada district, Gujarat",
+      "precision": "site"
+    },
+    "states": [
+      "Gujarat",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Rajasthan"
+    ],
+    "path": null,
+    "summary": "A concrete gravity dam on the Narmada at Navagam, the terminal dam of the Narmada Valley scheme. Nehru laid the foundation on 5 April 1961; the Narmada Water Disputes Tribunal awarded shares in 1979; construction of the dam proper began in 1987. The World Bank cancelled its loan in 1993 after the Morse review and the Narmada Bachao Andolan. The Supreme Court allowed staged raising of the height. Narendra Modi inaugurated the completed dam on 17 September 2017.",
+    "displacement": {
+      "note": "Who counted as a project-affected family, and at which dam height, was litigated for decades. Official NCA and state PAF lists and Narmada Bachao Andolan estimates have differed sharply; movement and commission documents speak of tens of thousands of families, many of them Adivasi, while canal-affected and other categories push some tallies much higher. This record does not choose a single household total.",
+      "sources": [
+        "https://indianexpress.com/article/research/a-short-history-of-the-sardar-sarovar-dam-on-river-narmada-4847807/",
+        "https://www.humanrightsnetwork.org/s/Waiting-for-the-Flood_FINAL_compressed-nwr7.pdf"
+      ]
+    },
+    "sources": [
+      {
+        "title": "A short history of the Sardar Sarovar Dam",
+        "url": "https://indianexpress.com/article/research/a-short-history-of-the-sardar-sarovar-dam-on-river-narmada-4847807/",
+        "year": 2017
+      },
+      {
+        "title": "Gujarat’s lifeline came up in fits and starts",
+        "url": "https://www.thehindubusinessline.com/economy/gujarats-lifeline-came-up-in-fits-and-starts/article64274035.ece",
+        "year": 2017
+      }
+    ]
+  },
+  {
+    "id": "indira-gandhi-canal",
+    "name": "Indira Gandhi Canal",
+    "kind": "irrigation",
+    "scale": "landmark",
+    "started": 1958,
+    "opened": 1987,
+    "status": "open",
+    "place": {
+      "longitude": 74.95,
+      "latitude": 31.17,
+      "label": "Harike Barrage, Punjab",
+      "precision": "corridor"
+    },
+    "states": [
+      "Punjab",
+      "Haryana",
+      "Rajasthan"
+    ],
+    "path": [
+      {
+        "longitude": 74.95,
+        "latitude": 31.17
+      },
+      {
+        "longitude": 74.2,
+        "latitude": 30.15
+      },
+      {
+        "longitude": 74.32,
+        "latitude": 29.58
+      },
+      {
+        "longitude": 73.9,
+        "latitude": 29.32
+      },
+      {
+        "longitude": 73.31,
+        "latitude": 28.02
+      },
+      {
+        "longitude": 72.37,
+        "latitude": 27.13
+      },
+      {
+        "longitude": 71.2,
+        "latitude": 27.3
+      }
+    ],
+    "summary": "India’s longest canal, first the Rajasthan Canal, taking Sutlej–Beas water from Harike Barrage across the Thar. Govind Ballabh Pant laid the foundation on 31 March 1958. Stage I (feeder and main canal to Masitawali) was substantially complete in the mid-1980s, more than twenty years late; water reached the tail near Mohangarh, Jaisalmer, in 1987. It was renamed after Indira Gandhi in 1984. Stage II lift and distributary works continued toward 2010.",
+    "sources": [
+      {
+        "title": "PIB — IGNP canal system built 1958–63",
+        "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=176564",
+        "year": 2018
+      },
+      {
+        "title": "Indira Gandhi Nahar Department, Rajasthan",
+        "url": "https://water.rajasthan.gov.in/ignd/",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "kosi-project",
+    "name": "Kosi Project",
+    "kind": "irrigation",
+    "scale": "trunk",
+    "started": 1955,
+    "opened": 1964,
+    "status": "open",
+    "place": {
+      "longitude": 86.927,
+      "latitude": 26.526,
+      "label": "Kosi Barrage, Bhimnagar (Nepal–Bihar)",
+      "precision": "corridor"
+    },
+    "states": [
+      "Bihar"
+    ],
+    "path": [
+      {
+        "longitude": 86.93,
+        "latitude": 26.53
+      },
+      {
+        "longitude": 86.6,
+        "latitude": 26.12
+      },
+      {
+        "longitude": 86.6,
+        "latitude": 25.88
+      },
+      {
+        "longitude": 86.79,
+        "latitude": 25.92
+      },
+      {
+        "longitude": 87.47,
+        "latitude": 25.78
+      }
+    ],
+    "summary": "A barrage, embankments, and canal system on the Kosi under the 1954 India–Nepal agreement. Central Water Commission notes embankment work from January 1955, the Hanumansagar barrage completed in March 1963, and the Eastern Kosi Canal opened for irrigation on 9 July 1964. India WRIS dates barrage construction 1955–July 1963. The river is still called Bihar’s sorrow; the 2008 breach of the eastern embankment showed the limits of a barrage-and-levee design on a silt-laden, wandering stream.",
+    "sources": [
+      {
+        "title": "Kosi Barrage and Eastern Canal — India WRIS",
+        "url": "https://indiawris.gov.in/wiki/doku.php?id=kosi_barrage_and_eastern_canal_major_irrigation_project_ji02121",
+        "year": 2026
+      },
+      {
+        "title": "CWC — Kosi Project history",
+        "url": "https://cwc.gov.in/sites/default/files/eng-sep-19-final.pdf",
+        "year": 2019
+      }
+    ]
+  },
+  {
+    "id": "tungabhadra",
+    "name": "Tungabhadra Dam",
+    "kind": "dam",
+    "scale": "trunk",
+    "started": 1945,
+    "opened": 1953,
+    "status": "open",
+    "place": {
+      "longitude": 76.337,
+      "latitude": 15.266,
+      "label": "Hosapete, Vijayanagara district, Karnataka",
+      "precision": "site"
+    },
+    "states": [
+      "Karnataka",
+      "Andhra Pradesh"
+    ],
+    "path": null,
+    "summary": "A composite dam on the Tungabhadra near Hosapete, a joint work of Hyderabad State and Madras Presidency whose foundation was laid on 28 February 1945. Masonry began on 15 April 1949; a major part of the dam was complete by mid-1953, when water first entered the canals. After States Reorganisation it became a Karnataka–Andhra Pradesh project under the Tungabhadra Board. It stores irrigation water for the Deccan and generates power at the dam toe and canal drops.",
+    "sources": [
+      {
+        "title": "The Hindu — foundation 1945, masonry 1953, Board constituted 1953",
+        "url": "https://www.thehindu.com/news/national/karnataka/union-state-governments-blamed-as-tungabhadra-farmers-in-karnataka-forced-to-skip-second-crop/article70045008.ece",
+        "year": 2025
+      },
+      {
+        "title": "The Hindu — Tungabhadra reservoir project",
+        "url": "https://www.thehindu.com/news/national/tungabhadra-river-origin-course-dam-project-karnataka-telangana-andhra-pradesh-water-sharing/article71145516.ece",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "indira-sagar",
+    "name": "Indira Sagar",
+    "kind": "dam",
+    "scale": "trunk",
+    "started": 1984,
+    "opened": 2005,
+    "status": "open",
+    "place": {
+      "longitude": 76.471,
+      "latitude": 22.284,
+      "label": "Narmada Nagar, Khandwa district, Madhya Pradesh",
+      "precision": "site"
+    },
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "path": null,
+    "summary": "A concrete gravity dam on the Narmada at Punasa, India’s largest reservoir by storage volume. Indira Gandhi laid the foundation on 23 October 1984; main dam construction started in 1992 under a Madhya Pradesh–NHPC joint venture (NHDC). Eight 125 MW units were commissioned by March 2005; the project is dated 31 May 2005. It regulates water for Omkareshwar, Maheshwar, and Sardar Sarovar downstream.",
+    "displacement": {
+      "note": "Narmada campaign documents at the time of construction projected submergence of 250 villages and displacement on the order of 1.75 lakh people. Other published notes give a town of about 22,000 and 100 villages. The figures are contested and were compiled before reservoir filling was complete.",
+      "sources": [
+        "https://web.archive.org/web/20110718215859/http://www.narmada.org/nvdp.dams/indira-sagar/Indirasagarfacts.pdf"
+      ]
+    },
+    "sources": [
+      {
+        "title": "Narmada Hydroelectric Development Corporation",
+        "url": "https://nhdcindia.com/",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "baglihar",
+    "name": "Baglihar Dam",
+    "kind": "dam",
+    "scale": "trunk",
+    "started": 1999,
+    "opened": 2008,
+    "status": "open",
+    "place": {
+      "longitude": 75.328,
+      "latitude": 33.162,
+      "label": "Baglihar, Ramban district, Jammu and Kashmir",
+      "precision": "site"
+    },
+    "states": [
+      "Jammu and Kashmir"
+    ],
+    "path": null,
+    "summary": "A run-of-river gravity dam on the Chenab in Ramban district, built by the Jammu and Kashmir Power Development Corporation. Conceived in 1992, approved in 1996, construction began in 1999. Manmohan Singh commissioned the 450 MW first stage on 10 October 2008; the second 450 MW stage was dedicated in 2015. Pakistan referred the design to a World Bank-appointed Neutral Expert under the Indus Waters Treaty; Raymond Lafitte’s 2007 determination required design changes but upheld gated spillways.",
+    "sources": [
+      {
+        "title": "JKSPDC — Baglihar Hydroelectric Project (archived)",
+        "url": "https://web.archive.org/web/20220227141528/http://www.jkspdc.nic.in/beta/baghlihar_power_project.html",
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "id": "damodar-valley",
+    "name": "Damodar Valley Corporation",
+    "kind": "water",
+    "scale": "landmark",
+    "started": 1948,
+    "opened": 1953,
+    "status": "open",
+    "place": {
+      "longitude": 85.51,
+      "latitude": 24.32,
+      "label": "Tilaiya Dam, Koderma, Jharkhand",
+      "precision": "site"
+    },
+    "states": [
+      "Jharkhand",
+      "West Bengal"
+    ],
+    "path": [
+      {
+        "longitude": 85.51,
+        "latitude": 24.32
+      },
+      {
+        "longitude": 85.76,
+        "latitude": 23.94
+      },
+      {
+        "longitude": 86.81,
+        "latitude": 23.79
+      },
+      {
+        "longitude": 86.75,
+        "latitude": 23.68
+      },
+      {
+        "longitude": 87.31,
+        "latitude": 23.48
+      }
+    ],
+    "summary": "Independent India’s first multipurpose river-valley corporation, modelled on the Tennessee Valley Authority and established by Act of Parliament on 7 July 1948 after colonial surveys of Damodar floods. Four dams followed: Tilaiya (1953) and Maithon (1957) on the Barakar, Konar (1955), and Panchet (1959) on the Damodar, with Durgapur Barrage for canals. DVC later became as much a thermal generator as a flood-control agency. The first dam at Tilaiya is the opening date used here.",
+    "sources": [
+      {
+        "title": "DVC — Dams and barrages",
+        "url": "https://www.dvc.gov.in/cms-web/details-pages/113",
+        "year": 2026
+      },
+      {
+        "title": "1948: Damodar Valley Corporation established",
+        "url": "https://frontline.thehindu.com/the-nation/india-at-75-epochal-moments-1948-damodar-valley-corporation-established/article65719982.ece",
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "id": "bhilai-steel",
+    "name": "Bhilai Steel Plant",
+    "kind": "steel",
+    "scale": "landmark",
+    "started": 1955,
+    "opened": 1959,
+    "status": "open",
+    "place": {
+      "longitude": 81.38,
+      "latitude": 21.21,
+      "label": "Bhilai, Durg district, Chhattisgarh",
+      "precision": "site"
+    },
+    "states": [
+      "Chhattisgarh"
+    ],
+    "path": null,
+    "summary": "The flagship public-sector integrated steel plant, built with Soviet assistance and commissioned in 1959. SAIL dates establishment to 1955. Its first blast furnace was blown in on 4 February 1959, a day after Rourkela’s; the 1 MT phase was complete by December 1961. Bhilai became the country’s principal maker of rails and a symbol of the Second Plan’s heavy-industry turn. It remains a SAIL plant.",
+    "sources": [
+      {
+        "title": "SAIL — About Bhilai Steel Plant",
+        "url": "https://sail.co.in/en/plants/about-bhilai-steel-plant",
+        "year": 2026
+      },
+      {
+        "title": "SAIL — Background and history",
+        "url": "https://sail.co.in/en/company/background-history",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "rourkela-steel",
+    "name": "Rourkela Steel Plant",
+    "kind": "steel",
+    "scale": "landmark",
+    "started": 1954,
+    "opened": 1959,
+    "status": "open",
+    "place": {
+      "longitude": 84.85,
+      "latitude": 22.21,
+      "label": "Rourkela, Odisha",
+      "precision": "site"
+    },
+    "states": [
+      "Odisha"
+    ],
+    "path": null,
+    "summary": "The first public-sector integrated steel plant, built with a West German consortium (Krupp–Demag) after a 1953 agreement. Hindustan Steel was incorporated in 1954 to own it. President Rajendra Prasad inaugurated blast furnace no. 1 on 3 February 1959. Rourkela introduced the LD (Linz–Donawitz) steelmaking process in India and sits on the Odisha ore belt. It is a SAIL plant.",
+    "sources": [
+      {
+        "title": "SAIL — Background and history",
+        "url": "https://sail.co.in/en/company/background-history",
+        "year": 2026
+      },
+      {
+        "title": "Confusion over anniversary of India’s first blast furnace",
+        "url": "https://www.business-standard.com/article/economy-policy/confusion-over-anniversary-of-india-39-s-first-blast-furnace-108090301031_1.html",
+        "year": 2008
+      }
+    ]
+  },
+  {
+    "id": "durgapur-steel",
+    "name": "Durgapur Steel Plant",
+    "kind": "steel",
+    "scale": "trunk",
+    "started": 1956,
+    "opened": 1962,
+    "status": "open",
+    "place": {
+      "longitude": 87.32,
+      "latitude": 23.48,
+      "label": "Durgapur, West Bengal",
+      "precision": "site"
+    },
+    "states": [
+      "West Bengal"
+    ],
+    "path": null,
+    "summary": "The British-collaborated plant of the Second Plan, on the Damodar in West Bengal. SAIL records that the 1 MT phase was completed in January 1962 after commissioning of the wheel and axle plant. Durgapur specialised in long products and railway wheels. Like Bhilai and Rourkela it passed from Hindustan Steel into SAIL.",
+    "sources": [
+      {
+        "title": "SAIL — Background and history",
+        "url": "https://sail.co.in/en/company/background-history",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "bokaro-steel",
+    "name": "Bokaro Steel Plant",
+    "kind": "steel",
+    "scale": "landmark",
+    "started": 1964,
+    "opened": 1972,
+    "status": "open",
+    "place": {
+      "longitude": 86.15,
+      "latitude": 23.67,
+      "label": "Bokaro Steel City, Jharkhand",
+      "precision": "site"
+    },
+    "states": [
+      "Jharkhand"
+    ],
+    "path": null,
+    "summary": "India’s fourth public-sector integrated mill, incorporated as Bokaro Steel Limited on 29 January 1964 and built with Soviet collaboration. Indira Gandhi inaugurated blast furnace no. 1 on 3 October 1972. It was presented as a more swadeshi plant in equipment content than the 1950s trio, and it sits on the Damodar coal-and-water system. It is a SAIL plant.",
+    "sources": [
+      {
+        "title": "SAIL — Background and history",
+        "url": "https://sail.co.in/en/company/background-history",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "visakhapatnam-steel",
+    "name": "Visakhapatnam Steel Plant",
+    "kind": "steel",
+    "scale": "trunk",
+    "started": 1982,
+    "opened": 1992,
+    "status": "open",
+    "place": {
+      "longitude": 83.2,
+      "latitude": 17.61,
+      "label": "Gajuwaka, Visakhapatnam, Andhra Pradesh",
+      "precision": "site"
+    },
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "path": null,
+    "summary": "India’s first shore-based integrated steel plant. Indira Gandhi announced it in 1970; the foundation was laid in 1971; Rashtriya Ispat Nigam was formed in 1982 and took the plant out of SAIL. First mass concreting for the blast furnace was in January 1982. Saleable steel production is dated from November 1990; RINL records commissioning in 1992 at 3 MTPA of liquid steel, later expanded. It is commonly called Vizag Steel.",
+    "sources": [
+      {
+        "title": "RINL / Vizag Steel plant history",
+        "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/andhra-pradesh-visakhapatnam-steel-plant-surpasses-100m-ton-milestone-1812605",
+        "year": 2024
+      },
+      {
+        "title": "Rashtriya Ispat Nigam",
+        "url": "https://www.vizagsteel.com/",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "mathura-refinery",
+    "name": "Mathura Refinery",
+    "kind": "plant",
+    "scale": "trunk",
+    "started": 1972,
+    "opened": 1982,
+    "status": "open",
+    "place": {
+      "longitude": 77.686,
+      "latitude": 27.378,
+      "label": "Mathura, Uttar Pradesh",
+      "precision": "site"
+    },
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "path": null,
+    "summary": "Indian Oil’s inland refinery on the Yamuna, sited to supply Delhi and western Uttar Pradesh. Construction began in October 1972 after Indira Gandhi laid the foundation; the refinery was commissioned on 19 January 1982 at 6 million tonnes a year, later expanded. It was a public-sector answer to moving product inland from coastal plants.",
+    "sources": [
+      {
+        "title": "Indian Oil — Mathura Refinery",
+        "url": "https://iocl.com/pages/mathura-refinery",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "jamnagar-refinery",
+    "name": "Jamnagar Refinery",
+    "kind": "plant",
+    "scale": "landmark",
+    "started": 1996,
+    "opened": 1999,
+    "status": "open",
+    "place": {
+      "longitude": 69.87,
+      "latitude": 22.37,
+      "label": "Motikhavdi, Jamnagar, Gujarat",
+      "precision": "site"
+    },
+    "states": [
+      "Gujarat"
+    ],
+    "path": null,
+    "summary": "Reliance Industries’ private refinery on the Gulf of Kutch, commissioned in 1999 after a short construction period and later expanded into a Special Economic Zone complex. It became the world’s largest single-site refining complex and a large share of India’s exportable fuels. It belongs to the post-1991 map of private heavy industry, not the Second Plan mills.",
+    "sources": [
+      {
+        "title": "Reliance’s first refinery at Jamnagar completes 25 years",
+        "url": "https://www.business-standard.com/companies/news/reliance-s-first-ever-refinery-at-jamnagar-completes-25-yrs-of-operations-124122900484_1.html",
+        "year": 2024
+      },
+      {
+        "title": "25 years of Jamnagar refinery",
+        "url": "https://www.moneycontrol.com/news/business/25-years-of-jamnagar-refinery-how-ril-redefined-the-petrochemical-landscape-of-india-12902976.html",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "heavy-engineering-ranchi",
+    "name": "Heavy Engineering Corporation, Ranchi",
+    "kind": "plant",
+    "scale": "trunk",
+    "started": 1958,
+    "opened": 1958,
+    "status": "open",
+    "place": {
+      "longitude": 85.31,
+      "latitude": 23.31,
+      "label": "Dhurwa, Ranchi, Jharkhand",
+      "precision": "site"
+    },
+    "states": [
+      "Jharkhand"
+    ],
+    "path": null,
+    "summary": "A central public-sector works incorporated in 1958 to make capital equipment for steel plants, mining, and later defence, nuclear, and space programmes, so that mills would not have to be imported whole. The Ministry of Heavy Industries records HEC at Ranchi as an integrated engineering complex. It supplied equipment for Bokaro and Vizag and for expansions at Bhilai.",
+    "sources": [
+      {
+        "title": "HEC Limited — Overview",
+        "url": "https://hecltd.com/overview.php",
+        "year": 2026
+      },
+      {
+        "title": "Ministry of Heavy Industries — HEC",
+        "url": "https://www.heavyindustries.gov.in/en/heavy-engineering-corporation-limited-hec-limited",
+        "year": 2023
+      }
+    ]
+  },
+  {
+    "id": "bhel-bhopal",
+    "name": "BHEL Bhopal",
+    "kind": "plant",
+    "scale": "trunk",
+    "started": 1956,
+    "opened": 1960,
+    "status": "open",
+    "place": {
+      "longitude": 77.47,
+      "latitude": 23.26,
+      "label": "Piplani, Bhopal, Madhya Pradesh",
+      "precision": "site"
+    },
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "path": null,
+    "summary": "Heavy Electricals (India) Limited, agreed with Associated Electrical Industries of the United Kingdom on 7 November 1955, registered on 29 August 1956, foundation in November 1958, and dedicated in November 1960. It was Nehru’s plant for turbines, generators, and switchgear. In 1974 it was merged into Bharat Heavy Electricals Limited. Bhopal remains one of BHEL’s oldest manufacturing complexes.",
+    "sources": [
+      {
+        "title": "BHEL Bhopal — History",
+        "url": "https://bpl.bhel.com/bplweb/history",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "ongc-bombay-high",
+    "name": "Bombay High",
+    "kind": "plant",
+    "scale": "landmark",
+    "started": 1974,
+    "opened": 1976,
+    "status": "open",
+    "place": {
+      "longitude": 71.33,
+      "latitude": 19.42,
+      "label": "Mumbai High field, Arabian Sea",
+      "precision": "site"
+    },
+    "states": [
+      "Maharashtra"
+    ],
+    "path": null,
+    "summary": "India’s principal offshore oilfield, about 160 km west of Mumbai, discovered in February 1974 by an Indo-Soviet team on the vessel Akademik Arkhangelsky. ONGC commenced production on 21 May 1976. A subsea pipeline to Mumbai refineries followed in 1978. The field supplied a large share of domestic crude for decades and put the public-sector oil company on the world map of offshore production.",
+    "sources": [
+      {
+        "title": "ONGC’s Mumbai High: 50 years on",
+        "url": "https://indianexpress.com/article/cities/mumbai/ongcs-mumbai-high-50-years-on-still-going-strong-9169641/",
+        "year": 2024
+      },
+      {
+        "title": "Mumbai High field — Offshore Technology",
+        "url": "https://www.offshore-technology.com/projects/mumbai-high-field/",
+        "year": 2017
+      }
+    ]
+  },
+  {
+    "id": "kandla",
+    "name": "Kandla Port (Deendayal)",
+    "kind": "port",
+    "scale": "landmark",
+    "started": 1952,
+    "opened": 1957,
+    "status": "open",
+    "place": {
+      "longitude": 70.22,
+      "latitude": 23.03,
+      "label": "Kandla, Gulf of Kutch, Gujarat",
+      "precision": "site"
+    },
+    "states": [
+      "Gujarat"
+    ],
+    "path": null,
+    "summary": "A new major port on the Gulf of Kutch, built after Partition left Karachi in Pakistan and western India without a deep-water gateway. Construction of four deep-water berths began in 1952 and was completed in 1957; by 1959 the port was linked by metre-gauge railway to the north. India’s first export processing zone was set up beside it in 1965. It was later renamed Deendayal Port and remains a bulk and POL gateway.",
+    "sources": [
+      {
+        "title": "Major ports of independent India — Kandla construction",
+        "url": "https://ir.nbu.ac.in/bitstream/123456789/1115/1/120851.pdf",
+        "year": 2017
+      },
+      {
+        "title": "Deendayal Port Authority",
+        "url": "https://www.deendayalport.gov.in/",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "paradip",
+    "name": "Paradip Port",
+    "kind": "port",
+    "scale": "trunk",
+    "started": 1962,
+    "opened": 1966,
+    "status": "open",
+    "place": {
+      "longitude": 86.67,
+      "latitude": 20.26,
+      "label": "Paradip, Odisha",
+      "precision": "site"
+    },
+    "states": [
+      "Odisha"
+    ],
+    "path": null,
+    "summary": "A major port on the Mahanadi mouth, begun by the government of Orissa and taken over when the Union declared it a major port in 1965. It was commissioned in 1966, filling an 800-kilometre gap on the east coast between Kolkata and Visakhapatnam. It handles iron ore, coal, and other bulk for the eastern industrial belt and was later notified as a mega port.",
+    "sources": [
+      {
+        "title": "Major ports of independent India — Paradip",
+        "url": "https://ir.nbu.ac.in/bitstream/123456789/1115/1/120851.pdf",
+        "year": 2017
+      },
+      {
+        "title": "Paradip Port Authority",
+        "url": "https://paradipport.gov.in/",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "jnpt",
+    "name": "Jawaharlal Nehru Port",
+    "kind": "port",
+    "scale": "landmark",
+    "started": 1982,
+    "opened": 1989,
+    "status": "open",
+    "place": {
+      "longitude": 72.95,
+      "latitude": 18.95,
+      "label": "Nhava Sheva, Navi Mumbai, Maharashtra",
+      "precision": "site"
+    },
+    "states": [
+      "Maharashtra"
+    ],
+    "path": null,
+    "summary": "India’s principal container port, built on the mainland opposite Mumbai to relieve the old docks. The Nhava Sheva Port Trust was constituted in 1982; the port was commissioned on 26 May 1989. It was built with World Bank assistance on marshy ground in a few years. Later PPP terminals (including DP World and others) made it the country’s busiest box port until Mundra caught up.",
+    "sources": [
+      {
+        "title": "Jawaharlal Nehru Port Authority",
+        "url": "https://www.jnport.gov.in/",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "mundra",
+    "name": "Mundra Port",
+    "kind": "port",
+    "scale": "landmark",
+    "started": 1998,
+    "opened": 1998,
+    "status": "open",
+    "place": {
+      "longitude": 69.71,
+      "latitude": 22.74,
+      "label": "Mundra, Kutch, Gujarat",
+      "precision": "site"
+    },
+    "states": [
+      "Gujarat"
+    ],
+    "path": null,
+    "summary": "A private port on the Gulf of Kutch developed by the Adani group from 1998, later Adani Ports and Special Economic Zone. Deeper draft, mechanised berths, and double-stack rail to the north allowed it to overtake several Union major ports by tonnage, including Kandla nearby. In 2026 it was notified as a mega port alongside Deendayal, JNPT, and Paradip. It is the post-1991 port as a corporate asset.",
+    "sources": [
+      {
+        "title": "The Hindu — Mundra Port silver jubilee, first ship 7 October 1998",
+        "url": "https://www.thehindu.com/business/mundra-port-celebrates-silver-jubilee/article67413216.ece",
+        "year": 2023
+      }
+    ]
+  },
+  {
+    "id": "visakhapatnam-port",
+    "name": "Visakhapatnam Port",
+    "kind": "port",
+    "scale": "trunk",
+    "started": 1933,
+    "opened": 1976,
+    "status": "open",
+    "place": {
+      "longitude": 83.3,
+      "latitude": 17.69,
+      "label": "Visakhapatnam, Andhra Pradesh",
+      "precision": "site"
+    },
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "path": null,
+    "summary": "A colonial inner harbour opened in 1933 and a Union major port after 1947. The post-independence work mapped here is the outer harbour, completed and opened on 8 December 1976 to take iron-ore carriers of 100,000 DWT and more for Japanese mills, with a mechanised ore-handling plant. Later oil, LPG, and container berths were added in the outer basin. The inner harbour remained for general cargo.",
+    "sources": [
+      {
+        "title": "Visakhapatnam Port Trust — history (archived)",
+        "url": "https://web.archive.org/web/20121111025637/http://www.vizagport.com/AboutUs/History.aspx",
+        "year": 2012
+      }
+    ]
+  },
+  {
+    "id": "haldia",
+    "name": "Haldia Dock Complex",
+    "kind": "port",
+    "scale": "trunk",
+    "started": 1968,
+    "opened": 1977,
+    "status": "open",
+    "place": {
+      "longitude": 88.11,
+      "latitude": 22.07,
+      "label": "Haldia, West Bengal",
+      "precision": "site"
+    },
+    "states": [
+      "West Bengal"
+    ],
+    "path": null,
+    "summary": "A dock system on the Hooghly 104 km below Kolkata, built so that Calcutta Port could handle bulk and POL despite the river’s draft. An oil jetty was commissioned in 1968; the enclosed dock opened in March 1977. It remains one of two dock systems of Syama Prasad Mookerjee Port and a principal coal, ore, and liquid terminal of eastern India.",
+    "sources": [
+      {
+        "title": "Major ports of independent India — Haldia",
+        "url": "https://ir.nbu.ac.in/bitstream/123456789/1115/1/120851.pdf",
+        "year": 2017
+      },
+      {
+        "title": "Syama Prasad Mookerjee Port, Kolkata",
+        "url": "https://smportkolkata.shipping.gov.in/",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "kochi-port",
+    "name": "Kochi Port / Vallarpadam",
+    "kind": "port",
+    "scale": "trunk",
+    "started": 1928,
+    "opened": 2011,
+    "status": "open",
+    "place": {
+      "longitude": 76.27,
+      "latitude": 9.97,
+      "label": "Willingdon Island / Vallarpadam, Kochi, Kerala",
+      "precision": "site"
+    },
+    "states": [
+      "Kerala"
+    ],
+    "path": null,
+    "summary": "A colonial harbour on Willingdon Island, opened in 1928, that remained a Union major port after 1947. The post-independence landmark is the International Container Transhipment Terminal at Vallarpadam, a DP World PPP concession, which received its first vessel in February 2011. The terminal was meant to catch transhipment that had been going to Colombo. An LNG terminal and cruise berths belong to the same later port.",
+    "sources": [
+      {
+        "title": "Cochin Port Authority",
+        "url": "https://cochinport.gov.in/",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "ennore-kamarajar",
+    "name": "Kamarajar Port (Ennore)",
+    "kind": "port",
+    "scale": "trunk",
+    "started": 1999,
+    "opened": 2001,
+    "status": "open",
+    "place": {
+      "longitude": 80.34,
+      "latitude": 13.26,
+      "label": "Ennore, Tamil Nadu",
+      "precision": "site"
+    },
+    "states": [
+      "Tamil Nadu"
+    ],
+    "path": null,
+    "summary": "India’s first corporatised major port, declared in March 1999, incorporated as Ennore Port Limited in October 1999, commissioned on 1 February 2001, and opened to commercial coal traffic on 22 June 2001. It sits about 20 km north of Chennai Port and was later renamed Kamarajar Port. Coal for Tamil Nadu’s thermal stations is the main cargo; the corporate form was the experiment.",
+    "sources": [
+      {
+        "title": "The Hindu — Ennore Port to be renamed as Kamarajar Port",
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/ennore-port-to-be-renamed-as-kamarajar-port/article5709148.ece",
+        "year": 2014
+      },
+      {
+        "title": "Kamarajar Port Limited",
+        "url": "https://www.kamarajarport.in/",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "golden-quadrilateral",
+    "name": "Golden Quadrilateral",
+    "kind": "road",
+    "scale": "landmark",
+    "started": 1999,
+    "opened": 2012,
+    "status": "open",
+    "place": {
+      "longitude": 79.0,
+      "latitude": 21.0,
+      "label": "Delhi–Kolkata–Chennai–Mumbai",
+      "precision": "corridor"
+    },
+    "states": [
+      "Delhi",
+      "Haryana",
+      "Rajasthan",
+      "Gujarat",
+      "Maharashtra",
+      "Karnataka",
+      "Tamil Nadu",
+      "Andhra Pradesh",
+      "Odisha",
+      "West Bengal",
+      "Bihar",
+      "Uttar Pradesh"
+    ],
+    "path": [
+      {
+        "longitude": 77.21,
+        "latitude": 28.61
+      },
+      {
+        "longitude": 80.33,
+        "latitude": 26.45
+      },
+      {
+        "longitude": 88.36,
+        "latitude": 22.57
+      },
+      {
+        "longitude": 85.82,
+        "latitude": 20.3
+      },
+      {
+        "longitude": 83.22,
+        "latitude": 17.69
+      },
+      {
+        "longitude": 80.27,
+        "latitude": 13.08
+      },
+      {
+        "longitude": 77.59,
+        "latitude": 12.97
+      },
+      {
+        "longitude": 73.86,
+        "latitude": 18.52
+      },
+      {
+        "longitude": 72.83,
+        "latitude": 18.94
+      },
+      {
+        "longitude": 72.58,
+        "latitude": 23.03
+      },
+      {
+        "longitude": 75.79,
+        "latitude": 26.91
+      },
+      {
+        "longitude": 77.21,
+        "latitude": 28.61
+      }
+    ],
+    "summary": "Phase I of the National Highways Development Project: four- and six-laning of about 5,846 km joining Delhi, Kolkata, Chennai, and Mumbai. Atal Bihari Vajpayee laid the foundation on 6 January 1999; the Cabinet approved NHDP Phase I in December 2000. Parliament was told the job was 99.7 per cent complete by 2009; the government announced completion in January 2012. It is the Union’s first named national highway system of that scale.",
+    "sources": [
+      {
+        "title": "PIB — NHDP consultative committee, December 2001",
+        "url": "https://archive.pib.gov.in/archive/releases98/lyr2001/rdec2001/07122001/r0712200122.html",
+        "year": 2001
+      },
+      {
+        "title": "Indian Express — Govt declares Golden Quadrilateral complete",
+        "url": "https://indianexpress.com/article/news-archive/web/govt-declares-golden-quadrilateral-complete/",
+        "year": 2012
+      }
+    ]
+  },
+  {
+    "id": "north-south-east-west",
+    "name": "North–South and East–West Corridors",
+    "kind": "road",
+    "scale": "trunk",
+    "started": 1999,
+    "opened": 2018,
+    "status": "open",
+    "place": {
+      "longitude": 77.21,
+      "latitude": 21.15,
+      "label": "Srinagar–Kanyakumari / Porbandar–Silchar",
+      "precision": "corridor"
+    },
+    "states": [
+      "Jammu and Kashmir",
+      "Punjab",
+      "Haryana",
+      "Delhi",
+      "Uttar Pradesh",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Telangana",
+      "Karnataka",
+      "Tamil Nadu",
+      "Gujarat",
+      "Rajasthan",
+      "Bihar",
+      "West Bengal",
+      "Assam"
+    ],
+    "path": [
+      {
+        "longitude": 74.8,
+        "latitude": 34.08
+      },
+      {
+        "longitude": 74.87,
+        "latitude": 32.73
+      },
+      {
+        "longitude": 77.21,
+        "latitude": 28.61
+      },
+      {
+        "longitude": 79.09,
+        "latitude": 21.15
+      },
+      {
+        "longitude": 78.49,
+        "latitude": 17.39
+      },
+      {
+        "longitude": 77.59,
+        "latitude": 12.97
+      },
+      {
+        "longitude": 77.54,
+        "latitude": 8.09
+      }
+    ],
+    "summary": "NHDP Phase II: a cross of national highways from Srinagar toward Kanyakumari and from Porbandar toward Silchar, about 7,300 km. Phase II was approved in December 2003 after a 1999 launch of the wider NHDP. Four-laning ran years behind the original 2007 target; by 31 March 2018 most of the length had been four-laned, with residual missing links. The path drawn here is the north–south spine only.",
+    "sources": [
+      {
+        "title": "Lok Sabha — NHDP Phase I and II",
+        "url": "https://eparlib.sansad.in/bitstream/123456789/533249/1/33572.pdf",
+        "year": 2006
+      },
+      {
+        "title": "PIB — NHDP consultative committee, 2001",
+        "url": "https://archive.pib.gov.in/archive/releases98/lyr2001/rdec2001/07122001/r0712200122.html",
+        "year": 2001
+      }
+    ]
+  },
+  {
+    "id": "mumbai-pune-expressway",
+    "name": "Mumbai–Pune Expressway",
+    "kind": "road",
+    "scale": "trunk",
+    "started": 1998,
+    "opened": 2002,
+    "status": "open",
+    "place": {
+      "longitude": 73.41,
+      "latitude": 18.75,
+      "label": "Lonavala, Maharashtra",
+      "precision": "corridor"
+    },
+    "states": [
+      "Maharashtra"
+    ],
+    "path": [
+      {
+        "longitude": 73.1,
+        "latitude": 19.03
+      },
+      {
+        "longitude": 73.28,
+        "latitude": 18.85
+      },
+      {
+        "longitude": 73.41,
+        "latitude": 18.75
+      },
+      {
+        "longitude": 73.72,
+        "latitude": 18.67
+      }
+    ],
+    "summary": "India’s first six-lane, access-controlled, inter-city tolled expressway, 94.5 km from Kalamboli in Navi Mumbai to Kiwale near Pune. MSRDC took it up on a BOT model in 1997; construction began after environmental clearance in late 1997. Sections opened from 2000; the road was fully operational in April 2002. It set the pattern for later state and Union expressways.",
+    "sources": [
+      {
+        "title": "The untolled story of Mumbai–Pune expressway",
+        "url": "https://indianexpress.com/article/news-archive/the-untolled-story-of-mumbai-pune-expressway/",
+        "year": 2003
+      }
+    ]
+  },
+  {
+    "id": "yamuna-expressway",
+    "name": "Yamuna Expressway",
+    "kind": "road",
+    "scale": "trunk",
+    "started": 2007,
+    "opened": 2012,
+    "status": "open",
+    "place": {
+      "longitude": 77.56,
+      "latitude": 28.12,
+      "label": "Greater Noida–Agra, Uttar Pradesh",
+      "precision": "corridor"
+    },
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "path": [
+      {
+        "longitude": 77.51,
+        "latitude": 28.47
+      },
+      {
+        "longitude": 77.56,
+        "latitude": 28.12
+      },
+      {
+        "longitude": 77.67,
+        "latitude": 27.49
+      },
+      {
+        "longitude": 78.01,
+        "latitude": 27.18
+      }
+    ],
+    "summary": "A 165 km six-lane concrete expressway from Greater Noida to Agra along the Yamuna, built by the Yamuna Expressway Industrial Development Authority as a PPP. Uttar Pradesh approved the project in 2001; the concession and construction belong to the 2000s. Akhilesh Yadav inaugurated it on 9 August 2012. Land acquisition at Tappal and elsewhere was violent; the road also opened a real-estate corridor.",
+    "sources": [
+      {
+        "title": "Yamuna Expressway opened",
+        "url": "https://www.business-standard.com/article/pti-stories/yamuna-expressway-opened-112080900416_1.html",
+        "year": 2012
+      }
+    ]
+  },
+  {
+    "id": "bharatmala",
+    "name": "Bharatmala Pariyojana",
+    "kind": "road",
+    "scale": "landmark",
+    "started": 2017,
+    "status": "ongoing",
+    "place": {
+      "longitude": 79.0,
+      "latitude": 21.15,
+      "label": "National highway programme",
+      "precision": "corridor"
+    },
+    "states": [
+      "India"
+    ],
+    "path": null,
+    "summary": "A Union highway programme approved by the Cabinet in 2017, absorbing unfinished NHDP lengths and adding economic corridors, border and coastal roads, and expressways. It is not a single alignment and is not plotted as a village. Phase I identified thousands of kilometres; construction and awards have continued in packages under NHAI. Bharatmala is a span of policy, not one asset.",
+    "sources": [
+      {
+        "title": "PIB — Cabinet approval of Bharatmala Phase I, 24 October 2017",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1513060",
+        "year": 2017
+      },
+      {
+        "title": "Indian Express — Bharatmala cleared",
+        "url": "https://indianexpress.com/article/business/economy/infra-projects-worth-rs-7-lakh-cr-including-bharatmala-cleared-4905167/",
+        "year": 2017
+      }
+    ]
+  },
+  {
+    "id": "delhi-meerut-expressway",
+    "name": "Delhi–Meerut Expressway",
+    "kind": "road",
+    "scale": "trunk",
+    "started": 2015,
+    "opened": 2018,
+    "status": "open",
+    "place": {
+      "longitude": 77.25,
+      "latitude": 28.66,
+      "label": "Nizamuddin–Meerut",
+      "precision": "corridor"
+    },
+    "states": [
+      "Delhi",
+      "Uttar Pradesh"
+    ],
+    "path": [
+      {
+        "longitude": 77.25,
+        "latitude": 28.66
+      },
+      {
+        "longitude": 77.44,
+        "latitude": 28.67
+      },
+      {
+        "longitude": 77.57,
+        "latitude": 28.83
+      },
+      {
+        "longitude": 77.71,
+        "latitude": 28.98
+      }
+    ],
+    "summary": "An access-controlled road from Nizamuddin Bridge in Delhi toward Meerut. Narendra Modi laid the foundation in December 2015 and inaugurated the first package — about 9 km of 14-lane highway to the Uttar Pradesh border — on 27 May 2018. Later packages take the corridor through Dasna and Hapur to Meerut. It is a Bharatmala-era urban expressway, not a pan-India programme.",
+    "sources": [
+      {
+        "title": "PM inaugurates 1st phase of Delhi–Meerut Expressway",
+        "url": "https://www.business-standard.com/article/pti-stories/pm-inaugurates-1st-phase-of-delhi-meerut-expressway-118052700113_1.html",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "id": "konkan-railway",
+    "name": "Konkan Railway",
+    "kind": "rail",
+    "scale": "landmark",
+    "started": 1990,
+    "opened": 1998,
+    "status": "open",
+    "place": {
+      "longitude": 73.97,
+      "latitude": 15.27,
+      "label": "Madgaon, Goa",
+      "precision": "corridor"
+    },
+    "states": [
+      "Maharashtra",
+      "Goa",
+      "Karnataka"
+    ],
+    "path": [
+      {
+        "longitude": 73.12,
+        "latitude": 18.44
+      },
+      {
+        "longitude": 73.52,
+        "latitude": 17.53
+      },
+      {
+        "longitude": 73.31,
+        "latitude": 16.99
+      },
+      {
+        "longitude": 73.69,
+        "latitude": 16.01
+      },
+      {
+        "longitude": 73.97,
+        "latitude": 15.27
+      },
+      {
+        "longitude": 74.13,
+        "latitude": 14.81
+      },
+      {
+        "longitude": 74.74,
+        "latitude": 13.34
+      },
+      {
+        "longitude": 74.85,
+        "latitude": 12.95
+      }
+    ],
+    "summary": "A 756 km broad-gauge line from Roha in Maharashtra to Thokur near Mangaluru, built by Konkan Railway Corporation, a Union–state company formed in 1990. Through running on the completed track began on 26 January 1998; Atal Bihari Vajpayee dedicated the line, and regular Mumbai–Mangaluru passenger service followed in May. Tunnels, viaducts, and laterite cuttings through the Western Ghats made it the largest new railway of the late twentieth century in India.",
+    "sources": [
+      {
+        "title": "Konkan Railway — electrification dedication (history)",
+        "url": "http://konkanrailway.com/index.php/en/node/4416",
+        "year": 2022
+      },
+      {
+        "title": "The Konkan dream finally comes true",
+        "url": "http://in.rediff.com/news/1998/apr/30konkan.htm",
+        "year": 1998
+      }
+    ]
+  },
+  {
+    "id": "calcutta-metro",
+    "name": "Calcutta Metro",
+    "kind": "metro",
+    "scale": "landmark",
+    "started": 1972,
+    "opened": 1984,
+    "status": "open",
+    "place": {
+      "longitude": 88.35,
+      "latitude": 22.57,
+      "label": "Esplanade, Kolkata",
+      "precision": "city"
+    },
+    "states": [
+      "West Bengal"
+    ],
+    "path": [
+      {
+        "longitude": 88.4,
+        "latitude": 22.65
+      },
+      {
+        "longitude": 88.37,
+        "latitude": 22.6
+      },
+      {
+        "longitude": 88.35,
+        "latitude": 22.57
+      },
+      {
+        "longitude": 88.35,
+        "latitude": 22.53
+      },
+      {
+        "longitude": 88.35,
+        "latitude": 22.5
+      }
+    ],
+    "summary": "India’s first metro railway. The Metropolitan Transport Project was formed in 1969; construction on the north–south corridor began in 1972–73. The first stretch, Esplanade–Bhowanipore (Netaji Bhavan), opened on 24 October 1984. It remained the only metro in the country until Delhi in 2002, and it is a zone of Indian Railways rather than a later special-purpose corporation.",
+    "sources": [
+      {
+        "title": "Telegraph India — Calcutta Metro first run 24 October 1984",
+        "url": "https://www.telegraphindia.com/west-bengal/lifeline-at-30-how-the-wheels-turned/cid/1288609",
+        "year": 2014
+      },
+      {
+        "title": "Telegraph India — Metro Railway at 40",
+        "url": "https://www.telegraphindia.com/west-bengal/kolkata/metro-railway-to-turn-40-later-this-month-a-journey-from-a-3-4km-stretch-to-60km/cid/2056324",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "delhi-metro",
+    "name": "Delhi Metro",
+    "kind": "metro",
+    "scale": "landmark",
+    "started": 1998,
+    "opened": 2002,
+    "status": "open",
+    "place": {
+      "longitude": 77.23,
+      "latitude": 28.67,
+      "label": "Tis Hazari, Delhi",
+      "precision": "city"
+    },
+    "states": [
+      "Delhi",
+      "Haryana",
+      "Uttar Pradesh"
+    ],
+    "path": [
+      {
+        "longitude": 77.28,
+        "latitude": 28.67
+      },
+      {
+        "longitude": 77.22,
+        "latitude": 28.67
+      },
+      {
+        "longitude": 77.21,
+        "latitude": 28.63
+      },
+      {
+        "longitude": 77.21,
+        "latitude": 28.57
+      },
+      {
+        "longitude": 77.12,
+        "latitude": 28.64
+      }
+    ],
+    "summary": "The first modern metro of the Republic and the template for later city systems. Delhi Metro Rail Corporation was incorporated in 1995; construction began on 1 October 1998. The first section of the Red Line, Shahdara–Tis Hazari, opened on 24 December 2002. Elevated and underground lines were then extended across the National Capital Region in successive phases. Other cities copied the corporation, the gauge, and the claim to remake the commute.",
+    "sources": [
+      {
+        "title": "Delhi Metro Rail Corporation",
+        "url": "https://www.delhimetrorail.com/",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "namma-metro",
+    "name": "Namma Metro",
+    "kind": "metro",
+    "scale": "trunk",
+    "started": 2007,
+    "opened": 2011,
+    "status": "open",
+    "place": {
+      "longitude": 77.57,
+      "latitude": 12.98,
+      "label": "Bengaluru, Karnataka",
+      "precision": "city"
+    },
+    "states": [
+      "Karnataka"
+    ],
+    "path": [
+      {
+        "longitude": 77.54,
+        "latitude": 13.0
+      },
+      {
+        "longitude": 77.57,
+        "latitude": 12.98
+      },
+      {
+        "longitude": 77.62,
+        "latitude": 12.96
+      },
+      {
+        "longitude": 77.7,
+        "latitude": 12.96
+      }
+    ],
+    "summary": "Bengaluru’s metro, the first in south India, opened on 20 October 2011. Bangalore Metro Rail Corporation built a third-rail 750 V DC system. Purple and Green lines were extended in phases across the city. It is a state–Union SPV in the Delhi mould, not a railway zone.",
+    "sources": [
+      {
+        "title": "The Hindu — South India's first metro flagged off, 20 October 2011",
+        "url": "https://www.thehindu.com/news/national/karnataka/south-indias-first-metro-flagged-off/article2554937.ece",
+        "year": 2011
+      }
+    ]
+  },
+  {
+    "id": "mumbai-metro",
+    "name": "Mumbai Metro",
+    "kind": "metro",
+    "scale": "trunk",
+    "started": 2006,
+    "opened": 2014,
+    "status": "open",
+    "place": {
+      "longitude": 72.85,
+      "latitude": 19.12,
+      "label": "Versova–Andheri–Ghatkopar, Mumbai",
+      "precision": "city"
+    },
+    "states": [
+      "Maharashtra"
+    ],
+    "path": [
+      {
+        "longitude": 72.82,
+        "latitude": 19.13
+      },
+      {
+        "longitude": 72.85,
+        "latitude": 19.12
+      },
+      {
+        "longitude": 72.87,
+        "latitude": 19.1
+      },
+      {
+        "longitude": 72.91,
+        "latitude": 19.09
+      }
+    ],
+    "summary": "Line 1, Versova–Andheri–Ghatkopar, opened on 8 June 2014 as a PPP of Mumbai Metro One. Later lines under MMRDA and Maha-Metro, including the underground Aqua Line, extended the network. The first line was an east–west connector across the suburban railway’s north–south grain.",
+    "sources": [
+      {
+        "title": "The Hindu — Prithviraj Chavan launches Mumbai metro, 8 June 2014",
+        "url": "https://www.thehindu.com/news/cities/mumbai/prithviraj-chavan-launches-mumbai-metro-services/article6094460.ece",
+        "year": 2014
+      }
+    ]
+  },
+  {
+    "id": "chennai-metro",
+    "name": "Chennai Metro",
+    "kind": "metro",
+    "scale": "trunk",
+    "started": 2009,
+    "opened": 2015,
+    "status": "open",
+    "place": {
+      "longitude": 80.22,
+      "latitude": 13.06,
+      "label": "Chennai, Tamil Nadu",
+      "precision": "city"
+    },
+    "states": [
+      "Tamil Nadu"
+    ],
+    "path": [
+      {
+        "longitude": 80.19,
+        "latitude": 13.07
+      },
+      {
+        "longitude": 80.22,
+        "latitude": 13.06
+      },
+      {
+        "longitude": 80.25,
+        "latitude": 13.01
+      },
+      {
+        "longitude": 80.22,
+        "latitude": 12.99
+      }
+    ],
+    "summary": "Chennai Metro Rail Limited opened its first section, Koyambedu–Alandur on the Green Line, on 29 June 2015. Construction had started in 2009 after incorporation in 2007. Underground and elevated corridors were added in Phase I. Chennai already had an elevated MRTS (1995); the metro is a separate 25 kV system.",
+    "sources": [
+      {
+        "title": "The Hindu — Chennai's first metro ride, 29 June 2015",
+        "url": "https://www.thehindu.com/news/cities/chennai/Chennai-Metro-Rail-inauguration/article60325437.ece",
+        "year": 2015
+      }
+    ]
+  },
+  {
+    "id": "dedicated-freight-western",
+    "name": "Western Dedicated Freight Corridor",
+    "kind": "rail",
+    "scale": "landmark",
+    "started": 2006,
+    "opened": 2021,
+    "status": "ongoing",
+    "place": {
+      "longitude": 75.8,
+      "latitude": 25.0,
+      "label": "Dadri–JNPT freight spine",
+      "precision": "corridor"
+    },
+    "states": [
+      "Uttar Pradesh",
+      "Haryana",
+      "Rajasthan",
+      "Gujarat",
+      "Maharashtra"
+    ],
+    "path": [
+      {
+        "longitude": 77.55,
+        "latitude": 28.55
+      },
+      {
+        "longitude": 76.62,
+        "latitude": 28.2
+      },
+      {
+        "longitude": 74.64,
+        "latitude": 26.45
+      },
+      {
+        "longitude": 72.43,
+        "latitude": 24.17
+      },
+      {
+        "longitude": 72.58,
+        "latitude": 23.03
+      },
+      {
+        "longitude": 73.18,
+        "latitude": 22.31
+      },
+      {
+        "longitude": 72.83,
+        "latitude": 21.17
+      },
+      {
+        "longitude": 72.95,
+        "latitude": 18.95
+      }
+    ],
+    "summary": "An electrified freight-only railway from Dadri near Delhi to JNPT, built by DFCCIL with Japan International Cooperation Agency loans. DFCCIL was incorporated in 2006. Narendra Modi dedicated the 306 km Rewari–Madar section on 7 January 2021 and flagged a double-stack container train. Later sections toward Palanpur, Vadodara, and the Konkan ports were commissioned in stages; the corridor as a whole was still being closed when this record was compiled.",
+    "sources": [
+      {
+        "title": "PM inaugurates 306 km Rewari–Madar section of Western DFC",
+        "url": "https://www.railjournal.com/infrastructure/indian-prime-minister-inaugurates-306km-section-of-western-dfc/",
+        "year": 2021
+      },
+      {
+        "title": "DFCCIL",
+        "url": "https://dfccil.com/",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "kashmir-rail-usbml",
+    "name": "Udhampur–Srinagar–Baramulla Rail Link",
+    "kind": "rail",
+    "scale": "landmark",
+    "started": 1995,
+    "opened": 2009,
+    "status": "open",
+    "place": {
+      "longitude": 75.16,
+      "latitude": 33.59,
+      "label": "Qazigund, Jammu and Kashmir",
+      "precision": "corridor"
+    },
+    "states": [
+      "Jammu and Kashmir"
+    ],
+    "path": [
+      {
+        "longitude": 75.15,
+        "latitude": 32.92
+      },
+      {
+        "longitude": 74.93,
+        "latitude": 32.98
+      },
+      {
+        "longitude": 74.88,
+        "latitude": 33.15
+      },
+      {
+        "longitude": 75.19,
+        "latitude": 33.42
+      },
+      {
+        "longitude": 75.16,
+        "latitude": 33.59
+      },
+      {
+        "longitude": 74.8,
+        "latitude": 34.08
+      },
+      {
+        "longitude": 74.35,
+        "latitude": 34.21
+      }
+    ],
+    "summary": "A 272 km national project to put the Kashmir Valley on the broad-gauge map. Sanctioned in 1995 and declared a national project in 2002, it opened in sections: Qazigund–Baramulla from 2008–09, Banihal–Qazigund in 2013, Udhampur–Katra in 2014, and the Katra–Banihal tunnels and bridges, including Chenab, in 2024–25. First commercial operation in the Valley is dated 2009; through running from the plains came later.",
+    "sources": [
+      {
+        "title": "Congress on USBRL chronology",
+        "url": "https://www.hindustantimes.com/india-news/congress-credits-decades-of-continuity-in-governance-for-j-k-s-chenab-bridge-101749190322243.html",
+        "year": 2025
+      },
+      {
+        "title": "Kashmir Railways: USBRL",
+        "url": "https://kashmirlife.net/kashmir-railways-inside-indias-rs-43780-cr-engineering-marvel-393257/",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "tarapur",
+    "name": "Tarapur Atomic Power Station",
+    "kind": "nuclear",
+    "scale": "landmark",
+    "started": 1964,
+    "opened": 1969,
+    "status": "open",
+    "place": {
+      "longitude": 72.661,
+      "latitude": 19.829,
+      "label": "Tarapur, Palghar, Maharashtra",
+      "precision": "site"
+    },
+    "states": [
+      "Maharashtra"
+    ],
+    "path": null,
+    "summary": "India’s first commercial nuclear power station. Two GE boiling-water reactors were built under a 1960s agreement with the United States; construction started in October 1964; NPCIL dates commercial operation of TAPS-1 and TAPS-2 to 28 October 1969. Two 540 MW PHWRs were added in 2005–06. Tarapur is the starting point of the Republic’s nuclear-power map.",
+    "sources": [
+      {
+        "title": "NPCIL — All plants",
+        "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+        "year": 2026
+      },
+      {
+        "title": "AERB — Nuclear power plants under operation",
+        "url": "https://www.aerb.gov.in/english/regulatory-facilities/nuclear-power-plants",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "rawatbhata",
+    "name": "Rajasthan Atomic Power Station",
+    "kind": "nuclear",
+    "scale": "trunk",
+    "started": 1964,
+    "opened": 1973,
+    "status": "open",
+    "place": {
+      "longitude": 75.62,
+      "latitude": 24.87,
+      "label": "Rawatbhata, Chittorgarh, Rajasthan",
+      "precision": "site"
+    },
+    "states": [
+      "Rajasthan"
+    ],
+    "path": null,
+    "summary": "The first Indian PHWR station, on the Rana Pratap Sagar at Rawatbhata near Kota, built with Canadian assistance. AERB dates RAPS-1 commercial operation to December 1973; RAPS-2 to 1 April 1981. Later 220 MW units and a 700 MW unit extended the site. After the 1974 nuclear test, Canadian cooperation ended; subsequent units were indigenous PHWRs.",
+    "sources": [
+      {
+        "title": "AERB — Nuclear power plants under operation",
+        "url": "https://www.aerb.gov.in/english/regulatory-facilities/nuclear-power-plants",
+        "year": 2026
+      },
+      {
+        "title": "NPCIL — All plants",
+        "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "kalpakkam",
+    "name": "Madras Atomic Power Station",
+    "kind": "nuclear",
+    "scale": "trunk",
+    "started": 1970,
+    "opened": 1984,
+    "status": "open",
+    "place": {
+      "longitude": 80.175,
+      "latitude": 12.558,
+      "label": "Kalpakkam, Tamil Nadu",
+      "precision": "site"
+    },
+    "states": [
+      "Tamil Nadu"
+    ],
+    "path": null,
+    "summary": "Two 220 MW PHWRs on the Bay of Bengal south of Chennai. NPCIL dates MAPS-1 commercial operation to 27 January 1984 and MAPS-2 to 21 March 1986. Kalpakkam is also the site of the Indira Gandhi Centre for Atomic Research and the Prototype Fast Breeder Reactor, a separate DAE complex. The power station is the southern PHWR of the 1980s programme.",
+    "sources": [
+      {
+        "title": "NPCIL — All plants",
+        "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "narora",
+    "name": "Narora Atomic Power Station",
+    "kind": "nuclear",
+    "scale": "trunk",
+    "started": 1976,
+    "opened": 1991,
+    "status": "open",
+    "place": {
+      "longitude": 78.41,
+      "latitude": 28.16,
+      "label": "Narora, Bulandshahr, Uttar Pradesh",
+      "precision": "site"
+    },
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "path": null,
+    "summary": "Two 220 MW PHWRs on the Ganga in Bulandshahr district. NPCIL dates NAPS-1 to 1 January 1991 and NAPS-2 to 1 July 1992. It is the only nuclear power station in the Ganga plain, built to supply the northern grid.",
+    "sources": [
+      {
+        "title": "NPCIL — All plants",
+        "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "kakrapar",
+    "name": "Kakrapar Atomic Power Station",
+    "kind": "nuclear",
+    "scale": "trunk",
+    "started": 1984,
+    "opened": 1993,
+    "status": "open",
+    "place": {
+      "longitude": 73.35,
+      "latitude": 21.23,
+      "label": "Kakrapar, Tapi district, Gujarat",
+      "precision": "site"
+    },
+    "states": [
+      "Gujarat"
+    ],
+    "path": null,
+    "summary": "A PHWR station on the Tapi. NPCIL dates KAPS-1 to 6 May 1993 and KAPS-2 to 1 September 1995. Two 700 MW indigenous PHWRs, KAPS-3 and KAPS-4, entered commercial operation in 2023 and 2024, the first of that design.",
+    "sources": [
+      {
+        "title": "NPCIL — All plants",
+        "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "kaiga",
+    "name": "Kaiga Generating Station",
+    "kind": "nuclear",
+    "scale": "trunk",
+    "started": 1989,
+    "opened": 2000,
+    "status": "open",
+    "place": {
+      "longitude": 74.44,
+      "latitude": 14.86,
+      "label": "Kaiga, Uttara Kannada, Karnataka",
+      "precision": "site"
+    },
+    "states": [
+      "Karnataka"
+    ],
+    "path": null,
+    "summary": "Four 220 MW PHWRs in the Western Ghats of Uttara Kannada. NPCIL dates KGS-2 to 16 March 2000, KGS-1 to 16 November 2000, KGS-3 to 6 May 2007, and KGS-4 to 20 January 2011. The station supplies the southern grid from a forested inland site rather than the coast.",
+    "sources": [
+      {
+        "title": "NPCIL — All plants",
+        "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "kudankulam",
+    "name": "Kudankulam Nuclear Power Station",
+    "kind": "nuclear",
+    "scale": "landmark",
+    "started": 2002,
+    "opened": 2014,
+    "status": "open",
+    "place": {
+      "longitude": 77.713,
+      "latitude": 8.169,
+      "label": "Kudankulam, Tirunelveli, Tamil Nadu",
+      "precision": "site"
+    },
+    "states": [
+      "Tamil Nadu"
+    ],
+    "path": null,
+    "summary": "India’s largest nuclear power station, two 1,000 MW VVER reactors built with Russian assistance on the Tirunelveli coast. An inter-governmental agreement was signed in 1988, revived in 1998 after the Soviet collapse; construction of Unit 1 began on 31 March 2002. Local opposition delayed fuel loading. Unit 1 was synchronised on 22 October 2013 and declared commercial on 31 December 2014; Unit 2 in 2017. Further units are under construction.",
+    "sources": [
+      {
+        "title": "NPCIL — All plants",
+        "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "ntpc-singrauli",
+    "name": "NTPC Singrauli",
+    "kind": "power",
+    "scale": "landmark",
+    "started": 1977,
+    "opened": 1982,
+    "status": "open",
+    "place": {
+      "longitude": 82.7,
+      "latitude": 24.12,
+      "label": "Shaktinagar, Sonebhadra, Uttar Pradesh",
+      "precision": "site"
+    },
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "path": null,
+    "summary": "NTPC’s first super thermal power station, 2,000 MW on coal from Jayant and Bina and water from Rihand. CEA records Unit 1 (200 MW) commissioned on 14 February 1982; further 200 MW units through 1984 and two 500 MW units in 1986–87. World Bank and KfW assistance is listed by NTPC. Singrauli made the public-sector thermal plant a region of the northern grid, not a single boiler.",
+    "sources": [
+      {
+        "title": "NTPC — Singrauli",
+        "url": "https://ntpc.co.in/singrauli",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "bhadla-solar",
+    "name": "Bhadla Solar Park",
+    "kind": "power",
+    "scale": "landmark",
+    "started": 2015,
+    "opened": 2020,
+    "status": "open",
+    "place": {
+      "longitude": 71.92,
+      "latitude": 27.54,
+      "label": "Bhadla, Jodhpur district, Rajasthan",
+      "precision": "site"
+    },
+    "states": [
+      "Rajasthan"
+    ],
+    "path": null,
+    "summary": "A multi-gigawatt photovoltaic park in the Jodhpur desert, developed in phases by Rajasthan Solar Park Development Company, NTPC, SECI, and private generators. NTPC commissioned capacity at Bhadla in 2017; Mercom reported 2,245 MW commissioned by March 2020 when Hero Future Energies plugged its 300 MW, then called the world’s largest solar park. It is land, modules, and evacuation lines rather than a single plant.",
+    "sources": [
+      {
+        "title": "World’s largest solar park is now at Bhadla",
+        "url": "https://mercomindia.com/world-largest-solar-park-bhadla/",
+        "year": 2020
+      },
+      {
+        "title": "NTPC commissions capacity at Bhadla",
+        "url": "https://www.thehindubusinessline.com/companies/ntpc-commissions-20-mw-capacity-at-bhadla-solar-project/article9597528.ece",
+        "year": 2017
+      }
+    ]
+  },
+  {
+    "id": "pavagada-solar",
+    "name": "Pavagada Solar Park",
+    "kind": "power",
+    "scale": "civic",
+    "started": 2015,
+    "opened": 2019,
+    "status": "open",
+    "place": {
+      "longitude": 77.27,
+      "latitude": 14.15,
+      "label": "Pavagada, Tumakuru district, Karnataka",
+      "precision": "site"
+    },
+    "states": [
+      "Karnataka"
+    ],
+    "path": null,
+    "summary": "A 2,050 MW photovoltaic park on about 13,000 acres of leased farmland in Pavagada taluk, developed by Karnataka Solar Power Development Corporation (SECI–KREDL). Work began in 2015–16; 2,050 MW was reported complete in December 2019. Farmers receive lease rent rather than a one-time land sale. For a time it was called the world’s largest solar farm, before Bhadla overtook it.",
+    "sources": [
+      {
+        "title": "Pavagada Solar Park to be fully operational by December 2019",
+        "url": "https://www.mercomindia.com/pavagada-solar-park-operational-december-2019",
+        "year": 2019
+      }
+    ]
+  },
+  {
+    "id": "terls-thumba",
+    "name": "TERLS, Thumba",
+    "kind": "space",
+    "scale": "landmark",
+    "started": 1962,
+    "opened": 1963,
+    "status": "open",
+    "place": {
+      "longitude": 76.859,
+      "latitude": 8.543,
+      "label": "Thumba, Thiruvananthapuram, Kerala",
+      "precision": "site"
+    },
+    "states": [
+      "Kerala"
+    ],
+    "path": null,
+    "summary": "India’s first rocket range, sited near the magnetic equator for equatorial electrojet research. INCOSPAR under Vikram Sarabhai established TERLS in 1962; a Nike-Apache sounding rocket was launched on 21 November 1963. Indira Gandhi dedicated the station to the United Nations on 2 February 1968. Sounding rockets still fly from Thumba; orbital launches moved to Sriharikota.",
+    "sources": [
+      {
+        "title": "VSSC — Genesis",
+        "url": "https://www.vssc.gov.in/genesis.html",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "vssc",
+    "name": "Vikram Sarabhai Space Centre",
+    "kind": "space",
+    "scale": "landmark",
+    "started": 1972,
+    "opened": 1972,
+    "status": "open",
+    "place": {
+      "longitude": 76.87,
+      "latitude": 8.53,
+      "label": "Thiruvananthapuram, Kerala",
+      "precision": "site"
+    },
+    "states": [
+      "Kerala"
+    ],
+    "path": null,
+    "summary": "ISRO’s lead centre for launch-vehicle design, formed in July 1972 by grouping TERLS, the Space Science and Technology Centre, and related units at Thiruvananthapuram after Vikram Sarabhai’s death, with Brahm Prakash as director. SLV, ASLV, PSLV, GSLV, and LVM3 were designed here. It is a laboratory-and-workshop campus beside the original Thumba range, not a second spaceport.",
+    "sources": [
+      {
+        "title": "VSSC — Genesis",
+        "url": "https://www.vssc.gov.in/genesis.html",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "sriharikota",
+    "name": "Satish Dhawan Space Centre, Sriharikota",
+    "kind": "space",
+    "scale": "landmark",
+    "started": 1969,
+    "opened": 1971,
+    "status": "open",
+    "place": {
+      "longitude": 80.23,
+      "latitude": 13.72,
+      "label": "Sriharikota, Andhra Pradesh",
+      "precision": "site"
+    },
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "path": null,
+    "summary": "India’s orbital launch site on a barrier island in the Bay of Bengal. The range became operational on 9 October 1971 with a Rohini-125 sounding rocket and was later renamed after Satish Dhawan. PSLV, GSLV, and LVM3 flights, including Chandrayaan and the Mars Orbiter Mission, have lifted off from its two launch pads. A second spaceport in Tamil Nadu is a later project.",
+    "sources": [
+      {
+        "title": "ISRO — SDSC SHAR",
+        "url": "https://www.isro.gov.in/SDSC.html",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "iit-kharagpur",
+    "name": "IIT Kharagpur",
+    "kind": "campus",
+    "scale": "landmark",
+    "started": 1950,
+    "opened": 1951,
+    "status": "open",
+    "place": {
+      "longitude": 87.31,
+      "latitude": 22.31,
+      "label": "Hijli, Kharagpur, West Bengal",
+      "precision": "site"
+    },
+    "states": [
+      "West Bengal"
+    ],
+    "path": null,
+    "summary": "The first Indian Institute of Technology, opened in the buildings of the former Hijli Detention Camp. The Sarkar Committee had recommended MIT-like institutes in 1946; the Kharagpur campus began in May 1950 and was inaugurated by Maulana Abul Kalam Azad on 18 August 1951. Nehru laid a foundation in 1952. Parliament declared it an Institute of National Importance in 1956. The other first-generation IITs followed within a decade.",
+    "sources": [
+      {
+        "title": "Council of IITs — About IITs",
+        "url": "https://www.iitsystem.ac.in/about",
+        "year": 2026
+      },
+      {
+        "title": "1950: India gets first IIT in Kharagpur",
+        "url": "https://frontline.thehindu.com/the-nation/education/india-at-75-epochal-moments-1950-india-gets-first-iit-in-kharagpur/article65720112.ece",
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "id": "iit-bombay",
+    "name": "IIT Bombay",
+    "kind": "campus",
+    "scale": "trunk",
+    "started": 1958,
+    "opened": 1958,
+    "status": "open",
+    "place": {
+      "longitude": 72.91,
+      "latitude": 19.13,
+      "label": "Powai, Mumbai",
+      "precision": "site"
+    },
+    "states": [
+      "Maharashtra"
+    ],
+    "path": null,
+    "summary": "The second IIT, established in 1958 at Powai with Soviet assistance, on the Sarkar Committee’s western campus. UNESCO and Soviet laboratories equipped the early departments. It became, with Kharagpur, Madras, Kanpur, and Delhi, one of the five first-generation Institutes of National Importance under the 1961 Act.",
+    "sources": [
+      {
+        "title": "Council of IITs — About IITs",
+        "url": "https://www.iitsystem.ac.in/about",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "iit-madras",
+    "name": "IIT Madras",
+    "kind": "campus",
+    "scale": "trunk",
+    "started": 1959,
+    "opened": 1959,
+    "status": "open",
+    "place": {
+      "longitude": 80.23,
+      "latitude": 12.99,
+      "label": "Guindy, Chennai",
+      "precision": "site"
+    },
+    "states": [
+      "Tamil Nadu"
+    ],
+    "path": null,
+    "summary": "The southern first-generation IIT, established in 1959 with West German collaboration on a wooded campus at Guindy. Machine tools, laboratories, and faculty exchanges came from the Federal Republic. It is one of the five campuses named in the Institutes of Technology Act, 1961.",
+    "sources": [
+      {
+        "title": "Council of IITs — About IITs",
+        "url": "https://www.iitsystem.ac.in/about",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "iit-kanpur",
+    "name": "IIT Kanpur",
+    "kind": "campus",
+    "scale": "trunk",
+    "started": 1959,
+    "opened": 1959,
+    "status": "open",
+    "place": {
+      "longitude": 80.23,
+      "latitude": 26.51,
+      "label": "Kalyanpur, Kanpur, Uttar Pradesh",
+      "precision": "site"
+    },
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "path": null,
+    "summary": "The northern first-generation IIT, established in 1959 with a consortium of American universities led by MIT, the Kanpur Indo-American Programme. Computer science and aeronautics were early strengths. It is one of the five original Institutes of National Importance.",
+    "sources": [
+      {
+        "title": "Council of IITs — About IITs",
+        "url": "https://www.iitsystem.ac.in/about",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "iit-delhi",
+    "name": "IIT Delhi",
+    "kind": "campus",
+    "scale": "trunk",
+    "started": 1961,
+    "opened": 1961,
+    "status": "open",
+    "place": {
+      "longitude": 77.19,
+      "latitude": 28.55,
+      "label": "Hauz Khas, New Delhi",
+      "precision": "site"
+    },
+    "states": [
+      "Delhi"
+    ],
+    "path": null,
+    "summary": "The College of Engineering and Technology at Hauz Khas, created in 1961 with British collaboration, was designated the fifth IIT. The Institutes of Technology Act, 1961, gave it the same national-importance status as Kharagpur, Bombay, Madras, and Kanpur. The campus sits beside the IIT–AIIMS–CSIR cluster of south Delhi.",
+    "sources": [
+      {
+        "title": "Council of IITs — About IITs",
+        "url": "https://www.iitsystem.ac.in/about",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "aiims-delhi",
+    "name": "AIIMS New Delhi",
+    "kind": "campus",
+    "scale": "landmark",
+    "started": 1952,
+    "opened": 1956,
+    "status": "open",
+    "place": {
+      "longitude": 77.21,
+      "latitude": 28.57,
+      "label": "Ansari Nagar, New Delhi",
+      "precision": "site"
+    },
+    "states": [
+      "Delhi"
+    ],
+    "path": null,
+    "summary": "The All India Institute of Medical Sciences, conceived by Rajkumari Amrit Kaur, with a foundation stone in 1952 and an Act of Parliament in 1956 that also declared it an Institute of National Importance. It was meant to train postgraduate doctors in India and to set a national standard of tertiary care. Later AIIMS campuses in other states copy this first hospital-and-college.",
+    "sources": [
+      {
+        "title": "AIIMS New Delhi",
+        "url": "https://www.aiims.edu/",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "chandigarh",
+    "name": "Chandigarh",
+    "kind": "city",
+    "scale": "landmark",
+    "started": 1951,
+    "opened": 1953,
+    "status": "open",
+    "place": {
+      "longitude": 76.78,
+      "latitude": 30.74,
+      "label": "Chandigarh",
+      "precision": "city"
+    },
+    "states": [
+      "Chandigarh",
+      "Punjab",
+      "Haryana"
+    ],
+    "path": null,
+    "summary": "The first planned capital of independent India, built for Punjab after Partition left Lahore in Pakistan. Le Corbusier, Pierre Jeanneret, Maxwell Fry, and Jane Drew were appointed in 1951; the city was inaugurated in 1953. Nehru wanted a new town, unfettered by the past. It later became a Union Territory and joint capital of Punjab and Haryana, a political unfinishedness that the architecture does not resolve.",
+    "sources": [
+      {
+        "title": "Chandigarh Administration",
+        "url": "https://chandigarh.gov.in/",
+        "year": 2026
+      },
+      {
+        "title": "Chandigarh — Britannica",
+        "url": "https://www.britannica.com/place/Chandigarh-India",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "navi-mumbai",
+    "name": "Navi Mumbai",
+    "kind": "city",
+    "scale": "trunk",
+    "started": 1970,
+    "opened": 1972,
+    "status": "open",
+    "place": {
+      "longitude": 73.02,
+      "latitude": 19.03,
+      "label": "Vashi, Navi Mumbai, Maharashtra",
+      "precision": "city"
+    },
+    "states": [
+      "Maharashtra"
+    ],
+    "path": null,
+    "summary": "A planned twin city on the mainland across Mumbai Harbour, to decongest Bombay. The City and Industrial Development Corporation (CIDCO) was incorporated on 17 March 1970; Vashi and other nodes were developed from the early 1970s. Charles Correa, Pravina Mehta, and Shirish Patel had argued for the new town in the 1960s. JNPT, later Atal Setu, and a still-building international airport sit in the same geography.",
+    "sources": [
+      {
+        "title": "CIDCO",
+        "url": "https://cidco.maharashtra.gov.in/",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "gandhinagar",
+    "name": "Gandhinagar",
+    "kind": "city",
+    "scale": "trunk",
+    "started": 1965,
+    "opened": 1970,
+    "status": "open",
+    "place": {
+      "longitude": 72.65,
+      "latitude": 23.22,
+      "label": "Gandhinagar, Gujarat",
+      "precision": "city"
+    },
+    "states": [
+      "Gujarat"
+    ],
+    "path": null,
+    "summary": "The planned capital of Gujarat after the 1960 bifurcation of Bombay State, on the Sabarmati north of Ahmedabad. Foundation work is dated to 1965; the state government shifted from Ahmedabad in 1970. H. K. Mewada and Prakash M. Apte, who had worked at Chandigarh, laid out sectors around a central government complex. It is a state capital, not a Union Territory.",
+    "sources": [
+      {
+        "title": "Gandhinagar — Government of Gujarat",
+        "url": "https://gandhinagar.nic.in/",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "amravati-andhra",
+    "name": "Amaravati",
+    "kind": "city",
+    "scale": "trunk",
+    "started": 2015,
+    "status": "ongoing",
+    "place": {
+      "longitude": 80.52,
+      "latitude": 16.51,
+      "label": "Amaravati, Guntur–Krishna, Andhra Pradesh",
+      "precision": "city"
+    },
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "path": null,
+    "summary": "A greenfield capital on pooled farmland between Vijayawada and Guntur, chosen after the 2014 bifurcation left Hyderabad as Telangana’s capital. Narendra Modi laid a foundation on 22 October 2015. A later state government paused the city for a three-capital scheme; the High Court ordered development to resume; the government elected in 2024 restarted work. Parliament in 2026 named Amaravati the state’s capital. Secretariat buildings and empty grids sit on the Krishna floodplain. Status: ongoing.",
+    "sources": [
+      {
+        "title": "The Hindu — Foundation for A.P. capital Amaravati",
+        "url": "https://www.thehindu.com/news/cities/Vijayawada/foundation-for-ap-capital-amaravati/article7738867.ece",
+        "year": 2015
+      },
+      {
+        "title": "The Hindu — A divided State’s capital conundrum",
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/a-divided-states-capital-conundrum/article61601479.ece",
+        "year": 2019
+      },
+      {
+        "title": "Business Standard — Amaravati restarted after 2024 election",
+        "url": "https://www.business-standard.com/politics/at-dawn-of-n-chandrababu-naidu-govt-amaravati-comes-to-life-again-124061101142_1.html",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "chenab-bridge",
+    "name": "Chenab Bridge",
+    "kind": "bridge",
+    "scale": "landmark",
+    "started": 2004,
+    "opened": 2024,
+    "status": "open",
+    "place": {
+      "longitude": 74.88,
+      "latitude": 33.15,
+      "label": "Reasi district, Jammu and Kashmir",
+      "precision": "site"
+    },
+    "states": [
+      "Jammu and Kashmir"
+    ],
+    "path": null,
+    "summary": "A steel-arch railway bridge on the USBRL between Bakkal and Kauri, 359 m above the Chenab, taller than the Eiffel Tower. The contract was awarded in the mid-2000s; Konkan Railway, Afcons, and others built it. The arch was completed in 2022 and track laid in 2023; trains used it from 2024 as the Katra–Banihal section opened. It is the engineering emblem of the Kashmir rail link.",
+    "sources": [
+      {
+        "title": "Chenab Bridge — Railway Technology",
+        "url": "https://www.railway-technology.com/projects/chenab-bridge-jammu-kashmir/",
+        "year": 2023
+      },
+      {
+        "title": "USBRL and the Chenab Bridge",
+        "url": "https://kashmirlife.net/kashmir-railways-inside-indias-rs-43780-cr-engineering-marvel-393257/",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "bogibeel",
+    "name": "Bogibeel Bridge",
+    "kind": "bridge",
+    "scale": "trunk",
+    "started": 2002,
+    "opened": 2018,
+    "status": "open",
+    "place": {
+      "longitude": 94.76,
+      "latitude": 27.4,
+      "label": "Dibrugarh–Dhemaji, Assam",
+      "precision": "site"
+    },
+    "states": [
+      "Assam"
+    ],
+    "path": null,
+    "summary": "A 4.94 km double-deck rail-cum-road bridge across the Brahmaputra, connecting Dibrugarh to Dhemaji and the Arunachal foothills. H. D. Deve Gowda laid a foundation in 1997; construction was taken up in 2002 and the work declared a national project in 2007. Narendra Modi inaugurated it on 25 December 2018 and flagged the first train. It cut a long detour via Tinsukia.",
+    "sources": [
+      {
+        "title": "Narendra Modi inaugurates Bogibeel rail-cum-road bridge",
+        "url": "https://www.thehindu.com/news/national/narendra-modi-inaugurates-bogibeel-rail-cum-road-bridge/article62013148.ece",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "id": "atal-tunnel",
+    "name": "Atal Tunnel",
+    "kind": "road",
+    "scale": "trunk",
+    "started": 2010,
+    "opened": 2020,
+    "status": "open",
+    "place": {
+      "longitude": 77.15,
+      "latitude": 32.4,
+      "label": "Rohtang, Himachal Pradesh",
+      "precision": "site"
+    },
+    "states": [
+      "Himachal Pradesh"
+    ],
+    "path": null,
+    "summary": "A 9.02 km highway tunnel under Rohtang Pass, built by the Border Roads Organisation to give all-weather access from Manali to Lahaul–Spiti. Construction is dated from 2010. Narendra Modi inaugurated it on 3 October 2020 and named it after Atal Bihari Vajpayee. It is a strategic as well as a civil road, on the Manali–Leh axis.",
+    "sources": [
+      {
+        "title": "PIB — Atal Tunnel dedicated",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1661660",
+        "year": 2020
+      }
+    ]
+  },
+  {
+    "id": "bandra-worli",
+    "name": "Bandra–Worli Sea Link",
+    "kind": "bridge",
+    "scale": "civic",
+    "started": 2000,
+    "opened": 2009,
+    "status": "open",
+    "place": {
+      "longitude": 72.817,
+      "latitude": 19.036,
+      "label": "Mahim Bay, Mumbai",
+      "precision": "site"
+    },
+    "states": [
+      "Maharashtra"
+    ],
+    "path": [
+      {
+        "longitude": 72.82,
+        "latitude": 19.05
+      },
+      {
+        "longitude": 72.82,
+        "latitude": 19.04
+      },
+      {
+        "longitude": 72.82,
+        "latitude": 19.02
+      },
+      {
+        "longitude": 72.81,
+        "latitude": 19.0
+      }
+    ],
+    "summary": "A cable-stayed bridge across Mahim Bay, officially the Rajiv Gandhi Sea Link, commissioned by MSRDC and built by Hindustan Construction Company. Foundation work is dated from 1999–2000. Sonia Gandhi inaugurated the first four of eight lanes on 30 June 2009; all eight opened on 24 March 2010. It took suburban traffic off the Mahim Causeway.",
+    "sources": [
+      {
+        "title": "Zoom across the city: Bandra–Worli sea link opened",
+        "url": "https://www.projectstoday.ai/News/Zoom-across-the-city-Bandra-Worli-sea-link-opened-to-traffic",
+        "year": 2009
+      },
+      {
+        "title": "Bandra-Worli Sea Link — Britannica",
+        "url": "https://www.britannica.com/topic/Bandra-Worli-Sea-Link",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "mumbai-trans-harbour-atal-setu",
+    "name": "Atal Setu (Mumbai Trans Harbour Link)",
+    "kind": "bridge",
+    "scale": "landmark",
+    "started": 2018,
+    "opened": 2024,
+    "status": "open",
+    "place": {
+      "longitude": 72.95,
+      "latitude": 18.98,
+      "label": "Sewri–Nhava Sheva, Mumbai Harbour",
+      "precision": "site"
+    },
+    "states": [
+      "Maharashtra"
+    ],
+    "path": [
+      {
+        "longitude": 72.85,
+        "latitude": 19.0
+      },
+      {
+        "longitude": 72.9,
+        "latitude": 18.99
+      },
+      {
+        "longitude": 72.95,
+        "latitude": 18.98
+      },
+      {
+        "longitude": 73.0,
+        "latitude": 18.97
+      },
+      {
+        "longitude": 73.05,
+        "latitude": 18.96
+      }
+    ],
+    "summary": "India’s longest sea bridge, about 21.8 km from Sewri to Chirle near Nhava Sheva, of which some 16.5 km is over water. First proposed in 1963, it was taken up by MMRDA; construction started in March–April 2018 with JICA loans. MMRDA records completion on 5 January 2024; Narendra Modi inaugurated it on 12 January 2024 and traffic opened on 13 January. It is the road counterpart of JNPT on the harbour’s east side.",
+    "sources": [
+      {
+        "title": "MMRDA — Mumbai Trans Harbour Link",
+        "url": "https://mmrda.maharashtra.gov.in/en/projects/transport/mumbai-trans-harbour-link/overview",
+        "year": 2024
+      },
+      {
+        "title": "Mumbai Trans Harbour Link inaugurated",
+        "url": "https://indianexpress.com/article/explained/mumbai-trans-harbour-link-across-the-sea-in-20-minutes-9105812/",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "pamban-new",
+    "name": "New Pamban Bridge",
+    "kind": "bridge",
+    "scale": "civic",
+    "started": 2019,
+    "opened": 2025,
+    "status": "open",
+    "place": {
+      "longitude": 79.21,
+      "latitude": 9.28,
+      "label": "Pamban, Ramanathapuram, Tamil Nadu",
+      "precision": "site"
+    },
+    "states": [
+      "Tamil Nadu"
+    ],
+    "path": [
+      {
+        "longitude": 79.19,
+        "latitude": 9.282
+      },
+      {
+        "longitude": 79.205,
+        "latitude": 9.282
+      },
+      {
+        "longitude": 79.22,
+        "latitude": 9.281
+      },
+      {
+        "longitude": 79.235,
+        "latitude": 9.28
+      }
+    ],
+    "summary": "A new railway sea bridge from the Tamil Nadu mainland to Rameswaram Island, replacing the 1914 Scherzer rolling-lift Pamban Bridge. It is India’s first vertical-lift railway sea bridge, with a navigational span that can be raised for ships. The Prime Minister inaugurated it on 6 April 2025. The old bridge remains a separate historic structure.",
+    "sources": [
+      {
+        "title": "The Hindu — PM inaugurates new Pamban rail bridge, 6 April 2025",
+        "url": "https://www.thehindu.com/news/national/pm-modi-inaugurates-new-pamban-rail-bridge-in-rameswaram/article69419686.ece",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "igi-t3",
+    "name": "IGI Airport Terminal 3",
+    "kind": "airport",
+    "scale": "trunk",
+    "started": 2007,
+    "opened": 2010,
+    "status": "open",
+    "place": {
+      "longitude": 77.1,
+      "latitude": 28.56,
+      "label": "Indira Gandhi International Airport, Delhi",
+      "precision": "site"
+    },
+    "states": [
+      "Delhi"
+    ],
+    "path": null,
+    "summary": "The integrated terminal of Delhi’s airport under the DIAL (GMR) PPP. The foundation was laid in February 2007; The Hindu reported inauguration on 3 July 2010 and operations from 14 July. International flights shifted to T3 later that month; some domestic operations followed in August. It was built for the Commonwealth Games year and is the Union capital’s principal air terminal, not a greenfield airport.",
+    "sources": [
+      {
+        "title": "Airport’s new terminal to be opened on July 3",
+        "url": "https://www.thehindu.com/news/cities/Delhi/Airports-new-terminal-to-be-opened-on-July-3/article16372661.ece",
+        "year": 2010
+      }
+    ]
+  },
+  {
+    "id": "bengaluru-airport",
+    "name": "Kempegowda International Airport",
+    "kind": "airport",
+    "scale": "trunk",
+    "started": 2005,
+    "opened": 2008,
+    "status": "open",
+    "place": {
+      "longitude": 77.706,
+      "latitude": 13.199,
+      "label": "Devanahalli, Bengaluru, Karnataka",
+      "precision": "site"
+    },
+    "states": [
+      "Karnataka"
+    ],
+    "path": null,
+    "summary": "A greenfield PPP airport north of Bengaluru, built by Bengaluru International Airport Limited to replace HAL Airport. Construction began on 2 July 2005; commercial operations opened on 24 May 2008. It was among the first large greenfield airports of the 2000s liberalisation, after Cochin’s smaller PPP.",
+    "sources": [
+      {
+        "title": "Kempegowda International Airport — Airport Technology",
+        "url": "https://www.airport-technology.com/projects/kempegowda-international-airport-bangalore/",
+        "year": 2023
+      }
+    ]
+  },
+  {
+    "id": "hyderabad-shamshabad",
+    "name": "Rajiv Gandhi International Airport",
+    "kind": "airport",
+    "scale": "trunk",
+    "started": 2005,
+    "opened": 2008,
+    "status": "open",
+    "place": {
+      "longitude": 78.43,
+      "latitude": 17.24,
+      "label": "Shamshabad, Hyderabad",
+      "precision": "site"
+    },
+    "states": [
+      "Telangana"
+    ],
+    "path": null,
+    "summary": "A greenfield PPP airport at Shamshabad, 30 km from Hyderabad, built by GMR Hyderabad International Airport with Malaysia Airports, AAI, and the state. Sonia Gandhi inaugurated it on 14 March 2008; commercial operations began on 23 March 2008, and Begumpet closed to scheduled flights. It is South Asia’s first A380-capable airport and a large-concession successor to Cochin’s PPP.",
+    "sources": [
+      {
+        "title": "Rajiv Gandhi International Airport — Airport Technology",
+        "url": "https://www.airport-technology.com/projects/hypderbadindia/",
+        "year": 2008
+      }
+    ]
+  },
+  {
+    "id": "cochin-airport",
+    "name": "Cochin International Airport",
+    "kind": "airport",
+    "scale": "civic",
+    "started": 1994,
+    "opened": 1999,
+    "status": "open",
+    "place": {
+      "longitude": 76.4,
+      "latitude": 10.15,
+      "label": "Nedumbassery, Kochi, Kerala",
+      "precision": "site"
+    },
+    "states": [
+      "Kerala"
+    ],
+    "path": null,
+    "summary": "India’s first airport built as a public–private partnership, with Kerala government equity and thousands of NRI shareholders. Cochin International Airport Limited was registered in 1994; President K. R. Narayanan inaugurated the airport on 25 May 1999; the first commercial flight landed on 10 June 1999. It replaced a naval airfield and became the model later cited for Bengaluru and Hyderabad, though those were larger concession airports.",
+    "sources": [
+      {
+        "title": "CIAL at 25",
+        "url": "https://english.mathrubhumi.com/features/specials/kochi-airport-reach-25-years-411fff3e",
+        "year": 2024
+      },
+      {
+        "title": "APAO — Cochin International Airport Limited",
+        "url": "https://www.apaoindia.com/?page_id=158",
+        "year": 2012
+      }
+    ]
+  },
+  {
+    "id": "farakka-barrage",
+    "name": "Farakka Barrage",
+    "kind": "water",
+    "scale": "landmark",
+    "started": 1961,
+    "opened": 1975,
+    "status": "open",
+    "place": {
+      "longitude": 87.933,
+      "latitude": 24.804,
+      "label": "Farakka, Murshidabad, West Bengal",
+      "precision": "site"
+    },
+    "states": [
+      "West Bengal"
+    ],
+    "path": [
+      {
+        "longitude": 87.93,
+        "latitude": 24.8
+      },
+      {
+        "longitude": 88.05,
+        "latitude": 24.5
+      },
+      {
+        "longitude": 88.12,
+        "latitude": 24.2
+      },
+      {
+        "longitude": 88.35,
+        "latitude": 22.57
+      }
+    ],
+    "summary": "A barrage across the Ganga in Murshidabad, built to divert water down a feeder canal into the Bhagirathi–Hooghly so that Kolkata Port would keep a navigable draft. The Farakka Barrage Project Authority was set up in 1961; the Department of Water Resources records construction from 1961 and dedication in May 1975, with operations from 21 April 1975. Sharing of dry-season flow with Bangladesh has been a standing diplomatic subject, formalised in the 1996 treaty.",
+    "sources": [
+      {
+        "title": "The Hindu archive — Farakka barrage to be commissioned, 20 May 1975",
+        "url": "https://www.thehindu.com/archives/from-the-hindu-50-years-ago-may-20-1975-farakka-barrage-to-be-commissioned-tomorrow/article69593892.ece",
+        "year": 1975
+      },
+      {
+        "title": "Department of Water Resources — Farakka Barrage Project",
+        "url": "https://jalshakti-dowr.gov.in/",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "polavaram",
+    "name": "Polavaram",
+    "kind": "dam",
+    "scale": "trunk",
+    "started": 2004,
+    "status": "ongoing",
+    "place": {
+      "longitude": 81.66,
+      "latitude": 17.25,
+      "label": "Polavaram, Eluru district, Andhra Pradesh",
+      "precision": "site"
+    },
+    "states": [
+      "Andhra Pradesh",
+      "Telangana",
+      "Odisha",
+      "Chhattisgarh"
+    ],
+    "path": null,
+    "summary": "A multipurpose project on the Godavari, intended to irrigate coastal Andhra, generate power, and transfer water toward the Krishna. Work started in 2004–05; the Andhra Pradesh Reorganisation Act, 2014, declared it a national project. Spillway gates have been built; the main earth-cum-rockfill dam and a large share of rehabilitation had not been finished years later. CAG recorded 1,06,006 project-displaced families, of whom only a small fraction had been relocated as of the audit years. Status: ongoing.",
+    "displacement": {
+      "note": "The CAG performance audit states that the project involves rehabilitation of 1,06,006 project-displaced families. As of March 2014 only 0.67 per cent had been rehabilitated; even after 17 years only 11 per cent of PDFs had been relocated to R&R colonies, according to that report.",
+      "sources": [
+        "https://cag.gov.in/uploads/download_audit_report/2025/PA-on-Polavaram-Irrigation-Project-069aaece202fa02.61046831.pdf"
+      ]
+    },
+    "sources": [
+      {
+        "title": "ThePrint — Unfinished after 20 years, Andhra’s Polavaram dam",
+        "url": "https://theprint.in/india/governance/unfinished-after-20-yrs-andhras-polavaram-dam-plagued-by-technical-issues-funds-crunch-politics/1971332/",
+        "year": 2024
+      },
+      {
+        "title": "CAG — Performance audit of Polavaram Irrigation Project",
+        "url": "https://cag.gov.in/uploads/download_audit_report/2025/PA-on-Polavaram-Irrigation-Project-069aaece202fa02.61046831.pdf",
+        "year": 2025
+      }
+    ]
+  }
+]

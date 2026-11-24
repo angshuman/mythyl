@@ -16,5 +16,23 @@
     "title": "Armed conflict in India",
     "lede": "Interstate wars, insurgencies, communal massacres, environmental conflicts, and terrorist attacks since 1947. The Northeast is mapped as a region.",
     "cover": "india-mark"
+  },
+  {
+    "id": "states",
+    "href": "/states",
+    "kind": "Map",
+    "span": "1971–2023",
+    "title": "Income, survival, and power",
+    "lede": "Per-capita NSDP and infant mortality of Indian states, read against Union cabinets, chief ministers, and sourced political events.",
+    "cover": "states-mark"
+  },
+  {
+    "id": "works",
+    "href": "/works",
+    "kind": "Map",
+    "span": "1947–now",
+    "title": "Public works in India, 1947–now",
+    "lede": "Dams, steel towns, ports, highways, metros, nuclear stations, space centres and new towns after independence.",
+    "cover": "works-mark"
   }
 ]

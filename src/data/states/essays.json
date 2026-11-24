@@ -1,0 +1,52 @@
+[
+  {
+    "id": "income",
+    "title": "How GSDP and per-capita NSDP are measured",
+    "kicker": "Income",
+    "color": "#cbb89a",
+    "paragraphs": [
+      "Gross State Domestic Product is the state analogue of GDP: the value of goods and services produced inside the state’s borders. The income number on this map is per-capita net state domestic product (NSDP). For 2011, 2021 and 2023 the figures are MOSPI’s 2011–12-base series at constant prices, compiled in the RBI Handbook of Statistics on Indian States, Table 10. Constant prices hold the price level fixed so that a rise is a rise in volume. GSDP totals, where shown, are the same base, converted from lakh rupees to crore. For 1981, 1991 and 2001 the map uses older current-price factor-cost series (1980–81 and 1999–00 bases). Those points are not comparable with the 2011–12 constant series without a deflator, and they are not comparable with each other across a base change.",
+      "Goa and Sikkim sit at the top of the constant-price per-capita table because they are small and relatively rich, not because they are India’s industrial core. Maharashtra’s total GSDP is the largest; Bihar’s per-capita NSDP in 2011–12 was ₹21,750, the lowest among states in that table, after the 2000 loss of Jharkhand’s mines and factories. A rank in one year is not a growth story. Telangana is not drawn separately; its MOSPI series is noted on Andhra Pradesh."
+    ]
+  },
+  {
+    "id": "survival",
+    "title": "Infant and under-five mortality",
+    "kicker": "Survival",
+    "color": "#7f4540",
+    "paragraphs": [
+      "Infant mortality (IMR) is deaths in the first year per 1,000 live births. Under-five mortality (U5MR) is deaths before age five per 1,000 live births. The Sample Registration System, published by the Registrar General and compiled for states in the RBI handbook, is the comparable official annual series used here for IMR. U5MR for 2021 and 2023 is taken from the SRS Statistical Reports for bigger states and Union Territories. The National Family Health Survey gives another reading from a different sample and a multi-year window; NFHS and SRS do not always match in a given year, and both are estimates. This map does not mix NFHS points onto an SRS year.",
+      "Kerala’s SRS infant mortality fell from 58 in 1971 to 5 in 2023. Uttar Pradesh’s was 167 in 1971 and 37 in 2023; Madhya Pradesh’s under-five rate in 2021 was 49, the highest among bigger states in that report. Money and survival are related and are not the same series: Gujarat outranks Kerala on constant-price per-capita NSDP and trails it on IMR. Smaller states and Union Territories in the SRS have wide year-to-year swings because the sample is small; a single year is a signal, not a census."
+    ]
+  },
+  {
+    "id": "reorganisation",
+    "title": "The map keeps moving",
+    "kicker": "Borders",
+    "color": "#7eb8a0",
+    "paragraphs": [
+      "The outline here is a GADM-derived state map whose NAME_1 labels are the join keys: Jammu and Kashmir and Ladakh both appear; Telangana does not; Odisha is labelled Orissa; Uttarakhand is Uttaranchal; Dadra and Nagar Haveli and Daman and Diu remain separate polygons. That is a dataset choice, not a political argument, and it matches the other mythyl maps.",
+      "Linguistic reorganisation in 1956, the 2000 split of Bihar, Madhya Pradesh and Uttar Pradesh, Telangana in 2014, and the 2019 Union Territories in the north each break a time series. MOSPI’s 2011–12-base tables backcast Andhra Pradesh and Telangana as separate units; they do not unsplice 2000. A sparkline that crosses those years is a splice. Read the formed date on the card before treating a slope as policy."
+    ]
+  },
+  {
+    "id": "politics",
+    "title": "Who was in office",
+    "kicker": "Power",
+    "color": "#6b8cce",
+    "paragraphs": [
+      "The Union strip is the prime ministers from Nehru to Modi, including the two short acting spells of Gulzarilal Nanda in 1964 and 1966. State cards carry a shorter chief-minister list: enough to see Congress dominance, the 1967 coalition break, the Emergency and 1977, the coalition years after 1989, and the post-2014 BJP wave, plus the Dravidian, Left and other regional exceptions. Assembly elections in 2026 changed the last row in Kerala, Tamil Nadu, West Bengal, Karnataka and Bihar; those rows follow official gazettes, The Hindu’s election pages, and party lists, and they will move again.",
+      "Party colour on the strip is a family, not a verdict: congress, janata, nda, upa, left, regional, other. A chief-minister spell is not a cause of infant mortality. It is the political time against which the numbers sit."
+    ]
+  },
+  {
+    "id": "reading",
+    "title": "How to read this atlas",
+    "kicker": "Method",
+    "color": "#9a937e",
+    "paragraphs": [
+      "Toggle Income or Survival and pick a choropleth year. The years on the slider are those for which this compilation has a sourced point: 1971 (IMR only, for states SRS then covered), 1981, 1991, 2001 (current-price per capita plus IMR), and 2011, 2021, 2023 (constant 2011–12 per capita, GSDP where published, IMR, and under-five mortality for bigger states). Hover a state for the sparkline; click to lock the card. Event chips are union, state or local — the political scale of the fact, not a death count.",
+      "Sparklines are the point: a rank in 2023 without a slope is a postcard. Sources sit on every series point. Where a number is missing, the field is omitted. This page does not invent a death toll for communal riots, for Bhopal, or for Covid-19."
+    ]
+  }
+]

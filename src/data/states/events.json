@@ -1,0 +1,780 @@
+[
+  {
+    "id": "states-reorganisation-1956",
+    "name": "States Reorganisation Act, 1956",
+    "year": 1956,
+    "scale": "union",
+    "kind": "policy",
+    "states": [
+      "*"
+    ],
+    "summary": "The States Reorganisation Act (Act 37 of 1956) redrew most of the map on a linguistic basis, with appointed day 1 November 1956. Andhra Pradesh, Kerala, Mysore (later Karnataka) and a reorganised Madhya Pradesh are successor units of that Act; later income and mortality series sit on those units, not on the 1947 provinces.",
+    "sources": [
+      {
+        "title": "India Code: States Reorganisation Act, 1956",
+        "url": "https://www.indiacode.nic.in/handle/123456789/1680",
+        "year": 1956
+      }
+    ]
+  },
+  {
+    "id": "kerala-land-1957",
+    "name": "Kerala Agrarian Relations Act",
+    "year": 1957,
+    "scale": "state",
+    "kind": "reform",
+    "states": [
+      "Kerala"
+    ],
+    "summary": "The first E. M. S. Namboodiripad ministry introduced land-reform legislation that, through later Acts, abolished tenancy at a scale unmatched in other states. Kerala’s subsequent literacy and infant-mortality record is read against this rural settlement as well as against public health spending.",
+    "sources": [
+      {
+        "title": "The Hindu: the land question in Kerala",
+        "url": "https://www.thehindu.com/news/national/kerala/the-land-question-in-kerala/article25988816.ece",
+        "year": 2019
+      }
+    ]
+  },
+  {
+    "id": "drought-1965-67",
+    "name": "Drought and food crisis, 1965–67",
+    "year": 1966,
+    "scale": "union",
+    "kind": "famine",
+    "states": [
+      "Bihar",
+      "Uttar Pradesh",
+      "Madhya Pradesh",
+      "Rajasthan",
+      "Odisha"
+    ],
+    "summary": "Two successive monsoon failures in 1965 and 1966 produced a food crisis that the Union treated as scarcity rather than famine, with Bihar and eastern Uttar Pradesh the worst-affected. The episode sits immediately before the Green Revolution wheat package and is a marker in the Hindi-belt child-survival series.",
+    "sources": [
+      {
+        "title": "The Hindu: remembering the Bihar famine",
+        "url": "https://www.thehindu.com/opinion/op-ed/remembering-the-bihar-famine/article17635716.ece",
+        "year": 2017
+      }
+    ]
+  },
+  {
+    "id": "green-revolution-1966",
+    "name": "High-yielding varieties and the Green Revolution",
+    "year": 1966,
+    "scale": "union",
+    "kind": "reform",
+    "states": [
+      "Punjab",
+      "Haryana",
+      "Uttar Pradesh"
+    ],
+    "summary": "From 1966 the Union and the states pushed dwarf wheat, tubewells and fertiliser, first in Punjab and Haryana and then in western Uttar Pradesh. Foodgrain output rose; the later per-capita income of those states, and their agrarian politics, still turn on that package.",
+    "sources": [
+      {
+        "title": "Britannica: Green Revolution",
+        "url": "https://www.britannica.com/topic/green-revolution",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "bihar-famine-1966",
+    "name": "Bihar drought and scarcity, 1966–67",
+    "year": 1967,
+    "scale": "state",
+    "kind": "famine",
+    "states": [
+      "Bihar",
+      "Uttar Pradesh"
+    ],
+    "summary": "The 1966–67 drought in Bihar was the last major food crisis in independent India to be debated as famine. Relief and American PL-480 grain limited starvation mortality; the episode remains a reference point for Hindi-belt infant mortality in the 1970s.",
+    "sources": [
+      {
+        "title": "The Hindu: remembering the Bihar famine",
+        "url": "https://www.thehindu.com/opinion/op-ed/remembering-the-bihar-famine/article17635716.ece",
+        "year": 2017
+      }
+    ]
+  },
+  {
+    "id": "emergency-1975",
+    "name": "The Emergency, 1975–77",
+    "year": 1975,
+    "scale": "union",
+    "kind": "policy",
+    "states": [
+      "*"
+    ],
+    "summary": "The Internal Emergency proclaimed on 25 June 1975 suspended elections and civil liberties until March 1977. Family-planning targets and sterilisation drives, especially in northern states, are part of the demographic record of those years.",
+    "sources": [
+      {
+        "title": "Britannica: Emergency 1975–77",
+        "url": "https://www.britannica.com/event/Emergency-India-1975-1977",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "janata-1977",
+    "name": "Janata government",
+    "year": 1977,
+    "scale": "union",
+    "kind": "policy",
+    "states": [
+      "*"
+    ],
+    "summary": "The 1977 general election ended three decades of Congress rule at the Centre. Several northern assemblies flipped with it; the Janata years are the first national break in the Congress system on this map.",
+    "sources": [
+      {
+        "title": "Britannica: the Janata government",
+        "url": "https://www.britannica.com/place/India/The-Janata-government-and-the-return-of-Indira-Gandhi",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "operation-barga-1978",
+    "name": "Operation Barga in West Bengal",
+    "year": 1978,
+    "scale": "state",
+    "kind": "reform",
+    "states": [
+      "West Bengal"
+    ],
+    "summary": "The Left Front government recorded sharecroppers’ rights under Operation Barga from 1978. Tenurial security and later panchayat elections are part of West Bengal’s rural political economy through the 2000s, distinct from its later industrial GSDP path.",
+    "sources": [
+      {
+        "title": "The Hindu: Operation Barga",
+        "url": "https://www.thehindu.com/opinion/op-ed/remembering-operation-barga/article19624416.ece",
+        "year": 2017
+      }
+    ]
+  },
+  {
+    "id": "bhopal-1984",
+    "name": "Bhopal gas disaster",
+    "year": 1984,
+    "scale": "local",
+    "kind": "disaster",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "summary": "On 2–3 December 1984 methyl isocyanate escaped from the Union Carbide plant at Bhopal. Immediate and later deaths are recorded in the disaster literature and in litigation; this atlas does not rest a single death integer on the map.",
+    "sources": [
+      {
+        "title": "Britannica: Bhopal disaster",
+        "url": "https://www.britannica.com/event/Bhopal-disaster",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "goa-statehood-1987",
+    "name": "Goa statehood",
+    "year": 1987,
+    "scale": "state",
+    "kind": "policy",
+    "states": [
+      "Goa"
+    ],
+    "summary": "Goa became a full state on 30 May 1987 after a period as a Union Territory following annexation in 1961. Its later per-capita NSDP, among the highest in the country, is the product of a small population, tourism, mining and a port, not of a large industrial base.",
+    "sources": [
+      {
+        "title": "Britannica: Goa",
+        "url": "https://www.britannica.com/place/Goa",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "kerala-literacy-1991",
+    "name": "Kerala Total Literacy Campaign",
+    "year": 1991,
+    "scale": "state",
+    "kind": "demographic",
+    "states": [
+      "Kerala"
+    ],
+    "summary": "Kerala was declared totally literate in 1991 after a mass campaign that built on earlier missionary, princely and Left investments in schooling. Female literacy is the usual accompaniment cited for the state’s infant-mortality decline, which by 1991 had already reached 16 per 1,000.",
+    "sources": [
+      {
+        "title": "The Hindu: Kerala’s literacy movement",
+        "url": "https://www.thehindu.com/news/national/kerala/the-making-of-a-literate-kerala/article36191816.ece",
+        "year": 2021
+      }
+    ]
+  },
+  {
+    "id": "liberalisation-1991",
+    "name": "Balance-of-payments crisis and liberalisation",
+    "year": 1991,
+    "scale": "union",
+    "kind": "reform",
+    "states": [
+      "Maharashtra",
+      "Gujarat",
+      "Tamil Nadu",
+      "Karnataka",
+      "Delhi"
+    ],
+    "summary": "A payments crisis in 1991 forced a devaluation and a cut in industrial licensing. Later GSDP ranks of Maharashtra, Gujarat, Tamil Nadu and Karnataka are the industrial geography of that turn, not a natural endowment of those coasts.",
+    "sources": [
+      {
+        "title": "IMF: India in the 1990s",
+        "url": "https://www.imf.org/external/pubs/ft/fandd/2009/06/panagariya.htm",
+        "year": 2009
+      }
+    ]
+  },
+  {
+    "id": "gujarat-industrial-policy-1991",
+    "name": "Gujarat industrial policy after 1991",
+    "year": 1991,
+    "scale": "state",
+    "kind": "reform",
+    "states": [
+      "Gujarat"
+    ],
+    "summary": "Gujarat used the 1991 licensing change to expand chemicals, ports and later automobiles, building on GIDC estates already in place. Constant-price per-capita NSDP more than doubled between 2011–12 and 2021–22 on the 2011–12 series.",
+    "sources": [
+      {
+        "title": "Britannica: Gujarat",
+        "url": "https://www.britannica.com/place/Gujarat-state-India",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "panchayati-raj-1992",
+    "name": "73rd and 74th Constitutional Amendments",
+    "year": 1992,
+    "scale": "union",
+    "kind": "policy",
+    "states": [
+      "*"
+    ],
+    "summary": "The 73rd and 74th Amendments, passed in 1992 and in force from 1993, required elected rural and urban local bodies. Implementation varied by state; Kerala and West Bengal used the new tiers earlier than Bihar or Uttar Pradesh.",
+    "sources": [
+      {
+        "title": "Britannica: Panchayat",
+        "url": "https://www.britannica.com/topic/panchayat",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "mumbai-plague-1994",
+    "name": "Surat plague, 1994",
+    "year": 1994,
+    "scale": "local",
+    "kind": "epidemic",
+    "states": [
+      "Gujarat"
+    ],
+    "summary": "An outbreak of plague in Surat in 1994 produced a short panic and a large out-migration from the city. It is a public-health marker for urban Gujarat in the 1990s, between liberalisation and the 2001 earthquake.",
+    "sources": [
+      {
+        "title": "WHO: plague in India, 1994",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/plague",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "odisha-super-cyclone-1999",
+    "name": "Odisha super cyclone",
+    "year": 1999,
+    "scale": "state",
+    "kind": "disaster",
+    "states": [
+      "Odisha"
+    ],
+    "summary": "The October 1999 super cyclone struck coastal Odisha and destroyed crops, livestock and public buildings in several districts. Subsequent disaster-management reforms in the state are part of the later public-health and reconstruction record; death counts belong to the disaster literature.",
+    "sources": [
+      {
+        "title": "Britannica: Odisha",
+        "url": "https://www.britannica.com/place/Odisha",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "new-states-2000",
+    "name": "Chhattisgarh, Jharkhand and Uttarakhand",
+    "year": 2000,
+    "scale": "union",
+    "kind": "demographic",
+    "states": [
+      "Chhattisgarh",
+      "Jharkhand",
+      "Uttarakhand"
+    ],
+    "summary": "Three states were carved from Madhya Pradesh, Bihar and Uttar Pradesh in November 2000. Per-capita and infant-mortality series for the parent and successor states are not a continuous line through that year.",
+    "sources": [
+      {
+        "title": "Britannica: Jharkhand",
+        "url": "https://www.britannica.com/place/Jharkhand",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "gujarat-quake-2001",
+    "name": "Bhuj earthquake",
+    "year": 2001,
+    "scale": "state",
+    "kind": "disaster",
+    "states": [
+      "Gujarat"
+    ],
+    "summary": "The 26 January 2001 earthquake destroyed towns in Kachchh and damaged ports and industry. Reconstruction, including a rebuilt Bhuj, is part of Gujarat’s later industrial story. Death counts belong to the disaster record, not this atlas.",
+    "sources": [
+      {
+        "title": "Britannica: Bhuj earthquake of 2001",
+        "url": "https://www.britannica.com/event/Bhuj-earthquake-of-2001",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "karnataka-it",
+    "name": "Bengaluru as an information-technology centre",
+    "year": 2000,
+    "scale": "state",
+    "kind": "reform",
+    "states": [
+      "Karnataka"
+    ],
+    "summary": "Software exports from Bengaluru, already visible in the 1990s, became a large share of Karnataka’s GSDP in the 2000s. The state’s constant-price per-capita NSDP rose from ₹90,263 in 2011–12 to ₹1,65,517 in 2021–22 on the 2011–12 series.",
+    "sources": [
+      {
+        "title": "RBI Table 10: per capita NSDP, constant prices",
+        "url": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "tamil-nadu-mfg",
+    "name": "Tamil Nadu manufacturing belt",
+    "year": 2001,
+    "scale": "state",
+    "kind": "reform",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "summary": "Automobile, textile and electronics clusters around Chennai, Coimbatore and Tiruppur made Tamil Nadu one of the larger manufacturing states after liberalisation. The state’s infant mortality, already below the all-India figure in 1991, continued to fall on the SRS series.",
+    "sources": [
+      {
+        "title": "RBI Handbook of Statistics on Indian States",
+        "url": "https://www.rbi.org.in/Scripts/AnnualPublications.aspx?head=Handbook+of+Statistics+on+Indian+States",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "maharashtra-industry",
+    "name": "Maharashtra as the largest state economy",
+    "year": 2001,
+    "scale": "state",
+    "kind": "fiscal",
+    "states": [
+      "Maharashtra"
+    ],
+    "summary": "Maharashtra’s GSDP at constant 2011–12 prices was about ₹12.80 lakh crore in 2011–12, the largest state total in the RBI table. Mumbai’s finance, Pune’s manufacturing and the Konkan–Vidarbha split are the internal geography of that rank; per-capita income is closer to the southern industrial states than the total suggests.",
+    "sources": [
+      {
+        "title": "RBI Table 22: GSDP, constant prices",
+        "url": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23471",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "punjab-agrarian",
+    "name": "Punjab’s agrarian plateau",
+    "year": 2002,
+    "scale": "state",
+    "kind": "fiscal",
+    "states": [
+      "Punjab"
+    ],
+    "summary": "Punjab’s early Green Revolution lead in per-capita income narrowed after 1991 as industry grew faster in Gujarat, Maharashtra and the south. Groundwater stress, a wheat–paddy cycle and later farm-law protests sit on that plateau rather than on a collapse of output.",
+    "sources": [
+      {
+        "title": "RBI Table 10: per capita NSDP, constant prices",
+        "url": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "bihar-lag",
+    "name": "Bihar’s per-capita lag after the 2000 split",
+    "year": 2001,
+    "scale": "state",
+    "kind": "fiscal",
+    "states": [
+      "Bihar"
+    ],
+    "summary": "After Jharkhand was carved out in 2000, residual Bihar’s current-price per-capita NSDP in 2001–02 was ₹6,200, the lowest among major states in the 1999–00 series. Constant-price per capita in 2011–12 was ₹21,750, still the bottom of the 2011–12 table; the IMR series improved faster than the income rank.",
+    "sources": [
+      {
+        "title": "RBI Table 8: per capita NSDP at factor cost, current prices",
+        "url": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+        "year": 2009
+      }
+    ]
+  },
+  {
+    "id": "assam-oil",
+    "name": "Assam oil and the upper Brahmaputra economy",
+    "year": 2003,
+    "scale": "state",
+    "kind": "fiscal",
+    "states": [
+      "Assam"
+    ],
+    "summary": "Crude production around Digboi, Duliajan and Numaligarh, and the associated refineries, remain a large share of Assam’s recorded GSDP. Insurgency, floods and a tea-plantation wage structure sit beside that hydrocarbon rent; per-capita income stayed below the all-India NNI on the 2011–12 series.",
+    "sources": [
+      {
+        "title": "Britannica: Assam",
+        "url": "https://www.britannica.com/place/Assam",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "tsunami-2004",
+    "name": "Indian Ocean tsunami",
+    "year": 2004,
+    "scale": "union",
+    "kind": "disaster",
+    "states": [
+      "Tamil Nadu",
+      "Andaman and Nicobar Islands",
+      "Kerala",
+      "Andhra Pradesh",
+      "Puducherry"
+    ],
+    "summary": "The 26 December 2004 tsunami struck the Andaman and Nicobar Islands, the Tamil Nadu and Kerala coasts, and Puducherry. Reconstruction of harbours and coastal settlements is part of those series after 2004; death counts are recorded in the disaster literature.",
+    "sources": [
+      {
+        "title": "UNESCO / Government of India: 2004 tsunami",
+        "url": "https://unesdoc.unesco.org/ark:/48223/pf0000148865",
+        "year": 2006
+      }
+    ]
+  },
+  {
+    "id": "nrhm-2005",
+    "name": "National Rural Health Mission",
+    "year": 2005,
+    "scale": "union",
+    "kind": "policy",
+    "states": [
+      "*"
+    ],
+    "summary": "NRHM was launched in April 2005 to put money into rural health workers, institutional delivery and immunisation, with extra weight on high-IMR states. SRS infant mortality for India fell from 58 in 2004 to 25 in 2023 on the RBI compilation of SRS bulletins.",
+    "sources": [
+      {
+        "title": "National Health Mission",
+        "url": "https://nhm.gov.in/",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "nrega-2005",
+    "name": "Mahatma Gandhi National Rural Employment Guarantee Act",
+    "year": 2005,
+    "scale": "union",
+    "kind": "fiscal",
+    "states": [
+      "*"
+    ],
+    "summary": "The 2005 Act, notified on 7 September 2005 with Phase I from 2 February 2006, created a rural employment guarantee. Its fiscal weight is largest in poorer states; it is a labour-market fact sitting beside GSDP, not a substitute for it.",
+    "sources": [
+      {
+        "title": "MGNREGA, Ministry of Rural Development",
+        "url": "https://nrega.nic.in/",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "kerala-health",
+    "name": "Kerala’s infant-mortality decline",
+    "year": 2005,
+    "scale": "state",
+    "kind": "demographic",
+    "states": [
+      "Kerala"
+    ],
+    "summary": "Kerala’s SRS infant mortality was 58 in 1971, 11 in 2001 and 5 in 2023. The decline predates NRHM and is usually attributed to female literacy, public provision and a denser rural health network rather than to GSDP rank.",
+    "sources": [
+      {
+        "title": "MOSPI Table 2.11: estimated IMR, state-wise",
+        "url": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf",
+        "year": 2011
+      }
+    ]
+  },
+  {
+    "id": "rte-2009",
+    "name": "Right of Children to Free and Compulsory Education Act",
+    "year": 2009,
+    "scale": "union",
+    "kind": "policy",
+    "states": [
+      "*"
+    ],
+    "summary": "The 2009 Act made elementary education a right. Enrolment rose; learning outcomes, especially in the Hindi belt, remained the harder series, and are not plotted on this map.",
+    "sources": [
+      {
+        "title": "Ministry of Education: RTE",
+        "url": "https://www.education.gov.in/rte",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "hp-hydro",
+    "name": "Himachal Pradesh hydropower",
+    "year": 2010,
+    "scale": "state",
+    "kind": "fiscal",
+    "states": [
+      "Himachal Pradesh"
+    ],
+    "summary": "Hydropower royalties and construction, together with horticulture and tourism, raised Himachal Pradesh’s constant-price per-capita NSDP to ₹87,721 in 2011–12, above several plains states. Infant mortality in 2001 was already 43, well below the Hindi-belt figures of that year.",
+    "sources": [
+      {
+        "title": "RBI Table 10: per capita NSDP, constant prices",
+        "url": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "odisha-mining",
+    "name": "Odisha mining and metals",
+    "year": 2010,
+    "scale": "state",
+    "kind": "fiscal",
+    "states": [
+      "Odisha"
+    ],
+    "summary": "Iron ore, bauxite and coal, and the associated steel and aluminium plants, became a large share of Odisha’s GSDP in the 2000s. Constant-price per-capita NSDP rose from ₹48,387 in 2011–12 to ₹99,396 in 2023–24; SRS infant mortality remained above the southern states.",
+    "sources": [
+      {
+        "title": "RBI Table 10: per capita NSDP, constant prices",
+        "url": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "up-imr",
+    "name": "Uttar Pradesh child survival",
+    "year": 2011,
+    "scale": "state",
+    "kind": "demographic",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "summary": "Uttar Pradesh’s SRS infant mortality was 167 in 1971, 57 in 2011 and 37 in 2023. Under-five mortality in 2021 was 43. The state’s constant-price per-capita NSDP in 2011–12 was ₹32,002, among the lowest; the two series moved together and remain far from Kerala.",
+    "sources": [
+      {
+        "title": "RBI Table 4: state-wise infant mortality rate",
+        "url": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "mp-imr",
+    "name": "Madhya Pradesh child survival",
+    "year": 2011,
+    "scale": "state",
+    "kind": "demographic",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "summary": "Madhya Pradesh’s SRS infant mortality was 135 in 1971 and 59 in 2011; under-five mortality in 2021 was 49, the highest among bigger states in that SRS report. NRHM classified it as a high-focus state. Per-capita NSDP in 2011–12 was ₹38,497 at 2011–12 prices.",
+    "sources": [
+      {
+        "title": "MoHFW: SRS Statistical Report 2021, child mortality",
+        "url": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "uttarakhand-floods-2013",
+    "name": "Uttarakhand floods, 2013",
+    "year": 2013,
+    "scale": "state",
+    "kind": "disaster",
+    "states": [
+      "Uttarakhand"
+    ],
+    "summary": "June 2013 rainfall and landslides destroyed roads, hydropower works and pilgrimage towns in the Mandakini and Alaknanda valleys. The disaster is a break in the hill state’s infrastructure series; death counts belong to the official and press record of that year.",
+    "sources": [
+      {
+        "title": "The Hindu: Uttarakhand floods 2013",
+        "url": "https://www.thehindu.com/news/national/other-states/uttarakhand-floods/article4817585.ece",
+        "year": 2013
+      }
+    ]
+  },
+  {
+    "id": "telangana-2014",
+    "name": "Andhra Pradesh Reorganisation Act, 2014",
+    "year": 2014,
+    "scale": "union",
+    "kind": "demographic",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "summary": "The Andhra Pradesh Reorganisation Act (Act 6 of 2014) created Telangana on the appointed day 2 June 2014. This map keeps a single Andhra Pradesh polygon; Telangana’s later per-capita NSDP and IMR are recorded on that card as a split series.",
+    "sources": [
+      {
+        "title": "Britannica: Telangana",
+        "url": "https://www.britannica.com/place/Telangana",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "sikkim-organic",
+    "name": "Sikkim organic mission",
+    "year": 2016,
+    "scale": "state",
+    "kind": "policy",
+    "states": [
+      "Sikkim"
+    ],
+    "summary": "Sikkim completed a state-wide conversion to certified organic farming in 2016. The state’s constant-price per-capita NSDP is among the highest in India, a small-population result that includes hydropower and tourism as well as agriculture.",
+    "sources": [
+      {
+        "title": "Government of Sikkim / FAO: Sikkim organic",
+        "url": "https://www.fao.org/india/news/detail-events/en/c/1153263/",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "id": "gst-2017",
+    "name": "Goods and Services Tax",
+    "year": 2017,
+    "scale": "union",
+    "kind": "fiscal",
+    "states": [
+      "*"
+    ],
+    "summary": "GST replaced a stack of Union and state indirect taxes from 1 July 2017, after the Constitution (One Hundred and First Amendment) Act, 2016. It changed how state own-tax revenue is collected; GSDP ranks after 2017 sit on that tax design.",
+    "sources": [
+      {
+        "title": "Goods and Services Tax",
+        "url": "https://www.gst.gov.in/",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "jk-2019",
+    "name": "Jammu and Kashmir Reorganisation Act, 2019",
+    "year": 2019,
+    "scale": "union",
+    "kind": "policy",
+    "states": [
+      "Jammu and Kashmir",
+      "Ladakh"
+    ],
+    "summary": "The 2019 Act (Act 34 of 2019), appointed day 31 October 2019, ended statehood for Jammu and Kashmir and created two Union Territories. Income series after 2019–20 in the RBI tables relate to the UT of Jammu and Kashmir only; Ladakh has no separate GSDP line in those tables.",
+    "sources": [
+      {
+        "title": "Britannica: Jammu and Kashmir",
+        "url": "https://www.britannica.com/place/Jammu-and-Kashmir",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "covid-2020",
+    "name": "Covid-19 pandemic, 2020–21",
+    "year": 2020,
+    "scale": "union",
+    "kind": "epidemic",
+    "states": [
+      "*"
+    ],
+    "summary": "The 2020 lockdown and the 2021 second wave interrupted schooling, immunisation and migrant work. Constant-price per-capita NSDP fell in 2020–21 in almost every state on the RBI 2011–12 series. This atlas does not invent a Covid death toll.",
+    "sources": [
+      {
+        "title": "WHO India: coronavirus disease (COVID-19)",
+        "url": "https://www.who.int/india/emergencies/coronavirus-disease-(covid-19)",
+        "year": 2021
+      }
+    ]
+  },
+  {
+    "id": "farm-laws-2020",
+    "name": "Farm laws and the Punjab–Haryana agitation",
+    "year": 2020,
+    "scale": "union",
+    "kind": "movement",
+    "states": [
+      "Punjab",
+      "Haryana",
+      "Delhi",
+      "Uttar Pradesh"
+    ],
+    "summary": "Three farm laws passed in 2020 were met by a prolonged sit-in on the borders of Delhi, led from Punjab and Haryana. The laws were repealed in 2021. The episode is part of the agrarian political economy that the Green Revolution created, not a measure of GSDP.",
+    "sources": [
+      {
+        "title": "The Hindu: repeal of the farm laws",
+        "url": "https://www.thehindu.com/news/national/prime-minister-narendra-modi-repeal-farm-laws-announcement/article37620435.ece",
+        "year": 2021
+      }
+    ]
+  },
+  {
+    "id": "dn-dd-merger-2020",
+    "name": "Merger of Dadra and Nagar Haveli and Daman and Diu",
+    "year": 2020,
+    "scale": "union",
+    "kind": "policy",
+    "states": [
+      "Dadra and Nagar Haveli",
+      "Daman and Diu"
+    ],
+    "summary": "The two Union Territories were merged on 26 January 2020. This outline still draws them as separate features. SRS infant-mortality figures from 2020 are published for the combined unit and are duplicated onto both polygons.",
+    "sources": [
+      {
+        "title": "Britannica: Dadra and Nagar Haveli and Daman and Diu",
+        "url": "https://www.britannica.com/place/Dadra-and-Nagar-Haveli-and-Daman-and-Diu",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "delhi-nct-health",
+    "name": "Delhi as a high-income, mid-IMR capital",
+    "year": 2021,
+    "scale": "state",
+    "kind": "demographic",
+    "states": [
+      "Delhi"
+    ],
+    "summary": "Delhi’s constant-price per-capita NSDP was ₹1,85,001 in 2011–12 and ₹2,39,821 in 2021–22, among the highest in the RBI table. SRS infant mortality in 2021 was 12 and under-five mortality 14 — closer to Tamil Nadu than to Kerala, and far better than the Hindi-belt states that send migrants into the capital.",
+    "sources": [
+      {
+        "title": "RBI Table 10 and Table 4",
+        "url": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "year": 2025
+      }
+    ]
+  }
+]

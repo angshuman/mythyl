@@ -1,0 +1,128 @@
+[
+  {
+    "start": 1947,
+    "name": "Jawaharlal Nehru",
+    "party": "INC",
+    "partyFamily": "congress",
+    "end": 1964
+  },
+  {
+    "start": 1964,
+    "name": "Gulzarilal Nanda",
+    "party": "INC",
+    "partyFamily": "congress",
+    "end": 1964
+  },
+  {
+    "start": 1964,
+    "name": "Lal Bahadur Shastri",
+    "party": "INC",
+    "partyFamily": "congress",
+    "end": 1966
+  },
+  {
+    "start": 1966,
+    "name": "Gulzarilal Nanda",
+    "party": "INC",
+    "partyFamily": "congress",
+    "end": 1966
+  },
+  {
+    "start": 1966,
+    "name": "Indira Gandhi",
+    "party": "INC",
+    "partyFamily": "congress",
+    "end": 1977
+  },
+  {
+    "start": 1977,
+    "name": "Morarji Desai",
+    "party": "Janata",
+    "partyFamily": "janata",
+    "end": 1979
+  },
+  {
+    "start": 1979,
+    "name": "Charan Singh",
+    "party": "Janata (S)",
+    "partyFamily": "janata",
+    "end": 1980
+  },
+  {
+    "start": 1980,
+    "name": "Indira Gandhi",
+    "party": "INC",
+    "partyFamily": "congress",
+    "end": 1984
+  },
+  {
+    "start": 1984,
+    "name": "Rajiv Gandhi",
+    "party": "INC",
+    "partyFamily": "congress",
+    "end": 1989
+  },
+  {
+    "start": 1989,
+    "name": "V. P. Singh",
+    "party": "Janata Dal",
+    "partyFamily": "janata",
+    "end": 1990
+  },
+  {
+    "start": 1990,
+    "name": "Chandra Shekhar",
+    "party": "SJP",
+    "partyFamily": "janata",
+    "end": 1991
+  },
+  {
+    "start": 1991,
+    "name": "P. V. Narasimha Rao",
+    "party": "INC",
+    "partyFamily": "congress",
+    "end": 1996
+  },
+  {
+    "start": 1996,
+    "name": "Atal Bihari Vajpayee",
+    "party": "BJP",
+    "partyFamily": "nda",
+    "end": 1996
+  },
+  {
+    "start": 1996,
+    "name": "H. D. Deve Gowda",
+    "party": "Janata Dal",
+    "partyFamily": "janata",
+    "end": 1997
+  },
+  {
+    "start": 1997,
+    "name": "I. K. Gujral",
+    "party": "Janata Dal",
+    "partyFamily": "janata",
+    "end": 1998
+  },
+  {
+    "start": 1998,
+    "name": "Atal Bihari Vajpayee",
+    "party": "BJP",
+    "partyFamily": "nda",
+    "end": 2004
+  },
+  {
+    "start": 2004,
+    "name": "Manmohan Singh",
+    "party": "INC",
+    "partyFamily": "upa",
+    "end": 2014
+  },
+  {
+    "start": 2014,
+    "name": "Narendra Modi",
+    "party": "BJP",
+    "partyFamily": "nda",
+    "end": null
+  }
+]

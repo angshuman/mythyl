@@ -1,0 +1,56 @@
+{
+  "span": "1971–2023",
+  "attribution": "GSDP/NSDP: MOSPI / NSO, compiled in RBI Handbook of Statistics on Indian States (Tables 10 and 22, 2011–12 constant prices; Table 8 historical current prices). Child mortality: SRS via RBI Table 4 and SRS Statistical Reports 2021 and 2023; MOSPI Table 2.11 for 1971–2001. Politics: ECI / PRS / official CM lists / Britannica.",
+  "comparability": "The 2011, 2021 and 2023 income points are per-capita NSDP at constant 2011–12 prices (market prices). GSDP totals on those points are the same base, converted from ₹ lakh to ₹ crore. The 1981, 1991 and 2001 income points are older current-price factor-cost series (1980–81 base for 1981 and 1991; 1999–00 base for 2001) and are not spliced to the 2011–12 constant series. IMR is SRS throughout; 1971–2001 from MOSPI Table 2.11, 2011–2023 from RBI Table 4. Under-five mortality is added only for 2021 and 2023, and only for bigger states in the SRS Statistical Reports. State reorganisation in 1956, 2000, 2014 and 2019 breaks longer series: parent-state figures before a split include the child territory; MOSPI’s 2011–12 tables backcast Andhra Pradesh and Telangana separately but do not unsplice 2000. Jammu and Kashmir GSDP from 2019–20 excludes Ladakh. Gujarat’s 2023–24 constant GSDP is unpublished in RBI Table 22. Where a figure is missing it is omitted.",
+  "years": [
+    1971,
+    1981,
+    1991,
+    2001,
+    2011,
+    2021,
+    2023
+  ],
+  "sources": [
+    {
+      "title": "RBI Handbook: Table 10, per capita NSDP, constant prices",
+      "url": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+      "year": 2025
+    },
+    {
+      "title": "RBI Handbook: Table 22, GSDP, constant prices",
+      "url": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23471",
+      "year": 2025
+    },
+    {
+      "title": "RBI Handbook: Table 8, per capita NSDP at factor cost, current prices",
+      "url": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593",
+      "year": 2009
+    },
+    {
+      "title": "RBI Handbook: Table 4, state-wise infant mortality rate",
+      "url": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
+      "year": 2025
+    },
+    {
+      "title": "MOSPI Table 2.11: estimated birth, death and infant mortality rates",
+      "url": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf",
+      "year": 2011
+    },
+    {
+      "title": "SRS Statistical Report 2021 (via MoHFW)",
+      "url": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+      "year": 2024
+    },
+    {
+      "title": "SRS Statistical Report 2023",
+      "url": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+      "year": 2025
+    },
+    {
+      "title": "Know India: Prime Ministers of India",
+      "url": "https://knowindia.india.gov.in/general-information/prime-ministers-of-india.php",
+      "year": 2024
+    }
+  ]
+}
