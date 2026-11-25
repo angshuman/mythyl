@@ -31,6 +31,41 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
       },
       {
+        "year": 2004,
+        "imr": 19,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 27,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 31,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 34,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 31,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 27,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 25,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 89100,
         "price": "2011-12",
@@ -40,12 +75,92 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 92644,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 24,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 98735,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 24,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 106711,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 22,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 114660,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 20,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 129532,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 16,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 145562,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 14,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 154233,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 9,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 161564,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 7,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 146995,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 7,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 160513,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 7081,
         "imr": 7,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 165775,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 8,
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
@@ -101,6 +216,41 @@
         "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
       },
       {
+        "year": 2004,
+        "imr": 59,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 57,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 56,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 54,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 52,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 49,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 46,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 69000,
         "price": "2011-12",
@@ -110,14 +260,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 68865,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 41,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 72254,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 39,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 79174,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 39,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 88609,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 37,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 94115,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 34,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 103177,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 108853,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 29,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 110587,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 25,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 110971,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 24,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 118349,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 706791,
         "imr": 22,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 24
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 123853,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 20,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -126,8 +356,14 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 799400,
         "imr": 19,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 21
+      },
+      {
+        "year": 2024,
+        "perCapitaRs": 141609,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
       }
     ],
     "politics": [
@@ -196,14 +432,90 @@
             "gsdpCr": 359434
           },
           {
+            "year": 2012,
+            "perCapitaRs": 92732,
+            "price": "2011-12",
+            "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
+          },
+          {
+            "year": 2013,
+            "perCapitaRs": 96039,
+            "price": "2011-12",
+            "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
+          },
+          {
+            "year": 2014,
+            "perCapitaRs": 101424,
+            "price": "2011-12",
+            "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+            "imr": 35,
+            "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+          },
+          {
+            "year": 2015,
+            "perCapitaRs": 112267,
+            "price": "2011-12",
+            "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+            "imr": 34,
+            "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+          },
+          {
+            "year": 2016,
+            "perCapitaRs": 121512,
+            "price": "2011-12",
+            "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+            "imr": 31,
+            "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+          },
+          {
+            "year": 2017,
+            "perCapitaRs": 131503,
+            "price": "2011-12",
+            "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+            "imr": 29,
+            "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+          },
+          {
+            "year": 2018,
+            "perCapitaRs": 146777,
+            "price": "2011-12",
+            "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+            "imr": 27,
+            "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+          },
+          {
+            "year": 2019,
+            "perCapitaRs": 153286,
+            "price": "2011-12",
+            "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+            "imr": 23,
+            "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+          },
+          {
+            "year": 2020,
+            "perCapitaRs": 140743,
+            "price": "2011-12",
+            "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+            "imr": 21,
+            "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+          },
+          {
             "year": 2021,
             "perCapitaRs": 156455,
             "price": "2011-12",
             "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
             "gsdpCr": 669769,
             "imr": 20,
-            "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+            "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
             "u5mr": 22
+          },
+          {
+            "year": 2022,
+            "perCapitaRs": 167823,
+            "price": "2011-12",
+            "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+            "imr": 18,
+            "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
           },
           {
             "year": 2023,
@@ -212,8 +524,14 @@
             "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
             "gsdpCr": 772684,
             "imr": 18,
-            "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+            "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
             "u5mr": 22
+          },
+          {
+            "year": 2024,
+            "perCapitaRs": 187912,
+            "price": "2011-12",
+            "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
           }
         ]
       }
@@ -249,6 +567,41 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
       },
       {
+        "year": 2004,
+        "imr": 38,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 37,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 40,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 37,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 31,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 73540,
         "price": "2011-12",
@@ -258,12 +611,92 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 73960,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 33,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 79004,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 91034,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 30,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 88768,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 30,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 91311,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 36,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 94001,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 42,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 99570,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 37,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 113081,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 29,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 105892,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 21,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 104980,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 18649,
         "imr": 21,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 102764,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 19,
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
@@ -348,6 +781,41 @@
         "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
       },
       {
+        "year": 2004,
+        "imr": 66,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 68,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 67,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 66,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 64,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 61,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 58,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 41142,
         "price": "2011-12",
@@ -357,14 +825,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 41609,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 55,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 43002,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 54,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 44809,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 49,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 50642,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 47,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 53575,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 44,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 57835,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 44,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 59943,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 41,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 61519,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 40,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 62944,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 36,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 63657,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 258140,
         "imr": 34,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 37
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 68757,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -373,8 +921,14 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 324556,
         "imr": 30,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 33
+      },
+      {
+        "year": 2024,
+        "perCapitaRs": 81127,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
       }
     ],
     "politics": [
@@ -465,6 +1019,41 @@
         "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
       },
       {
+        "year": 2004,
+        "imr": 61,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 61,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 60,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 58,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 56,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 52,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 48,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 21750,
         "price": "2011-12",
@@ -474,14 +1063,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 22201,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 43,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 22776,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 42,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 23223,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 42,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 24064,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 42,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 25455,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 38,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 26719,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 35,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 29092,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 29798,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 29,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 26839,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 27,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 27674,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 387256,
         "imr": 27,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 31
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 29862,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 26,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -490,7 +1159,7 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 489126,
         "imr": 23,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 27
       }
     ],
@@ -576,6 +1245,41 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
       },
       {
+        "year": 2004,
+        "imr": 21,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 19,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 23,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 27,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 28,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 25,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 22,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 158967,
         "price": "2011-12",
@@ -585,12 +1289,92 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 169336,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 20,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 180615,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 21,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 182867,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 23,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 195205,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 21,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 208231,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 14,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 218201,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 14,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 227231,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 13,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 239373,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 13,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 209158,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 8,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 222250,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 30582,
         "imr": 7,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 240305,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 8,
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
@@ -623,6 +1407,41 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
       },
       {
+        "year": 2004,
+        "imr": 60,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 63,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 61,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 59,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 57,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 54,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 51,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 55177,
         "price": "2011-12",
@@ -632,14 +1451,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 56777,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 47,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 61409,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 46,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 61122,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 43,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 61433,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 41,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 67139,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 39,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 68374,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 38,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 75438,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 41,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 76827,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 40,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 74489,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 38,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 78350,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 267033,
         "imr": 38,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 41
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 82699,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 38,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -648,8 +1547,14 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 306712,
         "imr": 37,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 41
+      },
+      {
+        "year": 2024,
+        "perCapitaRs": 93161,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
       }
     ],
     "politics": [
@@ -696,13 +1601,98 @@
     },
     "series": [
       {
+        "year": 2004,
+        "imr": 48,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 42,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 35,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 34,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 34,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 37,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 38,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "imr": 35,
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "imr": 33,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "imr": 31,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "imr": 26,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "imr": 21,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "imr": 17,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "imr": 13,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "imr": 13,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "imr": 11,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "imr": 16,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "imr": 9,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2022,
+        "imr": 7,
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
@@ -726,8 +1716,83 @@
     },
     "series": [
       {
+        "year": 2004,
+        "imr": 37,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 28,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 28,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 27,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 31,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 24,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 23,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "imr": 22,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2012,
+        "imr": 22,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "imr": 20,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "imr": 18,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "imr": 18,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "imr": 19,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "imr": 17,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "imr": 16,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "imr": 17,
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
@@ -776,6 +1841,41 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
       },
       {
+        "year": 2004,
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 35,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 37,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 36,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 35,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 33,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 30,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 185001,
         "price": "2011-12",
@@ -785,14 +1885,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 192220,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 25,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 200702,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 24,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 213669,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 20,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 233115,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 18,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 244255,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 18,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 252960,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 16,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 257597,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 13,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 260559,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 11,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 228162,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 12,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 239821,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 572051,
         "imr": 12,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 14
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 252768,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 12,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -801,7 +1981,7 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 669863,
         "imr": 14,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 16
       }
     ],
@@ -875,6 +2055,41 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
       },
       {
+        "year": 2004,
+        "imr": 17,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 16,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 15,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 13,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 10,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 11,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 10,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 259444,
         "price": "2011-12",
@@ -884,11 +2099,91 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 220019,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 10,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 188358,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 9,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 241081,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 10,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 278601,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 9,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 305875,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 8,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 308296,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 9,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 308753,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 7,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 313973,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 8,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 295023,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 5,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 294563,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 53168,
+        "imr": 5,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 333709,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "imr": 5,
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
@@ -981,6 +2276,41 @@
         "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
       },
       {
+        "year": 2004,
+        "imr": 53,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 54,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 53,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 52,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 50,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 48,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 44,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 87481,
         "price": "2011-12",
@@ -990,14 +2320,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 96683,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 38,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 102589,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 36,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 111370,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 35,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 120683,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 33,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 129738,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 30,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 143604,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 30,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 154887,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 28,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 164060,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 25,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 156285,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 23,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 170519,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 1365587,
         "imr": 21,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 24
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 181963,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 20,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -1005,7 +2415,7 @@
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "imr": 20,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 23
       }
     ],
@@ -1117,6 +2527,41 @@
         "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
       },
       {
+        "year": 2004,
+        "imr": 61,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 60,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 57,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 55,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 54,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 51,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 48,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 106085,
         "price": "2011-12",
@@ -1126,14 +2571,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 111780,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 42,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 119791,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 41,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 125032,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 36,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 137833,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 36,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 150259,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 33,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 156200,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 30,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 169604,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 30,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 170765,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 27,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 151979,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 28,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 166873,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 559922,
         "imr": 27,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 33
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 171661,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 26,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -1142,8 +2667,14 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 629491,
         "imr": 26,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 30
+      },
+      {
+        "year": 2024,
+        "perCapitaRs": 194285,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
       }
     ],
     "politics": [
@@ -1232,6 +2763,41 @@
         "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
       },
       {
+        "year": 2004,
+        "imr": 51,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 49,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 50,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 47,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 44,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 45,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 40,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 87721,
         "price": "2011-12",
@@ -1241,14 +2807,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 92672,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 36,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 98816,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 35,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 105241,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 112723,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 28,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 122208,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 25,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 129303,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 22,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 136292,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 19,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 140999,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 19,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 132015,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 17,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 137402,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 121191,
         "imr": 17,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 23
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 144807,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 17,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -1257,8 +2903,14 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 137343,
         "imr": 14,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 17
+      },
+      {
+        "year": 2024,
+        "perCapitaRs": 163465,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
       }
     ],
     "politics": [
@@ -1343,6 +2995,41 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
       },
       {
+        "year": 2004,
+        "imr": 49,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 50,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 52,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 51,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 49,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 45,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 43,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 51775,
         "price": "2011-12",
@@ -1352,14 +3039,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 52821,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 39,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 54783,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 37,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 51649,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 34,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 61388,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 26,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 62398,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 24,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 65621,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 23,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 69183,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 22,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 68437,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 20,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 65539,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 17,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 66029,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 115402,
         "imr": 16,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 16
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 71804,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 14,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -1368,8 +3135,14 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 133421,
         "imr": 14,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 15
+      },
+      {
+        "year": 2024,
+        "perCapitaRs": 81774,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
       }
     ],
     "politics": [
@@ -1443,6 +3216,41 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
       },
       {
+        "year": 2004,
+        "imr": 49,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 50,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 49,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 48,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 46,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 44,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 42,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 41254,
         "price": "2011-12",
@@ -1452,14 +3260,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 44176,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 38,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 43779,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 37,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 48781,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 34,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 44524,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 48826,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 29,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 52277,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 29,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 56133,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 30,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 55658,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 27,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 51464,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 25,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 57172,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 245856,
         "imr": 25,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 28
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 60938,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 25,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -1468,7 +3356,7 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 283284,
         "imr": 29,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 32
       }
     ],
@@ -1559,6 +3447,41 @@
         "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
       },
       {
+        "year": 2004,
+        "imr": 49,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 50,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 48,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 47,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 45,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 41,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 38,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 90263,
         "price": "2011-12",
@@ -1568,14 +3491,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 94375,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 101858,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 31,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 105697,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 29,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 116813,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 28,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 131186,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 24,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 140747,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 25,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 149024,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 23,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 156478,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 21,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 149578,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 19,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 165517,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 1248654,
         "imr": 17,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 21
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 182371,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 15,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -1584,8 +3587,14 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 1462578,
         "imr": 14,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 17
+      },
+      {
+        "year": 2024,
+        "perCapitaRs": 204605,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
       }
     ],
     "politics": [
@@ -1695,6 +3704,41 @@
         "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
       },
       {
+        "year": 2004,
+        "imr": 12,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 14,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 15,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 13,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 12,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 12,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 13,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 97912,
         "price": "2011-12",
@@ -1704,14 +3748,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 103551,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 12,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 107846,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 12,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 112444,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 12,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 120387,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 12,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 129251,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 10,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 137181,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 10,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 147347,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 7,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 147951,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 6,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 132531,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 6,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 147376,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 571983,
         "imr": 6,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 8
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 152722,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 7,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -1720,7 +3844,7 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 645310,
         "imr": 5,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 8
       }
     ],
@@ -1842,13 +3966,98 @@
         "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
       },
       {
+        "year": 2004,
+        "imr": 30,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 22,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 25,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 24,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 31,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 25,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 25,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "imr": 24,
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "imr": 24,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "imr": 24,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "imr": 20,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "imr": 20,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "imr": 19,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "imr": 20,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "imr": 14,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "imr": 8,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "imr": 9,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "imr": 16,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2022,
+        "imr": 14,
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
@@ -1900,6 +4109,41 @@
         "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
       },
       {
+        "year": 2004,
+        "imr": 79,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 76,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 74,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 72,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 70,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 67,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 62,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 38497,
         "price": "2011-12",
@@ -1909,14 +4153,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 41142,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 56,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 42548,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 54,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 44027,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 52,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 47351,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 50,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 52782,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 47,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 54824,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 47,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 59005,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 48,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 60452,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 46,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 56037,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 43,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 61011,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 593665,
         "imr": 41,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 49
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 63681,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 40,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -1925,8 +4249,14 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 671636,
         "imr": 37,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 44
+      },
+      {
+        "year": 2024,
+        "perCapitaRs": 70434,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
       }
     ],
     "politics": [
@@ -2029,6 +4359,41 @@
         "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
       },
       {
+        "year": 2004,
+        "imr": 36,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 36,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 35,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 34,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 33,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 31,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 28,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 99597,
         "price": "2011-12",
@@ -2038,14 +4403,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 104008,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 25,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 109597,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 24,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 115058,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 22,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 122889,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 21,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 133686,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 19,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 137808,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 19,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 140782,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 19,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 145626,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 17,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 127550,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 16,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 141651,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 2058845,
         "imr": 15,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 16
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 154979,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 13,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -2054,8 +4499,14 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 2435259,
         "imr": 14,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 16
+      },
+      {
+        "year": 2024,
+        "perCapitaRs": 176678,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
       }
     ],
     "politics": [
@@ -2156,6 +4607,41 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
       },
       {
+        "year": 2004,
+        "imr": 14,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 13,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 11,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 12,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 14,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 16,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 14,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 39762,
         "price": "2011-12",
@@ -2165,12 +4651,92 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 38954,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 10,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 41441,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 10,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 44101,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 11,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 46389,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 9,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 47151,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 11,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 51211,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 12,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 48106,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 11,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 49267,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 10,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 44449,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 6,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 54587,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 19981,
         "imr": 4,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 59992,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 3,
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
@@ -2246,12 +4812,119 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
       },
       {
+        "year": 2004,
+        "imr": 54,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 49,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 53,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 56,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 58,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 59,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 55,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 59794,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 19918,
         "imr": 52,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2012,
+        "perCapitaRs": 60114,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 49,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 59729,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 47,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 57478,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 46,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 58284,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 42,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 60752,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 39,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 62231,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 39,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 64716,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 33,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 67229,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 33,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 60522,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 29,
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
@@ -2264,6 +4937,14 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2022,
+        "perCapitaRs": 69997,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 30,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2023,
         "perCapitaRs": 74489,
         "price": "2011-12",
@@ -2271,6 +4952,12 @@
         "gsdpCr": 30154,
         "imr": 34,
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2024,
+        "perCapitaRs": 77412,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
       }
     ],
     "politics": [
@@ -2334,6 +5021,41 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
       },
       {
+        "year": 2004,
+        "imr": 19,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 20,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 25,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 23,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 37,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 36,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 37,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 57654,
         "price": "2011-12",
@@ -2343,12 +5065,92 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 60261,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 35,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 67594,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 35,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 85056,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 91845,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 99089,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 27,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 117272,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 15,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 119022,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 5,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 130741,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 3,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 116229,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 3,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 123907,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 17662,
         "imr": 4,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 140074,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 11,
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
@@ -2431,6 +5233,41 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
       },
       {
+        "year": 2004,
+        "imr": 17,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 18,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 20,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 21,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 26,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 26,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 23,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 53010,
         "price": "2011-12",
@@ -2440,12 +5277,92 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 55482,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 18,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 58619,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 18,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 60372,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 14,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 60663,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 12,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 64259,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 12,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 66813,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 7,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 70218,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 4,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 73361,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 3,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 68272,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 4,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 69531,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 18292,
         "imr": 7,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 71788,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 9,
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
@@ -2530,6 +5447,41 @@
         "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
       },
       {
+        "year": 2004,
+        "imr": 77,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 75,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 73,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 71,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 69,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 65,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 61,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 48387,
         "price": "2011-12",
@@ -2539,14 +5491,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 50769,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 53,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 54209,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 51,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 54361,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 49,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 57806,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 46,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 66416,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 44,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 71032,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 41,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 75421,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 40,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 76439,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 38,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 73325,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 36,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 85516,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 452836,
         "imr": 35,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 38
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 90062,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -2555,8 +5587,14 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 483509,
         "imr": 30,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 35
+      },
+      {
+        "year": 2024,
+        "perCapitaRs": 106918,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
       }
     ],
     "politics": [
@@ -2637,12 +5675,119 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
       },
       {
+        "year": 2004,
+        "imr": 24,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 28,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 28,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 25,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 25,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 22,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 22,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 119649,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 16818,
         "imr": 19,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2012,
+        "perCapitaRs": 119196,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 17,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 129127,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 17,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 117102,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 14,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 121000,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 11,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 126531,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 10,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 134934,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 11,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 155466,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 11,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 153411,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 9,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 136327,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 6,
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
@@ -2655,6 +5800,14 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2022,
+        "perCapitaRs": 139123,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 6,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2023,
         "perCapitaRs": 145921,
         "price": "2011-12",
@@ -2662,6 +5815,12 @@
         "gsdpCr": 27164,
         "imr": 7,
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2024,
+        "perCapitaRs": 155533,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
       }
     ],
     "politics": [
@@ -2736,6 +5895,41 @@
         "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
       },
       {
+        "year": 2004,
+        "imr": 45,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 44,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 44,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 43,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 41,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 38,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 34,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 85577,
         "price": "2011-12",
@@ -2745,14 +5939,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 88915,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 28,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 93238,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 26,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 95807,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 24,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 100141,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 23,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 105848,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 21,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 110857,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 21,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 115592,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 20,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 118487,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 19,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 113025,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 18,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 118307,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 437373,
         "imr": 18,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 22
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 124093,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 16,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -2761,8 +6035,14 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 497764,
         "imr": 17,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 22
+      },
+      {
+        "year": 2024,
+        "perCapitaRs": 135356,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
       }
     ],
     "politics": [
@@ -2872,6 +6152,41 @@
         "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
       },
       {
+        "year": 2004,
+        "imr": 67,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 68,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 67,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 65,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 63,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 59,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 55,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 57192,
         "price": "2011-12",
@@ -2881,14 +6196,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 58441,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 49,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 61053,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 47,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 64496,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 46,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 68565,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 43,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 71324,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 41,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 73529,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 38,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 73975,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 37,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 76840,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 35,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 73447,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 79490,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 725464,
         "imr": 31,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 39
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 84585,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 30,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -2897,8 +6292,14 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 840599,
         "imr": 29,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 34
+      },
+      {
+        "year": 2024,
+        "perCapitaRs": 96638,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
       }
     ],
     "politics": [
@@ -2999,6 +6400,41 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
       },
       {
+        "year": 2004,
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 30,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 33,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 34,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 33,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 34,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 30,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 158667,
         "price": "2011-12",
@@ -3008,12 +6444,92 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 160553,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 24,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 168897,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 22,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 180675,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 19,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 195066,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 18,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 207355,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 16,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 232483,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 12,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 240743,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 7,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 248691,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 5,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 237212,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 5,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 255016,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 21240,
         "imr": 4,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 273145,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 5,
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
@@ -3098,6 +6614,41 @@
         "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
       },
       {
+        "year": 2004,
+        "imr": 41,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 37,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 37,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 35,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 31,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 28,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 24,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 93112,
         "price": "2011-12",
@@ -3107,14 +6658,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 97257,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 21,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 102191,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 21,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 107117,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 20,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 115875,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 19,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 123206,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 17,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 133029,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 16,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 141844,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 15,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 144845,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 15,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 143482,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 13,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 154269,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 1342817,
         "imr": 12,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 14
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 166590,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 11,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -3123,8 +6754,14 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 1557821,
         "imr": 12,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 13
+      },
+      {
+        "year": 2024,
+        "perCapitaRs": 196309,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
       }
     ],
     "politics": [
@@ -3239,6 +6876,41 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
       },
       {
+        "year": 2004,
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 31,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 36,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 39,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 34,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 31,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 27,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 47155,
         "price": "2011-12",
@@ -3248,12 +6920,92 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 50501,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 28,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 54645,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 26,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 63992,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 21,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 61612,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 20,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 69860,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 24,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 75020,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 29,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 82313,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 27,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 83985,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 21,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 79123,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 18,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 85378,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 39516,
         "imr": 19,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 90443,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 17,
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
@@ -3345,6 +7097,41 @@
         "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
       },
       {
+        "year": 2004,
+        "imr": 72,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 73,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 71,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 69,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 67,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 63,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 61,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 32002,
         "price": "2011-12",
@@ -3354,14 +7141,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 32908,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 53,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 34044,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 50,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 34583,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 48,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 36973,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 46,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 40847,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 43,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 41771,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 41,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 42333,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 43,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 43061,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 41,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 39866,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 38,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 44161,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 1240799,
         "imr": 37,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 43
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 46822,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 38,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -3370,7 +7237,7 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 1452033,
         "imr": 37,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 42
       }
     ],
@@ -3465,6 +7332,41 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=11593"
       },
       {
+        "year": 2004,
+        "imr": 42,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 42,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 43,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 48,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 44,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 41,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 38,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 100314,
         "price": "2011-12",
@@ -3474,14 +7376,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 106359,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 34,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 112900,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 118979,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 33,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 127249,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 34,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 138784,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 38,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 148011,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 150179,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 31,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 150820,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 27,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 127788,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 24,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 131794,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 174635,
         "imr": 23,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 27
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 141511,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 21,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -3490,8 +7472,14 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 204315,
         "imr": 20,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 23
+      },
+      {
+        "year": 2024,
+        "perCapitaRs": 158819,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
       }
     ],
     "politics": [
@@ -3576,6 +7564,41 @@
         "mortalitySource": "https://mospi.gov.in/sites/default/files/reports_and_publication/cso_research_and_publication_unit/COSIOIESIOTSDVOL-2/health-2-11.pdf"
       },
       {
+        "year": 2004,
+        "imr": 40,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2005,
+        "imr": 38,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2006,
+        "imr": 38,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2007,
+        "imr": 37,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2008,
+        "imr": 35,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2009,
+        "imr": 33,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2010,
+        "imr": 31,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2011,
         "perCapitaRs": 51543,
         "price": "2011-12",
@@ -3585,14 +7608,94 @@
         "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
+        "year": 2012,
+        "perCapitaRs": 53157,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 32,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2013,
+        "perCapitaRs": 53815,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 31,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2014,
+        "perCapitaRs": 54520,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 28,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2015,
+        "perCapitaRs": 57255,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 26,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2016,
+        "perCapitaRs": 60618,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 25,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2017,
+        "perCapitaRs": 64007,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 24,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2018,
+        "perCapitaRs": 68195,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 22,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2019,
+        "perCapitaRs": 69548,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 20,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
+        "year": 2020,
+        "perCapitaRs": 62852,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 19,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
+      },
+      {
         "year": 2021,
         "perCapitaRs": 70100,
         "price": "2011-12",
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 786004,
         "imr": 18,
-        "mortalitySource": "https://www.mohfw.gov.in/?q=en/press-info/8744",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 20
+      },
+      {
+        "year": 2022,
+        "perCapitaRs": 73793,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
+        "imr": 17,
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453"
       },
       {
         "year": 2023,
@@ -3601,8 +7704,14 @@
         "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184",
         "gsdpCr": 881892,
         "imr": 17,
-        "mortalitySource": "https://censusindia.gov.in/nada/index.php/catalog/46172/download/50420/SRS_STAT_2023.pdf",
+        "mortalitySource": "https://rbi.org.in/Scripts/PublicationsView.aspx?id=23453",
         "u5mr": 18
+      },
+      {
+        "year": 2024,
+        "perCapitaRs": 82781,
+        "price": "2011-12",
+        "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
       }
     ],
     "politics": [

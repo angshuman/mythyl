@@ -32,6 +32,12 @@ export type KindDef = {
   color: string;
 };
 
+export type WorkCommission = {
+  year: number;
+  name: string;
+  sources: SourceRef[];
+};
+
 export type WorkProject = {
   id: string;
   name: string;
@@ -49,6 +55,7 @@ export type WorkProject = {
   states: string[];
   path?: { longitude: number; latitude: number }[] | null;
   summary: string;
+  commissions?: WorkCommission[];
   displacement?: { note: string; sources: string[] };
   sources: SourceRef[];
 };

@@ -131,6 +131,35 @@
         "url": "https://www.gem.wiki/Koyna-I%26II_hydroelectric_plant",
         "year": 2026
       }
+    ],
+    "commissions": [
+      {
+        "year": 1967,
+        "name": "Stage II",
+        "sources": [
+          {
+            "title": "CAG Maharashtra Finance Accounts 2023–24 Vol. II — Koyna Stage I 1962–63, Stage II 1966–67",
+            "url": "https://cag.gov.in/uploads/state_accounts_report/account-report-Finance-Accounts-2023-24-VOL-II-0676693fd9db782-28932133.pdf",
+            "year": 2024
+          }
+        ]
+      },
+      {
+        "year": 1999,
+        "name": "Stage IV",
+        "sources": [
+          {
+            "title": "Indian Express — Koyna Stage IV lake-tap and first unit, April 1999",
+            "url": "https://indianexpress.com/article/news-archive/trial-by-water-koyna-stage-iv-with-stands-test/",
+            "year": 1999
+          },
+          {
+            "title": "CAG Maharashtra Finance Accounts 2023–24 Vol. II — Stage IV units 1999–2000",
+            "url": "https://cag.gov.in/uploads/state_accounts_report/account-report-Finance-Accounts-2023-24-VOL-II-0676693fd9db782-28932133.pdf",
+            "year": 2024
+          }
+        ]
+      }
     ]
   },
   {
@@ -900,6 +929,19 @@
         "url": "https://www.jnport.gov.in/",
         "year": 2026
       }
+    ],
+    "commissions": [
+      {
+        "year": 2018,
+        "name": "Bharat Mumbai Container Terminal Phase 1",
+        "sources": [
+          {
+            "title": "The Hindu — PSA BMCT inaugurated at JNPT, 18 February 2018",
+            "url": "https://www.thehindu.com/business/new-jnpt-terminal-to-spur-traffic/article22791219.ece",
+            "year": 2018
+          }
+        ]
+      }
     ]
   },
   {
@@ -1376,6 +1418,30 @@
         "url": "https://www.business-standard.com/article/pti-stories/pm-inaugurates-1st-phase-of-delhi-meerut-expressway-118052700113_1.html",
         "year": 2018
       }
+    ],
+    "commissions": [
+      {
+        "year": 2019,
+        "name": "Dasna–Hapur",
+        "sources": [
+          {
+            "title": "Hindustan Times — Gadkari inaugurates Delhi–Meerut phase 3, 30 September 2019",
+            "url": "https://www.hindustantimes.com/cities/gadkari-inaugurates-phase-3-of-delhi-meerut-expressway/story-dmbWoO38yCZ0YqVdCys80H.html",
+            "year": 2019
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "name": "UP Gate–Dasna and Hapur–Meerut",
+        "sources": [
+          {
+            "title": "Hindustan Times — Gadkari opens remaining Delhi–Meerut packages, 23 December 2021",
+            "url": "https://www.hindustantimes.com/cities/lucknow-news/gadkari-dedicates-meerut-delhi-expressway-to-public-101640276233610.html",
+            "year": 2021
+          }
+        ]
+      }
     ]
   },
   {
@@ -1485,6 +1551,155 @@
       }
     ],
     "summary": "India’s first metro railway. The Metropolitan Transport Project was formed in 1969; construction on the north–south corridor began in 1972–73. The first stretch, Esplanade–Bhowanipore (Netaji Bhavan), opened on 24 October 1984. It remained the only metro in the country until Delhi in 2002, and it is a zone of Indian Railways rather than a later special-purpose corporation.",
+    "commissions": [
+      {
+        "year": 2013,
+        "name": "Dum Dum–Noapara",
+        "sources": [
+          {
+            "title": "Business Standard / PTI — Noapara station opens 10 July 2013",
+            "url": "https://www.business-standard.com/article/pti-stories/kolkata-metro-s-new-station-from-tomorrow-113070900836_1.html",
+            "year": 2013
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "name": "East–West Sector V–Salt Lake Stadium",
+        "sources": [
+          {
+            "title": "Indian Express — Piyush Goyal inaugurates East–West first phase, 13 February 2020",
+            "url": "https://indianexpress.com/article/india/piyush-goyal-inaugurates-metro-line-in-kolkata-no-invite-to-mamata-banerjee-6267033/",
+            "year": 2020
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "name": "East–West to Phoolbagan",
+        "sources": [
+          {
+            "title": "The Hindu — East–West services extended to Phoolbagan, 4 October 2020",
+            "url": "https://www.thehindu.com/news/cities/kolkata/east-west-metro-services-in-kolkata-extended-to-phoolbagan/article32768301.ece",
+            "year": 2020
+          },
+          {
+            "title": "PIB — Piyush Goyal inaugurates Phoolbagan Metro station",
+            "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1661606",
+            "year": 2020
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "name": "Noapara–Dakshineswar",
+        "sources": [
+          {
+            "title": "Telegraph India — Modi flags off Dakshineswar Metro, public from 23 February 2021",
+            "url": "https://www.telegraphindia.com/west-bengal/calcutta/narendra-modi-virtually-flags-off-dakshineswar-metro/cid/1807523",
+            "year": 2021
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "name": "East–West to Sealdah",
+        "sources": [
+          {
+            "title": "PIB — East–West Metro services from Sealdah begin 14 July 2022",
+            "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1841068",
+            "year": 2022
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "name": "Purple Line Joka–Taratala",
+        "sources": [
+          {
+            "title": "Indian Express — Joka–Taratala commercial service, 2 January 2023",
+            "url": "https://indianexpress.com/article/cities/kolkata/joka-taratala-metro-stretch-day-1-5003-passengers-take-metro-ride-8357604/",
+            "year": 2023
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "name": "East–West Howrah Maidan–Esplanade",
+        "sources": [
+          {
+            "title": "The Hindu — PM inaugurates underwater Esplanade–Howrah Maidan section, 6 March 2024",
+            "url": "https://www.thehindu.com/news/national/pm-modi-unveils-multiple-metro-projects-including-kolkata-underwater-corridor/article67919706.ece",
+            "year": 2024
+          },
+          {
+            "title": "PIB — Howrah and Kolkata connected under the Hooghly",
+            "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2011887",
+            "year": 2024
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "name": "Purple Line Taratala–Majerhat",
+        "sources": [
+          {
+            "title": "PIB — Taratala–Majerhat stretch of the Purple Line inaugurated 6 March 2024",
+            "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2011887",
+            "year": 2024
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "name": "Orange Line Kavi Subhash–Hemanta Mukhopadhyay",
+        "sources": [
+          {
+            "title": "PIB — Kavi Subhash–Hemanta Mukhopadhyay stretch inaugurated 6 March 2024",
+            "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2011887",
+            "year": 2024
+          },
+          {
+            "title": "PIB — commercial services on the three new routes from 15 March 2024",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2013056",
+            "year": 2024
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "name": "East–West Sealdah–Esplanade",
+        "sources": [
+          {
+            "title": "ABP Live — Sealdah–Esplanade Green Line public from 22 August 2025",
+            "url": "https://news.abplive.com/cities/kolkata-to-get-3-new-metro-lines-today-all-you-need-to-know-about-the-routes-timings-1795956",
+            "year": 2025
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "name": "Yellow Line Noapara–Jai Hind",
+        "sources": [
+          {
+            "title": "ABP Live — Noapara–Jai Hind airport Metro inaugurated 22 August 2025",
+            "url": "https://news.abplive.com/cities/kolkata-to-get-3-new-metro-lines-today-all-you-need-to-know-about-the-routes-timings-1795956",
+            "year": 2025
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "name": "Orange Line Hemanta Mukhopadhyay–Beleghata",
+        "sources": [
+          {
+            "title": "Times of India — Orange Line Phase II Beleghata–Hemanta Mukhopadhyay, 22 August 2025",
+            "url": "https://timesofindia.indiatimes.com/city/kolkata/its-official-e-w-metros-sealdah-esp-stretch-finally-set-to-open-next-fri/articleshow/123310765.cms",
+            "year": 2025
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "title": "Telegraph India — Calcutta Metro first run 24 October 1984",
@@ -1540,6 +1755,118 @@
       }
     ],
     "summary": "The first modern metro of the Republic and the template for later city systems. Delhi Metro Rail Corporation was incorporated in 1995; construction began on 1 October 1998. The first section of the Red Line, Shahdara–Tis Hazari, opened on 24 December 2002. Elevated and underground lines were then extended across the National Capital Region in successive phases. Other cities copied the corporation, the gauge, and the claim to remake the commute.",
+    "commissions": [
+      {
+        "year": 2004,
+        "name": "Yellow Line Vishwa Vidyalaya–Kashmere Gate",
+        "sources": [
+          {
+            "title": "DMRC — present network, Yellow Line first commercial stages",
+            "url": "https://delhimetrorail.com/pages/en/present-network",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2005,
+        "name": "Blue Line Dwarka–Barakhamba Road",
+        "sources": [
+          {
+            "title": "DMRC — present network, Blue Line first commercial stages",
+            "url": "https://delhimetrorail.com/pages/en/present-network",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2010,
+        "name": "Green Line Inderlok–Mundka",
+        "sources": [
+          {
+            "title": "DMRC — present network, Green Line from 3 April 2010",
+            "url": "https://delhimetrorail.com/pages/en/present-network",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2010,
+        "name": "Violet Line Central Secretariat–Sarita Vihar",
+        "sources": [
+          {
+            "title": "DMRC — present network, Violet Line from 3 October 2010",
+            "url": "https://delhimetrorail.com/pages/en/present-network",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2011,
+        "name": "Airport Express New Delhi–Dwarka Sector 21",
+        "sources": [
+          {
+            "title": "DMRC — present network, Airport Express from 23 February 2011",
+            "url": "https://delhimetrorail.com/pages/en/present-network",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "name": "Magenta Line Botanical Garden–Kalkaji Mandir",
+        "sources": [
+          {
+            "title": "DMRC — Magenta Line Botanical Garden–Kalkaji Mandir, 25 December 2017",
+            "url": "https://delhimetrorail.com/pages/en/present-network",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "name": "Pink Line Majlis Park–South Campus",
+        "sources": [
+          {
+            "title": "DMRC — Pink Line Majlis Park–Durgabhai Deshmukh South Campus, 14 March 2018",
+            "url": "https://delhimetrorail.com/pages/en/present-network",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2019,
+        "name": "Grey Line Dwarka–Najafgarh",
+        "sources": [
+          {
+            "title": "DMRC — present network, Grey Line first commercial section",
+            "url": "https://delhimetrorail.com/pages/en/present-network",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2026,
+        "name": "Pink Line Majlis Park–Maujpur (Phase IV)",
+        "sources": [
+          {
+            "title": "DMRC — Pink Line Majlis Park–Maujpur-Babarpur, 8 March 2026",
+            "url": "https://delhimetrorail.com/pages/en/present-network",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2026,
+        "name": "Magenta Line Deepali Chowk–Majlis Park (Phase IV)",
+        "sources": [
+          {
+            "title": "DMRC — Magenta Line Deepali Chowk–Majlis Park, 8 March 2026",
+            "url": "https://delhimetrorail.com/pages/en/present-network",
+            "year": 2026
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "title": "Delhi Metro Rail Corporation",
@@ -1584,6 +1911,52 @@
       }
     ],
     "summary": "Bengaluru’s metro, the first in south India, opened on 20 October 2011. Bangalore Metro Rail Corporation built a third-rail 750 V DC system. Purple and Green lines were extended in phases across the city. It is a state–Union SPV in the Delhi mould, not a railway zone.",
+    "commissions": [
+      {
+        "year": 2014,
+        "name": "Green Line Peenya Industry–Sampige Road",
+        "sources": [
+          {
+            "title": "The Hindu — Siddaramaiah flags off Green Line; public from 1 March 2014",
+            "url": "https://www.thehindu.com/news/cities/bangalore/cm-in-a-hurry-delays-namma-metro-launch/article5737303.ece",
+            "year": 2014
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "name": "Purple Line Whitefield–Challaghatta",
+        "sources": [
+          {
+            "title": "The Hindu — Whitefield–Challaghatta Purple Line operations, 9 October 2023",
+            "url": "https://www.thehindu.com/news/cities/bangalore/operations-begin-on-entire-whitefield-challaghatta-purple-line-metro-corridor-connects-east-and-west-bengaluru/article67398826.ece",
+            "year": 2023
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "name": "Green Line Nagasandra–Madavara",
+        "sources": [
+          {
+            "title": "The Hindu — Nagasandra–Madavara Green Line extension opened 7 November 2024",
+            "url": "https://www.thehindu.com/news/national/karnataka/new-extension-of-namma-metro-from-nagasandra-to-madavara-is-now-open-likely-to-ease-traffic-on-tumakuru-road/article68840759.ece",
+            "year": 2024
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "name": "Yellow Line RV Road–Bommasandra",
+        "sources": [
+          {
+            "title": "OneIndia — Yellow Line public from 11 August 2025 after 10 August inauguration",
+            "url": "https://www.oneindia.com/bengaluru/namma-metro-yellow-line-opens-for-public-from-rv-road-to-bommasandra-in-32-minutes-passenger-review-7826061.html",
+            "year": 2025
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "title": "The Hindu — South India's first metro flagged off, 20 October 2011",
@@ -1628,6 +2001,41 @@
       }
     ],
     "summary": "Line 1, Versova–Andheri–Ghatkopar, opened on 8 June 2014 as a PPP of Mumbai Metro One. Later lines under MMRDA and Maha-Metro, including the underground Aqua Line, extended the network. The first line was an east–west connector across the suburban railway’s north–south grain.",
+    "commissions": [
+      {
+        "year": 2023,
+        "name": "Line 2A/7 Dahisar–Andheri",
+        "sources": [
+          {
+            "title": "Indian Express — Metro lines 2A and 7 public from 20 January 2023",
+            "url": "https://indianexpress.com/article/cities/mumbai/metro-lines-2a-and-7-public-response-mumbai-metro-updates-travellers-response-8394792/",
+            "year": 2023
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "name": "Aqua Line Aarey–BKC",
+        "sources": [
+          {
+            "title": "The Hindu — Aqua Line Phase 1 BKC–Aarey public 7 October 2024",
+            "url": "https://www.thehindu.com/news/cities/mumbai/mumbais-first-underground-metro-line-3-from-bkc-to-aarey-opens-for-public-know-fare-timings-speed-route/article68727618.ece",
+            "year": 2024
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "name": "Aqua Line Acharya Atre Chowk–Cuffe Parade",
+        "sources": [
+          {
+            "title": "The Hindu — Aqua Line fully operational Aarey–Cuffe Parade, 9 October 2025",
+            "url": "https://www.thehindu.com/news/cities/mumbai/mumbai-metro-line-3-becomes-completely-operational/article70142542.ece",
+            "year": 2025
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "title": "The Hindu — Prithviraj Chavan launches Mumbai metro, 8 June 2014",
@@ -1672,6 +2080,63 @@
       }
     ],
     "summary": "Chennai Metro Rail Limited opened its first section, Koyambedu–Alandur on the Green Line, on 29 June 2015. Construction had started in 2009 after incorporation in 2007. Underground and elevated corridors were added in Phase I. Chennai already had an elevated MRTS (1995); the metro is a separate 25 kV system.",
+    "commissions": [
+      {
+        "year": 2017,
+        "name": "Underground Thirumangalam–Nehru Park",
+        "sources": [
+          {
+            "title": "CMRL — Phase I commercial stages",
+            "url": "https://chennaimetrorail.org/cmrl-profile/",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "name": "Nehru Park–Central and Saidapet–AG-DMS",
+        "sources": [
+          {
+            "title": "CMRL — Phase I commercial stages",
+            "url": "https://chennaimetrorail.org/cmrl-profile/",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2019,
+        "name": "AG-DMS–Washermanpet (Phase I complete)",
+        "sources": [
+          {
+            "title": "CMRL — Phase I commercial stages",
+            "url": "https://chennaimetrorail.org/cmrl-profile/",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "name": "Washermanpet–Wimco Nagar",
+        "sources": [
+          {
+            "title": "CMRL — Phase I northern extension",
+            "url": "https://chennaimetrorail.org/cmrl-profile/",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2026,
+        "name": "Yellow Line Poonamallee Bypass–Vadapalani",
+        "sources": [
+          {
+            "title": "Indian Express — PM and CM flag off Poonamallee–Vadapalani, 11 October 2026",
+            "url": "https://indianexpress.com/article/political-pulse/pm-narendra-modi-tamil-nadu-cm-vijay-inaugurate-chennai-metro-phase-2-poonamallee-vadapalani-rahul-gandhi-lunch-temple-visit-10916916/",
+            "year": 2026
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "title": "The Hindu — Chennai's first metro ride, 29 June 2015",
@@ -1736,6 +2201,41 @@
       }
     ],
     "summary": "An electrified freight-only railway from Dadri near Delhi to JNPT, built by DFCCIL with Japan International Cooperation Agency loans. DFCCIL was incorporated in 2006. Narendra Modi dedicated the 306 km Rewari–Madar section on 7 January 2021 and flagged a double-stack container train. Later sections toward Palanpur, Vadodara, and the Konkan ports were commissioned in stages; the corridor as a whole was still being closed when this record was compiled.",
+    "commissions": [
+      {
+        "year": 2022,
+        "name": "Madar–Palanpur",
+        "sources": [
+          {
+            "title": "DFCCIL — Western DFC section commissioning dates",
+            "url": "https://dfccil.com/Home/ProgressStatusImage",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "name": "Dadri–Rewari",
+        "sources": [
+          {
+            "title": "DFCCIL — Dadri–Rewari inaugurated 25 January 2024",
+            "url": "https://dfccil.com/Home/ProgressStatusImage",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "name": "Makarpura–Sachin",
+        "sources": [
+          {
+            "title": "DFCCIL — Makarpura–Sachin inaugurated 12 March 2024",
+            "url": "https://dfccil.com/Home/ProgressStatusImage",
+            "year": 2026
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "title": "PM inaugurates 306 km Rewari–Madar section of Western DFC",
@@ -1797,6 +2297,57 @@
       }
     ],
     "summary": "A 272 km national project to put the Kashmir Valley on the broad-gauge map. Sanctioned in 1995 and declared a national project in 2002, it opened in sections: Qazigund–Baramulla from 2008–09, Banihal–Qazigund in 2013, Udhampur–Katra in 2014, and the Katra–Banihal tunnels and bridges, including Chenab, in 2024–25. First commercial operation in the Valley is dated 2009; through running from the plains came later.",
+    "commissions": [
+      {
+        "year": 2013,
+        "name": "Banihal–Qazigund",
+        "sources": [
+          {
+            "title": "Mumbai Mirror / PTI — Manmohan Singh and Sonia Gandhi flag off Banihal–Qazigund, 26 June 2013",
+            "url": "https://mumbaimirror.indiatimes.com/news/india/pm-sonia-inaugurate-banihal-qazigund-rail-link/articleshow/20774515.html",
+            "year": 2013
+          }
+        ]
+      },
+      {
+        "year": 2014,
+        "name": "Udhampur–Katra",
+        "sources": [
+          {
+            "title": "The Hindu — Modi flags off inaugural train from Katra, 4 July 2014",
+            "url": "https://www.thehindu.com/news/national/modi-flags-off-inaugural-train-from-katra/article6176580.ece",
+            "year": 2014
+          },
+          {
+            "title": "PIB — PM dedicates Katra–Udhampur railway line, 4 July 2014",
+            "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=106073",
+            "year": 2014
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "name": "Banihal–Sangaldan",
+        "sources": [
+          {
+            "title": "Deccan Chronicle — Banihal–Sangaldan opened 20 February 2024",
+            "url": "https://www.deccanchronicle.com/rail-link-to-kashmir-opens-today",
+            "year": 2025
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "name": "Katra–Banihal through-running",
+        "sources": [
+          {
+            "title": "Indian Express — PM to inaugurate Katra–Sangaldan, the last USBRL stretch, 6 June 2025",
+            "url": "https://indianexpress.com/article/india/katra-sangaldan-section-pm-set-to-inaugurate-final-rail-stretch-to-kashmir-on-friday-10044695/",
+            "year": 2025
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "title": "Congress on USBRL chronology",
@@ -1829,6 +2380,30 @@
     ],
     "path": null,
     "summary": "India’s first commercial nuclear power station. Two GE boiling-water reactors were built under a 1960s agreement with the United States; construction started in October 1964; NPCIL dates commercial operation of TAPS-1 and TAPS-2 to 28 October 1969. Two 540 MW PHWRs were added in 2005–06. Tarapur is the starting point of the Republic’s nuclear-power map.",
+    "commissions": [
+      {
+        "year": 2005,
+        "name": "Unit 4 commercial operation",
+        "sources": [
+          {
+            "title": "NPCIL — All Plants, TAPS-4 COD 12 September 2005",
+            "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2006,
+        "name": "Unit 3 commercial operation",
+        "sources": [
+          {
+            "title": "NPCIL — All Plants, TAPS-3 COD 18 August 2006",
+            "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+            "year": 2026
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "title": "NPCIL — All plants",
@@ -1861,6 +2436,74 @@
     ],
     "path": null,
     "summary": "The first Indian PHWR station, on the Rana Pratap Sagar at Rawatbhata near Kota, built with Canadian assistance. AERB dates RAPS-1 commercial operation to December 1973; RAPS-2 to 1 April 1981. Later 220 MW units and a 700 MW unit extended the site. After the 1974 nuclear test, Canadian cooperation ended; subsequent units were indigenous PHWRs.",
+    "commissions": [
+      {
+        "year": 1981,
+        "name": "RAPS-2 commercial operation",
+        "sources": [
+          {
+            "title": "NPCIL — All Plants, RAPS-2 COD 1 April 1981",
+            "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2000,
+        "name": "RAPS-3 commercial operation",
+        "sources": [
+          {
+            "title": "NPCIL — All Plants, RAPS-3 COD 1 June 2000",
+            "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2000,
+        "name": "RAPS-4 commercial operation",
+        "sources": [
+          {
+            "title": "NPCIL — All Plants, RAPS-4 COD 23 December 2000",
+            "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2010,
+        "name": "RAPS-5 commercial operation",
+        "sources": [
+          {
+            "title": "NPCIL — All Plants, RAPS-5 COD 4 February 2010",
+            "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2010,
+        "name": "RAPS-6 commercial operation",
+        "sources": [
+          {
+            "title": "NPCIL — All Plants, RAPS-6 COD 31 March 2010",
+            "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "name": "RAPS-7 commercial operation",
+        "sources": [
+          {
+            "title": "NPCIL — All Plants, RAPS-7 COD 15 April 2025",
+            "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+            "year": 2026
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "title": "AERB — Nuclear power plants under operation",
@@ -1893,6 +2536,19 @@
     ],
     "path": null,
     "summary": "Two 220 MW PHWRs on the Bay of Bengal south of Chennai. NPCIL dates MAPS-1 commercial operation to 27 January 1984 and MAPS-2 to 21 March 1986. Kalpakkam is also the site of the Indira Gandhi Centre for Atomic Research and the Prototype Fast Breeder Reactor, a separate DAE complex. The power station is the southern PHWR of the 1980s programme.",
+    "commissions": [
+      {
+        "year": 1986,
+        "name": "MAPS Unit 2 commercial operation",
+        "sources": [
+          {
+            "title": "NPCIL — All Plants, MAPS-2 COD 21 March 1986",
+            "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+            "year": 2026
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "title": "NPCIL — All plants",
@@ -1920,6 +2576,19 @@
     ],
     "path": null,
     "summary": "Two 220 MW PHWRs on the Ganga in Bulandshahr district. NPCIL dates NAPS-1 to 1 January 1991 and NAPS-2 to 1 July 1992. It is the only nuclear power station in the Ganga plain, built to supply the northern grid.",
+    "commissions": [
+      {
+        "year": 1992,
+        "name": "NAPS Unit 2 commercial operation",
+        "sources": [
+          {
+            "title": "NPCIL — All Plants, NAPS-2 COD 1 July 1992",
+            "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+            "year": 2026
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "title": "NPCIL — All plants",
@@ -1947,6 +2616,41 @@
     ],
     "path": null,
     "summary": "A PHWR station on the Tapi. NPCIL dates KAPS-1 to 6 May 1993 and KAPS-2 to 1 September 1995. Two 700 MW indigenous PHWRs, KAPS-3 and KAPS-4, entered commercial operation in 2023 and 2024, the first of that design.",
+    "commissions": [
+      {
+        "year": 1995,
+        "name": "KAPS Unit 2 commercial operation",
+        "sources": [
+          {
+            "title": "NPCIL — All Plants, KAPS-2 COD 1 September 1995",
+            "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "name": "KAPS Unit 3 commercial operation",
+        "sources": [
+          {
+            "title": "NPCIL — All Plants, KAPS-3 COD 30 June 2023",
+            "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "name": "KAPS Unit 4 commercial operation",
+        "sources": [
+          {
+            "title": "NPCIL — All Plants, KAPS-4 COD 31 March 2024",
+            "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+            "year": 2026
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "title": "NPCIL — All plants",
@@ -1974,6 +2678,30 @@
     ],
     "path": null,
     "summary": "Four 220 MW PHWRs in the Western Ghats of Uttara Kannada. NPCIL dates KGS-2 to 16 March 2000, KGS-1 to 16 November 2000, KGS-3 to 6 May 2007, and KGS-4 to 20 January 2011. The station supplies the southern grid from a forested inland site rather than the coast.",
+    "commissions": [
+      {
+        "year": 2007,
+        "name": "Unit 3 commercial operation",
+        "sources": [
+          {
+            "title": "NPCIL — All Plants, KGS-3 COD 6 May 2007",
+            "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2011,
+        "name": "Unit 4 commercial operation",
+        "sources": [
+          {
+            "title": "NPCIL — All Plants, KGS-4 COD 20 January 2011",
+            "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+            "year": 2026
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "title": "NPCIL — All plants",
@@ -2001,6 +2729,19 @@
     ],
     "path": null,
     "summary": "India’s largest nuclear power station, two 1,000 MW VVER reactors built with Russian assistance on the Tirunelveli coast. An inter-governmental agreement was signed in 1988, revived in 1998 after the Soviet collapse; construction of Unit 1 began on 31 March 2002. Local opposition delayed fuel loading. Unit 1 was synchronised on 22 October 2013 and declared commercial on 31 December 2014; Unit 2 in 2017. Further units are under construction.",
+    "commissions": [
+      {
+        "year": 2017,
+        "name": "Unit 2 commercial operation",
+        "sources": [
+          {
+            "title": "NPCIL — All Plants, KKNPP-2 COD 31 March 2017",
+            "url": "https://www.npcil.nic.in/content/302_1_AllPlants.aspx",
+            "year": 2026
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "title": "NPCIL — All plants",
@@ -2033,6 +2774,30 @@
         "title": "NTPC — Singrauli",
         "url": "https://ntpc.co.in/singrauli",
         "year": 2026
+      }
+    ],
+    "commissions": [
+      {
+        "year": 1986,
+        "name": "Stage II Unit 6",
+        "sources": [
+          {
+            "title": "NTPC — Singrauli unit commissioned dates",
+            "url": "https://ntpc.co.in/singrauli",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 1987,
+        "name": "Stage II Unit 7",
+        "sources": [
+          {
+            "title": "NTPC — Singrauli unit commissioned dates",
+            "url": "https://ntpc.co.in/singrauli",
+            "year": 2026
+          }
+        ]
       }
     ]
   },
@@ -2751,6 +3516,24 @@
         "url": "https://www.airport-technology.com/projects/kempegowda-international-airport-bangalore/",
         "year": 2023
       }
+    ],
+    "commissions": [
+      {
+        "year": 2023,
+        "name": "Terminal 2",
+        "sources": [
+          {
+            "title": "PIB — PM inaugurates Bengaluru Terminal 2, 11 November 2022",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1875177",
+            "year": 2022
+          },
+          {
+            "title": "Times of India — Terminal 2 first flight 15 January 2023",
+            "url": "https://timesofindia.indiatimes.com/city/bengaluru/terminal-2-of-bengaluru-airport-starts-operation-first-flight-takes-off-to-kalaburagi/articleshow/97005178.cms",
+            "year": 2023
+          }
+        ]
+      }
     ]
   },
   {
@@ -2809,6 +3592,329 @@
         "title": "APAO — Cochin International Airport Limited",
         "url": "https://www.apaoindia.com/?page_id=158",
         "year": 2012
+      }
+    ]
+  },
+  {
+    "id": "kolkata-nscb-t2",
+    "name": "Kolkata airport integrated terminal",
+    "kind": "airport",
+    "scale": "trunk",
+    "started": 2008,
+    "opened": 2013,
+    "status": "open",
+    "place": {
+      "longitude": 88.4467,
+      "latitude": 22.6547,
+      "label": "Dum Dum, Kolkata",
+      "precision": "site"
+    },
+    "states": [
+      "West Bengal"
+    ],
+    "path": null,
+    "summary": "The Airports Authority of India’s modernisation of Netaji Subhas Chandra Bose International Airport, the old Dum Dum field. Construction of the new integrated terminal began in November 2008 under an ITD–ITD Cementation contract. President Pranab Mukherjee inaugurated the terminal on 20 January 2013; airlines moved in through March. It is a brownfield expansion of an existing metro airport, not a greenfield field, and was the AAI pair to Chennai in the same winter.",
+    "sources": [
+      {
+        "title": "Business Standard — Kolkata airport’s new terminal inaugurated, 20 January 2013",
+        "url": "https://www.business-standard.com/article/economy-policy/kolkata-airport-s-new-terminal-inaugurated-113012100091_1.html",
+        "year": 2013
+      },
+      {
+        "title": "The Economic Times — Pranab Mukherjee inaugurates new airport terminal",
+        "url": "https://economictimes.indiatimes.com/news/politics-and-nation/pranab-mukherjee-inaugurates-new-airport-terminal-in-netaji-subhas-chandra-bose-international-airport/articleshow/18105118.cms",
+        "year": 2013
+      }
+    ]
+  },
+  {
+    "id": "mumbai-csia-t2",
+    "name": "Mumbai airport Terminal 2",
+    "kind": "airport",
+    "scale": "trunk",
+    "started": 2008,
+    "opened": 2014,
+    "status": "open",
+    "place": {
+      "longitude": 72.8679,
+      "latitude": 19.0886,
+      "label": "Sahar, Mumbai",
+      "precision": "site"
+    },
+    "states": [
+      "Maharashtra"
+    ],
+    "path": null,
+    "summary": "The integrated Terminal 2 of Chhatrapati Shivaji Maharaj International Airport, built by Mumbai International Airport Limited (then GVK) on the existing Sahar site. Prime Minister Manmohan Singh inaugurated it on 10 January 2014; international operations were scheduled from 12 February. It is a brownfield terminal at a land-locked city airport, the Mumbai counterpart of Delhi’s T3, not a second airport.",
+    "sources": [
+      {
+        "title": "PMO — speech at the inauguration of CSIA Terminal 2, 10 January 2014",
+        "url": "https://archivepmo.nic.in/drmanmohansingh/speech-details.php?nodeid=1413",
+        "year": 2014
+      },
+      {
+        "title": "Times of India — PM inaugurates T2 of Mumbai airport",
+        "url": "https://timesofindia.indiatimes.com/india/pm-inaugurates-t2-of-mumbai-airport/articleshow/28661291.cms",
+        "year": 2014
+      }
+    ]
+  },
+  {
+    "id": "chennai-airport-2013",
+    "name": "Chennai airport modernisation",
+    "kind": "airport",
+    "scale": "trunk",
+    "started": 2007,
+    "opened": 2013,
+    "status": "open",
+    "place": {
+      "longitude": 80.1709,
+      "latitude": 12.9941,
+      "label": "Meenambakkam, Chennai",
+      "precision": "site"
+    },
+    "states": [
+      "Tamil Nadu"
+    ],
+    "path": null,
+    "summary": "AAI’s upgrade of Chennai’s existing domestic and international terminals, approved in 2007 and opened with Kolkata as the public-sector half of metro-airport modernisation. Vice-President Hamid Ansari inaugurated the new terminals on 31 January 2013; domestic operations from the new building were in full stream by 11 April. A later integrated terminal (Phase I) was inaugurated in April 2023 and is a further expansion of the same site.",
+    "commissions": [
+      {
+        "year": 2023,
+        "name": "New integrated terminal (Phase I)",
+        "sources": [
+          {
+            "title": "The Hindu — PM inaugurates Chennai airport integrated terminal, 8 April 2023",
+            "url": "https://www.thehindu.com/news/cities/chennai/more-check-in-counters-better-ambience-new-integrated-terminal-opened-at-chennai-airport-promises-smoother-flying-experience/article66714556.ece",
+            "year": 2023
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Hindu — New airport terminals to boost passenger traffic, 31 January 2013",
+        "url": "https://www.thehindu.com/news/cities/chennai/new-airport-terminals-to-boost-passenger-traffic/article4366201.ece",
+        "year": 2013
+      },
+      {
+        "title": "Business Standard — New terminal at Chennai Airport goes on full stream, 11 April 2013",
+        "url": "https://www.business-standard.com/article/current-affairs/new-terminal-at-chennai-airport-goes-on-full-stream-113041100382_1.html",
+        "year": 2013
+      }
+    ]
+  },
+  {
+    "id": "ahmedabad-svpi-t2",
+    "name": "Ahmedabad airport Terminal 2",
+    "kind": "airport",
+    "scale": "trunk",
+    "started": 2007,
+    "opened": 2010,
+    "status": "open",
+    "place": {
+      "longitude": 72.6347,
+      "latitude": 23.0772,
+      "label": "Hansol, Ahmedabad",
+      "precision": "site"
+    },
+    "states": [
+      "Gujarat"
+    ],
+    "path": null,
+    "summary": "The new international Terminal 2 at Sardar Vallabhbhai Patel International Airport, an AAI brownfield building on the existing Ahmedabad field. Civil Aviation Minister Praful Patel laid the foundation in January 2007 and inaugurated the terminal on 4 July 2010; regular international operations began on 15–16 September 2010.",
+    "sources": [
+      {
+        "title": "The Hindu — Re-modelled terminal opened at Ahmedabad airport, 4 July 2010",
+        "url": "https://www.thehindu.com/news/national/other-states/Re-modelled-terminal-opened-at-Ahmedabad-airport/article16184847.ece",
+        "year": 2010
+      },
+      {
+        "title": "Times of India — Ahmedabad’s new terminal to open tomorrow, 14 September 2010",
+        "url": "https://timesofindia.indiatimes.com/city/ahmedabad/ahmedabads-new-terminal-to-open-tomorrow/articleshow/6554240.cms",
+        "year": 2010
+      }
+    ]
+  },
+  {
+    "id": "lucknow-ccsia-t3",
+    "name": "Lucknow airport Terminal 3",
+    "kind": "airport",
+    "scale": "trunk",
+    "opened": 2024,
+    "status": "open",
+    "place": {
+      "longitude": 80.8893,
+      "latitude": 26.7606,
+      "label": "Amausi, Lucknow",
+      "precision": "site"
+    },
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "path": null,
+    "summary": "The integrated Terminal 3 of Chaudhary Charan Singh International Airport, a brownfield expansion of the Amausi field under a PPP operator. Prime Minister Narendra Modi inaugurated it on 10 March 2024; commercial operations began on 31 March 2024 with Akasa Air the first airline to shift. An earlier AAI terminal on the same airport had opened in 2012.",
+    "sources": [
+      {
+        "title": "Hindustan Times — Lucknow airport’s Terminal 3 begins ops, 31 March 2024",
+        "url": "https://www.hindustantimes.com/cities/lucknow-news/lucknow-airport-s-terminal-3-begins-ops-8-flights-managed-on-day-1-101711912937930.html",
+        "year": 2024
+      },
+      {
+        "title": "Hindustan Times — Passenger convenience hallmark of Lucknow airport’s new terminal, 10 March 2024",
+        "url": "https://www.hindustantimes.com/cities/lucknow-news/passenger-convenience-hallmark-of-lucknow-airport-s-new-terminal-101710094925208.html",
+        "year": 2024
+      }
+    ],
+    "started": 2018
+  },
+  {
+    "id": "kannur-airport",
+    "name": "Kannur International Airport",
+    "kind": "airport",
+    "scale": "civic",
+    "opened": 2018,
+    "status": "open",
+    "place": {
+      "longitude": 75.5472,
+      "latitude": 11.9186,
+      "label": "Mattannur, Kannur, Kerala",
+      "precision": "site"
+    },
+    "states": [
+      "Kerala"
+    ],
+    "path": null,
+    "summary": "A greenfield airport at Mattannur in north Malabar, built by Kannur International Airport Limited with Kerala government equity. Chief Minister Pinarayi Vijayan and Civil Aviation Minister Suresh Prabhu inaugurated it on 9 December 2018 and flagged off an Air India Express flight to Abu Dhabi. It made Kerala the first state with four international airports, after Thiruvananthapuram, Kochi and Kozhikode.",
+    "sources": [
+      {
+        "title": "The Hindu — Kannur international airport inaugurated, 9 December 2018",
+        "url": "https://www.thehindu.com/news/national/kerala/kannur-international-airport-inaugurated/article25702574.ece",
+        "year": 2018
+      },
+      {
+        "title": "Indian Express — Kannur airport inaugurated, Kerala becomes only state with four international airports",
+        "url": "https://indianexpress.com/article/india/kannur-airport-inaugurated-kerala-becomes-only-state-with-four-international-airports-5485445/",
+        "year": 2018
+      }
+    ],
+    "started": 2010
+  },
+  {
+    "id": "mopa-goa",
+    "name": "Manohar International Airport, Mopa",
+    "kind": "airport",
+    "scale": "trunk",
+    "started": 2016,
+    "opened": 2023,
+    "status": "open",
+    "place": {
+      "longitude": 73.861,
+      "latitude": 15.744,
+      "label": "Mopa, North Goa",
+      "precision": "site"
+    },
+    "states": [
+      "Goa"
+    ],
+    "path": null,
+    "summary": "A greenfield airport in North Goa, built to take scheduled traffic off the navy field at Dabolim. Prime Minister Narendra Modi laid the foundation in November 2016 and inaugurated the first phase on 11 December 2022. Commercial operations began on 5 January 2023 with an IndiGo arrival. The Union Cabinet named it after Manohar Parrikar. Dabolim remains a separate airport.",
+    "sources": [
+      {
+        "title": "PMO — PM inaugurates greenfield International Airport in Mopa, Goa",
+        "url": "https://www.pmindia.gov.in/en/news_updates/pm-inaugurates-greenfield-international-airport-in-mopa-goa/",
+        "year": 2022
+      },
+      {
+        "title": "Economic Times — Manohar International Airport begins commercial operations in Mopa, 5 January 2023",
+        "url": "https://travel.economictimes.indiatimes.com/amp/news/aviation/domestic/manohar-international-airport-begins-commercial-operations-in-mopa-indigo-makes-inaugural-landing/96756583",
+        "year": 2023
+      }
+    ]
+  },
+  {
+    "id": "navi-mumbai-airport",
+    "name": "Navi Mumbai International Airport",
+    "kind": "airport",
+    "scale": "trunk",
+    "started": 2021,
+    "opened": 2025,
+    "status": "open",
+    "place": {
+      "longitude": 73.032,
+      "latitude": 18.993,
+      "label": "Ulwe, Navi Mumbai",
+      "precision": "site"
+    },
+    "states": [
+      "Maharashtra"
+    ],
+    "path": null,
+    "summary": "A greenfield second airport for the Mumbai Metropolitan Region at Ulwe, a CIDCO–Adani PPP. Prime Minister Narendra Modi laid a foundation in 2018 and inaugurated the first phase on 8 October 2025. Commercial operations began on 25 December 2025: The Hindu recorded an IndiGo arrival from Bengaluru at 8 a.m. and a first departure to Hyderabad. It is a new field, not an expansion of Sahar.",
+    "sources": [
+      {
+        "title": "The Hindu — Navi Mumbai International Airport starts commercial flight operations, 25 December 2025",
+        "url": "https://www.thehindu.com/news/cities/mumbai/navi-mumbai-international-airport-starts-commercial-flight-operations/article70436021.ece",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "noida-jewar-airport",
+    "name": "Noida International Airport, Jewar",
+    "kind": "airport",
+    "scale": "trunk",
+    "opened": 2026,
+    "status": "open",
+    "place": {
+      "longitude": 77.605,
+      "latitude": 28.175,
+      "label": "Jewar, Gautam Buddha Nagar",
+      "precision": "site"
+    },
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "path": null,
+    "summary": "A greenfield second airport for the National Capital Region at Jewar, built by Yamuna International Airport Private Limited. Prime Minister Narendra Modi inaugurated it on 28 March 2026. Commercial operations began on 15 June 2026 with IndiGo flight 6E 2278 from Lucknow. It is a new field, not an expansion of Palam.",
+    "sources": [
+      {
+        "title": "Indian Express — Noida Airport opens: first commercial flight lands at Jewar, 15 June 2026",
+        "url": "https://indianexpress.com/article/cities/delhi/noida-international-airport-opens-first-indigo-flight-lucknow-jewar-10739933/",
+        "year": 2026
+      }
+    ],
+    "started": 2021
+  },
+  {
+    "id": "pune-airport-terminal",
+    "name": "Pune airport new terminal",
+    "kind": "airport",
+    "scale": "civic",
+    "started": 2018,
+    "opened": 2024,
+    "status": "open",
+    "place": {
+      "longitude": 73.92,
+      "latitude": 18.582,
+      "label": "Lohegaon, Pune",
+      "precision": "site"
+    },
+    "states": [
+      "Maharashtra"
+    ],
+    "path": null,
+    "summary": "Airports Authority of India built a new integrated terminal at the civil enclave of the Indian Air Force station at Lohegaon. The Indian Express reported that work on the site started in April 2018. Prime Minister Narendra Modi inaugurated the building on 10 March 2024; passenger operations began on 14 July 2024.",
+    "sources": [
+      {
+        "title": "The Indian Express — PM Modi inaugurates Pune airport’s new terminal",
+        "url": "https://indianexpress.com/article/cities/pune/pm-modi-inaugurates-pune-airports-new-terminal-built-at-rs-423-crore-9207071/",
+        "year": 2024
+      },
+      {
+        "title": "The Indian Express — New terminal building of Pune Airport becomes operational",
+        "url": "https://indianexpress.com/article/cities/pune/pune-airport-new-terminal-building-becomes-operational-9453434/",
+        "year": 2024
       }
     ]
   },
@@ -2898,6 +4004,1634 @@
         "title": "CAG — Performance audit of Polavaram Irrigation Project",
         "url": "https://cag.gov.in/uploads/download_audit_report/2025/PA-on-Polavaram-Irrigation-Project-069aaece202fa02.61046831.pdf",
         "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "jaipur-metro",
+    "name": "Jaipur Metro",
+    "kind": "metro",
+    "scale": "civic",
+    "started": 2011,
+    "opened": 2015,
+    "status": "open",
+    "place": {
+      "longitude": 75.79,
+      "latitude": 26.91,
+      "label": "Jaipur, Rajasthan",
+      "precision": "city"
+    },
+    "states": [
+      "Rajasthan"
+    ],
+    "path": [
+      {
+        "longitude": 75.76,
+        "latitude": 26.89
+      },
+      {
+        "longitude": 75.79,
+        "latitude": 26.91
+      },
+      {
+        "longitude": 75.82,
+        "latitude": 26.93
+      }
+    ],
+    "summary": "Rajasthan’s first metro. Jaipur Metro Rail Corporation opened the Pink Line between Mansarovar and Chandpole on 3 June 2015, about 9.6 km and nine stations, inaugurated by Vasundhara Raje. Construction had begun in 2011. It is a short elevated city system in the Delhi SPV mould, later extended underground toward Badi Chaupar.",
+    "commissions": [
+      {
+        "year": 2020,
+        "name": "Chandpole–Badi Chaupar",
+        "sources": [
+          {
+            "title": "Times Now — Ashok Gehlot inaugurates Jaipur Metro Phase 1B, 23 September 2020",
+            "url": "https://www.timesnownews.com/business-economy/industry/article/ashok-gehlot-inaugurates-phase-i-b-of-jaipur-metro/657038",
+            "year": 2020
+          },
+          {
+            "title": "Urban Transport News — Chandpole–Badi Chaupar underground section public",
+            "url": "https://www.urbantransportnews.com/news/jaipur-metro-opens-chandpole-badi-chaupar-underground-section-for-public-today",
+            "year": 2020
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Hindu — Jaipur Metro starts operations, 3 June 2015",
+        "url": "https://www.thehindu.com/news/national/other-states/jaipur-metro-starts-operations/article7278312.ece",
+        "year": 2015
+      }
+    ]
+  },
+  {
+    "id": "kochi-metro",
+    "name": "Kochi Metro",
+    "kind": "metro",
+    "scale": "trunk",
+    "started": 2013,
+    "opened": 2017,
+    "status": "open",
+    "place": {
+      "longitude": 76.29,
+      "latitude": 10.02,
+      "label": "Kochi, Kerala",
+      "precision": "city"
+    },
+    "states": [
+      "Kerala"
+    ],
+    "path": [
+      {
+        "longitude": 76.35,
+        "latitude": 10.11
+      },
+      {
+        "longitude": 76.32,
+        "latitude": 10.05
+      },
+      {
+        "longitude": 76.29,
+        "latitude": 10.0
+      },
+      {
+        "longitude": 76.28,
+        "latitude": 9.97
+      }
+    ],
+    "summary": "Kerala’s first metro, built by Kochi Metro Rail Limited with E. Sreedharan as principal adviser. Manmohan Singh laid a foundation in September 2012; construction is dated from 2013. Narendra Modi flagged the Aluva–Palarivattom section, 13.2 km, on 17 June 2017; commercial service began on 19 June. Later packages took the line through the city toward Tripunithura.",
+    "commissions": [
+      {
+        "year": 2022,
+        "name": "Pettah–SN Junction",
+        "sources": [
+          {
+            "title": "The Hindu — PM launches Kochi Metro Pettah–SN Junction extension, 1 September 2022",
+            "url": "https://www.thehindu.com/news/national/kerala/pm-modi-to-launch-kochi-metro-extension-redevelopment-of-3-railway-stations-on-sept-1/article65833290.ece",
+            "year": 2022
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "name": "SN Junction–Tripunithura",
+        "sources": [
+          {
+            "title": "The Hindu — PM dedicates Kochi Metro Phase 1B to Tripunithura, 6 March 2024",
+            "url": "https://www.thehindu.com/news/national/kerala/prime-minister-dedicates-phase-1b-of-kochi-metro-to-nation/article67920699.ece",
+            "year": 2024
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Hindu — PM Narendra Modi flags off the Kochi Metro, 17 June 2017",
+        "url": "https://www.thehindu.com/news/cities/Kochi/pm-narendra-modi-flags-off-the-kochi-metro-rail/article62064709.ece",
+        "year": 2017
+      }
+    ]
+  },
+  {
+    "id": "lucknow-metro",
+    "name": "Lucknow Metro",
+    "kind": "metro",
+    "scale": "trunk",
+    "started": 2014,
+    "opened": 2017,
+    "status": "open",
+    "place": {
+      "longitude": 80.94,
+      "latitude": 26.85,
+      "label": "Lucknow, Uttar Pradesh",
+      "precision": "city"
+    },
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "path": [
+      {
+        "longitude": 80.92,
+        "latitude": 26.82
+      },
+      {
+        "longitude": 80.94,
+        "latitude": 26.85
+      },
+      {
+        "longitude": 80.95,
+        "latitude": 26.87
+      },
+      {
+        "longitude": 80.96,
+        "latitude": 26.9
+      }
+    ],
+    "summary": "Uttar Pradesh’s first metro. Lucknow Metro Rail Corporation began construction in September 2014. Rajnath Singh and Yogi Adityanath flagged the Red Line between Transport Nagar and Charbagh, about 8.5 km, on 5 September 2017; public service began the next day. Later stretches took the north–south corridor through the old city toward Munshi Pulia.",
+    "commissions": [
+      {
+        "year": 2019,
+        "name": "CCS Airport–Munshipulia",
+        "sources": [
+          {
+            "title": "Times of India — Lucknow Metro CCS Airport–Munshipulia commercial from 8 March 2019",
+            "url": "https://timesofindia.indiatimes.com/city/lucknow/metro-picks-up-pace-straddles-lucknows-heart/articleshow/68312239.cms",
+            "year": 2019
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Hindu — Lucknow Metro flagged off, 5 September 2017",
+        "url": "https://www.thehindu.com/news/national/other-states/lucknow-metro-flagged-off/article19624602.ece",
+        "year": 2017
+      }
+    ]
+  },
+  {
+    "id": "hyderabad-metro",
+    "name": "Hyderabad Metro",
+    "kind": "metro",
+    "scale": "trunk",
+    "started": 2012,
+    "opened": 2017,
+    "status": "open",
+    "place": {
+      "longitude": 78.45,
+      "latitude": 17.44,
+      "label": "Hyderabad, Telangana",
+      "precision": "city"
+    },
+    "states": [
+      "Telangana"
+    ],
+    "path": [
+      {
+        "longitude": 78.37,
+        "latitude": 17.5
+      },
+      {
+        "longitude": 78.45,
+        "latitude": 17.44
+      },
+      {
+        "longitude": 78.53,
+        "latitude": 17.4
+      },
+      {
+        "longitude": 78.56,
+        "latitude": 17.37
+      }
+    ],
+    "summary": "The largest Indian metro built as a public–private partnership. L&T Metro Rail (Hyderabad) took the concession in 2010; groundbreaking is dated April 2012. Narendra Modi inaugurated the Miyapur–Nagole corridor, about 30 km and 24 stations, on 28 November 2017; commercial service began on 29 November. It remains a three-corridor elevated system under Hyderabad Metro Rail Limited as the public partner.",
+    "commissions": [
+      {
+        "year": 2019,
+        "name": "Ameerpet–HiTec City",
+        "sources": [
+          {
+            "title": "The Hindu — Ameerpet–HiTec City stretch from 20 March 2019",
+            "url": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-metro-rail-services-on-ameerpet-hitec-city-stretch-from-today/article26572606.ece",
+            "year": 2019
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Hindu — PM goes on Hyderabad Metro ride, 28 November 2017",
+        "url": "https://www.thehindu.com/news/cities/Hyderabad/pm-goes-on-hyderabad-metro-ride/article21040967.ece",
+        "year": 2017
+      }
+    ]
+  },
+  {
+    "id": "ahmedabad-metro",
+    "name": "Ahmedabad Metro",
+    "kind": "metro",
+    "scale": "trunk",
+    "started": 2015,
+    "opened": 2019,
+    "status": "open",
+    "place": {
+      "longitude": 72.62,
+      "latitude": 23.03,
+      "label": "Ahmedabad, Gujarat",
+      "precision": "city"
+    },
+    "states": [
+      "Gujarat"
+    ],
+    "path": [
+      {
+        "longitude": 72.67,
+        "latitude": 23.0
+      },
+      {
+        "longitude": 72.62,
+        "latitude": 23.03
+      },
+      {
+        "longitude": 72.57,
+        "latitude": 23.05
+      },
+      {
+        "longitude": 72.53,
+        "latitude": 23.07
+      }
+    ],
+    "summary": "Gujarat’s first metro, built by Gujarat Metro Rail Corporation. Construction of Phase I is dated from March 2015. Narendra Modi inaugurated the East–West Line between Vastral Gam and Apparel Park, about 6.5 km, on 4 March 2019; public service began on 6 March. Later packages took the line through the Sabarmati and added a north–south corridor.",
+    "commissions": [
+      {
+        "year": 2022,
+        "name": "East–West Apparel Park–Thaltej",
+        "sources": [
+          {
+            "title": "Railway Gazette — second metro line and Line 1 extension open in Ahmedabad",
+            "url": "https://www.railwaygazette.com/urban/2022/10/11/second-metro-line-and-line-1-extension-open-in-ahmedabad/",
+            "year": 2022
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "name": "North–South APMC–Motera",
+        "sources": [
+          {
+            "title": "DeshGujarat — North–South corridor APMC–Motera from 6 October 2022",
+            "url": "https://deshgujarat.com/2022/10/06/north-south-corridor-of-ahmedabad-metro-starts-operation-from-apmc-to-motera-stadium/",
+            "year": 2022
+          },
+          {
+            "title": "Times of India — North–South metro service begins in Ahmedabad",
+            "url": "https://timesofindia.indiatimes.com/city/ahmedabad/north-south-metro-service-begins-in-ahmedabad/articleshow/94693565.cms",
+            "year": 2022
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Indian Express — Ahmedabad Metro inauguration, 4 March 2019",
+        "url": "https://indianexpress.com/article/india/ahmedabad-metro-inauguration-narendra-modi-5610861/",
+        "year": 2019
+      }
+    ]
+  },
+  {
+    "id": "nagpur-metro",
+    "name": "Nagpur Metro",
+    "kind": "metro",
+    "scale": "trunk",
+    "started": 2015,
+    "opened": 2019,
+    "status": "open",
+    "place": {
+      "longitude": 79.08,
+      "latitude": 21.12,
+      "label": "Nagpur, Maharashtra",
+      "precision": "city"
+    },
+    "states": [
+      "Maharashtra"
+    ],
+    "path": [
+      {
+        "longitude": 79.07,
+        "latitude": 21.05
+      },
+      {
+        "longitude": 79.08,
+        "latitude": 21.12
+      },
+      {
+        "longitude": 79.09,
+        "latitude": 21.15
+      }
+    ],
+    "summary": "Maharashtra’s second city metro, built by Maha-Metro. Construction began in June 2015 after a foundation in 2014. Narendra Modi flagged the Orange Line between Sitabuldi and Khapri, about 13.5 km, by video on 7 March 2019; public service began on 8 March. An east–west Aqua Line followed from 2020.",
+    "sources": [
+      {
+        "title": "Indian Express — Nagpur Metro flagged off, 8 March 2019",
+        "url": "https://indianexpress.com/article/india/nagpur-metro-flagged-off-over-400-km-added-to-metro-after-my-govt-came-says-pm-modi-5616486/",
+        "year": 2019
+      },
+      {
+        "title": "International Railway Journal — Nagpur inaugurates first metro line",
+        "url": "https://www.railjournal.com/passenger/metros/nagpur-inaugurates-first-metro-line/",
+        "year": 2019
+      }
+    ],
+    "commissions": [
+      {
+        "year": 2020,
+        "name": "Aqua Line Lokmanya Nagar–Sitabuldi",
+        "sources": [
+          {
+            "title": "Livemint / IANS — Aqua Line inaugurated 28 January 2020",
+            "url": "https://www.livemint.com/news/india/nagpur-metro-s-aqua-line-inaugurated-today-check-new-routes-timings-11580199039676.html",
+            "year": 2020
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "name": "Aqua Line Sitabuldi–Prajapati Nagar",
+        "sources": [
+          {
+            "title": "PIB — PM flags Prajapati Nagar–Lokmanya Nagar, 11 December 2022",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1882434",
+            "year": 2022
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "name": "Orange Line Kasturchand Park–Automotive Square",
+        "sources": [
+          {
+            "title": "PIB — PM dedicates Nagpur Metro Phase I, flags Automotive Square, 11 December 2022",
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1882434",
+            "year": 2022
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "noida-metro",
+    "name": "Noida Metro (Aqua Line)",
+    "kind": "metro",
+    "scale": "trunk",
+    "started": 2014,
+    "opened": 2019,
+    "status": "open",
+    "place": {
+      "longitude": 77.39,
+      "latitude": 28.47,
+      "label": "Noida–Greater Noida, Uttar Pradesh",
+      "precision": "city"
+    },
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "path": [
+      {
+        "longitude": 77.37,
+        "latitude": 28.58
+      },
+      {
+        "longitude": 77.39,
+        "latitude": 28.47
+      },
+      {
+        "longitude": 77.5,
+        "latitude": 28.47
+      }
+    ],
+    "summary": "A 29.7 km elevated Aqua Line of Noida Metro Rail Corporation from Sector 51 in Noida to the Depot station in Greater Noida, 21 stations. Authorised in October 2014. Yogi Adityanath inaugurated it on 25 January 2019; public service began on 26 January. It is a separate SPV from Delhi Metro, though the two systems interchange at Sector 51 / Noida Sector 52.",
+    "sources": [
+      {
+        "title": "Indian Express — Aqua Line opens to public, 26 January 2019",
+        "url": "https://indianexpress.com/article/delhi/aqua-line-brings-noida-greater-noida-closer-opens-to-public-today-5555639/",
+        "year": 2019
+      }
+    ]
+  },
+  {
+    "id": "kanpur-metro",
+    "name": "Kanpur Metro",
+    "kind": "metro",
+    "scale": "civic",
+    "started": 2019,
+    "opened": 2021,
+    "status": "open",
+    "place": {
+      "longitude": 80.32,
+      "latitude": 26.48,
+      "label": "Kanpur, Uttar Pradesh",
+      "precision": "city"
+    },
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "path": [
+      {
+        "longitude": 80.23,
+        "latitude": 26.51
+      },
+      {
+        "longitude": 80.32,
+        "latitude": 26.48
+      },
+      {
+        "longitude": 80.35,
+        "latitude": 26.47
+      }
+    ],
+    "summary": "Uttar Pradesh Metro Rail Corporation’s second city system. Construction of the Orange Line priority corridor began on 15 November 2019. Narendra Modi inaugurated the elevated stretch from IIT Kanpur to Motijheel, about 9 km and nine stations, on 28 December 2021. Later packages take the line underground through the old city toward the cantonment.",
+    "sources": [
+      {
+        "title": "PIB — PM inaugurates Kanpur Metro priority corridor",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1785815",
+        "year": 2021
+      }
+    ],
+    "commissions": [
+      {
+        "year": 2025,
+        "name": "Motijheel–Kanpur Central underground",
+        "sources": [
+          {
+            "title": "Times of India — PM inaugurates Kanpur Metro underground, public from 31 May 2025",
+            "url": "https://timesofindia.indiatimes.com/city/kanpur/pm-inaugurates-expansion-of-kanpur-metro-services/articleshow/121523467.cms",
+            "year": 2025
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pune-metro",
+    "name": "Pune Metro",
+    "kind": "metro",
+    "scale": "trunk",
+    "started": 2016,
+    "opened": 2022,
+    "status": "open",
+    "place": {
+      "longitude": 73.85,
+      "latitude": 18.52,
+      "label": "Pune, Maharashtra",
+      "precision": "city"
+    },
+    "states": [
+      "Maharashtra"
+    ],
+    "path": [
+      {
+        "longitude": 73.81,
+        "latitude": 18.51
+      },
+      {
+        "longitude": 73.85,
+        "latitude": 18.52
+      },
+      {
+        "longitude": 73.86,
+        "latitude": 18.56
+      },
+      {
+        "longitude": 73.8,
+        "latitude": 18.63
+      }
+    ],
+    "summary": "A Maha-Metro system on two corridors. The foundation was laid on 24 December 2016. Narendra Modi inaugurated the first sections on 6 March 2022: Vanaz–Garware College on the Purple Line, about 5 km, and PCMC–Phugewadi on the Aqua Line, about 7 km. Later packages closed the lines through Shivajinagar and Swargate.",
+    "commissions": [
+      {
+        "year": 2024,
+        "name": "Line 2 Vanaz–Ramwadi",
+        "sources": [
+          {
+            "title": "Hindustan Times — Pune Metro Ruby Hall–Ramwadi inaugurated 6 March 2024, Vanaz–Ramwadi complete",
+            "url": "https://www.hindustantimes.com/cities/pune-news/pune-metro-ridership-expected-to-grow-after-extension-101709742865401.html",
+            "year": 2024
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "name": "District Court–Swargate",
+        "sources": [
+          {
+            "title": "Times of India — Civil Court–Swargate metro public, 29 September 2024",
+            "url": "https://timesofindia.indiatimes.com/city/pune/punes-civil-court-to-swargate-metro-line-opens-for-public/articleshow/113793557.cms",
+            "year": 2024
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Hindu — PM Narendra Modi in Pune, 6 March 2022",
+        "url": "https://www.thehindu.com/news/national/other-states/pm-narendra-modi-in-pune/article65195568.ece",
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "id": "navi-mumbai-metro",
+    "name": "Navi Mumbai Metro",
+    "kind": "metro",
+    "scale": "civic",
+    "started": 2011,
+    "opened": 2023,
+    "status": "open",
+    "place": {
+      "longitude": 73.06,
+      "latitude": 19.05,
+      "label": "Belapur–Pendhar, Navi Mumbai",
+      "precision": "city"
+    },
+    "states": [
+      "Maharashtra"
+    ],
+    "path": [
+      {
+        "longitude": 73.04,
+        "latitude": 19.02
+      },
+      {
+        "longitude": 73.06,
+        "latitude": 19.05
+      },
+      {
+        "longitude": 73.1,
+        "latitude": 19.08
+      }
+    ],
+    "summary": "CIDCO’s Line 1, an 11.1 km elevated railway with eleven stations from CBD Belapur to Pendhar. A foundation was laid on 1 May 2011. Commercial service began at 3 p.m. on 17 November 2023 on the order of Chief Minister Eknath Shinde, without a public inauguration; the Commissioner of Metro Railway Safety had cleared the line in June. Maha-Metro operates it. A later dedication was bundled with Atal Setu on 12 January 2024.",
+    "sources": [
+      {
+        "title": "Hindustan Times — Navi Mumbai Metro Line 1 services begin, 17 November 2023",
+        "url": "https://www.hindustantimes.com/cities/mumbai-news/navi-mumbai-metro-rail-line-1-services-to-begin-today-101700162967358.html",
+        "year": 2023
+      },
+      {
+        "title": "International Railway Journal — Navi Mumbai opens first metro line",
+        "url": "https://www.railjournal.com/passenger/metros/navi-mumbai-opens-first-metro-line-eight-years-late/",
+        "year": 2023
+      }
+    ]
+  },
+  {
+    "id": "agra-metro",
+    "name": "Agra Metro",
+    "kind": "metro",
+    "scale": "civic",
+    "started": 2020,
+    "opened": 2024,
+    "status": "open",
+    "place": {
+      "longitude": 78.04,
+      "latitude": 27.18,
+      "label": "Agra, Uttar Pradesh",
+      "precision": "city"
+    },
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "path": [
+      {
+        "longitude": 78.05,
+        "latitude": 27.16
+      },
+      {
+        "longitude": 78.02,
+        "latitude": 27.18
+      },
+      {
+        "longitude": 78.0,
+        "latitude": 27.19
+      }
+    ],
+    "summary": "Uttar Pradesh Metro Rail Corporation’s third city system. Construction of the Yellow Line priority corridor is dated from December 2020. Narendra Modi inaugurated the elevated stretch from Taj East Gate to Mankameshwar, about 6 km and six stations, by video on 6 March 2024; public service began on 7 March. A second, partly underground corridor toward the cantonment remains under construction.",
+    "sources": [
+      {
+        "title": "UPMRC — Agra Metro project overview",
+        "url": "https://agra.upmetrorail.com/pages/project-overview",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "indore-metro",
+    "name": "Indore Metro",
+    "kind": "metro",
+    "scale": "civic",
+    "started": 2019,
+    "opened": 2025,
+    "status": "open",
+    "place": {
+      "longitude": 75.86,
+      "latitude": 22.72,
+      "label": "Indore, Madhya Pradesh",
+      "precision": "city"
+    },
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "path": [
+      {
+        "longitude": 75.84,
+        "latitude": 22.75
+      },
+      {
+        "longitude": 75.86,
+        "latitude": 22.72
+      },
+      {
+        "longitude": 75.88,
+        "latitude": 22.7
+      }
+    ],
+    "summary": "Madhya Pradesh’s first metro, built by Madhya Pradesh Metro Rail Corporation. Construction of the Super Priority Corridor is dated from September 2019. Narendra Modi inaugurated about 6 km from Gandhi Nagar to Super Corridor Station 3, five stations, by video on 31 May 2025. The stations on that stretch were named after women. It is a Yellow Line starter before the longer city corridors.",
+    "sources": [
+      {
+        "title": "The Hindu — Metro trains start running in Indore, 31 May 2025",
+        "url": "https://www.thehindu.com/news/national/madhya-pradesh/metro-trains-start-running-in-indore-as-pm-modi-inaugurates-first-phase/article69641854.ece",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "patna-metro",
+    "name": "Patna Metro",
+    "kind": "metro",
+    "scale": "civic",
+    "opened": 2025,
+    "status": "open",
+    "place": {
+      "longitude": 85.16,
+      "latitude": 25.6,
+      "label": "Patna, Bihar",
+      "precision": "city"
+    },
+    "states": [
+      "Bihar"
+    ],
+    "path": [
+      {
+        "longitude": 85.14,
+        "latitude": 25.61
+      },
+      {
+        "longitude": 85.16,
+        "latitude": 25.6
+      },
+      {
+        "longitude": 85.17,
+        "latitude": 25.59
+      }
+    ],
+    "summary": "Bihar’s first metro. Delhi Metro Rail Corporation is building the system with Patna Metro Rail Corporation. Nitish Kumar inaugurated the Blue Line priority corridor from New ISBT (Patliputra) to Bhootnath on 6 October 2025, about 3.6 km and three elevated stations; public service began on 7 October. It is a short starter before the north–south line through the old city.",
+    "sources": [
+      {
+        "title": "India Today — Nitish Kumar inaugurates first phase of Patna Metro, 6 October 2025",
+        "url": "https://www.indiatoday.in/india/story/patna-metro-route-fare-launch-blue-line-bihar-elections-nitish-kumar-isbt-bhoothnath-2798193-2025-10-06",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "bhopal-metro",
+    "name": "Bhopal Metro",
+    "kind": "metro",
+    "scale": "civic",
+    "opened": 2025,
+    "status": "open",
+    "place": {
+      "longitude": 77.43,
+      "latitude": 23.23,
+      "label": "Bhopal, Madhya Pradesh",
+      "precision": "city"
+    },
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "path": [
+      {
+        "longitude": 77.41,
+        "latitude": 23.25
+      },
+      {
+        "longitude": 77.43,
+        "latitude": 23.23
+      },
+      {
+        "longitude": 77.45,
+        "latitude": 23.21
+      }
+    ],
+    "summary": "Madhya Pradesh’s second metro, after Indore. Manohar Lal Khattar and Mohan Yadav flagged the Orange Line priority corridor from Subhash Nagar to AIIMS on 20 December 2025, about 6–7 km and eight elevated stations; public service began on 21 December. Madhya Pradesh Metro Rail Corporation records Bhopal as the twenty-sixth Indian city with a metro.",
+    "sources": [
+      {
+        "title": "The Statesman — Bhopal joins India’s metro map, 20 December 2025",
+        "url": "https://www.thestatesman.com/india/bhopal-joins-indias-metro-map-with-launch-of-orange-line-priority-corridor-1503528641.html",
+        "year": 2025
+      },
+      {
+        "title": "Railway Gazette — Limited services start on Bhopal’s first metro line",
+        "url": "https://www.railwaygazette.com/metro/limited-services-start-on-bhopals-first-metro-line/70187.article",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "delhi-meerut-rrts",
+    "name": "Delhi–Meerut RRTS (Namo Bharat)",
+    "kind": "metro",
+    "scale": "landmark",
+    "started": 2019,
+    "opened": 2023,
+    "status": "open",
+    "place": {
+      "longitude": 77.45,
+      "latitude": 28.67,
+      "label": "Sahibabad–Duhai, National Capital Region",
+      "precision": "corridor"
+    },
+    "states": [
+      "Delhi",
+      "Uttar Pradesh"
+    ],
+    "path": [
+      {
+        "longitude": 77.32,
+        "latitude": 28.64
+      },
+      {
+        "longitude": 77.45,
+        "latitude": 28.67
+      },
+      {
+        "longitude": 77.57,
+        "latitude": 28.76
+      },
+      {
+        "longitude": 77.71,
+        "latitude": 28.98
+      }
+    ],
+    "summary": "India’s first Regional Rapid Transit System, built by the National Capital Region Transport Corporation and branded Namo Bharat. A foundation was laid on 8 March 2019; construction is dated from June 2019. Narendra Modi inaugurated the Sahibabad–Duhai Depot section, 17 km, on 20 October 2023; public service began on 21 October. Later packages reached Meerut South in 2024 and New Delhi in 2025. It is a regional railway, not a city metro, plotted with the metro kind.",
+    "commissions": [
+      {
+        "year": 2024,
+        "name": "Modinagar North–Meerut South",
+        "sources": [
+          {
+            "title": "Indian Express — Meerut South RRTS station opened 18 August 2024",
+            "url": "https://indianexpress.com/article/cities/delhi/meerut-south-rrts-station-opened-for-passenger-operations-9520992/",
+            "year": 2024
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "name": "Sahibabad–New Ashok Nagar",
+        "sources": [
+          {
+            "title": "Indian Express — 55 km RRTS corridor New Ashok Nagar–Meerut South operational, 5 January 2025",
+            "url": "https://indianexpress.com/article/cities/delhi/55-km-of-rrts-corridor-now-operational-rapid-rail-brings-meerut-closer-faster-to-delhi-9761799/",
+            "year": 2025
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "PIB — PM inaugurates Delhi–Meerut RRTS priority section",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1969356",
+        "year": 2023
+      }
+    ]
+  },
+  {
+    "id": "agra-lucknow-expressway",
+    "name": "Agra–Lucknow Expressway",
+    "kind": "road",
+    "scale": "trunk",
+    "started": 2014,
+    "opened": 2016,
+    "status": "open",
+    "place": {
+      "longitude": 79.5,
+      "latitude": 26.9,
+      "label": "Agra–Lucknow, Uttar Pradesh",
+      "precision": "corridor"
+    },
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "path": [
+      {
+        "longitude": 78.01,
+        "latitude": 27.18
+      },
+      {
+        "longitude": 79.0,
+        "latitude": 26.95
+      },
+      {
+        "longitude": 80.33,
+        "latitude": 26.85
+      },
+      {
+        "longitude": 80.95,
+        "latitude": 26.85
+      }
+    ],
+    "summary": "A six-lane access-controlled expressway of about 302 km built by the Uttar Pradesh Expressways Industrial Development Authority. Akhilesh Yadav and Mulayam Singh Yadav inaugurated it on 21 November 2016. A 3.3 km concrete strip at Unnao is designed for Indian Air Force use; fighter aircraft used it at the opening. It is a commissioned state spine, not a Union programme.",
+    "sources": [
+      {
+        "title": "The Hindu — IAF jets hit the highway, 21 November 2016",
+        "url": "https://www.thehindu.com/news/national/other-states/IAF-jets-hit-the-highway/article16671063.ece",
+        "year": 2016
+      }
+    ]
+  },
+  {
+    "id": "eastern-peripheral-expressway",
+    "name": "Eastern Peripheral Expressway",
+    "kind": "road",
+    "scale": "trunk",
+    "started": 2015,
+    "opened": 2018,
+    "status": "open",
+    "place": {
+      "longitude": 77.45,
+      "latitude": 28.55,
+      "label": "Kundli–Ghaziabad–Palwal",
+      "precision": "corridor"
+    },
+    "states": [
+      "Haryana",
+      "Uttar Pradesh"
+    ],
+    "path": [
+      {
+        "longitude": 77.13,
+        "latitude": 28.87
+      },
+      {
+        "longitude": 77.32,
+        "latitude": 28.78
+      },
+      {
+        "longitude": 77.48,
+        "latitude": 28.67
+      },
+      {
+        "longitude": 77.52,
+        "latitude": 28.47
+      },
+      {
+        "longitude": 77.33,
+        "latitude": 28.15
+      }
+    ],
+    "summary": "A 135 km six-lane NHAI expressway from Kundli in Sonipat to Palwal, skirting Delhi through Baghpat, Ghaziabad and Greater Noida. Narendra Modi laid a foundation on 5 November 2015 and inaugurated the road at Baghpat on 27 May 2018, the same day as the first package of the Delhi–Meerut Expressway. It is a bypass for through traffic, not an urban street.",
+    "sources": [
+      {
+        "title": "The Hindu — Narendra Modi opens Eastern Peripheral Expressway, 27 May 2018",
+        "url": "https://www.thehindu.com/news/national/narendra-modi-inaugurates-first-phase-of-delhi-meerut-expressway/article24005047.ece",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "id": "purvanchal-expressway",
+    "name": "Purvanchal Expressway",
+    "kind": "road",
+    "scale": "trunk",
+    "started": 2018,
+    "opened": 2021,
+    "status": "open",
+    "place": {
+      "longitude": 82.4,
+      "latitude": 26.35,
+      "label": "Lucknow–Ghazipur, Uttar Pradesh",
+      "precision": "corridor"
+    },
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "path": [
+      {
+        "longitude": 81.05,
+        "latitude": 26.72
+      },
+      {
+        "longitude": 81.85,
+        "latitude": 26.45
+      },
+      {
+        "longitude": 82.7,
+        "latitude": 26.15
+      },
+      {
+        "longitude": 83.58,
+        "latitude": 25.58
+      }
+    ],
+    "summary": "A six-lane UPEIDA expressway of about 341 km from Chand Sarai near Lucknow to Haidaria near Ghazipur, through Barabanki, Amethi, Ayodhya, Sultanpur, Ambedkar Nagar, Azamgarh and Mau. A foundation was laid on 14 July 2018. Narendra Modi inaugurated it on 16 November 2021 after landing a C-130 on the 3.2 km emergency airstrip at Kurebhar in Sultanpur.",
+    "sources": [
+      {
+        "title": "Hindustan Times — PM Modi inaugurates Purvanchal Expressway, 16 November 2021",
+        "url": "https://www.hindustantimes.com/india-news/pm-modi-to-inaugurate-the-341km-long-purvanchal-expressway-shortly-101637050334963.html",
+        "year": 2021
+      }
+    ]
+  },
+  {
+    "id": "bundelkhand-expressway",
+    "name": "Bundelkhand Expressway",
+    "kind": "road",
+    "scale": "trunk",
+    "started": 2020,
+    "opened": 2022,
+    "status": "open",
+    "place": {
+      "longitude": 80.4,
+      "latitude": 25.7,
+      "label": "Chitrakoot–Etawah, Uttar Pradesh",
+      "precision": "corridor"
+    },
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "path": [
+      {
+        "longitude": 81.08,
+        "latitude": 25.18
+      },
+      {
+        "longitude": 80.35,
+        "latitude": 25.55
+      },
+      {
+        "longitude": 79.55,
+        "latitude": 26.15
+      },
+      {
+        "longitude": 79.02,
+        "latitude": 26.78
+      }
+    ],
+    "summary": "A 296 km four-lane UPEIDA expressway from Gonda village near Bharatkoop on NH-35 in Chitrakoot to Kudrail in Etawah, where it meets the Agra–Lucknow Expressway. Narendra Modi laid the foundation on 29 February 2020 and inaugurated it at Kaitheri, Jalaun, on 16 July 2022. It passes through Banda, Mahoba, Hamirpur, Jalaun and Auraiya.",
+    "sources": [
+      {
+        "title": "PIB — PM inaugurates Bundelkhand Expressway, 16 July 2022",
+        "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=1841987",
+        "year": 2022
+      }
+    ]
+  },
+  {
+    "id": "samruddhi-mahamarg",
+    "name": "Samruddhi Mahamarg",
+    "kind": "road",
+    "scale": "trunk",
+    "started": 2018,
+    "opened": 2022,
+    "status": "open",
+    "place": {
+      "longitude": 76.5,
+      "latitude": 20.3,
+      "label": "Nagpur–Mumbai, Maharashtra",
+      "precision": "corridor"
+    },
+    "states": [
+      "Maharashtra"
+    ],
+    "path": [
+      {
+        "longitude": 79.09,
+        "latitude": 21.15
+      },
+      {
+        "longitude": 77.76,
+        "latitude": 20.93
+      },
+      {
+        "longitude": 75.34,
+        "latitude": 19.88
+      },
+      {
+        "longitude": 74.48,
+        "latitude": 19.76
+      },
+      {
+        "longitude": 73.1,
+        "latitude": 19.03
+      }
+    ],
+    "summary": "Maharashtra State Road Development Corporation’s Nagpur–Mumbai Super Communication Expressway, about 701 km, officially the Hindu Hrudaysamrat Balasaheb Thackeray Maharashtra Samruddhi Mahamarg. Narendra Modi laid the foundation on 18 December 2018 and inaugurated Phase I, 520 km from Nagpur to Shirdi, on 11 December 2022. Later packages closed the remaining length toward Igatpuri and the Mumbai end. It is a state spine, not a Bharatmala package.",
+    "sources": [
+      {
+        "title": "The Hindu — PM inaugurates Samruddhi Expressway, 11 December 2022",
+        "url": "https://www.thehindu.com/news/national/country-doesnt-need-shortcut-politics-it-needs-sustainable-development-says-pm-modi/article66251094.ece",
+        "year": 2022
+      },
+      {
+        "title": "PIB — PM inaugurates Maharashtra Samruddhi Mahamarg, Nagpur",
+        "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1882486",
+        "year": 2022
+      }
+    ],
+    "commissions": [
+      {
+        "year": 2023,
+        "name": "Shirdi–Bharvir",
+        "sources": [
+          {
+            "title": "Indian Express — CM Shinde inaugurates Samruddhi Phase 2, 26 May 2023",
+            "url": "https://indianexpress.com/article/cities/mumbai/cm-shinde-inaugurates-samruddhi-mahamarg-phase-2-shirdi-bharvi-8630948/",
+            "year": 2023
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "name": "Bharveer–Igatpuri",
+        "sources": [
+          {
+            "title": "ThePrint / PTI — Samruddhi third phase inaugurated 4 March 2024",
+            "url": "https://theprint.in/india/third-phase-of-samruddhi-expressway-inaugurated-in-nashik-district/1987834/",
+            "year": 2024
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "delhi-mumbai-expressway",
+    "name": "Delhi–Mumbai Expressway",
+    "kind": "road",
+    "scale": "landmark",
+    "started": 2019,
+    "opened": 2023,
+    "status": "ongoing",
+    "place": {
+      "longitude": 75.5,
+      "latitude": 24.2,
+      "label": "Delhi–Vadodara–Mumbai",
+      "precision": "corridor"
+    },
+    "states": [
+      "Delhi",
+      "Haryana",
+      "Rajasthan",
+      "Madhya Pradesh",
+      "Gujarat",
+      "Maharashtra"
+    ],
+    "path": [
+      {
+        "longitude": 77.21,
+        "latitude": 28.61
+      },
+      {
+        "longitude": 76.84,
+        "latitude": 28.25
+      },
+      {
+        "longitude": 76.34,
+        "latitude": 26.89
+      },
+      {
+        "longitude": 75.83,
+        "latitude": 25.18
+      },
+      {
+        "longitude": 73.18,
+        "latitude": 22.31
+      },
+      {
+        "longitude": 72.95,
+        "latitude": 18.95
+      }
+    ],
+    "summary": "An eight-lane NHAI national spine of about 1,386 km from Delhi toward Mumbai through Haryana, Rajasthan, Madhya Pradesh and Gujarat. Nitin Gadkari laid foundation stones for major sections in March 2019. Narendra Modi dedicated the first completed section, 246 km from Delhi through Dausa to Lalsot, on 12 February 2023. Later packages toward Vadodara and the Konkan end were commissioned in stages; the corridor as a whole was still being closed when this record was compiled.",
+    "sources": [
+      {
+        "title": "PIB — PM to dedicate Delhi–Dausa–Lalsot section of Delhi–Mumbai Expressway",
+        "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1898188",
+        "year": 2023
+      },
+      {
+        "title": "Indian Express — Delhi–Mumbai Expressway first phase, 12 February 2023",
+        "url": "https://indianexpress.com/article/explained/how-delhi-mumbai-expressway-is-all-set-to-revolutionise-travel-8437299/",
+        "year": 2023
+      }
+    ],
+    "commissions": [
+      {
+        "year": 2024,
+        "name": "Vadodara–Bharuch",
+        "sources": [
+          {
+            "title": "Livemint — PM inaugurates Vadodara–Bharuch section, 22 February 2024",
+            "url": "https://www.livemint.com/industry/infrastructure/modi-dedicates-to-the-nation-vadodara-mumbai-expressway-tapi-rural-drinking-water-project-11708593584863.html",
+            "year": 2024
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bengaluru-mysuru-expressway",
+    "name": "Bengaluru–Mysuru Expressway",
+    "kind": "road",
+    "scale": "trunk",
+    "opened": 2023,
+    "status": "open",
+    "place": {
+      "longitude": 76.85,
+      "latitude": 12.55,
+      "label": "NH-275, Karnataka",
+      "precision": "corridor"
+    },
+    "states": [
+      "Karnataka"
+    ],
+    "path": [
+      {
+        "longitude": 77.45,
+        "latitude": 12.9
+      },
+      {
+        "longitude": 76.9,
+        "latitude": 12.52
+      },
+      {
+        "longitude": 76.64,
+        "latitude": 12.3
+      }
+    ],
+    "summary": "A 6- to 10-lane access-controlled rebuilding of NH-275, about 118 km from Bengaluru toward Mysuru. Narendra Modi inaugurated it on 12 March 2023 and held a roadshow in Mandya. It is a commissioned state–Union highway asset on an old alignment, not a greenfield national programme.",
+    "sources": [
+      {
+        "title": "The Hindu — PM inaugurates Bengaluru–Mysuru Expressway, 12 March 2023",
+        "url": "https://www.thehindu.com/news/national/karnataka/pm-modi-in-karnataka-prime-minister-inaugurates-bengaluru-mysuru-expressway-holds-mega-roadshow-in-mandya/article66610382.ece",
+        "year": 2023
+      }
+    ]
+  },
+  {
+    "id": "bhupen-hazarika-setu",
+    "name": "Bhupen Hazarika Setu",
+    "kind": "bridge",
+    "scale": "landmark",
+    "started": 2011,
+    "opened": 2017,
+    "status": "open",
+    "place": {
+      "longitude": 95.58,
+      "latitude": 27.8,
+      "label": "Dhola–Sadiya, Assam",
+      "precision": "site"
+    },
+    "states": [
+      "Assam",
+      "Arunachal Pradesh"
+    ],
+    "path": null,
+    "summary": "A 9.15 km three-lane bridge over the Lohit, a Brahmaputra channel, between Dhola and Sadiya in Tinsukia district. Built under the Arunachal Package of SARDP-NE; construction began in 2011. Narendra Modi inaugurated it on 26 May 2017 and named it after Bhupen Hazarika. It replaced a daytime ferry and cut the road from Rupai on NH-37 to Roing in Arunachal Pradesh by about 165 km. It was then India’s longest river bridge.",
+    "sources": [
+      {
+        "title": "PIB — India’s longest bridge brings Assam closer to Arunachal Pradesh, 26 May 2017",
+        "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=162165",
+        "year": 2017
+      },
+      {
+        "title": "PIB — English rendering of PM’s speech at Dhola–Sadiya",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1494646",
+        "year": 2017
+      },
+      {
+        "title": "The Hindu — Dhola–Sadiya Bridge: 10 things to know, 26 May 2017",
+        "url": "https://www.thehindu.com/news/national/other-states/dhola-sadiya-bridge-10-things-to-know/article18582536.ece",
+        "year": 2017
+      }
+    ]
+  },
+  {
+    "id": "signature-bridge",
+    "name": "Signature Bridge",
+    "kind": "bridge",
+    "scale": "civic",
+    "started": 2010,
+    "opened": 2018,
+    "status": "open",
+    "place": {
+      "longitude": 77.23,
+      "latitude": 28.71,
+      "label": "Wazirabad, Delhi",
+      "precision": "site"
+    },
+    "states": [
+      "Delhi"
+    ],
+    "path": null,
+    "summary": "An asymmetrical cable-stayed road bridge across the Yamuna at Wazirabad, built by the Delhi Tourism and Transportation Development Corporation. Announced in 2004 and delayed past the Commonwealth Games. Arvind Kejriwal inaugurated it on 4 November 2018; it opened to traffic on 5 November. The pylon is about 154 m. It takes north and northeast Delhi traffic off the older Wazirabad Bridge.",
+    "sources": [
+      {
+        "title": "Indian Express — Signature Bridge opens to public, 4 November 2018",
+        "url": "https://indianexpress.com/article/cities/delhi/delhi-yamuna-wazirabad-bridge-5432155/",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "id": "sudarshan-setu",
+    "name": "Sudarshan Setu",
+    "kind": "bridge",
+    "scale": "trunk",
+    "started": 2017,
+    "opened": 2024,
+    "status": "open",
+    "place": {
+      "longitude": 69.07,
+      "latitude": 22.45,
+      "label": "Okha–Beyt Dwarka, Gujarat",
+      "precision": "site"
+    },
+    "states": [
+      "Gujarat"
+    ],
+    "path": null,
+    "summary": "A 2.32 km cable-stayed bridge from Okha on the mainland to Beyt Dwarka island in Devbhumi Dwarka district. A foundation is dated October 2017. Narendra Modi inaugurated it on 25 February 2024. It replaced a ferry for pilgrims and residents of the island. The Ministry of Road Transport and Highways records it as India’s longest cable-stayed bridge over the sea at opening.",
+    "sources": [
+      {
+        "title": "The Hindu — PM Modi inaugurates Sudarshan Setu, 25 February 2024",
+        "url": "https://www.thehindu.com/news/national/pm-modi-inaugurates-cable-stayed-sudarshan-setu-bridge-in-gujarat/article67884391.ece",
+        "year": 2024
+      },
+      {
+        "title": "PIB — Sudarshan Setu dedicated",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2008763",
+        "year": 2024
+      }
+    ]
+  },
+  {
+    "id": "vizhinjam",
+    "name": "Vizhinjam International Seaport",
+    "kind": "port",
+    "scale": "landmark",
+    "started": 2015,
+    "opened": 2025,
+    "status": "open",
+    "place": {
+      "longitude": 76.99,
+      "latitude": 8.38,
+      "label": "Vizhinjam, Thiruvananthapuram, Kerala",
+      "precision": "site"
+    },
+    "states": [
+      "Kerala"
+    ],
+    "path": null,
+    "summary": "A deep-water transshipment harbour on the Thiruvananthapuram coast, a public–private partnership of the Government of Kerala and Adani Ports. Construction began on 5 December 2015. Trial berthing is dated July 2024; motherships called from December 2024. Narendra Modi dedicated the port on 2 May 2025. It is intended to take some of the transshipment now done at Colombo and Singapore.",
+    "sources": [
+      {
+        "title": "The Hindu — PM Modi dedicates Vizhinjam International Seaport, 2 May 2025",
+        "url": "https://www.thehindu.com/news/national/kerala/pm-modi-dedicates-vizhinjam-international-seaport-to-the-nation/article69529503.ece",
+        "year": 2025
+      }
+    ]
+  },
+  {
+    "id": "dedicated-freight-eastern",
+    "name": "Eastern Dedicated Freight Corridor",
+    "kind": "rail",
+    "scale": "landmark",
+    "started": 2006,
+    "opened": 2020,
+    "status": "ongoing",
+    "place": {
+      "longitude": 80.4,
+      "latitude": 26.5,
+      "label": "Sahnewal–Dankuni freight spine",
+      "precision": "corridor"
+    },
+    "states": [
+      "Punjab",
+      "Haryana",
+      "Uttar Pradesh",
+      "Bihar",
+      "Jharkhand",
+      "West Bengal"
+    ],
+    "path": [
+      {
+        "longitude": 75.98,
+        "latitude": 30.84
+      },
+      {
+        "longitude": 77.3,
+        "latitude": 28.25
+      },
+      {
+        "longitude": 80.35,
+        "latitude": 26.47
+      },
+      {
+        "longitude": 82.97,
+        "latitude": 25.32
+      },
+      {
+        "longitude": 85.13,
+        "latitude": 25.59
+      },
+      {
+        "longitude": 86.98,
+        "latitude": 23.8
+      },
+      {
+        "longitude": 88.29,
+        "latitude": 22.68
+      }
+    ],
+    "summary": "An electrified freight-only railway planned from Sahnewal near Ludhiana to Dankuni near Kolkata, about 1,856 km, built by DFCCIL. The corporation was incorporated in 2006. Narendra Modi inaugurated the 351 km New Bhaupur–New Khurja section in Uttar Pradesh, and the Operation Control Centre at Prayagraj, on 29 December 2020. Later packages toward Sonnagar were commissioned in stages; the Ludhiana and Dankuni ends were still being closed when this record was compiled.",
+    "commissions": [
+      {
+        "year": 2023,
+        "name": "DDU–Sonnagar",
+        "sources": [
+          {
+            "title": "DFCCIL — DDU–Sonnagar inaugurated 7 July 2023",
+            "url": "https://dfccil.com/Home/ProgressStatusImage",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "name": "Bhaupur–DDU",
+        "sources": [
+          {
+            "title": "DFCCIL — Bhaupur–DDU inaugurated 18 December 2023",
+            "url": "https://dfccil.com/Home/ProgressStatusImage",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "name": "Khurja–Dadri",
+        "sources": [
+          {
+            "title": "DFCCIL — Khurja–Dadri inaugurated 25 January 2024",
+            "url": "https://dfccil.com/Home/ProgressStatusImage",
+            "year": 2026
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "name": "Sahnewal–Pilkhani and Pilkhani–Khurja",
+        "sources": [
+          {
+            "title": "DFCCIL — Sahnewal–Pilkhani and Pilkhani–Khurja inaugurated 12 March 2024",
+            "url": "https://dfccil.com/Home/ProgressStatusImage",
+            "year": 2026
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "PIB — PM inaugurates New Bhaupur–New Khurja section of Eastern DFC, 29 December 2020",
+        "url": "https://pib.gov.in/PressReleseDetailm.aspx?PRID=1684342",
+        "year": 2020
+      },
+      {
+        "title": "The Hindu Business Line — PM inaugurates New Bhaupur–New Khurja section",
+        "url": "https://www.thehindubusinessline.com/news/pm-inaugurates-new-bhaupur-new-khurja-section-of-eastern-freight-corridor/article33443879.ece",
+        "year": 2020
+      }
+    ]
+  },
+  {
+    "id": "srisailam",
+    "name": "Srisailam",
+    "kind": "dam",
+    "scale": "landmark",
+    "opened": 1982,
+    "status": "open",
+    "place": {
+      "longitude": 78.898,
+      "latitude": 16.09,
+      "label": "Srisailam, Nandyal / Nagarkurnool",
+      "precision": "site"
+    },
+    "states": [
+      "Andhra Pradesh",
+      "Telangana"
+    ],
+    "path": null,
+    "summary": "A masonry gravity dam on the Krishna in the Nallamala gorge, with powerhouses on both banks. APGENCO records Unit 1 of the 770 MW Right Bank Power House commissioned on 30 August 1982 and Unit 7 on 15 March 1987. After bifurcation the left-bank pumped-storage station is with TSGENCO. The reservoir feeds irrigation toward Kurnool and Kadapa and the Nagarjuna Sagar system downstream.",
+    "sources": [
+      {
+        "title": "APGENCO — Srisailam Right Bank Power House",
+        "url": "https://apgenco.gov.in/Main/pageview/6/66/3",
+        "year": 2026
+      },
+      {
+        "title": "The Hindu — AP-Genco plans capital overhaul of Srisailam Right Bank Power House",
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/ap-genco-plans-capital-overhaul-of-srisailam-right-bank-power-house-in-phases/article67164609.ece",
+        "year": 2023
+      }
+    ],
+    "commissions": [
+      {
+        "year": 2001,
+        "name": "Left Bank Power House Unit 1",
+        "sources": [
+          {
+            "title": "CAG Andhra Pradesh 2002 — Srisailam Left Bank units commissioned April 2001–April 2002",
+            "url": "https://cag.gov.in/uploads/old_reports/state/Andhra_Pradesh/rep_2002/com_chapter_2C.pdf",
+            "year": 2002
+          },
+          {
+            "title": "Times of India — APGenco commissions Srisailam Left Bank Unit 3, 21 April 2002",
+            "url": "https://timesofindia.indiatimes.com/city/hyderabad/apgenco-adds-150-mw-to-state-grid/articleshow/7610305.cms",
+            "year": 2002
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "almatti",
+    "name": "Almatti Dam",
+    "kind": "dam",
+    "scale": "trunk",
+    "started": 1964,
+    "opened": 2006,
+    "status": "open",
+    "place": {
+      "longitude": 75.888,
+      "latitude": 16.331,
+      "label": "Almatti, Vijayapura district, Karnataka",
+      "precision": "site"
+    },
+    "states": [
+      "Karnataka"
+    ],
+    "path": null,
+    "summary": "The main reservoir of the Upper Krishna Project, officially Lal Bahadur Shastri Reservoir, on the Krishna at Almatti. Lal Bahadur Shastri laid a foundation on 22 May 1964. Krishna Bhagya Jala Nigam records storage to full reservoir level 519.60 m in 2002. A. P. J. Abdul Kalam dedicated the dam on 21 August 2006. Karnataka Power Corporation runs a Kaplan station on the right bank. Narayanpur Dam downstream completes Stage I.",
+    "displacement": {
+      "note": "Business Standard, reporting the 2006 dedication, wrote that the backwaters had submerged 48,787 hectares of agricultural land and 136 villages, affecting 2.30 lakh people. Those figures are the newspaper’s account of official project numbers at dedication, not a later rehabilitation census.",
+      "sources": [
+        "https://www.business-standard.com/article/economy-policy/almatti-dam-to-quench-thirst-of-n-karnataka-106082201095_1.html"
+      ]
+    },
+    "sources": [
+      {
+        "title": "KBJNL — Almatti Dam salient features",
+        "url": "https://kbjnl.karnataka.gov.in/storage/pdf-files/Dam%20Zone-Alm-Comp-Eng.pdf",
+        "year": 2020
+      },
+      {
+        "title": "Business Standard — Almatti Dam dedicated, 21 August 2006",
+        "url": "https://www.business-standard.com/article/economy-policy/almatti-dam-to-quench-thirst-of-n-karnataka-106082201095_1.html",
+        "year": 2006
+      }
+    ]
+  },
+  {
+    "id": "rihand",
+    "name": "Rihand Dam",
+    "kind": "dam",
+    "scale": "landmark",
+    "started": 1954,
+    "opened": 1963,
+    "status": "open",
+    "place": {
+      "longitude": 83.008,
+      "latitude": 24.202,
+      "label": "Pipri, Sonbhadra district, Uttar Pradesh",
+      "precision": "site"
+    },
+    "states": [
+      "Uttar Pradesh",
+      "Madhya Pradesh"
+    ],
+    "path": null,
+    "summary": "A concrete gravity dam on the Rihand, a tributary of the Son, at Pipri. The reservoir is Govind Ballabh Pant Sagar. Jawaharlal Nehru laid the foundation in July 1954; construction ran through 1962. The Nehru Archive dates his inauguration speech at the dam to 7 January 1963. A 300 MW powerhouse sits at the toe. NTPC’s Singrauli station later used the same water.",
+    "sources": [
+      {
+        "title": "Nehru Archive — Rihand Dam; inauguration speech, 7 January 1963",
+        "url": "https://nehruarchive.in/locations/rihand-dam",
+        "year": 1963
+      }
+    ]
+  },
+  {
+    "id": "ukai",
+    "name": "Ukai Dam",
+    "kind": "dam",
+    "scale": "trunk",
+    "started": 1964,
+    "opened": 1972,
+    "status": "open",
+    "place": {
+      "longitude": 73.589,
+      "latitude": 21.248,
+      "label": "Ukai, Tapi district, Gujarat",
+      "precision": "site"
+    },
+    "states": [
+      "Gujarat"
+    ],
+    "path": null,
+    "summary": "An earth-cum-masonry dam on the Tapi near Songadh, Gujarat’s largest reservoir after Sardar Sarovar, also called Vallabh Sagar. The Narmada Water Resources department of Gujarat records construction from 1964 and completion in 1972, for irrigation, hydropower and flood control. GSECL’s 300 MW river-bed powerhouse commissioned four 75 MW units between 1974 and 1976. Left-bank canals serve Surat, Tapi, Navsari and Valsad.",
+    "displacement": {
+      "note": "The Gujarat Narmada Water Resources page for Ukai records 170 villages under submergence and 60,093 hectares at full reservoir level (22,258 ha forest, 7,485 ha waste, 30,350 ha culturable). It does not publish a household count on that sheet.",
+      "sources": [
+        "https://guj-nwrws.gujarat.gov.in/showpage.aspx?contentid=1601&lang=english"
+      ]
+    },
+    "sources": [
+      {
+        "title": "Gujarat Narmada Water Resources — Ukai Water Resources Project",
+        "url": "https://guj-nwrws.gujarat.gov.in/showpage.aspx?contentid=1601&lang=english",
+        "year": 2026
+      }
+    ]
+  },
+  {
+    "id": "subansiri-lower",
+    "name": "Subansiri Lower",
+    "kind": "dam",
+    "scale": "landmark",
+    "started": 2005,
+    "opened": 2025,
+    "status": "ongoing",
+    "place": {
+      "longitude": 94.26,
+      "latitude": 27.55,
+      "label": "Gerukamukh, Assam–Arunachal Pradesh",
+      "precision": "site"
+    },
+    "states": [
+      "Assam",
+      "Arunachal Pradesh"
+    ],
+    "path": null,
+    "summary": "NHPC’s 2,000 MW run-of-river station on the Subansiri at Gerukamukh, eight units of 250 MW, planned as India’s largest hydropower project. Cabinet clearance is dated January 2005; construction began that year. Downstream protests in Assam, led with Krishak Mukti Sangram Samiti and AASU, stopped work in December 2011; it resumed after National Green Tribunal orders around 2019. NHPC declared commercial operation of Unit 2, the first unit, on 23 December 2025. Remaining units were still being commissioned into 2026–27.",
+    "displacement": {
+      "note": "Official project figures cited in reporting of the Assam protests give 38 families displaced at the dam site. The larger dispute was downstream: flood pulse, seismic design, and livelihoods on the Subansiri–Brahmaputra floodplain, which is why construction stopped from 2011. This atlas does not treat 38 families as a measure of that downstream harm.",
+      "sources": [
+        "https://scroll.in/article/944565/subansiri-dam-will-produce-costly-power-and-wont-control-assam-floods-why-is-it-still-being-built",
+        "https://riverresourcehub.org/resources/peoples-power-blocks-dam-construction-in-northeast-india/"
+      ]
+    },
+    "sources": [
+      {
+        "title": "International Water Power — NHPC announces commercial operation of first Subansiri Lower unit",
+        "url": "https://www.waterpowermagazine.com/news/nhpc-announces-commercial-operation-of-first-unit-at-subansiri-lower-hydroelectric-project/",
+        "year": 2025
+      },
+      {
+        "title": "Scroll — Subansiri dam protests and the 2011 stoppage",
+        "url": "https://scroll.in/article/944565/subansiri-dam-will-produce-costly-power-and-wont-control-assam-floods-why-is-it-still-being-built",
+        "year": 2019
       }
     ]
   }

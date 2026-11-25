@@ -24,7 +24,10 @@ export const META = metaRow as StatesMeta;
 
 export const YEAR_MIN = 1947;
 export const YEAR_MAX = 2025;
-export const SERIES_YEARS = (META.years?.length ? META.years : [1971, 1981, 1991, 2001, 2011, 2021, 2023]) as number[];
+export const SERIES_YEARS = (META.years?.length ? META.years : [1971, 1981, 1991, 2001, 2011, 2016, 2019, 2021, 2023]) as number[];
+export const ALL_INDIA_NNI = (META.allIndiaNni ?? [])
+  .filter((row) => row.perCapitaRs != null)
+  .map((row) => ({ year: row.year, value: row.perCapitaRs as number }));
 
 export const STATE_BY_ID = new Map(STATES.map((state) => [state.id, state]));
 export const STATE_BY_GEO = new Map(STATES.map((state) => [state.geoName, state]));
@@ -181,6 +184,15 @@ export function colorForImr(value: number, min: number, max: number): string {
 
 export function formatRupees(value: number): string {
   return `₹${Math.round(value).toLocaleString("en-IN")}`;
+}
+
+export function formatAxisRupees(value: number): string {
+  if (value >= 100000) {
+    const lakh = value / 100000;
+    return Number.isInteger(lakh) ? `₹${lakh}L` : `₹${lakh.toFixed(1)}L`;
+  }
+  if (value >= 1000) return `₹${Math.round(value / 1000)}k`;
+  return `₹${Math.round(value)}`;
 }
 
 export function formatImr(value: number): string {

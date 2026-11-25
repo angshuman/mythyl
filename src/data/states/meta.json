@@ -1,13 +1,15 @@
 {
-  "span": "1971–2023",
+  "span": "1971–2024",
   "attribution": "GSDP/NSDP: MOSPI / NSO, compiled in RBI Handbook of Statistics on Indian States (Tables 10 and 22, 2011–12 constant prices; Table 8 historical current prices). Child mortality: SRS via RBI Table 4 and SRS Statistical Reports 2021 and 2023; MOSPI Table 2.11 for 1971–2001. Politics: ECI / PRS / official CM lists / Britannica.",
-  "comparability": "The 2011, 2021 and 2023 income points are per-capita NSDP at constant 2011–12 prices (market prices). GSDP totals on those points are the same base, converted from ₹ lakh to ₹ crore. The 1981, 1991 and 2001 income points are older current-price factor-cost series (1980–81 base for 1981 and 1991; 1999–00 base for 2001) and are not spliced to the 2011–12 constant series. IMR is SRS throughout; 1971–2001 from MOSPI Table 2.11, 2011–2023 from RBI Table 4. Under-five mortality is added only for 2021 and 2023, and only for bigger states in the SRS Statistical Reports. State reorganisation in 1956, 2000, 2014 and 2019 breaks longer series: parent-state figures before a split include the child territory; MOSPI’s 2011–12 tables backcast Andhra Pradesh and Telangana separately but do not unsplice 2000. Jammu and Kashmir GSDP from 2019–20 excludes Ladakh. Gujarat’s 2023–24 constant GSDP is unpublished in RBI Table 22. Where a figure is missing it is omitted.",
+  "comparability": "The 2011–2024 income points are annual per-capita NSDP at constant 2011–12 prices (market prices), MOSPI via RBI Handbook Table 10 (29 Aug 2025). 2024–25 is plotted only where that table publishes a figure. The 1981, 1991 and 2001 income points are older current-price factor-cost series and are not spliced to the 2011–12 constant series. IMR is the SRS annual series compiled in RBI Table 4 (11 Dec 2025) for 2004–2023, with 1971–2001 from MOSPI Table 2.11. Under-five mortality is added only for 2021 and 2023, and only for bigger states in the SRS Statistical Reports. State reorganisation in 1956, 2000, 2014 and 2019 breaks longer series: parent-state figures before a split include the child territory; MOSPI’s 2011–12 tables backcast Andhra Pradesh and Telangana separately but do not unsplice 2000. Jammu and Kashmir GSDP from 2019–20 excludes Ladakh. The All-India comparison line is per-capita NNI at 2011–12 prices from the same table, not state NSDP. Where a figure is missing it is omitted.",
   "years": [
     1971,
     1981,
     1991,
     2001,
     2011,
+    2016,
+    2019,
     2021,
     2023
   ],
@@ -51,6 +53,92 @@
       "title": "Know India: Prime Ministers of India",
       "url": "https://knowindia.india.gov.in/general-information/prime-ministers-of-india.php",
       "year": 2024
+    }
+  ],
+  "allIndiaNni": [
+    {
+      "year": 2011,
+      "perCapitaRs": 63462,
+      "price": "2011-12",
+      "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
+    },
+    {
+      "year": 2012,
+      "perCapitaRs": 65538,
+      "price": "2011-12",
+      "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
+    },
+    {
+      "year": 2013,
+      "perCapitaRs": 68572,
+      "price": "2011-12",
+      "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
+    },
+    {
+      "year": 2014,
+      "perCapitaRs": 72805,
+      "price": "2011-12",
+      "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
+    },
+    {
+      "year": 2015,
+      "perCapitaRs": 77659,
+      "price": "2011-12",
+      "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
+    },
+    {
+      "year": 2016,
+      "perCapitaRs": 83003,
+      "price": "2011-12",
+      "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
+    },
+    {
+      "year": 2017,
+      "perCapitaRs": 87586,
+      "price": "2011-12",
+      "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
+    },
+    {
+      "year": 2018,
+      "perCapitaRs": 92133,
+      "price": "2011-12",
+      "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
+    },
+    {
+      "year": 2019,
+      "perCapitaRs": 94420,
+      "price": "2011-12",
+      "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
+    },
+    {
+      "year": 2020,
+      "perCapitaRs": 86034,
+      "price": "2011-12",
+      "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
+    },
+    {
+      "year": 2021,
+      "perCapitaRs": 94054,
+      "price": "2011-12",
+      "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
+    },
+    {
+      "year": 2022,
+      "perCapitaRs": 100163,
+      "price": "2011-12",
+      "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
+    },
+    {
+      "year": 2023,
+      "perCapitaRs": 108786,
+      "price": "2011-12",
+      "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
+    },
+    {
+      "year": 2024,
+      "perCapitaRs": 114710,
+      "price": "2011-12",
+      "incomeSource": "https://www.rbi.org.in/Scripts/PublicationsView.aspx?id=23184"
     }
   ]
 }

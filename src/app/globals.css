@@ -79,7 +79,7 @@ a {
   min-height: 100svh;
   display: flex;
   flex-direction: column;
-  padding: 1.35rem 5.5vw 2.6rem;
+  padding: 0.9rem 4.2vw 1.2rem;
 }
 
 .landing-mast {
@@ -87,7 +87,7 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 1.4rem;
-  padding: 0.4rem 0 1.15rem;
+  padding: 0.2rem 0 0.7rem;
   border-bottom: 1px solid var(--rule);
 }
 
@@ -129,10 +129,10 @@ a {
 }
 
 .landing-mark {
-  width: min(13.5rem, 36vw);
+  width: min(7.2rem, 18vw);
   height: auto;
   justify-self: end;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0;
   overflow: visible;
 }
 
@@ -146,15 +146,15 @@ a {
 .landing-hero {
   display: grid;
   grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
-  gap: 3vw;
+  gap: 2vw;
   align-items: end;
-  padding: 2.4rem 0 2rem;
+  padding: 0.85rem 0 0.75rem;
 }
 
 .landing h1 {
   font-family: var(--font-serif), ui-serif, Georgia, serif;
-  font-size: clamp(3.2rem, 7.2vw, 6.2rem);
-  line-height: 0.88;
+  font-size: clamp(2.1rem, 4.4vw, 3.4rem);
+  line-height: 0.9;
   font-weight: 400;
   margin: 0;
   letter-spacing: -0.035em;
@@ -163,19 +163,23 @@ a {
 .gallery {
   flex: 1;
   display: grid;
-  gap: 1.4rem;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 0.75rem;
+  min-height: 0;
   align-content: stretch;
 }
 
 .piece {
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
-  gap: 3vw;
+  grid-template-columns: minmax(7.5rem, 0.8fr) minmax(0, 1.2fr);
+  gap: 0.7rem 1rem;
   align-items: center;
   min-height: 0;
-  padding: 1.1rem 1.6rem 1.1rem 1.2rem;
+  overflow: hidden;
+  padding: 0.55rem 0.9rem 0.6rem 0.55rem;
   border: 1px solid var(--rule);
-  border-radius: 1.35rem;
+  border-radius: 1rem;
   background:
     radial-gradient(900px 280px at 18% -10%, rgba(143, 208, 178, 0.07), transparent 60%),
     rgba(231, 220, 200, 0.025);
@@ -193,12 +197,13 @@ a {
 .piece-stage {
   position: relative;
   justify-self: center;
-  width: min(100%, 420px);
+  width: min(100%, 220px);
 }
 
 .piece-copy {
   max-width: 28rem;
-  padding: 0.4rem 0 0.6rem;
+  padding: 0.15rem 0.1rem 0.2rem 0;
+  min-width: 0;
 }
 
 .piece-kicker {
@@ -210,26 +215,26 @@ a {
 
 .piece h2 {
   font-family: var(--font-serif), ui-serif, Georgia, serif;
-  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-size: clamp(1.2rem, 1.7vw, 1.65rem);
   font-weight: 400;
   letter-spacing: -0.02em;
-  line-height: 1.05;
-  margin: 0.55rem 0 0.7rem;
+  line-height: 1.08;
+  margin: 0.28rem 0 0.35rem;
 }
 
 .piece-copy p {
   color: var(--paper-dim);
-  font-size: 1.02rem;
-  line-height: 1.55;
+  font-size: 0.84rem;
+  line-height: 1.4;
 }
 
 .piece-meta {
-  margin-top: 1.5rem;
+  margin-top: 0.65rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 1.4rem;
+  gap: 0.85rem 1.1rem;
   color: var(--paper-dim);
-  font-size: 0.7rem;
+  font-size: 0.64rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
 }
@@ -242,9 +247,9 @@ a {
 .piece-go {
   display: inline-flex;
   align-items: center;
-  gap: 0.7rem;
-  margin-top: 1.6rem;
-  font-size: 0.92rem;
+  gap: 0.55rem;
+  margin-top: 0.55rem;
+  font-size: 0.82rem;
   letter-spacing: 0.04em;
 }
 
@@ -343,7 +348,8 @@ a {
   animation: draw-land 2.2s 0.35s ease forwards, glow-ne 3.2s 2s ease-in-out infinite;
 }
 
-.states-mark-svg #fill-states path {
+.states-mark-svg #fill-states path,
+.states-mark-svg #fill-northeast path {
   fill: rgba(126, 184, 160, 0.05);
   stroke: rgba(126, 184, 160, 0.78);
   stroke-width: 0.7;
@@ -353,7 +359,8 @@ a {
   animation: draw-land 2.4s ease forwards;
 }
 
-.works-mark-svg #fill-states path {
+.works-mark-svg #fill-states path,
+.works-mark-svg #fill-northeast path {
   fill: rgba(201, 162, 39, 0.05);
   stroke: rgba(201, 162, 39, 0.78);
   stroke-width: 0.7;
@@ -416,46 +423,80 @@ a {
 
 @media (max-width: 800px) {
   .landing {
-    padding: 1.1rem 6vw 2.8rem;
+    padding: 0.75rem 5.5vw 1.4rem;
+    min-height: 0;
   }
 
-  .landing-mast {
+  .landing .landing-mast {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.4rem;
+    gap: 0.22rem;
   }
 
-  .landing-hero {
-    grid-template-columns: 1fr;
-    padding: 1.8rem 0 1.4rem;
-    gap: 1.1rem;
+  .landing .landing-hero {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: end;
+    padding: 0.6rem 0 0.55rem;
+    gap: 0.8rem;
   }
 
   .landing h1 {
-    font-size: clamp(2.8rem, 14vw, 4.2rem);
+    font-size: clamp(1.85rem, 9vw, 2.45rem);
   }
 
-  .landing-mark {
-    width: 7.6rem;
-    justify-self: start;
-    margin: 0.15rem 0 0.6rem;
+  .landing .landing-mark {
+    width: 4.4rem;
+    justify-self: end;
+    margin: 0;
   }
 
-  .piece {
-    grid-template-columns: 1fr;
-    padding: 1rem 1rem 1.4rem;
+  .landing .gallery {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto;
+    flex: 0 0 auto;
+    gap: 0.55rem;
   }
 
-  .piece-stage {
-    order: -1;
-    width: min(100%, 340px);
+  .landing .piece {
+    grid-template-columns: 6.8rem minmax(0, 1fr);
+    gap: 0.45rem 0.7rem;
+    padding: 0.45rem 0.7rem 0.5rem 0.4rem;
+  }
+
+  .landing .piece-stage {
+    width: 6.8rem;
+    order: 0;
+  }
+
+  .landing .piece h2 {
+    font-size: 1.12rem;
+    margin: 0.1rem 0 0.12rem;
+  }
+
+  .landing .piece-copy p:not(.piece-kicker) {
+    display: none;
+  }
+
+  .landing .piece-meta {
+    margin-top: 0.35rem;
+    gap: 0.45rem 0.85rem;
+  }
+
+  .landing .piece span.piece-go {
+    display: none;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .india-mark-svg path,
-  .india-mark-dots circle {
+  .states-mark-svg path,
+  .works-mark-svg path,
+  .raj-mark-svg path,
+  .india-mark-dots circle,
+  .states-mark-dots circle,
+  .works-mark-dots circle,
+  .raj-mark-dots circle {
     animation: none !important;
     stroke-dashoffset: 0;
     opacity: 1;

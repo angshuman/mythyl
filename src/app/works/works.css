@@ -9,6 +9,33 @@
   background: #0c0e12;
 }
 
+.map-page[data-atlas="works"] .map-tools-row {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.map-page[data-atlas="works"] .map-tools-row::-webkit-scrollbar {
+  display: none;
+}
+
+.map-page[data-atlas="works"] .map-tools .map-filters {
+  flex-wrap: nowrap;
+  gap: 0.28rem;
+}
+
+.map-page[data-atlas="works"] .map-tools .map-filters button .swatch {
+  width: 0.32rem;
+  height: 0.32rem;
+  margin-right: 0.22rem;
+}
+
+.map-page[data-atlas="works"] .map-card .card-close {
+  margin-top: 0;
+  padding: 0.4rem 0.85rem;
+  font-size: 0.74rem;
+}
+
 .works-map,
 .works-map.maplibregl-map {
   position: absolute !important;
@@ -24,31 +51,63 @@
 .work-mark {
   display: grid;
   place-items: center;
-  width: 30px;
-  height: 30px;
+  width: 22px;
+  height: 22px;
   padding: 0;
-  border: 1.4px solid color-mix(in srgb, var(--dot) 85%, #e7dcc8);
+  border: 1.2px solid color-mix(in srgb, var(--dot) 80%, #e7dcc8);
   border-radius: 999px;
-  background: color-mix(in srgb, #141820 35%, var(--dot));
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--dot) 28%, transparent);
+  background: color-mix(in srgb, #141820 48%, var(--dot));
+  box-shadow: none;
   cursor: pointer;
 }
 
 .work-mark[data-scale="landmark"] {
-  width: 34px;
-  height: 34px;
+  width: 26px;
+  height: 26px;
 }
 
 .work-mark[data-scale="civic"] {
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
 }
 
-.work-mark[data-status="ongoing"] {
+.work-mark-dot {
+  width: 8px;
+  height: 8px;
+  border: 0;
+  background: var(--dot);
+  box-shadow: 0 0 0 1px color-mix(in srgb, #0c0e12 50%, var(--dot));
+}
+
+.work-mark-dot[data-scale="landmark"] {
+  width: 11px;
+  height: 11px;
+}
+
+.work-mark-dot[data-scale="civic"] {
+  width: 6px;
+  height: 6px;
+}
+
+.work-mark-hot {
+  width: 26px;
+  height: 26px;
+  border: 1.2px solid color-mix(in srgb, var(--dot) 85%, #e7dcc8);
+  background: color-mix(in srgb, #141820 35%, var(--dot));
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--dot) 34%, transparent);
+}
+
+.work-mark-hot svg {
+  display: block;
+  opacity: 1;
+  animation: none;
+}
+
+.work-mark[data-status="ongoing"]:not(.work-mark-dot) {
   animation: work-pulse 2.8s ease-in-out infinite;
 }
 
-.work-mark[data-status="stalled"] {
+.work-mark[data-status="stalled"]:not(.work-mark-dot) {
   border-style: dashed;
 }
 
@@ -57,6 +116,11 @@
   opacity: 0;
   animation: work-fade 0.45s ease forwards;
   animation-delay: var(--pop-delay, 0s);
+}
+
+.map-page[data-atlas="works"] .work-legend-all button:not(.on) {
+  opacity: 1;
+  color: var(--paper);
 }
 
 @keyframes work-fade {
@@ -68,10 +132,10 @@
 @keyframes work-pulse {
   0%,
   100% {
-    box-shadow: 0 0 0 3px color-mix(in srgb, var(--dot) 28%, transparent);
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--dot) 28%, transparent);
   }
   50% {
-    box-shadow: 0 0 0 8px color-mix(in srgb, var(--dot) 0%, transparent);
+    box-shadow: 0 0 0 6px color-mix(in srgb, var(--dot) 0%, transparent);
   }
 }
 
@@ -81,20 +145,65 @@
   font-size: 0.78rem;
 }
 
+.work-years .years-lane {
+  align-items: start;
+}
+
+.work-years .years-family {
+  padding-top: 0.35rem;
+}
+
 .work-years .years-plot {
   position: relative;
   min-height: 1.15rem;
 }
 
 .work-years .years-bar {
-  top: 0.38rem;
-  height: 7px;
+  height: 5px;
+}
+
+.work-years .years-day {
+  background: var(--paper);
 }
 
 .work-years .years-tick {
   top: -0.1rem;
   font-size: 0.5rem;
   opacity: 0.65;
+}
+
+.work-opens {
+  list-style: none;
+  margin: 0.32rem 0 0;
+  padding: 0.28rem 0 0;
+  border-top: 1px solid var(--rule);
+  display: grid;
+  gap: 0.1rem;
+  max-height: 5.4rem;
+  overflow: auto;
+}
+
+.work-opens li {
+  display: grid;
+  grid-template-columns: 2.55rem 1fr;
+  gap: 0.4rem;
+  margin: 0;
+  font-size: 0.68rem;
+  line-height: 1.3;
+  color: var(--paper-dim);
+}
+
+.work-opens li span:first-child {
+  color: var(--paper);
+  font-variant-numeric: tabular-nums;
+}
+
+.work-opens-hot span {
+  color: var(--paper);
+}
+
+.map-page[data-atlas="works"] .map-card {
+  max-height: 38%;
 }
 
 .map-filters button[data-scale="landmark"] .map-key-ring,
@@ -117,8 +226,70 @@
 
 @media (prefers-reduced-motion: reduce) {
   .work-mark,
+  .work-mark svg,
+  .work-mark-hot svg {
+    animation: none;
+    opacity: 1;
+  }
+
+  .work-mark-dot svg {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .map-page[data-atlas="works"] .map-tools {
+    padding: 0.22rem 0.75rem 0.4rem;
+    gap: 0.28rem;
+  }
+
+  .map-page[data-atlas="works"] .map-tools .map-filters button {
+    padding: 0.48rem 0.82rem;
+    font-size: 0.8rem;
+    min-height: 2.4rem;
+  }
+
   .work-mark svg {
     animation: none;
     opacity: 1;
+  }
+
+  .work-mark[data-status="ongoing"]:not(.work-mark-dot) {
+    animation: none;
+  }
+
+  .map-page[data-atlas="works"] .map-card .card-close {
+    padding: 0.5rem 0.95rem;
+    font-size: 0.8rem;
+  }
+
+  .work-mark {
+    width: 28px;
+    height: 28px;
+  }
+
+  .work-mark[data-scale="landmark"] {
+    width: 32px;
+    height: 32px;
+  }
+
+  .work-mark[data-scale="civic"] {
+    width: 24px;
+    height: 24px;
+  }
+
+  .work-mark-dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .work-mark-dot[data-scale="landmark"] {
+    width: 13px;
+    height: 13px;
+  }
+
+  .work-mark-dot[data-scale="civic"] {
+    width: 8px;
+    height: 8px;
   }
 }

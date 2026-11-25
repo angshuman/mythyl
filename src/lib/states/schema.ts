@@ -99,4 +99,5 @@ export type StatesMeta = {
   comparability: string;
   years: number[];
   sources: SourceRef[];
+  allIndiaNni?: SeriesPoint[];
 };

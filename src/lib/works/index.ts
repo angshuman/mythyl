@@ -2,7 +2,7 @@ import essayRows from "@/data/works/essays.json";
 import kindRows from "@/data/works/kinds.json";
 import metaRow from "@/data/works/meta.json";
 import projectRows from "@/data/works/projects.json";
-import type { KindDef, WorkEssay, WorkKind, WorkProject, WorkScale, WorksMeta } from "./schema";
+import type { KindDef, WorkCommission, WorkEssay, WorkKind, WorkProject, WorkScale, WorksMeta } from "./schema";
 
 export * from "./schema";
 
@@ -64,11 +64,48 @@ export function yearOf(project: WorkProject): number {
   return project.opened ?? project.started ?? YEAR_MIN;
 }
 
+export function commissionsOf(project: WorkProject): WorkCommission[] {
+  return project.commissions ?? [];
+}
+
+export function lastCommissionYear(project: WorkProject): number | undefined {
+  const years = commissionsOf(project).map((row) => row.year);
+  if (years.length === 0) return undefined;
+  return Math.max(...years);
+}
+
+export function spanStart(project: WorkProject): number {
+  return project.started ?? project.opened ?? YEAR_MIN;
+}
+
+export function spanEnd(project: WorkProject): number {
+  if (project.status === "ongoing" || project.status === "stalled") return YEAR_MAX;
+  const firstEnd = project.opened ?? spanStart(project);
+  const last = lastCommissionYear(project);
+  return last && last > firstEnd ? last : firstEnd;
+}
+
+export function packSpans(items: { id: string; start: number; end: number }[]): Map<string, number> {
+  const sorted = [...items].sort((a, b) => a.start - b.start || a.end - b.end);
+  const trackEnds: number[] = [];
+  const tracks = new Map<string, number>();
+  const gap = 0.4;
+  for (const item of sorted) {
+    let track = trackEnds.findIndex((end) => item.start >= end + gap);
+    if (track === -1) {
+      track = trackEnds.length;
+      trackEnds.push(item.end);
+    } else {
+      trackEnds[track] = item.end;
+    }
+    tracks.set(item.id, track);
+  }
+  return tracks;
+}
+
 export function inEra(project: WorkProject, era: WorkEra): boolean {
   if (era.id === "all") return true;
-  const start = project.started ?? project.opened ?? YEAR_MIN;
-  const end = project.status === "ongoing" || project.status === "stalled" ? YEAR_MAX : (project.opened ?? start);
-  return start <= era.end && end >= era.start;
+  return spanStart(project) <= era.end && spanEnd(project) >= era.start;
 }
 
 export function projectsForKind(kind: WorkKind): WorkProject[] {
@@ -76,10 +113,14 @@ export function projectsForKind(kind: WorkKind): WorkProject[] {
 }
 
 export function formatYears(project: WorkProject): string {
+  const last = lastCommissionYear(project);
   if (project.started && project.opened && project.opened !== project.started) {
+    if (last && last > project.opened) return `${project.started}–${project.opened} · ${last}`;
     return `${project.started}–${project.opened}`;
   }
   if (project.status === "ongoing") return `${project.started ?? project.opened ?? ""}–`;
   if (project.status === "stalled") return `${project.started ?? ""}–stalled`;
-  return String(project.opened ?? project.started ?? "");
+  const first = String(project.opened ?? project.started ?? "");
+  if (last && project.opened && last > project.opened) return `${first} · ${last}`;
+  return first;
 }

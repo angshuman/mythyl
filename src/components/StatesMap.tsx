@@ -32,6 +32,8 @@ import {
   colorForIncome,
   eventInEra,
   eventsForState,
+  ALL_INDIA_NNI,
+  formatAxisRupees,
   formatImr,
   formatRupees,
   imrExtent,
@@ -49,10 +51,34 @@ import {
   type StateEvent,
 } from "@/lib/states";
 import { INDIA_BOUNDS, INDIA_CENTER, INDIA_FIT_PADDING } from "@/lib/geo";
+import { SeriesChart } from "./SeriesChart";
 import { Sparkline } from "./Sparkline";
 import { StatesTimeline } from "./StatesTimeline";
 
 const SCALES: EventScale[] = ["union", "state", "local"];
+
+function prefersQuietMotion(): boolean {
+  return window.matchMedia("(max-width: 800px), (prefers-reduced-motion: reduce)").matches;
+}
+
+function fitCountry(map: MapLibreMap) {
+  map.fitBounds(INDIA_BOUNDS, {
+    padding: INDIA_FIT_PADDING,
+    duration: prefersQuietMotion() ? 0 : 650,
+  });
+}
+
+function flyToState(map: MapLibreMap, state: IndianState) {
+  const quiet = prefersQuietMotion();
+  map.easeTo({
+    center: [state.center.longitude, state.center.latitude],
+    zoom: Math.max(map.getZoom(), quiet ? 4.7 : 5.4),
+    duration: quiet ? 0 : 700,
+    padding: quiet
+      ? { top: 16, bottom: 220, left: 16, right: 16 }
+      : { top: 28, bottom: 28, left: 28, right: 28 },
+  });
+}
 
 function seriesYear(era: StateEra): number {
   return era.year ?? SERIES_YEARS[SERIES_YEARS.length - 1];
@@ -91,7 +117,7 @@ export function StatesMap() {
   const rootRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
   const markersRef = useRef<Marker[]>([]);
-  const [metric, setMetric] = useState<Metric>("survival");
+  const [metric, setMetric] = useState<Metric>("income");
   const [era, setEra] = useState<StateEra>(ERAS[ERAS.length - 1]);
   const [enabledScales, setEnabledScales] = useState<Record<EventScale, boolean>>({
     union: true,
@@ -104,6 +130,7 @@ export function StatesMap() {
   const [hovered, setHovered] = useState<IndianState | null>(null);
   const [yearsSelected, setYearsSelected] = useState<StateEvent | null>(null);
   const [mapError, setMapError] = useState<string | null>(null);
+  const [compactUi, setCompactUi] = useState(false);
 
   const visibleEvents = useMemo(() => {
     return allEvents().filter((event) => enabledScales[event.scale] && eventInEra(event, era));
@@ -114,6 +141,28 @@ export function StatesMap() {
     if (!map?.getLayer("india-fill")) return;
     map.setPaintProperty("india-fill", "fill-color", fillExpression(metric, era));
   }, [metric, era]);
+
+  const showCountry = useCallback(() => {
+    setSelected(null);
+    const map = mapRef.current;
+    if (map) fitCountry(map);
+  }, []);
+
+  useEffect(() => {
+    const mq = window.matchMedia("(max-width: 800px)");
+    const apply = () => setCompactUi(mq.matches);
+    apply();
+    mq.addEventListener("change", apply);
+    return () => mq.removeEventListener("change", apply);
+  }, []);
+
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key === "Escape") showCountry();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [showCountry]);
 
   useEffect(() => {
     if (!rootRef.current || mapRef.current) return;
@@ -242,15 +291,21 @@ export function StatesMap() {
       if (!name) return;
       const state = stateByGeo(name);
       if (!state) return;
+      if (selectedRef.current?.geoName === state.geoName) {
+        setSelected(null);
+        fitCountry(map);
+        return;
+      }
       setSelected(state);
-      map.easeTo({
-        center: [state.center.longitude, state.center.latitude],
-        zoom: Math.max(map.getZoom(), 5.4),
-        duration: 700,
-        padding: { top: 28, bottom: 140, left: 28, right: 28 },
-      });
+      flyToState(map, state);
     });
-
+    map.on("click", (event) => {
+      const hits = map.queryRenderedFeatures(event.point, { layers: ["india-fill"] });
+      if (hits.length) return;
+      if (!selectedRef.current) return;
+      setSelected(null);
+      fitCountry(map);
+    });
     const resize = () => map.resize();
     window.addEventListener("resize", resize);
     const observer = new ResizeObserver(resize);
@@ -284,6 +339,12 @@ export function StatesMap() {
   useEffect(() => {
     const map = mapRef.current;
     if (!map) return;
+    requestAnimationFrame(() => map.resize());
+  }, [selected]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
     for (const marker of markersRef.current) marker.remove();
     markersRef.current = [];
     for (const event of visibleEvents) {
@@ -302,7 +363,12 @@ export function StatesMap() {
           : STATES.find((row) => event.states.includes(row.name) || event.states.includes(row.geoName));
         if (host) setSelected(host);
       });
-      const marker = new Marker({ element: el, anchor: "center" }).setLngLat([point.longitude, point.latitude]).addTo(map);
+      const marker = new Marker({
+        element: el,
+        anchor: "center",
+      })
+        .setLngLat([point.longitude, point.latitude])
+        .addTo(map);
       markersRef.current.push(marker);
     }
   }, [visibleEvents]);
@@ -317,6 +383,26 @@ export function StatesMap() {
   const politicsYear = year;
   const cm = focus ? cmAt(focus, politicsYear) : undefined;
   const focusEvents = focus ? eventsForState(focus) : [];
+  const splitSpark = selected?.split?.[0]
+    ? selected.split[0].series
+        .filter((row) => row.perCapitaRs != null && row.price === "2011-12")
+        .map((row) => ({ year: row.year, value: row.perCapitaRs as number }))
+    : [];
+  const chartMin = incomeSpark[0]?.year;
+  const chartMax = incomeSpark[incomeSpark.length - 1]?.year;
+  const chartEvents = focusEvents.filter(
+    (event) => chartMin != null && chartMax != null && event.year >= chartMin && event.year <= chartMax,
+  );
+  const earlierEvents = focusEvents.filter(
+    (event) => chartMin == null || event.year < chartMin || event.year > chartMax,
+  );
+  const chartMarks = chartEvents.map((event) => ({
+    year: event.year,
+    label: event.name,
+    summary: event.summary,
+    scale: event.scale,
+    color: event.scale === "union" ? "#6b8cce" : event.scale === "state" ? "#c9a227" : "#7eb8a0",
+  }));
 
   return (
     <>
@@ -333,11 +419,24 @@ export function StatesMap() {
         <div className="map-tools">
           <div className="map-tools-row">
             <div className="map-filters">
-              <button type="button" className={metric === "survival" ? "on" : ""} onClick={() => setMetric("survival")}>
-                Survival
+              <button type="button" className={!selected ? "on" : ""} onClick={showCountry}>
+                India
               </button>
-              <button type="button" className={metric === "income" ? "on" : ""} onClick={() => setMetric("income")}>
+              <button
+                type="button"
+                className={metric === "income" ? "on" : ""}
+                title="Per-capita NSDP"
+                onClick={() => setMetric("income")}
+              >
                 Income
+              </button>
+              <button
+                type="button"
+                className={metric === "survival" ? "on" : ""}
+                title="Infant mortality"
+                onClick={() => setMetric("survival")}
+              >
+                Survival
               </button>
               {ERAS.map((item) => (
                 <button
@@ -370,7 +469,7 @@ export function StatesMap() {
             </div>
           </div>
         </div>
-        <div className="map-shell" id="map" data-atlas="states">
+        <div className={selected ? "map-shell state-shell-open" : "map-shell"} id="map" data-atlas="states">
           <div className="map-canvas">
             <div
               ref={rootRef}
@@ -378,51 +477,72 @@ export function StatesMap() {
               style={{ position: "absolute", inset: 0, width: "100%", height: "100%" }}
             />
             {mapError ? <p className="map-error">{mapError}</p> : null}
+            {focus && !selected ? (
+              <div className="map-tip state-hover">
+                <strong>{focus.name}</strong>
+                <span>
+                  {year}
+                  {income != null ? ` · ${formatRupees(income)}` : ""}
+                  {imr != null ? ` · IMR ${imr}` : ""}
+                </span>
+                <Sparkline
+                  points={metric === "income" ? incomeSpark : spark}
+                  color={metric === "income" ? "#e6d3a4" : "#e6c3b0"}
+                  width={148}
+                  height={46}
+                  label={metric === "income" ? "Per-capita NSDP" : "Infant mortality"}
+                />
+              </div>
+            ) : null}
           </div>
-          {focus && !selected ? (
-            <div className="map-tip state-hover">
-              <strong>{focus.name}</strong>
-              <span>
-                {imr != null ? `IMR ${imr}` : "no IMR"}
-                {income != null ? ` · ${formatRupees(income)}` : ""}
-              </span>
-              <Sparkline points={spark} color="#e6c3b0" width={120} height={28} label="Infant mortality" />
-            </div>
-          ) : null}
           {selected ? (
-            <article className="map-card" data-locked="true">
-              <div className="map-strip-head">
+            <article className="state-panel">
+              <div className="state-panel-head">
                 <div>
                   <p className="map-kicker">{selected.region.replace("-", " ")}</p>
                   <h2>{selected.name}</h2>
                 </div>
-                <button type="button" className="card-close" onClick={() => setSelected(null)}>
-                  Close
+                <button type="button" className="card-close" onClick={showCountry}>
+                  India
                 </button>
               </div>
               <div className="card-meta">
                 {selected.formed ? <span>formed {selected.formed}</span> : null}
-                {imr != null ? <span data-scale="state">IMR {formatImr(imr)}</span> : null}
-                {income != null ? <span data-scale="union">{formatRupees(income)} / head</span> : null}
+                {income != null ? (
+                  <span data-scale="union">
+                    {formatRupees(income)} / head · {year}
+                    {price === "2011-12" ? " · 2011–12 prices" : ""}
+                  </span>
+                ) : null}
+                {imr != null ? <span data-scale="state">IMR {formatImr(imr)} · {year}</span> : null}
               </div>
-              <div className="state-sparks">
-                <div>
-                  <p className="spark-label">Infant mortality</p>
-                  <Sparkline points={spark} color="#e6c3b0" label="Infant mortality sparkline" />
-                </div>
-                <div>
-                  <p className="spark-label">
-                    {price === "2011-12" ? `NSDP / head · ${year} · 2011–12 prices` : `NSDP / head · ${year}`}
-                  </p>
-                  {incomeSpark.length > 1 ? (
-                    <Sparkline points={incomeSpark} color="#e6d3a4" label="Per-capita NSDP sparkline" />
-                  ) : income != null ? (
-                    <p className="spark-figure">{formatRupees(income)}</p>
-                  ) : (
-                    <p className="spark-figure">—</p>
-                  )}
-                </div>
-              </div>
+              {incomeSpark.length > 0 ? (
+                <SeriesChart
+                  points={incomeSpark}
+                  compare={splitSpark.length > 1 ? splitSpark : ALL_INDIA_NNI}
+                  compareLabel={splitSpark.length > 1 ? selected.split?.[0]?.label ?? "Telangana" : "all-India NNI"}
+                  marks={chartMarks}
+                  highlightYear={year}
+                  color="#e6d3a4"
+                  yFormat={formatAxisRupees}
+                  readoutFormat={formatRupees}
+                  yLabel="NSDP / head · 2011–12 prices"
+                  height={compactUi ? 118 : 176}
+                />
+              ) : (
+                <p className="spark-figure">{income != null ? formatRupees(income) : "No constant-price series"}</p>
+              )}
+              {spark.length > 0 ? (
+                <SeriesChart
+                  points={spark}
+                  highlightYear={year}
+                  color="#e6c3b0"
+                  yFormat={(value) => `${Math.round(value)}`}
+                  readoutFormat={(value) => `${Math.round(value)} / 1,000`}
+                  yLabel="Infant deaths / 1,000 live births"
+                  height={compactUi ? 100 : 132}
+                />
+              ) : null}
               {selected.politics.length > 0 ? (
                 <div className="party-strip" aria-label="Chief ministers">
                   {selected.politics.map((spell) => {
@@ -441,21 +561,13 @@ export function StatesMap() {
               {cm ? (
                 <p className="card-years">
                   {cm.cm} · {cm.party}
-                  {politicsYear ? ` · around ${politicsYear}` : ""}
+                  {politicsYear ? ` · ${politicsYear}` : ""}
                 </p>
               ) : null}
               {selected.note ? <p className="map-card-summary">{selected.note}</p> : null}
-              {selected.split?.[0] ? (
-                <p className="map-card-summary">
-                  {selected.split[0].label} from {selected.split[0].from}
-                  {selected.split[0].series[0]?.perCapitaRs
-                    ? ` · ${formatRupees(selected.split[0].series[0].perCapitaRs)} / head`
-                    : ""}
-                </p>
-              ) : null}
-              {focusEvents.length > 0 ? (
+              {earlierEvents.length > 0 ? (
                 <ul className="map-card-sources">
-                  {focusEvents.slice(0, 5).map((event) => (
+                  {earlierEvents.map((event) => (
                     <li key={event.id} className="map-card-source">
                       {event.year} · {event.name}
                     </li>

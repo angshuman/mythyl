@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   AttributionControl,
   Map as MapLibreMap,
@@ -24,6 +24,7 @@ import {
   SCALE_SIZE,
   YEAR_MAX,
   YEAR_MIN,
+  commissionsOf,
   formatYears,
   inEra,
   kindColor,
@@ -38,6 +39,68 @@ import { workGlyphSvg } from "./workGlyph";
 import { WorksTimeline } from "./WorksTimeline";
 
 const SCALES: WorkScale[] = ["landmark", "trunk", "civic"];
+const GLYPH_ZOOM = 5.4;
+
+function prefersQuietMotion(): boolean {
+  return window.matchMedia("(max-width: 800px), (prefers-reduced-motion: reduce)").matches;
+}
+
+function corridorSpan(project: WorkProject): "national" | "local" {
+  if (!project.path || project.path.length < 2) return "local";
+  if (project.kind === "metro" || project.kind === "bridge") return "local";
+  if (project.scale === "landmark") return "national";
+  let minLon = 180;
+  let maxLon = -180;
+  let minLat = 90;
+  let maxLat = -90;
+  for (const point of project.path) {
+    if (point.longitude < minLon) minLon = point.longitude;
+    if (point.longitude > maxLon) maxLon = point.longitude;
+    if (point.latitude < minLat) minLat = point.latitude;
+    if (point.latitude > maxLat) maxLat = point.latitude;
+  }
+  return maxLon - minLon > 3.5 || maxLat - minLat > 3.5 ? "national" : "local";
+}
+
+function spreadProjects(projects: WorkProject[], spread: boolean): Map<string, [number, number]> {
+  const out = new Map<string, [number, number]>();
+  if (!spread) {
+    for (const project of projects) {
+      out.set(project.id, [project.place.longitude, project.place.latitude]);
+    }
+    return out;
+  }
+  const cell = 0.4;
+  const groups = new Map<string, WorkProject[]>();
+  for (const project of projects) {
+    const key = `${Math.round(project.place.longitude / cell)}:${Math.round(project.place.latitude / cell)}`;
+    const list = groups.get(key);
+    if (list) list.push(project);
+    else groups.set(key, [project]);
+  }
+  for (const group of groups.values()) {
+    if (group.length === 1) {
+      const project = group[0];
+      out.set(project.id, [project.place.longitude, project.place.latitude]);
+      continue;
+    }
+    const cx = group.reduce((sum, project) => sum + project.place.longitude, 0) / group.length;
+    const cy = group.reduce((sum, project) => sum + project.place.latitude, 0) / group.length;
+    group.forEach((project, index) => {
+      const angle = (index / group.length) * Math.PI * 2 - Math.PI / 2;
+      const radius = 0.16 + Math.floor(index / 7) * 0.11;
+      out.set(project.id, [cx + Math.cos(angle) * radius, cy + Math.sin(angle) * radius]);
+    });
+  }
+  return out;
+}
+
+function fitCountry(map: MapLibreMap) {
+  map.fitBounds(INDIA_BOUNDS, {
+    padding: INDIA_FIT_PADDING,
+    duration: prefersQuietMotion() ? 0 : 650,
+  });
+}
 
 function corridorsGeo(projects: WorkProject[]) {
   return {
@@ -46,7 +109,12 @@ function corridorsGeo(projects: WorkProject[]) {
       .filter((project) => project.path && project.path.length > 1)
       .map((project) => ({
         type: "Feature" as const,
-        properties: { id: project.id, kind: project.kind, color: kindColor(project.kind) },
+        properties: {
+          id: project.id,
+          kind: project.kind,
+          color: kindColor(project.kind),
+          span: corridorSpan(project),
+        },
         geometry: {
           type: "LineString" as const,
           coordinates: project.path!.map((p) => [p.longitude, p.latitude]),
@@ -59,7 +127,7 @@ export function WorksMap() {
   const rootRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
   const markersRef = useRef<Marker[]>([]);
-  const dashRef = useRef(0);
+  const farRef = useRef(true);
   const [era, setEra] = useState<WorkEra>(ERAS[0]);
   const [enabledScales, setEnabledScales] = useState<Record<WorkScale, boolean>>({
     landmark: true,
@@ -70,9 +138,14 @@ export function WorksMap() {
     Object.fromEntries(KINDS.map((kind) => [kind.id, true])) as Record<WorkKind, boolean>,
   );
   const [selected, setSelected] = useState<WorkProject | null>(null);
+  const selectedRef = useRef<WorkProject | null>(null);
+  selectedRef.current = selected;
   const [hovered, setHovered] = useState<WorkProject | null>(null);
   const [yearsSelected, setYearsSelected] = useState<WorkProject | null>(null);
   const [mapError, setMapError] = useState<string | null>(null);
+  const hoveredRef = useRef<WorkProject | null>(null);
+  hoveredRef.current = hovered;
+  const visibleRef = useRef<WorkProject[]>([]);
 
   const kindsAllOn = KINDS.every((kind) => enabledKinds[kind.id]);
 
@@ -113,30 +186,32 @@ export function WorksMap() {
             source: "india",
             paint: {
               "line-color": "#8fa0b8",
-              "line-width": ["interpolate", ["linear"], ["zoom"], 4, 0.4, 7, 1.1],
-              "line-opacity": 0.45,
-            },
-          },
-          {
-            id: "corridor-glow",
-            type: "line",
-            source: "corridors",
-            paint: {
-              "line-color": "#c9a227",
-              "line-width": 6.5,
-              "line-opacity": 0.16,
-              "line-blur": 1.4,
+              "line-width": ["interpolate", ["linear"], ["zoom"], 4, 0.35, 7, 0.9],
+              "line-opacity": 0.28,
             },
           },
           {
             id: "corridor-line",
             type: "line",
             source: "corridors",
+            filter: ["==", ["get", "span"], "national"],
             paint: {
-              "line-color": "#e3c37a",
-              "line-width": ["interpolate", ["linear"], ["zoom"], 4, 1.4, 7, 2.6],
-              "line-dasharray": [0, 2, 2],
-              "line-opacity": 0.92,
+              "line-color": "#c4b48a",
+              "line-width": ["interpolate", ["linear"], ["zoom"], 4, 0.9, 7, 1.7],
+              "line-opacity": 0.38,
+              "line-dasharray": [2.2, 1.8],
+            },
+          },
+          {
+            id: "corridor-local",
+            type: "line",
+            source: "corridors",
+            minzoom: GLYPH_ZOOM,
+            paint: {
+              "line-color": "#d4c39a",
+              "line-width": ["interpolate", ["linear"], ["zoom"], 5.4, 1.2, 8, 2.2],
+              "line-opacity": 0.62,
+              "line-dasharray": [1.5, 1.4],
             },
           },
           {
@@ -182,17 +257,11 @@ export function WorksMap() {
       map.resize();
       map.fitBounds(INDIA_BOUNDS, { padding: INDIA_FIT_PADDING, duration: 0 });
     });
-
-    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    let frame = 0;
-    const tick = () => {
-      if (!mapRef.current?.getLayer("corridor-line") || reduce) return;
-      dashRef.current = (dashRef.current + 0.08) % 4;
-      const offset = dashRef.current;
-      map.setPaintProperty("corridor-line", "line-dasharray", [offset, 1.6, 1.6]);
-      frame = requestAnimationFrame(tick);
-    };
-    if (!reduce) frame = requestAnimationFrame(tick);
+    map.on("click", () => {
+      if (!selectedRef.current) return;
+      setSelected(null);
+      fitCountry(map);
+    });
 
     const resize = () => map.resize();
     window.addEventListener("resize", resize);
@@ -201,12 +270,36 @@ export function WorksMap() {
     requestAnimationFrame(resize);
     mapRef.current = map;
     return () => {
-      cancelAnimationFrame(frame);
       observer.disconnect();
       window.removeEventListener("resize", resize);
       map.remove();
       mapRef.current = null;
     };
+  }, []);
+
+  const paintMarks = useCallback(() => {
+    const map = mapRef.current;
+    if (!map) return;
+    const far = map.getZoom() < GLYPH_ZOOM;
+    farRef.current = far;
+    const hotId = selectedRef.current?.id ?? hoveredRef.current?.id ?? null;
+    const positions = spreadProjects(visibleRef.current, far);
+    for (const marker of markersRef.current) {
+      const el = marker.getElement();
+      const id = el.dataset.id ?? "";
+      const pos = positions.get(id);
+      if (pos) marker.setLngLat(pos);
+      const hot = id === hotId;
+      const scale = el.dataset.scale === "landmark" ? 4 : el.dataset.scale === "civic" ? 2 : 3;
+      el.style.zIndex = String(hot ? 24 : scale);
+      el.classList.toggle("work-mark-dot", far && !hot);
+      el.classList.toggle("work-mark-hot", hot);
+      const svg = el.querySelector("svg");
+      if (svg instanceof SVGElement) {
+        svg.style.display = far && !hot ? "none" : "block";
+        svg.style.opacity = far && !hot ? "0" : "1";
+      }
+    }
   }, []);
 
   useEffect(() => {
@@ -219,12 +312,14 @@ export function WorksMap() {
   useEffect(() => {
     const map = mapRef.current;
     if (!map) return;
+    visibleRef.current = visible;
     for (const marker of markersRef.current) marker.remove();
     markersRef.current = [];
     visible.forEach((project, index) => {
       const el = document.createElement("button");
       el.type = "button";
       el.className = "work-mark";
+      el.dataset.id = project.id;
       el.dataset.kind = project.kind;
       el.dataset.scale = project.scale;
       el.dataset.status = project.status;
@@ -232,16 +327,32 @@ export function WorksMap() {
       el.style.setProperty("--pop-delay", `${Math.min(index * 0.018, 1.2)}s`);
       el.innerHTML = workGlyphSvg(project.kind, "#f4ead4", SCALE_SIZE[project.scale]);
       el.title = `${project.name} · ${formatYears(project)}`;
-      el.addEventListener("mouseenter", () => setHovered(project));
-      el.addEventListener("mouseleave", () => setHovered((current) => (current?.id === project.id ? null : current)));
+      el.addEventListener("mouseenter", () => {
+        hoveredRef.current = project;
+        setHovered(project);
+        paintMarks();
+      });
+      el.addEventListener("mouseleave", () => {
+        if (hoveredRef.current?.id === project.id) hoveredRef.current = null;
+        setHovered((current) => (current?.id === project.id ? null : current));
+        paintMarks();
+      });
       el.addEventListener("click", (click) => {
         click.stopPropagation();
+        if (selectedRef.current?.id === project.id) {
+          setSelected(null);
+          fitCountry(map);
+          return;
+        }
         setSelected(project);
+        const quiet = prefersQuietMotion();
         map.easeTo({
           center: [project.place.longitude, project.place.latitude],
-          zoom: Math.max(map.getZoom(), project.path ? 4.8 : 5.8),
-          duration: 700,
-          padding: { top: 28, bottom: 140, left: 28, right: 28 },
+          zoom: Math.max(map.getZoom(), project.path && corridorSpan(project) === "national" ? 4.9 : 5.8),
+          duration: quiet ? 0 : 700,
+          padding: quiet
+            ? { top: 16, bottom: 200, left: 16, right: 16 }
+            : { top: 28, bottom: 140, left: 28, right: 28 },
         });
       });
       const marker = new Marker({ element: el, anchor: "center" })
@@ -249,7 +360,30 @@ export function WorksMap() {
         .addTo(map);
       markersRef.current.push(marker);
     });
-  }, [visible]);
+    paintMarks();
+    map.on("zoom", paintMarks);
+    return () => {
+      map.off("zoom", paintMarks);
+    };
+  }, [visible, paintMarks]);
+
+  useEffect(() => {
+    paintMarks();
+  }, [selected, hovered, paintMarks]);
+
+  const showCountry = useCallback(() => {
+    setSelected(null);
+    const map = mapRef.current;
+    if (map) fitCountry(map);
+  }, []);
+
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key === "Escape") showCountry();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [showCountry]);
 
   function isolateKind(id: WorkKind) {
     const onlyThis = KINDS.every((kind) => enabledKinds[kind.id] === (kind.id === id));
@@ -275,21 +409,10 @@ export function WorksMap() {
         </header>
         <div className="map-tools">
           <div className="map-tools-row">
-            <div className="map-key">
-              <span className="map-key-item">
-                <i className="map-key-ring" data-scale="landmark" />
-                landmark
-              </span>
-              <span className="map-key-item">
-                <i className="map-key-ring" data-scale="trunk" />
-                trunk
-              </span>
-              <span className="map-key-item">
-                <i className="map-key-ring" data-scale="civic" />
-                civic
-              </span>
-            </div>
             <div className="map-filters">
+              <button type="button" className={!selected ? "on" : ""} onClick={showCountry}>
+                India
+              </button>
               {ERAS.map((item) => (
                 <button
                   key={item.id}
@@ -309,13 +432,14 @@ export function WorksMap() {
                   data-scale={scale}
                   onClick={() => setEnabledScales((current) => ({ ...current, [scale]: !current[scale] }))}
                 >
+                  <i className="map-key-ring" data-scale={scale} />
                   {SCALE_LABEL[scale]}
                 </button>
               ))}
             </div>
           </div>
           <div className="map-tools-row">
-            <div className="map-filters map-legend">
+            <div className={kindsAllOn ? "map-filters map-legend work-legend-all" : "map-filters map-legend"}>
               <button
                 type="button"
                 className={kindsAllOn ? "on" : ""}
@@ -329,7 +453,7 @@ export function WorksMap() {
                 <button
                   key={item.id}
                   type="button"
-                  className={enabledKinds[item.id] ? "on" : ""}
+                  className={!kindsAllOn && enabledKinds[item.id] ? "on" : ""}
                   onClick={() => isolateKind(item.id)}
                 >
                   <i className="swatch" style={{ background: item.color }} />
@@ -362,8 +486,8 @@ export function WorksMap() {
                   </p>
                   <h2>{selected.name}</h2>
                 </div>
-                <button type="button" className="card-close" onClick={() => setSelected(null)}>
-                  Close
+                <button type="button" className="card-close" onClick={showCountry}>
+                  India
                 </button>
               </div>
               <div className="card-meta">
@@ -373,6 +497,16 @@ export function WorksMap() {
                 <span>{selected.place.label}</span>
               </div>
               <p className="map-card-summary">{selected.summary}</p>
+              {commissionsOf(selected).length > 0 ? (
+                <ol className="work-opens">
+                  {commissionsOf(selected).map((commission) => (
+                    <li key={`${commission.year}-${commission.name}`}>
+                      <span>{commission.year}</span>
+                      <span>{commission.name}</span>
+                    </li>
+                  ))}
+                </ol>
+              ) : null}
               {selected.displacement ? (
                 <p className="map-card-summary">{selected.displacement.note}</p>
               ) : null}

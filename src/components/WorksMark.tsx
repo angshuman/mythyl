@@ -19,6 +19,7 @@ const SHOW = new Set([
   "chenab-bridge",
   "bhadla-solar",
   "igi-t3",
+  "bogibeel",
 ]);
 
 export async function WorksMark() {

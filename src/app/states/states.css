@@ -9,12 +9,52 @@
   background: #0b100f;
 }
 
+.map-page[data-atlas="states"] .map-tools-row {
+  flex-wrap: wrap;
+  overflow: visible;
+}
+
+.map-page[data-atlas="states"] .map-tools .map-filters {
+  flex-wrap: wrap;
+}
+
+.map-page[data-atlas="states"] .map-tools .map-filters button {
+  padding: 0.36rem 0.72rem;
+  font-size: 0.76rem;
+  letter-spacing: 0.05em;
+  min-height: 2rem;
+}
+
+.map-page[data-atlas="states"] .state-panel .card-close {
+  margin-top: 0;
+  padding: 0.4rem 0.85rem;
+  font-size: 0.74rem;
+}
+
 .states-map,
 .states-map.maplibregl-map {
   position: absolute !important;
   inset: 0 !important;
   width: 100% !important;
   height: 100% !important;
+}
+
+.map-page[data-atlas="states"] .map-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.map-page[data-atlas="states"] .map-shell.state-shell-open {
+  grid-template-columns: minmax(0, 1fr) min(30rem, 44%);
+}
+
+.map-page[data-atlas="states"] .map-shell .map-canvas {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
 }
 
 .map-shell[data-atlas="states"] .maplibregl-ctrl-bottom-left {
@@ -64,14 +104,6 @@
   font-size: 0.68rem;
 }
 
-.state-sparks {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 0.6rem 1rem;
-  align-items: end;
-  margin: 0.35rem 0 0.2rem;
-}
-
 .spark-label {
   margin: 0;
   font-size: 0.52rem;
@@ -88,6 +120,167 @@
 
 .spark {
   display: block;
+}
+
+.spark-year {
+  fill: rgba(231, 220, 200, 0.58);
+  font-size: 8px;
+  letter-spacing: 0.04em;
+}
+
+.state-panel {
+  display: none;
+  flex-direction: column;
+  gap: 0.28rem;
+  min-width: 0;
+  height: 100%;
+  overflow: auto;
+  padding: 0.65rem 0.85rem 0.8rem;
+  border-left: 1px solid var(--rule);
+  background: rgba(9, 13, 12, 0.97);
+  z-index: 4;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(231, 220, 200, 0.34) #0b100f;
+}
+
+.state-shell-open .state-panel {
+  display: flex;
+}
+
+.map-page[data-atlas="states"] .state-shell-open .maplibregl-ctrl-bottom-right {
+  display: none;
+}
+
+.state-panel-head {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.6rem 0.8rem;
+  align-items: start;
+}
+
+.state-panel h2 {
+  margin: 0;
+  font-family: var(--font-serif), ui-serif, Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+.state-chart {
+  margin: 0.15rem 0 0.1rem;
+}
+
+.state-chart-label {
+  margin: 0 0 0.15rem;
+  font-size: 0.52rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--paper-dim);
+}
+
+.state-chart-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.state-chart-tick {
+  fill: rgba(231, 220, 200, 0.55);
+  font-size: 9px;
+}
+
+.state-chart-readout {
+  margin: 0.12rem 0 0;
+  min-height: 1.15rem;
+  font-size: 0.72rem;
+  color: var(--paper-dim);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.state-chart-readout b {
+  color: var(--paper);
+  font-weight: 500;
+  margin-right: 0.35rem;
+}
+
+.state-chart-note {
+  margin: 0;
+  font-size: 0.72rem;
+  color: var(--paper);
+}
+
+.state-chart-note span {
+  color: var(--paper-dim);
+}
+
+.state-chart-summary {
+  margin: 0.12rem 0 0;
+  font-size: 0.68rem;
+  color: var(--paper-dim);
+  line-height: 1.4;
+}
+
+.state-chart-detail {
+  height: 4.15rem;
+  overflow: auto;
+  margin: 0.16rem 0 0.2rem;
+  scrollbar-width: thin;
+}
+
+.state-chart-hit {
+  cursor: pointer;
+}
+
+.state-chart-events {
+  list-style: none;
+  margin: 0.28rem 0 0.1rem;
+  padding: 0;
+  display: grid;
+  gap: 0.12rem;
+}
+
+.state-chart-event {
+  display: grid;
+  grid-template-columns: 0.55rem minmax(0, 1fr);
+  column-gap: 0.5rem;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0.22rem 0.28rem;
+  border: 0;
+  border-radius: 3px;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+}
+
+.state-chart-event:hover,
+.state-chart-event-on {
+  background: rgba(231, 220, 200, 0.1);
+}
+
+.state-chart-swatch {
+  width: 7px;
+  height: 7px;
+  transform: rotate(45deg);
+}
+
+.state-chart-event span {
+  font-size: 0.72rem;
+  color: var(--paper);
+  line-height: 1.35;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.state-chart-event span b {
+  font-weight: 500;
+  margin-right: 0.3rem;
 }
 
 .party-strip {
@@ -166,7 +359,64 @@
 }
 
 @media (max-width: 800px) {
-  .state-sparks {
-    grid-template-columns: 1fr;
+  .map-page[data-atlas="states"] .map-tools {
+    padding: 0.22rem 0.75rem 0.4rem;
+    gap: 0.28rem;
+  }
+
+  .map-page[data-atlas="states"] .map-tools .map-filters button {
+    padding: 0.48rem 0.82rem;
+    font-size: 0.8rem;
+    min-height: 2.4rem;
+  }
+
+  .map-page[data-atlas="states"] .map-shell.state-shell-open {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr);
+  }
+
+  .map-page[data-atlas="states"] .map-shell.state-shell-open .map-canvas {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .map-page[data-atlas="states"] .map-shell.state-shell-open .state-panel {
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: stretch;
+    align-self: end;
+    height: auto;
+    max-height: min(46svh, 24rem);
+    border-left: 0;
+    border-top: 1px solid var(--rule);
+    z-index: 6;
+  }
+
+  .state-panel-head {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: rgba(9, 13, 12, 0.97);
+    padding-bottom: 0.2rem;
+  }
+
+  .map-page[data-atlas="states"] .state-panel .card-close {
+    padding: 0.5rem 0.95rem;
+    font-size: 0.8rem;
+  }
+
+  .state-event {
+    width: 12px;
+    height: 12px;
+  }
+
+  .state-event[data-scale="union"] {
+    width: 13px;
+    height: 13px;
+  }
+
+  .state-event[data-scale="local"] {
+    width: 10px;
+    height: 10px;
   }
 }
